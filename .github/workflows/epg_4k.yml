@@ -1,0 +1,29 @@
+name: Build EPG 4K
+on:
+  workflow_dispatch: # 手动触发
+  schedule:
+    - cron: '0 6 * * *' # 每天北京时间14点（UTC6点）自动跑
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install PHP & extensions
+        run: |
+          sudo apt update
+          sudo apt install -y php-cli php-xml php-mbstring php-zip
+
+      - name: Run EPG PHP script
+        run: php epg_4k.php
+
+      - name: Upload output artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: epg-4k-result
+          path: |
+            epg/epg_4k.xml
+            epg/epg_4k.xml.gz
+            logs/*.log
