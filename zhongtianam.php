@@ -65,7 +65,7 @@ foreach ($programs as $prog) {
 }
 
 $xml_content = $xml->asXML();
-$outFile = __DIR__ . '/epg_zhongtianam.xml';
+$outFile = __DIR__ . '/epg/epg_zhongtianam.xml';
 file_put_contents($outFile, $xml_content);
 echo "✅ EPG 生成完成：{$outFile}\n";
 ?>
