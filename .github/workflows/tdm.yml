@@ -1,0 +1,40 @@
+name: TDM澳门EPG自动采集
+run-name: TDM EPG Run @ ${{ github.sha }}
+
+on:
+  # 定时：UTC 16:10 = 北京时间 00:10
+  schedule:
+    - cron: '10 16 * * *'
+  # 支持网页手动点 Run workflow
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: 运行采集脚本
+        run: python tdm.py
+
+      - name: 提交更新 epg/tdm.xml
+        run: |
+          git config --global user.name "EPG Bot"
+          git config --global user.email "bot@example.com"
+          git add epg/tdm.xml
+          git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Auto update TDM EPG $(date +'%Y-%m-%d %H:%M')"
+          git push
