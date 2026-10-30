@@ -29,14 +29,13 @@ $sourceList = [
     ]
 ];
 
-// 1. 路径配置（GitHub Actions 使用相对路径，仓库根目录输出）
+// 1. 路径配置（GitHub Actions 使用相对路径，仓库根目录epg文件夹）
 $basePath = rtrim(__DIR__, DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR;
 $outputDir = $basePath . 'epg/';
 $logDir = $basePath . 'logs/';
 
-// 输出文件配置
-$outputXmlGzFile = $outputDir . 'epg_4k.xml.gz';
-$outputXmlRawFile = $outputDir . 'epg_4k.xml'; // GitHub版本默认开启原始xml输出
+// 输出文件配置：只输出xml，不再输出gz
+$outputXmlFile = $outputDir . 'epg_4k.xml';
 
 // 日志配置：按天自动生成
 $logFilePrefix = 'epg_4k_';
@@ -52,7 +51,6 @@ $excludeChannelPatterns = [];
 // 3. 网络&运行配置
 $timeout = 30;
 $httpRetry = 3; // 下载重试次数
-$gzipCompressLevel = 6; // 压缩等级 1最快-9最小，6均衡
 $maxDownloadSize = 200 * 1024 * 1024; // 单文件最大下载大小，防止异常占盘
 $downloadBufferSize = 8192; // 下载缓冲区大小
 
@@ -241,17 +239,6 @@ function copyAllXmlNodes(SimpleXMLElement $source, SimpleXMLElement $dest): void
 }
 
 /**
- * 将文本直接保存为 gz 压缩文件
- */
-function saveStringToGz(string $content, string $gzPath, int $level = 6): int|false {
-    $gzFp = gzopen($gzPath, 'wb' . $level);
-    if (!$gzFp) return false;
-    $writeLen = gzwrite($gzFp, $content);
-    gzclose($gzFp);
-    return $writeLen;
-}
-
-/**
  * 解析EPG标准时间 YYYYMMDDHHMMSS 转时间戳
  */
 function parseEpgTime(string $t): ?int {
@@ -423,29 +410,20 @@ if ($checkXml === false) {
     exit(1);
 }
 
-$writeGzSize = saveStringToGz($finalXml, $outputXmlGzFile, $gzipCompressLevel);
-if ($writeGzSize === false) {
-    writeLog("写入压缩EPG文件失败：$outputXmlGzFile", 'FATAL');
+// 直接写入xml文件，不再生成gz
+$writeSize = file_put_contents($outputXmlFile, $finalXml, LOCK_EX);
+if ($writeSize === false) {
+    writeLog("写入XML文件失败：$outputXmlFile", 'FATAL');
     exit(1);
-}
-
-// 原始xml输出
-if (isset($outputXmlRawFile) && !empty($outputXmlRawFile)) {
-    $writeRawSize = file_put_contents($outputXmlRawFile, $finalXml, LOCK_EX);
-    if ($writeRawSize === false) {
-        writeLog("写入原始XML文件失败", 'WARN');
-    } else {
-        writeLog("原始XML保存成功，大小：$writeRawSize 字节");
-    }
 }
 
 // 统计收尾
 $endTime = microtime(true);
 $costTime = round($endTime - $startTime, 3);
 $peakMemory = round(memory_get_peak_usage(true) / 1024 / 1024, 2);
-$outputSize = file_exists($outputXmlGzFile) ? filesize($outputXmlGzFile) : 0;
+$outputSize = file_exists($outputXmlFile) ? filesize($outputXmlFile) : 0;
 
-writeLog("任务执行成功！压缩EPG文件：$outputXmlGzFile");
+writeLog("任务执行成功！EPG文件：$outputXmlFile");
 writeLog("统计：匹配频道=$matchChannelTotal | 节目条数=$programTotal | 重叠丢弃=$skipOverlapCount");
 writeLog("输出文件大小：{$outputSize} 字节 | 执行耗时：{$costTime} 秒 | 内存峰值：{$peakMemory} MB");
 writeLog('====== 脚本正常结束 ======' . PHP_EOL);
