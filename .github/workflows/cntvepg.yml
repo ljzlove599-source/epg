@@ -8,6 +8,9 @@ on:
 jobs:
   update-epg:
     runs-on: ubuntu-latest
+    # 关键：开启写入权限，解决403
+    permissions:
+      contents: write
     env:
       TZ: Asia/Shanghai  # 设置时区为北京时间
 
@@ -60,9 +63,10 @@ jobs:
           COMMIT_TIME=$(date +'%Y-%m-%d %H:%M (CST)')
           COMMIT_MSG="CNTV EPG自动更新 $COMMIT_TIME"
           git commit -m "$COMMIT_MSG"
-          git pull origin main --rebase  # 拉取远程更新并变基
-          git push origin main  # 推送到远程 main 分支
+          git pull origin main --rebase
+          git push origin main
         else
           echo "::error::文件为空或不存在，跳过提交"
           exit 1
         fi
+
