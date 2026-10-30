@@ -9,17 +9,17 @@ $sourceList = [
     ],
     [
         'name' => '山东有线',
-        'url'  => 'shturl.cc/GNDuAbanubAqxJ2Jzdv0Du7AiqtzkONdwGcnjPQkMq5rQvvH32FzBX2PPOjjqxynzuu73IkcsMsgLUZi',
+        'url'  => 'https://raw.githubusercontent.com/z2392693938/sd-epg/main/sdyx.xml.gz',
         'enabled' => true
     ],
     [
         'name' => 'erw.cc',
-        'url'  => 'shturl.cc/HDkynzn0yP4Tm5Ttez38LEx8NyH7NDwwiNy4ikTVmbxeyNQFCPnjgg7cdYKMJKuMM76cchNoF',
+        'url'  => 'https://raw.githubusercontent.com/kuke31/xmlgz/main/all.xml.gz',
         'enabled' => true
     ],
     [
         'name' => 'catvod',
-        'url'  => 'shturl.cc/ew4fYLb2ZK3Dv6nFsNBuUFL',
+        'url'  => 'https://epg.catvod.com/epg.xml.gz',
         'enabled' => true
     ],
     [
