@@ -4,7 +4,7 @@
  * GitHub Actions 适配版
  * 數據源: https://asia-east1-ctitv-237901.cloudfunctions.net/ProgramList-Api2
  */
-date_default_timezone_set('Asia/Taipei');
+date_default_timezone_set('Asia/Shanghai');
 
 // 設定參數
 $chid = 'a1'; // 北美台
@@ -35,7 +35,7 @@ if (!is_array($programs)) {
 
 function format_epg_date($iso_date) {
     $dt = new DateTime($iso_date);
-    $dt->setTimezone(new DateTimeZone('Asia/Taipei'));
+    $dt->setTimezone(new DateTimeZone('Asia/Shanghai'));
     return $dt->format('YmdHis') . ' +0800';
 }
 
