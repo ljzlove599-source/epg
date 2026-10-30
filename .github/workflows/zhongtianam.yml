@@ -1,19 +1,18 @@
 name: 中天EPG自动生成
 on:
-  # 手动触发（网页点 Run workflow）
   workflow_dispatch:
-  # 定时：每天 05:00 UTC = 13:00 台北时间，可自行改
   schedule:
     - cron: '0 5 * * *'
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # 固定版本，不再跟随ubuntu-latest自动迁移
     steps:
       - name: 拉取代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5  # 升级到v5，消除Node20废弃警告
         with:
           fetch-depth: 0
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: 安装 PHP
         uses: shivammathur/setup-php@v2
@@ -23,12 +22,14 @@ jobs:
           coverage: none
 
       - name: 运行PHP脚本生成EPG
-        run: php zhongtianam.php
+        run: php epg-zhongtian.php
 
       - name: 提交更新的xml
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
+          git remote set-url origin https://${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
           git add epg_zhongtianam.xml
           git commit -m "🤖 Auto update epg_zhongtianam.xml" || echo "无变更，跳过提交"
           git push
+
