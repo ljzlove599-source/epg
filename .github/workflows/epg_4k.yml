@@ -19,7 +19,7 @@ jobs:
           sudo apt install -y php-cli php-xml php-mbstring php-zip
 
       - name: Run EPG PHP script
-        run: php epg_merge.php
+        run: php epg_4k.php
 
       - name: Commit & push epg_4k.xml
         run: |
