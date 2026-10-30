@@ -2,7 +2,7 @@ name: Build EPG 4K
 on:
   workflow_dispatch: # 手动触发
   schedule:
-    - cron: '0 6 * * *' # 每天北京时间14点（UTC6点）自动跑
+    - cron: '0 6 * * *' # UTC 6点 = 北京时间14点，可自行修改
 
 jobs:
   build:
@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 拉取完整历史，保证git提交正常
 
       - name: Install PHP & extensions
         run: |
@@ -17,13 +19,22 @@ jobs:
           sudo apt install -y php-cli php-xml php-mbstring php-zip
 
       - name: Run EPG PHP script
-        run: php epg_4k.php
+        run: php epg_merge.php
 
-      - name: Upload output artifacts
+      - name: Commit & push epg_4k.xml
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add epg/epg_4k.xml logs/*.log
+          git commit -m "🤖 auto update epg_4k.xml $(date '+%Y-%m-%d %H:%M:%S')" || echo "✅ 无变更，跳过提交"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload backup artifact（备份，可选）
         uses: actions/upload-artifact@v4
         with:
-          name: epg-4k-result
+          name: epg-backup
           path: |
             epg/epg_4k.xml
-            epg/epg_4k.xml.gz
             logs/*.log
