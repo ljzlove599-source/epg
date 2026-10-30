@@ -28,18 +28,21 @@ jobs:
     - name: Run EPG Generator
       run: |
         echo "开始生成CNTV EPG数据..."
-        if ! python cntvepg.py; then
-          echo "::error::CNTV EPG生成失败！检查cntvepg.py脚本"
-          exit 1
-        fi
+        python -u cntvepg.py
+        echo "===== 当前目录文件 ====="
+        ls -la
+        echo "===== epg子目录文件 ====="
+        ls -la epg/
+        echo "========================="
 
     - name: Debug Files
       run: |
-        if [ -s cntvepg.xml.gz ]; then
+        FILE_PATH="epg/cntv.xml.gz"
+        if [ -s "$FILE_PATH" ]; then
           echo "GZ 文件存在且非空"
-          echo "GZ 文件大小：$(du -h cntvepg.xml.gz | cut -f1)"
+          echo "GZ 文件大小：$(du -h "$FILE_PATH" | cut -f1)"
           echo "文件内容前100字符："
-          gzip -dc cntvepg.xml.gz | head -c 100
+          gzip -dc "$FILE_PATH" | head -c 100
           echo ""
         else
           echo "::error::GZ文件为空或不存在"
@@ -51,8 +54,9 @@ jobs:
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
 
-        if [ -s cntvepg.xml.gz ]; then
-          git add cntvepg.xml.gz
+        FILE_PATH="epg/cntv.xml.gz"
+        if [ -s "$FILE_PATH" ]; then
+          git add "$FILE_PATH"
           COMMIT_TIME=$(date +'%Y-%m-%d %H:%M (CST)')
           COMMIT_MSG="CNTV EPG自动更新 $COMMIT_TIME"
           git commit -m "$COMMIT_MSG"
@@ -61,6 +65,4 @@ jobs:
         else
           echo "::error::文件为空或不存在，跳过提交"
           exit 1
-        fi
-
         fi
