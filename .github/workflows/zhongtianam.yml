@@ -23,7 +23,7 @@ jobs:
           coverage: none
 
       - name: 运行PHP脚本生成EPG
-        run: php epg-zhongtian.php
+        run: php zhongtianam.php
 
       - name: 提交更新的xml
         run: |
