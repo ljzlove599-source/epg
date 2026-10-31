@@ -1,0 +1,56 @@
+name: 每日生成EPG节目单
+
+on:
+  schedule:
+    # 每日北京时间 08:00 自动执行（UTC 00:00）
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 支持手动触发
+    inputs:
+      reason:
+        description: '运行原因'
+        required: false
+        default: '手动触发'
+
+jobs:
+  build-epg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 PHP 环境
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: curl, xml, sqlite3, mbstring, gmp
+          coverage: none
+
+      - name: 验证PHP环境
+        run: |
+          php -v
+          php -m
+
+      - name: 创建必要目录
+        run: mkdir -p logs xml db config epg_sources
+
+      - name: 运行EPG生成脚本
+        run: php epg.php
+
+      - name: 上传生成产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: epg-output
+          path: |
+            xml/*.xml.gz
+            logs/*.log
+          retention-days: 7
+
+      - name: 发布到 gh-pages 分支（可选）
+        if: success()
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./xml
+          publish_branch: gh-pages
+          force_orphan: false
+          keep_files: true
