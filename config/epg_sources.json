@@ -1,6 +1,6 @@
 [
     {
-        "url": "http:\/\/192.168.25.200\/epg\/xml\/cntv.xml.gz",
+        "url": "./epg/cntv.xml.gz",
         "priority": 1,
         "remark": "央视官网源",
         "enabled": true,
