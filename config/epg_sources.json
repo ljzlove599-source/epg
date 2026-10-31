@@ -1,0 +1,674 @@
+[
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/cntv.xml.gz",
+        "priority": 1,
+        "remark": "央视官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [
+                "CCTV中视购物"
+            ],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_cctv.xml",
+        "priority": 1,
+        "remark": "央视频官网源",
+        "enabled": false,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": [
+                "*卫视"
+            ]
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_hebei.xml.gz",
+        "priority": 1,
+        "remark": "河北官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_henan_tv.xml",
+        "priority": 1,
+        "remark": "河南官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": [
+                "*购物"
+            ]
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_iqilu.xml",
+        "priority": 1,
+        "remark": "山东官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_shanxi.xml",
+        "priority": 1,
+        "remark": "山西官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_shaanxi_tv.xml",
+        "priority": 1,
+        "remark": "陕西官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_fujian_tv.xml",
+        "priority": 1,
+        "remark": "福建官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_zhejiang.xml.gz",
+        "priority": 1,
+        "remark": "浙江官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_jiangxi.xml",
+        "priority": 1,
+        "remark": "江西官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_guangxi.xml",
+        "priority": 1,
+        "remark": "广西官方源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "https:\/\/192.168.25.200\/epg\/xml\/epg_yunnan.xml",
+        "priority": 1,
+        "remark": "云南官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_hainan_tv.xml",
+        "priority": 1,
+        "remark": "海南官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_xinjiang.xml",
+        "priority": 1,
+        "remark": "新疆官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_chongqing.xml.gz",
+        "priority": 1,
+        "remark": "重庆源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_shanghai.xml",
+        "priority": 1,
+        "remark": "上海官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_aomen.xml",
+        "priority": 1,
+        "remark": "澳门官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/\/epg\/xml\/epg_guangdong.xml.gz",
+        "priority": 1,
+        "remark": "litiande03 广东电信源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [
+                "CGTN",
+                "(中國環球電視網)記錄頻道",
+                "CGTN",
+                "(中國環球電視網)英語頻道",
+                "深圳衛視國際頻道"
+            ],
+            "excludeChannelPatterns": [
+                "CCTV*",
+                "CGTN*",
+                "CETV*",
+                "*购物",
+                "*购物*",
+                "聚鲨*",
+                "*卫视"
+            ]
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_sichuan.xml.gz",
+        "priority": 1,
+        "remark": "四川电视源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_mianyang.xml",
+        "priority": 1,
+        "remark": "四川绵阳源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_suzhou_tv.xml",
+        "priority": 1,
+        "remark": "苏州官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_sz4k.xml",
+        "priority": 1,
+        "remark": "苏州4K源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "https:\/\/gh-proxy.org\/https:\/\/raw.githubusercontent.com\/magihub\/EPG\/main\/epg.xml.gz",
+        "priority": 1,
+        "remark": "南通如东镇江源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": [
+                "苏州*"
+            ]
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_asia.xml",
+        "priority": 1,
+        "remark": "亚洲卫视官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_datong_tv.xml",
+        "priority": 1,
+        "remark": "山西大同官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "https:\/\/gh-proxy.org\/https:\/\/raw.githubusercontent.com\/zzzz0317\/beijing-unicom-iptv-playlist\/main\/epg.xml.gz",
+        "priority": 1,
+        "remark": "北京联通IPTV源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": [
+                "CCTV*",
+                "*卫视",
+                "*购物",
+                "*购物*",
+                "聚鲨*",
+                "家有*",
+                "央广*"
+            ]
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_fenghuang.xml",
+        "priority": 1,
+        "remark": "凤凰官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200:1905\/playback.xml",
+        "priority": 1,
+        "remark": "自用官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": [
+                "*购物"
+            ]
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_4k.xml.gz",
+        "priority": 1,
+        "remark": "4K官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_4gtv.xml.gz",
+        "priority": 1,
+        "remark": "4gtv(四季)官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_rthk.xml.gz",
+        "priority": 1,
+        "remark": "RTHK官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_hami.xml.gz",
+        "priority": 1,
+        "remark": "hami官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_tvb.xml.gz",
+        "priority": 1,
+        "remark": "TVB官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_nowtv.xml.gz",
+        "priority": 1,
+        "remark": "NowTV官网源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "https:\/\/tv.evorit.dpdns.org\/epgphp\/t.xml.gz",
+        "priority": 2,
+        "remark": "mxdyeah",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [
+                "频道总表",
+                "测试频道",
+                "爱看导视"
+            ],
+            "excludeChannelPatterns": [
+                "BTV*",
+                "*购物",
+                "*购物*",
+                "聚鲨*"
+            ]
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_51zmt.xml.gz",
+        "priority": 3,
+        "remark": "老张的EPG",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [
+                "noepg"
+            ],
+            "excludeChannelPatterns": [
+                "CCTV*",
+                "*卫视",
+                "*购物",
+                "*购物*",
+                "聚鲨*"
+            ]
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_gangtai.xml.gz",
+        "priority": 4,
+        "remark": "港台源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [
+                "测试频道",
+                "浙江好易购"
+            ],
+            "excludeChannelPatterns": [
+                "CCTV*",
+                "*飞速看",
+                "*(免费)",
+                "*购物",
+                "*购物*",
+                "聚鲨*"
+            ]
+        }
+    },
+    {
+        "url": "https:\/\/gh-proxy.org\/https:\/\/raw.githubusercontent.com\/kuke31\/xmlgz\/main\/all.xml.gz",
+        "priority": 6,
+        "remark": "erw.cc",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [
+                "noepg",
+                "爱看导视"
+            ],
+            "excludeChannelPatterns": [
+                "CCTV*",
+                "*卫视",
+                "*购物",
+                "*购物*",
+                "聚鲨*"
+            ]
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_migu.xml",
+        "priority": 10,
+        "remark": "咪咕数据源",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [
+                "24小时城市联赛轮播台"
+            ],
+            "excludeChannelPatterns": [
+                "CCTV*",
+                "熊猫*"
+            ]
+        }
+    },
+    {
+        "url": "https:\/\/github.com\/Li-Xingyu\/ZJ_IPTV_EPG\/raw\/main\/epg.xml",
+        "priority": 12,
+        "remark": "Li-Xingyu 浙江移动",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [
+                "热播精选"
+            ],
+            "excludeChannelPatterns": [
+                "CCTV*",
+                "*卫视",
+                "*购物",
+                "*购物*",
+                "聚鲨*"
+            ]
+        }
+    },
+    {
+        "url": "https:\/\/epg.136605.xyz\/9days.xml.gz",
+        "priority": 13,
+        "remark": "136605",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [
+                "赣榆综合",
+                "泗洪综合"
+            ],
+            "excludeChannelPatterns": [
+                "CCTV*",
+                "*卫视",
+                "*购物",
+                "*购物*",
+                "聚鲨*",
+                "睢宁*",
+                "铜山*",
+                "*贾汪*",
+                "*沛县*",
+                "*新沂*",
+                "镇江*"
+            ]
+        }
+    },
+    {
+        "url": "https:\/\/liliu.serv00.net\/epg\/download.php\/cn.xml.gz",
+        "priority": 14,
+        "remark": "liliu",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": [
+                "CCTV*",
+                "*购物",
+                "*购物*",
+                "聚鲨*"
+            ]
+        }
+    },
+    {
+        "url": "https:\/\/gh-proxy.org\/https:\/\/raw.githubusercontent.com\/plsy1\/epg\/main\/e\/seven-days.xml.gz",
+        "priority": 17,
+        "remark": "plsy1",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [
+                "汽摩",
+                "北京纪实科教",
+                "优优宝贝",
+                "环球旅游",
+                "四海钓鱼",
+                "财富天下",
+                "梨园",
+                "武术世界",
+                "文物宝库",
+                "精彩影视",
+                "茶",
+                "快乐垂钓",
+                "求索纪录",
+                "书画",
+                "新动漫",
+                "东方财经",
+                "游戏风云",
+                "法治天地",
+                "乐游",
+                "都市剧场",
+                "生活时尚",
+                "金色学堂",
+                "动漫秀场",
+                "中华特产",
+                "山东体育",
+                "黑龙江卫视",
+                "吉林卫视",
+                "青海卫视",
+                "生态环境",
+                "卡酷少儿",
+                "优漫卡通",
+                "哈哈炫动",
+                "先锋乒羽"
+            ],
+            "excludeChannelPatterns": [
+                "CCTV*",
+                "*卫视",
+                "*购物",
+                "*购物*",
+                "聚鲨*",
+                "CHC*"
+            ]
+        }
+    },
+    {
+        "url": "https:\/\/gh-proxy.org\/https:\/\/raw.githubusercontent.com\/zzq12345\/myepg\/main\/epg112114.xml",
+        "priority": 18,
+        "remark": "112114",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": [
+                "CCTV*",
+                "*卫视",
+                "河*",
+                "NEWTV*",
+                "*购物",
+                "*购物*",
+                "聚鲨*"
+            ]
+        }
+    },
+    {
+        "url": "http:\/\/192.168.25.200\/epg\/xml\/epg_tvmao.xml.gz",
+        "priority": 18,
+        "remark": "电视猫",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    },
+    {
+        "url": "https:\/\/gh-proxy.org\/https:\/\/raw.githubusercontent.com\/sggc\/SD-EPG\/main\/EPG\/sggc-desc.xml.gz",
+        "priority": 19,
+        "remark": "SD-EPG",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [
+                "昌乐综合",
+                "岱岳综合",
+                "定陶综合",
+                "桓台综合",
+                "崂山综合",
+                "临淄TV-1",
+                "惠民综合",
+                "胶州综合",
+                "莱西综合",
+                "齐河综合",
+                "曲阜综合",
+                "沾化综合",
+                "张店综合",
+                "长岛综合",
+                "乳山综合",
+                "商河综合",
+                "泰山综合",
+                "威海新闻",
+                "武城综合",
+                "沂源综合",
+                "枣庄新闻综合"
+            ],
+            "excludeChannelPatterns": [
+                "BTV*",
+                "*购物",
+                "*购物*",
+                "聚鲨*",
+                "黄冈*",
+                "鱼台*",
+                "禹城*",
+                "兰陵*",
+                "任城*",
+                "夏津*",
+                "沂水*",
+                "安徽*",
+                "北京*"
+            ]
+        }
+    },
+    {
+        "url": "https:\/\/xinman939.github.io\/my-epg\/epg.xml.gz",
+        "priority": 19,
+        "remark": "xinman939",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": [
+                "CCTV*",
+                "*卫视",
+                "*购物",
+                "*购物*",
+                "聚鲨*"
+            ]
+        }
+    },
+    {
+        "url": "https:\/\/github.com\/z2392693938\/sd-epg\/raw\/main\/sdyx.xml.gz",
+        "priority": 20,
+        "remark": "z239269393",
+        "enabled": true,
+        "filter": {
+            "excludeChannelNames": [],
+            "excludeChannelPatterns": []
+        }
+    }
+]
