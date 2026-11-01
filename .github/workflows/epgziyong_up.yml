@@ -37,6 +37,15 @@ jobs:
 
       - name: 提交生成结果
         run: |
-          git add -f xml/ db/ logs/ stats.json
-          git commit -m "自动更新 EPG 数据 $(date '+%Y-%m-%d %H:%M')" || echo "无更新内容"
+          # 只添加实际存在的目录/文件，避免路径不存在报错
+          git add -f xml/ db/ logs/ 2>/dev/null || true
+          
+          # 检查是否有变更，无变更则跳过提交
+          if git diff --cached --quiet; then
+            echo "无更新内容，跳过提交"
+            exit 0
+          fi
+          
+          git commit -m "自动更新 EPG 数据 $(date '+%Y-%m-%d %H:%M')"
           git push
+
