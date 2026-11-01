@@ -1,12 +1,12 @@
-name: CNTV EPG Updater
+name: CNTV EPG 自动更新
 
 on:
   schedule:
-    - cron: '0 17 * * *'  # 每天UTC 17:00（北京时间凌晨1点）
+    - cron: '0 17 * * *'  # UTC 17:00 = 北京时间 01:00
   workflow_dispatch:
 
 jobs:
-  update-epg:
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -14,58 +14,63 @@ jobs:
       TZ: Asia/Shanghai
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+      - name: 检出代码
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
+      - name: 安装 PHP 环境
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: curl, xmlwriter, zlib, json, mbstring
+          coverage: none
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        python -m pip install requests lxml pytz aiohttp
+      - name: 验证 PHP 环境
+        run: php -v && php -m
 
-    - name: Run EPG Generator
-      run: |
-        echo "开始生成CNTV EPG数据..."
-        python -u cntvepg.py
-        echo "===== 当前目录文件 ====="
-        ls -la
-        echo "===== epg子目录文件 ====="
-        ls -la epg/
-        echo "========================="
+      - name: 运行 EPG 抓取脚本
+        run: php cntvepg.php
 
-    - name: Debug Files
-      run: |
-        FILE_PATH="epg/cntv.xml.gz"
-        if [ -s "$FILE_PATH" ]; then
-          echo "GZ 文件存在且非空"
-          echo "GZ 文件大小：$(du -h "$FILE_PATH" | cut -f1)"
-          echo "文件内容前100字符："
-          gzip -dc "$FILE_PATH" | head -c 100
-          echo ""
-        else
-          echo "::error::GZ文件为空或不存在"
-          exit 1
-        fi
+      - name: 文件完整性校验
+        run: |
+          FILE="epg/cntv.xml.gz"
+          if [ ! -f "$FILE" ]; then
+            echo "::error::输出文件不存在"
+            exit 1
+          fi
 
-    - name: Commit and Push Changes
-      run: |
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "actions@github.com"
+          echo "文件大小：$(du -h "$FILE" | cut -f1)"
+          
+          # 校验 gzip 格式
+          if ! gzip -t "$FILE"; then
+            echo "::error::gzip 文件损坏"
+            exit 1
+          fi
+          echo "✅ gzip 格式校验通过"
 
-        FILE_PATH="epg/cntv.xml.gz"
-        if [ -s "$FILE_PATH" ]; then
-          git add "$FILE_PATH"
-          COMMIT_TIME=$(date +'%Y-%m-%d %H:%M (CST)')
-          COMMIT_MSG="CNTV EPG自动更新 $COMMIT_TIME [skip ci]"
-          git commit -m "$COMMIT_MSG"
-          git pull origin main --rebase
-          git push origin main
-        else
-          echo "::error::文件为空或不存在，跳过提交"
-          exit 1
-        fi
+          # 校验 XML 合法性
+          XML_HEAD=$(gzip -dc "$FILE" | head -n 1)
+          if echo "$XML_HEAD" | grep -q '<?xml version'; then
+            echo "✅ XML 头部正常"
+          else
+            echo "::error::XML 内容非法"
+            exit 1
+          fi
+
+          # 统计节目数量
+          PROG_COUNT=$(gzip -dc "$FILE" | grep -c '<programme' || true)
+          echo "📺 节目条目数：$PROG_COUNT"
+          if [ "$PROG_COUNT" -lt 10 ]; then
+            echo "::error::节目数过少，数据无效"
+            exit 1
+          fi
+
+      - name: 提交并推送结果
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          
+          git add epg/cntv.xml.gz
+          git commit -m "更新 CNTV EPG 数据 $(date '+%Y-%m-%d %H:%M') [skip ci]"
+          git push
+
 
