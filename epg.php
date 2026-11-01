@@ -2,59 +2,55 @@
 /**
  * EPG XML数据处理脚本（GitHub Actions 适配版）
  * 功能：拉取/读取多个EPG数据源 → 解析XML → 频道映射 → 节目去重/时间修正 → 生成压缩XML文件
- * 适配：全相对路径、CI环境兼容、保留全部原有功能
+ * 适配：全平台 CLI 运行，原生支持 GitHub Actions、Linux、Windows、群晖
  */
 
-// ====================== 全局配置常量（全部自动适配相对路径） ======================
-define('ROOT_PATH', __DIR__);
-define('LOG_LEVEL', 'INFO');
-define('LOG_FILE', ROOT_PATH . '/logs/epg_' . date('Y-m-d') . '.log');
-define('LOG_CLEAN_DAYS', 1);
-define('TIME_ALIGN_INTERVAL', 1);
-define('OVERLAP_THRESHOLD', 3);
-define('MIN_PROGRAM_COUNT', 4);
-define('MIN_PROGRAM_DURATION', 60);
-define('KEEP_PAST_DAYS', 7);
-define('KEEP_FUTURE_DAYS', 10);
-define('BATCH_SIZE_SAVE', 500);
-define('MAX_PROGRAMS_PER_CHANNEL', 2000);
-define('CURL_TIMEOUT', 120);
-define('CURL_CONNECT_TIMEOUT', 40);
-define('CURL_RETRY_TIMES', 4);
-define('CURL_LARGE_FILE_TIMEOUT', 600); // CI环境缩短大文件超时，避免超限
-define('CURL_LOW_SPEED_LIMIT', 512);
-define('CURL_LOW_SPEED_TIME', 50);
+// ====================== 全局配置常量 ======================
+define('LOG_LEVEL', 'INFO');                     // 日志级别（DEBUG/INFO/WARNING/ERROR）
+define('LOG_FILE', __DIR__ . '/logs/epgziyong_' . date('Y-m-d') . '.log'); // 日志按天切割
+define('LOG_CLEAN_DAYS', 1);                     // 自动清理超过N天的日志
+define('TIME_ALIGN_INTERVAL', 1);                // 时间对齐间隔（分钟）
+define('OVERLAP_THRESHOLD', 3);                  // 节目重叠阈值（分钟）
+define('MIN_PROGRAM_COUNT', 4);                  // 最小节目数阈值
+define('MIN_PROGRAM_DURATION', 60);              // 节目最小有效时长（秒）
+define('KEEP_PAST_DAYS', 7);                     // 保留过去的天数（回看）
+define('KEEP_FUTURE_DAYS', 10);                   // 保留未来的天数（预告）
+define('BATCH_SIZE_SAVE', 500);                  // 保存缓存时的批次大小（频道数）
+define('MAX_PROGRAMS_PER_CHANNEL', 2000);        // 每个频道最大节目数限制
+define('CURL_TIMEOUT', 120);                      // CURL默认超时时间（秒）
+define('CURL_CONNECT_TIMEOUT', 40);              // CURL连接超时（秒）
+define('CURL_RETRY_TIMES', 4);                   // CURL超时重试次数
+define('CURL_LARGE_FILE_TIMEOUT', 1200);          // 大文件专属超时（秒）
+define('CURL_LOW_SPEED_LIMIT', 512);            // 最低下载速度（字节/秒）
+define('CURL_LOW_SPEED_TIME', 50);               // 低于最低速度持续时间（秒）
 define('CURL_SSL_CIPHER_LIST', 'ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:AES128-GCM-SHA256');
-define('GZIP_COMPRESS_LEVEL', 6);
-define('MAX_CONTENT_SIZE', 1024 * 1024 * 150);
-define('FORCE_MEMORY_LIMIT', 1024); // GitHub runner 内存充足，1GB足够
-define('CONFIG_FILE', ROOT_PATH . '/config/config.txt');
-
+define('GZIP_COMPRESS_LEVEL', 6);                // GZIP压缩级别 6 平衡压缩率与速度
+define('MAX_CONTENT_SIZE', 1024 * 1024 * 150);   // 最大内容限制（150MB）
+define('FORCE_MEMORY_LIMIT', 1024);              // 强制设置1GB内存
+define('CONFIG_FILE', __DIR__ . '/config/config.txt');
 // ----- 输出文件配置 -----
-define('OUTPUT_FILE_GZ', ROOT_PATH . '/xml/e.xml.gz');
-define('OUTPUT_FILE_GZ_BACKUP', ROOT_PATH . '/xml/e.xml.gz.last');
-define('OUTPUT_FILE_TEMP', OUTPUT_FILE_GZ . '.tmp');
-define('OUTPUT_FILE_DESC_GZ', ROOT_PATH . '/xml/e-desc.xml.gz');
-define('OUTPUT_FILE_DESC_GZ_BACKUP', ROOT_PATH . '/xml/e-desc.xml.gz.last');
-define('OUTPUT_FILE_DESC_TEMP', OUTPUT_FILE_DESC_GZ . '.tmp');
-
+define('OUTPUT_FILE_GZ', __DIR__ . '/xml/e.xml.gz');             // 无简介版（单文件）
+define('OUTPUT_FILE_GZ_BACKUP', __DIR__ . '/xml/e.xml.gz.last'); // 无简介版备份文件
+define('OUTPUT_FILE_TEMP', OUTPUT_FILE_GZ . '.tmp'); // 原子输出无简介版临时文件
+define('OUTPUT_FILE_DESC_GZ', __DIR__ . '/xml/e-desc.xml.gz'); // 含简介版（单文件基准名）
+define('OUTPUT_FILE_DESC_GZ_BACKUP', __DIR__ . '/xml/e-desc.xml.gz.last'); // 简介版备份文件
+define('OUTPUT_FILE_DESC_TEMP', OUTPUT_FILE_DESC_GZ . '.tmp'); // 原子输出简介版临时文件
 // ===== 含简介分片配置 =====
-define('DESC_SPLIT_ENABLED', false);
-define('DESC_SPLIT_TARGET_MB', 6);
-define('DESC_SPLIT_EST_RATIO', 17.0);
-define('LOCAL_EPG_DIR', ROOT_PATH . '/epg_sources');
-define('DESC_DB_FILE', ROOT_PATH . '/db/desc_database.db');
-define('DESC_DB_TABLE', 'program_desc');
-define('MIN_DESC_LENGTH', 10);
-define('DESC_MAX_LENGTH', 2000);
-define('DESC_CLEAN_ENABLE', true);
-define('DESC_INCREMENTAL_SAVE', true);
-define('DESC_AUTO_CLEAN_DAY', 1);
-define('DESC_EXPIRE_DAYS', 10);
-define('DESC_SQLITE_WAL_MODE', true);
-define('DESC_ENABLED', true);
-define('DESC_BATCH_SIZE', 1000);
-
+define('DESC_SPLIT_ENABLED', false);          // 是否开启分片输出
+define('DESC_SPLIT_TARGET_MB', 6);           // 每个分片目标压缩后大小（MB）
+define('DESC_SPLIT_EST_RATIO', 17.0);         // 预估压缩比
+define('LOCAL_EPG_DIR', __DIR__ . '/epg_sources');
+define('DESC_DB_FILE', __DIR__ . '/db/desc_database.db');
+define('DESC_DB_TABLE', 'program_desc');             // 数据表名
+define('MIN_DESC_LENGTH', 10);                       // 最小有效描述长度（字符）
+define('DESC_MAX_LENGTH', 2000);                     // 描述最大长度限制
+define('DESC_CLEAN_ENABLE', true);                   // 是否启用Desc文本清洗
+define('DESC_INCREMENTAL_SAVE', true);               // 是否增量保存
+define('DESC_AUTO_CLEAN_DAY', 1);                    // 每月几号清理过期数据
+define('DESC_EXPIRE_DAYS', 10);                      // Desc数据过期天数
+define('DESC_SQLITE_WAL_MODE', true);                // 是否启用WAL模式提升性能
+define('DESC_ENABLED', true);                        // Desc总开关
+define('DESC_BATCH_SIZE', 1000);                     // Desc批量写入大小
 // ====================== Desc匹配规则链配置 ======================
 define('DESC_MATCH_RULES', [
     ['name' => '人工精确匹配(数据库)', 'enabled' => true, 'priority' => 1, 'scope' => 'channel', 'match_type' => 'exact'],
@@ -63,21 +59,19 @@ define('DESC_MATCH_RULES', [
 ]);
 define('DESC_MATCH_CACHE_MAX', 50000);
 define('FUZZY_MIN_CORE_LEN', 2);
-
 // ====================== 独立人工数据源配置 ======================
 define('MAN_MADE_ENABLED', true);
-define('MAN_MADE_FILE', ROOT_PATH . '/config/man-made.json');
-
+define('MAN_MADE_FILE', __DIR__ . '/config/man-made.json');
 // ====================== 原有配置常量 ======================
-define('ENABLE_PROCESS_LOCK', true);
-define('LOCK_FILE', ROOT_PATH . '/epg.lock');
-define('LOCK_TIMEOUT_SECONDS', 3600);
-define('MAX_EXECUTION_SECONDS', 3600); // CI环境限制1小时内完成
-define('DEFAULT_TIMEZONE', 'Asia/Shanghai');
-define('SOURCES_JSON_FILE', ROOT_PATH . '/config/epg_sources.json');
-define('CLEAN_RULES_FILE', ROOT_PATH . '/config/channel_clean_rules.json');
-define('CHANNEL_1905', ['1905', '1905环球经典', '1905热血影院', '1905App 环球经典']);
-define('EXCLUSIVE_CHANNELS_FILE', ROOT_PATH . '/config/exclusive_channels.json');
+define('ENABLE_PROCESS_LOCK', true);                 // 进程锁开关
+define('LOCK_FILE', __DIR__ . '/epg.lock');  // 进程锁
+define('LOCK_TIMEOUT_SECONDS', 3600);                // 锁文件超时时间（1小时）
+define('MAX_EXECUTION_SECONDS', 7200);               // 最大执行时间 2小时
+define('DEFAULT_TIMEZONE', 'Asia/Shanghai');         // 默认时区
+define('SOURCES_JSON_FILE', __DIR__ . '/config/epg_sources.json'); // 外部数据源配置
+define('CLEAN_RULES_FILE', __DIR__ . '/config/channel_clean_rules.json'); // 频道清洗规则
+define('CHANNEL_1905', ['1905', '1905环球经典', '1905热血影院', '1905App 环球经典']); // 1905频道专属过滤配置
+define('EXCLUSIVE_CHANNELS_FILE', __DIR__ . '/xml/exclusive_channels.json'); // 专属频道配置
 
 // 加载外置专属频道配置
 $exclusiveChannels = [];
@@ -87,27 +81,25 @@ if (is_file(EXCLUSIVE_CHANNELS_FILE)) {
 if (empty($exclusiveChannels) || !is_array($exclusiveChannels)) {
     $exclusiveChannels = [];
 }
-
-// 【无效节目过滤关键词】
+// 无效节目过滤关键词
 define('INVALID_PROGRAM_KEYWORDS', [
-    'https://epg.136605.xyz',
-    '停机检修',
+    'https://epg.136605.xyz', 
+    '停机检修', 
     '广宣时段',
     '广告',
     '宣传段',
-    '晨光天气'
+    '晨光天气'   
 ]);
 define('INVALID_PROGRAM_HOUR', 0);
 define('INVALID_PROGRAM_MINUTE', 0);
 define('DEFAULT_LANG', 'zh');
-define('USER_AGENT', 'Mozilla/5.0 (compatible; EPG Aggregator/1.0; GitHub Actions)');
+define('USER_AGENT', 'Mozilla/5.0 (compatible; EPG Aggregator/1.0)');
 define('LARGE_FILE_URLS', [
     'https://tv.evorit.dpdns.org/epgphp/t.xml.gz',
     'https://cdn.jsdelivr.net/gh/zzq1234567890/epg@main/swepg.xml.gz'
 ]);
 define('GLOBAL_EXCLUDE_CHANNEL_NAMES', []);
 define('GLOBAL_EXCLUDE_CHANNEL_PATTERNS', []);
-
 // ====================== 全局状态 ======================
 $GLOBALS['normalize_cache'] = [];
 $GLOBALS['rule_cache'] = [];
@@ -123,8 +115,7 @@ $GLOBALS['desc_match_stats'] = [
     '未匹配' => 0
 ];
 $GLOBALS['prog_processed_count'] = 0;
-
-// ====================== 信号处理（CI环境兼容，扩展不存在则跳过） ======================
+// ====================== 信号处理 ======================
 function signalHandler($signal): void {
     logMessage('INFO', "收到中断信号 {$signal}，开始安全退出...");
     releaseProcessLock();
@@ -139,7 +130,6 @@ if (extension_loaded('pcntl')) {
     pcntl_signal(SIGTERM, 'signalHandler');
     pcntl_signal(SIGHUP, 'signalHandler');
 }
-
 // ====================== 进程锁机制 ======================
 function acquireProcessLock(): bool {
     if (!ENABLE_PROCESS_LOCK) return true;
@@ -152,7 +142,7 @@ function acquireProcessLock(): bool {
     }
     if (file_exists(LOCK_FILE)) {
         $pid = file_get_contents(LOCK_FILE);
-        if (is_numeric($pid) && function_exists('posix_kill') && posix_kill((int)$pid, 0)) {
+        if (is_numeric($pid) && extension_loaded('posix') && posix_kill((int)$pid, 0)) {
             logMessage('ERROR', "检测到另一个进程正在运行，退出执行");
             return false;
         } else {
@@ -166,7 +156,6 @@ function releaseProcessLock(): void {
         @unlink(LOCK_FILE);
     }
 }
-
 // ====================== 执行超时监控 ======================
 function checkExecutionTimeout($startTime): bool {
     $elapsed = time() - $startTime;
@@ -179,7 +168,6 @@ function checkExecutionTimeout($startTime): bool {
     }
     return true;
 }
-
 // ====================== 自动清理过期日志 ======================
 function cleanExpiredLogs(): void {
     $logDir = dirname(LOG_FILE);
@@ -189,7 +177,7 @@ function cleanExpiredLogs(): void {
     $files = scandir($logDir);
     foreach ($files as $file) {
         $filePath = $logDir . DIRECTORY_SEPARATOR . $file;
-        if (is_file($filePath) && str_contains($file, 'epg_') && str_ends_with($file, '.log')) {
+        if (is_file($filePath) && str_contains($file, 'epgziyong_') && str_ends_with($file, '.log')) {
             if (filemtime($filePath) < $expireTime) {
                 @unlink($filePath);
                 $deletedCount++;
@@ -200,7 +188,6 @@ function cleanExpiredLogs(): void {
         logMessage('INFO', "自动清理日志完成，删除 " . $deletedCount . " 个超过" . LOG_CLEAN_DAYS . "天的日志文件");
     }
 }
-
 // ====================== 环境配置 ======================
 $scriptStartTime = time();
 set_time_limit(0);
@@ -224,7 +211,6 @@ setSafeMemoryLimit();
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 ini_set('date.timezone', DEFAULT_TIMEZONE);
-
 // ====================== 工具类封装 ======================
 class EpgConfig {
     public static DateTimeZone $TIMEZONE;
@@ -235,7 +221,6 @@ class EpgConfig {
     }
 }
 EpgConfig::init();
-
 // ====================== 兼容函数 ======================
 if (!function_exists('str_starts_with')) {
     function str_starts_with($haystack, $needle): bool {
@@ -254,7 +239,6 @@ if (!function_exists('str_contains')) {
         return $needle === '' || strpos((string)$haystack, $needle) !== false;
     }
 }
-
 // ====================== 日志系统 ======================
 function logMessage(string $level, string $message): void {
     static $levelMap = ['DEBUG' => 0, 'INFO' => 1, 'WARNING' => 2, 'ERROR' => 3];
@@ -278,7 +262,6 @@ function logMessage(string $level, string $message): void {
         }
     }
 }
-
 // ====================== 内存监控与释放 ======================
 function checkMemoryUsage(string $context = ''): void {
     static $lastCheck = 0;
@@ -311,7 +294,6 @@ function freeMemory(&...$vars): void {
         logMessage('DEBUG', "垃圾回收完成，当前内存使用：{$memUsage} MB");
     }
 }
-
 // ====================== 路径检查工具函数 ======================
 function ensureDirExists(string $filePath): bool {
     $dir = dirname($filePath);
@@ -331,12 +313,10 @@ function ensureDirExists(string $filePath): bool {
     }
     return true;
 }
-
 // ====================== 安全工具函数 ======================
 function xmlEscape(string $value): string {
     return htmlspecialchars($value, ENT_XML1 | ENT_QUOTES, 'UTF-8', false);
 }
-
 // ====================== 增强版清洗规则 + 标题归一化 ======================
 function loadCleanRules() {
     if (!file_exists(CLEAN_RULES_FILE)) {
@@ -432,9 +412,11 @@ function cleanProgramTitle($title, $channelName) {
     $rule = getChannelCleanRule($channelName);
     $cleaned = trim($title);
     
+    // 第一步：提取并暂存集数信息
     [$episodeInfo, $pureTitle] = extractEpisodeInfo($cleaned);
     $cleaned = $pureTitle;
     
+    // 第二步：执行前缀移除与标题转换
     if (!empty($rule['remove_prefix'])) {
         foreach ($rule['remove_prefix'] as $pre) {
             if (str_starts_with($cleaned, $pre)) {
@@ -451,6 +433,7 @@ function cleanProgramTitle($title, $channelName) {
         $cleaned = preg_replace('/(\d+)\/(\d+)/u', '$1', $cleaned);
     }
     
+    // 第三步：移除冗余后缀与无效标记
     $patterns = [
         '/[\(（]?\d{4}[-./年]\d{1,2}[-./月]\d{1,2}[日]?[\)）]/u' => '',
         '/[\(（]?\d{8}[\)）]/u' => '',
@@ -463,13 +446,13 @@ function cleanProgramTitle($title, $channelName) {
     
     $cleaned = trim($cleaned);
     
+    // 第四步：回填集数信息
     if (!empty($episodeInfo)) {
         $cleaned = $cleaned . ' ' . $episodeInfo;
     }
     
     return $cleaned ?: $title;
 }
-
 // ====================== 核心标题提取（高性能缓存版） ======================
 function extractCoreTitle(string $title): string {
     static $coreCache = [];
@@ -487,7 +470,6 @@ function extractCoreTitle(string $title): string {
     }
     return $result;
 }
-
 // ====================== SQLite Desc信息库核心函数 ======================
 $GLOBALS['invalidDescPatterns'] = [
     '/^暂无节目描述$/iu', '/^暂无描述$/iu', '/^暂无简介$/iu', '/^暂无内容$/iu',
@@ -629,7 +611,6 @@ function collectDescInfo(string $channelId, string $title, string $desc, int $so
         logMessage('WARNING', "收集Desc信息失败: {$channelId} - {$title} | {$e->getMessage()}");
     }
 }
-
 // ====================== 独立人工数据源加载 ======================
 function loadManMadeData(): void {
     global $GLOBALS;
@@ -668,7 +649,6 @@ function loadManMadeData(): void {
         logMessage('ERROR', '人工数据源加载失败：' . $e->getMessage());
     }
 }
-
 // ====================== 预构建全局模糊索引 ======================
 function buildFuzzyGlobalIndex(): void {
     global $GLOBALS;
@@ -696,7 +676,6 @@ function buildFuzzyGlobalIndex(): void {
         logMessage('WARNING', '构建全局模糊索引失败：' . $e->getMessage());
     }
 }
-
 // ====================== Desc回填 四级规则链 ======================
 function fillProgramDesc(DOMElement $program): void {
     global $GLOBALS;
@@ -965,7 +944,6 @@ function collectProgramDescOnly(DOMElement $program, string $mappedId, int $sour
         collectDescInfo($mappedId, $title, $desc, $sourcePriority);
     }
 }
-
 // ====================== 标准化节目标题函数 ======================
 function normalizeTitle(string $title): string {
     if (empty($title)) return '';
@@ -1006,7 +984,6 @@ function normalizeTitle(string $title): string {
     $normalized = preg_replace('/\s+/u', ' ', (string)$normalized);
     return !empty($normalized) ? $normalized : trim((string)$title);
 }
-
 // ====================== 频道过滤核心函数 ======================
 function isChannelExcluded(string $channelName, array $filterRules): bool {
     if (empty($filterRules)) return false;
@@ -1026,7 +1003,6 @@ function isChannelExcluded(string $channelName, array $filterRules): bool {
     }
     return false;
 }
-
 // ====================== 节目处理函数 ======================
 function processProgramme(DOMElement $programme, string $mappedId, DOMDocument $targetDoc, int $sourcePriority): ?DOMElement {
     $invalidKeywords = INVALID_PROGRAM_KEYWORDS;
@@ -1110,7 +1086,6 @@ function processProgramme(DOMElement $programme, string $mappedId, DOMDocument $
     fillProgramDesc($newProg);
     return $newProg;
 }
-
 // ====================== 专属频道判断 ======================
 function isExclusiveSourceForChannel(string $channelId, int $currentSourcePriority, array $programmes): bool {
     static $channelPriorityLock = [];
@@ -1169,7 +1144,6 @@ function isExclusiveSourceForChannel(string $channelId, int $currentSourcePriori
     }
     return false;
 }
-
 // ====================== 核心工具函数 ======================
 function loadConfigAndAlias(string $configFile): array {
     $configNames = [];
@@ -1192,8 +1166,13 @@ function loadConfigAndAlias(string $configFile): array {
             $parts = array_filter(array_map('trim', explode(',', (string)$cleanLine)));
             if (empty($parts)) continue;
             $standardName = $parts[0];
-            $configNames[$standardName] = true;
-            $channelOrder[] = $standardName;
+            
+            // 仅首次出现的频道加入顺序数组，避免重复
+            if (!isset($configNames[$standardName])) {
+                $configNames[$standardName] = true;
+                $channelOrder[] = $standardName;
+            }
+            
             if (count($parts) > 1) {
                 foreach (array_slice($parts, 1) as $alias) {
                     $aliasMapping[$alias] = $standardName;
@@ -1253,8 +1232,10 @@ function tryParseXml(string $content): ?DOMDocument {
     $dom->formatOutput = false;
     
     try {
+        // 移除 UTF-8 BOM
         $content = preg_replace('/^\x{EF}\x{BB}\x{BF}/u', '', (string)$content);
         
+        // 检测编码并转换为 UTF-8
         $encoding = mb_detect_encoding($content, ['UTF-8', 'GBK', 'GB2312', 'BIG5', 'ISO-8859-1'], true);
         if ($encoding && $encoding !== 'UTF-8') {
             $converted = @iconv($encoding, 'UTF-8//IGNORE', $content);
@@ -1264,6 +1245,7 @@ function tryParseXml(string $content): ?DOMDocument {
             }
         }
         
+        // 兜底：如果检测失败，尝试常见中文编码依次转换
         if (!$encoding || $encoding === 'UTF-8') {
             $testDom = new DOMDocument();
             $loadResult = @$testDom->loadXML($content, LIBXML_NOENT | LIBXML_NONET | LIBXML_NOERROR | LIBXML_NOWARNING);
@@ -1336,7 +1318,6 @@ function programsOverlap(DOMElement $prog1, DOMElement $prog2): bool {
     $overlapEnd = min($stop1->getTimestamp(), $stop2->getTimestamp());
     return ($overlapStart < $overlapEnd) && (($overlapEnd - $overlapStart)/60 >= OVERLAP_THRESHOLD);
 }
-
 // ====================== CURL相关函数 ======================
 function createCurlHandle() {
     $ch = curl_init();
@@ -1402,7 +1383,6 @@ function fetchRemoteContent($ch, array $source) {
     $uncompressed = @gzdecode((string)$content);
     return $uncompressed !== false ? [$uncompressed, $priority] : [$content, $priority];
 }
-
 // ====================== 节点处理函数 ======================
 function processChannelNodes(DOMXPath $xpath, array $configNames, array $aliasMapping, DOMDocument $finalDoc, array &$channels, array $filterRules, string $sourceRemark = ''): array {
     $channelMap = [];
@@ -1457,6 +1437,7 @@ function processProgramNodes(DOMXPath $xpath, array $channelMap, DOMDocument $fi
     $todayCount = 0;
     $todayZero = new DateTime('today', EpgConfig::$TIMEZONE);
     
+    // 预计算时间范围边界
     $pastDate = (clone $todayZero)->sub(new DateInterval("P".KEEP_PAST_DAYS."D"));
     $futureDate = (clone $todayZero)->add(new DateInterval("P".KEEP_FUTURE_DAYS."D"));
     
@@ -1466,16 +1447,20 @@ function processProgramNodes(DOMXPath $xpath, array $channelMap, DOMDocument $fi
         if (!isset($channelMap[$origChanId])) continue;
         $mappedId = $channelMap[$origChanId];
         
+        // 前置时间过滤，不在范围内直接跳过
         $startTimeStr = $prog->getAttribute('start');
         $stopTimeStr = $prog->getAttribute('stop');
         $startTime = parseEpgTime($startTimeStr);
         $stopTime = parseEpgTime($stopTimeStr);
         
+        // 时间解析失败直接跳过
         if (!$startTime || !$stopTime) continue;
         
+        // 1905频道专属过滤逻辑保留
         if (in_array($mappedId, CHANNEL_1905)) {
             if ($stopTime < $todayZero) continue;
         } else {
+            // 通用时间范围过滤：完全在时间窗外的节目直接丢弃
             $inRange = false;
             if ($startTime >= $pastDate && $startTime <= $futureDate) $inRange = true;
             if ($stopTime >= $pastDate && $stopTime <= $futureDate) $inRange = true;
@@ -1483,8 +1468,10 @@ function processProgramNodes(DOMXPath $xpath, array $channelMap, DOMDocument $fi
             if (!$inRange) continue;
         }
         
+        // 收集描述信息（仅保留在时间范围内的节目）
         collectProgramDescOnly($prog, $mappedId, $sourcePriority);
         
+        // 专属频道优先级判断
         if (!isExclusiveSourceForChannel($mappedId, $sourcePriority, $programmes)) continue;
         
         $processed = processProgramme($prog, $mappedId, $finalDoc, $sourcePriority);
@@ -1536,17 +1523,20 @@ function filterProgramsByDate(array $programmes): array {
 function deduplicatePrograms(array $progs): array {
     if (empty($progs)) return [];
     
+    // 第一步：按归一化时间+归一化标题分组
     $timeGroups = [];
     foreach ($progs as $prog) {
         $startStr = $prog->getAttribute('start');
         $normalizedStart = normalizeTime($startStr);
         $timeKey = substr($normalizedStart, 0, 12);
         
+        // 获取归一化标题（带集数）
         $xpath = new DOMXPath($prog->ownerDocument);
         $titleElem = $xpath->query('.//title', $prog)->item(0);
         $titleText = $titleElem ? trim($titleElem->nodeValue) : '';
         $normalizedTitle = normalizeTitleV2(cleanProgramTitle($titleText, $prog->getAttribute('channel')));
         
+        // 分组键：时间 + 归一化标题
         $channelId = $prog->getAttribute('channel');
         $groupKey = "{$channelId}|{$timeKey}|{$normalizedTitle}";
         
@@ -1556,6 +1546,7 @@ function deduplicatePrograms(array $progs): array {
         $timeGroups[$groupKey][] = $prog;
     }
     
+    // 第二步：每组内保留质量最高的节目
     $selected = [];
     foreach ($timeGroups as $group) {
         if (count($group) === 1) {
@@ -1566,6 +1557,7 @@ function deduplicatePrograms(array $progs): array {
         $selected[] = $group[0];
     }
     
+    // 第三步：按开始时间排序，处理相邻重叠
     usort($selected, fn($a, $b) => 
         parseEpgTime($a->getAttribute('start'))->getTimestamp() 
         - parseEpgTime($b->getAttribute('start'))->getTimestamp()
@@ -1599,6 +1591,7 @@ function deduplicatePrograms(array $progs): array {
         }
     }
     
+    // 第四步：修正时间连续性，消除重叠与缝隙
     $final = array_values($final);
     for ($i = 0; $i < count($final) - 1; $i++) {
         $current = $final[$i];
@@ -1636,7 +1629,6 @@ function loadSourcesFromJson(): array {
     }
     return $enabledSources;
 }
-
 // ====================== 主处理流程 ======================
 function processSources(array $sources, array $aliasMapping, array $configNames, array $channelOrder, array $defaultFilter): array {
     global $scriptStartTime;
@@ -1701,16 +1693,10 @@ function processSources(array $sources, array $aliasMapping, array $configNames,
             $finalProgrammes[$cid] = deduplicatePrograms($ps);
         }
     }
-    foreach ($channelOrder as $cid) {
-        if (isset($channels[$cid], $finalProgrammes[$cid])) {
-            $tvRoot->appendChild($channels[$cid]);
-            foreach ($finalProgrammes[$cid] as $p) {
-                $tvRoot->appendChild($p);
-            }
-        }
-    }
-    // ========== 输出含简介版本 ==========
+
+    // 输出含简介版本
     if (DESC_SPLIT_ENABLED) {
+        // 分片模式
         $splitIndex = 1;
         $currentBuffer = '';
         $uncompressedThreshold = DESC_SPLIT_TARGET_MB * 1024 * 1024 * DESC_SPLIT_EST_RATIO;
@@ -1718,10 +1704,17 @@ function processSources(array $sources, array $aliasMapping, array $configNames,
         $xmlFooter = PHP_EOL . '</tv>';
         $descDir = dirname(OUTPUT_FILE_DESC_GZ) . '/';
         $descBase = basename(OUTPUT_FILE_DESC_GZ, '.xml.gz');
+        
+        $writtenSplitChannels = [];
         foreach ($channelOrder as $cid) {
             if (!isset($channels[$cid], $finalProgrammes[$cid])) continue;
             
-            $chanXml = $finalDoc->saveXML($channels[$cid]) . PHP_EOL;
+            $chanXml = '';
+            if (!isset($writtenSplitChannels[$cid])) {
+                $chanXml = $finalDoc->saveXML($channels[$cid]) . PHP_EOL;
+                $writtenSplitChannels[$cid] = true;
+            }
+            
             $progsXml = '';
             foreach ($finalProgrammes[$cid] as $prog) {
                 $progsXml .= $finalDoc->saveXML($prog) . PHP_EOL;
@@ -1765,6 +1758,7 @@ function processSources(array $sources, array $aliasMapping, array $configNames,
         unset($currentBuffer, $xmlHeader, $xmlFooter, $fullXml, $gz, $fragment);
         logMessage('INFO', "含简介版本分片完成，共生成 {$splitIndex} 个文件");
     } else {
+        // 单文件模式 - 流式逐频道写入，降低内存峰值
         try {
             ensureDirExists(OUTPUT_FILE_DESC_GZ);
             $gzDesc = gzopen(OUTPUT_FILE_DESC_TEMP, 'wb' . GZIP_COMPRESS_LEVEL);
@@ -1772,9 +1766,13 @@ function processSources(array $sources, array $aliasMapping, array $configNames,
             
             gzwrite($gzDesc, '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL . '<tv>' . PHP_EOL);
             
+            $writtenDescChannels = [];
             foreach ($channelOrder as $cid) {
                 if (!isset($channels[$cid], $finalProgrammes[$cid])) continue;
-                gzwrite($gzDesc, $finalDoc->saveXML($channels[$cid]) . PHP_EOL);
+                if (!isset($writtenDescChannels[$cid])) {
+                    gzwrite($gzDesc, $finalDoc->saveXML($channels[$cid]) . PHP_EOL);
+                    $writtenDescChannels[$cid] = true;
+                }
                 foreach ($finalProgrammes[$cid] as $prog) {
                     gzwrite($gzDesc, $finalDoc->saveXML($prog) . PHP_EOL);
                 }
@@ -1783,6 +1781,7 @@ function processSources(array $sources, array $aliasMapping, array $configNames,
             gzwrite($gzDesc, '</tv>');
             gzclose($gzDesc);
             
+            // 原子替换
             if (file_exists(OUTPUT_FILE_DESC_GZ)) {
                 copy(OUTPUT_FILE_DESC_GZ, OUTPUT_FILE_DESC_GZ_BACKUP);
             }
@@ -1794,7 +1793,7 @@ function processSources(array $sources, array $aliasMapping, array $configNames,
             @unlink(OUTPUT_FILE_DESC_TEMP);
         }
     }
-    // ========== 输出无简介版本 ==========
+    // 输出无简介版本
     try {
         ensureDirExists(OUTPUT_FILE_GZ);
         $gz = gzopen(OUTPUT_FILE_TEMP, 'wb' . GZIP_COMPRESS_LEVEL);
@@ -1802,9 +1801,14 @@ function processSources(array $sources, array $aliasMapping, array $configNames,
         
         gzwrite($gz, '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL . '<tv>' . PHP_EOL);
         
+        $writtenChannels = [];
         foreach ($channelOrder as $cid) {
             if (!isset($channels[$cid], $finalProgrammes[$cid])) continue;
-            gzwrite($gz, $finalDoc->saveXML($channels[$cid]) . PHP_EOL);
+            if (!isset($writtenChannels[$cid])) {
+                gzwrite($gz, $finalDoc->saveXML($channels[$cid]) . PHP_EOL);
+                $writtenChannels[$cid] = true;
+            }
+            // 写入programme节点（移除desc）
             foreach ($finalProgrammes[$cid] as $prog) {
                 $progClone = $prog->cloneNode(true);
                 $descNodes = $progClone->getElementsByTagName('desc');
@@ -1829,6 +1833,7 @@ function processSources(array $sources, array $aliasMapping, array $configNames,
         @unlink(OUTPUT_FILE_TEMP);
     }
 
+    // 统计结果
     $chanCnt = count($channels);
     $progCnt = array_sum(array_map('count', $finalProgrammes ?? []));
     
@@ -1846,7 +1851,6 @@ function processSources(array $sources, array $aliasMapping, array $configNames,
     logMessage('INFO', "完成！频道：{$chanCnt}，节目：{$progCnt}");
     return [$chanCnt, $progCnt, $sourceSuccess, $sourceFail, $sourceStats];
 }
-
 // ==================== 入口执行 ====================
 $defaultFilter = ['excludeChannelNames' => [], 'excludeChannelPatterns' => []];
 $epgSources = loadSourcesFromJson();
@@ -1880,7 +1884,6 @@ loadManMadeData();
 buildFuzzyGlobalIndex();
 $GLOBALS['script_start_time'] = time();
 [$chanCnt, $progCnt, $sourceSuccess, $sourceFail, $sourceStats] = processSources($epgSources, $aliasMapping, $configNames, $channelOrder, $defaultFilter);
-
 // ====================== 最终统计输出 ======================
 $useTime = round((microtime(true) - $scriptStartTime), 2);
 $memoryPeak = round(memory_get_peak_usage(true) / 1024 / 1024, 2);
@@ -1931,5 +1934,18 @@ foreach ($sourceStats as $stat) {
     logMessage('INFO', $line);
 }
 logMessage('INFO', "========================================");
+
+// 持久化统计数据供仪表盘读取
+$statsFile = dirname(OUTPUT_FILE_GZ) . '/stats.json';
+$statsData = [
+    'generate_time'   => $useTime,
+    'source_success'  => $sourceSuccess,
+    'source_fail'     => $sourceFail,
+    'channel_count'   => $chanCnt,
+    'program_count'   => $progCnt,
+    'last_update'     => date('Y-m-d H:i:s')
+];
+@file_put_contents($statsFile, json_encode($statsData, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
+
 releaseProcessLock();
 logMessage('INFO', "全部完成！");
