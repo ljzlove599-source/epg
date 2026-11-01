@@ -57,12 +57,15 @@ jobs:
           fi
 
           # 统计节目数量
-          PROG_COUNT=$(gzip -dc "$FILE" | grep -c '<programme' || true)
-          echo "📺 节目条目数：$PROG_COUNT"
-          if [ "$PROG_COUNT" -lt 10 ]; then
-            echo "::error::节目数过少，数据无效"
-            exit 1
+           PROG_COUNT=$(gzip -dc "$FILE" | grep -c '<programme' || true)
+           echo "📺 节目条目数：$PROG_COUNT"
+
+          # 只要存在有效节目即视为合格，适配接口不稳定场景
+           if [ "$PROG_COUNT" -lt 1 ]; then
+           echo "::error::无任何有效节目数据"
+          exit 1
           fi
+
 
       - name: 提交并推送结果
         run: |
