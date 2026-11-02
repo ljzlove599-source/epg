@@ -1,13 +1,13 @@
 name: Logo Update
+
 env:
   TZ: Asia/Shanghai
   LOGO_DIR: "logo"
   FILE_EXT: "png"
   MIN_FILE_SIZE: "1k"
-  # 新增可配置项
   CLONE_RETRY: 2          # 仓库克隆失败重试次数，应对网络波动
   FORCE_LOWERCASE: false  # 是否强制统一文件名为小写（彻底解决大小写重复问题）
-  MAX_TIMEOUT: 30         # 工作流最大超时时间（分钟），避免异常卡死
+  MAX_TIMEOUT: 30         # 供脚本内部使用，作业超时请直接修改下方 timeout-minutes
 
 on:
   workflow_dispatch:
@@ -17,7 +17,7 @@ on:
 jobs:
   sync-logo:
     runs-on: ubuntu-22.04
-    timeout-minutes: ${{ env.MAX_TIMEOUT }}
+    timeout-minutes: 30   # 修复：作业级超时直接写死数值，不支持 env 变量
     permissions:
       contents: write
     steps:
