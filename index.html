@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>台标预览库</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+    padding: 20px;
+  }
+  .header {
+    max-width: 1400px;
+    margin: 0 auto 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+  .header h1 { font-size: 22px; margin-bottom: 15px; }
+  .search-bar {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #searchInput {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+  }
+  #searchInput:focus { border-color: #409eff; }
+  .stats { color: #666; font-size: 14px; }
+  .grid {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 12px;
+  }
+  .logo-item {
+    background: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform .2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .logo-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  .logo-item img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+  }
+  .logo-item .name {
+    font-size: 12px;
+    color: #555;
+    word-break: break-all;
+    line-height: 1.3;
+    max-height: 32px;
+    overflow: hidden;
+  }
+  .pagination {
+    max-width: 1400px;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .pagination button {
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .pagination button:disabled { opacity: 0.5; cursor: not-allowed; }
+  .pagination button.active {
+    background: #409eff;
+    color: #fff;
+    border-color: #409eff;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    cursor: zoom-out;
+  }
+  .modal.show { display: flex; }
+  .modal img { max-width: 90%; max-height: 90%; border-radius: 8px; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>📺 频道台标预览库</h1>
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="输入频道名搜索...">
+    <span class="stats" id="stats"></span>
+  </div>
+</div>
+
+<div class="grid" id="logoGrid"></div>
+<div class="pagination" id="pagination"></div>
+
+<div class="modal" id="modal">
+  <img id="modalImg" src="" alt="预览">
+</div>
+
+<script>
+  const PAGE_SIZE = 100;
+  let allLogos = [], filteredLogos = [], currentPage = 1;
+
+  fetch('logo_list.json')
+    .then(res => res.json())
+    .then(data => {
+      allLogos = data;
+      filteredLogos = data;
+      render();
+    });
+
+  document.getElementById('searchInput').addEventListener('input', e => {
+    const kw = e.target.value.trim().toLowerCase();
+    filteredLogos = allLogos.filter(p => p.toLowerCase().includes(kw));
+    currentPage = 1;
+    render();
+  });
+
+  function render() {
+    renderGrid();
+    renderPagination();
+    document.getElementById('stats').textContent = 
+      `共 ${filteredLogos.length} 个台标，第 ${currentPage} 页`;
+  }
+
+  function renderGrid() {
+    const grid = document.getElementById('logoGrid');
+    const start = (currentPage - 1) * PAGE_SIZE;
+    const pageData = filteredLogos.slice(start, start + PAGE_SIZE);
+
+    grid.innerHTML = pageData.map(path => {
+      const name = path.split('/').pop().replace('.png', '');
+      return `
+        <div class="logo-item" data-src="${path}">
+          <img src="${path}" alt="${name}" loading="lazy">
+          <div class="name">${name}</div>
+        </div>
+      `;
+    }).join('');
+
+    grid.querySelectorAll('.logo-item').forEach(item => {
+      item.addEventListener('click', () => {
+        document.getElementById('modalImg').src = item.dataset.src;
+        document.getElementById('modal').classList.add('show');
+      });
+    });
+  }
+
+  function renderPagination() {
+    const totalPages = Math.ceil(filteredLogos.length / PAGE_SIZE) || 1;
+    const pagination = document.getElementById('pagination');
+    let html = '';
+
+    html += `<button ${currentPage === 1 ? 'disabled' : ''} onclick="goPage(${currentPage - 1})">上一页</button>`;
+
+    let startPage = Math.max(1, currentPage - 3);
+    let endPage = Math.min(totalPages, startPage + 6);
+    if (endPage - startPage < 6) startPage = Math.max(1, endPage - 6);
+
+    if (startPage > 1) {
+      html += `<button onclick="goPage(1)">1</button>`;
+      if (startPage > 2) html += `<span>...</span>`;
+    }
+
+    for (let i = startPage; i <= endPage; i++) {
+      html += `<button class="${i === currentPage ? 'active' : ''}" onclick="goPage(${i})">${i}</button>`;
+    }
+
+    if (endPage < totalPages) {
+      if (endPage < totalPages - 1) html += `<span>...</span>`;
+      html += `<button onclick="goPage(${totalPages})">${totalPages}</button>`;
+    }
+
+    html += `<button ${currentPage === totalPages ? 'disabled' : ''} onclick="goPage(${currentPage + 1})">下一页</button>`;
+    pagination.innerHTML = html;
+  }
+
+  function goPage(page) {
+    currentPage = page;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    render();
+  }
+
+  document.getElementById('modal').addEventListener('click', () => {
+    document.getElementById('modal').classList.remove('show');
+  });
+</script>
+</body>
+</html>
