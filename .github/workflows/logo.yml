@@ -7,6 +7,7 @@ env:
   MIN_FILE_SIZE: "1k"
   CLONE_RETRY: 2
   FORCE_LOWERCASE: false
+  PAGE_SIZE: 100  # 预览页每页显示台标数量
 
 on:
   workflow_dispatch:
@@ -36,10 +37,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          # ==============================================
-          # 台标源优先级分层（从上到下优先级递减）
-          # 格式：仓库URL|源目录列表(逗号分隔)|分支名(可省略)
-          # ==============================================
+          # 台标源优先级分层
           REPOS=(
             # === 第一梯队：核心高画质源 ===
             "https://github.com/taksssss/tv|icon"
@@ -75,7 +73,7 @@ jobs:
             return 1
           }
 
-          # 单个仓库处理函数：内部全容错，永远不会抛出非零退出码
+          # 单个仓库处理函数（全容错）
           process_repo() {
             local REPO_LINE="$1"
             IFS='|' read -r URL SRC_DIRS BRANCH <<< "$REPO_LINE"
@@ -86,14 +84,12 @@ jobs:
             echo "======================================"
             echo "📦 正在处理仓库: $REPO_NAME"
 
-            # 修复：分支检测管道增加 || true，彻底避免 grep 无匹配触发 pipefail 退出
             if [ -z "${BRANCH:-}" ]; then
               BRANCH=$(git ls-remote --symref "$URL" HEAD 2>/dev/null | grep '^ref:' | awk '{print $2}' | sed 's|refs/heads/||' || true)
               BRANCH=${BRANCH:-main}
             fi
             echo "🔖 使用分支: $BRANCH"
 
-            # 克隆失败直接跳过，不抛出错误
             if ! retry_cmd git clone --depth 1 --filter=blob:none --no-checkout --branch "$BRANCH" "$URL" "$TEMP_DIR"; then
               echo "❌ 仓库克隆失败，跳过"
               return 0
@@ -121,7 +117,6 @@ jobs:
                 continue
               fi
 
-              # 批量复制台标文件，同名不覆盖（保证优先级）
               while IFS= read -r -d '' file; do
                 local filename=$(basename "$file")
                 [ "$FORCE_LOWERCASE" = "true" ] && filename=$(echo "$filename" | tr '[:upper:]' '[:lower:]')
@@ -140,7 +135,6 @@ jobs:
             return 0
           }
 
-          # 修复：调用函数增加 || true 双重兜底，彻底杜绝单仓库失败终止全局
           for REPO in "${REPOS[@]}"; do
             process_repo "$REPO" || true
           done
@@ -166,8 +160,258 @@ jobs:
           echo "   当前总台标数: $FINAL_COUNT"
           echo "======================================"
 
+      - name: 生成台标清单与预览页面
+        run: |
+          # 1. 生成台标列表JSON（按文件名排序，供前端调用）
+          find "$LOGO_DIR" -name "*.$FILE_EXT" -type f | sort | jq -R -s 'split("\n") | map(select(length > 0))' > logo_list.json
+          echo "✅ 生成台标清单: logo_list.json"
+
+          # 2. 生成带搜索+分页的预览主页
+          cat << 'EOF' > index.html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>台标预览库</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+    padding: 20px;
+  }
+  .header {
+    max-width: 1400px;
+    margin: 0 auto 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+  .header h1 { font-size: 22px; margin-bottom: 15px; }
+  .search-bar {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #searchInput {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color .2s;
+  }
+  #searchInput:focus { border-color: #409eff; }
+  .stats { color: #666; font-size: 14px; }
+  .grid {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 12px;
+  }
+  .logo-item {
+    background: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform .2s, box-shadow .2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .logo-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  .logo-item img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+  }
+  .logo-item .name {
+    font-size: 12px;
+    color: #555;
+    word-break: break-all;
+    line-height: 1.3;
+    max-height: 32px;
+    overflow: hidden;
+  }
+  .pagination {
+    max-width: 1400px;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .pagination button {
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .pagination button.active {
+    background: #409eff;
+    color: #fff;
+    border-color: #409eff;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    cursor: zoom-out;
+  }
+  .modal.show { display: flex; }
+  .modal img { max-width: 90%; max-height: 90%; border-radius: 8px; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>📺 频道台标预览库</h1>
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="输入频道名搜索...">
+    <span class="stats" id="stats"></span>
+  </div>
+</div>
+
+<div class="grid" id="logoGrid"></div>
+<div class="pagination" id="pagination"></div>
+
+<div class="modal" id="modal">
+  <img id="modalImg" src="" alt="预览">
+</div>
+
+<script>
+  const PAGE_SIZE = 100;
+  let allLogos = [];
+  let filteredLogos = [];
+  let currentPage = 1;
+
+  // 加载台标清单
+  fetch('logo_list.json')
+    .then(res => res.json())
+    .then(data => {
+      allLogos = data;
+      filteredLogos = data;
+      render();
+    });
+
+  // 搜索
+  document.getElementById('searchInput').addEventListener('input', e => {
+    const keyword = e.target.value.trim().toLowerCase();
+    filteredLogos = allLogos.filter(path => 
+      path.toLowerCase().includes(keyword)
+    );
+    currentPage = 1;
+    render();
+  });
+
+  // 渲染页面
+  function render() {
+    renderGrid();
+    renderPagination();
+    document.getElementById('stats').textContent = 
+      `共 ${filteredLogos.length} 个台标，第 ${currentPage} 页`;
+  }
+
+  // 渲染台标网格
+  function renderGrid() {
+    const grid = document.getElementById('logoGrid');
+    const start = (currentPage - 1) * PAGE_SIZE;
+    const end = start + PAGE_SIZE;
+    const pageData = filteredLogos.slice(start, end);
+
+    grid.innerHTML = pageData.map(path => {
+      const name = path.split('/').pop().replace('.png', '');
+      return `
+        <div class="logo-item" data-src="${path}">
+          <img src="${path}" alt="${name}" loading="lazy">
+          <div class="name">${name}</div>
+        </div>
+      `;
+    }).join('');
+
+    // 绑定点击预览
+    grid.querySelectorAll('.logo-item').forEach(item => {
+      item.addEventListener('click', () => {
+        document.getElementById('modalImg').src = item.dataset.src;
+        document.getElementById('modal').classList.add('show');
+      });
+    });
+  }
+
+  // 渲染分页
+  function renderPagination() {
+    const totalPages = Math.ceil(filteredLogos.length / PAGE_SIZE) || 1;
+    const pagination = document.getElementById('pagination');
+    let html = '';
+
+    html += `<button ${currentPage === 1 ? 'disabled' : ''} onclick="goPage(${currentPage - 1})">上一页</button>`;
+
+    // 页码显示逻辑（最多显示7个页码）
+    let startPage = Math.max(1, currentPage - 3);
+    let endPage = Math.min(totalPages, startPage + 6);
+    if (endPage - startPage < 6) startPage = Math.max(1, endPage - 6);
+
+    if (startPage > 1) {
+      html += `<button onclick="goPage(1)">1</button>`;
+      if (startPage > 2) html += `<span>...</span>`;
+    }
+
+    for (let i = startPage; i <= endPage; i++) {
+      html += `<button class="${i === currentPage ? 'active' : ''}" onclick="goPage(${i})">${i}</button>`;
+    }
+
+    if (endPage < totalPages) {
+      if (endPage < totalPages - 1) html += `<span>...</span>`;
+      html += `<button onclick="goPage(${totalPages})">${totalPages}</button>`;
+    }
+
+    html += `<button ${currentPage === totalPages ? 'disabled' : ''} onclick="goPage(${currentPage + 1})">下一页</button>`;
+    pagination.innerHTML = html;
+  }
+
+  function goPage(page) {
+    currentPage = page;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    render();
+  }
+
+  // 关闭弹窗
+  document.getElementById('modal').addEventListener('click', () => {
+    document.getElementById('modal').classList.remove('show');
+  });
+</script>
+</body>
+</html>
+EOF
+          echo "✅ 生成预览主页: index.html"
+
       - name: 暂存文件
-        run: git add "$LOGO_DIR"/*.$FILE_EXT 2>/dev/null || true
+        run: |
+          git add "$LOGO_DIR"/*.$FILE_EXT 2>/dev/null || true
+          git add logo_list.json index.html 2>/dev/null || true
         continue-on-error: true
 
       - name: 提交并推送更新
@@ -188,5 +432,3 @@ jobs:
       - name: 最终清理
         if: always()
         run: rm -rf temp_* .temp_* /tmp/tmp.* 2>/dev/null
-
-
