@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>台标预览库</title>
+<base href="./">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
@@ -38,6 +39,8 @@
   }
   #searchInput:focus { border-color: #409eff; }
   .stats { color: #666; font-size: 14px; }
+  .tip { color: #909399; font-size: 13px; margin-top: 8px; }
+  .tip.error { color: #f56c6c; }
   .grid {
     max-width: 1400px;
     margin: 0 auto;
@@ -115,9 +118,10 @@
 <div class="header">
   <h1>📺 频道台标预览库</h1>
   <div class="search-bar">
-    <input type="text" id="searchInput" placeholder="输入频道名搜索...">
-    <span class="stats" id="stats"></span>
+    <input type="text" id="searchInput" placeholder="输入频道名搜索..." disabled>
+    <span class="stats" id="stats">加载中...</span>
   </div>
+  <div class="tip" id="tip">正在加载台标清单，请稍候...</div>
 </div>
 
 <div class="grid" id="logoGrid"></div>
@@ -130,16 +134,34 @@
 <script>
   const PAGE_SIZE = 100;
   let allLogos = [], filteredLogos = [], currentPage = 1;
+  const searchInput = document.getElementById('searchInput');
+  const statsEl = document.getElementById('stats');
+  const tipEl = document.getElementById('tip');
 
-  fetch('logo_list.json')
-    .then(res => res.json())
+  // 加载台标清单，增加错误捕获
+  fetch('./logo_list.json')
+    .then(res => {
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return res.json();
+    })
     .then(data => {
+      if (!Array.isArray(data) || data.length === 0) {
+        throw new Error('台标清单为空');
+      }
       allLogos = data;
       filteredLogos = data;
+      searchInput.disabled = false;
+      tipEl.textContent = `加载完成，共 ${data.length} 个台标`;
       render();
+    })
+    .catch(err => {
+      tipEl.className = 'tip error';
+      tipEl.textContent = '加载失败：' + err.message + '，请检查 logo_list.json 是否存在，或访问地址末尾是否带 /';
+      statsEl.textContent = '加载失败';
     });
 
-  document.getElementById('searchInput').addEventListener('input', e => {
+  // 搜索
+  searchInput.addEventListener('input', e => {
     const kw = e.target.value.trim().toLowerCase();
     filteredLogos = allLogos.filter(p => p.toLowerCase().includes(kw));
     currentPage = 1;
@@ -149,8 +171,7 @@
   function render() {
     renderGrid();
     renderPagination();
-    document.getElementById('stats').textContent = 
-      `共 ${filteredLogos.length} 个台标，第 ${currentPage} 页`;
+    statsEl.textContent = `共 ${filteredLogos.length} 个台标，第 ${currentPage} 页`;
   }
 
   function renderGrid() {
