@@ -50,7 +50,6 @@ jobs:
             # === 第二梯队：全量补充源 ===
             "https://github.com/mytv-android/myTVlogo|img"
             "https://github.com/wanglindl/TVlogo|logo"
-            "https://github.com/Clours-yang/TVbox-logo|logos"
             "https://github.com/iptv-org/logos|logos"
 
             # === 第三梯队：兜底补充源 ===
@@ -60,7 +59,6 @@ jobs:
             "https://github.com/lizongying/my-tv-logo|images"
           )
 
-          NEW_COUNT=0
           TEMP_ROOT=$(mktemp -d)
 
           # 重试函数
@@ -77,81 +75,86 @@ jobs:
             return 1
           }
 
+          # 单个仓库处理函数：内部完全捕获错误，永远返回0
+          process_repo() {
+            local REPO_LINE="$1"
+            IFS='|' read -r URL SRC_DIRS BRANCH <<< "$REPO_LINE"
+            local REPO_HASH=$(echo "$URL" | md5sum | cut -c1-8)
+            local TEMP_DIR="$TEMP_ROOT/repo_$REPO_HASH"
+            local REPO_NAME=$(basename "$URL" .git)
+
+            echo "======================================"
+            echo "📦 正在处理仓库: $REPO_NAME"
+
+            # 自动检测默认分支，失败回退到 main
+            if [ -z "${BRANCH:-}" ]; then
+              BRANCH=$(git ls-remote --symref "$URL" HEAD 2>/dev/null | grep '^ref:' | awk '{print $2}' | sed 's|refs/heads/||')
+              BRANCH=${BRANCH:-main}
+            fi
+            echo "🔖 使用分支: $BRANCH"
+
+            # 克隆失败直接返回，不抛出错误
+            if ! retry_cmd git clone --depth 1 --filter=blob:none --no-checkout --branch "$BRANCH" "$URL" "$TEMP_DIR"; then
+              echo "❌ 仓库克隆失败，跳过"
+              return 0
+            fi
+
+            cd "$TEMP_DIR"
+            git sparse-checkout init --cone 2>/dev/null || true
+
+            IFS=',' read -ra DIR_LIST <<< "$SRC_DIRS"
+            local DIR_SUCCESS=0
+            for DIR in "${DIR_LIST[@]}"; do
+              DIR=$(echo "$DIR" | xargs)
+
+              if ! git ls-tree HEAD "$DIR" &>/dev/null; then
+                echo "  📂 目录 $DIR 不存在，跳过"
+                continue
+              fi
+
+              if ! retry_cmd git sparse-checkout set "$DIR"; then
+                echo "  📂 目录 $DIR 检出失败，跳过"
+                continue
+              fi
+              if ! retry_cmd git checkout; then
+                echo "  📂 目录 $DIR 检出失败，跳过"
+                continue
+              fi
+
+              # 批量复制台标文件，同名不覆盖（保证优先级）
+              while IFS= read -r -d '' file; do
+                local filename=$(basename "$file")
+                [ "$FORCE_LOWERCASE" = "true" ] && filename=$(echo "$filename" | tr '[:upper:]' '[:lower:]')
+                local target="$WORKSPACE/$LOGO_DIR/$filename"
+
+                if [ ! -f "$target" ]; then
+                  cp -f "$file" "$target"
+                fi
+              done < <(find "$DIR" -name "*.$FILE_EXT" -type f -size +"$MIN_FILE_SIZE" -print0 2>/dev/null)
+
+              DIR_SUCCESS=$((DIR_SUCCESS + 1))
+            done
+
+            echo "✅ 处理完成，有效目录: $DIR_SUCCESS/${#DIR_LIST[@]}"
+            cd "$WORKSPACE"
+            return 0
+          }
+
+          # 遍历所有仓库，单个失败绝不影响整体
           for REPO in "${REPOS[@]}"; do
-            # 单个仓库错误捕获：失败则跳过，不终止整体流程
-            (
-              IFS='|' read -r URL SRC_DIRS BRANCH <<< "$REPO"
-              REPO_HASH=$(echo "$URL" | md5sum | cut -c1-8)
-              TEMP_DIR="$TEMP_ROOT/repo_$REPO_HASH"
-              REPO_NAME=$(basename "$URL" .git)
-
-              echo "======================================"
-              echo "📦 正在处理仓库: $REPO_NAME"
-
-              # 自动检测默认分支，失败则回退到 main
-              if [ -z "${BRANCH:-}" ]; then
-                BRANCH=$(git ls-remote --symref "$URL" HEAD 2>/dev/null | grep '^ref:' | awk '{print $2}' | sed 's|refs/heads/||')
-                BRANCH=${BRANCH:-main}
-              fi
-              echo "🔖 使用分支: $BRANCH"
-
-              # 克隆仓库，失败则退出当前子shell（跳过该仓库）
-              if ! retry_cmd git clone --depth 1 --filter=blob:none --no-checkout --branch "$BRANCH" "$URL" "$TEMP_DIR"; then
-                echo "❌ 仓库克隆失败，跳过"
-                exit 0
-              fi
-
-              cd "$TEMP_DIR"
-              git sparse-checkout init --cone 2>/dev/null || true
-
-              IFS=',' read -ra DIR_LIST <<< "$SRC_DIRS"
-              DIR_SUCCESS=0
-              for DIR in "${DIR_LIST[@]}"; do
-                DIR=$(echo "$DIR" | xargs)
-
-                if ! git ls-tree HEAD "$DIR" &>/dev/null; then
-                  echo "  📂 目录 $DIR 不存在，跳过"
-                  continue
-                fi
-
-                if ! retry_cmd git sparse-checkout set "$DIR"; then
-                  echo "  📂 目录 $DIR 检出失败，跳过"
-                  continue
-                fi
-                if ! retry_cmd git checkout; then
-                  echo "  📂 目录 $DIR 检出失败，跳过"
-                  continue
-                fi
-
-                # 批量复制台标文件
-                while IFS= read -r -d '' file; do
-                  filename=$(basename "$file")
-                  [ "$FORCE_LOWERCASE" = "true" ] && filename=$(echo "$filename" | tr '[:upper:]' '[:lower:]')
-                  target="$WORKSPACE/$LOGO_DIR/$filename"
-
-                  if [ ! -f "$target" ]; then
-                    cp -f "$file" "$target"
-                  fi
-                done < <(find "$DIR" -name "*.$FILE_EXT" -type f -size +"$MIN_FILE_SIZE" -print0 2>/dev/null)
-
-                DIR_SUCCESS=$((DIR_SUCCESS + 1))
-              done
-
-              echo "✅ 处理完成，有效目录: $DIR_SUCCESS/${#DIR_LIST[@]}"
-            )
+            process_repo "$REPO"
           done
-
-          # 统计新增数量
-          FINAL_COUNT=$(find "$LOGO_DIR" -name "*.$FILE_EXT" -type f | wc -l)
-          NEW_COUNT=$((FINAL_COUNT - INIT_COUNT))
-          [ $NEW_COUNT -lt 0 ] && NEW_COUNT=0
 
           # 收尾清理
           find "$LOGO_DIR" -type f -name "*.$FILE_EXT" ! -size +"$MIN_FILE_SIZE" -delete 2>/dev/null
           find "$LOGO_DIR" -type d -empty -delete 2>/dev/null
           rm -rf "$TEMP_ROOT"
 
-          # 写入环境变量
+          # 统计结果
+          FINAL_COUNT=$(find "$LOGO_DIR" -name "*.$FILE_EXT" -type f | wc -l)
+          NEW_COUNT=$((FINAL_COUNT - INIT_COUNT))
+          [ $NEW_COUNT -lt 0 ] && NEW_COUNT=0
+
           echo "NEW_COUNT=$NEW_COUNT" >> $GITHUB_ENV
           echo "FINAL_COUNT=$FINAL_COUNT" >> $GITHUB_ENV
 
