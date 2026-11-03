@@ -2,8 +2,8 @@ name: Daily Hami EPG Update
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 时间 00:00 执行（台北时间 08:00）
-  workflow_dispatch:     # 允许手动触发
+    - cron: '0 0 * * *'  # 每天 UTC 00:00（台北时间 08:00）
+  workflow_dispatch:
 
 jobs:
   generate-epg:
@@ -13,7 +13,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        
+        with:
+          fetch-depth: 0  # 拉取完整历史，解决浅克隆导致的推送失败
+          
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -22,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests pytz loguru opencc-python-reimplemented
+          pip install requests pytz loguru opencc-python-reimplemented aiohttp
           
       - name: Run EPG Generator
         run: python hami.py
@@ -33,5 +35,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add epg/hami.xml
           git commit -m "Auto-update Hami EPG" || echo "No changes to commit"
+          # 先同步远程最新提交，再推送
+          git pull --rebase origin main
           git push
 
