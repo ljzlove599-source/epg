@@ -52,4 +52,13 @@ jobs:
         if: always()
         run: |
           ls -la epg
-          cat epg/epg_generator.log
+          if [ -f epg/epg_generator.log ]; then
+            cat epg/epg_generator.log
+          else
+            echo "警告：未找到日志文件 epg/epg_generator.log，脚本可能未正常执行完成"
+          fi
+          if [ -f epg/4g.xml ]; then
+            echo "4g.xml 生成成功"
+          else
+            echo "警告：未找到目标输出文件 epg/4g.xml"
+          fi
