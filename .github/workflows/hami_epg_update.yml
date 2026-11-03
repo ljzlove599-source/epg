@@ -25,7 +25,7 @@ jobs:
           pip install requests pytz loguru opencc-python-reimplemented
           
       - name: Run EPG Generator
-        run: python Hami.py
+        run: python hami.py
         
       - name: Commit and Push EPG
         run: |
