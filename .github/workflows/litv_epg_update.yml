@@ -5,10 +5,6 @@ on:
     # 每日 UTC 时间 08:00（北京时间 16:00）执行
     - cron: '0 08 * * *'
   workflow_dispatch:  # 允许手动触发
-  #push:
-    #branches: [ main ]
-    #paths:
-      #- 'scripts/**'
 
 jobs:
   crawl-epg:
@@ -31,23 +27,20 @@ jobs:
 
     - name: Install dependencies
       run: |
-        cd scripts
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
     - name: Run EPG crawler
-      run: |
-        cd scripts
-        python litv_github.py
+      run: python litv_github.py
       continue-on-error: true
 
     - name: 检查输出文件是否存在
       id: check_file
       run: |
-        if [ -f "scripts/epg/litv.xml" ]; then
+        if [ -f "epg/litv.xml" ]; then
           echo "file_exists=true" >> $GITHUB_OUTPUT
-          echo "file_size=$(wc -c < scripts/epg/litv.xml)" >> $GITHUB_OUTPUT
-          echo "File exists with size: $(ls -lh scripts/epg/litv.xml | awk '{print $5}')"
+          echo "file_size=$(wc -c < epg/litv.xml)" >> $GITHUB_OUTPUT
+          echo "File exists with size: $(ls -lh epg/litv.xml | awk '{print $5}')"
         else
           echo "file_exists=false" >> $GITHUB_OUTPUT
           echo "file_size=0" >> $GITHUB_OUTPUT
@@ -59,7 +52,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: litv-epg
-        path: scripts/epg/litv.xml
+        path: epg/litv.xml
         retention-days: 7
 
     - name: 提交并推送文件变更
@@ -68,12 +61,6 @@ jobs:
         # 配置 Git
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        
-        # 创建输出目录
-        mkdir -p epg
-        
-        # 复制文件到仓库根目录的 epg 下
-        cp scripts/epg/litv.xml epg/
         
         # 检查文件与上次提交是否有差异
         if git diff --quiet HEAD epg/litv.xml 2>/dev/null; then
@@ -92,9 +79,9 @@ jobs:
       run: |
         echo "🎉 LiTV EPG 更新成功！"
         echo "📅 更新时间: $(date -u +'%Y-%m-%d %H:%M:%S') UTC"
-        if [ -f "scripts/epg/litv.xml" ]; then
+        if [ -f "epg/litv.xml" ]; then
           echo "📁 文件路径: epg/litv.xml"
-          echo "📊 文件大小: $(ls -lh scripts/epg/litv.xml | awk '{print $5}')"
+          echo "📊 文件大小: $(ls -lh epg/litv.xml | awk '{print $5}')"
         fi
 
     - name: 发送失败通知
@@ -103,4 +90,5 @@ jobs:
         echo "❌ LiTV EPG 更新失败！"
         echo "📅 失败时间: $(date -u +'%Y-%m-%d %H:%M:%S') UTC"
         echo "请查看 GitHub Actions 日志获取详细信息。"
+
 
