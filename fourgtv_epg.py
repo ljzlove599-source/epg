@@ -14,13 +14,22 @@ from loguru import logger
 # 繁简转换依赖检查与初始化
 try:
     from opencc import OpenCC
-    CC_T2S = OpenCC('t2s')  # 繁体转简体配置
+    CC_T2S = OpenCC('t2s')
 except ImportError:
     print("依赖缺失：请先执行 pip install opencc-python-reimplemented 安装繁简转换库")
     sys.exit(1)
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# 路径配置：基于当前工作目录，兼容本地与GitHub Actions环境
+BASE_DIR = os.getcwd()
 OUTPUT_DIR = os.path.join(BASE_DIR, "epg")
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# 提前初始化日志（控制台+文件双输出）
+log_file = os.path.join(OUTPUT_DIR, "epg_generator.log")
+logger.remove()
+logger.add(sys.stderr, format="{time:YYYY-MM-DD HH:mm:ss} | {level} | {message}")
+logger.add(log_file, rotation="1 day", retention="7 days", encoding="utf-8",
+           format="{time:YYYY-MM-DD HH:mm:ss} | {level} | {message}")
 
 CHANNEL_API_URL = "https://api2.4gtv.tv/Channel/GetAllChannel/pc/L"
 LOCAL_CHANNEL_FILE = os.path.join(OUTPUT_DIR, "fourgtv.json")
