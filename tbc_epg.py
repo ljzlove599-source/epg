@@ -3,8 +3,8 @@
 """
 TBC EPG 抓取器
 支持 HTTP_PROXY, HTTPS_PROXY, SOCKS5_PROXY 环境变量
-包含重试、并发控制、随机延迟，输出 XMLTV 格式文件到 epg 目录
-内置繁体转简体功能
+包含双重重试、并发控制、随机延迟，输出 XMLTV 格式文件到 epg 目录
+内置繁体转简体功能，适配 GitHub Actions 跨境网络环境
 """
 
 import asyncio
@@ -28,7 +28,6 @@ from opencc import OpenCC
 
 # ---------- 全局配置 ----------
 TAIPEI_TZ = pytz.timezone('Asia/Taipei')
-#SHANGHAI_TZ = pytz.timezone('Asia/Shanghai')
 
 # 输出目录 (由环境变量或默认值 epg)
 OUTPUT_DIR = os.environ.get("OUTPUT_DIR", "epg")
@@ -40,17 +39,17 @@ CC = OpenCC('t2s')
 # ---------- 代理配置 (支持 HTTP_PROXY, HTTPS_PROXY, SOCKS5_PROXY) ----------
 PROXIES = {}
 
-http_proxy = os.environ.get("HTTP_PROXY")
+http_proxy = os.environ.get("HTTP_PROXY") or os.environ.get("http_proxy")
 if http_proxy:
     PROXIES["http"] = http_proxy
 
-https_proxy = os.environ.get("HTTPS_PROXY")
+https_proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
 if https_proxy:
     PROXIES["https"] = https_proxy
 elif http_proxy and not https_proxy:
     PROXIES["https"] = http_proxy
 
-socks5_proxy = os.environ.get("SOCKS5_PROXY")
+socks5_proxy = os.environ.get("SOCKS5_PROXY") or os.environ.get("socks5_proxy")
 if socks5_proxy:
     PROXIES["socks5"] = socks5_proxy
     PROXIES["socks5h"] = socks5_proxy
@@ -61,15 +60,20 @@ else:
     logger.info("未设置代理环境变量，使用直连")
 
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+    'Accept-Language': 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+    'Referer': 'https://www.tbc.net.tw/EPG/'
 }
 
-# 并发控制：同时最多 10 个请求
-SEMAPHORE = asyncio.Semaphore(10)
+# 并发控制：同时最多 8 个请求（跨境环境降低并发减少超时）
+SEMAPHORE = asyncio.Semaphore(8)
 
-# 重试配置
-RETRY_COUNT = 3
-RETRY_BACKOFF = 2  # 指数退避基数（秒）
+# 重试配置（增强版，适配跨境网络）
+RETRY_COUNT = 5
+RETRY_BACKOFF = 3  # 指数退避基数（秒）
+CONNECT_TIMEOUT = 30  # 连接超时（秒）
+READ_TIMEOUT = 60     # 读取超时（秒）
 
 
 def async_retry(max_retries=RETRY_COUNT, backoff=RETRY_BACKOFF):
@@ -83,7 +87,7 @@ def async_retry(max_retries=RETRY_COUNT, backoff=RETRY_BACKOFF):
                     return await func(*args, **kwargs)
                 except Exception as e:
                     last_exception = e
-                    wait_time = backoff ** attempt + random.uniform(0, 1)
+                    wait_time = backoff ** attempt + random.uniform(0, 2)
                     logger.warning(f"重试 {func.__name__} (尝试 {attempt+1}/{max_retries})，等待 {wait_time:.2f} 秒，错误: {str(e)}")
                     await asyncio.sleep(wait_time)
             raise last_exception
@@ -97,10 +101,10 @@ def create_retry_session():
     retries = Retry(
         total=RETRY_COUNT,
         backoff_factor=RETRY_BACKOFF,
-        status_forcelist=[500, 502, 503, 504],
+        status_forcelist=[500, 502, 503, 504, 429],
         allowed_methods=["GET"]
     )
-    adapter = HTTPAdapter(max_retries=retries)
+    adapter = HTTPAdapter(max_retries=retries, pool_connections=20, pool_maxsize=20)
     session.mount("http://", adapter)
     session.mount("https://", adapter)
     session.proxies.update(PROXIES)
@@ -110,7 +114,7 @@ def create_retry_session():
 
 # ---------- 工具函数 ----------
 def t2s(text):
-    """繁体文本转简体"""
+    """繁体文本转简体，空值安全"""
     if not text:
         return text
     return CC.convert(text)
@@ -129,8 +133,8 @@ def time_stamp_to_timezone_str(dt, target_tz):
 
 
 @async_retry(max_retries=RETRY_COUNT)
-async def fetch_url(session, url, timeout=30):
-    """异步 GET 请求，带重试"""
+async def fetch_url(session, url, timeout=(CONNECT_TIMEOUT, READ_TIMEOUT)):
+    """异步 GET 请求，带双重重试，超时分离"""
     response = await asyncio.to_thread(session.get, url, timeout=timeout)
     response.raise_for_status()
     return response
@@ -142,7 +146,7 @@ async def get_channels_tbc():
     try:
         session = create_retry_session()
         init_url = "https://www.tbc.net.tw/EPG/Epg/IndexV2/0/1"
-        response = await fetch_url(session, init_url, timeout=10)
+        response = await fetch_url(session, init_url)
         response.encoding = "utf-8"
         soup = bs(response.text, "html.parser")
 
@@ -186,7 +190,7 @@ async def get_epgs_tbc(channel_id, date_str, channel_name):
     async with SEMAPHORE:  # 控制并发
         try:
             session = create_retry_session()
-            response = await fetch_url(session, url, timeout=30)
+            response = await fetch_url(session, url)
             response.encoding = "utf-8"
             soup = bs(response.text, "html.parser")
             uls = soup.find_all("ul", class_="list_program2")
@@ -242,12 +246,11 @@ async def get_epgs_tbc(channel_id, date_str, channel_name):
                     except Exception as e:
                         logger.error(f"处理节目时间出错: {program_date} {time_range} - {str(e)}")
 
-            # 随机延迟，避免单一频道内请求过快（每个频道只请求一次，此延迟用于不同频道之间）
-            await asyncio.sleep(random.uniform(0.5, 2.0))
+            # 随机延迟，降低请求速率
+            await asyncio.sleep(random.uniform(1, 3))
 
         except Exception as e:
             logger.error(f"解析频道 {channel_id} ({channel_name}) 失败: {str(e)}")
-            # 不中断其他频道，返回空列表
             return programs
 
     return programs
@@ -292,7 +295,7 @@ async def get_tbc_epg(total_days=6):
 
         # 两天之间增加较长延迟，避免触发速率限制
         if day_offset < total_days - 1:
-            await asyncio.sleep(random.uniform(3, 6))
+            await asyncio.sleep(random.uniform(5, 10))
 
     # 统计
     channel_counts = {}
@@ -306,11 +309,10 @@ async def get_tbc_epg(total_days=6):
 
 
 def generate_epg_xml(channels, programs):
-    """生成 XMLTV 格式的 EPG 数据 (通用排序与美化)"""
+    """生成 XMLTV 格式的 EPG 数据"""
     import xml.etree.ElementTree as ET
     from xml.dom import minidom
 
-    # 创建根元素，使用较标准的属性名称
     tv = ET.Element("tv", {"generator-info-name": "Taiwan-Broadband-EPG"})
 
     # 收集每个频道的节目
@@ -319,19 +321,18 @@ def generate_epg_xml(channels, programs):
         ch_name = prog["channelName"]
         channel_programs.setdefault(ch_name, []).append(prog)
 
-    # 1. 先输出所有 channel 元素
+    # 输出 channel 元素
     for channel_info in channels:
         ch_name = channel_info["channelName"]
         channel_elem = ET.SubElement(tv, "channel", id=ch_name)
         ET.SubElement(channel_elem, "display-name", lang="zh").text = ch_name
 
-    # 2. 再输出所有 programme 元素，并按开始时间排序（提升可读性）
+    # 输出 programme 元素，按开始时间排序
     all_progs = []
     for ch_name, progs in channel_programs.items():
         for prog in progs:
             all_progs.append((prog["start"], prog, ch_name))
 
-    # 按 start 时间排序
     all_progs.sort(key=lambda x: x[0])
 
     for _, prog, ch_name in all_progs:
@@ -350,7 +351,7 @@ def generate_epg_xml(channels, programs):
             desc_clean = html.escape(desc_clean)
             ET.SubElement(programme, "desc", lang="zh").text = desc_clean
 
-    # 3. 美化 XML 输出（含缩进）
+    # 美化 XML 输出
     rough_string = ET.tostring(tv, encoding='utf-8')
     reparsed = minidom.parseString(rough_string)
     pretty_xml = reparsed.toprettyxml(indent="  ", encoding='utf-8')
