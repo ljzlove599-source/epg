@@ -31,7 +31,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run EPG crawler
-      run: python litv_github.py
+      run: python litv_epg.py
       continue-on-error: true
 
     - name: 检查输出文件是否存在
