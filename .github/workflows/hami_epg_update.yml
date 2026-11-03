@@ -8,7 +8,7 @@ on:
 jobs:
   generate-epg:
     runs-on: ubuntu-latest
-    timeout-minutes: 60  # 设置更长的超时时间
+    timeout-minutes: 60
     
     steps:
       - name: Checkout code
@@ -34,3 +34,4 @@ jobs:
           git add epg/hami.xml
           git commit -m "Auto-update Hami EPG" || echo "No changes to commit"
           git push
+
