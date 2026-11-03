@@ -32,19 +32,30 @@ jobs:
 
     - name: Run EPG crawler
       run: python litv_epg.py
-      continue-on-error: true
+      # 稳定运行后可恢复此行，调试阶段建议注释
+      # continue-on-error: true
+
+    - name: 调试：查看目录与文件状态
+      run: |
+        echo "=== 当前工作目录 ==="
+        pwd
+        echo "=== 根目录文件列表 ==="
+        ls -la
+        echo "=== epg 目录内容 ==="
+        ls -la epg/ 2>/dev/null || echo "epg 目录不存在"
 
     - name: 检查输出文件是否存在
       id: check_file
       run: |
         if [ -f "epg/litv.xml" ]; then
           echo "file_exists=true" >> $GITHUB_OUTPUT
-          echo "file_size=$(wc -c < epg/litv.xml)" >> $GITHUB_OUTPUT
-          echo "File exists with size: $(ls -lh epg/litv.xml | awk '{print $5}')"
+          file_size=$(wc -c < epg/litv.xml)
+          echo "file_size=$file_size" >> $GITHUB_OUTPUT
+          echo "文件存在，大小: $(ls -lh epg/litv.xml | awk '{print $5}')"
         else
           echo "file_exists=false" >> $GITHUB_OUTPUT
           echo "file_size=0" >> $GITHUB_OUTPUT
-          echo "Output file not found!"
+          echo "❌ 输出文件 epg/litv.xml 不存在"
         fi
 
     - name: Upload EPG file as artifact
@@ -62,33 +73,32 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         
-        # 检查文件与上次提交是否有差异
-        if git diff --quiet HEAD epg/litv.xml 2>/dev/null; then
-          echo "No changes to commit"
+        # 强制追踪文件，兼容首次提交的场景
+        git add -f epg/litv.xml
+        
+        # 判断暂存区是否有变更
+        if git diff --cached --quiet; then
+          echo "无变更，无需提交"
         else
-          # 添加并提交
-          git add epg/litv.xml
           git commit -m "Auto-update: LiTV EPG data $(date -u +'%Y-%m-%d %H:%M:%S') UTC"
-          
-          # 推送变更
           git push
+          echo "✅ 已提交并推送 epg/litv.xml"
         fi
 
     - name: 发送成功通知
-      if: success()
+      if: success() && steps.check_file.outputs.file_exists == 'true'
       run: |
         echo "🎉 LiTV EPG 更新成功！"
         echo "📅 更新时间: $(date -u +'%Y-%m-%d %H:%M:%S') UTC"
-        if [ -f "epg/litv.xml" ]; then
-          echo "📁 文件路径: epg/litv.xml"
-          echo "📊 文件大小: $(ls -lh epg/litv.xml | awk '{print $5}')"
-        fi
+        echo "📁 文件路径: epg/litv.xml"
+        echo "📊 文件大小: $(ls -lh epg/litv.xml | awk '{print $5}')"
 
     - name: 发送失败通知
-      if: failure()
+      if: failure() || steps.check_file.outputs.file_exists == 'false'
       run: |
         echo "❌ LiTV EPG 更新失败！"
         echo "📅 失败时间: $(date -u +'%Y-%m-%d %H:%M:%S') UTC"
-        echo "请查看 GitHub Actions 日志获取详细信息。"
+        echo "请查看上方脚本日志和目录结构输出，定位具体报错原因。"
+
 
 
