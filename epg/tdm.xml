@@ -1,2 +1,1275 @@
-<?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="TDM 澳门广播电视" generator-info-name="LaobaiEPG GitHubAction"><channel id="tdm-1.tdm.com.mo"><display-name>澳视澳门</display-name></channel><channel id="tdm-2.tdm.com.mo"><display-name>澳视葡文台</display-name></channel><channel id="tdm-5.tdm.com.mo"><display-name>澳门资讯</display-name></channel><channel id="tdm-6.tdm.com.mo"><display-name>澳视体育</display-name></channel><channel id="tdm-7.tdm.com.mo"><display-name>澳门综艺</display-name></channel><channel id="tdm-8.tdm.com.mo"><display-name>澳門-Macau</display-name></channel><programme channel="tdm-1.tdm.com.mo" start="20261104070000 +0800" stop="20261104080000 +0800"><title>早晨新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104080000 +0800" stop="20261104090000 +0800"><title>澳門早晨</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104090000 +0800" stop="20261104090200 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104090200 +0800" stop="20261104092500 +0800"><title>澳門人澳門事</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104092500 +0800" stop="20261104100000 +0800"><title>大開眼界</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104100000 +0800" stop="20261104103000 +0800"><title>新聞報道</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104103000 +0800" stop="20261104111000 +0800"><title>重播競健群英 2026</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104111000 +0800" stop="20261104111500 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104111500 +0800" stop="20261104125000 +0800"><title>被遺忘的時光</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104125000 +0800" stop="20261104131700 +0800"><title>超級巴斯德</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104131700 +0800" stop="20261104132400 +0800"><title>營商創新研究所</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104132400 +0800" stop="20261104133000 +0800"><title>午間天氣報告</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104133000 +0800" stop="20261104140000 +0800"><title>午間新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104140000 +0800" stop="20261104150000 +0800"><title>每日財經</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104150000 +0800" stop="20261104154000 +0800"><title>重播競健群英 2026</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104154000 +0800" stop="20261104160000 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104160000 +0800" stop="20261104163000 +0800"><title>兒童節目︰小涼帽第4季 之山海奇境</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104163000 +0800" stop="20261104165600 +0800"><title>兒童節目︰萌賽可第一季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104165600 +0800" stop="20261104170000 +0800"><title>兒童節目︰萌浪兔 第2季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104170000 +0800" stop="20261104180000 +0800"><title>兒童節目︰冰雪守護者第1季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104180000 +0800" stop="20261104184300 +0800"><title>動感教菁</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104184300 +0800" stop="20261104185000 +0800"><title>營商創新研究所</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104185000 +0800" stop="20261104190000 +0800"><title>新聞提要</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104190000 +0800" stop="20261104195500 +0800"><title>澳視新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104195500 +0800" stop="20261104200000 +0800"><title>天氣報告</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104200000 +0800" stop="20261104213300 +0800"><title>被遺忘的時光</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104213300 +0800" stop="20261104220000 +0800"><title>熱鬧新聽力</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104220000 +0800" stop="20261104223000 +0800"><title>普通話新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104223000 +0800" stop="20261104224800 +0800"><title>十點半澳視縱橫︰放眼世界</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104224800 +0800" stop="20261104230000 +0800"><title>新聞深度遊</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104230000 +0800" stop="20261104231500 +0800"><title>營商創新研究所</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104231500 +0800" stop="20261104235000 +0800"><title>晚間新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261104235000 +0800" stop="20261105000100 +0800"><title>體育新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105000100 +0800" stop="20261105002700 +0800"><title>灣區全媒睇</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105002700 +0800" stop="20261105004900 +0800"><title>熱鬧新聽力</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105004900 +0800" stop="20261105010500 +0800"><title>重播放眼世界</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105010500 +0800" stop="20261105011700 +0800"><title>重播新聞深度遊</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105011700 +0800" stop="20261105012700 +0800"><title>營商創新研究所</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105012700 +0800" stop="20261105030000 +0800"><title>被遺忘的時光</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105030000 +0800" stop="20261105032500 +0800"><title>錄播普通話新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105032500 +0800" stop="20261105040000 +0800"><title>錄播晚間新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105040000 +0800" stop="20261105042500 +0800"><title>熱鬧新聽力</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105042500 +0800" stop="20261105044700 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105044700 +0800" stop="20261105050300 +0800"><title>重播放眼世界</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105050300 +0800" stop="20261105051500 +0800"><title>重播新聞深度遊</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105051500 +0800" stop="20261105052500 +0800"><title>營商創新研究所</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105052500 +0800" stop="20261104235959 +0800"><title>太平年</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105070000 +0800" stop="20261105080000 +0800"><title>早晨新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105080000 +0800" stop="20261105090000 +0800"><title>澳門早晨</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105090000 +0800" stop="20261105090200 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105090200 +0800" stop="20261105092500 +0800"><title>熱鬧新聽力</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105092500 +0800" stop="20261105100000 +0800"><title>味道-美味阿勒泰</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105100000 +0800" stop="20261105103000 +0800"><title>新聞報道</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105103000 +0800" stop="20261105104600 +0800"><title>重播放眼世界</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105104600 +0800" stop="20261105105800 +0800"><title>重播新聞深度遊</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105105800 +0800" stop="20261105111000 +0800"><title>營商創新研究所</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105111000 +0800" stop="20261105111500 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105111500 +0800" stop="20261105125000 +0800"><title>被遺忘的時光</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105125000 +0800" stop="20261105131700 +0800"><title>超級巴斯德</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105131700 +0800" stop="20261105132400 +0800"><title>育才成長  築新未來︰家長學堂</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105132400 +0800" stop="20261105133000 +0800"><title>午間天氣報告</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105133000 +0800" stop="20261105140000 +0800"><title>午間新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105140000 +0800" stop="20261105150000 +0800"><title>每日財經</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105150000 +0800" stop="20261105151600 +0800"><title>重播放眼世界</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105151600 +0800" stop="20261105152800 +0800"><title>重播新聞深度遊</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105152800 +0800" stop="20261105154000 +0800"><title>營商創新研究所</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105154000 +0800" stop="20261105160000 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105160000 +0800" stop="20261105163000 +0800"><title>兒童節目︰小涼帽第4季 之山海奇境</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105163000 +0800" stop="20261105165600 +0800"><title>兒童節目︰萌賽可第一季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105165600 +0800" stop="20261105170000 +0800"><title>兒童節目︰萌浪兔 第2季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105170000 +0800" stop="20261105180000 +0800"><title>兒童節目︰冰雪守護者第1季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105180000 +0800" stop="20261105184300 +0800"><title>重播動感教菁</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105184300 +0800" stop="20261105185000 +0800"><title>育才成長  築新未來︰家長學堂</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105185000 +0800" stop="20261105190000 +0800"><title>新聞提要</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105190000 +0800" stop="20261105195500 +0800"><title>澳視新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105195500 +0800" stop="20261105200000 +0800"><title>天氣報告</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105200000 +0800" stop="20261105213300 +0800"><title>被遺忘的時光</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105213300 +0800" stop="20261105220000 +0800"><title>教煮CHILL 好玩</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105220000 +0800" stop="20261105223000 +0800"><title>普通話新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105223000 +0800" stop="20261105231500 +0800"><title>十點半澳視縱橫︰風火台</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105231500 +0800" stop="20261105235000 +0800"><title>晚間新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261105235000 +0800" stop="20261106000100 +0800"><title>體育新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106000100 +0800" stop="20261106002700 +0800"><title>灣區全媒睇</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106002700 +0800" stop="20261106004900 +0800"><title>教煮CHILL 好玩</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106004900 +0800" stop="20261106012700 +0800"><title>重播風火台</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106012700 +0800" stop="20261106030000 +0800"><title>被遺忘的時光</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106030000 +0800" stop="20261106032500 +0800"><title>錄播普通話新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106032500 +0800" stop="20261106040000 +0800"><title>錄播晚間新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106040000 +0800" stop="20261106042500 +0800"><title>教煮CHILL 好玩</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106042500 +0800" stop="20261106044700 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106044700 +0800" stop="20261106052500 +0800"><title>重播風火台</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106052500 +0800" stop="20261105235959 +0800"><title>太平年</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106070000 +0800" stop="20261106080000 +0800"><title>早晨新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106080000 +0800" stop="20261106090000 +0800"><title>澳門早晨</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106090000 +0800" stop="20261106090200 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106090200 +0800" stop="20261106092500 +0800"><title>教煮CHILL 好玩</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106092500 +0800" stop="20261106100000 +0800"><title>味道-美味阿勒泰</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106100000 +0800" stop="20261106103000 +0800"><title>新聞報道</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106103000 +0800" stop="20261106111000 +0800"><title>重播風火台</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106111000 +0800" stop="20261106111500 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106111500 +0800" stop="20261106125000 +0800"><title>被遺忘的時光</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106125000 +0800" stop="20261106130500 +0800"><title>鄉間物語</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106130500 +0800" stop="20261106131200 +0800"><title>萬物有靈</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106131200 +0800" stop="20261106131700 +0800"><title>“你問我答”粵澳法律直播間</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106131700 +0800" stop="20261106132400 +0800"><title>橫琴攻略</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106132400 +0800" stop="20261106133000 +0800"><title>午間天氣報告</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106133000 +0800" stop="20261106140000 +0800"><title>午間新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106140000 +0800" stop="20261106150000 +0800"><title>每日財經</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106150000 +0800" stop="20261106154000 +0800"><title>重播風火台</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106154000 +0800" stop="20261106160000 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106160000 +0800" stop="20261106163000 +0800"><title>兒童節目︰舒克貝塔 第1季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106163000 +0800" stop="20261106165600 +0800"><title>兒童節目︰萌賽可第一季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106165600 +0800" stop="20261106170000 +0800"><title>兒童節目︰萌浪兔 第2季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106170000 +0800" stop="20261106180000 +0800"><title>兒童節目︰冰雪守護者第1季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106180000 +0800" stop="20261106184300 +0800"><title>動感教菁</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106184300 +0800" stop="20261106185000 +0800"><title>橫琴攻略</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106185000 +0800" stop="20261106190000 +0800"><title>新聞提要</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106190000 +0800" stop="20261106195500 +0800"><title>澳視新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106195500 +0800" stop="20261106200000 +0800"><title>天氣報告</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106200000 +0800" stop="20261106213300 +0800"><title>被遺忘的時光</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106213300 +0800" stop="20261106220000 +0800"><title>趨記茶餐廳</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106220000 +0800" stop="20261106223000 +0800"><title>普通話新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106223000 +0800" stop="20261106230500 +0800"><title>十點半澳視縱橫︰澳視新聞檔案</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106230500 +0800" stop="20261106231500 +0800"><title>育才成長  築新未來︰家長學堂</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106231500 +0800" stop="20261106235000 +0800"><title>晚間新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261106235000 +0800" stop="20261107000100 +0800"><title>體育新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107000100 +0800" stop="20261107002700 +0800"><title>灣區全媒睇</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107002700 +0800" stop="20261107004900 +0800"><title>趨記茶餐廳</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107004900 +0800" stop="20261107011900 +0800"><title>重播澳視新聞檔案</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107011900 +0800" stop="20261107012700 +0800"><title>育才成長  築新未來︰家長學堂</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107012700 +0800" stop="20261107030000 +0800"><title>被遺忘的時光</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107030000 +0800" stop="20261107032500 +0800"><title>錄播普通話新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107032500 +0800" stop="20261107040000 +0800"><title>錄播晚間新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107040000 +0800" stop="20261107042500 +0800"><title>趨記茶餐廳</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107042500 +0800" stop="20261107044700 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107044700 +0800" stop="20261107051700 +0800"><title>重播澳視新聞檔案</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107051700 +0800" stop="20261107052500 +0800"><title>育才成長  築新未來︰家長學堂</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107052500 +0800" stop="20261106235959 +0800"><title>太平年</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107070000 +0800" stop="20261107080000 +0800"><title>早晨新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107080000 +0800" stop="20261107090000 +0800"><title>澳門早晨</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107090000 +0800" stop="20261107090200 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107090200 +0800" stop="20261107094800 +0800"><title>在世界的角落紮營</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107094800 +0800" stop="20261107100000 +0800"><title>5億年，岩石裡的生命奇跡</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107100000 +0800" stop="20261107103000 +0800"><title>新聞報道</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107103000 +0800" stop="20261107110000 +0800"><title>重播澳視新聞檔案</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107110000 +0800" stop="20261107111000 +0800"><title>育才成長  築新未來︰家長學堂</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107111000 +0800" stop="20261107111500 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107111500 +0800" stop="20261107125000 +0800"><title>金色大道</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107125000 +0800" stop="20261107130500 +0800"><title>鄉間物語</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107130500 +0800" stop="20261107131200 +0800"><title>萬物有靈</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107131200 +0800" stop="20261107131700 +0800"><title>“你問我答”粵澳法律直播間</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107131700 +0800" stop="20261107132400 +0800"><title>時局綜觀</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107132400 +0800" stop="20261107133000 +0800"><title>午間天氣報告</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107133000 +0800" stop="20261107140000 +0800"><title>午間新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107140000 +0800" stop="20261107153400 +0800"><title>無所畏懼</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107153400 +0800" stop="20261107154000 +0800"><title>巧手時光</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107154000 +0800" stop="20261107160000 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107160000 +0800" stop="20261107163000 +0800"><title>兒童節目︰舒克貝塔 第1季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107163000 +0800" stop="20261107165600 +0800"><title>兒童節目︰萌賽可第一季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107165600 +0800" stop="20261107170000 +0800"><title>兒童節目︰萌浪兔 第2季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107170000 +0800" stop="20261107171500 +0800"><title>兒童節目︰冰雪守護者第1季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107171500 +0800" stop="20261107180000 +0800"><title>兒童節目︰冰雪守護者 第2季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107180000 +0800" stop="20261107184300 +0800"><title>重播動感教菁</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107184300 +0800" stop="20261107185000 +0800"><title>時局綜觀</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107185000 +0800" stop="20261107190000 +0800"><title>新聞提要</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107190000 +0800" stop="20261107195500 +0800"><title>澳視新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107195500 +0800" stop="20261107200000 +0800"><title>天氣報告</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107200000 +0800" stop="20261107205500 +0800"><title>天下雄關</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107205500 +0800" stop="20261107214000 +0800"><title>鎮鄉之寶</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107214000 +0800" stop="20261107215000 +0800"><title>葡萄牙火車站</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107215000 +0800" stop="20261107220000 +0800"><title>蟲出江湖</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107220000 +0800" stop="20261107223000 +0800"><title>普通話新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107223000 +0800" stop="20261107231500 +0800"><title>十點半澳視縱橫︰財經雜誌</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107231500 +0800" stop="20261107235000 +0800"><title>晚間新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261107235000 +0800" stop="20261108000100 +0800"><title>體育新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108000100 +0800" stop="20261108013500 +0800"><title>無所畏懼</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108013500 +0800" stop="20261108015500 +0800"><title>露天風情葡萄牙 第一季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108015500 +0800" stop="20261108024500 +0800"><title>天下雄關</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108024500 +0800" stop="20261108030000 +0800"><title>葡萄牙火車站</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108030000 +0800" stop="20261108032500 +0800"><title>錄播普通話新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108032500 +0800" stop="20261108040000 +0800"><title>錄播晚間新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108040000 +0800" stop="20261108044700 +0800"><title>在世界的角落紮營</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108044700 +0800" stop="20261108052500 +0800"><title>重播財經雜誌</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108052500 +0800" stop="20261107235959 +0800"><title>金色大道</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108070000 +0800" stop="20261108083500 +0800"><title>孺子可教也</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108083500 +0800" stop="20261108090000 +0800"><title>趨記茶餐廳</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108090000 +0800" stop="20261108090200 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108090200 +0800" stop="20261108094800 +0800"><title>在世界的角落紮營</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108094800 +0800" stop="20261108100000 +0800"><title>5億年，岩石裡的生命奇跡</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108100000 +0800" stop="20261108103000 +0800"><title>新聞報道</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108103000 +0800" stop="20261108111000 +0800"><title>重播財經雜誌</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108111000 +0800" stop="20261108111500 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108111500 +0800" stop="20261108125000 +0800"><title>金色大道</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108125000 +0800" stop="20261108130500 +0800"><title>鄉間物語</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108130500 +0800" stop="20261108131200 +0800"><title>萬物有靈</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108131200 +0800" stop="20261108131700 +0800"><title>“你問我答”粵澳法律直播間</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108131700 +0800" stop="20261108132400 +0800"><title>SUN聞搜羅</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108132400 +0800" stop="20261108133000 +0800"><title>午間天氣報告</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108133000 +0800" stop="20261108140000 +0800"><title>午間新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108140000 +0800" stop="20261108144600 +0800"><title>無所畏懼</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108144600 +0800" stop="20261108153500 +0800"><title>白鹿原</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108153500 +0800" stop="20261108160500 +0800"><title>Z世代 青年說第二季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108160500 +0800" stop="20261108163000 +0800"><title>兒童節目︰舒克貝塔 第1季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108163000 +0800" stop="20261108165600 +0800"><title>兒童節目︰萌賽可第一季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108165600 +0800" stop="20261108170000 +0800"><title>兒童節目︰萌浪兔 第2季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108170000 +0800" stop="20261108180000 +0800"><title>兒童節目︰冰雪守護者 第2季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108180000 +0800" stop="20261108184300 +0800"><title>澳門早晨一週精華</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108184300 +0800" stop="20261108185000 +0800"><title>SUN聞搜羅</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108185000 +0800" stop="20261108190000 +0800"><title>新聞提要</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108190000 +0800" stop="20261108195500 +0800"><title>澳視新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108195500 +0800" stop="20261108200000 +0800"><title>天氣報告</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108200000 +0800" stop="20261108213500 +0800"><title>孺子可教也</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108213500 +0800" stop="20261108214000 +0800"><title>巧手時光</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108214000 +0800" stop="20261108220000 +0800"><title>詩詞有故事</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108220000 +0800" stop="20261108223000 +0800"><title>普通話新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108223000 +0800" stop="20261108231500 +0800"><title>十點半澳視縱橫︰中國城市動態</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108231500 +0800" stop="20261108235000 +0800"><title>晚間新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261108235000 +0800" stop="20261109000100 +0800"><title>體育新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261109000100 +0800" stop="20261109004700 +0800"><title>無所畏懼</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261109004700 +0800" stop="20261109013500 +0800"><title>白鹿原</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261109013500 +0800" stop="20261109020000 +0800"><title>露天風情葡萄牙 第一季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261109020000 +0800" stop="20261109025000 +0800"><title>鎮鄉之寶</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261109025000 +0800" stop="20261109030000 +0800"><title>四川非遺100 - 第四季</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261109030000 +0800" stop="20261109032500 +0800"><title>錄播普通話新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261109032500 +0800" stop="20261109040000 +0800"><title>錄播晚間新聞</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261109040000 +0800" stop="20261109044700 +0800"><title>在世界的角落紮營</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261109044700 +0800" stop="20261109052500 +0800"><title>重播中國城市動態</title></programme><programme channel="tdm-1.tdm.com.mo" start="20261109052500 +0800" stop="20261108235959 +0800"><title>金色大道</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261104133000 +0800" stop="20261104143500 +0800"><title>Telejornal RTPi (Diferido)</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261104143500 +0800" stop="20261104150000 +0800"><title>A Natureza dos Homens e dos Animais</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261104150000 +0800" stop="20261104153000 +0800"><title>Cozinha de Chef T2</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261104153000 +0800" stop="20261104161500 +0800"><title>Queridos Papás</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261104161500 +0800" stop="20261104163000 +0800"><title>O Carrinho Poli T4</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261104163000 +0800" stop="20261104164500 +0800"><title>Os Smurfs T3</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261104164500 +0800" stop="20261104171000 +0800"><title>Nutri Ventures - Em busca dos 7 Reinos</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261104171000 +0800" stop="20261104173500 +0800"><title>Legend Quest</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261104173500 +0800" stop="20261104182500 +0800"><title>Mania de Você (Repetição)</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261104182500 +0800" stop="20261104191000 +0800"><title>TDM Desporto (Repetição)</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261104191000 +0800" stop="20261104200000 +0800"><title>A Fazenda</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261104200000 +0800" stop="20261104205000 +0800"><title>Telejornal</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261104205000 +0800" stop="20261104212500 +0800"><title>A Minha Vida Sobre Rodas</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261104212500 +0800" stop="20261104214000 +0800"><title>Tradições de Portugal - Estreia</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261104214000 +0800" stop="20261104223500 +0800"><title>Mania de Você</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261104223500 +0800" stop="20261104231000 +0800"><title>TDM News</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261104231000 +0800" stop="20261104234500 +0800"><title>A Prova dos Factos</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261104234500 +0800" stop="20261104235959 +0800"><title>RTPi Directo</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261105133000 +0800" stop="20261105143500 +0800"><title>Telejornal RTPi (Diferido)</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261105143500 +0800" stop="20261105153000 +0800"><title>RTPi Directo</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261105153000 +0800" stop="20261105160000 +0800"><title>Cozinha de Chef T2</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261105160000 +0800" stop="20261105164500 +0800"><title>Queridos Papás</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261105164500 +0800" stop="20261105170000 +0800"><title>O Carrinho Poli T4</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261105170000 +0800" stop="20261105171000 +0800"><title>Os Smurfs T3</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261105171000 +0800" stop="20261105173500 +0800"><title>Nutri Ventures - Em busca dos 7 Reinos</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261105173500 +0800" stop="20261105180000 +0800"><title>Legend Quest</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261105180000 +0800" stop="20261105185000 +0800"><title>Mania de Você (Repetição)</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261105185000 +0800" stop="20261105191500 +0800"><title>Solteira e Boa Rapariga</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261105191500 +0800" stop="20261105200000 +0800"><title>A Fazenda</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261105200000 +0800" stop="20261105205000 +0800"><title>Telejornal</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261105205000 +0800" stop="20261105212000 +0800"><title>Foodwise T2</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261105212000 +0800" stop="20261105214000 +0800"><title>Portugal na Esplanada T2</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261105214000 +0800" stop="20261105223500 +0800"><title>Mania de Você</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261105223500 +0800" stop="20261105231000 +0800"><title>TDM News</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261105231000 +0800" stop="20261106000500 +0800"><title>Tudo É Economia</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261106000500 +0800" stop="20261105235959 +0800"><title>RTPi Directo</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261106133000 +0800" stop="20261106143500 +0800"><title>Telejornal RTPi (Diferido)</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261106143500 +0800" stop="20261106153000 +0800"><title>RTPi Directo</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261106153000 +0800" stop="20261106160000 +0800"><title>Cozinha de Chef T2</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261106160000 +0800" stop="20261106164500 +0800"><title>Queridos Papás</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261106164500 +0800" stop="20261106170000 +0800"><title>O Carrinho Poli T4</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261106170000 +0800" stop="20261106171000 +0800"><title>Os Smurfs T3</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261106171000 +0800" stop="20261106173500 +0800"><title>Nutri Ventures - Em busca dos 7 Reinos</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261106173500 +0800" stop="20261106180000 +0800"><title>Legend Quest</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261106180000 +0800" stop="20261106185000 +0800"><title>Mania de Você (Repetição)</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261106185000 +0800" stop="20261106191500 +0800"><title>Solteira e Boa Rapariga</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261106191500 +0800" stop="20261106200000 +0800"><title>A Fazenda</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261106200000 +0800" stop="20261106205000 +0800"><title>Telejornal</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261106205000 +0800" stop="20261106212000 +0800"><title>China 360°</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261106212000 +0800" stop="20261106214500 +0800"><title>Por Dentro do Moto GP</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261106214500 +0800" stop="20261106223500 +0800"><title>Mania de Você</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261106223500 +0800" stop="20261106231000 +0800"><title>TDM News</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261106231000 +0800" stop="20261107001000 +0800"><title>Ninguém Como Tu T1 - Fim</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261107001000 +0800" stop="20261106235959 +0800"><title>RTPi Directo</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261107133000 +0800" stop="20261107144000 +0800"><title>Telejornal RTPi (Diferido)</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261107144000 +0800" stop="20261107151000 +0800"><title>Emoções no Índico</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261107151000 +0800" stop="20261107153000 +0800"><title>Pocoyo T1</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261107153000 +0800" stop="20261107155500 +0800"><title>Senninha na Pista Maluca T1</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261107155500 +0800" stop="20261107161000 +0800"><title>Snoopy no Espaço T1 - Estreia</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261107161000 +0800" stop="20261107163500 +0800"><title>Extreme Football T1</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261107163500 +0800" stop="20261107170000 +0800"><title>Inspector Gadget</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261107170000 +0800" stop="20261107175000 +0800"><title>Ásia</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261107175000 +0800" stop="20261107183000 +0800"><title>Hora dos Portugueses</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261107183000 +0800" stop="20261107190000 +0800"><title>O Programa dos Barcos</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261107190000 +0800" stop="20261107200000 +0800"><title>Veterinário de Província T2</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261107200000 +0800" stop="20261107205000 +0800"><title>Telejornal</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261107205000 +0800" stop="20261107213500 +0800"><title>Parenthood: Uma História de Família T5</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261107213500 +0800" stop="20261107214500 +0800"><title>Minha Terra, Minha Gente</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261107214500 +0800" stop="20261107223500 +0800"><title>Ritmos da Cidade - Estreia</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261107223500 +0800" stop="20261107231000 +0800"><title>TDM News</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261107231000 +0800" stop="20261108010000 +0800"><title>Monster's Ball</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108010000 +0800" stop="20261107235959 +0800"><title>RTPi Directo</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108105500 +0800" stop="20261108121500 +0800"><title>Missa Dominical (Directo)</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108121500 +0800" stop="20261108130000 +0800"><title>SOS Animal T3 - Fim</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108130000 +0800" stop="20261108133000 +0800"><title>Encruzilhadas da Vida</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108133000 +0800" stop="20261108144000 +0800"><title>Telejornal RTPi (Diferido)</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108144000 +0800" stop="20261108150500 +0800"><title>Passado em Foco: Gente da Nossa Terra - Adeus de Macau - Parte 2</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108150500 +0800" stop="20261108154000 +0800"><title>China 360° (Repetição)</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108154000 +0800" stop="20261108160500 +0800"><title>Yoko</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108160500 +0800" stop="20261108163000 +0800"><title>O Mundo do Snoopy T1</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108163000 +0800" stop="20261108165500 +0800"><title>Carmen Sandiego T2</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108165500 +0800" stop="20261108172000 +0800"><title>Basketeers T2</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108172000 +0800" stop="20261108175000 +0800"><title>Ó Da Casa T2 - Fim</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108175000 +0800" stop="20261108181500 +0800"><title>O Mundo Inexplorado</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108181500 +0800" stop="20261108190000 +0800"><title>Patrões Fora T2</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108190000 +0800" stop="20261108200000 +0800"><title>Sandringham: Uma Residência Real - Fim</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108200000 +0800" stop="20261108205000 +0800"><title>Telejornal</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108205000 +0800" stop="20261108215000 +0800"><title>Iguarias Culinárias da Corte Imperial</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108215000 +0800" stop="20261108223500 +0800"><title>A Filha</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108223500 +0800" stop="20261108231000 +0800"><title>TDM News</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108231000 +0800" stop="20261108234000 +0800"><title>Vistos para a Vida</title></programme><programme channel="tdm-2.tdm.com.mo" start="20261108234000 +0800" stop="20261108235959 +0800"><title>RTPi Directo</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104065900 +0800" stop="20261104070000 +0800"><title>開台</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104070000 +0800" stop="20261104080000 +0800"><title>早晨新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104080000 +0800" stop="20261104090000 +0800"><title>澳門早晨</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104090000 +0800" stop="20261104093000 +0800"><title>重播早晨新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104093000 +0800" stop="20261104100000 +0800"><title>灣區全媒睇</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104100000 +0800" stop="20261104103000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104103000 +0800" stop="20261104110000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104110000 +0800" stop="20261104111200 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104111200 +0800" stop="20261104112000 +0800"><title>營商創新研究所</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104112000 +0800" stop="20261104120000 +0800"><title>重播競健群英 2026</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104120000 +0800" stop="20261104122000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104122000 +0800" stop="20261104122700 +0800"><title>營商創新研究所</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104122700 +0800" stop="20261104123000 +0800"><title>街市情報</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104123000 +0800" stop="20261104125000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104125000 +0800" stop="20261104130000 +0800"><title>海派百工2</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104130000 +0800" stop="20261104131700 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104131700 +0800" stop="20261104132400 +0800"><title>營商創新研究所</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104132400 +0800" stop="20261104133000 +0800"><title>午間天氣報告</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104133000 +0800" stop="20261104140000 +0800"><title>午間新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104140000 +0800" stop="20261104150000 +0800"><title>每日財經</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104150000 +0800" stop="20261104152500 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104152500 +0800" stop="20261104153000 +0800"><title>街市情報</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104153000 +0800" stop="20261104160000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104160000 +0800" stop="20261104163000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104163000 +0800" stop="20261104170000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104170000 +0800" stop="20261104173000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104173000 +0800" stop="20261104175000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104175000 +0800" stop="20261104180000 +0800"><title>營商創新研究所</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104180000 +0800" stop="20261104180500 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104180500 +0800" stop="20261104180700 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104180700 +0800" stop="20261104183200 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104183200 +0800" stop="20261104190000 +0800"><title>灣區全媒睇</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104190000 +0800" stop="20261104195500 +0800"><title>澳視新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104195500 +0800" stop="20261104195800 +0800"><title>天氣報告</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104195800 +0800" stop="20261104200000 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104200000 +0800" stop="20261104210000 +0800"><title>錄播澳視新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104210000 +0800" stop="20261104220000 +0800"><title>錄播澳視新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104220000 +0800" stop="20261104223000 +0800"><title>普通話新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104223000 +0800" stop="20261104224800 +0800"><title>十點半澳視縱橫：放眼世界</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104224800 +0800" stop="20261104230000 +0800"><title>新聞深度遊</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104230000 +0800" stop="20261104231500 +0800"><title>營商創新研究所</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104231500 +0800" stop="20261104235000 +0800"><title>晚間新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261104235000 +0800" stop="20261105000500 +0800"><title>體育新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105000500 +0800" stop="20261105003500 +0800"><title>中國城市報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105003500 +0800" stop="20261105004500 +0800"><title>澳門早晨精華篇</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105004500 +0800" stop="20261105011500 +0800"><title>錄播普通話新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105011500 +0800" stop="20261105015000 +0800"><title>錄播晚間新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105015000 +0800" stop="20261105020000 +0800"><title>重播體育新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105020000 +0800" stop="20261104235959 +0800"><title>收台</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105065900 +0800" stop="20261105070000 +0800"><title>開台</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105070000 +0800" stop="20261105080000 +0800"><title>早晨新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105080000 +0800" stop="20261105090000 +0800"><title>澳門早晨</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105090000 +0800" stop="20261105093000 +0800"><title>重播早晨新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105093000 +0800" stop="20261105100000 +0800"><title>灣區全媒睇</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105100000 +0800" stop="20261105103000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105103000 +0800" stop="20261105110000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105110000 +0800" stop="20261105111200 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105111200 +0800" stop="20261105112000 +0800"><title>育才成長 築新未來： 家長學堂</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105112000 +0800" stop="20261105113800 +0800"><title>重播放眼世界</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105113800 +0800" stop="20261105115000 +0800"><title>重播新聞深度遊</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105115000 +0800" stop="20261105120000 +0800"><title>澳門早晨精華篇</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105120000 +0800" stop="20261105122000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105122000 +0800" stop="20261105122700 +0800"><title>育才成長 築新未來： 家長學堂</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105122700 +0800" stop="20261105123000 +0800"><title>街市情報</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105123000 +0800" stop="20261105125000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105125000 +0800" stop="20261105130000 +0800"><title>海派百工2</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105130000 +0800" stop="20261105131700 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105131700 +0800" stop="20261105132400 +0800"><title>育才成長 築新未來： 家長學堂</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105132400 +0800" stop="20261105133000 +0800"><title>午間天氣報告</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105133000 +0800" stop="20261105140000 +0800"><title>午間新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105140000 +0800" stop="20261105150000 +0800"><title>每日財經</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105150000 +0800" stop="20261105152500 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105152500 +0800" stop="20261105153000 +0800"><title>街市情報</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105153000 +0800" stop="20261105160000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105160000 +0800" stop="20261105163000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105163000 +0800" stop="20261105170000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105170000 +0800" stop="20261105173000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105173000 +0800" stop="20261105175000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105175000 +0800" stop="20261105180000 +0800"><title>育才成長 築新未來： 家長學堂</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105180000 +0800" stop="20261105180500 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105180500 +0800" stop="20261105180700 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105180700 +0800" stop="20261105183200 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105183200 +0800" stop="20261105190000 +0800"><title>灣區全媒睇</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105190000 +0800" stop="20261105195500 +0800"><title>澳視新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105195500 +0800" stop="20261105195800 +0800"><title>天氣報告</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105195800 +0800" stop="20261105200000 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105200000 +0800" stop="20261105210000 +0800"><title>錄播澳視新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105210000 +0800" stop="20261105220000 +0800"><title>錄播澳視新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105220000 +0800" stop="20261105223000 +0800"><title>普通話新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105223000 +0800" stop="20261105231500 +0800"><title>十點半澳視縱橫：風火台</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105231500 +0800" stop="20261105235000 +0800"><title>晚間新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261105235000 +0800" stop="20261106000500 +0800"><title>體育新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106000500 +0800" stop="20261106003500 +0800"><title>中國城市報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106003500 +0800" stop="20261106004500 +0800"><title>澳門早晨精華篇</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106004500 +0800" stop="20261106011500 +0800"><title>錄播普通話新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106011500 +0800" stop="20261106015000 +0800"><title>錄播晚間新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106015000 +0800" stop="20261106020000 +0800"><title>重播體育新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106020000 +0800" stop="20261105235959 +0800"><title>收台</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106065900 +0800" stop="20261106070000 +0800"><title>開台</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106070000 +0800" stop="20261106080000 +0800"><title>早晨新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106080000 +0800" stop="20261106090000 +0800"><title>澳門早晨</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106090000 +0800" stop="20261106093000 +0800"><title>重播早晨新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106093000 +0800" stop="20261106100000 +0800"><title>灣區全媒睇</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106100000 +0800" stop="20261106103000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106103000 +0800" stop="20261106110000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106110000 +0800" stop="20261106111200 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106111200 +0800" stop="20261106112000 +0800"><title>橫琴攻略</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106112000 +0800" stop="20261106120000 +0800"><title>重播風火台</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106120000 +0800" stop="20261106122000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106122000 +0800" stop="20261106122700 +0800"><title>橫琴攻略</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106122700 +0800" stop="20261106123000 +0800"><title>街市情報</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106123000 +0800" stop="20261106125000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106125000 +0800" stop="20261106130000 +0800"><title>海派百工2</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106130000 +0800" stop="20261106131700 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106131700 +0800" stop="20261106132400 +0800"><title>橫琴攻略</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106132400 +0800" stop="20261106133000 +0800"><title>午間天氣報告</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106133000 +0800" stop="20261106140000 +0800"><title>午間新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106140000 +0800" stop="20261106150000 +0800"><title>每日財經</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106150000 +0800" stop="20261106152500 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106152500 +0800" stop="20261106153000 +0800"><title>街市情報</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106153000 +0800" stop="20261106160000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106160000 +0800" stop="20261106163000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106163000 +0800" stop="20261106170000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106170000 +0800" stop="20261106173000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106173000 +0800" stop="20261106175000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106175000 +0800" stop="20261106180000 +0800"><title>橫琴攻略</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106180000 +0800" stop="20261106180500 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106180500 +0800" stop="20261106180700 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106180700 +0800" stop="20261106183200 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106183200 +0800" stop="20261106190000 +0800"><title>灣區全媒睇</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106190000 +0800" stop="20261106195500 +0800"><title>澳視新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106195500 +0800" stop="20261106195800 +0800"><title>天氣報告</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106195800 +0800" stop="20261106200000 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106200000 +0800" stop="20261106210000 +0800"><title>錄播澳視新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106210000 +0800" stop="20261106220000 +0800"><title>錄播澳視新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106220000 +0800" stop="20261106223000 +0800"><title>普通話新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106223000 +0800" stop="20261106230500 +0800"><title>十點半澳視縱橫：澳視新聞檔案</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106230500 +0800" stop="20261106231500 +0800"><title>育才成長 築新未來： 家長學堂</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106231500 +0800" stop="20261106235000 +0800"><title>晚間新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261106235000 +0800" stop="20261107000500 +0800"><title>體育新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107000500 +0800" stop="20261107003500 +0800"><title>中國城市報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107003500 +0800" stop="20261107004500 +0800"><title>澳門早晨精華篇</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107004500 +0800" stop="20261107011500 +0800"><title>錄播普通話新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107011500 +0800" stop="20261107015000 +0800"><title>錄播晚間新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107015000 +0800" stop="20261107020000 +0800"><title>重播體育新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107020000 +0800" stop="20261106235959 +0800"><title>收台</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107065900 +0800" stop="20261107070000 +0800"><title>開台</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107070000 +0800" stop="20261107080000 +0800"><title>早晨新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107080000 +0800" stop="20261107090000 +0800"><title>澳門早晨</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107090000 +0800" stop="20261107093000 +0800"><title>重播早晨新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107093000 +0800" stop="20261107095500 +0800"><title>家家有求</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107095500 +0800" stop="20261107100000 +0800"><title>澳門早晨精華篇</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107100000 +0800" stop="20261107103000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107103000 +0800" stop="20261107110000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107110000 +0800" stop="20261107110800 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107110800 +0800" stop="20261107111500 +0800"><title>時局綜觀</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107111500 +0800" stop="20261107112300 +0800"><title>中國軟實力</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107112300 +0800" stop="20261107115300 +0800"><title>重播澳視新聞檔案</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107115300 +0800" stop="20261107120000 +0800"><title>育才成長 築新未來： 家長學堂</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107120000 +0800" stop="20261107122000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107122000 +0800" stop="20261107122700 +0800"><title>時局綜觀</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107122700 +0800" stop="20261107123000 +0800"><title>街市情報</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107123000 +0800" stop="20261107125000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107125000 +0800" stop="20261107130000 +0800"><title>宇宙更強</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107130000 +0800" stop="20261107131000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107131000 +0800" stop="20261107131700 +0800"><title>營商創新研究所</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107131700 +0800" stop="20261107132400 +0800"><title>時局綜觀</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107132400 +0800" stop="20261107133000 +0800"><title>午間天氣報告</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107133000 +0800" stop="20261107140000 +0800"><title>午間新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107140000 +0800" stop="20261107144200 +0800"><title>古蜀瑰寶</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107144200 +0800" stop="20261107145400 +0800"><title>澳門早晨精華篇</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107145400 +0800" stop="20261107150000 +0800"><title>“你問我答”粵澳法律直播間</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107150000 +0800" stop="20261107152500 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107152500 +0800" stop="20261107153000 +0800"><title>街市情報</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107153000 +0800" stop="20261107160000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107160000 +0800" stop="20261107163000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107163000 +0800" stop="20261107170000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107170000 +0800" stop="20261107173000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107173000 +0800" stop="20261107174500 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107174500 +0800" stop="20261107175200 +0800"><title>橫琴攻略</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107175200 +0800" stop="20261107180000 +0800"><title>時局綜觀</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107180000 +0800" stop="20261107180500 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107180500 +0800" stop="20261107180700 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107180700 +0800" stop="20261107183200 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107183200 +0800" stop="20261107190000 +0800"><title>灣區全媒睇</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107190000 +0800" stop="20261107195500 +0800"><title>澳視新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107195500 +0800" stop="20261107195800 +0800"><title>天氣報告</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107195800 +0800" stop="20261107200000 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107200000 +0800" stop="20261107210000 +0800"><title>錄播澳視新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107210000 +0800" stop="20261107220000 +0800"><title>錄播澳視新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107220000 +0800" stop="20261107223000 +0800"><title>普通話新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107223000 +0800" stop="20261107231500 +0800"><title>十點半澳視縱橫：財經雜誌</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107231500 +0800" stop="20261107235000 +0800"><title>晚間新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261107235000 +0800" stop="20261108000500 +0800"><title>體育新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108000500 +0800" stop="20261108003200 +0800"><title>中國城市報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108003200 +0800" stop="20261108004500 +0800"><title>澳門早晨精華篇</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108004500 +0800" stop="20261108011500 +0800"><title>錄播普通話新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108011500 +0800" stop="20261108015000 +0800"><title>錄播晚間新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108015000 +0800" stop="20261108020000 +0800"><title>重播體育新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108020000 +0800" stop="20261107235959 +0800"><title>收台</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108065900 +0800" stop="20261108070000 +0800"><title>開台</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108070000 +0800" stop="20261108073200 +0800"><title>錄播新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108073200 +0800" stop="20261108074500 +0800"><title>自在練瑜伽</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108074500 +0800" stop="20261108080000 +0800"><title>心靈手語</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108080000 +0800" stop="20261108083000 +0800"><title>錄播新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108083000 +0800" stop="20261108085500 +0800"><title>澳門人澳門事</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108085500 +0800" stop="20261108090000 +0800"><title>“你問我答”粵澳法律直播間</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108090000 +0800" stop="20261108093000 +0800"><title>錄播新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108093000 +0800" stop="20261108100000 +0800"><title>絲路時間U Silk : 粉雪奇遇</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108100000 +0800" stop="20261108103000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108103000 +0800" stop="20261108110000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108110000 +0800" stop="20261108111200 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108111200 +0800" stop="20261108112000 +0800"><title>SUN聞搜羅</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108112000 +0800" stop="20261108120000 +0800"><title>財經雜誌</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108120000 +0800" stop="20261108122000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108122000 +0800" stop="20261108122700 +0800"><title>SUN聞搜羅</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108122700 +0800" stop="20261108123000 +0800"><title>街市情報</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108123000 +0800" stop="20261108125000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108125000 +0800" stop="20261108130000 +0800"><title>海派百工2</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108130000 +0800" stop="20261108131700 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108131700 +0800" stop="20261108132400 +0800"><title>SUN聞搜羅</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108132400 +0800" stop="20261108133000 +0800"><title>午間天氣報告</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108133000 +0800" stop="20261108140000 +0800"><title>午間新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108140000 +0800" stop="20261108144500 +0800"><title>香港空間改造王</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108144500 +0800" stop="20261108150000 +0800"><title>心靈手語</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108150000 +0800" stop="20261108152500 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108152500 +0800" stop="20261108153000 +0800"><title>街市情報</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108153000 +0800" stop="20261108160000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108160000 +0800" stop="20261108163000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108163000 +0800" stop="20261108170000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108170000 +0800" stop="20261108173000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108173000 +0800" stop="20261108175000 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108175000 +0800" stop="20261108180000 +0800"><title>SUN聞搜羅</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108180000 +0800" stop="20261108180500 +0800"><title>新聞報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108180500 +0800" stop="20261108180700 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108180700 +0800" stop="20261108183500 +0800"><title>絲路時間U Silk : 粉雪奇遇</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108183500 +0800" stop="20261108185000 +0800"><title>澳門早晨精華篇</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108185000 +0800" stop="20261108190000 +0800"><title>“你問我答”粵澳法律直播間</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108190000 +0800" stop="20261108195500 +0800"><title>澳視新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108195500 +0800" stop="20261108195800 +0800"><title>天氣報告</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108195800 +0800" stop="20261108200000 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108200000 +0800" stop="20261108210000 +0800"><title>錄播澳視新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108210000 +0800" stop="20261108220000 +0800"><title>錄播澳視新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108220000 +0800" stop="20261108223000 +0800"><title>普通話新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108223000 +0800" stop="20261108231500 +0800"><title>十點半澳視縱橫：中國城市動態</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108231500 +0800" stop="20261108235000 +0800"><title>晚間新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261108235000 +0800" stop="20261109000500 +0800"><title>體育新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261109000500 +0800" stop="20261109003500 +0800"><title>中國城市報道</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261109003500 +0800" stop="20261109004500 +0800"><title>澳門早晨精華篇</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261109004500 +0800" stop="20261109011500 +0800"><title>錄播普通話新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261109011500 +0800" stop="20261109015000 +0800"><title>錄播晚間新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261109015000 +0800" stop="20261109020000 +0800"><title>重播體育新聞</title></programme><programme channel="tdm-5.tdm.com.mo" start="20261109020000 +0800" stop="20261108235959 +0800"><title>收台</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261104095900 +0800" stop="20261104100000 +0800"><title>開台</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261104100000 +0800" stop="20261104125000 +0800"><title>2026温布頓網球錦標賽：女單決賽</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261104125000 +0800" stop="20261104130000 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261104130000 +0800" stop="20261104131500 +0800"><title>體育新聞</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261104131500 +0800" stop="20261104141000 +0800"><title>愛知．名古屋第20屆亞運會：舉重女子77公斤級決賽</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261104141000 +0800" stop="20261104151000 +0800"><title>愛知．名古屋第20屆亞運會：羽毛球女雙4強</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261104151000 +0800" stop="20261104155500 +0800"><title>愛知．名古屋第20屆亞運會：羽毛球混雙4強</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261104155500 +0800" stop="20261104175500 +0800"><title>2026/27 亞洲女子冠軍聯賽：神戶雌獅 對 巴姆卡頓</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261104175500 +0800" stop="20261104200000 +0800"><title>直播亞洲冠軍精英聯賽：浦項製鐵 對 大阪飛腳</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261104200000 +0800" stop="20261104201000 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261104201000 +0800" stop="20261104210500 +0800"><title>直播亞洲冠軍精英聯賽：武里南聯 對 鹿島鹿角</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261104210500 +0800" stop="20261104211000 +0800"><title>體育新聞</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261104211000 +0800" stop="20261104221000 +0800"><title>直播亞洲冠軍精英聯賽：武里南聯 對 鹿島鹿角</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261104221000 +0800" stop="20261104222500 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261104222500 +0800" stop="20261104232000 +0800"><title>直播2026/27 亞洲女子冠軍聯賽：拿薩夫 對 北京京壇</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261104232000 +0800" stop="20261104232500 +0800"><title>體育新聞</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261104232500 +0800" stop="20261105003000 +0800"><title>直播2026/27 亞洲女子冠軍聯賽：拿薩夫 對 北京京壇</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105003000 +0800" stop="20261105012000 +0800"><title>2026/2027歐洲冠軍聯賽精華</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105012000 +0800" stop="20261105014000 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105014000 +0800" stop="20261105034500 +0800"><title>直播2026/2027歐洲冠軍聯賽 ：費倫巴治 對 利物浦</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105034500 +0800" stop="20261105035500 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105035500 +0800" stop="20261105060000 +0800"><title>直播2026/2027歐洲冠軍聯賽 ：RB萊比錫 對 曼城</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105060000 +0800" stop="20261104235959 +0800"><title>收台</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105095900 +0800" stop="20261105100000 +0800"><title>開台</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105100000 +0800" stop="20261105120000 +0800"><title>2026温布頓網球錦標賽：女雙決賽</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105120000 +0800" stop="20261105130000 +0800"><title>愛知．名古屋第20屆亞運會：舉重女子86公斤級決賽</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105130000 +0800" stop="20261105131500 +0800"><title>體育新聞</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105131500 +0800" stop="20261105135000 +0800"><title>愛知．名古屋第20屆亞運會：乒乓球男單決賽</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105135000 +0800" stop="20261105144000 +0800"><title>愛知．名古屋第20屆亞運會：田徑賽事</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105144000 +0800" stop="20261105145000 +0800"><title>每周體育精華</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105145000 +0800" stop="20261105160500 +0800"><title>2026世界羽毛球錦標賽：女雙8強</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105160500 +0800" stop="20261105170000 +0800"><title>2026世界羽毛球錦標賽：女單8強</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105170000 +0800" stop="20261105171500 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105171500 +0800" stop="20261105175500 +0800"><title>競健群英2026</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105175500 +0800" stop="20261105200000 +0800"><title>直播2026-27 東亞超級籃球聯賽：釜山宙斯盾 對 昊駿</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105200000 +0800" stop="20261105201000 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105201000 +0800" stop="20261105210500 +0800"><title>直播亞洲冠軍二級聯賽：古晉 對 FC江原</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105210500 +0800" stop="20261105211000 +0800"><title>體育新聞</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105211000 +0800" stop="20261105221500 +0800"><title>直播亞洲冠軍二級聯賽：古晉 對 FC江原</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105221500 +0800" stop="20261105223000 +0800"><title>每周體育精華</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105223000 +0800" stop="20261105232000 +0800"><title>2026/2027歐洲冠軍聯賽精華</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105232000 +0800" stop="20261105233000 +0800"><title>體育新聞</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261105233000 +0800" stop="20261106003000 +0800"><title>2026歐洲勒芒系列賽精華：第三集 伊莫拉站</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261106003000 +0800" stop="20261106005000 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261106005000 +0800" stop="20261106014000 +0800"><title>2026/2027歐洲聯賽及歐洲協會聯賽雜誌</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261106014000 +0800" stop="20261106034500 +0800"><title>直播2026/2027 歐洲聯賽：水晶宮 對 賀芬咸</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261106034500 +0800" stop="20261106035500 +0800"><title>每周體育精華</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261106035500 +0800" stop="20261106060000 +0800"><title>直播2026/2027 歐洲聯賽：艾克馬亞 對 祖雲達斯</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261106060000 +0800" stop="20261105235959 +0800"><title>收台</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261106095900 +0800" stop="20261106100000 +0800"><title>開台</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261106100000 +0800" stop="20261106130000 +0800"><title>2026世界羽毛球錦標賽：混雙4強</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261106130000 +0800" stop="20261106131500 +0800"><title>體育新聞</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261106131500 +0800" stop="20261106172000 +0800"><title>2026温布頓網球錦標賽：男單決賽</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261106172000 +0800" stop="20261106173000 +0800"><title>每周體育精華</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261106173000 +0800" stop="20261106190000 +0800"><title>愛知．名古屋第20屆亞運會：女足4強</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261106190000 +0800" stop="20261106205500 +0800"><title>錄播2026/2027歐洲協會聯賽：加泰 對 白禮頓</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261106205500 +0800" stop="20261106210000 +0800"><title>體育新聞</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261106210000 +0800" stop="20261106220000 +0800"><title>2026/2027歐洲聯賽及歐洲協會聯賽精華</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261106220000 +0800" stop="20261106225500 +0800"><title>錄播2026/2027 歐洲聯賽：賓菲加 對 列治普斯納</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261106225500 +0800" stop="20261106230000 +0800"><title>體育新聞</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261106230000 +0800" stop="20261106235900 +0800"><title>錄播2026/2027 歐洲聯賽：賓菲加 對 列治普斯納</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261106235900 +0800" stop="20261107003500 +0800"><title>2026/2027西班牙甲組足球聯賽精華</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261107003500 +0800" stop="20261107010000 +0800"><title>愛知．名古屋第20屆亞運會：反曲弓女子個人4強</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261107010000 +0800" stop="20261106235959 +0800"><title>收台</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261107095900 +0800" stop="20261107100000 +0800"><title>開台</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261107100000 +0800" stop="20261107105500 +0800"><title>2026世界羽毛球錦標賽：女雙4強</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261107105500 +0800" stop="20261107123000 +0800"><title>2026世界羽毛球錦標賽：男單4強</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261107123000 +0800" stop="20261107130000 +0800"><title>2026勒芒盃雜誌：第三集 勒芒站</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261107130000 +0800" stop="20261107131500 +0800"><title>體育新聞</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261107131500 +0800" stop="20261107161500 +0800"><title>2026法國網球公開賽：女單8強</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261107161500 +0800" stop="20261107162500 +0800"><title>每周體育精華</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261107162500 +0800" stop="20261107182500 +0800"><title>直播2026/27 亞洲女子冠軍聯賽：奈古香 對 神戶雌獅</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261107182500 +0800" stop="20261107203000 +0800"><title>直播2026/27 亞洲女子冠軍聯賽：墨爾本城 對 北京京壇</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261107203000 +0800" stop="20261107205000 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261107205000 +0800" stop="20261107210000 +0800"><title>體育新聞</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261107210000 +0800" stop="20261107230000 +0800"><title>錄播亞洲冠軍二級聯賽：町田澤維亞 對 上海申花</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261107230000 +0800" stop="20261107230500 +0800"><title>體育新聞</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261107230500 +0800" stop="20261108010000 +0800"><title>2026/2027歐洲冠軍聯賽 ：曼聯 對  羅馬</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261108010000 +0800" stop="20261107235959 +0800"><title>收台</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261108095900 +0800" stop="20261108100000 +0800"><title>開台</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261108100000 +0800" stop="20261108124500 +0800"><title>2026法國網球公開賽：男單8強</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261108124500 +0800" stop="20261108130000 +0800"><title>愛知．名古屋第20屆亞運會：反曲弓混合團體4強</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261108130000 +0800" stop="20261108131500 +0800"><title>體育新聞</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261108131500 +0800" stop="20261108144500 +0800"><title>愛知．名古屋第20屆亞運會：男足4強</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261108144500 +0800" stop="20261108153500 +0800"><title>愛知．名古屋第20屆亞運會：男子24米手槍速射決賽</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261108153500 +0800" stop="20261108161500 +0800"><title>競健群英2026</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261108161500 +0800" stop="20261108170500 +0800"><title>2026世界羽毛球錦標賽：女單4強</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261108170500 +0800" stop="20261108184000 +0800"><title>2026世界羽毛球錦標賽：混雙決賽</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261108184000 +0800" stop="20261108185000 +0800"><title>每周體育精華</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261108185000 +0800" stop="20261108190000 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261108190000 +0800" stop="20261108205000 +0800"><title>2026年超級跑車錦標賽精華：第十九集-泰蘭灣站</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261108205000 +0800" stop="20261108210000 +0800"><title>體育新聞</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261108210000 +0800" stop="20261108230000 +0800"><title>2026/2027歐洲冠軍聯賽 ：費倫巴治 對 利物浦</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261108230000 +0800" stop="20261108231000 +0800"><title>體育新聞</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261108231000 +0800" stop="20261109011500 +0800"><title>直播2026/2027西班牙甲組足球聯賽：皇家蘇斯達 對 華歷簡奴</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261109011500 +0800" stop="20261109015500 +0800"><title>環球體育</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261109015500 +0800" stop="20261109035500 +0800"><title>2026/2027 歐洲聯賽：水晶宮 對 賀芬咸</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261109035500 +0800" stop="20261109060000 +0800"><title>直播2026/2027西班牙甲組足球聯賽：馬德里體育會 對 巴塞羅那</title></programme><programme channel="tdm-6.tdm.com.mo" start="20261109060000 +0800" stop="20261108235959 +0800"><title>收台</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261104095900 +0800" stop="20261104100000 +0800"><title>開台</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261104100000 +0800" stop="20261104130100 +0800"><title>好劇連場: 偽鈔者之末路</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261104130100 +0800" stop="20261104151800 +0800"><title>好劇連場: 深潛</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261104151800 +0800" stop="20261104160600 +0800"><title>好劇連場: 心靈法醫</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261104160600 +0800" stop="20261104163500 +0800"><title>一城煙火 一城詩</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261104163500 +0800" stop="20261104173000 +0800"><title>追逐猛獸之厄爾尼諾</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261104173000 +0800" stop="20261104175800 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261104175800 +0800" stop="20261104180000 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261104180000 +0800" stop="20261104182500 +0800"><title>籃球旋風 第二季</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261104182500 +0800" stop="20261104200000 +0800"><title>如果奔跑是我的人生</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261104200000 +0800" stop="20261104202400 +0800"><title>巴厘島天堂廚房</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261104202400 +0800" stop="20261104203000 +0800"><title>海派百工2</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261104203000 +0800" stop="20261104213500 +0800"><title>AI 劇場   瑰寶之舞</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261104213500 +0800" stop="20261104231000 +0800"><title>如果奔跑是我的人生</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261104231000 +0800" stop="20261105000100 +0800"><title>家長朋友圈</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105000100 +0800" stop="20261105011800 +0800"><title>越戰越勇</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105011800 +0800" stop="20261105014000 +0800"><title>知味興安盟</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105014000 +0800" stop="20261105033700 +0800"><title>2026「耆年好聲音」全澳長者歌唱比賽</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105033700 +0800" stop="20261105034500 +0800"><title>世界文化遺產短片</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105034500 +0800" stop="20261105035500 +0800"><title>海派百工2</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105035500 +0800" stop="20261105060000 +0800"><title>直播2026/2027歐洲冠軍聯賽: 布拉格斯拉維亞  對  阿仙奴</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105060000 +0800" stop="20261104235959 +0800"><title>收台</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105095900 +0800" stop="20261105100000 +0800"><title>開台</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105100000 +0800" stop="20261105130000 +0800"><title>好劇連場: 偽鈔者之末路</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105130000 +0800" stop="20261105160500 +0800"><title>好劇連場: 心靈法醫</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105160500 +0800" stop="20261105162000 +0800"><title>詩詞有故事</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105162000 +0800" stop="20261105163500 +0800"><title>你好大灣區</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105163500 +0800" stop="20261105173000 +0800"><title>家長朋友圈</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105173000 +0800" stop="20261105175800 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105175800 +0800" stop="20261105180000 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105180000 +0800" stop="20261105182500 +0800"><title>籃球旋風 第二季</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105182500 +0800" stop="20261105200000 +0800"><title>如果奔跑是我的人生</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105200000 +0800" stop="20261105203500 +0800"><title>青春有歌</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105203500 +0800" stop="20261105212000 +0800"><title>臥底旅行團 4.0</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105212000 +0800" stop="20261105213500 +0800"><title>你好大灣區</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105213500 +0800" stop="20261105231000 +0800"><title>如果奔跑是我的人生</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261105231000 +0800" stop="20261106000100 +0800"><title>動物遊蹤</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106000100 +0800" stop="20261106012400 +0800"><title>電影: 屬於你的記憶</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106012400 +0800" stop="20261106014000 +0800"><title>四川非遺100（第三季）</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106014000 +0800" stop="20261106034500 +0800"><title>直播2026/2027 歐洲聯賽: AC米蘭  對  費倫斯華路士</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106034500 +0800" stop="20261106035500 +0800"><title>海派百工2</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106035500 +0800" stop="20261106060000 +0800"><title>直播2026/2027 歐洲聯賽: 利華古遜  對  馬賽</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106060000 +0800" stop="20261105235959 +0800"><title>收台</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106095900 +0800" stop="20261106100000 +0800"><title>開台</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106100000 +0800" stop="20261106113100 +0800"><title>好劇連場: 偽鈔者之末路</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106113100 +0800" stop="20261106130200 +0800"><title>好劇連場: 點心之路</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106130200 +0800" stop="20261106160500 +0800"><title>好劇連場: 心靈法醫</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106160500 +0800" stop="20261106163500 +0800"><title>藝術素養公開課</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106163500 +0800" stop="20261106173000 +0800"><title>歸去來兮 - 兩岸百年黃埔記憶</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106173000 +0800" stop="20261106175300 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106175300 +0800" stop="20261106180000 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106180000 +0800" stop="20261106182500 +0800"><title>籃球旋風 第二季</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106182500 +0800" stop="20261106200000 +0800"><title>如果奔跑是我的人生</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106200000 +0800" stop="20261106203000 +0800"><title>青春有歌</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106203000 +0800" stop="20261106212500 +0800"><title>致命預報</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106212500 +0800" stop="20261106213500 +0800"><title>海派百工2</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106213500 +0800" stop="20261106231000 +0800"><title>如果奔跑是我的人生</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261106231000 +0800" stop="20261107000100 +0800"><title>印象亞洲</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261107000100 +0800" stop="20261106235959 +0800"><title>收台</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261107095900 +0800" stop="20261107100000 +0800"><title>開台</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261107100000 +0800" stop="20261107130200 +0800"><title>好劇連場: 點心之路</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261107130200 +0800" stop="20261107155800 +0800"><title>好劇連場: 心靈法醫</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261107155800 +0800" stop="20261107160500 +0800"><title>國寶時刻</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261107160500 +0800" stop="20261107163500 +0800"><title>我是你的瓷兒</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261107163500 +0800" stop="20261107173000 +0800"><title>致命預報</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261107173000 +0800" stop="20261107175800 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261107175800 +0800" stop="20261107180000 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261107180000 +0800" stop="20261107182500 +0800"><title>籃球旋風 第二季</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261107182500 +0800" stop="20261107200000 +0800"><title>如果奔跑是我的人生</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261107200000 +0800" stop="20261107202400 +0800"><title>走進水世界</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261107202400 +0800" stop="20261107203000 +0800"><title>世遺City Walk</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261107203000 +0800" stop="20261107210000 +0800"><title>我是你的瓷兒</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261107210000 +0800" stop="20261107214300 +0800"><title>鄖縣人3號</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261107214300 +0800" stop="20261107215000 +0800"><title>海派百工2</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261107215000 +0800" stop="20261107230000 +0800"><title>唐頓莊園 第五季</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261107230000 +0800" stop="20261108000100 +0800"><title>青春有歌</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261108000100 +0800" stop="20261107235959 +0800"><title>收台</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261108095900 +0800" stop="20261108100000 +0800"><title>開台</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261108100000 +0800" stop="20261108130200 +0800"><title>好劇連場: 點心之路</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261108130200 +0800" stop="20261108160500 +0800"><title>好劇連場: 心靈法醫</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261108160500 +0800" stop="20261108173000 +0800"><title>越戰越勇</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261108173000 +0800" stop="20261108175800 +0800"><title>趨記茶餐廳</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261108175800 +0800" stop="20261108180000 +0800"><title>TDM 新視點</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261108180000 +0800" stop="20261108182500 +0800"><title>籃球旋風 第二季</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261108182500 +0800" stop="20261108200000 +0800"><title>乘風踏浪</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261108200000 +0800" stop="20261108204500 +0800"><title>傳奇之星歷險記</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261108204500 +0800" stop="20261108210000 +0800"><title>四川非遺100（第三季）</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261108210000 +0800" stop="20261108220000 +0800"><title>歸去來兮 - 兩岸百年黃埔記憶</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261108220000 +0800" stop="20261108233500 +0800"><title>電影: 愛情良餐</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261108233500 +0800" stop="20261109000100 +0800"><title>《葡角漫遊》之佛得角</title></programme><programme channel="tdm-7.tdm.com.mo" start="20261109000100 +0800" stop="20261108235959 +0800"><title>收台</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104000200 +0800" stop="20261104003000 +0800"><title>葡文節目重溫 - 這片土地的人們</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104003000 +0800" stop="20261104010000 +0800"><title>澳門仁慈堂</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104010000 +0800" stop="20261104013000 +0800"><title>美味緣是您</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104013000 +0800" stop="20261104020000 +0800"><title>英語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104020000 +0800" stop="20261104025000 +0800"><title>葡語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104025000 +0800" stop="20261104031000 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104031000 +0800" stop="20261104034000 +0800"><title>馬交遊﹕澳門Chill 好玩</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104034000 +0800" stop="20261104043000 +0800"><title>機器人變變變</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104043000 +0800" stop="20261104044000 +0800"><title>國寶時刻</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104044000 +0800" stop="20261104053000 +0800"><title>葡語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104053000 +0800" stop="20261104060000 +0800"><title>美味緣是您</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104060000 +0800" stop="20261104063000 +0800"><title>葡文節目重溫 - 這片土地的人們</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104063000 +0800" stop="20261104070000 +0800"><title>澳門仁慈堂</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104070000 +0800" stop="20261104073000 +0800"><title>無名的愛</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104073000 +0800" stop="20261104080000 +0800"><title>英語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104080000 +0800" stop="20261104083000 +0800"><title>馬交遊﹕澳門Chill 好玩</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104083000 +0800" stop="20261104085300 +0800"><title>家家有本事</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104085300 +0800" stop="20261104092000 +0800"><title>灣區全媒睇</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104092000 +0800" stop="20261104100000 +0800"><title>競健群英 2026</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104100000 +0800" stop="20261104103000 +0800"><title>粵語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104103000 +0800" stop="20261104112000 +0800"><title>機器人變變變</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104112000 +0800" stop="20261104115000 +0800"><title>美味緣是您</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104115000 +0800" stop="20261104122000 +0800"><title>馬交遊﹕澳門Chill 好玩</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104122000 +0800" stop="20261104130000 +0800"><title>競健群英 2026</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104130000 +0800" stop="20261104133000 +0800"><title>無名的愛</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104133000 +0800" stop="20261104135300 +0800"><title>家家有本事</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104135300 +0800" stop="20261104140000 +0800"><title>澳門非物質文化遺產</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104140000 +0800" stop="20261104143000 +0800"><title>粵語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104143000 +0800" stop="20261104150000 +0800"><title>美味緣是您</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104150000 +0800" stop="20261104155000 +0800"><title>葡語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104155000 +0800" stop="20261104160500 +0800"><title>天天成長記 第一至四季</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104160500 +0800" stop="20261104165500 +0800"><title>機器人變變變</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104165500 +0800" stop="20261104172500 +0800"><title>澳門仁慈堂</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104172500 +0800" stop="20261104175500 +0800"><title>馬交遊﹕澳門Chill 好玩</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104175500 +0800" stop="20261104182500 +0800"><title>無名的愛</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104182500 +0800" stop="20261104185000 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104185000 +0800" stop="20261104191300 +0800"><title>家家有本事</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104191300 +0800" stop="20261104192000 +0800"><title>家家有餸煮</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104192000 +0800" stop="20261104200000 +0800"><title>競健群英 2026</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104200000 +0800" stop="20261104210000 +0800"><title>粵語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104210000 +0800" stop="20261104213000 +0800"><title>灣區全媒睇</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104213000 +0800" stop="20261104220000 +0800"><title>美味緣是您</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104220000 +0800" stop="20261104225000 +0800"><title>粵語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104225000 +0800" stop="20261104234000 +0800"><title>葡語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261104234000 +0800" stop="20261104235959 +0800"><title>家家有本事</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105000200 +0800" stop="20261105003500 +0800"><title>葡文節目重溫 - 這片土地的人們</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105003500 +0800" stop="20261105010000 +0800"><title>澳門仁慈堂</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105010000 +0800" stop="20261105013000 +0800"><title>美味緣是您</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105013000 +0800" stop="20261105020000 +0800"><title>英語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105020000 +0800" stop="20261105025000 +0800"><title>葡語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105025000 +0800" stop="20261105031000 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105031000 +0800" stop="20261105034000 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105034000 +0800" stop="20261105043000 +0800"><title>童唱嶺南</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105043000 +0800" stop="20261105052000 +0800"><title>葡語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105052000 +0800" stop="20261105053000 +0800"><title>國寶時刻</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105053000 +0800" stop="20261105060000 +0800"><title>美味緣是您</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105060000 +0800" stop="20261105063000 +0800"><title>葡文節目重溫 - 這片土地的人們</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105063000 +0800" stop="20261105065200 +0800"><title>澳門仁慈堂</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105065200 +0800" stop="20261105070000 +0800"><title>家家有餸煮</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105070000 +0800" stop="20261105073000 +0800"><title>“葡”出個味蕾</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105073000 +0800" stop="20261105080000 +0800"><title>英語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105080000 +0800" stop="20261105083000 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105083000 +0800" stop="20261105085500 +0800"><title>澳門人澳門事</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105085500 +0800" stop="20261105092500 +0800"><title>灣區全媒睇</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105092500 +0800" stop="20261105094500 +0800"><title>放眼世界</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105094500 +0800" stop="20261105100000 +0800"><title>新聞深度遊</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105100000 +0800" stop="20261105103000 +0800"><title>粵語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105103000 +0800" stop="20261105112000 +0800"><title>童唱嶺南</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105112000 +0800" stop="20261105115000 +0800"><title>美味緣是您</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105115000 +0800" stop="20261105122000 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105122000 +0800" stop="20261105124000 +0800"><title>放眼世界</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105124000 +0800" stop="20261105125300 +0800"><title>新聞深度遊</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105125300 +0800" stop="20261105130000 +0800"><title>澳門非物質文化遺產</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105130000 +0800" stop="20261105133000 +0800"><title>“葡”出個味蕾</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105133000 +0800" stop="20261105135300 +0800"><title>澳門人澳門事</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105135300 +0800" stop="20261105140000 +0800"><title>好書分享</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105140000 +0800" stop="20261105143000 +0800"><title>粵語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105143000 +0800" stop="20261105150000 +0800"><title>美味緣是您</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105150000 +0800" stop="20261105155000 +0800"><title>葡語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105155000 +0800" stop="20261105160500 +0800"><title>天天成長記 第一至四季</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105160500 +0800" stop="20261105165500 +0800"><title>童唱嶺南</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105165500 +0800" stop="20261105172000 +0800"><title>澳門仁慈堂</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105172000 +0800" stop="20261105175000 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105175000 +0800" stop="20261105182000 +0800"><title>“葡”出個味蕾</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105182000 +0800" stop="20261105183000 +0800"><title>家家有餸煮</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105183000 +0800" stop="20261105185500 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105185500 +0800" stop="20261105192000 +0800"><title>澳門人澳門事</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105192000 +0800" stop="20261105194000 +0800"><title>放眼世界</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105194000 +0800" stop="20261105195300 +0800"><title>新聞深度遊</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105195300 +0800" stop="20261105200000 +0800"><title>澳門非物質文化遺產</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105200000 +0800" stop="20261105210000 +0800"><title>粵語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105210000 +0800" stop="20261105213000 +0800"><title>灣區全媒睇</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105213000 +0800" stop="20261105220000 +0800"><title>美味緣是您</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105220000 +0800" stop="20261105225000 +0800"><title>粵語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105225000 +0800" stop="20261105234000 +0800"><title>葡語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261105234000 +0800" stop="20261105235959 +0800"><title>澳門人澳門事</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106000200 +0800" stop="20261106003500 +0800"><title>閱讀時光</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106003500 +0800" stop="20261106010000 +0800"><title>澳門仁慈堂</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106010000 +0800" stop="20261106013000 +0800"><title>唐‧西豐味</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106013000 +0800" stop="20261106020000 +0800"><title>英語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106020000 +0800" stop="20261106025000 +0800"><title>葡語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106025000 +0800" stop="20261106031000 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106031000 +0800" stop="20261106033000 +0800"><title>詩詞有故事</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106033000 +0800" stop="20261106034000 +0800"><title>國寶時刻</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106034000 +0800" stop="20261106043000 +0800"><title>童唱嶺南</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106043000 +0800" stop="20261106044000 +0800"><title>澳門非物質文化遺產</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106044000 +0800" stop="20261106053000 +0800"><title>葡語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106053000 +0800" stop="20261106063000 +0800"><title>AI 劇場   瑰寶之舞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106063000 +0800" stop="20261106065200 +0800"><title>澳門仁慈堂</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106065200 +0800" stop="20261106070000 +0800"><title>家家有餸煮</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106070000 +0800" stop="20261106073000 +0800"><title>“葡”出個味蕾</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106073000 +0800" stop="20261106080000 +0800"><title>英語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106080000 +0800" stop="20261106083000 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106083000 +0800" stop="20261106085300 +0800"><title>家家有本事</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106085300 +0800" stop="20261106092000 +0800"><title>灣區全媒睇</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106092000 +0800" stop="20261106100000 +0800"><title>風火台</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106100000 +0800" stop="20261106103000 +0800"><title>粵語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106103000 +0800" stop="20261106112000 +0800"><title>童唱嶺南</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106112000 +0800" stop="20261106122000 +0800"><title>AI 劇場   瑰寶之舞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106122000 +0800" stop="20261106130000 +0800"><title>風火台</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106130000 +0800" stop="20261106133000 +0800"><title>“葡”出個味蕾</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106133000 +0800" stop="20261106135300 +0800"><title>家家有本事</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106135300 +0800" stop="20261106140000 +0800"><title>好書分享</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106140000 +0800" stop="20261106143000 +0800"><title>粵語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106143000 +0800" stop="20261106145500 +0800"><title>唐‧西豐味</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106145500 +0800" stop="20261106154000 +0800"><title>葡語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106154000 +0800" stop="20261106155500 +0800"><title>天天成長記 第一至四季</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106155500 +0800" stop="20261106165000 +0800"><title>童唱嶺南</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106165000 +0800" stop="20261106172000 +0800"><title>閱讀時光</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106172000 +0800" stop="20261106174200 +0800"><title>澳門仁慈堂</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106174200 +0800" stop="20261106184000 +0800"><title>AI 劇場   瑰寶之舞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106184000 +0800" stop="20261106190000 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106190000 +0800" stop="20261106192200 +0800"><title>家家有本事</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106192200 +0800" stop="20261106200000 +0800"><title>風火台</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106200000 +0800" stop="20261106210000 +0800"><title>粵語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106210000 +0800" stop="20261106213000 +0800"><title>灣區全媒睇</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106213000 +0800" stop="20261106215000 +0800"><title>詩詞有故事</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106215000 +0800" stop="20261106220000 +0800"><title>家家有餸煮</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106220000 +0800" stop="20261106225000 +0800"><title>粵語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106225000 +0800" stop="20261106234000 +0800"><title>葡語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261106234000 +0800" stop="20261106235959 +0800"><title>家家有本事</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107000200 +0800" stop="20261107004800 +0800"><title>葡語體育</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107004800 +0800" stop="20261107010000 +0800"><title>葡文節目重溫 - 葡式烹飪</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107010000 +0800" stop="20261107013000 +0800"><title>唐‧西豐味</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107013000 +0800" stop="20261107020000 +0800"><title>英語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107020000 +0800" stop="20261107025000 +0800"><title>葡語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107025000 +0800" stop="20261107031000 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107031000 +0800" stop="20261107034200 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107034200 +0800" stop="20261107043200 +0800"><title>童唱嶺南</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107043200 +0800" stop="20261107044000 +0800"><title>國寶時刻</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107044000 +0800" stop="20261107053000 +0800"><title>葡語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107053000 +0800" stop="20261107060000 +0800"><title>唐‧西豐味</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107060000 +0800" stop="20261107064700 +0800"><title>葡語體育</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107064700 +0800" stop="20261107070000 +0800"><title>葡文節目重溫 - 葡式烹飪</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107070000 +0800" stop="20261107073000 +0800"><title>“葡”出個味蕾</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107073000 +0800" stop="20261107080000 +0800"><title>英語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107080000 +0800" stop="20261107083500 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107083500 +0800" stop="20261107090000 +0800"><title>教煮CHILL 好玩</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107090000 +0800" stop="20261107093000 +0800"><title>灣區全媒睇</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107093000 +0800" stop="20261107100000 +0800"><title>澳視新聞檔案</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107100000 +0800" stop="20261107103000 +0800"><title>粵語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107103000 +0800" stop="20261107112000 +0800"><title>童唱嶺南</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107112000 +0800" stop="20261107114700 +0800"><title>唐‧西豐味</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107114700 +0800" stop="20261107122000 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107122000 +0800" stop="20261107125000 +0800"><title>澳視新聞檔案</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107125000 +0800" stop="20261107132000 +0800"><title>“葡”出個味蕾</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107132000 +0800" stop="20261107134500 +0800"><title>教煮CHILL 好玩</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107134500 +0800" stop="20261107135400 +0800"><title>時局綜觀-英文字幕版</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107135400 +0800" stop="20261107140000 +0800"><title>澳門非物質文化遺產</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107140000 +0800" stop="20261107143000 +0800"><title>粵語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107143000 +0800" stop="20261107150000 +0800"><title>唐‧西豐味</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107150000 +0800" stop="20261107155000 +0800"><title>葡語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107155000 +0800" stop="20261107160500 +0800"><title>天天成長記 第一至四季</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107160500 +0800" stop="20261107165500 +0800"><title>童唱嶺南</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107165500 +0800" stop="20261107174000 +0800"><title>葡語體育</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107174000 +0800" stop="20261107181200 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107181200 +0800" stop="20261107184000 +0800"><title>“葡”出個味蕾</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107184000 +0800" stop="20261107190000 +0800"><title>澳門早晨精華錄</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107190000 +0800" stop="20261107190800 +0800"><title>時局綜觀-英文字幕版</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107190800 +0800" stop="20261107193000 +0800"><title>教煮CHILL 好玩</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107193000 +0800" stop="20261107200000 +0800"><title>澳視新聞檔案</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107200000 +0800" stop="20261107210000 +0800"><title>粵語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107210000 +0800" stop="20261107213000 +0800"><title>灣區全媒睇</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107213000 +0800" stop="20261107220000 +0800"><title>唐‧西豐味</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107220000 +0800" stop="20261107225000 +0800"><title>粵語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107225000 +0800" stop="20261107234000 +0800"><title>葡語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261107234000 +0800" stop="20261107235959 +0800"><title>教煮CHILL 好玩</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108000200 +0800" stop="20261108003500 +0800"><title>中國360°</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108003500 +0800" stop="20261108005300 +0800"><title>澳門仁慈堂</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108005300 +0800" stop="20261108010000 +0800"><title>國寶時刻</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108010000 +0800" stop="20261108013000 +0800"><title>唐‧西豐味</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108013000 +0800" stop="20261108020000 +0800"><title>英語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108020000 +0800" stop="20261108025000 +0800"><title>葡語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108025000 +0800" stop="20261108033000 +0800"><title>財經雜誌 - 對話灣區</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108033000 +0800" stop="20261108034000 +0800"><title>澳門世遺短片</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108034000 +0800" stop="20261108043000 +0800"><title>灣區故事: 水圍村 "1368"的日月星辰</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108043000 +0800" stop="20261108044000 +0800"><title>家家有餸煮</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108044000 +0800" stop="20261108053000 +0800"><title>葡語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108053000 +0800" stop="20261108060000 +0800"><title>唐‧西豐味</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108060000 +0800" stop="20261108063000 +0800"><title>中國360°</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108063000 +0800" stop="20261108065000 +0800"><title>澳門仁慈堂</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108065000 +0800" stop="20261108070000 +0800"><title>澳門非物質文化遺產</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108070000 +0800" stop="20261108073000 +0800"><title>“葡”出個味蕾</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108073000 +0800" stop="20261108080000 +0800"><title>英語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108080000 +0800" stop="20261108081000 +0800"><title>時局綜觀-英文字幕版</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108081000 +0800" stop="20261108083000 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108083000 +0800" stop="20261108084000 +0800"><title>澳門世遺短片</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108084000 +0800" stop="20261108090300 +0800"><title>家家有本事</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108090300 +0800" stop="20261108093000 +0800"><title>灣區全媒睇</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108093000 +0800" stop="20261108101000 +0800"><title>財經雜誌</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108101000 +0800" stop="20261108103500 +0800"><title>趨記茶餐廳</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108103500 +0800" stop="20261108112500 +0800"><title>灣區故事: 水圍村 "1368"的日月星辰</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108112500 +0800" stop="20261108115500 +0800"><title>唐‧西豐味</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108115500 +0800" stop="20261108121500 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108121500 +0800" stop="20261108122500 +0800"><title>澳門世遺短片</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108122500 +0800" stop="20261108130500 +0800"><title>財經雜誌</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108130500 +0800" stop="20261108133000 +0800"><title>“葡”出個味蕾</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108133000 +0800" stop="20261108135500 +0800"><title>家家有本事</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108135500 +0800" stop="20261108140500 +0800"><title>時局綜觀-英文字幕版</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108140500 +0800" stop="20261108143000 +0800"><title>趨記茶餐廳</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108143000 +0800" stop="20261108150000 +0800"><title>唐‧西豐味</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108150000 +0800" stop="20261108155000 +0800"><title>葡語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108155000 +0800" stop="20261108160500 +0800"><title>天天成長記 第一至四季</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108160500 +0800" stop="20261108165000 +0800"><title>灣區故事: 水圍村 "1368"的日月星辰</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108165000 +0800" stop="20261108172000 +0800"><title>中國360°</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108172000 +0800" stop="20261108173000 +0800"><title>好書分享</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108173000 +0800" stop="20261108175000 +0800"><title>澳門經典車小百科</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108175000 +0800" stop="20261108180000 +0800"><title>澳門世遺短片</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108180000 +0800" stop="20261108183000 +0800"><title>“葡”出個味蕾</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108183000 +0800" stop="20261108185200 +0800"><title>趨記茶餐廳</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108185200 +0800" stop="20261108190000 +0800"><title>時局綜觀-英文字幕版</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108190000 +0800" stop="20261108192200 +0800"><title>家家有本事</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108192200 +0800" stop="20261108200000 +0800"><title>財經雜誌</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108200000 +0800" stop="20261108210000 +0800"><title>粵語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108210000 +0800" stop="20261108214100 +0800"><title>財經雜誌 - 對話灣區</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108214100 +0800" stop="20261108220000 +0800"><title>AI 劇場 解夢人</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108220000 +0800" stop="20261108225000 +0800"><title>粵語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108225000 +0800" stop="20261108234000 +0800"><title>葡語新聞</title></programme><programme channel="tdm-8.tdm.com.mo" start="20261108234000 +0800" stop="20261108235959 +0800"><title>家家有本事</title></programme></tv>
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="TDM-EPG-GitHub-Actions" generator-info-url="https://www.tdm.com.mo">
+  <channel id="澳视澳门 91台">
+    <display-name lang="zh">澳视澳门 91台</display-name>
+    <icon src="https://cdn2.tdm.com.mo/uploads/attachment/2021-03/a8fbac1841a5372178278304967c69fb.png"/>
+  </channel>
+  <channel id="澳视葡文 92台">
+    <display-name lang="zh">澳视葡文 92台</display-name>
+    <icon src="https://cdn2.tdm.com.mo/uploads/attachment/2021-03/595c1e8233d7a436a0747bad38a27e81.png"/>
+  </channel>
+  <channel id="澳门资讯 94台">
+    <display-name lang="zh">澳门资讯 94台</display-name>
+    <icon src="https://cdn2.tdm.com.mo/uploads/attachment/2021-03/5bde9db9db093ab310ceef6976cd0ee2.png"/>
+  </channel>
+  <channel id="澳门体育 93台">
+    <display-name lang="zh">澳门体育 93台</display-name>
+    <icon src="https://cdn2.tdm.com.mo/uploads/attachment/2021-03/0fb7aed6ff1aca16c34963fcee8eb367.png"/>
+  </channel>
+  <channel id="澳门综艺 95台">
+    <display-name lang="zh">澳门综艺 95台</display-name>
+    <icon src="https://cdn2.tdm.com.mo/uploads/attachment/2021-03/3a515e0352b60f146b1c6a79ddd4c54d.png"/>
+  </channel>
+  <channel id="澳门-Macau 96台">
+    <display-name lang="zh">澳门-Macau 96台</display-name>
+    <icon src="https://cdn2.tdm.com.mo/uploads/attachment/2021-09/931a1b83173c0557b46f6b7343e7e9f2.png"/>
+  </channel>
+  <programme start="20261104070000 +0800" stop="20261104080000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">早晨新闻</title>
+  </programme>
+  <programme start="20261104080000 +0800" stop="20261104090000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">澳门早晨</title>
+  </programme>
+  <programme start="20261104090000 +0800" stop="20261104090200 +0800" channel="澳视澳门 91台">
+    <title lang="zh">TDM 新视点</title>
+  </programme>
+  <programme start="20261104090200 +0800" stop="20261104092500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">澳门人澳门事</title>
+  </programme>
+  <programme start="20261104092500 +0800" stop="20261104100000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">大开眼界</title>
+  </programme>
+  <programme start="20261104100000 +0800" stop="20261104103000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261104103000 +0800" stop="20261104111000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">重播竞健群英 2026</title>
+  </programme>
+  <programme start="20261104111000 +0800" stop="20261104111500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">TDM 新视点</title>
+  </programme>
+  <programme start="20261104111500 +0800" stop="20261104125000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">被遗忘的时光</title>
+  </programme>
+  <programme start="20261104125000 +0800" stop="20261104131700 +0800" channel="澳视澳门 91台">
+    <title lang="zh">超级巴斯德</title>
+  </programme>
+  <programme start="20261104131700 +0800" stop="20261104132400 +0800" channel="澳视澳门 91台">
+    <title lang="zh">营商创新研究所</title>
+  </programme>
+  <programme start="20261104132400 +0800" stop="20261104133000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">午间天气报告</title>
+  </programme>
+  <programme start="20261104133000 +0800" stop="20261104140000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">午间新闻</title>
+  </programme>
+  <programme start="20261104140000 +0800" stop="20261104150000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">每日财经</title>
+  </programme>
+  <programme start="20261104150000 +0800" stop="20261104154000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">重播竞健群英 2026</title>
+  </programme>
+  <programme start="20261104154000 +0800" stop="20261104160000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">澳门早晨精华录</title>
+  </programme>
+  <programme start="20261104160000 +0800" stop="20261104163000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">儿童节目︰小凉帽第4季 之山海奇境</title>
+  </programme>
+  <programme start="20261104163000 +0800" stop="20261104165600 +0800" channel="澳视澳门 91台">
+    <title lang="zh">儿童节目︰萌赛可第一季</title>
+  </programme>
+  <programme start="20261104165600 +0800" stop="20261104170000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">儿童节目︰萌浪兔 第2季</title>
+  </programme>
+  <programme start="20261104170000 +0800" stop="20261104180000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">儿童节目︰冰雪守护者第1季</title>
+  </programme>
+  <programme start="20261104180000 +0800" stop="20261104184300 +0800" channel="澳视澳门 91台">
+    <title lang="zh">动感教菁</title>
+    <live/>
+  </programme>
+  <programme start="20261104184300 +0800" stop="20261104185000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">营商创新研究所</title>
+  </programme>
+  <programme start="20261104185000 +0800" stop="20261104190000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">新闻提要</title>
+  </programme>
+  <programme start="20261104190000 +0800" stop="20261104195500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">澳视新闻</title>
+  </programme>
+  <programme start="20261104195500 +0800" stop="20261104200000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">天气报告</title>
+  </programme>
+  <programme start="20261104200000 +0800" stop="20261104213300 +0800" channel="澳视澳门 91台">
+    <title lang="zh">被遗忘的时光</title>
+  </programme>
+  <programme start="20261104213300 +0800" stop="20261104220000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">热闹新听力</title>
+  </programme>
+  <programme start="20261104220000 +0800" stop="20261104223000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">普通话新闻</title>
+  </programme>
+  <programme start="20261104223000 +0800" stop="20261104224800 +0800" channel="澳视澳门 91台">
+    <title lang="zh">十点半澳视纵横︰放眼世界</title>
+  </programme>
+  <programme start="20261104224800 +0800" stop="20261104230000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">新闻深度游</title>
+  </programme>
+  <programme start="20261104230000 +0800" stop="20261104231500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">营商创新研究所</title>
+  </programme>
+  <programme start="20261104231500 +0800" stop="20261104235000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">晚间新闻</title>
+  </programme>
+  <programme start="20261104235000 +0800" stop="20261105000100 +0800" channel="澳视澳门 91台">
+    <title lang="zh">体育新闻</title>
+  </programme>
+  <programme start="20261105000100 +0800" stop="20261105002700 +0800" channel="澳视澳门 91台">
+    <title lang="zh">湾区全媒睇</title>
+  </programme>
+  <programme start="20261105002700 +0800" stop="20261105004900 +0800" channel="澳视澳门 91台">
+    <title lang="zh">热闹新听力</title>
+  </programme>
+  <programme start="20261105004900 +0800" stop="20261105010500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">重播放眼世界</title>
+  </programme>
+  <programme start="20261105010500 +0800" stop="20261105011700 +0800" channel="澳视澳门 91台">
+    <title lang="zh">重播新闻深度游</title>
+  </programme>
+  <programme start="20261105011700 +0800" stop="20261105012700 +0800" channel="澳视澳门 91台">
+    <title lang="zh">营商创新研究所</title>
+  </programme>
+  <programme start="20261105012700 +0800" stop="20261105030000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">被遗忘的时光</title>
+  </programme>
+  <programme start="20261105030000 +0800" stop="20261105032500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">录播普通话新闻</title>
+  </programme>
+  <programme start="20261105032500 +0800" stop="20261105040000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">录播晚间新闻</title>
+  </programme>
+  <programme start="20261105040000 +0800" stop="20261105042500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">热闹新听力</title>
+  </programme>
+  <programme start="20261105042500 +0800" stop="20261105044700 +0800" channel="澳视澳门 91台">
+    <title lang="zh">澳门早晨精华录</title>
+  </programme>
+  <programme start="20261105044700 +0800" stop="20261105050300 +0800" channel="澳视澳门 91台">
+    <title lang="zh">重播放眼世界</title>
+  </programme>
+  <programme start="20261105050300 +0800" stop="20261105051500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">重播新闻深度游</title>
+  </programme>
+  <programme start="20261105051500 +0800" stop="20261105052500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">营商创新研究所</title>
+  </programme>
+  <programme start="20261105052500 +0800" stop="20261105062500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">太平年</title>
+  </programme>
+  <programme start="20261105070000 +0800" stop="20261105080000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">早晨新闻</title>
+  </programme>
+  <programme start="20261105080000 +0800" stop="20261105090000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">澳门早晨</title>
+  </programme>
+  <programme start="20261105090000 +0800" stop="20261105090200 +0800" channel="澳视澳门 91台">
+    <title lang="zh">TDM 新视点</title>
+  </programme>
+  <programme start="20261105090200 +0800" stop="20261105092500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">热闹新听力</title>
+  </programme>
+  <programme start="20261105092500 +0800" stop="20261105100000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">味道-美味阿勒泰</title>
+  </programme>
+  <programme start="20261105100000 +0800" stop="20261105103000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261105103000 +0800" stop="20261105104600 +0800" channel="澳视澳门 91台">
+    <title lang="zh">重播放眼世界</title>
+  </programme>
+  <programme start="20261105104600 +0800" stop="20261105105800 +0800" channel="澳视澳门 91台">
+    <title lang="zh">重播新闻深度游</title>
+  </programme>
+  <programme start="20261105105800 +0800" stop="20261105111000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">营商创新研究所</title>
+  </programme>
+  <programme start="20261105111000 +0800" stop="20261105111500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">TDM 新视点</title>
+  </programme>
+  <programme start="20261105111500 +0800" stop="20261105125000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">被遗忘的时光</title>
+  </programme>
+  <programme start="20261105125000 +0800" stop="20261105131700 +0800" channel="澳视澳门 91台">
+    <title lang="zh">超级巴斯德</title>
+  </programme>
+  <programme start="20261105131700 +0800" stop="20261105132400 +0800" channel="澳视澳门 91台">
+    <title lang="zh">育才成长  筑新未来︰家长学堂</title>
+  </programme>
+  <programme start="20261105132400 +0800" stop="20261105133000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">午间天气报告</title>
+  </programme>
+  <programme start="20261105133000 +0800" stop="20261105140000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">午间新闻</title>
+  </programme>
+  <programme start="20261105140000 +0800" stop="20261105150000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">每日财经</title>
+  </programme>
+  <programme start="20261105150000 +0800" stop="20261105151600 +0800" channel="澳视澳门 91台">
+    <title lang="zh">重播放眼世界</title>
+  </programme>
+  <programme start="20261105151600 +0800" stop="20261105152800 +0800" channel="澳视澳门 91台">
+    <title lang="zh">重播新闻深度游</title>
+  </programme>
+  <programme start="20261105152800 +0800" stop="20261105154000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">营商创新研究所</title>
+  </programme>
+  <programme start="20261105154000 +0800" stop="20261105160000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">澳门早晨精华录</title>
+  </programme>
+  <programme start="20261105160000 +0800" stop="20261105163000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">儿童节目︰小凉帽第4季 之山海奇境</title>
+  </programme>
+  <programme start="20261105163000 +0800" stop="20261105165600 +0800" channel="澳视澳门 91台">
+    <title lang="zh">儿童节目︰萌赛可第一季</title>
+  </programme>
+  <programme start="20261105165600 +0800" stop="20261105170000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">儿童节目︰萌浪兔 第2季</title>
+  </programme>
+  <programme start="20261105170000 +0800" stop="20261105180000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">儿童节目︰冰雪守护者第1季</title>
+  </programme>
+  <programme start="20261105180000 +0800" stop="20261105184300 +0800" channel="澳视澳门 91台">
+    <title lang="zh">重播动感教菁</title>
+  </programme>
+  <programme start="20261105184300 +0800" stop="20261105185000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">育才成长  筑新未来︰家长学堂</title>
+  </programme>
+  <programme start="20261105185000 +0800" stop="20261105190000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">新闻提要</title>
+  </programme>
+  <programme start="20261105190000 +0800" stop="20261105195500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">澳视新闻</title>
+  </programme>
+  <programme start="20261105195500 +0800" stop="20261105200000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">天气报告</title>
+  </programme>
+  <programme start="20261105200000 +0800" stop="20261105213300 +0800" channel="澳视澳门 91台">
+    <title lang="zh">被遗忘的时光</title>
+  </programme>
+  <programme start="20261105213300 +0800" stop="20261105220000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">教煮CHILL 好玩</title>
+  </programme>
+  <programme start="20261105220000 +0800" stop="20261105223000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">普通话新闻</title>
+  </programme>
+  <programme start="20261105223000 +0800" stop="20261105231500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">十点半澳视纵横︰风火台</title>
+  </programme>
+  <programme start="20261105231500 +0800" stop="20261105235000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">晚间新闻</title>
+  </programme>
+  <programme start="20261105235000 +0800" stop="20261106000100 +0800" channel="澳视澳门 91台">
+    <title lang="zh">体育新闻</title>
+  </programme>
+  <programme start="20261106000100 +0800" stop="20261106002700 +0800" channel="澳视澳门 91台">
+    <title lang="zh">湾区全媒睇</title>
+  </programme>
+  <programme start="20261106002700 +0800" stop="20261106004900 +0800" channel="澳视澳门 91台">
+    <title lang="zh">教煮CHILL 好玩</title>
+  </programme>
+  <programme start="20261106004900 +0800" stop="20261106012700 +0800" channel="澳视澳门 91台">
+    <title lang="zh">重播风火台</title>
+  </programme>
+  <programme start="20261106012700 +0800" stop="20261106030000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">被遗忘的时光</title>
+  </programme>
+  <programme start="20261106030000 +0800" stop="20261106032500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">录播普通话新闻</title>
+  </programme>
+  <programme start="20261106032500 +0800" stop="20261106040000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">录播晚间新闻</title>
+  </programme>
+  <programme start="20261106040000 +0800" stop="20261106042500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">教煮CHILL 好玩</title>
+  </programme>
+  <programme start="20261106042500 +0800" stop="20261106044700 +0800" channel="澳视澳门 91台">
+    <title lang="zh">澳门早晨精华录</title>
+  </programme>
+  <programme start="20261106044700 +0800" stop="20261106052500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">重播风火台</title>
+  </programme>
+  <programme start="20261106052500 +0800" stop="20261106062500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">太平年</title>
+  </programme>
+  <programme start="20261104133000 +0800" stop="20261104143500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Telejornal RTPi (Diferido)</title>
+  </programme>
+  <programme start="20261104143500 +0800" stop="20261104150000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">A Natureza dos Homens e dos Animais</title>
+  </programme>
+  <programme start="20261104150000 +0800" stop="20261104153000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Cozinha de Chef T2</title>
+  </programme>
+  <programme start="20261104153000 +0800" stop="20261104161500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Queridos Papás</title>
+  </programme>
+  <programme start="20261104161500 +0800" stop="20261104163000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">O Carrinho Poli T4</title>
+  </programme>
+  <programme start="20261104163000 +0800" stop="20261104164500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Os Smurfs T3</title>
+  </programme>
+  <programme start="20261104164500 +0800" stop="20261104171000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Nutri Ventures - Em busca dos 7 Reinos</title>
+  </programme>
+  <programme start="20261104171000 +0800" stop="20261104173500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Legend Quest</title>
+  </programme>
+  <programme start="20261104173500 +0800" stop="20261104182500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Mania de Você (Repetição)</title>
+    <live/>
+  </programme>
+  <programme start="20261104182500 +0800" stop="20261104191000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">TDM Desporto (Repetição)</title>
+  </programme>
+  <programme start="20261104191000 +0800" stop="20261104200000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">A Fazenda</title>
+  </programme>
+  <programme start="20261104200000 +0800" stop="20261104205000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Telejornal</title>
+  </programme>
+  <programme start="20261104205000 +0800" stop="20261104212500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">A Minha Vida Sobre Rodas</title>
+  </programme>
+  <programme start="20261104212500 +0800" stop="20261104214000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Tradições de Portugal - Estreia</title>
+  </programme>
+  <programme start="20261104214000 +0800" stop="20261104223500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Mania de Você</title>
+  </programme>
+  <programme start="20261104223500 +0800" stop="20261104231000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">TDM News</title>
+  </programme>
+  <programme start="20261104231000 +0800" stop="20261104234500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">A Prova dos Factos</title>
+  </programme>
+  <programme start="20261104234500 +0800" stop="20261105004500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">RTPi Directo</title>
+  </programme>
+  <programme start="20261105133000 +0800" stop="20261105143500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Telejornal RTPi (Diferido)</title>
+  </programme>
+  <programme start="20261105143500 +0800" stop="20261105153000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">RTPi Directo</title>
+  </programme>
+  <programme start="20261105153000 +0800" stop="20261105160000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Cozinha de Chef T2</title>
+  </programme>
+  <programme start="20261105160000 +0800" stop="20261105164500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Queridos Papás</title>
+  </programme>
+  <programme start="20261105164500 +0800" stop="20261105170000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">O Carrinho Poli T4</title>
+  </programme>
+  <programme start="20261105170000 +0800" stop="20261105171000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Os Smurfs T3</title>
+  </programme>
+  <programme start="20261105171000 +0800" stop="20261105173500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Nutri Ventures - Em busca dos 7 Reinos</title>
+  </programme>
+  <programme start="20261105173500 +0800" stop="20261105180000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Legend Quest</title>
+  </programme>
+  <programme start="20261105180000 +0800" stop="20261105185000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Mania de Você (Repetição)</title>
+  </programme>
+  <programme start="20261105185000 +0800" stop="20261105191500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Solteira e Boa Rapariga</title>
+  </programme>
+  <programme start="20261105191500 +0800" stop="20261105200000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">A Fazenda</title>
+  </programme>
+  <programme start="20261105200000 +0800" stop="20261105205000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Telejornal</title>
+  </programme>
+  <programme start="20261105205000 +0800" stop="20261105212000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Foodwise T2</title>
+  </programme>
+  <programme start="20261105212000 +0800" stop="20261105214000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Portugal na Esplanada T2</title>
+  </programme>
+  <programme start="20261105214000 +0800" stop="20261105223500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Mania de Você</title>
+  </programme>
+  <programme start="20261105223500 +0800" stop="20261105231000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">TDM News</title>
+  </programme>
+  <programme start="20261105231000 +0800" stop="20261106000500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Tudo É Economia</title>
+  </programme>
+  <programme start="20261106000500 +0800" stop="20261106010500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">RTPi Directo</title>
+  </programme>
+  <programme start="20261104065900 +0800" stop="20261104070000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">开台</title>
+  </programme>
+  <programme start="20261104070000 +0800" stop="20261104080000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">早晨新闻</title>
+  </programme>
+  <programme start="20261104080000 +0800" stop="20261104090000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">澳门早晨</title>
+  </programme>
+  <programme start="20261104090000 +0800" stop="20261104093000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">重播早晨新闻</title>
+  </programme>
+  <programme start="20261104093000 +0800" stop="20261104100000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">湾区全媒睇</title>
+  </programme>
+  <programme start="20261104100000 +0800" stop="20261104103000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261104103000 +0800" stop="20261104110000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261104110000 +0800" stop="20261104111200 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261104111200 +0800" stop="20261104112000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">营商创新研究所</title>
+  </programme>
+  <programme start="20261104112000 +0800" stop="20261104120000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">重播竞健群英 2026</title>
+  </programme>
+  <programme start="20261104120000 +0800" stop="20261104122000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261104122000 +0800" stop="20261104122700 +0800" channel="澳门资讯 94台">
+    <title lang="zh">营商创新研究所</title>
+  </programme>
+  <programme start="20261104122700 +0800" stop="20261104123000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">街市情报</title>
+  </programme>
+  <programme start="20261104123000 +0800" stop="20261104125000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261104125000 +0800" stop="20261104130000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">海派百工2</title>
+  </programme>
+  <programme start="20261104130000 +0800" stop="20261104131700 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261104131700 +0800" stop="20261104132400 +0800" channel="澳门资讯 94台">
+    <title lang="zh">营商创新研究所</title>
+  </programme>
+  <programme start="20261104132400 +0800" stop="20261104133000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">午间天气报告</title>
+  </programme>
+  <programme start="20261104133000 +0800" stop="20261104140000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">午间新闻</title>
+  </programme>
+  <programme start="20261104140000 +0800" stop="20261104150000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">每日财经</title>
+  </programme>
+  <programme start="20261104150000 +0800" stop="20261104152500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261104152500 +0800" stop="20261104153000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">街市情报</title>
+  </programme>
+  <programme start="20261104153000 +0800" stop="20261104160000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261104160000 +0800" stop="20261104163000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261104163000 +0800" stop="20261104170000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261104170000 +0800" stop="20261104173000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261104173000 +0800" stop="20261104175000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261104175000 +0800" stop="20261104180000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">营商创新研究所</title>
+  </programme>
+  <programme start="20261104180000 +0800" stop="20261104180500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261104180500 +0800" stop="20261104180700 +0800" channel="澳门资讯 94台">
+    <title lang="zh">TDM 新视点</title>
+  </programme>
+  <programme start="20261104180700 +0800" stop="20261104183200 +0800" channel="澳门资讯 94台">
+    <title lang="zh">澳门早晨精华录</title>
+    <live/>
+  </programme>
+  <programme start="20261104183200 +0800" stop="20261104190000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">湾区全媒睇</title>
+  </programme>
+  <programme start="20261104190000 +0800" stop="20261104195500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">澳视新闻</title>
+  </programme>
+  <programme start="20261104195500 +0800" stop="20261104195800 +0800" channel="澳门资讯 94台">
+    <title lang="zh">天气报告</title>
+  </programme>
+  <programme start="20261104195800 +0800" stop="20261104200000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">TDM 新视点</title>
+  </programme>
+  <programme start="20261104200000 +0800" stop="20261104210000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">录播澳视新闻</title>
+  </programme>
+  <programme start="20261104210000 +0800" stop="20261104220000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">录播澳视新闻</title>
+  </programme>
+  <programme start="20261104220000 +0800" stop="20261104223000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">普通话新闻</title>
+  </programme>
+  <programme start="20261104223000 +0800" stop="20261104224800 +0800" channel="澳门资讯 94台">
+    <title lang="zh">十点半澳视纵横：放眼世界</title>
+  </programme>
+  <programme start="20261104224800 +0800" stop="20261104230000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻深度游</title>
+  </programme>
+  <programme start="20261104230000 +0800" stop="20261104231500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">营商创新研究所</title>
+  </programme>
+  <programme start="20261104231500 +0800" stop="20261104235000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">晚间新闻</title>
+  </programme>
+  <programme start="20261104235000 +0800" stop="20261105000500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">体育新闻</title>
+  </programme>
+  <programme start="20261105000500 +0800" stop="20261105003500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">中国城市报道</title>
+  </programme>
+  <programme start="20261105003500 +0800" stop="20261105004500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">澳门早晨精华篇</title>
+  </programme>
+  <programme start="20261105004500 +0800" stop="20261105011500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">录播普通话新闻</title>
+  </programme>
+  <programme start="20261105011500 +0800" stop="20261105015000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">录播晚间新闻</title>
+  </programme>
+  <programme start="20261105015000 +0800" stop="20261105020000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">重播体育新闻</title>
+  </programme>
+  <programme start="20261105020000 +0800" stop="20261105030000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">收台</title>
+  </programme>
+  <programme start="20261105065900 +0800" stop="20261105070000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">开台</title>
+  </programme>
+  <programme start="20261105070000 +0800" stop="20261105080000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">早晨新闻</title>
+  </programme>
+  <programme start="20261105080000 +0800" stop="20261105090000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">澳门早晨</title>
+  </programme>
+  <programme start="20261105090000 +0800" stop="20261105093000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">重播早晨新闻</title>
+  </programme>
+  <programme start="20261105093000 +0800" stop="20261105100000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">湾区全媒睇</title>
+  </programme>
+  <programme start="20261105100000 +0800" stop="20261105103000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261105103000 +0800" stop="20261105110000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261105110000 +0800" stop="20261105111200 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261105111200 +0800" stop="20261105112000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">育才成长 筑新未来： 家长学堂</title>
+  </programme>
+  <programme start="20261105112000 +0800" stop="20261105113800 +0800" channel="澳门资讯 94台">
+    <title lang="zh">重播放眼世界</title>
+  </programme>
+  <programme start="20261105113800 +0800" stop="20261105115000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">重播新闻深度游</title>
+  </programme>
+  <programme start="20261105115000 +0800" stop="20261105120000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">澳门早晨精华篇</title>
+  </programme>
+  <programme start="20261105120000 +0800" stop="20261105122000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261105122000 +0800" stop="20261105122700 +0800" channel="澳门资讯 94台">
+    <title lang="zh">育才成长 筑新未来： 家长学堂</title>
+  </programme>
+  <programme start="20261105122700 +0800" stop="20261105123000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">街市情报</title>
+  </programme>
+  <programme start="20261105123000 +0800" stop="20261105125000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261105125000 +0800" stop="20261105130000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">海派百工2</title>
+  </programme>
+  <programme start="20261105130000 +0800" stop="20261105131700 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261105131700 +0800" stop="20261105132400 +0800" channel="澳门资讯 94台">
+    <title lang="zh">育才成长 筑新未来： 家长学堂</title>
+  </programme>
+  <programme start="20261105132400 +0800" stop="20261105133000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">午间天气报告</title>
+  </programme>
+  <programme start="20261105133000 +0800" stop="20261105140000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">午间新闻</title>
+  </programme>
+  <programme start="20261105140000 +0800" stop="20261105150000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">每日财经</title>
+  </programme>
+  <programme start="20261105150000 +0800" stop="20261105152500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261105152500 +0800" stop="20261105153000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">街市情报</title>
+  </programme>
+  <programme start="20261105153000 +0800" stop="20261105160000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261105160000 +0800" stop="20261105163000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261105163000 +0800" stop="20261105170000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261105170000 +0800" stop="20261105173000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261105173000 +0800" stop="20261105175000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261105175000 +0800" stop="20261105180000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">育才成长 筑新未来： 家长学堂</title>
+  </programme>
+  <programme start="20261105180000 +0800" stop="20261105180500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261105180500 +0800" stop="20261105180700 +0800" channel="澳门资讯 94台">
+    <title lang="zh">TDM 新视点</title>
+  </programme>
+  <programme start="20261105180700 +0800" stop="20261105183200 +0800" channel="澳门资讯 94台">
+    <title lang="zh">澳门早晨精华录</title>
+  </programme>
+  <programme start="20261105183200 +0800" stop="20261105190000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">湾区全媒睇</title>
+  </programme>
+  <programme start="20261105190000 +0800" stop="20261105195500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">澳视新闻</title>
+  </programme>
+  <programme start="20261105195500 +0800" stop="20261105195800 +0800" channel="澳门资讯 94台">
+    <title lang="zh">天气报告</title>
+  </programme>
+  <programme start="20261105195800 +0800" stop="20261105200000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">TDM 新视点</title>
+  </programme>
+  <programme start="20261105200000 +0800" stop="20261105210000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">录播澳视新闻</title>
+  </programme>
+  <programme start="20261105210000 +0800" stop="20261105220000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">录播澳视新闻</title>
+  </programme>
+  <programme start="20261105220000 +0800" stop="20261105223000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">普通话新闻</title>
+  </programme>
+  <programme start="20261105223000 +0800" stop="20261105231500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">十点半澳视纵横：风火台</title>
+  </programme>
+  <programme start="20261105231500 +0800" stop="20261105235000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">晚间新闻</title>
+  </programme>
+  <programme start="20261105235000 +0800" stop="20261106000500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">体育新闻</title>
+  </programme>
+  <programme start="20261106000500 +0800" stop="20261106003500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">中国城市报道</title>
+  </programme>
+  <programme start="20261106003500 +0800" stop="20261106004500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">澳门早晨精华篇</title>
+  </programme>
+  <programme start="20261106004500 +0800" stop="20261106011500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">录播普通话新闻</title>
+  </programme>
+  <programme start="20261106011500 +0800" stop="20261106015000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">录播晚间新闻</title>
+  </programme>
+  <programme start="20261106015000 +0800" stop="20261106020000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">重播体育新闻</title>
+  </programme>
+  <programme start="20261106020000 +0800" stop="20261106030000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">收台</title>
+  </programme>
+  <programme start="20261104095900 +0800" stop="20261104100000 +0800" channel="澳门体育 93台">
+    <title lang="zh">开台</title>
+  </programme>
+  <programme start="20261104100000 +0800" stop="20261104125000 +0800" channel="澳门体育 93台">
+    <title lang="zh">2026温布顿网球锦标赛：女单决赛</title>
+  </programme>
+  <programme start="20261104125000 +0800" stop="20261104130000 +0800" channel="澳门体育 93台">
+    <title lang="zh">澳门经典车小百科</title>
+  </programme>
+  <programme start="20261104130000 +0800" stop="20261104131500 +0800" channel="澳门体育 93台">
+    <title lang="zh">体育新闻</title>
+  </programme>
+  <programme start="20261104131500 +0800" stop="20261104141000 +0800" channel="澳门体育 93台">
+    <title lang="zh">爱知．名古屋第20届亚运会：举重女子77公斤级决赛</title>
+  </programme>
+  <programme start="20261104141000 +0800" stop="20261104151000 +0800" channel="澳门体育 93台">
+    <title lang="zh">爱知．名古屋第20届亚运会：羽毛球女双4强</title>
+  </programme>
+  <programme start="20261104151000 +0800" stop="20261104155500 +0800" channel="澳门体育 93台">
+    <title lang="zh">爱知．名古屋第20届亚运会：羽毛球混双4强</title>
+  </programme>
+  <programme start="20261104155500 +0800" stop="20261104175500 +0800" channel="澳门体育 93台">
+    <title lang="zh">2026/27 亚洲女子冠军联赛：神户雌狮 对 巴姆卡顿</title>
+  </programme>
+  <programme start="20261104175500 +0800" stop="20261104200000 +0800" channel="澳门体育 93台">
+    <title lang="zh">直播亚洲冠军精英联赛：浦项制铁 对 大阪飞脚</title>
+    <live/>
+  </programme>
+  <programme start="20261104200000 +0800" stop="20261104201000 +0800" channel="澳门体育 93台">
+    <title lang="zh">澳门经典车小百科</title>
+  </programme>
+  <programme start="20261104201000 +0800" stop="20261104210500 +0800" channel="澳门体育 93台">
+    <title lang="zh">直播亚洲冠军精英联赛：武里南联 对 鹿岛鹿角</title>
+  </programme>
+  <programme start="20261104210500 +0800" stop="20261104211000 +0800" channel="澳门体育 93台">
+    <title lang="zh">体育新闻</title>
+  </programme>
+  <programme start="20261104211000 +0800" stop="20261104221000 +0800" channel="澳门体育 93台">
+    <title lang="zh">直播亚洲冠军精英联赛：武里南联 对 鹿岛鹿角</title>
+  </programme>
+  <programme start="20261104221000 +0800" stop="20261104222500 +0800" channel="澳门体育 93台">
+    <title lang="zh">澳门经典车小百科</title>
+  </programme>
+  <programme start="20261104222500 +0800" stop="20261104232000 +0800" channel="澳门体育 93台">
+    <title lang="zh">直播2026/27 亚洲女子冠军联赛：拿萨夫 对 北京京坛</title>
+  </programme>
+  <programme start="20261104232000 +0800" stop="20261104232500 +0800" channel="澳门体育 93台">
+    <title lang="zh">体育新闻</title>
+  </programme>
+  <programme start="20261104232500 +0800" stop="20261105003000 +0800" channel="澳门体育 93台">
+    <title lang="zh">直播2026/27 亚洲女子冠军联赛：拿萨夫 对 北京京坛</title>
+  </programme>
+  <programme start="20261105003000 +0800" stop="20261105012000 +0800" channel="澳门体育 93台">
+    <title lang="zh">2026/2027欧洲冠军联赛精华</title>
+  </programme>
+  <programme start="20261105012000 +0800" stop="20261105014000 +0800" channel="澳门体育 93台">
+    <title lang="zh">澳门经典车小百科</title>
+  </programme>
+  <programme start="20261105014000 +0800" stop="20261105034500 +0800" channel="澳门体育 93台">
+    <title lang="zh">直播2026/2027欧洲冠军联赛 ：费伦巴治 对 利物浦</title>
+  </programme>
+  <programme start="20261105034500 +0800" stop="20261105035500 +0800" channel="澳门体育 93台">
+    <title lang="zh">澳门经典车小百科</title>
+  </programme>
+  <programme start="20261105035500 +0800" stop="20261105060000 +0800" channel="澳门体育 93台">
+    <title lang="zh">直播2026/2027欧洲冠军联赛 ：RB莱比锡 对 曼城</title>
+  </programme>
+  <programme start="20261105060000 +0800" stop="20261105070000 +0800" channel="澳门体育 93台">
+    <title lang="zh">收台</title>
+  </programme>
+  <programme start="20261105095900 +0800" stop="20261105100000 +0800" channel="澳门体育 93台">
+    <title lang="zh">开台</title>
+  </programme>
+  <programme start="20261105100000 +0800" stop="20261105120000 +0800" channel="澳门体育 93台">
+    <title lang="zh">2026温布顿网球锦标赛：女双决赛</title>
+  </programme>
+  <programme start="20261105120000 +0800" stop="20261105130000 +0800" channel="澳门体育 93台">
+    <title lang="zh">爱知．名古屋第20届亚运会：举重女子86公斤级决赛</title>
+  </programme>
+  <programme start="20261105130000 +0800" stop="20261105131500 +0800" channel="澳门体育 93台">
+    <title lang="zh">体育新闻</title>
+  </programme>
+  <programme start="20261105131500 +0800" stop="20261105135000 +0800" channel="澳门体育 93台">
+    <title lang="zh">爱知．名古屋第20届亚运会：乒乓球男单决赛</title>
+  </programme>
+  <programme start="20261105135000 +0800" stop="20261105144000 +0800" channel="澳门体育 93台">
+    <title lang="zh">爱知．名古屋第20届亚运会：田径赛事</title>
+  </programme>
+  <programme start="20261105144000 +0800" stop="20261105145000 +0800" channel="澳门体育 93台">
+    <title lang="zh">每周体育精华</title>
+  </programme>
+  <programme start="20261105145000 +0800" stop="20261105160500 +0800" channel="澳门体育 93台">
+    <title lang="zh">2026世界羽毛球锦标赛：女双8强</title>
+  </programme>
+  <programme start="20261105160500 +0800" stop="20261105170000 +0800" channel="澳门体育 93台">
+    <title lang="zh">2026世界羽毛球锦标赛：女单8强</title>
+  </programme>
+  <programme start="20261105170000 +0800" stop="20261105171500 +0800" channel="澳门体育 93台">
+    <title lang="zh">澳门经典车小百科</title>
+  </programme>
+  <programme start="20261105171500 +0800" stop="20261105175500 +0800" channel="澳门体育 93台">
+    <title lang="zh">竞健群英2026</title>
+  </programme>
+  <programme start="20261105175500 +0800" stop="20261105200000 +0800" channel="澳门体育 93台">
+    <title lang="zh">直播2026-27 东亚超级篮球联赛：釜山宙斯盾 对 昊骏</title>
+  </programme>
+  <programme start="20261105200000 +0800" stop="20261105201000 +0800" channel="澳门体育 93台">
+    <title lang="zh">澳门经典车小百科</title>
+  </programme>
+  <programme start="20261105201000 +0800" stop="20261105210500 +0800" channel="澳门体育 93台">
+    <title lang="zh">直播亚洲冠军二级联赛：古晋 对 FC江原</title>
+  </programme>
+  <programme start="20261105210500 +0800" stop="20261105211000 +0800" channel="澳门体育 93台">
+    <title lang="zh">体育新闻</title>
+  </programme>
+  <programme start="20261105211000 +0800" stop="20261105221500 +0800" channel="澳门体育 93台">
+    <title lang="zh">直播亚洲冠军二级联赛：古晋 对 FC江原</title>
+  </programme>
+  <programme start="20261105221500 +0800" stop="20261105223000 +0800" channel="澳门体育 93台">
+    <title lang="zh">每周体育精华</title>
+  </programme>
+  <programme start="20261105223000 +0800" stop="20261105232000 +0800" channel="澳门体育 93台">
+    <title lang="zh">2026/2027欧洲冠军联赛精华</title>
+  </programme>
+  <programme start="20261105232000 +0800" stop="20261105233000 +0800" channel="澳门体育 93台">
+    <title lang="zh">体育新闻</title>
+  </programme>
+  <programme start="20261105233000 +0800" stop="20261106003000 +0800" channel="澳门体育 93台">
+    <title lang="zh">2026欧洲勒芒系列赛精华：第三集 伊莫拉站</title>
+  </programme>
+  <programme start="20261106003000 +0800" stop="20261106005000 +0800" channel="澳门体育 93台">
+    <title lang="zh">澳门经典车小百科</title>
+  </programme>
+  <programme start="20261106005000 +0800" stop="20261106014000 +0800" channel="澳门体育 93台">
+    <title lang="zh">2026/2027欧洲联赛及欧洲协会联赛杂志</title>
+  </programme>
+  <programme start="20261106014000 +0800" stop="20261106034500 +0800" channel="澳门体育 93台">
+    <title lang="zh">直播2026/2027 欧洲联赛：水晶宫 对 贺芬咸</title>
+  </programme>
+  <programme start="20261106034500 +0800" stop="20261106035500 +0800" channel="澳门体育 93台">
+    <title lang="zh">每周体育精华</title>
+  </programme>
+  <programme start="20261106035500 +0800" stop="20261106060000 +0800" channel="澳门体育 93台">
+    <title lang="zh">直播2026/2027 欧洲联赛：艾克马亚 对 祖云达斯</title>
+  </programme>
+  <programme start="20261106060000 +0800" stop="20261106070000 +0800" channel="澳门体育 93台">
+    <title lang="zh">收台</title>
+  </programme>
+  <programme start="20261104095900 +0800" stop="20261104100000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">开台</title>
+  </programme>
+  <programme start="20261104100000 +0800" stop="20261104130100 +0800" channel="澳门综艺 95台">
+    <title lang="zh">好剧连场: 伪钞者之末路</title>
+  </programme>
+  <programme start="20261104130100 +0800" stop="20261104151800 +0800" channel="澳门综艺 95台">
+    <title lang="zh">好剧连场: 深潜</title>
+  </programme>
+  <programme start="20261104151800 +0800" stop="20261104160600 +0800" channel="澳门综艺 95台">
+    <title lang="zh">好剧连场: 心灵法医</title>
+  </programme>
+  <programme start="20261104160600 +0800" stop="20261104163500 +0800" channel="澳门综艺 95台">
+    <title lang="zh">一城烟火 一城诗</title>
+  </programme>
+  <programme start="20261104163500 +0800" stop="20261104173000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">追逐猛兽之厄尔尼诺</title>
+  </programme>
+  <programme start="20261104173000 +0800" stop="20261104175800 +0800" channel="澳门综艺 95台">
+    <title lang="zh">澳门早晨精华录</title>
+  </programme>
+  <programme start="20261104175800 +0800" stop="20261104180000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">TDM 新视点</title>
+  </programme>
+  <programme start="20261104180000 +0800" stop="20261104182500 +0800" channel="澳门综艺 95台">
+    <title lang="zh">篮球旋风 第二季</title>
+    <live/>
+  </programme>
+  <programme start="20261104182500 +0800" stop="20261104200000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">如果奔跑是我的人生</title>
+  </programme>
+  <programme start="20261104200000 +0800" stop="20261104202400 +0800" channel="澳门综艺 95台">
+    <title lang="zh">巴厘岛天堂厨房</title>
+  </programme>
+  <programme start="20261104202400 +0800" stop="20261104203000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">海派百工2</title>
+  </programme>
+  <programme start="20261104203000 +0800" stop="20261104213500 +0800" channel="澳门综艺 95台">
+    <title lang="zh">AI 剧场   瑰宝之舞</title>
+  </programme>
+  <programme start="20261104213500 +0800" stop="20261104231000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">如果奔跑是我的人生</title>
+  </programme>
+  <programme start="20261104231000 +0800" stop="20261105000100 +0800" channel="澳门综艺 95台">
+    <title lang="zh">家长朋友圈</title>
+  </programme>
+  <programme start="20261105000100 +0800" stop="20261105011800 +0800" channel="澳门综艺 95台">
+    <title lang="zh">越战越勇</title>
+  </programme>
+  <programme start="20261105011800 +0800" stop="20261105014000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">知味兴安盟</title>
+  </programme>
+  <programme start="20261105014000 +0800" stop="20261105033700 +0800" channel="澳门综艺 95台">
+    <title lang="zh">2026「耆年好声音」全澳长者歌唱比赛</title>
+  </programme>
+  <programme start="20261105033700 +0800" stop="20261105034500 +0800" channel="澳门综艺 95台">
+    <title lang="zh">世界文化遗产短片</title>
+  </programme>
+  <programme start="20261105034500 +0800" stop="20261105035500 +0800" channel="澳门综艺 95台">
+    <title lang="zh">海派百工2</title>
+  </programme>
+  <programme start="20261105035500 +0800" stop="20261105060000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">直播2026/2027欧洲冠军联赛: 布拉格斯拉维亚  对  阿仙奴</title>
+  </programme>
+  <programme start="20261105060000 +0800" stop="20261105070000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">收台</title>
+  </programme>
+  <programme start="20261105095900 +0800" stop="20261105100000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">开台</title>
+  </programme>
+  <programme start="20261105100000 +0800" stop="20261105130000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">好剧连场: 伪钞者之末路</title>
+  </programme>
+  <programme start="20261105130000 +0800" stop="20261105160500 +0800" channel="澳门综艺 95台">
+    <title lang="zh">好剧连场: 心灵法医</title>
+  </programme>
+  <programme start="20261105160500 +0800" stop="20261105162000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">诗词有故事</title>
+  </programme>
+  <programme start="20261105162000 +0800" stop="20261105163500 +0800" channel="澳门综艺 95台">
+    <title lang="zh">你好大湾区</title>
+  </programme>
+  <programme start="20261105163500 +0800" stop="20261105173000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">家长朋友圈</title>
+  </programme>
+  <programme start="20261105173000 +0800" stop="20261105175800 +0800" channel="澳门综艺 95台">
+    <title lang="zh">澳门早晨精华录</title>
+  </programme>
+  <programme start="20261105175800 +0800" stop="20261105180000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">TDM 新视点</title>
+  </programme>
+  <programme start="20261105180000 +0800" stop="20261105182500 +0800" channel="澳门综艺 95台">
+    <title lang="zh">篮球旋风 第二季</title>
+  </programme>
+  <programme start="20261105182500 +0800" stop="20261105200000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">如果奔跑是我的人生</title>
+  </programme>
+  <programme start="20261105200000 +0800" stop="20261105203500 +0800" channel="澳门综艺 95台">
+    <title lang="zh">青春有歌</title>
+  </programme>
+  <programme start="20261105203500 +0800" stop="20261105212000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">卧底旅行团 4.0</title>
+  </programme>
+  <programme start="20261105212000 +0800" stop="20261105213500 +0800" channel="澳门综艺 95台">
+    <title lang="zh">你好大湾区</title>
+  </programme>
+  <programme start="20261105213500 +0800" stop="20261105231000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">如果奔跑是我的人生</title>
+  </programme>
+  <programme start="20261105231000 +0800" stop="20261106000100 +0800" channel="澳门综艺 95台">
+    <title lang="zh">动物游踪</title>
+  </programme>
+  <programme start="20261106000100 +0800" stop="20261106012400 +0800" channel="澳门综艺 95台">
+    <title lang="zh">电影: 属于你的记忆</title>
+  </programme>
+  <programme start="20261106012400 +0800" stop="20261106014000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">四川非遗100（第三季）</title>
+  </programme>
+  <programme start="20261106014000 +0800" stop="20261106034500 +0800" channel="澳门综艺 95台">
+    <title lang="zh">直播2026/2027 欧洲联赛: AC米兰  对  费伦斯华路士</title>
+  </programme>
+  <programme start="20261106034500 +0800" stop="20261106035500 +0800" channel="澳门综艺 95台">
+    <title lang="zh">海派百工2</title>
+  </programme>
+  <programme start="20261106035500 +0800" stop="20261106060000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">直播2026/2027 欧洲联赛: 利华古逊  对  马赛</title>
+  </programme>
+  <programme start="20261106060000 +0800" stop="20261106070000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">收台</title>
+  </programme>
+  <programme start="20261104000200 +0800" stop="20261104003000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">葡文节目重温 - 这片土地的人们</title>
+  </programme>
+  <programme start="20261104003000 +0800" stop="20261104010000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门仁慈堂</title>
+  </programme>
+  <programme start="20261104010000 +0800" stop="20261104013000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">美味缘是您</title>
+  </programme>
+  <programme start="20261104013000 +0800" stop="20261104020000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">英语新闻</title>
+  </programme>
+  <programme start="20261104020000 +0800" stop="20261104025000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">葡语新闻</title>
+  </programme>
+  <programme start="20261104025000 +0800" stop="20261104031000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门早晨精华录</title>
+  </programme>
+  <programme start="20261104031000 +0800" stop="20261104034000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">马交游﹕澳门Chill 好玩</title>
+  </programme>
+  <programme start="20261104034000 +0800" stop="20261104043000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">机器人变变变</title>
+  </programme>
+  <programme start="20261104043000 +0800" stop="20261104044000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">国宝时刻</title>
+  </programme>
+  <programme start="20261104044000 +0800" stop="20261104053000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">葡语新闻</title>
+  </programme>
+  <programme start="20261104053000 +0800" stop="20261104060000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">美味缘是您</title>
+  </programme>
+  <programme start="20261104060000 +0800" stop="20261104063000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">葡文节目重温 - 这片土地的人们</title>
+  </programme>
+  <programme start="20261104063000 +0800" stop="20261104070000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门仁慈堂</title>
+  </programme>
+  <programme start="20261104070000 +0800" stop="20261104073000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">无名的爱</title>
+  </programme>
+  <programme start="20261104073000 +0800" stop="20261104080000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">英语新闻</title>
+  </programme>
+  <programme start="20261104080000 +0800" stop="20261104083000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">马交游﹕澳门Chill 好玩</title>
+  </programme>
+  <programme start="20261104083000 +0800" stop="20261104085300 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">家家有本事</title>
+  </programme>
+  <programme start="20261104085300 +0800" stop="20261104092000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">湾区全媒睇</title>
+  </programme>
+  <programme start="20261104092000 +0800" stop="20261104100000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">竞健群英 2026</title>
+  </programme>
+  <programme start="20261104100000 +0800" stop="20261104103000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">粤语新闻</title>
+  </programme>
+  <programme start="20261104103000 +0800" stop="20261104112000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">机器人变变变</title>
+  </programme>
+  <programme start="20261104112000 +0800" stop="20261104115000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">美味缘是您</title>
+  </programme>
+  <programme start="20261104115000 +0800" stop="20261104122000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">马交游﹕澳门Chill 好玩</title>
+  </programme>
+  <programme start="20261104122000 +0800" stop="20261104130000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">竞健群英 2026</title>
+  </programme>
+  <programme start="20261104130000 +0800" stop="20261104133000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">无名的爱</title>
+  </programme>
+  <programme start="20261104133000 +0800" stop="20261104135300 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">家家有本事</title>
+  </programme>
+  <programme start="20261104135300 +0800" stop="20261104140000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门非物质文化遗产</title>
+  </programme>
+  <programme start="20261104140000 +0800" stop="20261104143000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">粤语新闻</title>
+  </programme>
+  <programme start="20261104143000 +0800" stop="20261104150000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">美味缘是您</title>
+  </programme>
+  <programme start="20261104150000 +0800" stop="20261104155000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">葡语新闻</title>
+  </programme>
+  <programme start="20261104155000 +0800" stop="20261104160500 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">天天成长记 第一至四季</title>
+  </programme>
+  <programme start="20261104160500 +0800" stop="20261104165500 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">机器人变变变</title>
+  </programme>
+  <programme start="20261104165500 +0800" stop="20261104172500 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门仁慈堂</title>
+  </programme>
+  <programme start="20261104172500 +0800" stop="20261104175500 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">马交游﹕澳门Chill 好玩</title>
+  </programme>
+  <programme start="20261104175500 +0800" stop="20261104182500 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">无名的爱</title>
+    <live/>
+  </programme>
+  <programme start="20261104182500 +0800" stop="20261104185000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门早晨精华录</title>
+  </programme>
+  <programme start="20261104185000 +0800" stop="20261104191300 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">家家有本事</title>
+  </programme>
+  <programme start="20261104191300 +0800" stop="20261104192000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">家家有𩠌煮</title>
+  </programme>
+  <programme start="20261104192000 +0800" stop="20261104200000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">竞健群英 2026</title>
+  </programme>
+  <programme start="20261104200000 +0800" stop="20261104210000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">粤语新闻</title>
+  </programme>
+  <programme start="20261104210000 +0800" stop="20261104213000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">湾区全媒睇</title>
+  </programme>
+  <programme start="20261104213000 +0800" stop="20261104220000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">美味缘是您</title>
+  </programme>
+  <programme start="20261104220000 +0800" stop="20261104225000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">粤语新闻</title>
+  </programme>
+  <programme start="20261104225000 +0800" stop="20261104234000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">葡语新闻</title>
+  </programme>
+  <programme start="20261104234000 +0800" stop="20261105004000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">家家有本事</title>
+  </programme>
+  <programme start="20261105000200 +0800" stop="20261105003500 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">葡文节目重温 - 这片土地的人们</title>
+  </programme>
+  <programme start="20261105003500 +0800" stop="20261105010000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门仁慈堂</title>
+  </programme>
+  <programme start="20261105010000 +0800" stop="20261105013000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">美味缘是您</title>
+  </programme>
+  <programme start="20261105013000 +0800" stop="20261105020000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">英语新闻</title>
+  </programme>
+  <programme start="20261105020000 +0800" stop="20261105025000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">葡语新闻</title>
+  </programme>
+  <programme start="20261105025000 +0800" stop="20261105031000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门早晨精华录</title>
+  </programme>
+  <programme start="20261105031000 +0800" stop="20261105034000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门经典车小百科</title>
+  </programme>
+  <programme start="20261105034000 +0800" stop="20261105043000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">童唱岭南</title>
+  </programme>
+  <programme start="20261105043000 +0800" stop="20261105052000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">葡语新闻</title>
+  </programme>
+  <programme start="20261105052000 +0800" stop="20261105053000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">国宝时刻</title>
+  </programme>
+  <programme start="20261105053000 +0800" stop="20261105060000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">美味缘是您</title>
+  </programme>
+  <programme start="20261105060000 +0800" stop="20261105063000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">葡文节目重温 - 这片土地的人们</title>
+  </programme>
+  <programme start="20261105063000 +0800" stop="20261105065200 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门仁慈堂</title>
+  </programme>
+  <programme start="20261105065200 +0800" stop="20261105070000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">家家有𩠌煮</title>
+  </programme>
+  <programme start="20261105070000 +0800" stop="20261105073000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">“葡”出个味蕾</title>
+  </programme>
+  <programme start="20261105073000 +0800" stop="20261105080000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">英语新闻</title>
+  </programme>
+  <programme start="20261105080000 +0800" stop="20261105083000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门经典车小百科</title>
+  </programme>
+  <programme start="20261105083000 +0800" stop="20261105085500 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门人澳门事</title>
+  </programme>
+  <programme start="20261105085500 +0800" stop="20261105092500 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">湾区全媒睇</title>
+  </programme>
+  <programme start="20261105092500 +0800" stop="20261105094500 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">放眼世界</title>
+  </programme>
+  <programme start="20261105094500 +0800" stop="20261105100000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">新闻深度游</title>
+  </programme>
+  <programme start="20261105100000 +0800" stop="20261105103000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">粤语新闻</title>
+  </programme>
+  <programme start="20261105103000 +0800" stop="20261105112000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">童唱岭南</title>
+  </programme>
+  <programme start="20261105112000 +0800" stop="20261105115000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">美味缘是您</title>
+  </programme>
+  <programme start="20261105115000 +0800" stop="20261105122000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门经典车小百科</title>
+  </programme>
+  <programme start="20261105122000 +0800" stop="20261105124000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">放眼世界</title>
+  </programme>
+  <programme start="20261105124000 +0800" stop="20261105125300 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">新闻深度游</title>
+  </programme>
+  <programme start="20261105125300 +0800" stop="20261105130000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门非物质文化遗产</title>
+  </programme>
+  <programme start="20261105130000 +0800" stop="20261105133000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">“葡”出个味蕾</title>
+  </programme>
+  <programme start="20261105133000 +0800" stop="20261105135300 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门人澳门事</title>
+  </programme>
+  <programme start="20261105135300 +0800" stop="20261105140000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">好书分享</title>
+  </programme>
+  <programme start="20261105140000 +0800" stop="20261105143000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">粤语新闻</title>
+  </programme>
+  <programme start="20261105143000 +0800" stop="20261105150000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">美味缘是您</title>
+  </programme>
+  <programme start="20261105150000 +0800" stop="20261105155000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">葡语新闻</title>
+  </programme>
+  <programme start="20261105155000 +0800" stop="20261105160500 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">天天成长记 第一至四季</title>
+  </programme>
+  <programme start="20261105160500 +0800" stop="20261105165500 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">童唱岭南</title>
+  </programme>
+  <programme start="20261105165500 +0800" stop="20261105172000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门仁慈堂</title>
+  </programme>
+  <programme start="20261105172000 +0800" stop="20261105175000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门经典车小百科</title>
+  </programme>
+  <programme start="20261105175000 +0800" stop="20261105182000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">“葡”出个味蕾</title>
+  </programme>
+  <programme start="20261105182000 +0800" stop="20261105183000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">家家有𩠌煮</title>
+  </programme>
+  <programme start="20261105183000 +0800" stop="20261105185500 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门早晨精华录</title>
+  </programme>
+  <programme start="20261105185500 +0800" stop="20261105192000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门人澳门事</title>
+  </programme>
+  <programme start="20261105192000 +0800" stop="20261105194000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">放眼世界</title>
+  </programme>
+  <programme start="20261105194000 +0800" stop="20261105195300 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">新闻深度游</title>
+  </programme>
+  <programme start="20261105195300 +0800" stop="20261105200000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门非物质文化遗产</title>
+  </programme>
+  <programme start="20261105200000 +0800" stop="20261105210000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">粤语新闻</title>
+  </programme>
+  <programme start="20261105210000 +0800" stop="20261105213000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">湾区全媒睇</title>
+  </programme>
+  <programme start="20261105213000 +0800" stop="20261105220000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">美味缘是您</title>
+  </programme>
+  <programme start="20261105220000 +0800" stop="20261105225000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">粤语新闻</title>
+  </programme>
+  <programme start="20261105225000 +0800" stop="20261105234000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">葡语新闻</title>
+  </programme>
+  <programme start="20261105234000 +0800" stop="20261106004000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门人澳门事</title>
+  </programme>
+</tv>
