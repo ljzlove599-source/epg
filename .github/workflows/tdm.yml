@@ -7,7 +7,7 @@ on:
   workflow_dispatch: # 支持手动触发
 
 permissions:
-  contents: write # 允许提交文件到仓库
+  contents: write
 
 jobs:
   generate-epg:
@@ -41,26 +41,26 @@ jobs:
           if [ -f "epg/tdm.xml" ]; then
             echo "开始繁体转简体处理..."
             python - <<'EOF'
-       from opencc import OpenCC
+from opencc import OpenCC
 
-       target_file = "epg/tdm.xml"
+target_file = "epg/tdm.xml"
 
-       # 读取原始繁体内容
-        with open(target_file, "r", encoding="utf-8") as f:
-       content_tc = f.read()
+# 读取原始繁体内容
+with open(target_file, "r", encoding="utf-8") as f:
+    content_tc = f.read()
 
-       # 繁转简
-        cc = OpenCC('t2s')
-        content_sc = cc.convert(content_tc)
+# 繁转简
+cc = OpenCC('t2s')
+content_sc = cc.convert(content_tc)
 
-      # 直接覆盖原文件，最终仅保留简体版
-       with open(target_file, "w", encoding="utf-8") as f:
-        f.write(content_sc)
+# 直接覆盖原文件，最终仅保留简体版
+with open(target_file, "w", encoding="utf-8") as f:
+    f.write(content_sc)
 
-          print("✅ 转换完成，已生成简体版 epg/tdm.xml")
-          EOF
+print("转换完成，已生成简体版 epg/tdm.xml")
+EOF
           else
-            echo "未找到 epg/tdm.xml，转换步骤跳过"
+            echo "未找到 epg/tdm.xml，转换步骤终止"
             exit 1
           fi
 
@@ -70,4 +70,3 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add -f epg/tdm.xml
           git diff --quiet && git diff --staged --quiet || (git commit -m "自动更新 TDM EPG - $(date '+%Y-%m-%d')" && git push)
-
