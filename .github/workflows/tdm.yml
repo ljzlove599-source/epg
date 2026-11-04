@@ -24,40 +24,19 @@ jobs:
           extensions: curl, dom, json
           coverage: none
 
-      - name: 运行 EPG 生成脚本
-        run: php tdm.php
-
       - name: 配置 Python 环境
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: 安装 OpenCC 繁简转换依赖
+      - name: 安装 OpenCC 依赖
         run: pip install opencc-python-reimplemented
 
-      - name: 繁体转简体（覆盖原文件）
-        run: |
-          if [ -f "epg/tdm.xml" ]; then
-            echo "开始繁体转简体处理..."
-            python3 - <<'EOF'
-from opencc import OpenCC
+      - name: 运行 EPG 生成脚本
+        run: php tdm.php
 
-target_file = "epg/tdm.xml"
-with open(target_file, "r", encoding="utf-8") as f:
-    content_tc = f.read()
-
-cc = OpenCC('t2s')
-content_sc = cc.convert(content_tc)
-
-with open(target_file, "w", encoding="utf-8") as f:
-    f.write(content_sc)
-
-print("转换完成，已生成简体版 epg/tdm.xml")
-EOF
-          else
-            echo "未找到 epg/tdm.xml，转换终止"
-            exit 1
-          fi
+      - name: 繁体转简体
+        run: python3 convert.py
 
       - name: 提交生成的 EPG 文件
         run: |
@@ -65,4 +44,5 @@ EOF
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add -f epg/tdm.xml
           git diff --quiet && git diff --staged --quiet || (git commit -m "自动更新 TDM EPG - $(date '+%Y-%m-%d')" && git push)
+
 
