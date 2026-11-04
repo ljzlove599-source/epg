@@ -12,7 +12,7 @@ date_default_timezone_set('Asia/Shanghai'); // +0800
 // ==================== 配置 ====================
 $baseApi    = 'https://www.tdm.com.mo/api/v1.0';
 $outputFile = __DIR__ . '/epg/tdm.xml';    // 输出路径：脚本目录下 epg/tdm.xml
-$days       = 2;                           // 今明两天
+$days       = 7;                           // 今明两天
 $requestDelay = 200000;                    // 请求间隔 0.2 秒
 
 // ==================== 工具函数 ====================
