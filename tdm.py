@@ -27,10 +27,11 @@ def get_channels_tdm():
     return [
         {"id": "1", "name": "澳视澳门", "xml_id": "tdm-1.tdm.com.mo"},
         {"id": "2", "name": "澳视葡文台", "xml_id": "tdm-2.tdm.com.mo"},
-        {"id": "3", "name": "澳门资讯", "xml_id": "tdm-3.tdm.com.mo"},
-        {"id": "4", "name": "澳门葡文资讯", "xml_id": "tdm-4.tdm.com.mo"},
-        {"id": "5", "name": "澳视卫星", "xml_id": "tdm-5.tdm.com.mo"},
-        {"id": "6", "name": "澳视体育", "xml_id": "tdm-6.tdm.com.mo"},
+        {"id": "5", "name": "澳门资讯", "xml_id": "tdm-5.tdm.com.mo"},
+         {"id": "6", "name": "澳视体育", "xml_id": "tdm-6.tdm.com.mo"},
+        {"id": "7", "name": "澳门综艺", "xml_id": "tdm-7.tdm.com.mo"},
+        {"id": "8", "name": "澳門-Macau", "xml_id": "tdm-8.tdm.com.mo"},
+       
     ]
 
 def fetch_with_retry(url, retry=2, timeout=10):
@@ -114,7 +115,7 @@ def build_xmltv(all_epg_data):
 
 def main():
     # ========= 配置采集天数 =========
-    collect_days = 1
+    collect_days = 5
     today = datetime.now(MACAU_TZ).date()
     channels = get_channels_tdm()
     all_data = {ch["id"]: [] for ch in channels}
