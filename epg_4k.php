@@ -23,7 +23,7 @@ $sourceList = [
         'enabled' => true
     ],
     [
-        'name' => 'catvod',
+        'name' => 'liliu',
         'url'  => 'https://liliu.serv00.net/epg/download.php/cn.xml.gz',
         'enabled' => true
     ]
