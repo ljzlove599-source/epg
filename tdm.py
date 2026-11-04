@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-TBC EPG 抓取器
-支持 HTTP_PROXY, HTTPS_PROXY, SOCKS5_PROXY 环境变量
-包含双重重试、并发控制、随机延迟，输出 XMLTV 格式文件到 epg 目录
-【增强】繁体转简体功能，OpenCC 异常降级，修复data-attr读取BUG
-适配 GitHub Actions 跨境网络环境
+TDM EPG 抓取器
+✅ 移除 pytz，使用标准库 zoneinfo
+✅ 支持 HTTP_PROXY, HTTPS_PROXY, SOCKS5_PROXY 环境变量
+✅ 双重重试、并发控制、随机延迟，输出 XMLTV 格式文件到 epg 目录
+✅ 繁体转简体 + OpenCC 加载容错，适配 GitHub Actions 跨境网络
 """
-
 import asyncio
 import datetime
 import html
@@ -15,11 +14,10 @@ import os
 import re
 import sys
 import random
-import time
 from datetime import datetime, timedelta
 from functools import wraps
+from zoneinfo import ZoneInfo
 
-import pytz
 import requests
 from bs4 import BeautifulSoup as bs
 from loguru import logger
@@ -33,11 +31,10 @@ try:
     CC = OpenCC('t2s')
     logger.info("OpenCC 加载成功，启用繁体转简体")
 except ImportError:
-    logger.warning("未安装 opencc-python-reimplemented，繁转简功能关闭，将原样输出繁体")
-
+    logger.warning("未安装 opencc-python-reimplemented，繁转简功能关闭，原样输出繁体")
 
 # ---------- 全局配置 ----------
-TAIPEI_TZ = pytz.timezone('Asia/Taipei')
+TAIPEI_TZ = ZoneInfo("Asia/Taipei")
 
 # 输出目录 (由环境变量或默认值 epg)
 OUTPUT_DIR = os.environ.get("OUTPUT_DIR", "epg")
@@ -138,7 +135,7 @@ def clean_invalid_xml_chars(text):
 def time_stamp_to_timezone_str(dt, target_tz):
     """将带时区的 datetime 转换为 XMLTV 要求的格式"""
     if dt.tzinfo is None:
-        dt = pytz.utc.localize(dt)
+        dt = dt.replace(tzinfo=ZoneInfo("UTC"))
     return dt.astimezone(target_tz).strftime('%Y%m%d%H%M%S %z')
 
 
@@ -224,15 +221,12 @@ async def get_epgs_tbc(channel_id, date_str, channel_name):
 
                     start_str, end_str = time_match.groups()
                     try:
-                        start_time = datetime.strptime(f"{program_date} {start_str}", "%Y/%m/%d %H:%M")
-                        end_time = datetime.strptime(f"{program_date} {end_str}", "%Y/%m/%d %H:%M")
+                        start_time = datetime.strptime(f"{program_date} {start_str}", "%Y/%m/%d %H:%M").replace(tzinfo=TAIPEI_TZ)
+                        end_time = datetime.strptime(f"{program_date} {end_str}", "%Y/%m/%d %H:%M").replace(tzinfo=TAIPEI_TZ)
                         if end_time <= start_time:
                             end_time += timedelta(days=1)
 
-                        start_time = TAIPEI_TZ.localize(start_time)
-                        end_time = TAIPEI_TZ.localize(end_time)
-
-                        # ✅ 修复原来BUG：li.get("data.name") 无法读取data-name属性，改用 li.get("data-name")
+                        # ✅ 修复原来BUG：li.get("data.name") → li.get("data-name")
                         if channel_id in special_channel_ids:
                             raw_title = li.get("data-name", "").strip()
                         else:
@@ -394,7 +388,6 @@ async def main():
 
 
 if __name__ == "__main__":
-    # 依赖安装: pip install requests beautifulsoup4 pytz loguru urllib3 opencc-python-reimplemented
-    # 若需 SOCKS5 代理支持: pip install 'requests[socks]'
+    # 依赖：pip install requests beautifulsoup4 loguru urllib3 opencc-python-reimplemented tzdata
+    # SOCKS5代理额外：pip install 'requests[socks]'
     asyncio.run(main())
-
