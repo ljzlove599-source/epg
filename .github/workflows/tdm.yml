@@ -2,9 +2,8 @@ name: 生成 TDM 澳门电视台 EPG
 
 on:
   schedule:
-    # 每日北京时间 01:00 执行（UTC 17:00）
     - cron: '0 17 * * *'
-  workflow_dispatch: # 支持手动触发
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -25,7 +24,7 @@ jobs:
           extensions: curl, dom, json
           coverage: none
 
-      - name: 运行 EPG 生成脚本（原始繁体）
+      - name: 运行 EPG 生成脚本
         run: php tdm.php
 
       - name: 配置 Python 环境
@@ -36,31 +35,27 @@ jobs:
       - name: 安装 OpenCC 繁简转换依赖
         run: pip install opencc-python-reimplemented
 
-      - name: 繁体转简体（覆盖原文件，仅保留简体版）
+      - name: 繁体转简体（覆盖原文件）
         run: |
           if [ -f "epg/tdm.xml" ]; then
             echo "开始繁体转简体处理..."
-            python - <<'EOF'
+            python3 - <<'EOF'
 from opencc import OpenCC
 
 target_file = "epg/tdm.xml"
-
-# 读取原始繁体内容
 with open(target_file, "r", encoding="utf-8") as f:
     content_tc = f.read()
 
-# 繁转简
 cc = OpenCC('t2s')
 content_sc = cc.convert(content_tc)
 
-# 直接覆盖原文件，最终仅保留简体版
 with open(target_file, "w", encoding="utf-8") as f:
     f.write(content_sc)
 
 print("转换完成，已生成简体版 epg/tdm.xml")
 EOF
           else
-            echo "未找到 epg/tdm.xml，转换步骤终止"
+            echo "未找到 epg/tdm.xml，转换终止"
             exit 1
           fi
 
@@ -70,3 +65,4 @@ EOF
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add -f epg/tdm.xml
           git diff --quiet && git diff --staged --quiet || (git commit -m "自动更新 TDM EPG - $(date '+%Y-%m-%d')" && git push)
+
