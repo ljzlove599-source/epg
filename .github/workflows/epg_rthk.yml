@@ -1,0 +1,58 @@
+name: RTHK EPG 自动采集
+
+on:
+  # 定时触发：UTC 每天 16:00 = 北京时间每天 00:00
+  schedule:
+    - cron: '0 16 * * *'
+  # 支持手动触发
+  workflow_dispatch:
+    inputs:
+      days_past:
+        description: '采集过去天数'
+        required: false
+        default: '1'
+      days_future:
+        description: '采集未来天数'
+        required: false
+        default: '3'
+
+permissions:
+  contents: write
+
+jobs:
+  grab-epg:
+    runs-on: ubuntu-latest
+    name: 采集并生成 RTHK EPG 文件
+
+    steps:
+      - name: 检出仓库代码
+        uses: actions/checkout@v4
+
+      - name: 安装 PHP 环境
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+          extensions: curl, dom, xml, mbstring
+          coverage: none
+          ini-values: date.timezone=Asia/Hong_Kong
+
+      - name: 运行 EPG 采集脚本
+        run: |
+          php rthk.php \
+            --days-past=${{ github.event.inputs.days_past || 1 }} \
+            --days-future=${{ github.event.inputs.days_future || 3 }}
+
+      - name: 提交并推送更新后的 EPG 文件
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git add -f epg_sources/ radio/
+          
+          if git diff --staged --quiet; then
+            echo "无节目数据变更，跳过提交"
+          else
+            git commit -m "auto: 更新 RTHK 电视+广播 EPG 数据"
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
