@@ -14,7 +14,7 @@ date_default_timezone_set('Asia/Hong_Kong');
 $config = [
     // 采集天数
     'days_past'     => 1,    // 采集过去几天
-    'days_future'   => 3,    // 采集未来几天
+    'days_future'   => 7,    // 采集未来几天
 
     // 输出路径（GitHub 相对仓库根目录）
     'tv_xml_path'   => __DIR__ . '/epg_sources/epg_rthk_tv.xml',
