@@ -60,3 +60,65 @@
 [2026-11-06 06:44:33] [INFO] 输出文件大小：911939 字节 | 执行耗时：44.702 秒 | 内存峰值：109.62 MB
 [2026-11-06 06:44:33] [INFO] ====== 脚本正常结束 ======
 
+[2026-11-06 14:56:30] [INFO] ====== EPG筛选脚本启动【多数据源，同ID节目合并-不重叠叠加版】 ======
+[2026-11-06 14:56:30] [INFO] ===== 开始处理数据源【mxdyeah】 URL: https://tv.evorit.dpdns.org/epgphp/t.xml.gz =====
+[2026-11-06 14:56:30] [INFO] 第1次尝试下载源文件: https://tv.evorit.dpdns.org/epgphp/t.xml.gz
+[2026-11-06 14:56:57] [INFO] 源gz文件下载完成，大小：9212028字节
+[2026-11-06 14:56:58] [INFO] 数据源【mxdyeah】加载成功，开始频道筛选
+[2026-11-06 14:56:58] [INFO] 匹配频道【mxdyeah】：4K健身 | ChannelID: 4K健身
+[2026-11-06 14:56:58] [INFO] 匹配频道【mxdyeah】：4K宝贝 | ChannelID: 4K宝贝
+[2026-11-06 14:56:58] [INFO] 匹配频道【mxdyeah】：4K时尚 | ChannelID: 4K时尚
+[2026-11-06 14:56:58] [INFO] 匹配频道【mxdyeah】：4K演唱会 | ChannelID: 4K演唱会
+[2026-11-06 14:56:58] [INFO] 匹配频道【mxdyeah】：4K电影 | ChannelID: 4K电影
+[2026-11-06 14:56:58] [INFO] 匹配频道【mxdyeah】：4K电视剧 | ChannelID: 4K电视剧
+[2026-11-06 14:56:58] [INFO] 匹配频道【mxdyeah】：4K纪实 | ChannelID: 4K纪实
+[2026-11-06 14:56:58] [INFO] 匹配频道【mxdyeah】：4K美食 | ChannelID: 4K美食
+[2026-11-06 14:56:59] [INFO] 数据源【mxdyeah】节目：新增 2268 条，重叠跳过 0 条
+[2026-11-06 14:56:59] [INFO] ===== 开始处理数据源【山东有线】 URL: https://raw.githubusercontent.com/z2392693938/sd-epg/main/sdyx.xml.gz =====
+[2026-11-06 14:56:59] [INFO] 第1次尝试下载源文件: https://raw.githubusercontent.com/z2392693938/sd-epg/main/sdyx.xml.gz
+[2026-11-06 14:56:59] [WARN] 第1次下载失败: 远程连接失败
+[2026-11-06 14:57:01] [INFO] 第2次尝试下载源文件: https://raw.githubusercontent.com/z2392693938/sd-epg/main/sdyx.xml.gz
+[2026-11-06 14:57:01] [WARN] 第2次下载失败: 远程连接失败
+[2026-11-06 14:57:03] [INFO] 第3次尝试下载源文件: https://raw.githubusercontent.com/z2392693938/sd-epg/main/sdyx.xml.gz
+[2026-11-06 14:57:03] [WARN] 第3次下载失败: 远程连接失败
+[2026-11-06 14:57:05] [ERROR] 所有下载重试耗尽，拉取远程源失败
+[2026-11-06 14:57:05] [ERROR] 数据源【山东有线】下载失败，继续下一个源
+[2026-11-06 14:57:05] [INFO] ===== 开始处理数据源【erw.cc】 URL: https://raw.githubusercontent.com/kuke31/xmlgz/main/all.xml.gz =====
+[2026-11-06 14:57:05] [INFO] 第1次尝试下载源文件: https://raw.githubusercontent.com/kuke31/xmlgz/main/all.xml.gz
+[2026-11-06 14:57:05] [INFO] 源gz文件下载完成，大小：1274374字节
+[2026-11-06 14:57:06] [INFO] 数据源【erw.cc】加载成功，开始频道筛选
+[2026-11-06 14:57:06] [INFO] 匹配频道【erw.cc】：4K健身 | ChannelID: 434
+[2026-11-06 14:57:06] [INFO] 匹配频道【erw.cc】：4K宝贝 | ChannelID: 435
+[2026-11-06 14:57:06] [INFO] 匹配频道【erw.cc】：4K时尚 | ChannelID: 436
+[2026-11-06 14:57:06] [INFO] 匹配频道【erw.cc】：4K演唱会 | ChannelID: 437
+[2026-11-06 14:57:06] [INFO] 匹配频道【erw.cc】：4K电影 | ChannelID: 438
+[2026-11-06 14:57:06] [INFO] 匹配频道【erw.cc】：4K电视剧 | ChannelID: 439
+[2026-11-06 14:57:06] [INFO] 匹配频道【erw.cc】：4K纪实 | ChannelID: 440
+[2026-11-06 14:57:06] [INFO] 匹配频道【erw.cc】：4K美食 | ChannelID: 441
+[2026-11-06 14:57:06] [INFO] 数据源【erw.cc】节目：新增 3199 条，重叠跳过 0 条
+[2026-11-06 14:57:06] [INFO] ===== 开始处理数据源【catvod】 URL: https://epg.catvod.com/epg.xml.gz =====
+[2026-11-06 14:57:06] [INFO] 第1次尝试下载源文件: https://epg.catvod.com/epg.xml.gz
+[2026-11-06 14:57:07] [WARN] 第1次下载失败: 远程连接失败
+[2026-11-06 14:57:09] [INFO] 第2次尝试下载源文件: https://epg.catvod.com/epg.xml.gz
+[2026-11-06 14:57:09] [WARN] 第2次下载失败: 远程连接失败
+[2026-11-06 14:57:11] [INFO] 第3次尝试下载源文件: https://epg.catvod.com/epg.xml.gz
+[2026-11-06 14:57:11] [WARN] 第3次下载失败: 远程连接失败
+[2026-11-06 14:57:13] [ERROR] 所有下载重试耗尽，拉取远程源失败
+[2026-11-06 14:57:13] [ERROR] 数据源【catvod】下载失败，继续下一个源
+[2026-11-06 14:57:13] [INFO] ===== 开始处理数据源【liliu】 URL: https://liliu.serv00.net/epg/download.php/cn.xml.gz =====
+[2026-11-06 14:57:13] [INFO] 第1次尝试下载源文件: https://liliu.serv00.net/epg/download.php/cn.xml.gz
+[2026-11-06 14:57:15] [INFO] 源gz文件下载完成，大小：306676字节
+[2026-11-06 14:57:15] [INFO] 数据源【liliu】加载成功，开始频道筛选
+[2026-11-06 14:57:15] [INFO] 匹配频道【liliu】：淘4K | ChannelID: 淘4K
+[2026-11-06 14:57:15] [INFO] 匹配频道【liliu】：苏州4K | ChannelID: 苏州4K
+[2026-11-06 14:57:15] [INFO] 匹配频道【liliu】：凤凰电影 | ChannelID: 凤凰电影
+[2026-11-06 14:57:15] [WARN] 节目时间解析失败，跳过 cid:4K纪实 start:20261106234800 +0800 stop:20261106000100 +0800
+[2026-11-06 14:57:15] [INFO] 数据源【liliu】节目：新增 121 条，重叠跳过 375 条
+[2026-11-06 14:57:15] [INFO] 全部数据源处理完成，共匹配到 19 个唯一频道
+[2026-11-06 14:57:15] [INFO] 节目统计：合计新增 5588 条，因时间重叠丢弃 375 条
+[2026-11-06 14:57:15] [INFO] 匹配频道列表：4K健身 (ID:4K健身) [来源:mxdyeah] | 4K宝贝 (ID:4K宝贝) [来源:mxdyeah] | 4K时尚 (ID:4K时尚) [来源:mxdyeah] | 4K演唱会 (ID:4K演唱会) [来源:mxdyeah] | 4K电影 (ID:4K电影) [来源:mxdyeah] | 4K电视剧 (ID:4K电视剧) [来源:mxdyeah] | 4K纪实 (ID:4K纪实) [来源:mxdyeah] | 4K美食 (ID:4K美食) [来源:mxdyeah] | 4K健身 (ID:434) [来源:erw.cc] | 4K宝贝 (ID:435) [来源:erw.cc] | 4K时尚 (ID:436) [来源:erw.cc] | 4K演唱会 (ID:437) [来源:erw.cc] | 4K电影 (ID:438) [来源:erw.cc] | 4K电视剧 (ID:439) [来源:erw.cc] | 4K纪实 (ID:440) [来源:erw.cc] | 4K美食 (ID:441) [来源:erw.cc] | 淘4K (ID:淘4K) [来源:liliu] | 苏州4K (ID:苏州4K) [来源:liliu] | 凤凰电影 (ID:凤凰电影) [来源:liliu]
+[2026-11-06 14:57:15] [INFO] 任务执行成功！EPG文件：/home/runner/work/epg/epg/epg/epg_4k.xml
+[2026-11-06 14:57:15] [INFO] 统计：匹配频道=19 | 节目条数=5588 | 重叠丢弃=375
+[2026-11-06 14:57:15] [INFO] 输出文件大小：911939 字节 | 执行耗时：45.622 秒 | 内存峰值：120.38 MB
+[2026-11-06 14:57:15] [INFO] ====== 脚本正常结束 ======
+
