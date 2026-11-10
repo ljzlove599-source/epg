@@ -27,13 +27,13 @@ jobs:
           HTTP_PROXY: ${{ secrets.HTTP_PROXY }}
           HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}
           SOCKS5_PROXY: ${{ secrets.SOCKS5_PROXY }}
-          OUTPUT_DIR: ./output      # 相對於工作空間的目錄
-        run: python scripts/tbc.py
+          OUTPUT_DIR: ./epg      # 相對於工作空間的目錄
+        run: python tbc.py
 
       - name: Commit and Push EPG
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add output/epg_tbc.xml
+          git add epg/epg_tbc.xml
           git commit -m "Auto-update TBC EPG" || echo "No changes to commit"
           git push
