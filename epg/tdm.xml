@@ -24,149 +24,9 @@
     <display-name lang="zh">澳门-Macau 96台</display-name>
     <icon src="https://cdn2.tdm.com.mo/uploads/attachment/2021-09/931a1b83173c0557b46f6b7343e7e9f2.png"/>
   </channel>
-  <programme start="20261111070000 +0800" stop="20261111080000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">早晨新闻</title>
-  </programme>
-  <programme start="20261111080000 +0800" stop="20261111090000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">澳门早晨</title>
-  </programme>
-  <programme start="20261111090000 +0800" stop="20261111090200 +0800" channel="澳视澳门 91台">
-    <title lang="zh">TDM 新视点</title>
-  </programme>
-  <programme start="20261111090200 +0800" stop="20261111092500 +0800" channel="澳视澳门 91台">
-    <title lang="zh">澳门人澳门事</title>
-  </programme>
-  <programme start="20261111092500 +0800" stop="20261111100000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">考古学家的神秘武器</title>
-  </programme>
-  <programme start="20261111100000 +0800" stop="20261111103000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">新闻报道</title>
-  </programme>
-  <programme start="20261111103000 +0800" stop="20261111111000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">重播竞健群英 2026</title>
-  </programme>
-  <programme start="20261111111000 +0800" stop="20261111111500 +0800" channel="澳视澳门 91台">
-    <title lang="zh">TDM 新视点</title>
-  </programme>
-  <programme start="20261111111500 +0800" stop="20261111125000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">被遗忘的时光</title>
-  </programme>
-  <programme start="20261111125000 +0800" stop="20261111131700 +0800" channel="澳视澳门 91台">
-    <title lang="zh">超级巴斯德</title>
-  </programme>
-  <programme start="20261111131700 +0800" stop="20261111132400 +0800" channel="澳视澳门 91台">
-    <title lang="zh">营商创新研究所</title>
-  </programme>
-  <programme start="20261111132400 +0800" stop="20261111133000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">午间天气报告</title>
-  </programme>
-  <programme start="20261111133000 +0800" stop="20261111140000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">午间新闻</title>
-  </programme>
-  <programme start="20261111140000 +0800" stop="20261111150000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">每日财经</title>
-  </programme>
-  <programme start="20261111150000 +0800" stop="20261111154000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">重播竞健群英 2026</title>
-  </programme>
-  <programme start="20261111154000 +0800" stop="20261111160000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">澳门早晨精华录</title>
-  </programme>
-  <programme start="20261111160000 +0800" stop="20261111163000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">儿童节目︰舒克贝塔 第1季</title>
-  </programme>
-  <programme start="20261111163000 +0800" stop="20261111165600 +0800" channel="澳视澳门 91台">
-    <title lang="zh">儿童节目︰萌赛可第一季</title>
-  </programme>
-  <programme start="20261111165600 +0800" stop="20261111170000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">儿童节目︰萌浪兔 第2季</title>
-  </programme>
-  <programme start="20261111170000 +0800" stop="20261111180000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">儿童节目︰冰雪守护者 第2季</title>
-  </programme>
-  <programme start="20261111180000 +0800" stop="20261111184300 +0800" channel="澳视澳门 91台">
-    <title lang="zh">动感教菁</title>
-  </programme>
-  <programme start="20261111184300 +0800" stop="20261111185000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">营商创新研究所</title>
-  </programme>
-  <programme start="20261111185000 +0800" stop="20261111190000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">新闻提要</title>
-  </programme>
-  <programme start="20261111190000 +0800" stop="20261111195500 +0800" channel="澳视澳门 91台">
-    <title lang="zh">澳视新闻</title>
-  </programme>
-  <programme start="20261111195500 +0800" stop="20261111200000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">天气报告</title>
-  </programme>
-  <programme start="20261111200000 +0800" stop="20261111213300 +0800" channel="澳视澳门 91台">
-    <title lang="zh">被遗忘的时光</title>
-  </programme>
-  <programme start="20261111213300 +0800" stop="20261111220000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">热闹新听力</title>
-  </programme>
-  <programme start="20261111220000 +0800" stop="20261111223000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">普通话新闻</title>
-  </programme>
-  <programme start="20261111223000 +0800" stop="20261111224800 +0800" channel="澳视澳门 91台">
-    <title lang="zh">十点半澳视纵横︰放眼世界</title>
-  </programme>
-  <programme start="20261111224800 +0800" stop="20261111230000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">新闻深度游</title>
-  </programme>
-  <programme start="20261111230000 +0800" stop="20261111231500 +0800" channel="澳视澳门 91台">
-    <title lang="zh">营商创新研究所</title>
-  </programme>
-  <programme start="20261111231500 +0800" stop="20261111235000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">晚间新闻</title>
-  </programme>
-  <programme start="20261111235000 +0800" stop="20261112000100 +0800" channel="澳视澳门 91台">
-    <title lang="zh">体育新闻</title>
-  </programme>
-  <programme start="20261112000100 +0800" stop="20261112002700 +0800" channel="澳视澳门 91台">
-    <title lang="zh">湾区全媒睇</title>
-  </programme>
-  <programme start="20261112002700 +0800" stop="20261112004900 +0800" channel="澳视澳门 91台">
-    <title lang="zh">热闹新听力</title>
-  </programme>
-  <programme start="20261112004900 +0800" stop="20261112010500 +0800" channel="澳视澳门 91台">
-    <title lang="zh">重播放眼世界</title>
-  </programme>
-  <programme start="20261112010500 +0800" stop="20261112011700 +0800" channel="澳视澳门 91台">
-    <title lang="zh">重播新闻深度游</title>
-  </programme>
-  <programme start="20261112011700 +0800" stop="20261112012700 +0800" channel="澳视澳门 91台">
-    <title lang="zh">营商创新研究所</title>
-  </programme>
-  <programme start="20261112012700 +0800" stop="20261112030000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">被遗忘的时光</title>
-  </programme>
-  <programme start="20261112030000 +0800" stop="20261112032500 +0800" channel="澳视澳门 91台">
-    <title lang="zh">录播普通话新闻</title>
-  </programme>
-  <programme start="20261112032500 +0800" stop="20261112040000 +0800" channel="澳视澳门 91台">
-    <title lang="zh">录播晚间新闻</title>
-  </programme>
-  <programme start="20261112040000 +0800" stop="20261112042500 +0800" channel="澳视澳门 91台">
-    <title lang="zh">热闹新听力</title>
-  </programme>
-  <programme start="20261112042500 +0800" stop="20261112044700 +0800" channel="澳视澳门 91台">
-    <title lang="zh">澳门早晨精华录</title>
-  </programme>
-  <programme start="20261112044700 +0800" stop="20261112050300 +0800" channel="澳视澳门 91台">
-    <title lang="zh">重播放眼世界</title>
-  </programme>
-  <programme start="20261112050300 +0800" stop="20261112051500 +0800" channel="澳视澳门 91台">
-    <title lang="zh">重播新闻深度游</title>
-  </programme>
-  <programme start="20261112051500 +0800" stop="20261112052500 +0800" channel="澳视澳门 91台">
-    <title lang="zh">营商创新研究所</title>
-  </programme>
-  <programme start="20261112052500 +0800" stop="20261112062500 +0800" channel="澳视澳门 91台">
-    <title lang="zh">太平年</title>
-  </programme>
   <programme start="20261112070000 +0800" stop="20261112080000 +0800" channel="澳视澳门 91台">
     <title lang="zh">早晨新闻</title>
+    <live/>
   </programme>
   <programme start="20261112080000 +0800" stop="20261112090000 +0800" channel="澳视澳门 91台">
     <title lang="zh">澳门早晨</title>
@@ -831,59 +691,110 @@
   <programme start="20261117052500 +0800" stop="20261117062500 +0800" channel="澳视澳门 91台">
     <title lang="zh">太平年</title>
   </programme>
-  <programme start="20261111133000 +0800" stop="20261111144000 +0800" channel="澳视葡文 92台">
-    <title lang="zh">Telejornal RTPi (Diferido)</title>
+  <programme start="20261117070000 +0800" stop="20261117080000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">早晨新闻</title>
   </programme>
-  <programme start="20261111144000 +0800" stop="20261111150000 +0800" channel="澳视葡文 92台">
-    <title lang="zh">A Natureza dos Homens e dos Animais - Fim</title>
+  <programme start="20261117080000 +0800" stop="20261117090000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">澳门早晨</title>
   </programme>
-  <programme start="20261111150000 +0800" stop="20261111152500 +0800" channel="澳视葡文 92台">
-    <title lang="zh">Saboroso à Portuguesa</title>
+  <programme start="20261117090000 +0800" stop="20261117090200 +0800" channel="澳视澳门 91台">
+    <title lang="zh">TDM 新视点</title>
   </programme>
-  <programme start="20261111152500 +0800" stop="20261111161000 +0800" channel="澳视葡文 92台">
-    <title lang="zh">Queridos Papás</title>
+  <programme start="20261117090200 +0800" stop="20261117092500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">家家有本事</title>
   </programme>
-  <programme start="20261111161000 +0800" stop="20261111162500 +0800" channel="澳视葡文 92台">
-    <title lang="zh">O Carrinho Poli T4</title>
+  <programme start="20261117092500 +0800" stop="20261117100000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">厨房里的桃花源</title>
   </programme>
-  <programme start="20261111162500 +0800" stop="20261111165000 +0800" channel="澳视葡文 92台">
-    <title lang="zh">Os Smurfs T3</title>
+  <programme start="20261117100000 +0800" stop="20261117103000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">新闻报道</title>
   </programme>
-  <programme start="20261111165000 +0800" stop="20261111171500 +0800" channel="澳视葡文 92台">
-    <title lang="zh">Nutri Ventures - Em busca dos 7 Reinos</title>
+  <programme start="20261117103000 +0800" stop="20261117110000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">重播风火台</title>
   </programme>
-  <programme start="20261111171500 +0800" stop="20261111174000 +0800" channel="澳视葡文 92台">
-    <title lang="zh">Legend Quest</title>
+  <programme start="20261117110000 +0800" stop="20261117111000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">横琴攻略</title>
   </programme>
-  <programme start="20261111174000 +0800" stop="20261111183000 +0800" channel="澳视葡文 92台">
-    <title lang="zh">Mania de Você (Repetição)</title>
+  <programme start="20261117111000 +0800" stop="20261117111500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">TDM 新视点</title>
   </programme>
-  <programme start="20261111183000 +0800" stop="20261111191500 +0800" channel="澳视葡文 92台">
-    <title lang="zh">TDM Desporto (Repetição)</title>
+  <programme start="20261117111500 +0800" stop="20261117125000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">被遗忘的时光</title>
   </programme>
-  <programme start="20261111191500 +0800" stop="20261111200000 +0800" channel="澳视葡文 92台">
-    <title lang="zh">A Fazenda</title>
+  <programme start="20261117125000 +0800" stop="20261117131700 +0800" channel="澳视澳门 91台">
+    <title lang="zh">超级巴斯德</title>
   </programme>
-  <programme start="20261111200000 +0800" stop="20261111205000 +0800" channel="澳视葡文 92台">
-    <title lang="zh">Telejornal</title>
+  <programme start="20261117131700 +0800" stop="20261117132400 +0800" channel="澳视澳门 91台">
+    <title lang="zh">宇宙更强</title>
   </programme>
-  <programme start="20261111205000 +0800" stop="20261111212500 +0800" channel="澳视葡文 92台">
-    <title lang="zh">A Minha Vida Sobre Rodas</title>
+  <programme start="20261117132400 +0800" stop="20261117133000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">午间天气报告</title>
   </programme>
-  <programme start="20261111212500 +0800" stop="20261111214000 +0800" channel="澳视葡文 92台">
-    <title lang="zh">Tradições de Portugal</title>
+  <programme start="20261117133000 +0800" stop="20261117140000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">午间新闻</title>
   </programme>
-  <programme start="20261111214000 +0800" stop="20261111223500 +0800" channel="澳视葡文 92台">
-    <title lang="zh">Mania de Você</title>
+  <programme start="20261117140000 +0800" stop="20261117145700 +0800" channel="澳视澳门 91台">
+    <title lang="zh">每日财经</title>
   </programme>
-  <programme start="20261111223500 +0800" stop="20261111231000 +0800" channel="澳视葡文 92台">
-    <title lang="zh">TDM News</title>
+  <programme start="20261117145700 +0800" stop="20261117185000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">直播行政长官2027年施政报告立法会答问大会</title>
   </programme>
-  <programme start="20261111231000 +0800" stop="20261111235000 +0800" channel="澳视葡文 92台">
-    <title lang="zh">Construção Conjunta - Estreia</title>
+  <programme start="20261117185000 +0800" stop="20261117190000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">新闻提要</title>
   </programme>
-  <programme start="20261111235000 +0800" stop="20261112005000 +0800" channel="澳视葡文 92台">
-    <title lang="zh">RTPi Directo</title>
+  <programme start="20261117190000 +0800" stop="20261117195500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">澳视新闻</title>
+  </programme>
+  <programme start="20261117195500 +0800" stop="20261117200000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">天气报告</title>
+  </programme>
+  <programme start="20261117200000 +0800" stop="20261117213300 +0800" channel="澳视澳门 91台">
+    <title lang="zh">被遗忘的时光</title>
+  </programme>
+  <programme start="20261117213300 +0800" stop="20261117220000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">澳门人澳门事</title>
+  </programme>
+  <programme start="20261117220000 +0800" stop="20261117223000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">普通话新闻</title>
+  </programme>
+  <programme start="20261117223000 +0800" stop="20261117231500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">十点半澳视纵横︰竞健群英 2026</title>
+  </programme>
+  <programme start="20261117231500 +0800" stop="20261117235000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">晚间新闻</title>
+  </programme>
+  <programme start="20261117235000 +0800" stop="20261118000100 +0800" channel="澳视澳门 91台">
+    <title lang="zh">体育新闻</title>
+  </programme>
+  <programme start="20261118000100 +0800" stop="20261118002700 +0800" channel="澳视澳门 91台">
+    <title lang="zh">湾区全媒睇</title>
+  </programme>
+  <programme start="20261118002700 +0800" stop="20261118004900 +0800" channel="澳视澳门 91台">
+    <title lang="zh">澳门人澳门事</title>
+  </programme>
+  <programme start="20261118004900 +0800" stop="20261118012700 +0800" channel="澳视澳门 91台">
+    <title lang="zh">重播竞健群英 2026</title>
+  </programme>
+  <programme start="20261118012700 +0800" stop="20261118030000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">被遗忘的时光</title>
+  </programme>
+  <programme start="20261118030000 +0800" stop="20261118032500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">录播普通话新闻</title>
+  </programme>
+  <programme start="20261118032500 +0800" stop="20261118040000 +0800" channel="澳视澳门 91台">
+    <title lang="zh">录播晚间新闻</title>
+  </programme>
+  <programme start="20261118040000 +0800" stop="20261118042500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">澳门人澳门事</title>
+  </programme>
+  <programme start="20261118042500 +0800" stop="20261118044700 +0800" channel="澳视澳门 91台">
+    <title lang="zh">澳门早晨精华录</title>
+  </programme>
+  <programme start="20261118044700 +0800" stop="20261118052500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">重播竞健群英 2026</title>
+  </programme>
+  <programme start="20261118052500 +0800" stop="20261118062500 +0800" channel="澳视澳门 91台">
+    <title lang="zh">太平年</title>
   </programme>
   <programme start="20261112133000 +0800" stop="20261112143000 +0800" channel="澳视葡文 92台">
     <title lang="zh">Telejornal RTPi (Diferido)</title>
@@ -1143,158 +1054,48 @@
   <programme start="20261117000500 +0800" stop="20261117010500 +0800" channel="澳视葡文 92台">
     <title lang="zh">RTPi Directo</title>
   </programme>
-  <programme start="20261111065900 +0800" stop="20261111070000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">开台</title>
+  <programme start="20261117133000 +0800" stop="20261117143000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Telejornal RTPi (Diferido)</title>
   </programme>
-  <programme start="20261111070000 +0800" stop="20261111080000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">早晨新闻</title>
+  <programme start="20261117143000 +0800" stop="20261117145700 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Saboroso à Portuguesa</title>
   </programme>
-  <programme start="20261111080000 +0800" stop="20261111090000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">澳门早晨</title>
+  <programme start="20261117145700 +0800" stop="20261117180500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Sessão de perguntas e respostas sobre o relatório das Linhas de Acção Governativa para o ano financeiro de 2027, com a presença do Chefe do Executivo (Directo)</title>
   </programme>
-  <programme start="20261111090000 +0800" stop="20261111093000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">重播早晨新闻</title>
+  <programme start="20261117180500 +0800" stop="20261117184500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Queridos Papás</title>
   </programme>
-  <programme start="20261111093000 +0800" stop="20261111100000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">湾区全媒睇</title>
+  <programme start="20261117184500 +0800" stop="20261117191500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Solteira e Boa Rapariga</title>
   </programme>
-  <programme start="20261111100000 +0800" stop="20261111103000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">新闻报道</title>
+  <programme start="20261117191500 +0800" stop="20261117200000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">A Fazenda</title>
   </programme>
-  <programme start="20261111103000 +0800" stop="20261111110000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">新闻报道</title>
+  <programme start="20261117200000 +0800" stop="20261117205000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Telejornal</title>
   </programme>
-  <programme start="20261111110000 +0800" stop="20261111111200 +0800" channel="澳门资讯 94台">
-    <title lang="zh">新闻报道</title>
+  <programme start="20261117205000 +0800" stop="20261117214000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">TDM Desporto</title>
   </programme>
-  <programme start="20261111111200 +0800" stop="20261111112000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">营商创新研究所</title>
+  <programme start="20261117214000 +0800" stop="20261117223500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Mania de Você</title>
   </programme>
-  <programme start="20261111112000 +0800" stop="20261111120000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">重播竞健群英 2026</title>
+  <programme start="20261117223500 +0800" stop="20261117231000 +0800" channel="澳视葡文 92台">
+    <title lang="zh">TDM News</title>
   </programme>
-  <programme start="20261111120000 +0800" stop="20261111122000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">新闻报道</title>
+  <programme start="20261117231000 +0800" stop="20261117234500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">Decisão Nacional</title>
   </programme>
-  <programme start="20261111122000 +0800" stop="20261111122700 +0800" channel="澳门资讯 94台">
-    <title lang="zh">营商创新研究所</title>
-  </programme>
-  <programme start="20261111122700 +0800" stop="20261111123000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">街市情报</title>
-  </programme>
-  <programme start="20261111123000 +0800" stop="20261111125000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">新闻报道</title>
-  </programme>
-  <programme start="20261111125000 +0800" stop="20261111130000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">海派百工2</title>
-  </programme>
-  <programme start="20261111130000 +0800" stop="20261111131700 +0800" channel="澳门资讯 94台">
-    <title lang="zh">新闻报道</title>
-  </programme>
-  <programme start="20261111131700 +0800" stop="20261111132400 +0800" channel="澳门资讯 94台">
-    <title lang="zh">营商创新研究所</title>
-  </programme>
-  <programme start="20261111132400 +0800" stop="20261111133000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">午间天气报告</title>
-  </programme>
-  <programme start="20261111133000 +0800" stop="20261111140000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">午间新闻</title>
-  </programme>
-  <programme start="20261111140000 +0800" stop="20261111150000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">每日财经</title>
-  </programme>
-  <programme start="20261111150000 +0800" stop="20261111152500 +0800" channel="澳门资讯 94台">
-    <title lang="zh">新闻报道</title>
-  </programme>
-  <programme start="20261111152500 +0800" stop="20261111153000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">街市情报</title>
-  </programme>
-  <programme start="20261111153000 +0800" stop="20261111160000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">新闻报道</title>
-  </programme>
-  <programme start="20261111160000 +0800" stop="20261111163000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">新闻报道</title>
-  </programme>
-  <programme start="20261111163000 +0800" stop="20261111170000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">新闻报道</title>
-  </programme>
-  <programme start="20261111170000 +0800" stop="20261111173000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">新闻报道</title>
-  </programme>
-  <programme start="20261111173000 +0800" stop="20261111175000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">新闻报道</title>
-  </programme>
-  <programme start="20261111175000 +0800" stop="20261111180000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">营商创新研究所</title>
-  </programme>
-  <programme start="20261111180000 +0800" stop="20261111180500 +0800" channel="澳门资讯 94台">
-    <title lang="zh">新闻报道</title>
-  </programme>
-  <programme start="20261111180500 +0800" stop="20261111180700 +0800" channel="澳门资讯 94台">
-    <title lang="zh">TDM 新视点</title>
-  </programme>
-  <programme start="20261111180700 +0800" stop="20261111183200 +0800" channel="澳门资讯 94台">
-    <title lang="zh">澳门早晨精华录</title>
-  </programme>
-  <programme start="20261111183200 +0800" stop="20261111190000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">湾区全媒睇</title>
-  </programme>
-  <programme start="20261111190000 +0800" stop="20261111195500 +0800" channel="澳门资讯 94台">
-    <title lang="zh">澳视新闻</title>
-  </programme>
-  <programme start="20261111195500 +0800" stop="20261111195800 +0800" channel="澳门资讯 94台">
-    <title lang="zh">天气报告</title>
-  </programme>
-  <programme start="20261111195800 +0800" stop="20261111200000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">TDM 新视点</title>
-  </programme>
-  <programme start="20261111200000 +0800" stop="20261111210000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">录播澳视新闻</title>
-  </programme>
-  <programme start="20261111210000 +0800" stop="20261111220000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">录播澳视新闻</title>
-  </programme>
-  <programme start="20261111220000 +0800" stop="20261111223000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">普通话新闻</title>
-  </programme>
-  <programme start="20261111223000 +0800" stop="20261111224800 +0800" channel="澳门资讯 94台">
-    <title lang="zh">十点半澳视纵横：放眼世界</title>
-  </programme>
-  <programme start="20261111224800 +0800" stop="20261111230000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">新闻深度游</title>
-  </programme>
-  <programme start="20261111230000 +0800" stop="20261111231500 +0800" channel="澳门资讯 94台">
-    <title lang="zh">营商创新研究所</title>
-  </programme>
-  <programme start="20261111231500 +0800" stop="20261111235000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">晚间新闻</title>
-  </programme>
-  <programme start="20261111235000 +0800" stop="20261112000500 +0800" channel="澳门资讯 94台">
-    <title lang="zh">体育新闻</title>
-  </programme>
-  <programme start="20261112000500 +0800" stop="20261112003500 +0800" channel="澳门资讯 94台">
-    <title lang="zh">中国城市报道</title>
-  </programme>
-  <programme start="20261112003500 +0800" stop="20261112004500 +0800" channel="澳门资讯 94台">
-    <title lang="zh">澳门早晨精华篇</title>
-  </programme>
-  <programme start="20261112004500 +0800" stop="20261112011500 +0800" channel="澳门资讯 94台">
-    <title lang="zh">录播普通话新闻</title>
-  </programme>
-  <programme start="20261112011500 +0800" stop="20261112015000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">录播晚间新闻</title>
-  </programme>
-  <programme start="20261112015000 +0800" stop="20261112020000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">重播体育新闻</title>
-  </programme>
-  <programme start="20261112020000 +0800" stop="20261112030000 +0800" channel="澳门资讯 94台">
-    <title lang="zh">收台</title>
+  <programme start="20261117234500 +0800" stop="20261118004500 +0800" channel="澳视葡文 92台">
+    <title lang="zh">RTPi Directo</title>
   </programme>
   <programme start="20261112065900 +0800" stop="20261112070000 +0800" channel="澳门资讯 94台">
     <title lang="zh">开台</title>
   </programme>
   <programme start="20261112070000 +0800" stop="20261112080000 +0800" channel="澳门资讯 94台">
     <title lang="zh">早晨新闻</title>
+    <live/>
   </programme>
   <programme start="20261112080000 +0800" stop="20261112090000 +0800" channel="澳门资讯 94台">
     <title lang="zh">澳门早晨</title>
@@ -2028,55 +1829,127 @@
   <programme start="20261117020000 +0800" stop="20261117030000 +0800" channel="澳门资讯 94台">
     <title lang="zh">收台</title>
   </programme>
-  <programme start="20261111095900 +0800" stop="20261111100000 +0800" channel="澳门体育 93台">
+  <programme start="20261117065900 +0800" stop="20261117070000 +0800" channel="澳门资讯 94台">
     <title lang="zh">开台</title>
   </programme>
-  <programme start="20261111100000 +0800" stop="20261111105000 +0800" channel="澳门体育 93台">
-    <title lang="zh">2026中国羽毛球大师赛：女单4强</title>
+  <programme start="20261117070000 +0800" stop="20261117080000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">早晨新闻</title>
   </programme>
-  <programme start="20261111105000 +0800" stop="20261111113000 +0800" channel="澳门体育 93台">
-    <title lang="zh">2026中国羽毛球大师赛：混双4强</title>
+  <programme start="20261117080000 +0800" stop="20261117090000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">澳门早晨</title>
   </programme>
-  <programme start="20261111113000 +0800" stop="20261111124500 +0800" channel="澳门体育 93台">
-    <title lang="zh">2026中国羽毛球大师赛：女单4强</title>
+  <programme start="20261117090000 +0800" stop="20261117093000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">重播早晨新闻</title>
   </programme>
-  <programme start="20261111124500 +0800" stop="20261111130000 +0800" channel="澳门体育 93台">
-    <title lang="zh">爱知．名古屋第20届亚运会：反曲弓女子个人铜牌赛</title>
+  <programme start="20261117093000 +0800" stop="20261117100000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">湾区全媒睇</title>
   </programme>
-  <programme start="20261111130000 +0800" stop="20261111131500 +0800" channel="澳门体育 93台">
+  <programme start="20261117100000 +0800" stop="20261117103000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261117103000 +0800" stop="20261117110000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261117110000 +0800" stop="20261117111200 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261117111200 +0800" stop="20261117112000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">宇宙更强</title>
+  </programme>
+  <programme start="20261117112000 +0800" stop="20261117115000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">重播风火台</title>
+  </programme>
+  <programme start="20261117115000 +0800" stop="20261117120000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">澳门早晨精华篇</title>
+  </programme>
+  <programme start="20261117120000 +0800" stop="20261117122000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261117122000 +0800" stop="20261117122700 +0800" channel="澳门资讯 94台">
+    <title lang="zh">宇宙更强</title>
+  </programme>
+  <programme start="20261117122700 +0800" stop="20261117123000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">街市情报</title>
+  </programme>
+  <programme start="20261117123000 +0800" stop="20261117125000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261117125000 +0800" stop="20261117130000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">海派百工2</title>
+  </programme>
+  <programme start="20261117130000 +0800" stop="20261117131700 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261117131700 +0800" stop="20261117132400 +0800" channel="澳门资讯 94台">
+    <title lang="zh">宇宙更强</title>
+  </programme>
+  <programme start="20261117132400 +0800" stop="20261117133000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">午间天气报告</title>
+  </programme>
+  <programme start="20261117133000 +0800" stop="20261117140000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">午间新闻</title>
+  </programme>
+  <programme start="20261117140000 +0800" stop="20261117145700 +0800" channel="澳门资讯 94台">
+    <title lang="zh">每日财经</title>
+  </programme>
+  <programme start="20261117145700 +0800" stop="20261117180000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">行政长官2027年施政报告立法会答问大会</title>
+  </programme>
+  <programme start="20261117180000 +0800" stop="20261117180500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">新闻报道</title>
+  </programme>
+  <programme start="20261117180500 +0800" stop="20261117180700 +0800" channel="澳门资讯 94台">
+    <title lang="zh">TDM 新视点</title>
+  </programme>
+  <programme start="20261117180700 +0800" stop="20261117183000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">澳门早晨精华录</title>
+  </programme>
+  <programme start="20261117183000 +0800" stop="20261117190000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">大湾区经济新闻</title>
+  </programme>
+  <programme start="20261117190000 +0800" stop="20261117195500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">澳视新闻</title>
+  </programme>
+  <programme start="20261117195500 +0800" stop="20261117195800 +0800" channel="澳门资讯 94台">
+    <title lang="zh">天气报告</title>
+  </programme>
+  <programme start="20261117195800 +0800" stop="20261117200000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">TDM 新视点</title>
+  </programme>
+  <programme start="20261117200000 +0800" stop="20261117210000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">录播澳视新闻</title>
+  </programme>
+  <programme start="20261117210000 +0800" stop="20261117220000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">录播澳视新闻</title>
+  </programme>
+  <programme start="20261117220000 +0800" stop="20261117223000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">普通话新闻</title>
+  </programme>
+  <programme start="20261117223000 +0800" stop="20261117231500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">十点半澳视纵横：竞健群英 2026</title>
+  </programme>
+  <programme start="20261117231500 +0800" stop="20261117235000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">晚间新闻</title>
+  </programme>
+  <programme start="20261117235000 +0800" stop="20261118000500 +0800" channel="澳门资讯 94台">
     <title lang="zh">体育新闻</title>
   </programme>
-  <programme start="20261111131500 +0800" stop="20261111133000 +0800" channel="澳门体育 93台">
-    <title lang="zh">爱知．名古屋第20届亚运会：反曲弓女子个人决赛</title>
+  <programme start="20261118000500 +0800" stop="20261118003500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">重播大湾区经济新闻</title>
   </programme>
-  <programme start="20261111133000 +0800" stop="20261111140000 +0800" channel="澳门体育 93台">
-    <title lang="zh">爱知．名古屋第20届亚运会：7人制橄榄球女子4强</title>
+  <programme start="20261118003500 +0800" stop="20261118004500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">澳门早晨精华篇</title>
   </programme>
-  <programme start="20261111140000 +0800" stop="20261111162000 +0800" channel="澳门体育 93台">
-    <title lang="zh">2026法国网球公开赛：女单8强</title>
+  <programme start="20261118004500 +0800" stop="20261118011500 +0800" channel="澳门资讯 94台">
+    <title lang="zh">录播普通话新闻</title>
   </programme>
-  <programme start="20261111162000 +0800" stop="20261111175500 +0800" channel="澳门体育 93台">
-    <title lang="zh">2026WTT中国乒乓球大满贯：女单8强</title>
+  <programme start="20261118011500 +0800" stop="20261118015000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">录播晚间新闻</title>
   </programme>
-  <programme start="20261111175500 +0800" stop="20261111200000 +0800" channel="澳门体育 93台">
-    <title lang="zh">直播2026-27 东亚超级篮球联赛：釜山宙斯盾 对 富邦勇士</title>
+  <programme start="20261118015000 +0800" stop="20261118020000 +0800" channel="澳门资讯 94台">
+    <title lang="zh">重播体育新闻</title>
   </programme>
-  <programme start="20261111200000 +0800" stop="20261111205000 +0800" channel="澳门体育 93台">
-    <title lang="zh">竞健群英2026</title>
-  </programme>
-  <programme start="20261111205000 +0800" stop="20261111210000 +0800" channel="澳门体育 93台">
-    <title lang="zh">体育新闻</title>
-  </programme>
-  <programme start="20261111210000 +0800" stop="20261111225500 +0800" channel="澳门体育 93台">
-    <title lang="zh">2026/2027欧洲冠军联赛 ：布拉格斯拉维亚 对 阿仙奴</title>
-  </programme>
-  <programme start="20261111225500 +0800" stop="20261111230000 +0800" channel="澳门体育 93台">
-    <title lang="zh">体育新闻</title>
-  </programme>
-  <programme start="20261111230000 +0800" stop="20261112010000 +0800" channel="澳门体育 93台">
-    <title lang="zh">2026/2027西班牙甲组足球联赛：马德里体育会 对 巴塞罗那</title>
-  </programme>
-  <programme start="20261112010000 +0800" stop="20261112020000 +0800" channel="澳门体育 93台">
+  <programme start="20261118020000 +0800" stop="20261118030000 +0800" channel="澳门资讯 94台">
     <title lang="zh">收台</title>
   </programme>
   <programme start="20261112095900 +0800" stop="20261112100000 +0800" channel="澳门体育 93台">
@@ -2319,55 +2192,46 @@
   <programme start="20261117010000 +0800" stop="20261117020000 +0800" channel="澳门体育 93台">
     <title lang="zh">收台</title>
   </programme>
-  <programme start="20261111095900 +0800" stop="20261111100000 +0800" channel="澳门综艺 95台">
+  <programme start="20261117095900 +0800" stop="20261117100000 +0800" channel="澳门体育 93台">
     <title lang="zh">开台</title>
   </programme>
-  <programme start="20261111100000 +0800" stop="20261111130100 +0800" channel="澳门综艺 95台">
-    <title lang="zh">好剧连场: 点心之路</title>
+  <programme start="20261117100000 +0800" stop="20261117112000 +0800" channel="澳门体育 93台">
+    <title lang="zh">爱知．名古屋第20届亚运会：男子长拳</title>
   </programme>
-  <programme start="20261111130100 +0800" stop="20261111155700 +0800" channel="澳门综艺 95台">
-    <title lang="zh">好剧连场: 心灵法医</title>
+  <programme start="20261117112000 +0800" stop="20261117130000 +0800" channel="澳门体育 93台">
+    <title lang="zh">2026法国网球公开赛：男双决赛</title>
   </programme>
-  <programme start="20261111155700 +0800" stop="20261111160500 +0800" channel="澳门综艺 95台">
-    <title lang="zh">国宝时刻</title>
+  <programme start="20261117130000 +0800" stop="20261117131500 +0800" channel="澳门体育 93台">
+    <title lang="zh">体育新闻</title>
   </programme>
-  <programme start="20261111160500 +0800" stop="20261111163500 +0800" channel="澳门综艺 95台">
-    <title lang="zh">一城烟火 一城诗</title>
+  <programme start="20261117131500 +0800" stop="20261117151500 +0800" channel="澳门体育 93台">
+    <title lang="zh">2026法国网球公开赛：女单决赛</title>
   </programme>
-  <programme start="20261111163500 +0800" stop="20261111173000 +0800" channel="澳门综艺 95台">
-    <title lang="zh">追逐猛兽之厄尔尼诺</title>
+  <programme start="20261117151500 +0800" stop="20261117190000 +0800" channel="澳门体育 93台">
+    <title lang="zh">2026汤尤杯羽毛球赛：中华台北 对 瑞典 - 汤姆斯杯分组赛</title>
   </programme>
-  <programme start="20261111173000 +0800" stop="20261111175800 +0800" channel="澳门综艺 95台">
-    <title lang="zh">澳门早晨精华录</title>
+  <programme start="20261117190000 +0800" stop="20261117200000 +0800" channel="澳门体育 93台">
+    <title lang="zh">2026街头联盟滑板赛精华：第五集 里约热内卢站 - 男子组</title>
   </programme>
-  <programme start="20261111175800 +0800" stop="20261111180000 +0800" channel="澳门综艺 95台">
-    <title lang="zh">TDM 新视点</title>
+  <programme start="20261117200000 +0800" stop="20261117204000 +0800" channel="澳门体育 93台">
+    <title lang="zh">2026街头联盟滑板赛精华：第六集 里约热内卢站 - 女子组</title>
   </programme>
-  <programme start="20261111180000 +0800" stop="20261111182500 +0800" channel="澳门综艺 95台">
-    <title lang="zh">篮球旋风 第二季</title>
+  <programme start="20261117204000 +0800" stop="20261117205000 +0800" channel="澳门体育 93台">
+    <title lang="zh">澳门经典车小百科</title>
   </programme>
-  <programme start="20261111182500 +0800" stop="20261111200000 +0800" channel="澳门综艺 95台">
-    <title lang="zh">如果奔跑是我的人生</title>
+  <programme start="20261117205000 +0800" stop="20261117210000 +0800" channel="澳门体育 93台">
+    <title lang="zh">体育新闻</title>
   </programme>
-  <programme start="20261111200000 +0800" stop="20261111202400 +0800" channel="澳门综艺 95台">
-    <title lang="zh">巴厘岛天堂厨房</title>
+  <programme start="20261117210000 +0800" stop="20261117225000 +0800" channel="澳门体育 93台">
+    <title lang="zh">2026/2027 欧洲联赛：宾菲加 对 列治普斯纳</title>
   </programme>
-  <programme start="20261111202400 +0800" stop="20261111203000 +0800" channel="澳门综艺 95台">
-    <title lang="zh">海派百工2</title>
+  <programme start="20261117225000 +0800" stop="20261117230000 +0800" channel="澳门体育 93台">
+    <title lang="zh">体育新闻</title>
   </programme>
-  <programme start="20261111203000 +0800" stop="20261111210000 +0800" channel="澳门综艺 95台">
-    <title lang="zh">一城烟火 一城诗</title>
+  <programme start="20261117230000 +0800" stop="20261118010000 +0800" channel="澳门体育 93台">
+    <title lang="zh">2026-27 东亚超级篮球联赛：釜山宙斯盾 对 富邦勇士</title>
   </programme>
-  <programme start="20261111210000 +0800" stop="20261111213500 +0800" channel="澳门综艺 95台">
-    <title lang="zh">洪流 - 山东抗日武装起义纪实</title>
-  </programme>
-  <programme start="20261111213500 +0800" stop="20261111231000 +0800" channel="澳门综艺 95台">
-    <title lang="zh">非爱不可</title>
-  </programme>
-  <programme start="20261111231000 +0800" stop="20261112000100 +0800" channel="澳门综艺 95台">
-    <title lang="zh">飙速世界</title>
-  </programme>
-  <programme start="20261112000100 +0800" stop="20261112010100 +0800" channel="澳门综艺 95台">
+  <programme start="20261118010000 +0800" stop="20261118020000 +0800" channel="澳门体育 93台">
     <title lang="zh">收台</title>
   </programme>
   <programme start="20261112095900 +0800" stop="20261112100000 +0800" channel="澳门综艺 95台">
@@ -2619,144 +2483,53 @@
   <programme start="20261117000100 +0800" stop="20261117010100 +0800" channel="澳门综艺 95台">
     <title lang="zh">收台</title>
   </programme>
-  <programme start="20261111000200 +0800" stop="20261111003500 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">阅读时光</title>
+  <programme start="20261117095900 +0800" stop="20261117100000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">开台</title>
   </programme>
-  <programme start="20261111003500 +0800" stop="20261111010000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">蓝海同行</title>
+  <programme start="20261117100000 +0800" stop="20261117130100 +0800" channel="澳门综艺 95台">
+    <title lang="zh">好剧连场: 摇滚狂花</title>
   </programme>
-  <programme start="20261111010000 +0800" stop="20261111013000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">唐‧西丰味</title>
+  <programme start="20261117130100 +0800" stop="20261117160500 +0800" channel="澳门综艺 95台">
+    <title lang="zh">好剧连场: 鲲鹏击浪</title>
   </programme>
-  <programme start="20261111013000 +0800" stop="20261111020000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">英语新闻</title>
+  <programme start="20261117160500 +0800" stop="20261117163500 +0800" channel="澳门综艺 95台">
+    <title lang="zh">江河与共</title>
   </programme>
-  <programme start="20261111020000 +0800" stop="20261111025000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">葡语新闻</title>
+  <programme start="20261117163500 +0800" stop="20261117173000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">分界线</title>
   </programme>
-  <programme start="20261111025000 +0800" stop="20261111031000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">澳门早晨精华录</title>
+  <programme start="20261117173000 +0800" stop="20261117175800 +0800" channel="澳门综艺 95台">
+    <title lang="zh">中山装</title>
   </programme>
-  <programme start="20261111031000 +0800" stop="20261111034200 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">拳心</title>
+  <programme start="20261117175800 +0800" stop="20261117180000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">TDM 新视点</title>
   </programme>
-  <programme start="20261111034200 +0800" stop="20261111041000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">天下徽商</title>
+  <programme start="20261117180000 +0800" stop="20261117182500 +0800" channel="澳门综艺 95台">
+    <title lang="zh">篮球旋风 第二季</title>
   </programme>
-  <programme start="20261111041000 +0800" stop="20261111044000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">我们的家园</title>
+  <programme start="20261117182500 +0800" stop="20261117200000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">鲲鹏击浪</title>
   </programme>
-  <programme start="20261111044000 +0800" stop="20261111053000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">葡语新闻</title>
+  <programme start="20261117200000 +0800" stop="20261117205200 +0800" channel="澳门综艺 95台">
+    <title lang="zh">追逐猛兽之厄尔尼诺</title>
   </programme>
-  <programme start="20261111053000 +0800" stop="20261111060000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">唐‧西丰味</title>
+  <programme start="20261117205200 +0800" stop="20261117210000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">海派百工2</title>
   </programme>
-  <programme start="20261111060000 +0800" stop="20261111063300 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">阅读时光</title>
-    <live/>
+  <programme start="20261117210000 +0800" stop="20261117212500 +0800" channel="澳门综艺 95台">
+    <title lang="zh">趋记茶餐厅</title>
   </programme>
-  <programme start="20261111063300 +0800" stop="20261111070000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">蓝海同行</title>
+  <programme start="20261117212500 +0800" stop="20261117213500 +0800" channel="澳门综艺 95台">
+    <title lang="zh">漫游澳门．乐在各区</title>
   </programme>
-  <programme start="20261111070000 +0800" stop="20261111073000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">“葡”出个味蕾</title>
+  <programme start="20261117213500 +0800" stop="20261117231000 +0800" channel="澳门综艺 95台">
+    <title lang="zh">非爱不可</title>
   </programme>
-  <programme start="20261111073000 +0800" stop="20261111080000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">英语新闻</title>
+  <programme start="20261117231000 +0800" stop="20261118000100 +0800" channel="澳门综艺 95台">
+    <title lang="zh">战士的道路</title>
   </programme>
-  <programme start="20261111080000 +0800" stop="20261111083000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">拳心</title>
-  </programme>
-  <programme start="20261111083000 +0800" stop="20261111085300 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">家家有本事</title>
-  </programme>
-  <programme start="20261111085300 +0800" stop="20261111092000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">湾区全媒睇</title>
-  </programme>
-  <programme start="20261111092000 +0800" stop="20261111100000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">竞健群英 2026</title>
-  </programme>
-  <programme start="20261111100000 +0800" stop="20261111103000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">粤语新闻</title>
-  </programme>
-  <programme start="20261111103000 +0800" stop="20261111105500 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">天下徽商</title>
-  </programme>
-  <programme start="20261111105500 +0800" stop="20261111113000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">我们的家园</title>
-  </programme>
-  <programme start="20261111113000 +0800" stop="20261111120000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">唐‧西丰味</title>
-  </programme>
-  <programme start="20261111120000 +0800" stop="20261111123000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">拳心</title>
-  </programme>
-  <programme start="20261111123000 +0800" stop="20261111131000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">竞健群英 2026</title>
-  </programme>
-  <programme start="20261111131000 +0800" stop="20261111133500 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">“葡”出个味蕾</title>
-  </programme>
-  <programme start="20261111133500 +0800" stop="20261111140000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">家家有本事</title>
-  </programme>
-  <programme start="20261111140000 +0800" stop="20261111143000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">粤语新闻</title>
-  </programme>
-  <programme start="20261111143000 +0800" stop="20261111150000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">唐‧西丰味</title>
-  </programme>
-  <programme start="20261111150000 +0800" stop="20261111155000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">葡语新闻</title>
-  </programme>
-  <programme start="20261111155000 +0800" stop="20261111160500 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">天天成长记 第一至四季</title>
-  </programme>
-  <programme start="20261111160500 +0800" stop="20261111163000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">天下徽商</title>
-  </programme>
-  <programme start="20261111163000 +0800" stop="20261111170300 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">阅读时光</title>
-  </programme>
-  <programme start="20261111170300 +0800" stop="20261111173000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">蓝海同行</title>
-  </programme>
-  <programme start="20261111173000 +0800" stop="20261111180500 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">拳心</title>
-  </programme>
-  <programme start="20261111180500 +0800" stop="20261111183000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">“葡”出个味蕾</title>
-  </programme>
-  <programme start="20261111183000 +0800" stop="20261111185000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">澳门早晨精华录</title>
-  </programme>
-  <programme start="20261111185000 +0800" stop="20261111191300 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">家家有本事</title>
-  </programme>
-  <programme start="20261111191300 +0800" stop="20261111192000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">家家有𩠌煮</title>
-  </programme>
-  <programme start="20261111192000 +0800" stop="20261111200000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">竞健群英 2026</title>
-  </programme>
-  <programme start="20261111200000 +0800" stop="20261111210000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">粤语新闻</title>
-  </programme>
-  <programme start="20261111210000 +0800" stop="20261111213000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">湾区全媒睇</title>
-  </programme>
-  <programme start="20261111213000 +0800" stop="20261111220000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">唐‧西丰味</title>
-  </programme>
-  <programme start="20261111220000 +0800" stop="20261111225000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">粤语新闻</title>
-  </programme>
-  <programme start="20261111225000 +0800" stop="20261111234000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">葡语新闻</title>
-  </programme>
-  <programme start="20261111234000 +0800" stop="20261112004000 +0800" channel="澳门-Macau 96台">
-    <title lang="zh">家家有本事</title>
+  <programme start="20261118000100 +0800" stop="20261118010100 +0800" channel="澳门综艺 95台">
+    <title lang="zh">收台</title>
   </programme>
   <programme start="20261112000200 +0800" stop="20261112003500 +0800" channel="澳门-Macau 96台">
     <title lang="zh">阅读时光</title>
@@ -2799,6 +2572,7 @@
   </programme>
   <programme start="20261112070000 +0800" stop="20261112073000 +0800" channel="澳门-Macau 96台">
     <title lang="zh">“葡”出个味蕾</title>
+    <live/>
   </programme>
   <programme start="20261112073000 +0800" stop="20261112080000 +0800" channel="澳门-Macau 96台">
     <title lang="zh">英语新闻</title>
@@ -3492,5 +3266,137 @@
   </programme>
   <programme start="20261116234000 +0800" stop="20261117004000 +0800" channel="澳门-Macau 96台">
     <title lang="zh">趋记茶餐厅</title>
+  </programme>
+  <programme start="20261117000200 +0800" stop="20261117010200 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">莫桑比克的魅力</title>
+  </programme>
+  <programme start="20261117010200 +0800" stop="20261117013000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">唐‧西丰味</title>
+  </programme>
+  <programme start="20261117013000 +0800" stop="20261117020000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">英语新闻</title>
+  </programme>
+  <programme start="20261117020000 +0800" stop="20261117025000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">葡语新闻</title>
+  </programme>
+  <programme start="20261117025000 +0800" stop="20261117031000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门早晨精华录</title>
+  </programme>
+  <programme start="20261117031000 +0800" stop="20261117034000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">美味缘是您</title>
+  </programme>
+  <programme start="20261117034000 +0800" stop="20261117043000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">中华白海豚</title>
+  </programme>
+  <programme start="20261117043000 +0800" stop="20261117044000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">国宝时刻</title>
+  </programme>
+  <programme start="20261117044000 +0800" stop="20261117053000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">葡语新闻</title>
+  </programme>
+  <programme start="20261117053000 +0800" stop="20261117060000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">丝路时间U Silk : 大漠胡杨</title>
+  </programme>
+  <programme start="20261117060000 +0800" stop="20261117070000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">莫桑比克的魅力</title>
+  </programme>
+  <programme start="20261117070000 +0800" stop="20261117073000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">拳心</title>
+  </programme>
+  <programme start="20261117073000 +0800" stop="20261117080000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">英语新闻</title>
+  </programme>
+  <programme start="20261117080000 +0800" stop="20261117083000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">美味缘是您</title>
+  </programme>
+  <programme start="20261117083000 +0800" stop="20261117085200 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">教煮CHILL 好玩</title>
+  </programme>
+  <programme start="20261117085200 +0800" stop="20261117092000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">湾区全媒睇</title>
+  </programme>
+  <programme start="20261117092000 +0800" stop="20261117095000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">风火台</title>
+  </programme>
+  <programme start="20261117095000 +0800" stop="20261117100000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">家家有𩠌煮</title>
+  </programme>
+  <programme start="20261117100000 +0800" stop="20261117103000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">粤语新闻</title>
+  </programme>
+  <programme start="20261117103000 +0800" stop="20261117112000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">中华白海豚</title>
+  </programme>
+  <programme start="20261117112000 +0800" stop="20261117115000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">唐‧西丰味</title>
+  </programme>
+  <programme start="20261117115000 +0800" stop="20261117122000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">美味缘是您</title>
+  </programme>
+  <programme start="20261117122000 +0800" stop="20261117125000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">风火台</title>
+  </programme>
+  <programme start="20261117125000 +0800" stop="20261117130000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">好书分享</title>
+  </programme>
+  <programme start="20261117130000 +0800" stop="20261117133000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">拳心</title>
+  </programme>
+  <programme start="20261117133000 +0800" stop="20261117135300 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">教煮CHILL 好玩</title>
+  </programme>
+  <programme start="20261117135300 +0800" stop="20261117140000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门非物质文化遗产</title>
+  </programme>
+  <programme start="20261117140000 +0800" stop="20261117143000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">粤语新闻</title>
+  </programme>
+  <programme start="20261117143000 +0800" stop="20261117150000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">唐‧西丰味</title>
+  </programme>
+  <programme start="20261117150000 +0800" stop="20261117155000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">葡语新闻</title>
+  </programme>
+  <programme start="20261117155000 +0800" stop="20261117160500 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">天天成长记 第一至四季</title>
+  </programme>
+  <programme start="20261117160500 +0800" stop="20261117170000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">中华白海豚</title>
+  </programme>
+  <programme start="20261117170000 +0800" stop="20261117180000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">莫桑比克的魅力</title>
+  </programme>
+  <programme start="20261117180000 +0800" stop="20261117183000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">拳心</title>
+  </programme>
+  <programme start="20261117183000 +0800" stop="20261117185500 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">澳门早晨精华录</title>
+  </programme>
+  <programme start="20261117185500 +0800" stop="20261117192000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">教煮CHILL 好玩</title>
+  </programme>
+  <programme start="20261117192000 +0800" stop="20261117195000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">风火台</title>
+  </programme>
+  <programme start="20261117195000 +0800" stop="20261117200000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">家家有𩠌煮</title>
+  </programme>
+  <programme start="20261117200000 +0800" stop="20261117210000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">粤语新闻</title>
+  </programme>
+  <programme start="20261117210000 +0800" stop="20261117213000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">湾区全媒睇</title>
+  </programme>
+  <programme start="20261117213000 +0800" stop="20261117220000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">丝路时间U Silk : 大漠胡杨</title>
+  </programme>
+  <programme start="20261117220000 +0800" stop="20261117225000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">粤语新闻</title>
+  </programme>
+  <programme start="20261117225000 +0800" stop="20261117234000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">葡语新闻</title>
+  </programme>
+  <programme start="20261117234000 +0800" stop="20261118004000 +0800" channel="澳门-Macau 96台">
+    <title lang="zh">教煮CHILL 好玩</title>
   </programme>
 </tv>
