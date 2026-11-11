@@ -1,10 +1,13 @@
 <?php
 /**
- * RTHK 香港电台 EPG 采集器 电视+广播分离版【修复版】
+ * RTHK 香港电台 EPG 采集器 电视+广播分离版【繁简转换增强版】
  * 修复说明：
  * 1. 修正时间表 URL 日期参数格式为 YYYYMMDD，匹配官网接口规范
  * 2. 重构节目解析逻辑，按 slideBlock 日期块分组过滤，彻底解决多日节目混同一天的问题
  * 3. 对齐时间节点提取规则（第0个为开始、第2个为结束），无结束时间默认 30 分钟
+ * 新增功能：
+ * - 支持同目录 t2s.json 繁体转简体字典，兼容带注释的 JSON 文件
+ * - 自动转换频道名、标题、描述，XML 语言属性同步切换 zh-Hans
  * 覆盖：港台电视31~35 + 香港电台8个广播频道
  * 输出：电视 epg_sources/epg_rthk_tv.xml / 广播 radio/epg_rthk_radio.xml
  * 适配环境：GitHub Actions / CLI / 群晖 PHP7+
@@ -44,6 +47,12 @@ $config = [
         'type'     => 'http',
         'username' => '',
         'password' => '',
+    ],
+
+    // 繁简转换配置
+    't2s' => [
+        'enable' => false,  // 默认关闭，可通过 --t2s 参数开启
+        'file'   => __DIR__ . '/t2s.json',
     ],
 
     'user_agent'    => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
@@ -158,6 +167,8 @@ if ($isCli) {
                 elseif ($key === 'tv-xml-path')  $config['tv_xml_path'] = $val;
                 elseif ($key === 'radio-xml-path') $config['radio_xml_path'] = $val;
                 elseif ($key === 'debug')     $config['debug'] = true;
+                elseif ($key === 't2s')       $config['t2s']['enable'] = true;
+                elseif ($key === 'no-t2s')    $config['t2s']['enable'] = false;
                 elseif ($key === 'help') {
                     echo "用法: php rthk_epg.php [选项]\n";
                     echo "  --days-past=N       过去N天\n";
@@ -165,6 +176,7 @@ if ($isCli) {
                     echo "  --tv-xml-path=PATH  电视XML输出路径\n";
                     echo "  --radio-xml-path=PATH 广播XML输出路径\n";
                     echo "  --proxy / --no-proxy 开关代理\n";
+                    echo "  --t2s / --no-t2s   开关繁转简\n";
                     echo "  --debug             开启调试输出\n";
                     exit(0);
                 }
@@ -216,6 +228,58 @@ function isRadioChannel(string $channelId): bool
     return strpos($channelId, 'radio') === 0
         || $channelId === 'pth'
         || strpos($channelId, 'radioc') === 0;
+}
+
+// 去除 JSON 中的单行//与多行/* */注释
+function strip_json_comments(string $json): string
+{
+    // 移除单行注释
+    $json = preg_replace('/\/\/.*$/m', '', $json);
+    // 移除多行注释
+    $json = preg_replace('/\/\*[\s\S]*?\*\//', '', $json);
+    return trim($json);
+}
+
+// ====================== 繁简转换模块 ======================
+function load_t2s_dict(array $config): ?array
+{
+    static $dict = null;
+    if ($dict !== null) {
+        return $dict;
+    }
+
+    $file = $config['t2s']['file'];
+    if (!file_exists($file)) {
+        log_msg('WARN', "繁简字典文件不存在: {$file}，自动关闭转换功能");
+        return null;
+    }
+
+    $raw = file_get_contents($file);
+    if ($raw === false) {
+        log_msg('WARN', "繁简字典文件读取失败，自动关闭转换功能");
+        return null;
+    }
+
+    $clean = strip_json_comments($raw);
+    $dict = json_decode($clean, true);
+
+    if (!is_array($dict)) {
+        log_msg('WARN', "繁简字典格式解析失败，自动关闭转换功能");
+        $dict = null;
+        return null;
+    }
+
+    log_msg('INFO', '繁简字典加载成功，共 ' . count($dict) . ' 条映射');
+    return $dict;
+}
+
+// 繁体转简体，strtr 自动优先匹配最长键
+function t2s_convert(string $text, ?array $dict): string
+{
+    if (!$dict || $text === '') {
+        return $text;
+    }
+    return strtr($text, $dict);
 }
 
 // ====================== 页面抓取 ======================
@@ -459,7 +523,7 @@ function parseTimetablePage(string $html, string $channelId, string $date, bool 
 }
 
 // ====================== XMLTV 生成 ======================
-function generateXmltv(array $channels, array $programmes, string $filePath): bool
+function generateXmltv(array $channels, array $programmes, string $filePath, string $lang = 'zh-Hant'): bool
 {
     initDir(dirname($filePath));
 
@@ -479,7 +543,7 @@ function generateXmltv(array $channels, array $programmes, string $filePath): bo
 
         $name = $dom->createElement('display-name');
         $name->appendChild($dom->createTextNode($info['name']));
-        $name->setAttribute('lang', 'zh-Hant');
+        $name->setAttribute('lang', $lang);
         $ch->appendChild($name);
 
         if (!empty($info['logo'])) {
@@ -498,13 +562,13 @@ function generateXmltv(array $channels, array $programmes, string $filePath): bo
 
         $title = $dom->createElement('title');
         $title->appendChild($dom->createTextNode($prog['title']));
-        $title->setAttribute('lang', 'zh-Hant');
+        $title->setAttribute('lang', $lang);
         $p->appendChild($title);
 
         if (!empty($prog['desc'])) {
             $desc = $dom->createElement('desc');
             $desc->appendChild($dom->createTextNode($prog['desc']));
-            $desc->setAttribute('lang', 'zh-Hant');
+            $desc->setAttribute('lang', $lang);
             $p->appendChild($desc);
         }
 
@@ -584,7 +648,7 @@ foreach ($dates as $date) {
         }
 
         if (!$html && !empty($config['enable_online'])) {
-            // 【修复】日期参数转为 YYYYMMDD 8位格式，匹配官网要求
+            // 日期参数转为 YYYYMMDD 8位格式，匹配官网要求
             $dateParam = str_replace('-', '', $date);
             $url = $config['timetable_base'] . $channelId . '?date=' . $dateParam . '&lang=zh-hant';
             $html = fetchPage($url, $config);
@@ -617,38 +681,75 @@ foreach ($allProgrammes as $p) {
 $uniqueProgs = array_values($uniqueProgs);
 log_msg('INFO', '全部日期解析完成，共 ' . count($uniqueProgs) . ' 个有效节目');
 
-// 4. 拆分电视/广播并生成 XML
+// 4. 拆分电视/广播
+$tvChannels = [];
+$radioChannels = [];
+$tvProgs = [];
+$radioProgs = [];
+
+foreach ($channelMap as $id => $info) {
+    if (isRadioChannel($id)) {
+        $radioChannels[$id] = $info;
+    } else {
+        $tvChannels[$id] = $info;
+    }
+}
+
+foreach ($uniqueProgs as $p) {
+    if (isRadioChannel($p['channel'])) {
+        $radioProgs[] = $p;
+    } else {
+        $tvProgs[] = $p;
+    }
+}
+
+// 5. 繁简转换处理
+$langCode = 'zh-Hant';
+if (!empty($config['t2s']['enable'])) {
+    $dict = load_t2s_dict($config);
+    if ($dict) {
+        // 转换电视频道名
+        foreach ($tvChannels as &$ch) {
+            $ch['name'] = t2s_convert($ch['name'], $dict);
+        }
+        unset($ch);
+
+        // 转换广播频道名
+        foreach ($radioChannels as &$ch) {
+            $ch['name'] = t2s_convert($ch['name'], $dict);
+        }
+        unset($ch);
+
+        // 转换电视节目
+        foreach ($tvProgs as &$prog) {
+            $prog['title'] = t2s_convert($prog['title'], $dict);
+            if (!empty($prog['desc'])) {
+                $prog['desc'] = t2s_convert($prog['desc'], $dict);
+            }
+        }
+        unset($prog);
+
+        // 转换广播节目
+        foreach ($radioProgs as &$prog) {
+            $prog['title'] = t2s_convert($prog['title'], $dict);
+            if (!empty($prog['desc'])) {
+                $prog['desc'] = t2s_convert($prog['desc'], $dict);
+            }
+        }
+        unset($prog);
+
+        $langCode = 'zh-Hans';
+        log_msg('INFO', '繁体转简体处理完成');
+    }
+}
+
+// 6. 生成 XML
 if ($config['generate_xml']) {
-    $tvChannels = [];
-    $radioChannels = [];
-    $tvProgs = [];
-    $radioProgs = [];
-
-    // 拆分频道
-    foreach ($channelMap as $id => $info) {
-        if (isRadioChannel($id)) {
-            $radioChannels[$id] = $info;
-        } else {
-            $tvChannels[$id] = $info;
-        }
-    }
-
-    // 拆分节目
-    foreach ($uniqueProgs as $p) {
-        if (isRadioChannel($p['channel'])) {
-            $radioProgs[] = $p;
-        } else {
-            $tvProgs[] = $p;
-        }
-    }
-
-    // 生成电视 EPG
-    $tvOk = generateXmltv($tvChannels, $tvProgs, $tvXmlPath);
+    $tvOk = generateXmltv($tvChannels, $tvProgs, $tvXmlPath, $langCode);
     log_msg($tvOk ? 'SUCCESS' : 'ERROR',
         $tvOk ? '电视 XMLTV 生成成功 → ' . $tvXmlPath : '电视 XMLTV 生成失败');
 
-    // 生成广播 EPG
-    $radioOk = generateXmltv($radioChannels, $radioProgs, $radioXmlPath);
+    $radioOk = generateXmltv($radioChannels, $radioProgs, $radioXmlPath, $langCode);
     log_msg($radioOk ? 'SUCCESS' : 'ERROR',
         $radioOk ? '广播 XMLTV 生成成功 → ' . $radioXmlPath : '广播 XMLTV 生成失败');
 }
