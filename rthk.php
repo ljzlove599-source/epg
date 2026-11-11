@@ -1,6 +1,10 @@
 <?php
 /**
- * RTHK 香港电台 EPG 采集器 电视+广播分离版
+ * RTHK 香港电台 EPG 采集器 电视+广播分离版【修复版】
+ * 修复说明：
+ * 1. 修正时间表 URL 日期参数格式为 YYYYMMDD，匹配官网接口规范
+ * 2. 重构节目解析逻辑，按 slideBlock 日期块分组过滤，彻底解决多日节目混同一天的问题
+ * 3. 对齐时间节点提取规则（第0个为开始、第2个为结束），无结束时间默认 30 分钟
  * 覆盖：港台电视31~35 + 香港电台8个广播频道
  * 输出：电视 epg_sources/epg_rthk_tv.xml / 广播 radio/epg_rthk_radio.xml
  * 适配环境：GitHub Actions / CLI / 群晖 PHP7+
@@ -16,7 +20,7 @@ $config = [
     'days_past'     => 1,    // 采集过去几天
     'days_future'   => 7,    // 采集未来几天
 
-    // 输出路径（GitHub 相对仓库根目录）
+    // 输出路径（相对脚本所在目录）
     'tv_xml_path'   => __DIR__ . '/epg_sources/epg_rthk_tv.xml',
     'radio_xml_path'=> __DIR__ . '/radio/epg_rthk_radio.xml',
 
@@ -32,7 +36,7 @@ $config = [
     'retry_times'   => 2,
     'retry_delay'   => 2,
 
-    // 代理配置（GitHub 按需开启）
+    // 代理配置（GitHub / 境内环境按需开启）
     'proxy' => [
         'enable'   => false,
         'host'     => '127.0.0.1',
@@ -339,7 +343,7 @@ function parseHomePage(string $html, string $channelId, string $date): array
     return $programmes;
 }
 
-// ====================== 时间表页通用解析（电视+广播通用） ======================
+// ====================== 时间表页通用解析【修复版】 ======================
 function parseTimetablePage(string $html, string $channelId, string $date, bool $debug = false): array
 {
     $programmes = [];
@@ -349,97 +353,106 @@ function parseTimetablePage(string $html, string $channelId, string $date, bool 
     libxml_clear_errors();
     $xpath = new DOMXPath($dom);
 
-    // 精准匹配RTHK统一时间表节点结构
-    $nodes = $xpath->query("//div[contains(@class, 'shdBlock')]");
+    // 目标日期转 8 位数字格式，匹配 slideBlock 的 date 属性
+    $targetDate = str_replace('-', '', $date);
+
+    // 1. 先定位目标日期的 slideBlock 日期块，只解析该块内的节目
+    $slideBlocks = $xpath->query("//div[contains(@class, 'slideBlock') and @date='{$targetDate}']");
 
     if ($debug) {
-        log_msg('DEBUG', "{$channelId} 匹配到shdBlock节点数量: {$nodes->length}");
+        log_msg('DEBUG', "{$channelId} 日期 {$date} 匹配到 slideBlock 数量: {$slideBlocks->length}");
     }
 
-    if ($nodes->length === 0) {
-        // 兜底兼容
-        $nodes = $xpath->query("//div[contains(@class, 'program-item') or contains(@class, 'prog-item')]");
+    if ($slideBlocks->length === 0) {
+        return [];
     }
 
-    if ($nodes->length === 0) return [];
+    foreach ($slideBlocks as $slideBlock) {
+        // 2. 在当前日期块内查找所有节目块
+        $nodes = $xpath->query(".//div[contains(@class, 'shdBlock')]", $slideBlock);
 
-    foreach ($nodes as $node) {
-        // 1. 高精度开始时间戳
-        $startTimestamp = trim($node->getAttribute('data-startTime'));
+        if ($debug) {
+            log_msg('DEBUG', "{$channelId} 日期 {$date} 匹配到 shdBlock 节点数量: {$nodes->length}");
+        }
 
-        // 2. 提取起止时间文本
-        $timeNodes = $xpath->query(".//div[contains(@class, 'shTimeBlock')]//p[contains(@class, 'timeDis')]", $node);
-        $times = [];
-        foreach ($timeNodes as $tn) {
-            $t = trim($tn->nodeValue);
-            if ($t && $t !== '|') {
-                $times[] = $t;
+        if ($nodes->length === 0) continue;
+
+        foreach ($nodes as $node) {
+            // 3. 优先读取高精度时间戳属性
+            $startTimestamp = trim($node->getAttribute('data-startTime'));
+
+            // 4. 提取时间文本：第0个=开始时间，第2个=结束时间，第1个是分隔符 |
+            $timeNodes = $xpath->query(".//div[contains(@class, 'shTimeBlock')]//p[contains(@class, 'timeDis')]", $node);
+            $startTimeStr = '';
+            $endTimeStr = '';
+
+            if ($timeNodes->length >= 1) {
+                $startTimeStr = trim($timeNodes->item(0)->nodeValue);
             }
-        }
-
-        if (count($times) < 2 && !$startTimestamp) continue;
-
-        // 3. 提取标题、副标题、链接
-        $titleNode = $xpath->query(".//div[contains(@class, 'shTitle')]//a", $node)->item(0);
-        $subTitleNode = $xpath->query(".//div[contains(@class, 'shSubTitle')]//a", $node)->item(0);
-
-        $title = '';
-        $url = '';
-        $desc = '';
-
-        if ($titleNode) {
-            $title = trim($titleNode->getAttribute('title'));
-            if (!$title) $title = trim($titleNode->nodeValue);
-            $url = trim($titleNode->getAttribute('href'));
-        }
-
-        if ($subTitleNode) {
-            $desc = trim($subTitleNode->getAttribute('title'));
-            if (!$desc) $desc = trim($subTitleNode->nodeValue);
-        }
-
-        if (!$title) continue;
-
-        if ($url && strpos($url, 'http') !== 0) {
-            $url = 'https://www.rthk.hk' . $url;
-        }
-
-        // 4. 计算起止时间
-        $startFull = '';
-        $endFull = '';
-
-        if ($startTimestamp) {
-            $startFull = date('Y-m-d H:i:s', (int)$startTimestamp);
-        } elseif (!empty($times[0])) {
-            $startFull = "{$date} {$times[0]}:00";
-        }
-
-        if (!empty($times[1])) {
-            $endFull = "{$date} {$times[1]}:00";
-        }
-
-        if (!$startFull) continue;
-
-        // 跨天处理
-        if ($endFull) {
-            $startTimeOnly = date('H:i', strtotime($startFull));
-            $endTimeOnly = date('H:i', strtotime($endFull));
-            if (strtotime($endTimeOnly) < strtotime($startTimeOnly)) {
-                $endFull = date('Y-m-d H:i:s', strtotime($endFull . ' +1 day'));
+            if ($timeNodes->length >= 3) {
+                $endTimeStr = trim($timeNodes->item(2)->nodeValue);
             }
-        } else {
-            $endFull = date('Y-m-d H:i:s', strtotime($startFull . ' +1 hour'));
-        }
 
-        $programmes[] = [
-            'channel' => $channelId,
-            'start'   => date('YmdHis O', strtotime($startFull)),
-            'stop'    => date('YmdHis O', strtotime($endFull)),
-            'title'   => $title,
-            'url'     => $url,
-            'desc'    => $desc,
-            'date'    => $date,
-        ];
+            // 5. 提取标题、副标题、详情链接
+            $titleNode = $xpath->query(".//div[contains(@class, 'shTitle')]//a", $node)->item(0);
+            $subTitleNode = $xpath->query(".//div[contains(@class, 'shSubTitle')]//a", $node)->item(0);
+
+            $title = '';
+            $url = '';
+            $desc = '';
+
+            if ($titleNode) {
+                $title = trim($titleNode->getAttribute('title'));
+                if (!$title) $title = trim($titleNode->nodeValue);
+                $url = trim($titleNode->getAttribute('href'));
+            }
+
+            if ($subTitleNode) {
+                $desc = trim($subTitleNode->getAttribute('title'));
+                if (!$desc) $desc = trim($subTitleNode->nodeValue);
+            }
+
+            if (!$title) continue;
+
+            if ($url && strpos($url, 'http') !== 0) {
+                $url = 'https://www.rthk.hk' . $url;
+            }
+
+            // 6. 计算起止时间
+            $startFull = '';
+            $endFull = '';
+
+            if ($startTimestamp && is_numeric($startTimestamp)) {
+                $startFull = date('Y-m-d H:i:s', (int)$startTimestamp);
+            } elseif ($startTimeStr && preg_match('/^\d{1,2}:\d{2}$/', $startTimeStr)) {
+                $startFull = "{$date} {$startTimeStr}:00";
+            }
+
+            if (!$startFull) continue;
+
+            if ($endTimeStr && preg_match('/^\d{1,2}:\d{2}$/', $endTimeStr)) {
+                $endFull = "{$date} {$endTimeStr}:00";
+                // 跨天处理
+                $startTimeOnly = date('H:i', strtotime($startFull));
+                $endTimeOnly = date('H:i', strtotime($endFull));
+                if (strtotime($endTimeOnly) < strtotime($startTimeOnly)) {
+                    $endFull = date('Y-m-d H:i:s', strtotime($endFull . ' +1 day'));
+                }
+            } else {
+                // 无结束时间默认 30 分钟，与 Python 版规则对齐
+                $endFull = date('Y-m-d H:i:s', strtotime($startFull . ' +30 minutes'));
+            }
+
+            $programmes[] = [
+                'channel' => $channelId,
+                'start'   => date('YmdHis O', strtotime($startFull)),
+                'stop'    => date('YmdHis O', strtotime($endFull)),
+                'title'   => $title,
+                'url'     => $url,
+                'desc'    => $desc,
+                'date'    => $date,
+            ];
+        }
     }
 
     return $programmes;
@@ -571,7 +584,9 @@ foreach ($dates as $date) {
         }
 
         if (!$html && !empty($config['enable_online'])) {
-            $url = $config['timetable_base'] . $channelId . '?date=' . $date . '&lang=zh-hant';
+            // 【修复】日期参数转为 YYYYMMDD 8位格式，匹配官网要求
+            $dateParam = str_replace('-', '', $date);
+            $url = $config['timetable_base'] . $channelId . '?date=' . $dateParam . '&lang=zh-hant';
             $html = fetchPage($url, $config);
             if ($html && !empty($config['save_cache'])) {
                 file_put_contents($cacheFile, $html);
@@ -593,7 +608,7 @@ foreach ($dates as $date) {
     log_msg('INFO', "  {$date} 解析完成，共 {$dayTotal} 个节目");
 }
 
-// 3. 全局去重
+// 3. 全局去重（避免首页与时间表页重复）
 $uniqueProgs = [];
 foreach ($allProgrammes as $p) {
     $key = $p['channel'] . '_' . $p['start'];
@@ -602,7 +617,7 @@ foreach ($allProgrammes as $p) {
 $uniqueProgs = array_values($uniqueProgs);
 log_msg('INFO', '全部日期解析完成，共 ' . count($uniqueProgs) . ' 个有效节目');
 
-// 4. 拆分电视/广播并生成XML
+// 4. 拆分电视/广播并生成 XML
 if ($config['generate_xml']) {
     $tvChannels = [];
     $radioChannels = [];
