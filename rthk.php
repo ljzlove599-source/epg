@@ -51,7 +51,7 @@ $config = [
 
     // 繁简转换配置
     't2s' => [
-        'enable' => false,  // 默认关闭，可通过 --t2s 参数开启
+        'enable' => true,  // 默认关闭，可通过 --t2s 参数开启
         'file'   => __DIR__ . '/t2s.json',
     ],
 
