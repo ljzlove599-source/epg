@@ -38,7 +38,7 @@ jobs:
           sed -i "s/define('MAX_WEEK', [0-9]);/define('MAX_WEEK', ${{ github.event.inputs.max_week }});/" mod.php
 
       - name: 运行采集脚本生成 XML
-        run: php epg_sources/mod.php
+        run: php mod.php
 
       - name: 上传生成的 EPG 产物
         uses: actions/upload-artifact@v4
