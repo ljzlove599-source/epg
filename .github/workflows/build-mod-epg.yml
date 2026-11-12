@@ -62,7 +62,7 @@ jobs:
           retention-days: 30
           if-no-files-found: error # 找不到文件直接报错失败，不再只警告
 
-            - name: 提交 XML 文件到仓库
+      - name: 提交 XML 文件到仓库
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: '自动更新：MOD 节目单 EPG'
