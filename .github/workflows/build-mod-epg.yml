@@ -1,10 +1,8 @@
 name: 中华电信MOD EPG 生成
 
 on:
-  # 定时触发：UTC 00:00 / 12:00 各跑一次，对应台湾时间 08:00 / 20:00
   schedule:
     - cron: '0 0,12 * * *'
-  # 手动触发（可自定义抓取周数）
   workflow_dispatch:
     inputs:
       max_week:
@@ -28,27 +26,27 @@ jobs:
       - name: 配置 PHP 运行环境
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.1'   # 兼容 7.4 / 8.0 / 8.3，按需切换
+          php-version: '8.1'
           extensions: curl, mbstring, xml
           ini-values: max_execution_time=0, memory_limit=512M
 
-      - name: 动态同步抓取周数配置（手动触发时生效）
+      - name: 动态同步抓取周数配置
         if: github.event.inputs.max_week != ''
         run: |
+          # 这里改成你实际的脚本文件路径，比如 php/mod.php
           sed -i "s/define('MAX_WEEK', [0-9]);/define('MAX_WEEK', ${{ github.event.inputs.max_week }});/" mod.php
 
       - name: 运行采集脚本生成 XML
-        run: php mod.php
+        run: php mod.php # 改成你实际的脚本文件名和路径，比如 php/mod.php
 
       - name: 上传生成的 EPG 产物
         uses: actions/upload-artifact@v4
         with:
           name: mod_epg_xml
-          path: mod_epg.xml
-          retention-days: 30  # 产物保留 30 天
+          path: mod_epg.xml # 根目录输出，直接写文件名即可
+          retention-days: 30
 
-      # ====== 可选：自动将生成的 XML 提交回仓库 ======
-      # 开启后可直接用 GitHub Raw 链接作为 EPG 订阅地址
+      # 可选：自动提交回仓库
       - name: 提交 XML 文件到仓库
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
