@@ -2,11 +2,7 @@
 /**
  * 台湾中华电信 MOD 节目单抓取 (mod.cht.com.tw) - PHP 版
  * 输出标准 XMLTV 格式文件，兼容 Web 与 CLI 双环境
- * 
- * 新增功能：
- *   1. 外置繁转简映射：同目录 t2s.json，支持 // 和 /* */ 注释
- *   2. 输出路径改为 epg_sources/mod_epg.xml，自动创建目录
- *   3. 长字符串优先替换，避免短词覆盖长词匹配
+ * 功能：外置繁转简映射 t2s.json，输出至 epg_sources/mod_epg.xml
  */
 
 // ==================== 配置常量 ====================
@@ -14,24 +10,24 @@ define('LIST_URL', 'https://mod.cht.com.tw/%E9%A0%BB%E9%81%93TV/%E5%85%A8%E9%83%
 define('EPG_BASE', 'https://modp.cht.com.tw/modinfo/epginfob.php');
 define('USER_AGENT', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36');
 define('REFERER', 'https://mod.cht.com.tw/');
-define('TIMEOUT', 25);          // 单次请求超时时间（秒）
-define('RETRIES', 2);           // 重试次数
-define('RETRY_DELAY', 800000);  // 重试间隔（微秒，800ms）
-define('TIMEZONE', 'Asia/Taipei');    // 台湾时区（UTC+8）
-define('MAX_WEEK', 1);          // 抓取周数：0=本周7天，1=含下周共14天
+define('TIMEOUT', 25);
+define('RETRIES', 2);
+define('RETRY_DELAY', 800000);
+define('TIMEZONE', 'Asia/Taipei');
+define('MAX_WEEK', 1);
 
-// 输出配置：自动创建 epg_sources 目录
+// 输出路径：epg_sources 目录下
 define('OUTPUT_DIR', getcwd() . DIRECTORY_SEPARATOR . 'epg_sources');
 define('OUTPUT_FILE', OUTPUT_DIR . DIRECTORY_SEPARATOR . 'mod_epg.xml');
-// 繁简转换映射文件（与当前脚本同目录）
+// 繁简映射文件：与脚本同目录
 define('T2S_FILE', __DIR__ . DIRECTORY_SEPARATOR . 't2s.json');
 
 // 全局缓存
 $weekCache = [];
 $listCache = null;
-$t2sMap = null; // 繁简映射表缓存
+$t2sMap = null;
 
-// ==================== 环境兼容初始化 ====================
+// ==================== 环境初始化 ====================
 set_time_limit(0);
 if (php_sapi_name() !== 'cli') {
     if (ob_get_level()) ob_end_clean();
@@ -40,9 +36,6 @@ if (php_sapi_name() !== 'cli') {
 }
 date_default_timezone_set(TIMEZONE);
 
-/**
- * 兼容输出错误信息
- */
 function write_error($msg) {
     if (php_sapi_name() === 'cli') {
         fwrite(STDERR, $msg . PHP_EOL);
@@ -52,9 +45,6 @@ function write_error($msg) {
     }
 }
 
-/**
- * 兼容输出普通信息
- */
 function write_log($msg) {
     if (php_sapi_name() === 'cli') {
         echo $msg . PHP_EOL;
@@ -63,39 +53,26 @@ function write_log($msg) {
     }
 }
 
-// ==================== 繁简转换核心 ====================
-
-/**
- * 去除 JSON 中的单行 // 和多行 /* */ 注释
- * 兼容带注释的 t2s.json 配置
- */
+// ==================== 繁简转换 ====================
 function strip_json_comments($json) {
-    // 移除多行注释
     $json = preg_replace('/\/\*[\s\S]*?\*\//', '', $json);
-    // 移除单行注释（不匹配 url 中的 ://）
     $json = preg_replace('/(?<!:)\/\/.*$/m', '', $json);
     return trim($json);
 }
 
-/**
- * 加载繁简转换映射表（全局缓存）
- * 按键长倒序排序，长字符串优先替换
- */
 function load_t2s_map() {
     global $t2sMap;
-    if ($t2sMap !== null) {
-        return $t2sMap;
-    }
+    if ($t2sMap !== null) return $t2sMap;
 
     if (!file_exists(T2S_FILE)) {
-        write_error("未找到繁简转换文件 t2s.json，将保留原始繁体内容");
+        write_error('未找到 t2s.json，保留原始繁体内容');
         $t2sMap = [];
         return $t2sMap;
     }
 
     $jsonRaw = file_get_contents(T2S_FILE);
     if ($jsonRaw === false) {
-        write_error("读取 t2s.json 失败，将保留原始繁体内容");
+        write_error('读取 t2s.json 失败，保留原始繁体内容');
         $t2sMap = [];
         return $t2sMap;
     }
@@ -104,12 +81,11 @@ function load_t2s_map() {
     $map = json_decode($jsonClean, true);
 
     if (!is_array($map)) {
-        write_error("t2s.json 格式解析失败，将保留原始繁体内容");
+        write_error('t2s.json 格式解析失败，保留原始繁体内容');
         $t2sMap = [];
         return $t2sMap;
     }
 
-    // 按键长倒序排序，避免短词先替换导致长词匹配失效
     uksort($map, function($a, $b) {
         return mb_strlen($b, 'UTF-8') - mb_strlen($a, 'UTF-8');
     });
@@ -118,24 +94,13 @@ function load_t2s_map() {
     return $t2sMap;
 }
 
-/**
- * 繁体转简体
- * @param string $str 原始繁体字符串
- * @return string 转换后简体字符串
- */
 function t2s($str) {
     $map = load_t2s_map();
-    if (empty($map)) {
-        return $str;
-    }
+    if (empty($map)) return $str;
     return strtr($str, $map);
 }
 
-// ==================== 基础工具函数 ====================
-
-/**
- * 带重试的 HTTP GET 请求
- */
+// ==================== 网络请求 ====================
 function http_get($url, $timeout = TIMEOUT) {
     $ch = curl_init();
     curl_setopt_array($ch, [
@@ -152,9 +117,7 @@ function http_get($url, $timeout = TIMEOUT) {
 
     $lastError = '';
     for ($i = 0; $i <= RETRIES; $i++) {
-        if ($i > 0) {
-            usleep(RETRY_DELAY);
-        }
+        if ($i > 0) usleep(RETRY_DELAY);
         $html = curl_exec($ch);
         $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         if ($html !== false && $httpCode === 200) {
@@ -167,36 +130,16 @@ function http_get($url, $timeout = TIMEOUT) {
     throw new Exception("请求失败 [{$url}]: {$lastError}");
 }
 
-/**
- * 获取台湾本地日期 YYYYMMDD
- */
 function tw_ymd($offsetDays = 0) {
     $dt = new DateTime('now', new DateTimeZone(TIMEZONE));
-    if ($offsetDays !== 0) {
-        $dt->modify("{$offsetDays} day");
-    }
+    if ($offsetDays !== 0) $dt->modify("{$offsetDays} day");
     return $dt->format('Ymd');
 }
 
-/**
- * 计算两个 YYYYMMDD 日期相差天数
- */
-function day_diff($a, $b) {
-    $d1 = DateTime::createFromFormat('Ymd', $a, new DateTimeZone('UTC'));
-    $d2 = DateTime::createFromFormat('Ymd', $b, new DateTimeZone('UTC'));
-    return (int)$d1->diff($d2)->days * ($d1 > $d2 ? 1 : -1);
-}
-
-// ==================== 频道列表解析 ====================
-
-/**
- * 获取频道清单（频道名自动繁转简）
- */
+// ==================== 频道列表 ====================
 function fetch_channel_list() {
     global $listCache;
-    if ($listCache !== null) {
-        return $listCache;
-    }
+    if ($listCache !== null) return $listCache;
 
     $html = http_get(LIST_URL, 35);
     $pattern = '/<div class="number">(\d+)<\/div>[\s\S]{0,900}?<h3><a[^>]*>([^<]+)<\/a><\/h3>/';
@@ -206,29 +149,21 @@ function fetch_channel_list() {
     $seen = [];
     foreach ($matches as $m) {
         $id = trim($m[1]);
-        if (isset($seen[$id])) continue;
-        if ($id === '2') continue; // 跳过占位台
+        if (isset($seen[$id]) || $id === '2') continue;
         $seen[$id] = true;
         $out[] = [
             'sourceId' => $id,
-            'name' => t2s(trim($m[2])), // 频道名繁转简
+            'name' => t2s(trim($m[2])),
             'num' => $id,
         ];
     }
 
-    if (empty($out)) {
-        throw new Exception("频道清单解析为空，页面结构可能已变更");
-    }
-
+    if (empty($out)) throw new Exception('频道清单解析为空，页面结构可能已变更');
     $listCache = $out;
     return $out;
 }
 
 // ==================== EPG 解析 ====================
-
-/**
- * 解析 EPG HTML → 按天分组的节目数组（节目标题自动繁转简）
- */
 function parse_epg_html($html) {
     $days = [];
     $blocks = explode("<div class='epgdays'>", $html);
@@ -237,9 +172,7 @@ function parse_epg_html($html) {
     foreach ($blocks as $block) {
         $head = substr($block, 0, 260);
         $headPlain = strip_tags($head);
-        if (!preg_match('/(\d{4})-(\d{2})-(\d{2})/', $headPlain, $dm)) {
-            continue;
-        }
+        if (!preg_match('/(\d{4})-(\d{2})-(\d{2})/', $headPlain, $dm)) continue;
         $date = $dm[1] . $dm[2] . $dm[3];
 
         $itemPattern = "/<div class='(past|now|future)'[^>]*><div class='time'>\s*([\d:]+)<\/div><div class='channelTitle'>\s*([^<]+?)\s*<\/div>/";
@@ -248,34 +181,20 @@ function parse_epg_html($html) {
         $dayItems = [];
         foreach ($items as $it) {
             $hhmm = trim($it[2]);
-            $title = t2s(trim($it[3])); // 节目标题繁转简
-            if (!preg_match('/^\d{1,2}:\d{2}$/', $hhmm) || empty($title)) {
-                continue;
-            }
-            $dayItems[] = [
-                'hhmm' => $hhmm,
-                'title' => $title,
-            ];
+            $title = t2s(trim($it[3]));
+            if (!preg_match('/^\d{1,2}:\d{2}$/', $hhmm) || empty($title)) continue;
+            $dayItems[] = ['hhmm' => $hhmm, 'title' => $title];
         }
 
-        $days[] = [
-            'date' => $date,
-            'items' => $dayItems,
-        ];
+        $days[] = ['date' => $date, 'items' => $dayItems];
     }
-
     return $days;
 }
 
-/**
- * 抓取单频道整周节目（带缓存）
- */
 function fetch_week($channelId, $w) {
     global $weekCache;
     $key = "{$channelId}|{$w}";
-    if (isset($weekCache[$key])) {
-        return $weekCache[$key];
-    }
+    if (isset($weekCache[$key])) return $weekCache[$key];
 
     $url = EPG_BASE . '?id=' . urlencode($channelId) . '&w=' . $w;
     $html = http_get($url);
@@ -284,22 +203,13 @@ function fetch_week($channelId, $w) {
     return $days;
 }
 
-// ==================== 节目时间构建 ====================
-
-/**
- * 构建带起止时间的节目行
- */
+// ==================== 时间构建 ====================
 function build_rows($days, $ymd) {
     $target = null;
     foreach ($days as $d) {
-        if ($d['date'] === $ymd) {
-            $target = $d;
-            break;
-        }
+        if ($d['date'] === $ymd) { $target = $d; break; }
     }
-    if (!$target || empty($target['items'])) {
-        return [];
-    }
+    if (!$target || empty($target['items'])) return [];
 
     $baseDt = DateTime::createFromFormat('Ymd His', $ymd . ' 000000', new DateTimeZone(TIMEZONE));
     $baseTs = $baseDt->getTimestamp();
@@ -329,29 +239,18 @@ function build_rows($days, $ymd) {
             'category' => '',
         ];
     }
-
     return $rows;
 }
 
 // ==================== XML 生成 ====================
-
-/**
- * 时间戳转 XMLTV 时间格式
- */
 function ts_to_xmltv($ts) {
     return date('YmdHis O', $ts);
 }
 
-/**
- * XML 转义
- */
 function xml_escape($str) {
     return htmlspecialchars($str, ENT_XML1 | ENT_QUOTES, 'UTF-8');
 }
 
-/**
- * 生成完整 XMLTV 内容
- */
 function generate_xml() {
     $channels = fetch_channel_list();
     $today = tw_ymd(0);
@@ -360,7 +259,6 @@ function generate_xml() {
     $xml .= '<!DOCTYPE tv SYSTEM "xmltv.dtd">' . "\n";
     $xml .= '<tv source-info-name="中华电信MOD" generator-info-name="mod-epg-php">' . "\n";
 
-    // 频道列表
     foreach ($channels as $ch) {
         $id = xml_escape('mod.' . $ch['sourceId']);
         $name = xml_escape($ch['name']);
@@ -370,11 +268,9 @@ function generate_xml() {
         $xml .= "  </channel>\n";
     }
 
-    // 节目单
     foreach ($channels as $idx => $ch) {
         $channelId = $ch['sourceId'];
         $xmlId = xml_escape('mod.' . $channelId);
-
         try {
             for ($w = 0; $w <= MAX_WEEK; $w++) {
                 $days = fetch_week($channelId, $w);
@@ -409,37 +305,29 @@ function generate_xml() {
 
 // ==================== 主入口 ====================
 try {
-    write_log("正在加载繁简转换映射...");
-    load_t2s_map(); // 预加载映射表，提前报错
+    write_log('正在加载繁简转换映射...');
+    load_t2s_map();
 
-    write_log("正在抓取频道列表...");
+    write_log('正在抓取频道列表...');
     $channels = fetch_channel_list();
-    write_log("共获取到 " . count($channels) . " 个频道");
+    write_log('共获取到 ' . count($channels) . ' 个频道');
 
-    write_log("正在抓取节目单并生成 XML 文件...");
+    write_log('正在抓取节目单并生成 XML 文件...');
     $xmlContent = generate_xml();
 
-    // 自动创建输出目录
-    if (!is_dir(OUTPUT_DIR)) {
-        mkdir(OUTPUT_DIR, 0755, true);
-    }
-
+    if (!is_dir(OUTPUT_DIR)) mkdir(OUTPUT_DIR, 0755, true);
     if (file_put_contents(OUTPUT_FILE, $xmlContent) === false) {
-        throw new Exception("文件写入失败，请检查目录权限：" . OUTPUT_FILE);
+        throw new Exception('文件写入失败，请检查目录权限：' . OUTPUT_FILE);
     }
 
     $fileSize = round(filesize(OUTPUT_FILE) / 1024, 2);
-    write_log("✅ 生成完成！");
-    write_log("文件路径：" . OUTPUT_FILE);
-    write_log("频道数量：" . count($channels) . " 个");
-    write_log("文件大小：" . $fileSize . " KB");
+    write_log('生成完成');
+    write_log('文件路径：' . OUTPUT_FILE);
+    write_log('频道数量：' . count($channels) . ' 个');
+    write_log('文件大小：' . $fileSize . ' KB');
 
 } catch (Exception $e) {
-    write_error("运行失败：" . $e->getMessage());
-    if (php_sapi_name() !== 'cli') {
-        exit;
-    } else {
-        exit(1);
-    }
+    write_error('运行失败：' . $e->getMessage());
+    exit(php_sapi_name() === 'cli' ? 1 : 0);
 }
 
