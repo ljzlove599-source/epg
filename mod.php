@@ -15,7 +15,7 @@ define('REFERER', 'https://mod.cht.com.tw/');
 define('TIMEOUT', 25);          // 单次请求超时时间（秒）
 define('RETRIES', 2);           // 重试次数
 define('RETRY_DELAY', 800000);  // 重试间隔（微秒，800ms）
-define('OUTPUT_FILE', __DIR__ . '/epg_sources/mod_epg.xml'); // 输出文件（同目录绝对路径）
+define('OUTPUT_FILE', getcwd() . DIRECTORY_SEPARATOR . 'mod_epg.xml'); // 输出文件（同目录绝对路径）
 define('TIMEZONE', 'Asia/Taipei');    // 台湾时区（UTC+8）
 define('MAX_WEEK', 1);          // 抓取周数：0=本周7天，1=含下周共14天
 
