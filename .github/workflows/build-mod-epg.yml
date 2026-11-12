@@ -58,7 +58,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: mod_epg_xml
-          epg_sources/mod_epg.xml
+          path: epg_sources/mod_epg.xml
           retention-days: 30
           if-no-files-found: error # 找不到文件直接报错失败，不再只警告
 
