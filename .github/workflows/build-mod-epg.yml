@@ -30,23 +30,38 @@ jobs:
           extensions: curl, mbstring, xml
           ini-values: max_execution_time=0, memory_limit=512M
 
+      - name: 查看当前目录结构（调试用）
+        run: |
+          echo "=== 当前工作目录 ==="
+          pwd
+          echo "=== 根目录所有文件 ==="
+          ls -laR
+
       - name: 动态同步抓取周数配置
         if: github.event.inputs.max_week != ''
         run: |
-          # 这里改成你实际的脚本文件路径，比如 php/mod.php
+          # 如果你的脚本不在根目录、文件名不是 mod_epg.php，请修改下面的路径
+          # 比如脚本在 php/mod.php，就改成 php/mod.php
           sed -i "s/define('MAX_WEEK', [0-9]);/define('MAX_WEEK', ${{ github.event.inputs.max_week }});/" mod.php
 
       - name: 运行采集脚本生成 XML
-        run: php mod.php # 改成你实际的脚本文件名和路径，比如 php/mod.php
+        run: |
+          # 这里改成你实际的脚本路径和文件名
+          # 比如脚本在 php 目录叫 mod.php，就写 php mod.php
+          php mod.php 2>&1
+          echo "=== 运行后根目录文件 ==="
+          ls -la
+          echo "=== 查找所有 xml 文件位置 ==="
+          find . -name "*.xml" -type f
 
       - name: 上传生成的 EPG 产物
         uses: actions/upload-artifact@v4
         with:
           name: mod_epg_xml
-          path: mod_epg.xml # 根目录输出，直接写文件名即可
+          path: mod_epg.xml
           retention-days: 30
+          if-no-files-found: error # 找不到文件直接报错失败，不再只警告
 
-      # 可选：自动提交回仓库
       - name: 提交 XML 文件到仓库
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
