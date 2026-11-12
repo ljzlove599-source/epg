@@ -1,6 +1,6 @@
 <?php
 /**
- * 台湾大宽频 kbro EPG 采集脚本（PHP 版 · GitHub Actions 适配）
+ * 台湾大宽频 kbro EPG 采集脚本（PHP 版 · GitHub Actions 适配 · 繁转简修复版）
  * 输出标准 XMLTV 格式文件
  * 接口来源：https://epg.kbro.com.tw:2543/epg/
  */
@@ -36,8 +36,14 @@ function toSimplified(string $text): string
         if (file_exists(T2S_MAP_FILE)) {
             $json = file_get_contents(T2S_MAP_FILE);
             $map = json_decode($json, true);
-            if (!is_array($map)) $map = [];
+            if (!is_array($map)) {
+                echo "[警告] t2s.json 解析失败，格式不正确\n";
+                $map = [];
+            } else {
+                echo "[信息] 已加载 t2s.json，共 " . count($map) . " 条映射\n";
+            }
         } else {
+            echo "[警告] 未找到 t2s.json 文件，跳过繁转简\n";
             $map = [];
         }
     }
@@ -260,6 +266,10 @@ function filterPromoDesc(array $programs): array
 
 try {
     echo "=== kbro EPG 采集开始 ===\n";
+    
+    // 提前触发一次繁转简加载，打印日志
+    toSimplified('');
+    
     echo "正在加载频道列表...\n";
     $channelData = loadChannels();
     $channels = $channelData['channels'];
@@ -291,7 +301,7 @@ try {
         }
     }
 
-    echo "\n正在生成 XMLTV 文件...\n";
+    echo "\n正在生成 XMLTV 文件（已启用繁转简）...\n";
 
     // 打开输出流
     $fp = fopen(OUTPUT_FILE, 'w');
@@ -301,10 +311,10 @@ try {
     fwrite($fp, '<?xml version="1.0" encoding="UTF-8"?>' . "\n");
     fwrite($fp, '<tv generator-info-name="kbro-epg-php" generator-info-url="https://epg.kbro.com.tw">' . "\n");
 
-    // 输出频道节点
+    // 输出频道节点（频道名也转简体）
     foreach ($channels as $chId => $ch) {
         $id = htmlspecialchars($chId, ENT_XML1);
-        $name = htmlspecialchars($ch['name'], ENT_XML1);
+        $name = htmlspecialchars(toSimplified($ch['name']), ENT_XML1);
         fwrite($fp, "  <channel id=\"{$id}\">\n");
         fwrite($fp, "    <display-name>{$name}</display-name>\n");
         if (!empty($ch['number'])) {
@@ -314,7 +324,7 @@ try {
         fwrite($fp, "  </channel>\n");
     }
 
-    // 输出节目节点
+    // 输出节目节点（标题+简介都转简体）
     $totalProg = 0;
     foreach ($allPrograms as $chId => $rawProgs) {
         // 格式化节目数据
@@ -356,7 +366,8 @@ try {
         foreach ($formatted as $prog) {
             $start = formatXmltvTime($prog['start']);
             $stop = $prog['stop'] ? formatXmltvTime($prog['stop']) : '';
-            $title = htmlspecialchars($prog['title'], ENT_XML1);
+            // 标题转简体后再转义输出
+            $title = htmlspecialchars(toSimplified($prog['title']), ENT_XML1);
 
             $line = "  <programme start=\"{$start}\"";
             if ($stop) $line .= " stop=\"{$stop}\"";
@@ -365,7 +376,8 @@ try {
             fwrite($fp, "    <title lang=\"zh-CN\">{$title}</title>\n");
 
             if (!empty($prog['desc'])) {
-                $desc = htmlspecialchars($prog['desc'], ENT_XML1);
+                // 简介转简体后再转义输出
+                $desc = htmlspecialchars(toSimplified($prog['desc']), ENT_XML1);
                 fwrite($fp, "    <desc lang=\"zh-CN\">{$desc}</desc>\n");
             }
 
@@ -386,3 +398,4 @@ try {
 } catch (Exception $e) {
     die("运行错误: " . $e->getMessage() . "\n");
 }
+
