@@ -47,6 +47,6 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add epg_sources/kbro_epg.xml
-          # 只有文件有变化才提交
-          git diff --quiet && echo "无更新，跳过提交" || git commit -m "自动更新 kbro EPG 节目单 $(date +'%Y-%m-%d')"
+          # 对比暂存区与HEAD，有差异才提交
+          git diff --quiet --cached && echo "无更新，跳过提交" || git commit -m "自动更新 kbro EPG 节目单 $(date +'%Y-%m-%d')"
           git push
