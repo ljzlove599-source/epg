@@ -62,10 +62,12 @@ jobs:
           retention-days: 30
           if-no-files-found: error # 找不到文件直接报错失败，不再只警告
 
-      - name: 提交 XML 文件到仓库
+            - name: 提交 XML 文件到仓库
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: '自动更新：MOD 节目单 EPG'
-          file_pattern: 'mod_epg.xml'
+          # 修正：补全 epg_sources 子目录路径
+          file_pattern: 'epg_sources/mod_epg.xml'
           commit_user_name: 'github-actions[bot]'
           commit_user_email: '41898282+github-actions[bot]@users.noreply.github.com'
+
