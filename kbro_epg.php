@@ -13,7 +13,7 @@ define('CACHE_TTL', 3600);        // 缓存有效期（秒），默认1小时
 define('CACHE_DIR', __DIR__ . '/cache/kbro');
 define('T2S_MAP_FILE', __DIR__ . '/t2s.json'); // 同目录繁体转简体映射
 define('OUTPUT_FILE', __DIR__ . '/epg_sources/kbro_epg.xml'); // 指定输出路径
-define('FETCH_DAYS', 3);          // 采集天数，接口最多支持 3 天
+define('FETCH_DAYS', 7);          // 采集天数，接口最多支持 3 天
 
 // 初始化目录
 if (!is_dir(CACHE_DIR)) {
