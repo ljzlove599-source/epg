@@ -35,7 +35,7 @@ jobs:
       - name: 动态同步抓取周数配置（手动触发时生效）
         if: github.event.inputs.max_week != ''
         run: |
-          sed -i "s/define('MAX_WEEK', [0-9]);/define('MAX_WEEK', ${{ github.event.inputs.max_week }});/" mod_epg.php
+          sed -i "s/define('MAX_WEEK', [0-9]);/define('MAX_WEEK', ${{ github.event.inputs.max_week }});/" mod.php
 
       - name: 运行采集脚本生成 XML
         run: php epg_sources/mod.php
