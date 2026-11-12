@@ -22251,10 +22251,10 @@
     <title lang="zh-CN">2400新闻夜现场</title>
   </programme>
   <programme start="20261113005000 +0800" stop="20261113015000 +0800" channel="54">
-    <title lang="zh-CN">台湾ON AIR 2000</title>
+    <title lang="zh-CN">关我什么事 2100</title>
   </programme>
   <programme start="20261113015000 +0800" stop="20261113025500 +0800" channel="54">
-    <title lang="zh-CN">台湾ON AIR 2100</title>
+    <title lang="zh-CN">关我什么事 2200</title>
   </programme>
   <programme start="20261113025500 +0800" stop="20261113035500 +0800" channel="54">
     <title lang="zh-CN">2400新闻夜现场</title>
@@ -22347,7 +22347,7 @@
     <title lang="zh-CN">0900整点新闻</title>
   </programme>
   <programme start="20261114100000 +0800" stop="20261114110000 +0800" channel="54">
-    <title lang="zh-CN">话时代人物</title>
+    <title lang="zh-CN">1000整点新闻</title>
   </programme>
   <programme start="20261114110000 +0800" stop="20261114114500 +0800" channel="54">
     <title lang="zh-CN">1100整点/正午新闻</title>
@@ -22374,13 +22374,13 @@
     <title lang="zh-CN">台湾大头条</title>
   </programme>
   <programme start="20261114200000 +0800" stop="20261114210000 +0800" channel="54">
-    <title lang="zh-CN">台湾新思路</title>
+    <title lang="zh-CN">黄金8点档 九合一特报</title>
   </programme>
   <programme start="20261114210000 +0800" stop="20261114230000 +0800" channel="54">
     <title lang="zh-CN">惊爆新闻线</title>
   </programme>
   <programme start="20261114230000 +0800" stop="20261115000000 +0800" channel="54">
-    <title lang="zh-CN">消失的国界</title>
+    <title lang="zh-CN">新闻夜现场2300</title>
   </programme>
   <programme start="20261115000000 +0800" stop="20261115005500 +0800" channel="54">
     <title lang="zh-CN">2400新闻夜现场</title>
@@ -22392,10 +22392,10 @@
     <title lang="zh-CN">惊爆新闻线</title>
   </programme>
   <programme start="20261115025500 +0800" stop="20261115035500 +0800" channel="54">
-    <title lang="zh-CN">台湾新思路</title>
+    <title lang="zh-CN">黄金8点档 九合一特报</title>
   </programme>
   <programme start="20261115035500 +0800" stop="20261115045500 +0800" channel="54">
-    <title lang="zh-CN">消失的国界</title>
+    <title lang="zh-CN">新闻夜现场2300</title>
   </programme>
   <programme start="20261115045500 +0800" stop="20261115055500 +0800" channel="54">
     <title lang="zh-CN">2400新闻夜现场</title>
@@ -22413,7 +22413,7 @@
     <title lang="zh-CN">0900整点新闻</title>
   </programme>
   <programme start="20261115100000 +0800" stop="20261115110000 +0800" channel="54">
-    <title lang="zh-CN">消失的国界</title>
+    <title lang="zh-CN">1000整点新闻</title>
   </programme>
   <programme start="20261115110000 +0800" stop="20261115114500 +0800" channel="54">
     <title lang="zh-CN">1100整点/正午新闻</title>
@@ -22425,10 +22425,10 @@
     <title lang="zh-CN">正午新闻</title>
   </programme>
   <programme start="20261115140000 +0800" stop="20261115150000 +0800" channel="54">
-    <title lang="zh-CN">1400 整点新闻</title>
+    <title lang="zh-CN">54陪审团1400</title>
   </programme>
   <programme start="20261115150000 +0800" stop="20261115160000 +0800" channel="54">
-    <title lang="zh-CN">台湾新思路</title>
+    <title lang="zh-CN">54陪审团1500</title>
   </programme>
   <programme start="20261115160000 +0800" stop="20261115170000 +0800" channel="54">
     <title lang="zh-CN">1600整点新闻</title>
@@ -22440,13 +22440,13 @@
     <title lang="zh-CN">台湾大头条</title>
   </programme>
   <programme start="20261115200000 +0800" stop="20261115210000 +0800" channel="54">
-    <title lang="zh-CN">话时代人物</title>
+    <title lang="zh-CN">黄金8点档</title>
   </programme>
   <programme start="20261115210000 +0800" stop="20261115230000 +0800" channel="54">
     <title lang="zh-CN">惊爆新闻线</title>
   </programme>
   <programme start="20261115230000 +0800" stop="20261116000000 +0800" channel="54">
-    <title lang="zh-CN">国际辩论社</title>
+    <title lang="zh-CN">新闻夜现场2300</title>
   </programme>
   <programme start="20261116000000 +0800" stop="20261116005500 +0800" channel="54">
     <title lang="zh-CN">2400新闻夜现场</title>
@@ -22458,10 +22458,10 @@
     <title lang="zh-CN">惊爆新闻线</title>
   </programme>
   <programme start="20261116025500 +0800" stop="20261116035500 +0800" channel="54">
-    <title lang="zh-CN">话时代人物</title>
+    <title lang="zh-CN">黄金8点档</title>
   </programme>
   <programme start="20261116035500 +0800" stop="20261116045500 +0800" channel="54">
-    <title lang="zh-CN">国际辩论社</title>
+    <title lang="zh-CN">新闻夜现场2300</title>
   </programme>
   <programme start="20261116045500 +0800" stop="20261116055500 +0800" channel="54">
     <title lang="zh-CN">2400新闻夜现场</title>
@@ -57863,8 +57863,14 @@
   <programme start="20261113170000 +0800" stop="20261113200000 +0800" channel="210">
     <title lang="zh-CN">2026日本职棒</title>
   </programme>
-  <programme start="20261113200000 +0800" stop="20261113220000 +0800" channel="210">
-    <title lang="zh-CN">企业排球联赛</title>
+  <programme start="20261113200000 +0800" stop="20261113210000 +0800" channel="210">
+    <title lang="zh-CN">2026 TSR 全国机车锦标赛精华</title>
+  </programme>
+  <programme start="20261113210000 +0800" stop="20261113212500 +0800" channel="210">
+    <title lang="zh-CN">西甲主场漫游</title>
+  </programme>
+  <programme start="20261113212500 +0800" stop="20261113220000 +0800" channel="210">
+    <title lang="zh-CN">(首)西甲回顾</title>
   </programme>
   <programme start="20261113220000 +0800" stop="20261114000000 +0800" channel="210">
     <title lang="zh-CN">西甲</title>
@@ -57968,17 +57974,17 @@
   <programme start="20261116000000 +0800" stop="20261116010000 +0800" channel="210">
     <title lang="zh-CN">麻将大师</title>
   </programme>
-  <programme start="20261116010000 +0800" stop="20261116012500 +0800" channel="210">
-    <title lang="zh-CN">西甲主场漫游</title>
+  <programme start="20261116010000 +0800" stop="20261116030000 +0800" channel="210">
+    <title lang="zh-CN">企业排球联赛</title>
   </programme>
-  <programme start="20261116012500 +0800" stop="20261116032500 +0800" channel="210">
-    <title lang="zh-CN">LIVE 西甲</title>
+  <programme start="20261116030000 +0800" stop="20261116051500 +0800" channel="210">
+    <title lang="zh-CN">2026中信杯黑豹旗</title>
   </programme>
-  <programme start="20261116032500 +0800" stop="20261116035500 +0800" channel="210">
-    <title lang="zh-CN">西甲主场漫游</title>
+  <programme start="20261116051500 +0800" stop="20261116053000 +0800" channel="210">
+    <title lang="zh-CN">2026 好球特区</title>
   </programme>
-  <programme start="20261116035500 +0800" stop="20261116060000 +0800" channel="210">
-    <title lang="zh-CN">LIVE 西甲</title>
+  <programme start="20261116053000 +0800" stop="20261116060000 +0800" channel="210">
+    <title lang="zh-CN">键盘球探</title>
   </programme>
   <programme start="20261116060000 +0800" stop="20261116070000 +0800" channel="210">
     <title lang="zh-CN">麻将大师</title>
@@ -57987,24 +57993,30 @@
     <title lang="zh-CN">西甲</title>
   </programme>
   <programme start="20261116090000 +0800" stop="20261116120000 +0800" channel="210">
-    <title lang="zh-CN">2026桃园亚洲职棒交流赛</title>
+    <title lang="zh-CN">2026中华职棒</title>
   </programme>
   <programme start="20261116120000 +0800" stop="20261116130000 +0800" channel="210">
     <title lang="zh-CN">麻将大师</title>
   </programme>
   <programme start="20261116130000 +0800" stop="20261116150000 +0800" channel="210">
-    <title lang="zh-CN">(首) 2026花莲太平洋国际龙舟节</title>
+    <title lang="zh-CN">2026 中华企业射箭联赛</title>
   </programme>
-  <programme start="20261116150000 +0800" stop="20261116173000 +0800" channel="210">
-    <title lang="zh-CN">2026中信杯黑豹旗</title>
+  <programme start="20261116150000 +0800" stop="20261116153000 +0800" channel="210">
+    <title lang="zh-CN">野球名人房</title>
   </programme>
-  <programme start="20261116173000 +0800" stop="20261116200000 +0800" channel="210">
-    <title lang="zh-CN">2026中信杯黑豹旗</title>
+  <programme start="20261116153000 +0800" stop="20261116163000 +0800" channel="210">
+    <title lang="zh-CN">世界最强壮的男人</title>
   </programme>
-  <programme start="20261116200000 +0800" stop="20261116220000 +0800" channel="210">
+  <programme start="20261116163000 +0800" stop="20261116170000 +0800" channel="210">
+    <title lang="zh-CN">野球名人房</title>
+  </programme>
+  <programme start="20261116170000 +0800" stop="20261116200000 +0800" channel="210">
+    <title lang="zh-CN">2026日本职棒</title>
+  </programme>
+  <programme start="20261116200000 +0800" stop="20261116230000 +0800" channel="210">
     <title lang="zh-CN">企业排球联赛</title>
   </programme>
-  <programme start="20261116220000 +0800" stop="20261117000000 +0800" channel="210">
+  <programme start="20261116230000 +0800" stop="20261117000000 +0800" channel="210">
     <title lang="zh-CN">西甲</title>
   </programme>
   <programme start="20261117000000 +0800" stop="20261117010000 +0800" channel="210">
@@ -58013,8 +58025,11 @@
   <programme start="20261117010000 +0800" stop="20261117030000 +0800" channel="210">
     <title lang="zh-CN">企业排球联赛</title>
   </programme>
-  <programme start="20261117030000 +0800" stop="20261117060000 +0800" channel="210">
-    <title lang="zh-CN">2026日本职棒高潮系列赛</title>
+  <programme start="20261117030000 +0800" stop="20261117053000 +0800" channel="210">
+    <title lang="zh-CN">2026中信杯黑豹旗</title>
+  </programme>
+  <programme start="20261117053000 +0800" stop="20261117060000 +0800" channel="210">
+    <title lang="zh-CN">键盘球探</title>
   </programme>
   <programme start="20261117060000 +0800" stop="20261117070000 +0800" channel="210">
     <title lang="zh-CN">麻将大师</title>
@@ -58023,22 +58038,22 @@
     <title lang="zh-CN">西甲</title>
   </programme>
   <programme start="20261117090000 +0800" stop="20261117120000 +0800" channel="210">
-    <title lang="zh-CN">2026桃园亚洲职棒交流赛</title>
+    <title lang="zh-CN">2026中华职棒</title>
   </programme>
   <programme start="20261117120000 +0800" stop="20261117130000 +0800" channel="210">
     <title lang="zh-CN">麻将大师</title>
   </programme>
   <programme start="20261117130000 +0800" stop="20261117150000 +0800" channel="210">
-    <title lang="zh-CN">(首)2026花莲太平洋国际龙舟节</title>
+    <title lang="zh-CN">2026 中华企业射箭联赛</title>
   </programme>
   <programme start="20261117150000 +0800" stop="20261117153000 +0800" channel="210">
-    <title lang="zh-CN">键盘球探</title>
-  </programme>
-  <programme start="20261117153000 +0800" stop="20261117160000 +0800" channel="210">
     <title lang="zh-CN">野球名人房</title>
   </programme>
-  <programme start="20261117160000 +0800" stop="20261117170000 +0800" channel="210">
-    <title lang="zh-CN">The Announcer-梦想之声</title>
+  <programme start="20261117153000 +0800" stop="20261117163000 +0800" channel="210">
+    <title lang="zh-CN">世界最强壮的男人</title>
+  </programme>
+  <programme start="20261117163000 +0800" stop="20261117170000 +0800" channel="210">
+    <title lang="zh-CN">(首)键盘球探</title>
   </programme>
   <programme start="20261117170000 +0800" stop="20261117200000 +0800" channel="210">
     <title lang="zh-CN">2026日本职棒</title>
@@ -58055,8 +58070,11 @@
   <programme start="20261118010000 +0800" stop="20261118030000 +0800" channel="210">
     <title lang="zh-CN">企业排球联赛</title>
   </programme>
-  <programme start="20261118030000 +0800" stop="20261118060000 +0800" channel="210">
-    <title lang="zh-CN">2026日本职棒高潮系列赛</title>
+  <programme start="20261118030000 +0800" stop="20261118053000 +0800" channel="210">
+    <title lang="zh-CN">2026中信杯黑豹旗</title>
+  </programme>
+  <programme start="20261118053000 +0800" stop="20261118060000 +0800" channel="210">
+    <title lang="zh-CN">键盘球探</title>
   </programme>
   <programme start="20261118060000 +0800" stop="20261118070000 +0800" channel="210">
     <title lang="zh-CN">麻将大师</title>
@@ -58071,16 +58089,16 @@
     <title lang="zh-CN">麻将大师</title>
   </programme>
   <programme start="20261118130000 +0800" stop="20261118150000 +0800" channel="210">
-    <title lang="zh-CN">(首)2026花莲太平洋国际龙舟节</title>
+    <title lang="zh-CN">2026 中华企业射箭联赛</title>
   </programme>
   <programme start="20261118150000 +0800" stop="20261118153000 +0800" channel="210">
-    <title lang="zh-CN">键盘球探</title>
-  </programme>
-  <programme start="20261118153000 +0800" stop="20261118160000 +0800" channel="210">
     <title lang="zh-CN">野球名人房</title>
   </programme>
-  <programme start="20261118160000 +0800" stop="20261118170000 +0800" channel="210">
-    <title lang="zh-CN">The Announcer-梦想之声</title>
+  <programme start="20261118153000 +0800" stop="20261118163000 +0800" channel="210">
+    <title lang="zh-CN">世界最强壮的男人</title>
+  </programme>
+  <programme start="20261118163000 +0800" stop="20261118170000 +0800" channel="210">
+    <title lang="zh-CN">键盘球探</title>
   </programme>
   <programme start="20261118170000 +0800" stop="20261118200000 +0800" channel="210">
     <title lang="zh-CN">2026日本职棒</title>
@@ -116663,8 +116681,11 @@
   <programme start="20261113010000 +0800" stop="20261113033000 +0800" channel="1098">
     <title lang="zh-CN">格斗特区</title>
   </programme>
-  <programme start="20261113033000 +0800" stop="20261113053000 +0800" channel="1098">
+  <programme start="20261113033000 +0800" stop="20261113050000 +0800" channel="1098">
     <title lang="zh-CN">2026中华企业射箭联赛</title>
+  </programme>
+  <programme start="20261113050000 +0800" stop="20261113053000 +0800" channel="1098">
+    <title lang="zh-CN">键盘球探</title>
   </programme>
   <programme start="20261113053000 +0800" stop="20261113080000 +0800" channel="1098">
     <title lang="zh-CN">2026中信杯黑豹旗</title>
@@ -116684,8 +116705,11 @@
   <programme start="20261113150000 +0800" stop="20261113160000 +0800" channel="1098">
     <title lang="zh-CN">麻将大师</title>
   </programme>
-  <programme start="20261113160000 +0800" stop="20261113180000 +0800" channel="1098">
+  <programme start="20261113160000 +0800" stop="20261113174500 +0800" channel="1098">
     <title lang="zh-CN">企业排球联赛</title>
+  </programme>
+  <programme start="20261113174500 +0800" stop="20261113180000 +0800" channel="1098">
+    <title lang="zh-CN">2026 好球特区</title>
   </programme>
   <programme start="20261113180000 +0800" stop="20261113203000 +0800" channel="1098">
     <title lang="zh-CN">2026中信杯黑豹旗</title>
@@ -116693,10 +116717,10 @@
   <programme start="20261113203000 +0800" stop="20261113213000 +0800" channel="1098">
     <title lang="zh-CN">麻将大师</title>
   </programme>
-  <programme start="20261113213000 +0800" stop="20261113220000 +0800" channel="1098">
+  <programme start="20261113213000 +0800" stop="20261113223000 +0800" channel="1098">
     <title lang="zh-CN">(首)麻将大师</title>
   </programme>
-  <programme start="20261113220000 +0800" stop="20261113230000 +0800" channel="1098">
+  <programme start="20261113223000 +0800" stop="20261113230000 +0800" channel="1098">
     <title lang="zh-CN">西甲主场漫游</title>
   </programme>
   <programme start="20261113230000 +0800" stop="20261114000000 +0800" channel="1098">
@@ -116801,17 +116825,17 @@
   <programme start="20261115230000 +0800" stop="20261116000000 +0800" channel="1098">
     <title lang="zh-CN">2023 Triton Poker 蒙地卡罗邀请赛</title>
   </programme>
-  <programme start="20261116000000 +0800" stop="20261116003000 +0800" channel="1098">
-    <title lang="zh-CN">西甲主场漫游</title>
+  <programme start="20261116000000 +0800" stop="20261116030000 +0800" channel="1098">
+    <title lang="zh-CN">2026日本职棒</title>
   </programme>
-  <programme start="20261116003000 +0800" stop="20261116012500 +0800" channel="1098">
-    <title lang="zh-CN">2025巨人挑战赛</title>
+  <programme start="20261116030000 +0800" stop="20261116040000 +0800" channel="1098">
+    <title lang="zh-CN">2025/26 格斗特区</title>
   </programme>
-  <programme start="20261116012500 +0800" stop="20261116033000 +0800" channel="1098">
-    <title lang="zh-CN">LIVE 西甲</title>
+  <programme start="20261116040000 +0800" stop="20261116050000 +0800" channel="1098">
+    <title lang="zh-CN">2026 FIBA 3对3大师赛</title>
   </programme>
-  <programme start="20261116033000 +0800" stop="20261116053000 +0800" channel="1098">
-    <title lang="zh-CN">2026 中华企业射箭联赛</title>
+  <programme start="20261116050000 +0800" stop="20261116053000 +0800" channel="1098">
+    <title lang="zh-CN">野球名人房</title>
   </programme>
   <programme start="20261116053000 +0800" stop="20261116080000 +0800" channel="1098">
     <title lang="zh-CN">2026中信杯黑豹旗</title>
@@ -116832,10 +116856,10 @@
     <title lang="zh-CN">麻将大师</title>
   </programme>
   <programme start="20261116160000 +0800" stop="20261116180000 +0800" channel="1098">
-    <title lang="zh-CN">(首)2026 中华企业射箭联赛</title>
+    <title lang="zh-CN">企业排球联赛</title>
   </programme>
   <programme start="20261116180000 +0800" stop="20261116210000 +0800" channel="1098">
-    <title lang="zh-CN">2026桃园亚洲职棒交流赛</title>
+    <title lang="zh-CN">2026中华职棒</title>
   </programme>
   <programme start="20261116210000 +0800" stop="20261116220000 +0800" channel="1098">
     <title lang="zh-CN">(首)体坛观测站</title>
@@ -116847,49 +116871,46 @@
     <title lang="zh-CN">野球名人房</title>
   </programme>
   <programme start="20261116230000 +0800" stop="20261117000000 +0800" channel="1098">
-    <title lang="zh-CN">2023 Triton Poker 蒙地卡罗主赛事</title>
+    <title lang="zh-CN">2023 Triton Poker 蒙地卡罗邀请赛</title>
   </programme>
-  <programme start="20261117000000 +0800" stop="20261117003000 +0800" channel="1098">
-    <title lang="zh-CN">2026读卖巨人</title>
+  <programme start="20261117000000 +0800" stop="20261117030000 +0800" channel="1098">
+    <title lang="zh-CN">2026 日本职棒交流赛</title>
   </programme>
-  <programme start="20261117003000 +0800" stop="20261117013000 +0800" channel="1098">
-    <title lang="zh-CN">2025巨人挑战赛</title>
+  <programme start="20261117030000 +0800" stop="20261117040000 +0800" channel="1098">
+    <title lang="zh-CN">2025/26 格斗特区</title>
   </programme>
-  <programme start="20261117013000 +0800" stop="20261117033000 +0800" channel="1098">
-    <title lang="zh-CN">2026格斗特区</title>
+  <programme start="20261117040000 +0800" stop="20261117050000 +0800" channel="1098">
+    <title lang="zh-CN">2026 FIBA 3对3大师赛</title>
   </programme>
-  <programme start="20261117033000 +0800" stop="20261117053000 +0800" channel="1098">
-    <title lang="zh-CN">2026中华企业射箭联赛</title>
+  <programme start="20261117050000 +0800" stop="20261117053000 +0800" channel="1098">
+    <title lang="zh-CN">野球名人房</title>
   </programme>
   <programme start="20261117053000 +0800" stop="20261117080000 +0800" channel="1098">
     <title lang="zh-CN">2026中信杯黑豹旗</title>
   </programme>
-  <programme start="20261117080000 +0800" stop="20261117085700 +0800" channel="1098">
+  <programme start="20261117080000 +0800" stop="20261117090000 +0800" channel="1098">
     <title lang="zh-CN">体坛观测站</title>
   </programme>
-  <programme start="20261117085700 +0800" stop="20261117105700 +0800" channel="1098">
-    <title lang="zh-CN">LIVE 2026中信杯黑豹旗</title>
+  <programme start="20261117090000 +0800" stop="20261117113000 +0800" channel="1098">
+    <title lang="zh-CN">2026中信杯黑豹旗</title>
   </programme>
-  <programme start="20261117105700 +0800" stop="20261117125700 +0800" channel="1098">
-    <title lang="zh-CN">LIVE 2026中信杯黑豹旗</title>
+  <programme start="20261117113000 +0800" stop="20261117140000 +0800" channel="1098">
+    <title lang="zh-CN">2026中信杯黑豹旗</title>
   </programme>
-  <programme start="20261117125700 +0800" stop="20261117150000 +0800" channel="1098">
-    <title lang="zh-CN">LIVE 2026中信杯黑豹旗</title>
+  <programme start="20261117140000 +0800" stop="20261117150000 +0800" channel="1098">
+    <title lang="zh-CN">2026 FIBA 3对3大师赛</title>
   </programme>
   <programme start="20261117150000 +0800" stop="20261117160000 +0800" channel="1098">
     <title lang="zh-CN">麻将大师</title>
   </programme>
   <programme start="20261117160000 +0800" stop="20261117180000 +0800" channel="1098">
-    <title lang="zh-CN">2026 中华企业射箭联赛</title>
+    <title lang="zh-CN">企业排球联赛</title>
   </programme>
   <programme start="20261117180000 +0800" stop="20261117200000 +0800" channel="1098">
     <title lang="zh-CN">西甲</title>
   </programme>
-  <programme start="20261117200000 +0800" stop="20261117220000 +0800" channel="1098">
+  <programme start="20261117200000 +0800" stop="20261117223000 +0800" channel="1098">
     <title lang="zh-CN">2026中信杯黑豹旗</title>
-  </programme>
-  <programme start="20261117220000 +0800" stop="20261117223000 +0800" channel="1098">
-    <title lang="zh-CN">键盘球探</title>
   </programme>
   <programme start="20261117223000 +0800" stop="20261117230000 +0800" channel="1098">
     <title lang="zh-CN">野球名人房</title>
@@ -116897,38 +116918,32 @@
   <programme start="20261117230000 +0800" stop="20261118000000 +0800" channel="1098">
     <title lang="zh-CN">2023 Triton Poker 蒙地卡罗邀请赛</title>
   </programme>
-  <programme start="20261118000000 +0800" stop="20261118003000 +0800" channel="1098">
-    <title lang="zh-CN">2026读卖巨人</title>
+  <programme start="20261118000000 +0800" stop="20261118030000 +0800" channel="1098">
+    <title lang="zh-CN">2026日本职棒</title>
   </programme>
-  <programme start="20261118003000 +0800" stop="20261118013000 +0800" channel="1098">
-    <title lang="zh-CN">2025巨人挑战赛</title>
+  <programme start="20261118030000 +0800" stop="20261118040000 +0800" channel="1098">
+    <title lang="zh-CN">2025/26 格斗特区</title>
   </programme>
-  <programme start="20261118013000 +0800" stop="20261118033000 +0800" channel="1098">
-    <title lang="zh-CN">2026格斗特区</title>
-  </programme>
-  <programme start="20261118033000 +0800" stop="20261118050000 +0800" channel="1098">
-    <title lang="zh-CN">2026中华企业射箭联赛</title>
+  <programme start="20261118040000 +0800" stop="20261118050000 +0800" channel="1098">
+    <title lang="zh-CN">2026 FIBA 3对3大师赛</title>
   </programme>
   <programme start="20261118050000 +0800" stop="20261118053000 +0800" channel="1098">
     <title lang="zh-CN">野球名人房</title>
   </programme>
-  <programme start="20261118053000 +0800" stop="20261118073000 +0800" channel="1098">
+  <programme start="20261118053000 +0800" stop="20261118080000 +0800" channel="1098">
     <title lang="zh-CN">2026中信杯黑豹旗</title>
   </programme>
-  <programme start="20261118073000 +0800" stop="20261118080000 +0800" channel="1098">
-    <title lang="zh-CN">野球名人房</title>
-  </programme>
-  <programme start="20261118080000 +0800" stop="20261118085700 +0800" channel="1098">
+  <programme start="20261118080000 +0800" stop="20261118090000 +0800" channel="1098">
     <title lang="zh-CN">麻将大师</title>
   </programme>
-  <programme start="20261118085700 +0800" stop="20261118105700 +0800" channel="1098">
-    <title lang="zh-CN">LIVE 2026中信杯黑豹旗</title>
+  <programme start="20261118090000 +0800" stop="20261118113000 +0800" channel="1098">
+    <title lang="zh-CN">2026中信杯黑豹旗</title>
   </programme>
-  <programme start="20261118105700 +0800" stop="20261118125700 +0800" channel="1098">
-    <title lang="zh-CN">LIVE 2026中信杯黑豹旗</title>
+  <programme start="20261118113000 +0800" stop="20261118140000 +0800" channel="1098">
+    <title lang="zh-CN">2026中信杯黑豹旗</title>
   </programme>
-  <programme start="20261118125700 +0800" stop="20261118150000 +0800" channel="1098">
-    <title lang="zh-CN">LIVE 2026中信杯黑豹旗</title>
+  <programme start="20261118140000 +0800" stop="20261118150000 +0800" channel="1098">
+    <title lang="zh-CN">2026 FIBA 3对3大师赛</title>
   </programme>
   <programme start="20261118150000 +0800" stop="20261118160000 +0800" channel="1098">
     <title lang="zh-CN">麻将大师</title>
@@ -116939,11 +116954,8 @@
   <programme start="20261118180000 +0800" stop="20261118200000 +0800" channel="1098">
     <title lang="zh-CN">西甲</title>
   </programme>
-  <programme start="20261118200000 +0800" stop="20261118221500 +0800" channel="1098">
+  <programme start="20261118200000 +0800" stop="20261118223000 +0800" channel="1098">
     <title lang="zh-CN">2026中信杯黑豹旗</title>
-  </programme>
-  <programme start="20261118221500 +0800" stop="20261118223000 +0800" channel="1098">
-    <title lang="zh-CN">2026 好球特区</title>
   </programme>
   <programme start="20261118223000 +0800" stop="20261118230000 +0800" channel="1098">
     <title lang="zh-CN">键盘球探</title>
@@ -135477,7 +135489,7 @@
     <title lang="zh-CN">地方新闻</title>
   </programme>
   <programme start="20261113020000 +0800" stop="20261113023000 +0800" channel="2080">
-    <title lang="zh-CN">大地共生</title>
+    <title lang="zh-CN">与时光相绘</title>
   </programme>
   <programme start="20261113023000 +0800" stop="20261113030000 +0800" channel="2080">
     <title lang="zh-CN">产地小旅行</title>
@@ -135501,7 +135513,7 @@
     <title lang="zh-CN">地方新闻</title>
   </programme>
   <programme start="20261113060000 +0800" stop="20261113063000 +0800" channel="2080">
-    <title lang="zh-CN">大地共生</title>
+    <title lang="zh-CN">与时光相绘</title>
   </programme>
   <programme start="20261113063000 +0800" stop="20261113070000 +0800" channel="2080">
     <title lang="zh-CN">产地小旅行</title>
@@ -135525,7 +135537,7 @@
     <title lang="zh-CN">地方新闻</title>
   </programme>
   <programme start="20261113100000 +0800" stop="20261113103000 +0800" channel="2080">
-    <title lang="zh-CN">大地共生</title>
+    <title lang="zh-CN">与时光相绘</title>
   </programme>
   <programme start="20261113103000 +0800" stop="20261113110000 +0800" channel="2080">
     <title lang="zh-CN">产地小旅行</title>
@@ -135549,7 +135561,7 @@
     <title lang="zh-CN">地方新闻</title>
   </programme>
   <programme start="20261113140000 +0800" stop="20261113143000 +0800" channel="2080">
-    <title lang="zh-CN">大地共生</title>
+    <title lang="zh-CN">与时光相绘</title>
   </programme>
   <programme start="20261113143000 +0800" stop="20261113150000 +0800" channel="2080">
     <title lang="zh-CN">产地小旅行</title>
@@ -135573,7 +135585,7 @@
     <title lang="zh-CN">地方新闻</title>
   </programme>
   <programme start="20261113180000 +0800" stop="20261113183000 +0800" channel="2080">
-    <title lang="zh-CN">大地共生</title>
+    <title lang="zh-CN">与时光相绘</title>
   </programme>
   <programme start="20261113183000 +0800" stop="20261113190000 +0800" channel="2080">
     <title lang="zh-CN">产地小旅行</title>
@@ -142494,13 +142506,13 @@
     <title lang="zh-CN">Gratia Plena</title>
   </programme>
   <programme start="20261113000000 +0800" stop="20261113000300 +0800" channel="2219">
-    <title lang="zh-CN">Saint-Sa螚s-Carnival of the Animals - Aquarium</title>
+    <title lang="zh-CN">Saint-Saens-Carnival of the Animals - Aquarium</title>
   </programme>
   <programme start="20261113000300 +0800" stop="20261113000500 +0800" channel="2219">
-    <title lang="zh-CN">Faur�-Les berceaux</title>
+    <title lang="zh-CN">Fauré-Les berceaux, Op. 23, No. 1</title>
   </programme>
   <programme start="20261113000500 +0800" stop="20261113000800 +0800" channel="2219">
-    <title lang="zh-CN">Totem Voices for Trumpet &amp; Piano</title>
+    <title lang="zh-CN">Totem Voices for Trumpet &amp; Piano, II. Beluga</title>
   </programme>
   <programme start="20261113000800 +0800" stop="20261113001200 +0800" channel="2219">
     <title lang="zh-CN">She`s Like The Swallow</title>
@@ -142524,40 +142536,40 @@
     <title lang="zh-CN">1995</title>
   </programme>
   <programme start="20261113003000 +0800" stop="20261113003300 +0800" channel="2219">
-    <title lang="zh-CN">Bagatelle No. 25 in A Minor</title>
+    <title lang="zh-CN">Bagatelle No. 25 in A Minor, WoO 59 `Fur Elise`</title>
   </programme>
   <programme start="20261113003300 +0800" stop="20261113003700 +0800" channel="2219">
-    <title lang="zh-CN">Villa-Lobos-Bachianas Brasileiras No. 4-I. Prelio</title>
+    <title lang="zh-CN">Villa-Lobos-Bachianas Brasileiras No. 4-I. Prelúdio (Introducão) (Arr. for Guita</title>
   </programme>
   <programme start="20261113003700 +0800" stop="20261113003900 +0800" channel="2219">
-    <title lang="zh-CN">Caf� 1930</title>
+    <title lang="zh-CN">Café 1930</title>
   </programme>
   <programme start="20261113003900 +0800" stop="20261113004100 +0800" channel="2219">
     <title lang="zh-CN">First Coronation</title>
   </programme>
   <programme start="20261113004100 +0800" stop="20261113004400 +0800" channel="2219">
-    <title lang="zh-CN">Rachmaninoff-Melody</title>
+    <title lang="zh-CN">Rachmaninoff-Melody, Op. 21, No. 9</title>
   </programme>
   <programme start="20261113004400 +0800" stop="20261113004600 +0800" channel="2219">
     <title lang="zh-CN">`Summertime` from Porgy and Bess</title>
   </programme>
   <programme start="20261113004600 +0800" stop="20261113004900 +0800" channel="2219">
-    <title lang="zh-CN">Parla Pi� Piano</title>
+    <title lang="zh-CN">Parla Piu Piano</title>
   </programme>
   <programme start="20261113004900 +0800" stop="20261113005300 +0800" channel="2219">
-    <title lang="zh-CN">Howard-Dappled Light</title>
+    <title lang="zh-CN">Howard-Dappled Light (RAK Studios Version)</title>
   </programme>
   <programme start="20261113005300 +0800" stop="20261113005600 +0800" channel="2219">
     <title lang="zh-CN">Midnight Special Theme</title>
   </programme>
   <programme start="20261113005600 +0800" stop="20261113005900 +0800" channel="2219">
-    <title lang="zh-CN">Satie-Gymnop崄ie No.1</title>
+    <title lang="zh-CN">Satie-Gymnopédie No.1</title>
   </programme>
   <programme start="20261113005900 +0800" stop="20261113010200 +0800" channel="2219">
     <title lang="zh-CN">Aria Amorosa</title>
   </programme>
   <programme start="20261113010200 +0800" stop="20261113010600 +0800" channel="2219">
-    <title lang="zh-CN">Rameau-Les cyclopes</title>
+    <title lang="zh-CN">Rameau-Les cyclopes, RCT 3/8 (Arr. Grizard for Guitar)</title>
   </programme>
   <programme start="20261113010600 +0800" stop="20261113011000 +0800" channel="2219">
     <title lang="zh-CN">Mazzoli-You Are the Dust</title>
@@ -142572,25 +142584,25 @@
     <title lang="zh-CN">Dawn</title>
   </programme>
   <programme start="20261113011700 +0800" stop="20261113011900 +0800" channel="2219">
-    <title lang="zh-CN">Cello Suite No. 1 in G Major</title>
+    <title lang="zh-CN">Cello Suite No. 1 in G Major, Prélude</title>
   </programme>
   <programme start="20261113011900 +0800" stop="20261113012100 +0800" channel="2219">
     <title lang="zh-CN">Lucy Grace</title>
   </programme>
   <programme start="20261113012100 +0800" stop="20261113012500 +0800" channel="2219">
-    <title lang="zh-CN">Mozart-Ave verum corpus</title>
+    <title lang="zh-CN">Mozart-Ave verum corpus, K. 618 (Arr. Spindler for English Horn, Strings and Org</title>
   </programme>
   <programme start="20261113012500 +0800" stop="20261113012900 +0800" channel="2219">
     <title lang="zh-CN">Sol And Luna</title>
   </programme>
   <programme start="20261113012900 +0800" stop="20261113013300 +0800" channel="2219">
-    <title lang="zh-CN">J.S. Bach-Sonata for Violin Solo No. 3 in C Major</title>
+    <title lang="zh-CN">J.S. Bach-Sonata for Violin Solo No. 3 in C Major, BWV 1005 - III. Largo</title>
   </programme>
   <programme start="20261113013300 +0800" stop="20261113013500 +0800" channel="2219">
-    <title lang="zh-CN">Mendelssohn-Lieder ohne Worte</title>
+    <title lang="zh-CN">Mendelssohn-Lieder ohne Worte, Op. 19 - No. 6 Andante sostenuto `Venetianisches</title>
   </programme>
   <programme start="20261113013500 +0800" stop="20261113013800 +0800" channel="2219">
-    <title lang="zh-CN">Monteverdi-Voglio di vita uscir</title>
+    <title lang="zh-CN">Monteverdi-Voglio di vita uscir, SV 337 - S`apre la tomba</title>
   </programme>
   <programme start="20261113013800 +0800" stop="20261113014000 +0800" channel="2219">
     <title lang="zh-CN">Coda</title>
@@ -142599,10 +142611,10 @@
     <title lang="zh-CN">The Sound Of Silence</title>
   </programme>
   <programme start="20261113014300 +0800" stop="20261113014600 +0800" channel="2219">
-    <title lang="zh-CN">Joseph Haydn-Piano Sonata No. 50 in D Major</title>
+    <title lang="zh-CN">Joseph Haydn-Piano Sonata No. 50 in D Major, Hob. XVI-37 - II. Largo e sostenuto</title>
   </programme>
   <programme start="20261113014600 +0800" stop="20261113015000 +0800" channel="2219">
-    <title lang="zh-CN">Chaplin-Swing High Little Girl</title>
+    <title lang="zh-CN">Chaplin-Swing High Little Girl (Arr. Lehn for Trumpet and Orchestra)</title>
   </programme>
   <programme start="20261113015000 +0800" stop="20261113015200 +0800" channel="2219">
     <title lang="zh-CN">Madrigal</title>
@@ -142626,10 +142638,10 @@
     <title lang="zh-CN">Ed Shot</title>
   </programme>
   <programme start="20261113021000 +0800" stop="20261113021300 +0800" channel="2219">
-    <title lang="zh-CN">O mio babbino caro</title>
+    <title lang="zh-CN">O mio babbino caro (Arr. Langley for Treble and Orchestra)</title>
   </programme>
   <programme start="20261113021300 +0800" stop="20261113021600 +0800" channel="2219">
-    <title lang="zh-CN">Hai Luli!</title>
+    <title lang="zh-CN">Hai Luli!, VWV 1106 (Arr. for Violin, Harp and String Quintet by Jan-Peter Klopf</title>
   </programme>
   <programme start="20261113021600 +0800" stop="20261113022000 +0800" channel="2219">
     <title lang="zh-CN">Talbot-Transit of Venus</title>
@@ -142641,16 +142653,16 @@
     <title lang="zh-CN">The Paintings</title>
   </programme>
   <programme start="20261113022500 +0800" stop="20261113022800 +0800" channel="2219">
-    <title lang="zh-CN">Il dolce suono</title>
+    <title lang="zh-CN">Il dolce suono (from Lucia di Lammermoor)</title>
   </programme>
   <programme start="20261113022800 +0800" stop="20261113023100 +0800" channel="2219">
-    <title lang="zh-CN">B廥ame Mucho</title>
+    <title lang="zh-CN">Bésame Mucho</title>
   </programme>
   <programme start="20261113023100 +0800" stop="20261113023600 +0800" channel="2219">
-    <title lang="zh-CN">J.S. Bach-Orchestral Suite No. 3 in D Major</title>
+    <title lang="zh-CN">J.S. Bach-Orchestral Suite No. 3 in D Major, BWV 1068 - No. 2, Air (Transcr. for</title>
   </programme>
   <programme start="20261113023600 +0800" stop="20261113024000 +0800" channel="2219">
-    <title lang="zh-CN">J.S. Bach-Concerto in D Minor</title>
+    <title lang="zh-CN">J.S. Bach-Concerto in D Minor, BWV 974, 2. Adagio</title>
   </programme>
   <programme start="20261113024000 +0800" stop="20261113024400 +0800" channel="2219">
     <title lang="zh-CN">Gnossienne No.1</title>
@@ -142659,13 +142671,13 @@
     <title lang="zh-CN">Prelude - Cello Suite No. 1 in G</title>
   </programme>
   <programme start="20261113024600 +0800" stop="20261113024900 +0800" channel="2219">
-    <title lang="zh-CN">Burgon-Nunc dimittis</title>
+    <title lang="zh-CN">Burgon-Nunc dimittis (1979 Version)</title>
   </programme>
   <programme start="20261113024900 +0800" stop="20261113025200 +0800" channel="2219">
-    <title lang="zh-CN">Op. 10</title>
+    <title lang="zh-CN">Op. 10, Rain Has Fallen</title>
   </programme>
   <programme start="20261113025200 +0800" stop="20261113025500 +0800" channel="2219">
-    <title lang="zh-CN">Bach-Come</title>
+    <title lang="zh-CN">Bach-Come, Sweet Death (Arr. for 5 Cellos)</title>
   </programme>
   <programme start="20261113025500 +0800" stop="20261113025800 +0800" channel="2219">
     <title lang="zh-CN">Circle Song</title>
@@ -142674,7 +142686,7 @@
     <title lang="zh-CN">Flicker</title>
   </programme>
   <programme start="20261113030100 +0800" stop="20261113030700 +0800" channel="2219">
-    <title lang="zh-CN">Tchaikovsky-Romance</title>
+    <title lang="zh-CN">Tchaikovsky-Romance, Op. 5</title>
   </programme>
   <programme start="20261113030700 +0800" stop="20261113030900 +0800" channel="2219">
     <title lang="zh-CN">The Culmination</title>
@@ -142689,7 +142701,7 @@
     <title lang="zh-CN">Flying Sails</title>
   </programme>
   <programme start="20261113031800 +0800" stop="20261113032300 +0800" channel="2219">
-    <title lang="zh-CN">Chausson-Concert for Violin</title>
+    <title lang="zh-CN">Chausson-Concert for Violin, Piano and String Quartet, Op. 21 - 2. Sicilienne –</title>
   </programme>
   <programme start="20261113032300 +0800" stop="20261113032700 +0800" channel="2219">
     <title lang="zh-CN">May It Be</title>
@@ -142710,13 +142722,13 @@
     <title lang="zh-CN">Gabriel`s Oboe</title>
   </programme>
   <programme start="20261113034000 +0800" stop="20261113034100 +0800" channel="2219">
-    <title lang="zh-CN">Rameau-Air pour les Sauvages</title>
+    <title lang="zh-CN">Rameau-Air pour les Sauvages (for clarinet, piano &amp; double bass)</title>
   </programme>
   <programme start="20261113034100 +0800" stop="20261113034500 +0800" channel="2219">
     <title lang="zh-CN">Banjo Love</title>
   </programme>
   <programme start="20261113034500 +0800" stop="20261113034900 +0800" channel="2219">
-    <title lang="zh-CN">Gnossiennes</title>
+    <title lang="zh-CN">Gnossiennes, 1. Lent</title>
   </programme>
   <programme start="20261113034900 +0800" stop="20261113035100 +0800" channel="2219">
     <title lang="zh-CN">The Reunion</title>
@@ -142728,19 +142740,19 @@
     <title lang="zh-CN">Happy Family</title>
   </programme>
   <programme start="20261113035500 +0800" stop="20261113040000 +0800" channel="2219">
-    <title lang="zh-CN">Zaragoza Suite espagnole</title>
+    <title lang="zh-CN">Zaragoza Suite espagnole, No.2</title>
   </programme>
   <programme start="20261113040000 +0800" stop="20261113040500 +0800" channel="2219">
-    <title lang="zh-CN">Wagner-Wesendonck-Lieder</title>
+    <title lang="zh-CN">Wagner-Wesendonck-Lieder, WWV 91 - 5. Traume (Arr. For Cello And Orchestra By Ma</title>
   </programme>
   <programme start="20261113040500 +0800" stop="20261113040800 +0800" channel="2219">
-    <title lang="zh-CN">Shore</title>
+    <title lang="zh-CN">Shore, Ryan, Enya, Ryan-May it be (Arr. M. Sheeran)</title>
   </programme>
   <programme start="20261113040800 +0800" stop="20261113041300 +0800" channel="2219">
     <title lang="zh-CN">Focus</title>
   </programme>
   <programme start="20261113041300 +0800" stop="20261113041500 +0800" channel="2219">
-    <title lang="zh-CN">Mlrad-Time</title>
+    <title lang="zh-CN">Muhlrad-Time</title>
   </programme>
   <programme start="20261113041500 +0800" stop="20261113041700 +0800" channel="2219">
     <title lang="zh-CN">Can You Believe It?</title>
@@ -142755,10 +142767,10 @@
     <title lang="zh-CN">Alice</title>
   </programme>
   <programme start="20261113042600 +0800" stop="20261113043300 +0800" channel="2219">
-    <title lang="zh-CN">Glass-Sonata for Violin and Piano</title>
+    <title lang="zh-CN">Glass-Sonata for Violin and Piano (Arr. for Saxophone and Orchestra)-Movement II</title>
   </programme>
   <programme start="20261113043300 +0800" stop="20261113043800 +0800" channel="2219">
-    <title lang="zh-CN">The Diary of Anne Frank - If</title>
+    <title lang="zh-CN">The Diary of Anne Frank - If (Arr. Harle)</title>
   </programme>
   <programme start="20261113043800 +0800" stop="20261113044000 +0800" channel="2219">
     <title lang="zh-CN">Harvest Dance</title>
@@ -142767,7 +142779,7 @@
     <title lang="zh-CN">The Bad Beginning</title>
   </programme>
   <programme start="20261113044200 +0800" stop="20261113044500 +0800" channel="2219">
-    <title lang="zh-CN">1. Prelude</title>
+    <title lang="zh-CN">1. Prelude, MWV U126</title>
   </programme>
   <programme start="20261113044500 +0800" stop="20261113044900 +0800" channel="2219">
     <title lang="zh-CN">Telephone</title>
@@ -142776,7 +142788,7 @@
     <title lang="zh-CN">Barber Adagio For Strings</title>
   </programme>
   <programme start="20261113045600 +0800" stop="20261113050000 +0800" channel="2219">
-    <title lang="zh-CN">Thula Baba</title>
+    <title lang="zh-CN">Thula Baba (Hush My Baby)</title>
   </programme>
   <programme start="20261113050000 +0800" stop="20261113050200 +0800" channel="2219">
     <title lang="zh-CN">Where Is Mr Barrie?</title>
@@ -142803,13 +142815,13 @@
     <title lang="zh-CN">Tehamana</title>
   </programme>
   <programme start="20261113052700 +0800" stop="20261113053000 +0800" channel="2219">
-    <title lang="zh-CN">Ebben? Ne andr� lontana</title>
+    <title lang="zh-CN">Ebben? Ne andro lontana</title>
   </programme>
   <programme start="20261113053000 +0800" stop="20261113053300 +0800" channel="2219">
-    <title lang="zh-CN">J.S. Bach-Organ Sonata No. 3 in D Minor</title>
+    <title lang="zh-CN">J.S. Bach-Organ Sonata No. 3 in D Minor, BWV 527 - II. Adagio e dolce (Adapt. fo</title>
   </programme>
   <programme start="20261113053300 +0800" stop="20261113053800 +0800" channel="2219">
-    <title lang="zh-CN">Faur�-Barcarolle No. 1 in A Minor</title>
+    <title lang="zh-CN">Fauré-Barcarolle No. 1 in A Minor, Op. 26</title>
   </programme>
   <programme start="20261113053800 +0800" stop="20261113054000 +0800" channel="2219">
     <title lang="zh-CN">Pirates of the Caribbean Medley</title>
@@ -142818,10 +142830,10 @@
     <title lang="zh-CN">The Society of the Crossed Keys</title>
   </programme>
   <programme start="20261113054200 +0800" stop="20261113054400 +0800" channel="2219">
-    <title lang="zh-CN">6 Chorale Preludes</title>
+    <title lang="zh-CN">6 Chorale Preludes, BV B 50-Herzlich tut mich verlangen, Op. 122/9</title>
   </programme>
   <programme start="20261113054400 +0800" stop="20261113054700 +0800" channel="2219">
-    <title lang="zh-CN">Abodah</title>
+    <title lang="zh-CN">Abodah (God`s Worship) (Arr. Cello)</title>
   </programme>
   <programme start="20261113054700 +0800" stop="20261113054900 +0800" channel="2219">
     <title lang="zh-CN">Once Upon A Dream</title>
@@ -142836,7 +142848,7 @@
     <title lang="zh-CN">El Pijul</title>
   </programme>
   <programme start="20261113055900 +0800" stop="20261113060000 +0800" channel="2219">
-    <title lang="zh-CN">Wiegala</title>
+    <title lang="zh-CN">Wiegala (Arr. for Violin and String Quintet by Esther Abrami)</title>
   </programme>
   <programme start="20261113060000 +0800" stop="20261113060200 +0800" channel="2219">
     <title lang="zh-CN">Waka In The Sky</title>
@@ -142851,16 +142863,16 @@
     <title lang="zh-CN">Good Shabbos / The Longest Ride</title>
   </programme>
   <programme start="20261113060900 +0800" stop="20261113061000 +0800" channel="2219">
-    <title lang="zh-CN">Symphony No 25 in G Minor</title>
+    <title lang="zh-CN">Symphony No 25 in G Minor, K. 183 - I. Allegro con brio</title>
   </programme>
   <programme start="20261113061000 +0800" stop="20261113061200 +0800" channel="2219">
-    <title lang="zh-CN">Main Title</title>
+    <title lang="zh-CN">Main Title (Singin` In The Rain)</title>
   </programme>
   <programme start="20261113061200 +0800" stop="20261113061400 +0800" channel="2219">
     <title lang="zh-CN">The People`s House</title>
   </programme>
   <programme start="20261113061400 +0800" stop="20261113061600 +0800" channel="2219">
-    <title lang="zh-CN">Bridge of Spies</title>
+    <title lang="zh-CN">Bridge of Spies (End Title)</title>
   </programme>
   <programme start="20261113061600 +0800" stop="20261113061900 +0800" channel="2219">
     <title lang="zh-CN">My Name is Barbossa</title>
@@ -142905,7 +142917,7 @@
     <title lang="zh-CN">Amethyst</title>
   </programme>
   <programme start="20261113065000 +0800" stop="20261113065200 +0800" channel="2219">
-    <title lang="zh-CN">Technically</title>
+    <title lang="zh-CN">Technically, Missing</title>
   </programme>
   <programme start="20261113065200 +0800" stop="20261113065400 +0800" channel="2219">
     <title lang="zh-CN">We Could Be Kings</title>
@@ -142923,7 +142935,7 @@
     <title lang="zh-CN">Prelude No. 8 In F Sharp Minor</title>
   </programme>
   <programme start="20261113070200 +0800" stop="20261113070700 +0800" channel="2219">
-    <title lang="zh-CN">Debussy-Images II</title>
+    <title lang="zh-CN">Debussy-Images II, CD 120-I. Cloches à travers les feuilles (Musical Moments)</title>
   </programme>
   <programme start="20261113070700 +0800" stop="20261113071000 +0800" channel="2219">
     <title lang="zh-CN">Houdini`s Dream</title>
@@ -142932,16 +142944,16 @@
     <title lang="zh-CN">Ethereal</title>
   </programme>
   <programme start="20261113071400 +0800" stop="20261113071600 +0800" channel="2219">
-    <title lang="zh-CN">Chopin-12 尒udes</title>
+    <title lang="zh-CN">Chopin-12 Etudes, Op. 25-No. 1 in A-Flat Major `Aeolian Harp`</title>
   </programme>
   <programme start="20261113071600 +0800" stop="20261113072000 +0800" channel="2219">
     <title lang="zh-CN">Fate</title>
   </programme>
   <programme start="20261113072000 +0800" stop="20261113072200 +0800" channel="2219">
-    <title lang="zh-CN">Michael Giacchino-Stuff We Did</title>
+    <title lang="zh-CN">Michael Giacchino-Stuff We Did (Live)</title>
   </programme>
   <programme start="20261113072200 +0800" stop="20261113072400 +0800" channel="2219">
-    <title lang="zh-CN">J.S. Bach-Goldberg Variations</title>
+    <title lang="zh-CN">J.S. Bach-Goldberg Variations, BWV 988 - Variatio 7 a 1 ovvero 2 Clav. Al tempo</title>
   </programme>
   <programme start="20261113072400 +0800" stop="20261113072800 +0800" channel="2219">
     <title lang="zh-CN">Dedication</title>
@@ -142950,22 +142962,22 @@
     <title lang="zh-CN">Respiro 3</title>
   </programme>
   <programme start="20261113073100 +0800" stop="20261113073300 +0800" channel="2219">
-    <title lang="zh-CN">Vivaldi Variation</title>
+    <title lang="zh-CN">Vivaldi Variation (Arr. for Piano from Concerto for Strings in G Minor, RV 156)</title>
   </programme>
   <programme start="20261113073300 +0800" stop="20261113073700 +0800" channel="2219">
-    <title lang="zh-CN">Widmung</title>
+    <title lang="zh-CN">Widmung, Op. 25 No. 1 (Arr. Liszt, S. 566a)</title>
   </programme>
   <programme start="20261113073700 +0800" stop="20261113074000 +0800" channel="2219">
     <title lang="zh-CN">Talking to my Father</title>
   </programme>
   <programme start="20261113074000 +0800" stop="20261113074500 +0800" channel="2219">
-    <title lang="zh-CN">Nino Rota</title>
+    <title lang="zh-CN">Nino Rota, 3 Preludes</title>
   </programme>
   <programme start="20261113074500 +0800" stop="20261113074700 +0800" channel="2219">
-    <title lang="zh-CN">Brahms-7 Fantasien</title>
+    <title lang="zh-CN">Brahms-7 Fantasien, Op. 116-No. 7, Capriccio in D Minor</title>
   </programme>
   <programme start="20261113074700 +0800" stop="20261113075200 +0800" channel="2219">
-    <title lang="zh-CN">J.S. Bach-Hunting Cantata</title>
+    <title lang="zh-CN">J.S. Bach-Hunting Cantata, BWV 208 - No. 9. Sheep May Safely Graze (Transc. Duck</title>
   </programme>
   <programme start="20261113075200 +0800" stop="20261113075700 +0800" channel="2219">
     <title lang="zh-CN">Raindrop Postlude</title>
@@ -143004,28 +143016,28 @@
     <title lang="zh-CN">Pandora</title>
   </programme>
   <programme start="20261113083700 +0800" stop="20261113084000 +0800" channel="2219">
-    <title lang="zh-CN">Myfanwy</title>
+    <title lang="zh-CN">Myfanwy (Arr. S. Kanneh-Mason)</title>
   </programme>
   <programme start="20261113084000 +0800" stop="20261113084300 +0800" channel="2219">
     <title lang="zh-CN">Once Upon a Time in The West</title>
   </programme>
   <programme start="20261113084300 +0800" stop="20261113084600 +0800" channel="2219">
-    <title lang="zh-CN">Caprice No. 5 in A Minor for Violin</title>
+    <title lang="zh-CN">Caprice No. 5 in A Minor for Violin, Op. 1, No. 5</title>
   </programme>
   <programme start="20261113084600 +0800" stop="20261113085000 +0800" channel="2219">
-    <title lang="zh-CN">Dessner-Song for Octave</title>
+    <title lang="zh-CN">Dessner-Song for Octave (Arr. Badzura for Solo Violin, Piano &amp; Electronics)</title>
   </programme>
   <programme start="20261113085000 +0800" stop="20261113085300 +0800" channel="2219">
     <title lang="zh-CN">Fantaisie brilliante on Theme`s from Gounod`s Faust-Valentin`s Aria</title>
   </programme>
   <programme start="20261113085300 +0800" stop="20261113085600 +0800" channel="2219">
-    <title lang="zh-CN">Schubert-Gretchen am Spinnrade</title>
+    <title lang="zh-CN">Schubert-Gretchen am Spinnrade, D. 118 (Adapt. for Cello and Orchestra)</title>
   </programme>
   <programme start="20261113085600 +0800" stop="20261113085900 +0800" channel="2219">
-    <title lang="zh-CN">Buongiorno Principessa</title>
+    <title lang="zh-CN">Buongiorno Principessa (From `La vita e bella`)</title>
   </programme>
   <programme start="20261113085900 +0800" stop="20261113090300 +0800" channel="2219">
-    <title lang="zh-CN">Trio Sonata in C Major</title>
+    <title lang="zh-CN">Trio Sonata in C Major, RV 82-II. Larghetto (Arr. for Guitar by Michael Lewin)</title>
   </programme>
   <programme start="20261113090300 +0800" stop="20261113090600 +0800" channel="2219">
     <title lang="zh-CN">After The Rain There Will Always Be The Sun</title>
@@ -143034,7 +143046,7 @@
     <title lang="zh-CN">Glass-Les enfants terribles-The Somnambulist</title>
   </programme>
   <programme start="20261113091000 +0800" stop="20261113091400 +0800" channel="2219">
-    <title lang="zh-CN">珸dur鏒</title>
+    <title lang="zh-CN">Oldurot</title>
   </programme>
   <programme start="20261113091400 +0800" stop="20261113092000 +0800" channel="2219">
     <title lang="zh-CN">Arms Open Wide</title>
@@ -143052,16 +143064,16 @@
     <title lang="zh-CN">Island II</title>
   </programme>
   <programme start="20261113093400 +0800" stop="20261113093700 +0800" channel="2219">
-    <title lang="zh-CN">With Love</title>
+    <title lang="zh-CN">With Love, Despite the Pain</title>
   </programme>
   <programme start="20261113093700 +0800" stop="20261113094100 +0800" channel="2219">
     <title lang="zh-CN">Ascent</title>
   </programme>
   <programme start="20261113094100 +0800" stop="20261113094300 +0800" channel="2219">
-    <title lang="zh-CN">When I Died</title>
+    <title lang="zh-CN">When I Died, Love</title>
   </programme>
   <programme start="20261113094300 +0800" stop="20261113094600 +0800" channel="2219">
-    <title lang="zh-CN">For J镆ann</title>
+    <title lang="zh-CN">For Johann</title>
   </programme>
   <programme start="20261113094600 +0800" stop="20261113095000 +0800" channel="2219">
     <title lang="zh-CN">Triangle Song ft. Chilly Gonzales</title>
@@ -143082,16 +143094,16 @@
     <title lang="zh-CN">Ave Maria</title>
   </programme>
   <programme start="20261113100700 +0800" stop="20261113101000 +0800" channel="2219">
-    <title lang="zh-CN">Satie-Gnossiennes-No. 4</title>
+    <title lang="zh-CN">Satie-Gnossiennes-No. 4, Lent</title>
   </programme>
   <programme start="20261113101000 +0800" stop="20261113101400 +0800" channel="2219">
     <title lang="zh-CN">Chopin Nocturne</title>
   </programme>
   <programme start="20261113101400 +0800" stop="20261113101800 +0800" channel="2219">
-    <title lang="zh-CN">Sonata No.7</title>
+    <title lang="zh-CN">Sonata No.7 (Precipitato)</title>
   </programme>
   <programme start="20261113101800 +0800" stop="20261113102400 +0800" channel="2219">
-    <title lang="zh-CN">Lenski`s Aria</title>
+    <title lang="zh-CN">Lenski`s Aria (from Eugene Onegin)</title>
   </programme>
   <programme start="20261113102400 +0800" stop="20261113102700 +0800" channel="2219">
     <title lang="zh-CN">No Time To Die</title>
@@ -143106,19 +143118,19 @@
     <title lang="zh-CN">Danse Macabre</title>
   </programme>
   <programme start="20261113103600 +0800" stop="20261113103900 +0800" channel="2219">
-    <title lang="zh-CN">尒ude No. 4 in C sharp minor Op.10</title>
+    <title lang="zh-CN">Etude No. 4 in C sharp minor Op.10</title>
   </programme>
   <programme start="20261113103900 +0800" stop="20261113104200 +0800" channel="2219">
-    <title lang="zh-CN">Ode to Joy</title>
+    <title lang="zh-CN">Ode to Joy (from Beethoven`s Symphony No. 9, Op.125)</title>
   </programme>
   <programme start="20261113104200 +0800" stop="20261113104500 +0800" channel="2219">
     <title lang="zh-CN">Adagio Piano Sonata Opus 2 No.3</title>
   </programme>
   <programme start="20261113104500 +0800" stop="20261113105000 +0800" channel="2219">
-    <title lang="zh-CN">Mendelssohn-Songs without Words</title>
+    <title lang="zh-CN">Mendelssohn-Songs without Words, Op. 109</title>
   </programme>
   <programme start="20261113105000 +0800" stop="20261113105500 +0800" channel="2219">
-    <title lang="zh-CN">Grieg-Peer Gynt</title>
+    <title lang="zh-CN">Grieg-Peer Gynt, Op. 23-Solveig`s Song (Transcr. Lozakovich for Violin and Piano</title>
   </programme>
   <programme start="20261113105500 +0800" stop="20261113105800 +0800" channel="2219">
     <title lang="zh-CN">Berceuse op.16</title>
@@ -143127,7 +143139,7 @@
     <title lang="zh-CN">Mozart Piano Concerto</title>
   </programme>
   <programme start="20261113110600 +0800" stop="20261113110900 +0800" channel="2219">
-    <title lang="zh-CN">Arthur`s Theme</title>
+    <title lang="zh-CN">Arthur`s Theme (Album Mix)</title>
   </programme>
   <programme start="20261113110900 +0800" stop="20261113111100 +0800" channel="2219">
     <title lang="zh-CN">Only God Can Answer</title>
@@ -143211,10 +143223,10 @@
     <title lang="zh-CN">Bless the Broken Road</title>
   </programme>
   <programme start="20261113120900 +0800" stop="20261113121100 +0800" channel="2219">
-    <title lang="zh-CN">Debussy-Children`s Corner</title>
+    <title lang="zh-CN">Debussy-Children`s Corner, L. 113-1. Doctor Gradus ad Parnassum</title>
   </programme>
   <programme start="20261113121100 +0800" stop="20261113121600 +0800" channel="2219">
-    <title lang="zh-CN">Schumann-Kreisleriana</title>
+    <title lang="zh-CN">Schumann-Kreisleriana, Op. 16 - No. 3, Sehr aufgeregt</title>
   </programme>
   <programme start="20261113121600 +0800" stop="20261113121900 +0800" channel="2219">
     <title lang="zh-CN">Tephra Horizon</title>
@@ -143223,7 +143235,7 @@
     <title lang="zh-CN">Movement</title>
   </programme>
   <programme start="20261113122300 +0800" stop="20261113122600 +0800" channel="2219">
-    <title lang="zh-CN">尒ude No. 13</title>
+    <title lang="zh-CN">Etude No. 13</title>
   </programme>
   <programme start="20261113122600 +0800" stop="20261113123000 +0800" channel="2219">
     <title lang="zh-CN">Morgen</title>
@@ -143232,7 +143244,7 @@
     <title lang="zh-CN">Bluebird</title>
   </programme>
   <programme start="20261113123300 +0800" stop="20261113123700 +0800" channel="2219">
-    <title lang="zh-CN">2. Fugue</title>
+    <title lang="zh-CN">2. Fugue, MWV U106</title>
   </programme>
   <programme start="20261113123700 +0800" stop="20261113124000 +0800" channel="2219">
     <title lang="zh-CN">Awake</title>
@@ -143241,7 +143253,7 @@
     <title lang="zh-CN">Ocean 12</title>
   </programme>
   <programme start="20261113124200 +0800" stop="20261113124800 +0800" channel="2219">
-    <title lang="zh-CN">Joseph Haydn-Piano Sonata No. 50 in D Major</title>
+    <title lang="zh-CN">Joseph Haydn-Piano Sonata No. 50 in D Major, Hob. XVI-37 - I. Allegro con brio (</title>
   </programme>
   <programme start="20261113124800 +0800" stop="20261113125300 +0800" channel="2219">
     <title lang="zh-CN">Long Improvisation</title>
@@ -143250,25 +143262,25 @@
     <title lang="zh-CN">La Campanella</title>
   </programme>
   <programme start="20261113125600 +0800" stop="20261113125800 +0800" channel="2219">
-    <title lang="zh-CN">J.S. Bach-The Art Of Fugue</title>
+    <title lang="zh-CN">J.S. Bach-The Art Of Fugue, BWV 1080 - Contrapunctus [13] inversus</title>
   </programme>
   <programme start="20261113125800 +0800" stop="20261113130200 +0800" channel="2219">
-    <title lang="zh-CN">Awadis-尒ude No. 10-Void</title>
+    <title lang="zh-CN">Awadis-Etude No. 10-Void</title>
   </programme>
   <programme start="20261113130200 +0800" stop="20261113130600 +0800" channel="2219">
-    <title lang="zh-CN">Whitacre-The Seal Lullaby</title>
+    <title lang="zh-CN">Whitacre-The Seal Lullaby (Arr. Parkin)</title>
   </programme>
   <programme start="20261113130600 +0800" stop="20261113130800 +0800" channel="2219">
-    <title lang="zh-CN">Chorale Prelude No.10</title>
+    <title lang="zh-CN">Chorale Prelude No.10 (arr. Ralph Sauer)</title>
   </programme>
   <programme start="20261113130800 +0800" stop="20261113131200 +0800" channel="2219">
-    <title lang="zh-CN">Faur�-Sicilienne</title>
+    <title lang="zh-CN">Fauré-Sicilienne, Op. 78</title>
   </programme>
   <programme start="20261113131200 +0800" stop="20261113131400 +0800" channel="2219">
-    <title lang="zh-CN">An das Vaterland</title>
+    <title lang="zh-CN">An das Vaterland, Op. 58, No. 2</title>
   </programme>
   <programme start="20261113131400 +0800" stop="20261113131700 +0800" channel="2219">
-    <title lang="zh-CN">Violin Concerto in A Minor</title>
+    <title lang="zh-CN">Violin Concerto in A Minor, RV 356-III. Allegro</title>
   </programme>
   <programme start="20261113131700 +0800" stop="20261113131900 +0800" channel="2219">
     <title lang="zh-CN">A Man Who`s Honourable</title>
@@ -143280,7 +143292,7 @@
     <title lang="zh-CN">Kangaru</title>
   </programme>
   <programme start="20261113132300 +0800" stop="20261113132700 +0800" channel="2219">
-    <title lang="zh-CN">Andante</title>
+    <title lang="zh-CN">Andante, Violin Sonata No.2</title>
   </programme>
   <programme start="20261113132700 +0800" stop="20261113133100 +0800" channel="2219">
     <title lang="zh-CN">Znamenie</title>
@@ -143289,7 +143301,7 @@
     <title lang="zh-CN">What`s Next</title>
   </programme>
   <programme start="20261113133300 +0800" stop="20261113133500 +0800" channel="2219">
-    <title lang="zh-CN">Purcell-The Fairy Queen</title>
+    <title lang="zh-CN">Purcell-The Fairy Queen, Z. 629, Act 4-`Now the Night Is Chased Away`</title>
   </programme>
   <programme start="20261113133500 +0800" stop="20261113133700 +0800" channel="2219">
     <title lang="zh-CN">A New Trick</title>
@@ -143307,7 +143319,7 @@
     <title lang="zh-CN">Deep in the Meadow</title>
   </programme>
   <programme start="20261113134900 +0800" stop="20261113135200 +0800" channel="2219">
-    <title lang="zh-CN">Virginia</title>
+    <title lang="zh-CN">Virginia (Atto I) Cavatina `Figlia tu scuoti`</title>
   </programme>
   <programme start="20261113135200 +0800" stop="20261113135400 +0800" channel="2219">
     <title lang="zh-CN">Trouble Sleeping</title>
@@ -143319,7 +143331,7 @@
     <title lang="zh-CN">Pirates of the Caribbean</title>
   </programme>
   <programme start="20261113135900 +0800" stop="20261113140200 +0800" channel="2219">
-    <title lang="zh-CN">Le Printemps</title>
+    <title lang="zh-CN">Le Printemps (Spring)</title>
   </programme>
   <programme start="20261113140200 +0800" stop="20261113140500 +0800" channel="2219">
     <title lang="zh-CN">The Adventures of Han</title>
@@ -143331,10 +143343,10 @@
     <title lang="zh-CN">Lascia ch`io pianga</title>
   </programme>
   <programme start="20261113141100 +0800" stop="20261113141400 +0800" channel="2219">
-    <title lang="zh-CN">Eden</title>
+    <title lang="zh-CN">Eden (LES)</title>
   </programme>
   <programme start="20261113141400 +0800" stop="20261113141600 +0800" channel="2219">
-    <title lang="zh-CN">Scarlatti-Sonata D minor</title>
+    <title lang="zh-CN">Scarlatti-Sonata D minor, K.32 (for clarinet &amp; double bass)</title>
   </programme>
   <programme start="20261113141600 +0800" stop="20261113142000 +0800" channel="2219">
     <title lang="zh-CN">Let It Go / Vivaldi`s Winter</title>
@@ -143343,7 +143355,7 @@
     <title lang="zh-CN">Raintears</title>
   </programme>
   <programme start="20261113142500 +0800" stop="20261113142800 +0800" channel="2219">
-    <title lang="zh-CN">La donna � mobile</title>
+    <title lang="zh-CN">La donna e mobile</title>
   </programme>
   <programme start="20261113142800 +0800" stop="20261113143000 +0800" channel="2219">
     <title lang="zh-CN">Fantasy Variations Part I</title>
@@ -143355,13 +143367,13 @@
     <title lang="zh-CN">Whole Made of Pieces</title>
   </programme>
   <programme start="20261113143500 +0800" stop="20261113143800 +0800" channel="2219">
-    <title lang="zh-CN">Liszt-Piano Sonata in B Minor</title>
+    <title lang="zh-CN">Liszt-Piano Sonata in B Minor, S. 178 - Lento assai</title>
   </programme>
   <programme start="20261113143800 +0800" stop="20261113144000 +0800" channel="2219">
-    <title lang="zh-CN">Cry Me a River</title>
+    <title lang="zh-CN">Cry Me a River (Arr. for Cello and Piano)</title>
   </programme>
   <programme start="20261113144000 +0800" stop="20261113144500 +0800" channel="2219">
-    <title lang="zh-CN">Nelle tue mani</title>
+    <title lang="zh-CN">Nelle tue mani (Now We Are Free)</title>
   </programme>
   <programme start="20261113144500 +0800" stop="20261113144900 +0800" channel="2219">
     <title lang="zh-CN">Seven Days Walking / Day 1-Cold Wind Var. 1</title>
@@ -143373,13 +143385,13 @@
     <title lang="zh-CN">The Dark Horse</title>
   </programme>
   <programme start="20261113145300 +0800" stop="20261113145700 +0800" channel="2219">
-    <title lang="zh-CN">Cinema Paradiso</title>
+    <title lang="zh-CN">Cinema Paradiso (from `Cinema Paradiso`)</title>
   </programme>
   <programme start="20261113145700 +0800" stop="20261113150000 +0800" channel="2219">
     <title lang="zh-CN">24 Hours</title>
   </programme>
   <programme start="20261113150000 +0800" stop="20261113150200 +0800" channel="2219">
-    <title lang="zh-CN">N. Boulanger-3 Pieces for Cello and Piano - No. 3</title>
+    <title lang="zh-CN">N. Boulanger-3 Pieces for Cello and Piano - No. 3, Vite et nerveusement rythmé</title>
   </programme>
   <programme start="20261113150200 +0800" stop="20261113150500 +0800" channel="2219">
     <title lang="zh-CN">Overture</title>
@@ -143397,13 +143409,13 @@
     <title lang="zh-CN">Smoke Gets In Your Eyes</title>
   </programme>
   <programme start="20261113151400 +0800" stop="20261113151900 +0800" channel="2219">
-    <title lang="zh-CN">Beethoven-`Path彋ique` Piano Sonata No. 8 in C Minor</title>
+    <title lang="zh-CN">Beethoven-`Pathétique` Piano Sonata No. 8 in C Minor, Op. 13 - II. Adagio cantab</title>
   </programme>
   <programme start="20261113151900 +0800" stop="20261113152300 +0800" channel="2219">
     <title lang="zh-CN">The Rose</title>
   </programme>
   <programme start="20261113152300 +0800" stop="20261113152600 +0800" channel="2219">
-    <title lang="zh-CN">Traditional-Pašona Kolo</title>
+    <title lang="zh-CN">Traditional-Pašona Kolo (Arr. Knigge for Recorder and Ensemble)</title>
   </programme>
   <programme start="20261113152600 +0800" stop="20261113152800 +0800" channel="2219">
     <title lang="zh-CN">Viola d`amore Concerto in A Minor - Vivace</title>
@@ -143421,13 +143433,13 @@
     <title lang="zh-CN">Who Wants To Live Forever</title>
   </programme>
   <programme start="20261113154200 +0800" stop="20261113154500 +0800" channel="2219">
-    <title lang="zh-CN">Paride ed Elena</title>
+    <title lang="zh-CN">Paride ed Elena, Wq 39-Oh, del mio dolce ardor</title>
   </programme>
   <programme start="20261113154500 +0800" stop="20261113154800 +0800" channel="2219">
     <title lang="zh-CN">Over the Rainbow</title>
   </programme>
   <programme start="20261113154800 +0800" stop="20261113155300 +0800" channel="2219">
-    <title lang="zh-CN">Beving-Ab Ovo</title>
+    <title lang="zh-CN">Beving-Ab Ovo (Arr. Knoth)</title>
   </programme>
   <programme start="20261113155300 +0800" stop="20261113155800 +0800" channel="2219">
     <title lang="zh-CN">Gregson-Cluster</title>
@@ -143436,7 +143448,7 @@
     <title lang="zh-CN">Selfless</title>
   </programme>
   <programme start="20261113160000 +0800" stop="20261113160200 +0800" channel="2219">
-    <title lang="zh-CN">P酺t-A PATH TO WHERE / Arvo P酺t-F Alina</title>
+    <title lang="zh-CN">Part-A PATH TO WHERE / Arvo Part-Fur Alina</title>
   </programme>
   <programme start="20261113160200 +0800" stop="20261113160600 +0800" channel="2219">
     <title lang="zh-CN">Near Light</title>
@@ -143445,7 +143457,7 @@
     <title lang="zh-CN">Solanales</title>
   </programme>
   <programme start="20261113161200 +0800" stop="20261113161700 +0800" channel="2219">
-    <title lang="zh-CN">F鏊k f熳 andlit</title>
+    <title lang="zh-CN">Folk far andlit</title>
   </programme>
   <programme start="20261113161700 +0800" stop="20261113162200 +0800" channel="2219">
     <title lang="zh-CN">Spiritus Naturae Aeternus</title>
@@ -143460,13 +143472,13 @@
     <title lang="zh-CN">Raddir</title>
   </programme>
   <programme start="20261113163400 +0800" stop="20261113163600 +0800" channel="2219">
-    <title lang="zh-CN">M旋n鏎a</title>
+    <title lang="zh-CN">Moanora</title>
   </programme>
   <programme start="20261113163600 +0800" stop="20261113163900 +0800" channel="2219">
     <title lang="zh-CN">Now and Then</title>
   </programme>
   <programme start="20261113163900 +0800" stop="20261113164400 +0800" channel="2219">
-    <title lang="zh-CN">Dreamlessly</title>
+    <title lang="zh-CN">Dreamlessly (on Bluthner Grand, 1935)</title>
   </programme>
   <programme start="20261113164400 +0800" stop="20261113164700 +0800" channel="2219">
     <title lang="zh-CN">A Song</title>
@@ -143490,7 +143502,7 @@
     <title lang="zh-CN">Hassan Learns French Cooking</title>
   </programme>
   <programme start="20261113170500 +0800" stop="20261113170700 +0800" channel="2219">
-    <title lang="zh-CN">Pr幨ude</title>
+    <title lang="zh-CN">Prélude</title>
   </programme>
   <programme start="20261113170700 +0800" stop="20261113170900 +0800" channel="2219">
     <title lang="zh-CN">Sweet Thang</title>
@@ -143577,19 +143589,19 @@
     <title lang="zh-CN">I Will Wait</title>
   </programme>
   <programme start="20261113182200 +0800" stop="20261113182600 +0800" channel="2219">
-    <title lang="zh-CN">Verses</title>
+    <title lang="zh-CN">Verses (ft. Alice Sara Ott)</title>
   </programme>
   <programme start="20261113182600 +0800" stop="20261113182800 +0800" channel="2219">
     <title lang="zh-CN">Pašona kolo</title>
   </programme>
   <programme start="20261113182800 +0800" stop="20261113183200 +0800" channel="2219">
-    <title lang="zh-CN">Mascagni-Cavalleria rusticana-Intermezzo</title>
+    <title lang="zh-CN">Mascagni-Cavalleria rusticana-Intermezzo (Arr. Holt)</title>
   </programme>
   <programme start="20261113183200 +0800" stop="20261113183700 +0800" channel="2219">
     <title lang="zh-CN">Moonlight Sonata</title>
   </programme>
   <programme start="20261113183700 +0800" stop="20261113184100 +0800" channel="2219">
-    <title lang="zh-CN">La vie en rose</title>
+    <title lang="zh-CN">La vie en rose (Arr. Snowden for Guitar)</title>
   </programme>
   <programme start="20261113184100 +0800" stop="20261113184600 +0800" channel="2219">
     <title lang="zh-CN">Dreaming</title>
@@ -143598,7 +143610,7 @@
     <title lang="zh-CN">In the Air Tonight</title>
   </programme>
   <programme start="20261113185000 +0800" stop="20261113185200 +0800" channel="2219">
-    <title lang="zh-CN">Star of the County Down</title>
+    <title lang="zh-CN">Star of the County Down (Arr. for Solo Cello)</title>
   </programme>
   <programme start="20261113185200 +0800" stop="20261113185700 +0800" channel="2219">
     <title lang="zh-CN">Game of Thrones</title>
@@ -143610,13 +143622,13 @@
     <title lang="zh-CN">Concerto in G Minor</title>
   </programme>
   <programme start="20261113190300 +0800" stop="20261113190800 +0800" channel="2219">
-    <title lang="zh-CN">Sonata for Violin &amp; Cello</title>
+    <title lang="zh-CN">Sonata for Violin &amp; Cello (Allegro)</title>
   </programme>
   <programme start="20261113190800 +0800" stop="20261113191000 +0800" channel="2219">
     <title lang="zh-CN">The Four Seasons - Summer</title>
   </programme>
   <programme start="20261113191000 +0800" stop="20261113191300 +0800" channel="2219">
-    <title lang="zh-CN">Parla pi� piano - Live</title>
+    <title lang="zh-CN">Parla piu piano - Live</title>
   </programme>
   <programme start="20261113191300 +0800" stop="20261113191800 +0800" channel="2219">
     <title lang="zh-CN">Schindler`s List Main Theme</title>
@@ -143628,10 +143640,10 @@
     <title lang="zh-CN">Shostakovich-The Gadfly</title>
   </programme>
   <programme start="20261113192300 +0800" stop="20261113192800 +0800" channel="2219">
-    <title lang="zh-CN">Mozart - Piano Sonata No. 12 in F Major</title>
+    <title lang="zh-CN">Mozart - Piano Sonata No. 12 in F Major, K. 332/II. Adagio</title>
   </programme>
   <programme start="20261113192800 +0800" stop="20261113193200 +0800" channel="2219">
-    <title lang="zh-CN">Cantabile Doloroso e Rondo Giocoso</title>
+    <title lang="zh-CN">Cantabile Doloroso e Rondo Giocoso (Ole Bull Part I)</title>
   </programme>
   <programme start="20261113193200 +0800" stop="20261113193500 +0800" channel="2219">
     <title lang="zh-CN">Questa O Quello</title>
@@ -143646,7 +143658,7 @@
     <title lang="zh-CN">Let It Be</title>
   </programme>
   <programme start="20261113194300 +0800" stop="20261113194500 +0800" channel="2219">
-    <title lang="zh-CN">Debussy-Children`s Corner</title>
+    <title lang="zh-CN">Debussy-Children`s Corner, CD 119 - I. Doctor Gradus ad Parnassum</title>
   </programme>
   <programme start="20261113194500 +0800" stop="20261113195000 +0800" channel="2219">
     <title lang="zh-CN">Concert Fantasy on Carmen</title>
@@ -143661,7 +143673,7 @@
     <title lang="zh-CN">Libertango</title>
   </programme>
   <programme start="20261113195900 +0800" stop="20261113200200 +0800" channel="2219">
-    <title lang="zh-CN">Danza del Molinero</title>
+    <title lang="zh-CN">Danza del Molinero (`El Sombrero de Tres Picos`)</title>
   </programme>
   <programme start="20261113200200 +0800" stop="20261113200400 +0800" channel="2219">
     <title lang="zh-CN">Train`s a Comin`</title>
@@ -143682,7 +143694,7 @@
     <title lang="zh-CN">Sophie and the BFG</title>
   </programme>
   <programme start="20261113201700 +0800" stop="20261113201900 +0800" channel="2219">
-    <title lang="zh-CN">Manchester Minimalist Piano &amp; Strings</title>
+    <title lang="zh-CN">Manchester Minimalist Piano &amp; Strings (Variation)</title>
   </programme>
   <programme start="20261113201900 +0800" stop="20261113202100 +0800" channel="2219">
     <title lang="zh-CN">Warcraft</title>
@@ -143739,7 +143751,7 @@
     <title lang="zh-CN">The Danish Girl</title>
   </programme>
   <programme start="20261113210000 +0800" stop="20261113210600 +0800" channel="2219">
-    <title lang="zh-CN">Rachmaninoff-14 Romances</title>
+    <title lang="zh-CN">Rachmaninoff-14 Romances, Op. 34 - 14. Vocalise</title>
   </programme>
   <programme start="20261113210600 +0800" stop="20261113210900 +0800" channel="2219">
     <title lang="zh-CN">Snowy`s Theme</title>
@@ -143757,7 +143769,7 @@
     <title lang="zh-CN">Reborn</title>
   </programme>
   <programme start="20261113212000 +0800" stop="20261113212500 +0800" channel="2219">
-    <title lang="zh-CN">Viola Saga-Movement 2</title>
+    <title lang="zh-CN">Viola Saga-Movement 2 (Pt. 1)</title>
   </programme>
   <programme start="20261113212500 +0800" stop="20261113212700 +0800" channel="2219">
     <title lang="zh-CN">The Church</title>
@@ -143772,7 +143784,7 @@
     <title lang="zh-CN">You`ll Never Walk Alone</title>
   </programme>
   <programme start="20261113213800 +0800" stop="20261113214100 +0800" channel="2219">
-    <title lang="zh-CN">Carmen Fantasie-Pr幨ude - Habanera</title>
+    <title lang="zh-CN">Carmen Fantasie-Prélude - Habanera</title>
   </programme>
   <programme start="20261113214100 +0800" stop="20261113214300 +0800" channel="2219">
     <title lang="zh-CN">Travers Goff</title>
@@ -143802,13 +143814,13 @@
     <title lang="zh-CN">Critical Mass</title>
   </programme>
   <programme start="20261113220600 +0800" stop="20261113221200 +0800" channel="2219">
-    <title lang="zh-CN">Faur�-Nocturne No. 12 in E Minor</title>
+    <title lang="zh-CN">Fauré-Nocturne No. 12 in E Minor, Op. 107</title>
   </programme>
   <programme start="20261113221200 +0800" stop="20261113221500 +0800" channel="2219">
-    <title lang="zh-CN">Tosti-L`alba sep跫a della luce l`ombra</title>
+    <title lang="zh-CN">Tosti-L`alba sepàra della luce l`ombra (Transcr. Chris Hazell)</title>
   </programme>
   <programme start="20261113221500 +0800" stop="20261113221700 +0800" channel="2219">
-    <title lang="zh-CN">Puccini-Manon Lescaut</title>
+    <title lang="zh-CN">Puccini-Manon Lescaut, SC 64 - Donna non vidi mai</title>
   </programme>
   <programme start="20261113221700 +0800" stop="20261113222000 +0800" channel="2219">
     <title lang="zh-CN">Hungarian Dance No.5 in G Minor</title>
@@ -143823,7 +143835,7 @@
     <title lang="zh-CN">End Title Suite</title>
   </programme>
   <programme start="20261113222800 +0800" stop="20261113223100 +0800" channel="2219">
-    <title lang="zh-CN">Mendelssohn-Lieder ohne Worte</title>
+    <title lang="zh-CN">Mendelssohn-Lieder ohne Worte, Op. 67-No. 2 Allegrio leggiero (Arr. for Clarinet</title>
   </programme>
   <programme start="20261113223100 +0800" stop="20261113223500 +0800" channel="2219">
     <title lang="zh-CN">Close Your Eyes</title>
@@ -143841,7 +143853,7 @@
     <title lang="zh-CN">Gabriel`s Message</title>
   </programme>
   <programme start="20261113224700 +0800" stop="20261113224900 +0800" channel="2219">
-    <title lang="zh-CN">Chopin-Mazurka no.1</title>
+    <title lang="zh-CN">Chopin-Mazurka no.1, op.17</title>
   </programme>
   <programme start="20261113224900 +0800" stop="20261113225100 +0800" channel="2219">
     <title lang="zh-CN">Main Titles</title>
@@ -143862,16 +143874,16 @@
     <title lang="zh-CN">Panis Angelicus</title>
   </programme>
   <programme start="20261113230800 +0800" stop="20261113231200 +0800" channel="2219">
-    <title lang="zh-CN">Jane B.</title>
+    <title lang="zh-CN">Jane B. (After Chopin`s Prelude No. 4 in E minor, Op. 28) [Arr. for Cello &amp; Pian</title>
   </programme>
   <programme start="20261113231200 +0800" stop="20261113231600 +0800" channel="2219">
-    <title lang="zh-CN">Vissi d`arte</title>
+    <title lang="zh-CN">Vissi d`arte (from Tosca)</title>
   </programme>
   <programme start="20261113231600 +0800" stop="20261113231900 +0800" channel="2219">
     <title lang="zh-CN">Nessun Dorma</title>
   </programme>
   <programme start="20261113231900 +0800" stop="20261113232300 +0800" channel="2219">
-    <title lang="zh-CN">Schubert-Schwanengesang</title>
+    <title lang="zh-CN">Schubert-Schwanengesang, D. 957-IV. Standchen</title>
   </programme>
   <programme start="20261113232300 +0800" stop="20261113232700 +0800" channel="2219">
     <title lang="zh-CN">Je Veux Vivre</title>
@@ -143880,7 +143892,7 @@
     <title lang="zh-CN">E Lucevan le Stelle</title>
   </programme>
   <programme start="20261113233000 +0800" stop="20261113233200 +0800" channel="2219">
-    <title lang="zh-CN">Puccini-Madama Butterfly</title>
+    <title lang="zh-CN">Puccini-Madama Butterfly, SC 74 / Act 2 - Addio fiorito asil</title>
   </programme>
   <programme start="20261113233200 +0800" stop="20261113233600 +0800" channel="2219">
     <title lang="zh-CN">What A Wonderful World</title>
@@ -143901,7 +143913,7 @@
     <title lang="zh-CN">J`ai Pas Su y Faire</title>
   </programme>
   <programme start="20261113235700 +0800" stop="20261114000000 +0800" channel="2219">
-    <title lang="zh-CN">`Ah</title>
+    <title lang="zh-CN">`Ah, quel giorno ognor rammento`</title>
   </programme>
   <programme start="20261114000000 +0800" stop="20261114000100 +0800" channel="2219">
     <title lang="zh-CN">Unter</title>
