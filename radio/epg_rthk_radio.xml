@@ -32,902 +32,6 @@
     <display-name lang="zh-Hans">中央广播电视总台粤港澳大湾区之声</display-name>
     <icon src="https://webstatic.rthk.hk/img/radio_CMG_logo.svg"/>
   </channel>
-  <programme start="20261113000000 +0800" stop="20261113010000 +0800" channel="radio1">
-    <title lang="zh-Hans">那些年 张伟基</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/those_were_the_days</url>
-  </programme>
-  <programme start="20261113010000 +0800" stop="20261113013000 +0800" channel="radio1">
-    <title lang="zh-Hans">香港故事</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/Hongkongstory</url>
-  </programme>
-  <programme start="20261113013000 +0800" stop="20261113033000 +0800" channel="radio1">
-    <title lang="zh-Hans">CIBS人人广播</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/cibs_we_broadcast</url>
-  </programme>
-  <programme start="20261113033000 +0800" stop="20261113050000 +0800" channel="radio1">
-    <title lang="zh-Hans">大自然之声</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/sound_of_nature</url>
-  </programme>
-  <programme start="20261113050000 +0800" stop="20261113063000 +0800" channel="radio1">
-    <title lang="zh-Hans">清晨爽利 （与第五台联播）</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/fresh_morning</url>
-  </programme>
-  <programme start="20261113063000 +0800" stop="20261113080000 +0800" channel="radio1">
-    <title lang="zh-Hans">晨早新闻天地</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/hktoday</url>
-  </programme>
-  <programme start="20261113080000 +0800" stop="20261113100000 +0800" channel="radio1">
-    <title lang="zh-Hans">千禧年代</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/HK2000</url>
-  </programme>
-  <programme start="20261113100000 +0800" stop="20261113102000 +0800" channel="radio1">
-    <title lang="zh-Hans">一桶金</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/Moneyprogram</url>
-  </programme>
-  <programme start="20261113102000 +0800" stop="20261113120000 +0800" channel="radio1">
-    <title lang="zh-Hans">是日快乐</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/itsahappyday</url>
-  </programme>
-  <programme start="20261113120000 +0800" stop="20261113123000 +0800" channel="radio1">
-    <title lang="zh-Hans">午间新闻天地</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/12oclocknews</url>
-  </programme>
-  <programme start="20261113123000 +0800" stop="20261113130000 +0800" channel="radio1">
-    <title lang="zh-Hans">一桶金</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/Moneyprogram</url>
-  </programme>
-  <programme start="20261113130000 +0800" stop="20261113150000 +0800" channel="radio1">
-    <title lang="zh-Hans">精灵一点</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/healthpedia</url>
-  </programme>
-  <programme start="20261113150000 +0800" stop="20261113160000 +0800" channel="radio1">
-    <title lang="zh-Hans">港识生活馆</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/yolo</url>
-  </programme>
-  <programme start="20261113160000 +0800" stop="20261113163000 +0800" channel="radio1">
-    <title lang="zh-Hans">动力4射</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/sport4life</url>
-  </programme>
-  <programme start="20261113163000 +0800" stop="20261113170000 +0800" channel="radio1">
-    <title lang="zh-Hans">一桶金</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/Moneyprogram</url>
-  </programme>
-  <programme start="20261113170000 +0800" stop="20261113180000 +0800" channel="radio1">
-    <title lang="zh-Hans">自由风自由PHONE</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/openline_openview</url>
-  </programme>
-  <programme start="20261113180000 +0800" stop="20261113190000 +0800" channel="radio1">
-    <title lang="zh-Hans">傍晚新闻天地</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/6oclocknews</url>
-  </programme>
-  <programme start="20261113190000 +0800" stop="20261113200000 +0800" channel="radio1">
-    <title lang="zh-Hans">十八好时光</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/18heartfeltvibes</url>
-  </programme>
-  <programme start="20261113200000 +0800" stop="20261113220000 +0800" channel="radio1">
-    <title lang="zh-Hans">守下留情</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/seesaw</url>
-  </programme>
-  <programme start="20261113220000 +0800" stop="20261113223500 +0800" channel="radio1">
-    <title lang="zh-Hans">晚间新闻天地</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/eveningnews</url>
-  </programme>
-  <programme start="20261113223500 +0800" stop="20261114000000 +0800" channel="radio1">
-    <title lang="zh-Hans">讲东讲西 (星期一至五)</title>
-    <url>https://www.rthk.hk/radio/radio1/programme/Free_as_the_wind</url>
-  </programme>
-  <programme start="20261113000000 +0800" stop="20261113020000 +0800" channel="radio2">
-    <title lang="zh-Hans">音乐说</title>
-    <url>https://www.rthk.hk/radio/radio2/programme/letthemusicspeak</url>
-  </programme>
-  <programme start="20261113020000 +0800" stop="20261113060000 +0800" channel="radio2">
-    <title lang="zh-Hans">轻谈浅唱不夜天</title>
-    <url>https://www.rthk.hk/radio/radio2/programme/keepuco</url>
-  </programme>
-  <programme start="20261113060000 +0800" stop="20261113100000 +0800" channel="radio2">
-    <title lang="zh-Hans">晨光第一线</title>
-    <url>https://www.rthk.hk/radio/radio2/programme/morningsuite</url>
-  </programme>
-  <programme start="20261113100000 +0800" stop="20261113120000 +0800" channel="radio2">
-    <title lang="zh-Hans">疯 Show 快活人</title>
-    <url>https://www.rthk.hk/radio/radio2/programme/crazyandhappy</url>
-  </programme>
-  <programme start="20261113120000 +0800" stop="20261113130000 +0800" channel="radio2">
-    <title lang="zh-Hans">音乐中年</title>
-    <url>https://www.rthk.hk/radio/radio2/programme/musiclife</url>
-  </programme>
-  <programme start="20261113130000 +0800" stop="20261113150000 +0800" channel="radio2">
-    <title lang="zh-Hans">Made in Hong Kong 李志刚</title>
-    <url>https://www.rthk.hk/radio/radio2/programme/madeinhk</url>
-  </programme>
-  <programme start="20261113150000 +0800" stop="20261113170000 +0800" channel="radio2">
-    <title lang="zh-Hans">三五成群</title>
-    <url>https://www.rthk.hk/radio/radio2/programme/threesacrowd</url>
-  </programme>
-  <programme start="20261113170000 +0800" stop="20261113190000 +0800" channel="radio2">
-    <title lang="zh-Hans">骚动音乐</title>
-    <url>https://www.rthk.hk/radio/radio2/programme/musicinaction</url>
-  </programme>
-  <programme start="20261113190000 +0800" stop="20261113200000 +0800" channel="radio2">
-    <title lang="zh-Hans">Albert Au 区瑞强</title>
-    <url>https://www.rthk.hk/radio/radio2/programme/albertau</url>
-  </programme>
-  <programme start="20261113200000 +0800" stop="20261113210000 +0800" channel="radio2">
-    <title lang="zh-Hans">恬淡情怀</title>
-    <url>https://www.rthk.hk/radio/radio2/programme/subtle_sensuality</url>
-  </programme>
-  <programme start="20261113210000 +0800" stop="20261113220000 +0800" channel="radio2">
-    <title lang="zh-Hans">音乐情人</title>
-    <url>https://www.rthk.hk/radio/radio2/programme/musiclover</url>
-  </programme>
-  <programme start="20261113220000 +0800" stop="20261114000000 +0800" channel="radio2">
-    <title lang="zh-Hans">她．他．它</title>
-    <url>https://www.rthk.hk/radio/radio2/programme/ladiesnight</url>
-  </programme>
-  <programme start="20261113000000 +0800" stop="20261113010000 +0800" channel="radio3">
-    <title lang="zh-Hans">After Hours with Michael Lance</title>
-    <url>https://www.rthk.hk/radio/radio3/programme/after_hours</url>
-  </programme>
-  <programme start="20261113010000 +0800" stop="20261113060000 +0800" channel="radio3">
-    <title lang="zh-Hans">Night Music on Radio 3</title>
-    <url>https://www.rthk.hk/radio/radio3/programme/nightmusic</url>
-  </programme>
-  <programme start="20261113060000 +0800" stop="20261113063000 +0800" channel="radio3">
-    <title lang="zh-Hans">Early AM</title>
-    <url>https://www.rthk.hk/radio/radio3/programme/earlyam</url>
-  </programme>
-  <programme start="20261113063000 +0800" stop="20261113080000 +0800" channel="radio3">
-    <title lang="zh-Hans">Hong Kong Today</title>
-    <url>https://www.rthk.hk/radio/radio3/programme/hongkongtoday</url>
-  </programme>
-  <programme start="20261113080000 +0800" stop="20261113090000 +0800" channel="radio3">
-    <title lang="zh-Hans">Money Talk</title>
-    <url>https://www.rthk.hk/radio/radio3/programme/money_talk</url>
-  </programme>
-  <programme start="20261113090000 +0800" stop="20261113100000 +0800" channel="radio3">
-    <title lang="zh-Hans">Backchat</title>
-    <url>https://www.rthk.hk/radio/radio3/programme/backchat</url>
-  </programme>
-  <programme start="20261113100000 +0800" stop="20261113120000 +0800" channel="radio3">
-    <title lang="zh-Hans">Brunch</title>
-    <url>https://www.rthk.hk/radio/radio3/programme/brunch</url>
-  </programme>
-  <programme start="20261113120000 +0800" stop="20261113130000 +0800" channel="radio3">
-    <title lang="zh-Hans">The Brew</title>
-    <url>https://www.rthk.hk/radio/radio3/programme/thebrew</url>
-  </programme>
-  <programme start="20261113130000 +0800" stop="20261113131500 +0800" channel="radio3">
-    <title lang="zh-Hans">News at One</title>
-    <url>https://www.rthk.hk/radio/radio3/programme/newsatone</url>
-  </programme>
-  <programme start="20261113131500 +0800" stop="20261113140000 +0800" channel="radio3">
-    <title lang="zh-Hans">The Brew</title>
-    <url>https://www.rthk.hk/radio/radio3/programme/thebrew</url>
-  </programme>
-  <programme start="20261113140000 +0800" stop="20261113170000 +0800" channel="radio3">
-    <title lang="zh-Hans">Steve James</title>
-    <url>https://www.rthk.hk/radio/radio3/programme/stevejames</url>
-  </programme>
-  <programme start="20261113170000 +0800" stop="20261113180000 +0800" channel="radio3">
-    <title lang="zh-Hans">The Close</title>
-    <url>https://www.rthk.hk/radio/radio3/programme/the_close</url>
-  </programme>
-  <programme start="20261113180000 +0800" stop="20261113183000 +0800" channel="radio3">
-    <title lang="zh-Hans">Newswrap</title>
-    <url>https://www.rthk.hk/radio/radio3/programme/newswrap</url>
-  </programme>
-  <programme start="20261113183000 +0800" stop="20261113210000 +0800" channel="radio3">
-    <title lang="zh-Hans">Sunset Sounds with Simon Willson</title>
-    <url>https://www.rthk.hk/radio/radio3/programme/sunsetsounds_simonwillson</url>
-  </programme>
-  <programme start="20261113210000 +0800" stop="20261113220000 +0800" channel="radio3">
-    <title lang="zh-Hans">In the Common Room</title>
-    <url>https://www.rthk.hk/radio/radio3/programme/common_room</url>
-  </programme>
-  <programme start="20261113220000 +0800" stop="20261113230000 +0800" channel="radio3">
-    <title lang="zh-Hans">After Hours with Michael Lance</title>
-    <url>https://www.rthk.hk/radio/radio3/programme/after_hours</url>
-  </programme>
-  <programme start="20261113230000 +0800" stop="20261113231500 +0800" channel="radio3">
-    <title lang="zh-Hans">News at Eleven</title>
-    <url>https://www.rthk.hk/radio/radio3/programme/newsateleven</url>
-  </programme>
-  <programme start="20261113231500 +0800" stop="20261114010000 +0800" channel="radio3">
-    <title lang="zh-Hans">After Hours with Michael Lance</title>
-    <url>https://www.rthk.hk/radio/radio3/programme/after_hours</url>
-  </programme>
-  <programme start="20261113000000 +0800" stop="20261113060000 +0800" channel="radio4">
-    <title lang="zh-Hans">Night Music 长夜细听</title>
-    <url>https://www.rthk.hk/radio/radio4/programme/nightmusic</url>
-  </programme>
-  <programme start="20261113060000 +0800" stop="20261113080000 +0800" channel="radio4">
-    <title lang="zh-Hans">Aubade</title>
-    <url>https://www.rthk.hk/radio/radio4/programme/Aubade</url>
-  </programme>
-  <programme start="20261113080000 +0800" stop="20261113100000 +0800" channel="radio4">
-    <title lang="zh-Hans">First Notes 由聆开始</title>
-    <url>https://www.rthk.hk/radio/radio4/programme/firstnotes</url>
-  </programme>
-  <programme start="20261113100000 +0800" stop="20261113130000 +0800" channel="radio4">
-    <title lang="zh-Hans">Non-stop Classics 美乐无休</title>
-    <url>https://www.rthk.hk/radio/radio4/programme/NonstopClassics</url>
-  </programme>
-  <programme start="20261113130000 +0800" stop="20261113140000 +0800" channel="radio4">
-    <title lang="zh-Hans">Delight in a Bite 一时之选</title>
-    <url>https://www.rthk.hk/radio/radio4/programme/delightinabite</url>
-  </programme>
-  <programme start="20261113140000 +0800" stop="20261113150000 +0800" channel="radio4">
-    <title lang="zh-Hans">One Belt One Road Music Journey - Central Asia (Repeat) 一带一路音乐之旅—中亚篇（重播）</title>
-    <url>https://www.rthk.hk/radio/radio4/programme/onebeltoneroadcentralasia_r</url>
-  </programme>
-  <programme start="20261113150000 +0800" stop="20261113170000 +0800" channel="radio4">
-    <title lang="zh-Hans">Concert on 4 (Repeat) 四台音乐会（重播）</title>
-    <url>https://www.rthk.hk/radio/radio4/programme/concerton4rpt</url>
-  </programme>
-  <programme start="20261113170000 +0800" stop="20261113180000 +0800" channel="radio4">
-    <title lang="zh-Hans">Sunset Music Diary 日乐志</title>
-    <url>https://www.rthk.hk/radio/radio4/programme/sunsetmusicdiary</url>
-  </programme>
-  <programme start="20261113180000 +0800" stop="20261113181800 +0800" channel="radio4">
-    <title lang="zh-Hans">Arts News 艺坛快讯</title>
-    <url>https://www.rthk.hk/radio/radio4/programme/ArtsNews</url>
-  </programme>
-  <programme start="20261113181800 +0800" stop="20261113190000 +0800" channel="radio4">
-    <title lang="zh-Hans">Sunset Music Diary 日乐志</title>
-    <url>https://www.rthk.hk/radio/radio4/programme/sunsetmusicdiary</url>
-  </programme>
-  <programme start="20261113190000 +0800" stop="20261113200000 +0800" channel="radio4">
-    <title lang="zh-Hans">Simply Classical 就是古典</title>
-    <url>https://www.rthk.hk/radio/radio4/programme/simplyclassical</url>
-  </programme>
-  <programme start="20261113200000 +0800" stop="20261113220000 +0800" channel="radio4">
-    <title lang="zh-Hans">Concert on 4 四台音乐会</title>
-    <url>https://www.rthk.hk/radio/radio4/programme/concerton4</url>
-  </programme>
-  <programme start="20261113220000 +0800" stop="20261113235700 +0800" channel="radio4">
-    <title lang="zh-Hans">Nocturne 夜心曲</title>
-    <url>https://www.rthk.hk/radio/radio4/programme/nocturne</url>
-  </programme>
-  <programme start="20261113235700 +0800" stop="20261114000000 +0800" channel="radio4">
-    <title lang="zh-Hans">Reflections 晚祷</title>
-    <url>https://www.rthk.hk/radio/radio4/programme/Reflection</url>
-  </programme>
-  <programme start="20261113000000 +0800" stop="20261113020000 +0800" channel="radio5">
-    <title lang="zh-Hans">戏曲之夜</title>
-    <url>https://www.rthk.hk/radio/radio5/programme/tconight</url>
-  </programme>
-  <programme start="20261113020000 +0800" stop="20261113050000 +0800" channel="radio5">
-    <title lang="zh-Hans">越夜粤精彩</title>
-    <url>https://www.rthk.hk/radio/radio5/programme/tcoexcitingnight</url>
-  </programme>
-  <programme start="20261113050000 +0800" stop="20261113063000 +0800" channel="radio5">
-    <title lang="zh-Hans">清晨爽利</title>
-    <url>https://www.rthk.hk/radio/radio5/programme/hellosunrise</url>
-  </programme>
-  <programme start="20261113063000 +0800" stop="20261113080000 +0800" channel="radio5">
-    <title lang="zh-Hans">晨早新闻天地（与第一台联播）</title>
-    <url>https://www.rthk.hk/radio/radio5/programme/hktoday</url>
-  </programme>
-  <programme start="20261113080000 +0800" stop="20261113100000 +0800" channel="radio5">
-    <title lang="zh-Hans">自在早晨</title>
-    <url>https://www.rthk.hk/radio/radio5/programme/relax_morning</url>
-  </programme>
-  <programme start="20261113100000 +0800" stop="20261113130000 +0800" channel="radio5">
-    <title lang="zh-Hans">香江暖流</title>
-    <url>https://www.rthk.hk/radio/radio5/programme/elderly</url>
-  </programme>
-  <programme start="20261113130000 +0800" stop="20261113160000 +0800" channel="radio5">
-    <title lang="zh-Hans">戏曲天地</title>
-    <url>https://www.rthk.hk/radio/radio5/programme/tco</url>
-  </programme>
-  <programme start="20261113160000 +0800" stop="20261113180000 +0800" channel="radio5">
-    <title lang="zh-Hans">有你同行</title>
-    <url>https://www.rthk.hk/radio/radio5/programme/standbyme_2011</url>
-  </programme>
-  <programme start="20261113180000 +0800" stop="20261113190000 +0800" channel="radio5">
-    <title lang="zh-Hans">傍晚新闻天地（与第一台联播）</title>
-    <url>https://www.rthk.hk/radio/radio5/programme/6oclocknews</url>
-  </programme>
-  <programme start="20261113190000 +0800" stop="20261113200000 +0800" channel="radio5">
-    <title lang="zh-Hans">优闲安多Fun</title>
-    <url>https://www.rthk.hk/radio/radio5/programme/what_a_cozy_evening</url>
-  </programme>
-  <programme start="20261113200000 +0800" stop="20261113210000 +0800" channel="radio5">
-    <title lang="zh-Hans">乐龄是敢的</title>
-    <url>https://www.rthk.hk/radio/radio5/programme/elderly_go</url>
-  </programme>
-  <programme start="20261113210000 +0800" stop="20261113220000 +0800" channel="radio5">
-    <title lang="zh-Hans">绿TEEN工作</title>
-    <url>https://www.rthk.hk/radio/radio5/programme/teensforgreen</url>
-  </programme>
-  <programme start="20261113220000 +0800" stop="20261113223500 +0800" channel="radio5">
-    <title lang="zh-Hans">晚间新闻天地（与第一台联播）</title>
-    <url>https://www.rthk.hk/radio/radio5/programme/eveningnews</url>
-  </programme>
-  <programme start="20261113223500 +0800" stop="20261114020000 +0800" channel="radio5">
-    <title lang="zh-Hans">戏曲之夜</title>
-    <url>https://www.rthk.hk/radio/radio5/programme/tconight</url>
-  </programme>
-  <programme start="20261113000000 +0800" stop="20261113020000 +0800" channel="pth">
-    <title lang="zh-Hans">月夜乐逍遥</title>
-    <url>https://www.rthk.hk/radio/pth/programme/MoonlightDejavu1</url>
-  </programme>
-  <programme start="20261113020000 +0800" stop="20261113060000 +0800" channel="pth">
-    <title lang="zh-Hans">轻谈浅唱不夜天（与第二台联播）</title>
-    <url>https://www.rthk.hk/radio/pth/programme/keepuco</url>
-  </programme>
-  <programme start="20261113060000 +0800" stop="20261113070000 +0800" channel="pth">
-    <title lang="zh-Hans">晨光第一线（与第二台联播）</title>
-    <url>https://www.rthk.hk/radio/pth/programme/morningsuite</url>
-  </programme>
-  <programme start="20261113070000 +0800" stop="20261113090000 +0800" channel="pth">
-    <title lang="zh-Hans">好Young音乐</title>
-    <url>https://www.rthk.hk/radio/pth/programme/2024youngmusic</url>
-  </programme>
-  <programme start="20261113090000 +0800" stop="20261113100000 +0800" channel="pth">
-    <title lang="zh-Hans">621新闻财经</title>
-    <url>https://www.rthk.hk/radio/pth/programme/2022morningnewsfinance</url>
-  </programme>
-  <programme start="20261113100000 +0800" stop="20261113120000 +0800" channel="pth">
-    <title lang="zh-Hans">新紫荆广场</title>
-    <url>https://www.rthk.hk/radio/pth/programme/xinzijingguangchang</url>
-  </programme>
-  <programme start="20261113120000 +0800" stop="20261113130000 +0800" channel="pth">
-    <title lang="zh-Hans">U秀帮</title>
-    <url>https://www.rthk.hk/radio/pth/programme/uxiubang</url>
-  </programme>
-  <programme start="20261113130000 +0800" stop="20261113140000 +0800" channel="pth">
-    <title lang="zh-Hans">午间新闻/财经</title>
-    <url>https://www.rthk.hk/radio/pth/programme/noonnews</url>
-  </programme>
-  <programme start="20261113140000 +0800" stop="20261113160000 +0800" channel="pth">
-    <title lang="zh-Hans">寰听世界</title>
-    <url>https://www.rthk.hk/radio/pth/programme/huantingshijie</url>
-  </programme>
-  <programme start="20261113160000 +0800" stop="20261113170000 +0800" channel="pth">
-    <title lang="zh-Hans">普出校园精彩</title>
-    <url>https://www.rthk.hk/radio/pth/programme/schooltour</url>
-  </programme>
-  <programme start="20261113170000 +0800" stop="20261113180000 +0800" channel="pth">
-    <title lang="zh-Hans">e线金融网</title>
-    <url>https://www.rthk.hk/radio/pth/programme/ezone2020</url>
-  </programme>
-  <programme start="20261113180000 +0800" stop="20261113193000 +0800" channel="pth">
-    <title lang="zh-Hans">音乐抱抱</title>
-    <url>https://www.rthk.hk/radio/pth/programme/yinyuebaobao</url>
-  </programme>
-  <programme start="20261113193000 +0800" stop="20261113200000 +0800" channel="pth">
-    <title lang="zh-Hans">晚间新闻/财经</title>
-    <url>https://www.rthk.hk/radio/pth/programme/wanjianxinwencaijing</url>
-  </programme>
-  <programme start="20261113200000 +0800" stop="20261113210000 +0800" channel="pth">
-    <title lang="zh-Hans">CIBS节目：艺术无界限</title>
-    <url>https://www.rthk.hk/radio/pth/programme/p2368_arts_beyond_boundaries</url>
-  </programme>
-  <programme start="20261113210000 +0800" stop="20261113220000 +0800" channel="pth">
-    <title lang="zh-Hans">CIBS节目：非专业推介</title>
-    <url>https://www.rthk.hk/radio/pth/programme/g1656_b_side_music</url>
-  </programme>
-  <programme start="20261113220000 +0800" stop="20261113230000 +0800" channel="pth">
-    <title lang="zh-Hans">CIBS节目：好死有SAY</title>
-    <url>https://www.rthk.hk/radio/pth/programme/g1698_rip_on_my_way</url>
-  </programme>
-  <programme start="20261113230000 +0800" stop="20261114020000 +0800" channel="pth">
-    <title lang="zh-Hans">月夜乐逍遥</title>
-    <url>https://www.rthk.hk/radio/pth/programme/MoonlightDejavu1</url>
-  </programme>
-  <programme start="20261113000000 +0800" stop="20261113060000 +0800" channel="radiocnrhk">
-    <title lang="zh-Hans">转播中央人民广播电台香港之声</title>
-    <url>https://www.rthk.hk/radio/radiocnrhk/programme/cnr</url>
-  </programme>
-  <programme start="20261113060000 +0800" stop="20261114000000 +0800" channel="radiocnrhk">
-    <title lang="zh-Hans">转播中央人民广播电台香港之声</title>
-    <url>https://www.rthk.hk/radio/radiocnrhk/programme/cnr</url>
-  </programme>
-  <programme start="20261113000000 +0800" stop="20261113060000 +0800" channel="radiocmgrgb">
-    <title lang="zh-Hans">转播中央广播电视总台粤港澳大湾区之声</title>
-    <url>https://www.rthk.hk/radio/radiocmgrgb/programme/cmg</url>
-  </programme>
-  <programme start="20261113060000 +0800" stop="20261114000000 +0800" channel="radiocmgrgb">
-    <title lang="zh-Hans">转播中央广播电视总台粤港澳大湾区之声</title>
-    <url>https://www.rthk.hk/radio/radiocmgrgb/programme/cmg</url>
-  </programme>
-  <programme start="20261112000000 +0800" stop="20261112010000 +0800" channel="radio1">
-    <title lang="zh-Hans">那些年 张伟基</title>
-    <desc lang="zh-Hans">那些年 张伟基</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/those_were_the_days</url>
-  </programme>
-  <programme start="20261112010000 +0800" stop="20261112013000 +0800" channel="radio1">
-    <title lang="zh-Hans">香港故事</title>
-    <desc lang="zh-Hans">李后主(第八集)</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/Hongkongstory</url>
-  </programme>
-  <programme start="20261112013000 +0800" stop="20261112033000 +0800" channel="radio1">
-    <title lang="zh-Hans">CIBS人人广播</title>
-    <desc lang="zh-Hans">《社创咖啡经》第7集 /《齐齐老爷车》第7集</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/cibs_we_broadcast</url>
-  </programme>
-  <programme start="20261112033000 +0800" stop="20261112050000 +0800" channel="radio1">
-    <title lang="zh-Hans">大自然之声</title>
-    <desc lang="zh-Hans">大自然之声</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/sound_of_nature</url>
-  </programme>
-  <programme start="20261112050000 +0800" stop="20261112063000 +0800" channel="radio1">
-    <title lang="zh-Hans">清晨爽利 （与第五台联播）</title>
-    <desc lang="zh-Hans">清晨爽利 （与第五台联播）</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/fresh_morning</url>
-  </programme>
-  <programme start="20261112063000 +0800" stop="20261112080000 +0800" channel="radio1">
-    <title lang="zh-Hans">晨早新闻天地</title>
-    <desc lang="zh-Hans">晨早新闻天地</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/hktoday</url>
-  </programme>
-  <programme start="20261112080000 +0800" stop="20261112100000 +0800" channel="radio1">
-    <title lang="zh-Hans">千禧年代</title>
-    <desc lang="zh-Hans">11月12日 艺团资助改革引入与表现和艺术水平挂钩拨款机制</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/HK2000</url>
-  </programme>
-  <programme start="20261112100000 +0800" stop="20261112102000 +0800" channel="radio1">
-    <title lang="zh-Hans">一桶金</title>
-    <desc lang="zh-Hans">黄伟豪料即使黄仁勋下台对业务实际影响不大/熊丽萍：板块较分化　分析领展(823)业绩/上市公司专访：林清轩(2657)香港首店落户将军澳　拟4年增至27家店/陈俊文料黄仁勋被罢免机会不低　CFO及工程师为热门继任人</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/Moneyprogram</url>
-  </programme>
-  <programme start="20261112102000 +0800" stop="20261112120000 +0800" channel="radio1">
-    <title lang="zh-Hans">是日快乐</title>
-    <desc lang="zh-Hans">是日快乐：是日标题党 / 快乐计划：社企「绿行侠」（Eco-Greenergy）业务发展总监 谭沛楹（Peann）</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/itsahappyday</url>
-  </programme>
-  <programme start="20261112120000 +0800" stop="20261112123000 +0800" channel="radio1">
-    <title lang="zh-Hans">午间新闻天地</title>
-    <desc lang="zh-Hans">午间新闻天地</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/12oclocknews</url>
-  </programme>
-  <programme start="20261112123000 +0800" stop="20261112130000 +0800" channel="radio1">
-    <title lang="zh-Hans">一桶金</title>
-    <desc lang="zh-Hans">黄伟豪料即使黄仁勋下台对业务实际影响不大/熊丽萍：板块较分化　分析领展(823)业绩/上市公司专访：林清轩(2657)香港首店落户将军澳　拟4年增至27家店/陈俊文料黄仁勋被罢免机会不低　CFO及工程师为热门继任人</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/Moneyprogram</url>
-  </programme>
-  <programme start="20261112130000 +0800" stop="20261112150000 +0800" channel="radio1">
-    <title lang="zh-Hans">精灵一点</title>
-    <desc lang="zh-Hans">(主持：叶韵怡、虞逸峰) 生命续航 / 眼部护理</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/healthpedia</url>
-  </programme>
-  <programme start="20261112150000 +0800" stop="20261112160000 +0800" channel="radio1">
-    <title lang="zh-Hans">港识生活馆</title>
-    <desc lang="zh-Hans">港识生活馆</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/yolo</url>
-  </programme>
-  <programme start="20261112160000 +0800" stop="20261112163000 +0800" channel="radio1">
-    <title lang="zh-Hans">动力4射</title>
-    <desc lang="zh-Hans">马毅谈粤BA及粤超等广东省群众运动赛事</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/sport4life</url>
-  </programme>
-  <programme start="20261112163000 +0800" stop="20261112170000 +0800" channel="radio1">
-    <title lang="zh-Hans">一桶金</title>
-    <desc lang="zh-Hans">黄伟豪料即使黄仁勋下台对业务实际影响不大/熊丽萍：板块较分化　分析领展(823)业绩/上市公司专访：林清轩(2657)香港首店落户将军澳　拟4年增至27家店/陈俊文料黄仁勋被罢免机会不低　CFO及工程师为热门继任人</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/Moneyprogram</url>
-  </programme>
-  <programme start="20261112170000 +0800" stop="20261112180000 +0800" channel="radio1">
-    <title lang="zh-Hans">自由风自由PHONE</title>
-    <desc lang="zh-Hans">政党倡议设立外籍家庭佣工事宜监管局</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/openline_openview</url>
-  </programme>
-  <programme start="20261112180000 +0800" stop="20261112190000 +0800" channel="radio1">
-    <title lang="zh-Hans">傍晚新闻天地</title>
-    <desc lang="zh-Hans">傍晚新闻天地</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/6oclocknews</url>
-  </programme>
-  <programme start="20261112190000 +0800" stop="20261112200000 +0800" channel="radio1">
-    <title lang="zh-Hans">十八好时光</title>
-    <desc lang="zh-Hans">十八好时光（林咏雯、李漫芬、伍文生）</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/18heartfeltvibes</url>
-  </programme>
-  <programme start="20261112200000 +0800" stop="20261112220000 +0800" channel="radio1">
-    <title lang="zh-Hans">守下留情</title>
-    <desc lang="zh-Hans">守下留情</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/seesaw</url>
-  </programme>
-  <programme start="20261112220000 +0800" stop="20261112223500 +0800" channel="radio1">
-    <title lang="zh-Hans">晚间新闻天地</title>
-    <desc lang="zh-Hans">晚间新闻天地</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/eveningnews</url>
-  </programme>
-  <programme start="20261112223500 +0800" stop="20261113000000 +0800" channel="radio1">
-    <title lang="zh-Hans">讲东讲西 (星期一至五)</title>
-    <desc lang="zh-Hans">由会计界闯进法律界</desc>
-    <url>https://www.rthk.hk/radio/radio1/programme/Free_as_the_wind</url>
-  </programme>
-  <programme start="20261112000000 +0800" stop="20261112020000 +0800" channel="radio2">
-    <title lang="zh-Hans">音乐说</title>
-    <desc lang="zh-Hans">音乐说</desc>
-    <url>https://www.rthk.hk/radio/radio2/programme/letthemusicspeak</url>
-  </programme>
-  <programme start="20261112020000 +0800" stop="20261112060000 +0800" channel="radio2">
-    <title lang="zh-Hans">轻谈浅唱不夜天</title>
-    <desc lang="zh-Hans">今集主持: 张家乐</desc>
-    <url>https://www.rthk.hk/radio/radio2/programme/keepuco</url>
-  </programme>
-  <programme start="20261112060000 +0800" stop="20261112100000 +0800" channel="radio2">
-    <title lang="zh-Hans">晨光第一线</title>
-    <desc lang="zh-Hans">晨光第一线</desc>
-    <url>https://www.rthk.hk/radio/radio2/programme/morningsuite</url>
-  </programme>
-  <programme start="20261112100000 +0800" stop="20261112120000 +0800" channel="radio2">
-    <title lang="zh-Hans">疯 Show 快活人</title>
-    <desc lang="zh-Hans">疯 Show 快活人</desc>
-    <url>https://www.rthk.hk/radio/radio2/programme/crazyandhappy</url>
-  </programme>
-  <programme start="20261112120000 +0800" stop="20261112130000 +0800" channel="radio2">
-    <title lang="zh-Hans">音乐中年</title>
-    <desc lang="zh-Hans">音乐中年</desc>
-    <url>https://www.rthk.hk/radio/radio2/programme/musiclife</url>
-  </programme>
-  <programme start="20261112130000 +0800" stop="20261112150000 +0800" channel="radio2">
-    <title lang="zh-Hans">Made in Hong Kong 李志刚</title>
-    <desc lang="zh-Hans">Made in Hong Kong 李志刚</desc>
-    <url>https://www.rthk.hk/radio/radio2/programme/madeinhk</url>
-  </programme>
-  <programme start="20261112150000 +0800" stop="20261112170000 +0800" channel="radio2">
-    <title lang="zh-Hans">三五成群</title>
-    <desc lang="zh-Hans">茶水间:去旅行团体最尾变买股团?</desc>
-    <url>https://www.rthk.hk/radio/radio2/programme/threesacrowd</url>
-  </programme>
-  <programme start="20261112170000 +0800" stop="20261112190000 +0800" channel="radio2">
-    <title lang="zh-Hans">骚动音乐</title>
-    <desc lang="zh-Hans">Irene 林芊莹 , CHOI SUNG YUN(Y)崔诚允访问 ︳「开心见诚允 思绪万芊莹」︳作为韩国人都好尊重广东话呢个文化~</desc>
-    <url>https://www.rthk.hk/radio/radio2/programme/musicinaction</url>
-  </programme>
-  <programme start="20261112190000 +0800" stop="20261112200000 +0800" channel="radio2">
-    <title lang="zh-Hans">Albert Au 区瑞强</title>
-    <desc lang="zh-Hans">Albert Au 区瑞强</desc>
-    <url>https://www.rthk.hk/radio/radio2/programme/albertau</url>
-  </programme>
-  <programme start="20261112200000 +0800" stop="20261112210000 +0800" channel="radio2">
-    <title lang="zh-Hans">恬淡情怀</title>
-    <desc lang="zh-Hans">恬淡情怀</desc>
-    <url>https://www.rthk.hk/radio/radio2/programme/subtle_sensuality</url>
-  </programme>
-  <programme start="20261112210000 +0800" stop="20261112220000 +0800" channel="radio2">
-    <title lang="zh-Hans">音乐情人</title>
-    <desc lang="zh-Hans">音乐情人</desc>
-    <url>https://www.rthk.hk/radio/radio2/programme/musiclover</url>
-  </programme>
-  <programme start="20261112220000 +0800" stop="20261113000000 +0800" channel="radio2">
-    <title lang="zh-Hans">她．他．它</title>
-    <desc lang="zh-Hans">她．他．它</desc>
-    <url>https://www.rthk.hk/radio/radio2/programme/ladiesnight</url>
-  </programme>
-  <programme start="20261112000000 +0800" stop="20261112010000 +0800" channel="radio3">
-    <title lang="zh-Hans">After Hours with Michael Lance</title>
-    <desc lang="zh-Hans">After Hours with Michael Lance</desc>
-    <url>https://www.rthk.hk/radio/radio3/programme/after_hours</url>
-  </programme>
-  <programme start="20261112010000 +0800" stop="20261112060000 +0800" channel="radio3">
-    <title lang="zh-Hans">Night Music on Radio 3</title>
-    <desc lang="zh-Hans">Night Music on Radio 3</desc>
-    <url>https://www.rthk.hk/radio/radio3/programme/nightmusic</url>
-  </programme>
-  <programme start="20261112060000 +0800" stop="20261112063000 +0800" channel="radio3">
-    <title lang="zh-Hans">Early AM</title>
-    <desc lang="zh-Hans">Early AM</desc>
-    <url>https://www.rthk.hk/radio/radio3/programme/earlyam</url>
-  </programme>
-  <programme start="20261112063000 +0800" stop="20261112080000 +0800" channel="radio3">
-    <title lang="zh-Hans">Hong Kong Today</title>
-    <desc lang="zh-Hans">Thursday</desc>
-    <url>https://www.rthk.hk/radio/radio3/programme/hongkongtoday</url>
-  </programme>
-  <programme start="20261112080000 +0800" stop="20261112090000 +0800" channel="radio3">
-    <title lang="zh-Hans">Money Talk</title>
-    <desc lang="zh-Hans">Money Talk</desc>
-    <url>https://www.rthk.hk/radio/radio3/programme/money_talk</url>
-  </programme>
-  <programme start="20261112090000 +0800" stop="20261112100000 +0800" channel="radio3">
-    <title lang="zh-Hans">Backchat</title>
-    <desc lang="zh-Hans">Ta Kwu Ling University Town / Muse Fest HK 2026 / CUHK launched joint exhibition with Cambridge’s Fitzwilliam Museum</desc>
-    <url>https://www.rthk.hk/radio/radio3/programme/backchat</url>
-  </programme>
-  <programme start="20261112100000 +0800" stop="20261112120000 +0800" channel="radio3">
-    <title lang="zh-Hans">Brunch</title>
-    <desc lang="zh-Hans">Imogen Short -  Hong Kong-set novel Versions of Us / Mary Totin Schaus -  Talos Foundation / Hong Kong Youth Arts Foundation / Vada Chung - Paws For Good</desc>
-    <url>https://www.rthk.hk/radio/radio3/programme/brunch</url>
-  </programme>
-  <programme start="20261112120000 +0800" stop="20261112130000 +0800" channel="radio3">
-    <title lang="zh-Hans">The Brew</title>
-    <desc lang="zh-Hans">The Brew</desc>
-    <url>https://www.rthk.hk/radio/radio3/programme/thebrew</url>
-  </programme>
-  <programme start="20261112130000 +0800" stop="20261112131500 +0800" channel="radio3">
-    <title lang="zh-Hans">News at One</title>
-    <desc lang="zh-Hans">News at One</desc>
-    <url>https://www.rthk.hk/radio/radio3/programme/newsatone</url>
-  </programme>
-  <programme start="20261112131500 +0800" stop="20261112140000 +0800" channel="radio3">
-    <title lang="zh-Hans">The Brew</title>
-    <desc lang="zh-Hans">The Brew</desc>
-    <url>https://www.rthk.hk/radio/radio3/programme/thebrew</url>
-  </programme>
-  <programme start="20261112140000 +0800" stop="20261112170000 +0800" channel="radio3">
-    <title lang="zh-Hans">Steve James</title>
-    <desc lang="zh-Hans">Steve James</desc>
-    <url>https://www.rthk.hk/radio/radio3/programme/stevejames</url>
-  </programme>
-  <programme start="20261112170000 +0800" stop="20261112180000 +0800" channel="radio3">
-    <title lang="zh-Hans">The Close</title>
-    <desc lang="zh-Hans">The Close</desc>
-    <url>https://www.rthk.hk/radio/radio3/programme/the_close</url>
-  </programme>
-  <programme start="20261112180000 +0800" stop="20261112183000 +0800" channel="radio3">
-    <title lang="zh-Hans">Newswrap</title>
-    <desc lang="zh-Hans">Newswrap</desc>
-    <url>https://www.rthk.hk/radio/radio3/programme/newswrap</url>
-  </programme>
-  <programme start="20261112183000 +0800" stop="20261112210000 +0800" channel="radio3">
-    <title lang="zh-Hans">Sunset Sounds with Simon Willson</title>
-    <desc lang="zh-Hans">Sunset Sounds with Simon Willson</desc>
-    <url>https://www.rthk.hk/radio/radio3/programme/sunsetsounds_simonwillson</url>
-  </programme>
-  <programme start="20261112210000 +0800" stop="20261112220000 +0800" channel="radio3">
-    <title lang="zh-Hans">In the Common Room</title>
-    <desc lang="zh-Hans">Open Space - Bishop Walsh Primary School</desc>
-    <url>https://www.rthk.hk/radio/radio3/programme/common_room</url>
-  </programme>
-  <programme start="20261112220000 +0800" stop="20261112230000 +0800" channel="radio3">
-    <title lang="zh-Hans">After Hours with Michael Lance</title>
-    <desc lang="zh-Hans">After Hours with Michael Lance</desc>
-    <url>https://www.rthk.hk/radio/radio3/programme/after_hours</url>
-  </programme>
-  <programme start="20261112230000 +0800" stop="20261112231500 +0800" channel="radio3">
-    <title lang="zh-Hans">News at Eleven</title>
-    <desc lang="zh-Hans">News at Eleven</desc>
-    <url>https://www.rthk.hk/radio/radio3/programme/newsateleven</url>
-  </programme>
-  <programme start="20261112231500 +0800" stop="20261113010000 +0800" channel="radio3">
-    <title lang="zh-Hans">After Hours with Michael Lance</title>
-    <desc lang="zh-Hans">After Hours with Michael Lance</desc>
-    <url>https://www.rthk.hk/radio/radio3/programme/after_hours</url>
-  </programme>
-  <programme start="20261112000000 +0800" stop="20261112060000 +0800" channel="radio4">
-    <title lang="zh-Hans">Night Music 长夜细听</title>
-    <desc lang="zh-Hans">Night Music 长夜细听</desc>
-    <url>https://www.rthk.hk/radio/radio4/programme/nightmusic</url>
-  </programme>
-  <programme start="20261112060000 +0800" stop="20261112080000 +0800" channel="radio4">
-    <title lang="zh-Hans">Aubade</title>
-    <desc lang="zh-Hans">Aubade</desc>
-    <url>https://www.rthk.hk/radio/radio4/programme/Aubade</url>
-  </programme>
-  <programme start="20261112080000 +0800" stop="20261112100000 +0800" channel="radio4">
-    <title lang="zh-Hans">First Notes 由聆开始</title>
-    <desc lang="zh-Hans">First Notes 由聆开始</desc>
-    <url>https://www.rthk.hk/radio/radio4/programme/firstnotes</url>
-  </programme>
-  <programme start="20261112100000 +0800" stop="20261112130000 +0800" channel="radio4">
-    <title lang="zh-Hans">Non-stop Classics 美乐无休</title>
-    <desc lang="zh-Hans">Non-stop Classics 美乐无休</desc>
-    <url>https://www.rthk.hk/radio/radio4/programme/NonstopClassics</url>
-  </programme>
-  <programme start="20261112130000 +0800" stop="20261112140000 +0800" channel="radio4">
-    <title lang="zh-Hans">Delight in a Bite 一时之选</title>
-    <desc lang="zh-Hans">Delight in a Bite 一时之选</desc>
-    <url>https://www.rthk.hk/radio/radio4/programme/delightinabite</url>
-  </programme>
-  <programme start="20261112140000 +0800" stop="20261112150000 +0800" channel="radio4">
-    <title lang="zh-Hans">Classical Music ABC (Repeat) 古典音乐ABC（重播）</title>
-    <desc lang="zh-Hans">Classical Music ABC (Repeat) 古典音乐ABC（重播）</desc>
-    <url>https://www.rthk.hk/radio/radio4/programme/classicalmusicabc2026_r</url>
-  </programme>
-  <programme start="20261112150000 +0800" stop="20261112170000 +0800" channel="radio4">
-    <title lang="zh-Hans">Concert on 4 (Repeat) 四台音乐会（重播）</title>
-    <desc lang="zh-Hans">Michel Dalberto Piano Recital</desc>
-    <url>https://www.rthk.hk/radio/radio4/programme/concerton4rpt</url>
-  </programme>
-  <programme start="20261112170000 +0800" stop="20261112180000 +0800" channel="radio4">
-    <title lang="zh-Hans">Sunset Music Diary 日乐志</title>
-    <desc lang="zh-Hans">Sunset Music Diary 日乐志</desc>
-    <url>https://www.rthk.hk/radio/radio4/programme/sunsetmusicdiary</url>
-  </programme>
-  <programme start="20261112180000 +0800" stop="20261112181800 +0800" channel="radio4">
-    <title lang="zh-Hans">Arts News 艺坛快讯</title>
-    <desc lang="zh-Hans">一百种身体的恐惧与爱</desc>
-    <url>https://www.rthk.hk/radio/radio4/programme/ArtsNews</url>
-  </programme>
-  <programme start="20261112181800 +0800" stop="20261112190000 +0800" channel="radio4">
-    <title lang="zh-Hans">Sunset Music Diary 日乐志</title>
-    <desc lang="zh-Hans">Sunset Music Diary 日乐志</desc>
-    <url>https://www.rthk.hk/radio/radio4/programme/sunsetmusicdiary</url>
-  </programme>
-  <programme start="20261112190000 +0800" stop="20261112200000 +0800" channel="radio4">
-    <title lang="zh-Hans">Simply Classical 就是古典</title>
-    <desc lang="zh-Hans">Simply Classical 就是古典</desc>
-    <url>https://www.rthk.hk/radio/radio4/programme/simplyclassical</url>
-  </programme>
-  <programme start="20261112200000 +0800" stop="20261112220000 +0800" channel="radio4">
-    <title lang="zh-Hans">Concert on 4 四台音乐会</title>
-    <desc lang="zh-Hans">Mahler Chamber Orchestra: Poème Symphonique</desc>
-    <url>https://www.rthk.hk/radio/radio4/programme/concerton4</url>
-  </programme>
-  <programme start="20261112220000 +0800" stop="20261112235700 +0800" channel="radio4">
-    <title lang="zh-Hans">Nocturne 夜心曲</title>
-    <desc lang="zh-Hans">Nocturne 夜心曲</desc>
-    <url>https://www.rthk.hk/radio/radio4/programme/nocturne</url>
-  </programme>
-  <programme start="20261112235700 +0800" stop="20261113000000 +0800" channel="radio4">
-    <title lang="zh-Hans">Reflections 晚祷</title>
-    <desc lang="zh-Hans">Reflections 晚祷</desc>
-    <url>https://www.rthk.hk/radio/radio4/programme/Reflection</url>
-  </programme>
-  <programme start="20261112000000 +0800" stop="20261112020000 +0800" channel="radio5">
-    <title lang="zh-Hans">戏曲之夜</title>
-    <desc lang="zh-Hans">节目内容</desc>
-    <url>https://www.rthk.hk/radio/radio5/programme/tconight</url>
-  </programme>
-  <programme start="20261112020000 +0800" stop="20261112050000 +0800" channel="radio5">
-    <title lang="zh-Hans">越夜粤精彩</title>
-    <desc lang="zh-Hans">节目内容</desc>
-    <url>https://www.rthk.hk/radio/radio5/programme/tcoexcitingnight</url>
-  </programme>
-  <programme start="20261112050000 +0800" stop="20261112063000 +0800" channel="radio5">
-    <title lang="zh-Hans">清晨爽利</title>
-    <desc lang="zh-Hans">「健健康康在清晨」主题: 中国研发新药治疗非小细胞肺癌  主讲:临床肿瘤科专科（林嘉安医生）</desc>
-    <url>https://www.rthk.hk/radio/radio5/programme/hellosunrise</url>
-  </programme>
-  <programme start="20261112063000 +0800" stop="20261112080000 +0800" channel="radio5">
-    <title lang="zh-Hans">晨早新闻天地（与第一台联播）</title>
-    <desc lang="zh-Hans">晨早新闻天地（与第一台联播）</desc>
-    <url>https://www.rthk.hk/radio/radio5/programme/hktoday</url>
-  </programme>
-  <programme start="20261112080000 +0800" stop="20261112100000 +0800" channel="radio5">
-    <title lang="zh-Hans">自在早晨</title>
-    <desc lang="zh-Hans">自在早晨</desc>
-    <url>https://www.rthk.hk/radio/radio5/programme/relax_morning</url>
-  </programme>
-  <programme start="20261112100000 +0800" stop="20261112130000 +0800" channel="radio5">
-    <title lang="zh-Hans">香江暖流</title>
-    <desc lang="zh-Hans">《香江私房菜》合桃补脑？</desc>
-    <url>https://www.rthk.hk/radio/radio5/programme/elderly</url>
-  </programme>
-  <programme start="20261112130000 +0800" stop="20261112160000 +0800" channel="radio5">
-    <title lang="zh-Hans">戏曲天地</title>
-    <desc lang="zh-Hans">节目内容</desc>
-    <url>https://www.rthk.hk/radio/radio5/programme/tco</url>
-  </programme>
-  <programme start="20261112160000 +0800" stop="20261112180000 +0800" channel="radio5">
-    <title lang="zh-Hans">有你同行</title>
-    <desc lang="zh-Hans">有你同行</desc>
-    <url>https://www.rthk.hk/radio/radio5/programme/standbyme_2011</url>
-  </programme>
-  <programme start="20261112180000 +0800" stop="20261112190000 +0800" channel="radio5">
-    <title lang="zh-Hans">傍晚新闻天地（与第一台联播）</title>
-    <desc lang="zh-Hans">傍晚新闻天地（与第一台联播）</desc>
-    <url>https://www.rthk.hk/radio/radio5/programme/6oclocknews</url>
-  </programme>
-  <programme start="20261112190000 +0800" stop="20261112200000 +0800" channel="radio5">
-    <title lang="zh-Hans">优闲安多Fun</title>
-    <desc lang="zh-Hans">优闲安多Fun - 星期四 : 食得有营</desc>
-    <url>https://www.rthk.hk/radio/radio5/programme/what_a_cozy_evening</url>
-  </programme>
-  <programme start="20261112200000 +0800" stop="20261112210000 +0800" channel="radio5">
-    <title lang="zh-Hans">绿色 Fighting</title>
-    <desc lang="zh-Hans">观鸟可以重塑大脑</desc>
-    <url>https://www.rthk.hk/radio/radio5/programme/green_fighting</url>
-  </programme>
-  <programme start="20261112210000 +0800" stop="20261112220000 +0800" channel="radio5">
-    <title lang="zh-Hans">复刻艺文时光：思潮与思考</title>
-    <desc lang="zh-Hans">#9 实质谬误-转移视线、偏见</desc>
-    <url>https://www.rthk.hk/radio/radio5/programme/waves_of_thought</url>
-  </programme>
-  <programme start="20261112220000 +0800" stop="20261112223500 +0800" channel="radio5">
-    <title lang="zh-Hans">晚间新闻天地（与第一台联播）</title>
-    <desc lang="zh-Hans">晚间新闻天地（与第一台联播）</desc>
-    <url>https://www.rthk.hk/radio/radio5/programme/eveningnews</url>
-  </programme>
-  <programme start="20261112223500 +0800" stop="20261113020000 +0800" channel="radio5">
-    <title lang="zh-Hans">戏曲之夜</title>
-    <desc lang="zh-Hans">节目内容</desc>
-    <url>https://www.rthk.hk/radio/radio5/programme/tconight</url>
-  </programme>
-  <programme start="20261112000000 +0800" stop="20261112020000 +0800" channel="pth">
-    <title lang="zh-Hans">月夜乐逍遥</title>
-    <desc lang="zh-Hans">月夜乐逍遥</desc>
-    <url>https://www.rthk.hk/radio/pth/programme/MoonlightDejavu1</url>
-  </programme>
-  <programme start="20261112020000 +0800" stop="20261112060000 +0800" channel="pth">
-    <title lang="zh-Hans">轻谈浅唱不夜天（与第二台联播）</title>
-    <desc lang="zh-Hans">轻谈浅唱不夜天（与第二台联播）</desc>
-    <url>https://www.rthk.hk/radio/pth/programme/keepuco</url>
-  </programme>
-  <programme start="20261112060000 +0800" stop="20261112070000 +0800" channel="pth">
-    <title lang="zh-Hans">晨光第一线（与第二台联播）</title>
-    <desc lang="zh-Hans">晨光第一线（与第二台联播）</desc>
-    <url>https://www.rthk.hk/radio/pth/programme/morningsuite</url>
-  </programme>
-  <programme start="20261112070000 +0800" stop="20261112090000 +0800" channel="pth">
-    <title lang="zh-Hans">好Young音乐</title>
-    <desc lang="zh-Hans">好Young音乐</desc>
-    <url>https://www.rthk.hk/radio/pth/programme/2024youngmusic</url>
-  </programme>
-  <programme start="20261112090000 +0800" stop="20261112100000 +0800" channel="pth">
-    <title lang="zh-Hans">621新闻财经</title>
-    <desc lang="zh-Hans">621新闻财经</desc>
-    <url>https://www.rthk.hk/radio/pth/programme/2022morningnewsfinance</url>
-  </programme>
-  <programme start="20261112100000 +0800" stop="20261112120000 +0800" channel="pth">
-    <title lang="zh-Hans">新紫荆广场</title>
-    <desc lang="zh-Hans">杨子矜 麦尚中 邹洁瑜 谢家驹博士/退休的你在进优吗？/过量服用维生素B会中毒吗？/社会热点话题</desc>
-    <url>https://www.rthk.hk/radio/pth/programme/xinzijingguangchang</url>
-  </programme>
-  <programme start="20261112120000 +0800" stop="20261112130000 +0800" channel="pth">
-    <title lang="zh-Hans">U秀帮</title>
-    <desc lang="zh-Hans">U秀帮</desc>
-    <url>https://www.rthk.hk/radio/pth/programme/uxiubang</url>
-  </programme>
-  <programme start="20261112130000 +0800" stop="20261112140000 +0800" channel="pth">
-    <title lang="zh-Hans">午间新闻/财经</title>
-    <desc lang="zh-Hans">曾启邦：黄仁勋事件二次发酵 科技战场博弈升级！关注具吸引力的价值显现</desc>
-    <url>https://www.rthk.hk/radio/pth/programme/noonnews</url>
-  </programme>
-  <programme start="20261112140000 +0800" stop="20261112160000 +0800" channel="pth">
-    <title lang="zh-Hans">寰听世界</title>
-    <desc lang="zh-Hans">寰听世界  寰听风情画 资深旅游从业员 Jerry/寰球全接触-大湾区连线/深圳台广播剧《斗嘴一班》</desc>
-    <url>https://www.rthk.hk/radio/pth/programme/huantingshijie</url>
-  </programme>
-  <programme start="20261112160000 +0800" stop="20261112170000 +0800" channel="pth">
-    <title lang="zh-Hans">普出校园精彩</title>
-    <desc lang="zh-Hans">超玥实验室 - 不会迷路的蚂蚁—费洛蒙和化学信号 （下）</desc>
-    <url>https://www.rthk.hk/radio/pth/programme/schooltour</url>
-  </programme>
-  <programme start="20261112170000 +0800" stop="20261112180000 +0800" channel="pth">
-    <title lang="zh-Hans">e线金融网</title>
-    <desc lang="zh-Hans">潘铁珊、张忻哲：美股高居不下？港股不慌！找有红利因子的标的？高股息、能源、科技股机会在哪里？</desc>
-    <url>https://www.rthk.hk/radio/pth/programme/ezone2020</url>
-  </programme>
-  <programme start="20261112180000 +0800" stop="20261112193000 +0800" channel="pth">
-    <title lang="zh-Hans">音乐抱抱</title>
-    <desc lang="zh-Hans">音乐抱抱</desc>
-    <url>https://www.rthk.hk/radio/pth/programme/yinyuebaobao</url>
-  </programme>
-  <programme start="20261112193000 +0800" stop="20261112200000 +0800" channel="pth">
-    <title lang="zh-Hans">晚间新闻/财经</title>
-    <desc lang="zh-Hans">晚间新闻/财经</desc>
-    <url>https://www.rthk.hk/radio/pth/programme/wanjianxinwencaijing</url>
-  </programme>
-  <programme start="20261112200000 +0800" stop="20261112210000 +0800" channel="pth">
-    <title lang="zh-Hans">CIBS节目：光影同行</title>
-    <desc lang="zh-Hans">CIBS节目：光影同行</desc>
-    <url>https://www.rthk.hk/radio/pth/programme/p2379_social_cinema</url>
-  </programme>
-  <programme start="20261112210000 +0800" stop="20261112220000 +0800" channel="pth">
-    <title lang="zh-Hans">CIBS节目：师傅有请之靓屋教室</title>
-    <desc lang="zh-Hans">第七集：电流应用课</desc>
-    <url>https://www.rthk.hk/radio/pth/programme/p2436_renovation_master</url>
-  </programme>
-  <programme start="20261112220000 +0800" stop="20261112230000 +0800" channel="pth">
-    <title lang="zh-Hans">夜妈妈心里话</title>
-    <desc lang="zh-Hans">夜妈妈心里话：梓瑜妈妈故事时间-《为什么不能咬手指》</desc>
-    <url>https://www.rthk.hk/radio/pth/programme/2022dreamalittledream</url>
-  </programme>
-  <programme start="20261112230000 +0800" stop="20261113020000 +0800" channel="pth">
-    <title lang="zh-Hans">月夜乐逍遥</title>
-    <desc lang="zh-Hans">月夜乐逍遥</desc>
-    <url>https://www.rthk.hk/radio/pth/programme/MoonlightDejavu1</url>
-  </programme>
-  <programme start="20261112000000 +0800" stop="20261112060000 +0800" channel="radiocnrhk">
-    <title lang="zh-Hans">转播中央人民广播电台香港之声</title>
-    <url>https://www.rthk.hk/radio/radiocnrhk/programme/cnr</url>
-  </programme>
-  <programme start="20261112060000 +0800" stop="20261113000000 +0800" channel="radiocnrhk">
-    <title lang="zh-Hans">转播中央人民广播电台香港之声</title>
-    <url>https://www.rthk.hk/radio/radiocnrhk/programme/cnr</url>
-  </programme>
-  <programme start="20261112000000 +0800" stop="20261112060000 +0800" channel="radiocmgrgb">
-    <title lang="zh-Hans">转播中央广播电视总台粤港澳大湾区之声</title>
-    <url>https://www.rthk.hk/radio/radiocmgrgb/programme/cmg</url>
-  </programme>
-  <programme start="20261112060000 +0800" stop="20261113000000 +0800" channel="radiocmgrgb">
-    <title lang="zh-Hans">转播中央广播电视总台粤港澳大湾区之声</title>
-    <url>https://www.rthk.hk/radio/radiocmgrgb/programme/cmg</url>
-  </programme>
   <programme start="20261114000000 +0800" stop="20261114010000 +0800" channel="radio1">
     <title lang="zh-Hans">那些年 张伟基</title>
     <url>https://www.rthk.hk/radio/radio1/programme/those_were_the_days</url>
@@ -1006,7 +110,6 @@
   </programme>
   <programme start="20261114200000 +0800" stop="20261114203000 +0800" channel="radio1">
     <title lang="zh-Hans">古今风云人物</title>
-    <desc lang="zh-Hans">伊本．巴图达 (九)︰踏上归途与黑死病肆虐</desc>
     <url>https://www.rthk.hk/radio/radio1/programme/People</url>
   </programme>
   <programme start="20261114203000 +0800" stop="20261114210000 +0800" channel="radio1">
@@ -1071,12 +174,10 @@
   </programme>
   <programme start="20261114200000 +0800" stop="20261114203000 +0800" channel="radio2">
     <title lang="zh-Hans">银河追星</title>
-    <desc lang="zh-Hans">#6 仙女座</desc>
     <url>https://www.rthk.hk/radio/radio2/programme/inside_the_cosmos</url>
   </programme>
   <programme start="20261114203000 +0800" stop="20261114210000 +0800" channel="radio2">
     <title lang="zh-Hans">开卷乐</title>
-    <desc lang="zh-Hans">《五四在南洋：新马华人的文化记忆与中华想像》</desc>
     <url>https://www.rthk.hk/radio/radio2/programme/bookview</url>
   </programme>
   <programme start="20261114210000 +0800" stop="20261114220000 +0800" channel="radio2">
@@ -1193,7 +294,6 @@
   </programme>
   <programme start="20261114200000 +0800" stop="20261114220000 +0800" channel="radio4">
     <title lang="zh-Hans">Concert on 4 四台音乐会</title>
-    <desc lang="zh-Hans">“Hong Kong Artists” Series 2026: Saxophone Recital by Charles Ng</desc>
     <url>https://www.rthk.hk/radio/radio4/programme/concerton4</url>
   </programme>
   <programme start="20261114220000 +0800" stop="20261115000000 +0800" channel="radio4">
@@ -1246,12 +346,10 @@
   </programme>
   <programme start="20261114183300 +0800" stop="20261114190000 +0800" channel="radio5">
     <title lang="zh-Hans">丰富的人生</title>
-    <desc lang="zh-Hans">小兄弟会（方济会）伍维烈修士、李皓朗执事及朱肇铭修士— 造物赞（四）</desc>
     <url>https://www.rthk.hk/radio/radio5/programme/lifeabu</url>
   </programme>
   <programme start="20261114190000 +0800" stop="20261114200000 +0800" channel="radio5">
     <title lang="zh-Hans">动人的中国旋律</title>
-    <desc lang="zh-Hans">歌曲选播</desc>
     <url>https://www.rthk.hk/radio/radio5/programme/chinese_music</url>
   </programme>
   <programme start="20261114200000 +0800" stop="20261114203000 +0800" channel="radio5">
@@ -1312,7 +410,6 @@
   </programme>
   <programme start="20261114190000 +0800" stop="20261114200000 +0800" channel="pth">
     <title lang="zh-Hans">上·港上线啦</title>
-    <desc lang="zh-Hans">上·港上线啦-舞台剧导演 刘荣铿 以及 演员 黄进林、罗卓菲</desc>
     <url>https://www.rthk.hk/radio/pth/programme/2024shhk</url>
   </programme>
   <programme start="20261114200000 +0800" stop="20261114203000 +0800" channel="pth">
@@ -1348,6 +445,502 @@
     <url>https://www.rthk.hk/radio/radiocmgrgb/programme/cmg</url>
   </programme>
   <programme start="20261114060000 +0800" stop="20261115000000 +0800" channel="radiocmgrgb">
+    <title lang="zh-Hans">转播中央广播电视总台粤港澳大湾区之声</title>
+    <url>https://www.rthk.hk/radio/radiocmgrgb/programme/cmg</url>
+  </programme>
+  <programme start="20261113000000 +0800" stop="20261113010000 +0800" channel="radio1">
+    <title lang="zh-Hans">那些年 张伟基</title>
+    <desc lang="zh-Hans">那些年 张伟基</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/those_were_the_days</url>
+  </programme>
+  <programme start="20261113010000 +0800" stop="20261113013000 +0800" channel="radio1">
+    <title lang="zh-Hans">香港故事</title>
+    <desc lang="zh-Hans">李后主(第九集)</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/Hongkongstory</url>
+  </programme>
+  <programme start="20261113013000 +0800" stop="20261113033000 +0800" channel="radio1">
+    <title lang="zh-Hans">CIBS人人广播</title>
+    <desc lang="zh-Hans">《光影同行》第7集 / 《师傅有请之靓屋教室》第7集</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/cibs_we_broadcast</url>
+  </programme>
+  <programme start="20261113033000 +0800" stop="20261113050000 +0800" channel="radio1">
+    <title lang="zh-Hans">大自然之声</title>
+    <desc lang="zh-Hans">大自然之声</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/sound_of_nature</url>
+  </programme>
+  <programme start="20261113050000 +0800" stop="20261113063000 +0800" channel="radio1">
+    <title lang="zh-Hans">清晨爽利 （与第五台联播）</title>
+    <desc lang="zh-Hans">清晨爽利 （与第五台联播）</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/fresh_morning</url>
+  </programme>
+  <programme start="20261113063000 +0800" stop="20261113080000 +0800" channel="radio1">
+    <title lang="zh-Hans">晨早新闻天地</title>
+    <desc lang="zh-Hans">晨早新闻天地</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/hktoday</url>
+  </programme>
+  <programme start="20261113080000 +0800" stop="20261113100000 +0800" channel="radio1">
+    <title lang="zh-Hans">千禧年代</title>
+    <desc lang="zh-Hans">11月13日 议员提出为公屋富户设立专项储蓄计划议案遭否决</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/HK2000</url>
+  </programme>
+  <programme start="20261113100000 +0800" stop="20261113102000 +0800" channel="radio1">
+    <title lang="zh-Hans">一桶金</title>
+    <desc lang="zh-Hans">黄德几：市场满意Nvidia临时CEO 　提醒短期仍波动/梁伟民：恒指或下试23000点水平　分析中芯(981)业绩/神州理财小百科：姜静称双十一销售受结构性调整及周期性因素影响/龚伟廷分析比特币与黄金</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/Moneyprogram</url>
+  </programme>
+  <programme start="20261113102000 +0800" stop="20261113120000 +0800" channel="radio1">
+    <title lang="zh-Hans">是日快乐</title>
+    <desc lang="zh-Hans">是日快乐：是日标题党 / 大戏电波：反战电影</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/itsahappyday</url>
+  </programme>
+  <programme start="20261113120000 +0800" stop="20261113123000 +0800" channel="radio1">
+    <title lang="zh-Hans">午间新闻天地</title>
+    <desc lang="zh-Hans">午间新闻天地</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/12oclocknews</url>
+  </programme>
+  <programme start="20261113123000 +0800" stop="20261113130000 +0800" channel="radio1">
+    <title lang="zh-Hans">一桶金</title>
+    <desc lang="zh-Hans">黄德几：市场满意Nvidia临时CEO 　提醒短期仍波动/梁伟民：恒指或下试23000点水平　分析中芯(981)业绩/神州理财小百科：姜静称双十一销售受结构性调整及周期性因素影响/龚伟廷分析比特币与黄金</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/Moneyprogram</url>
+  </programme>
+  <programme start="20261113130000 +0800" stop="20261113150000 +0800" channel="radio1">
+    <title lang="zh-Hans">精灵一点</title>
+    <desc lang="zh-Hans">(主持：叶韵怡、虞逸峰) 身体雕塑手术 / 换位思考 / 脂肪肝与肝纤维化</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/healthpedia</url>
+  </programme>
+  <programme start="20261113150000 +0800" stop="20261113160000 +0800" channel="radio1">
+    <title lang="zh-Hans">港识生活馆</title>
+    <desc lang="zh-Hans">我识你唔识：VIVA 识唔识雨水嘅知识？ / 可以识识：绿色建筑 嘉宾：叶颂文博士建筑师（香港绿色建筑议会前董事）</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/yolo</url>
+  </programme>
+  <programme start="20261113160000 +0800" stop="20261113163000 +0800" channel="radio1">
+    <title lang="zh-Hans">动力4射</title>
+    <desc lang="zh-Hans">英超曼联易帅</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/sport4life</url>
+  </programme>
+  <programme start="20261113163000 +0800" stop="20261113170000 +0800" channel="radio1">
+    <title lang="zh-Hans">一桶金</title>
+    <desc lang="zh-Hans">黄德几：市场满意Nvidia临时CEO 　提醒短期仍波动/梁伟民：恒指或下试23000点水平　分析中芯(981)业绩/神州理财小百科：姜静称双十一销售受结构性调整及周期性因素影响/龚伟廷分析比特币与黄金</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/Moneyprogram</url>
+  </programme>
+  <programme start="20261113170000 +0800" stop="20261113180000 +0800" channel="radio1">
+    <title lang="zh-Hans">自由风自由PHONE</title>
+    <desc lang="zh-Hans">立法会跟进玛丽医院升降机工程问题调查报告</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/openline_openview</url>
+  </programme>
+  <programme start="20261113180000 +0800" stop="20261113190000 +0800" channel="radio1">
+    <title lang="zh-Hans">傍晚新闻天地</title>
+    <desc lang="zh-Hans">傍晚新闻天地</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/6oclocknews</url>
+  </programme>
+  <programme start="20261113190000 +0800" stop="20261113200000 +0800" channel="radio1">
+    <title lang="zh-Hans">十八好时光</title>
+    <desc lang="zh-Hans">十八好时光（林咏雯、李漫芬、伍文生）</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/18heartfeltvibes</url>
+  </programme>
+  <programme start="20261113200000 +0800" stop="20261113220000 +0800" channel="radio1">
+    <title lang="zh-Hans">守下留情</title>
+    <desc lang="zh-Hans">守下留情星期五: 刘伟恒 x 阿一 x 的神 嘉宾: 曹星如 (拳手)</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/seesaw</url>
+  </programme>
+  <programme start="20261113220000 +0800" stop="20261113223500 +0800" channel="radio1">
+    <title lang="zh-Hans">晚间新闻天地</title>
+    <desc lang="zh-Hans">晚间新闻天地</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/eveningnews</url>
+  </programme>
+  <programme start="20261113223500 +0800" stop="20261114000000 +0800" channel="radio1">
+    <title lang="zh-Hans">讲东讲西 (星期一至五)</title>
+    <desc lang="zh-Hans">太史蛇羹有几劲？</desc>
+    <url>https://www.rthk.hk/radio/radio1/programme/Free_as_the_wind</url>
+  </programme>
+  <programme start="20261113000000 +0800" stop="20261113020000 +0800" channel="radio2">
+    <title lang="zh-Hans">音乐说</title>
+    <desc lang="zh-Hans">音乐说</desc>
+    <url>https://www.rthk.hk/radio/radio2/programme/letthemusicspeak</url>
+  </programme>
+  <programme start="20261113020000 +0800" stop="20261113060000 +0800" channel="radio2">
+    <title lang="zh-Hans">轻谈浅唱不夜天</title>
+    <desc lang="zh-Hans">轻谈浅唱不夜天</desc>
+    <url>https://www.rthk.hk/radio/radio2/programme/keepuco</url>
+  </programme>
+  <programme start="20261113060000 +0800" stop="20261113100000 +0800" channel="radio2">
+    <title lang="zh-Hans">晨光第一线</title>
+    <desc lang="zh-Hans">晨光第一线</desc>
+    <url>https://www.rthk.hk/radio/radio2/programme/morningsuite</url>
+  </programme>
+  <programme start="20261113100000 +0800" stop="20261113120000 +0800" channel="radio2">
+    <title lang="zh-Hans">疯 Show 快活人</title>
+    <desc lang="zh-Hans">疯 Show 快活人</desc>
+    <url>https://www.rthk.hk/radio/radio2/programme/crazyandhappy</url>
+  </programme>
+  <programme start="20261113120000 +0800" stop="20261113130000 +0800" channel="radio2">
+    <title lang="zh-Hans">音乐中年</title>
+    <desc lang="zh-Hans">音乐中年</desc>
+    <url>https://www.rthk.hk/radio/radio2/programme/musiclife</url>
+  </programme>
+  <programme start="20261113130000 +0800" stop="20261113150000 +0800" channel="radio2">
+    <title lang="zh-Hans">Made in Hong Kong 李志刚</title>
+    <desc lang="zh-Hans">Made in Hong Kong 李志刚</desc>
+    <url>https://www.rthk.hk/radio/radio2/programme/madeinhk</url>
+  </programme>
+  <programme start="20261113150000 +0800" stop="20261113170000 +0800" channel="radio2">
+    <title lang="zh-Hans">三五成群</title>
+    <desc lang="zh-Hans">Search Engine :洪嘉豪杂志式音乐系列第三首作品!｜曼德Liar - 2011盲抢盐事件</desc>
+    <url>https://www.rthk.hk/radio/radio2/programme/threesacrowd</url>
+  </programme>
+  <programme start="20261113170000 +0800" stop="20261113190000 +0800" channel="radio2">
+    <title lang="zh-Hans">骚动音乐</title>
+    <desc lang="zh-Hans">音乐大秘宝：《日落日出 (Christmas Morning Remix)》、《盲爱》｜EDM Friday Mix：Top Producers Mix</desc>
+    <url>https://www.rthk.hk/radio/radio2/programme/musicinaction</url>
+  </programme>
+  <programme start="20261113190000 +0800" stop="20261113200000 +0800" channel="radio2">
+    <title lang="zh-Hans">Albert Au 区瑞强</title>
+    <desc lang="zh-Hans">Albert Au 区瑞强</desc>
+    <url>https://www.rthk.hk/radio/radio2/programme/albertau</url>
+  </programme>
+  <programme start="20261113200000 +0800" stop="20261113210000 +0800" channel="radio2">
+    <title lang="zh-Hans">恬淡情怀</title>
+    <desc lang="zh-Hans">恬淡情怀</desc>
+    <url>https://www.rthk.hk/radio/radio2/programme/subtle_sensuality</url>
+  </programme>
+  <programme start="20261113210000 +0800" stop="20261113220000 +0800" channel="radio2">
+    <title lang="zh-Hans">音乐情人</title>
+    <desc lang="zh-Hans">音乐情人</desc>
+    <url>https://www.rthk.hk/radio/radio2/programme/musiclover</url>
+  </programme>
+  <programme start="20261113220000 +0800" stop="20261114000000 +0800" channel="radio2">
+    <title lang="zh-Hans">她．他．它</title>
+    <desc lang="zh-Hans">嘉宾：吴幸美Ep 2，Gordon Flanders</desc>
+    <url>https://www.rthk.hk/radio/radio2/programme/ladiesnight</url>
+  </programme>
+  <programme start="20261113000000 +0800" stop="20261113010000 +0800" channel="radio3">
+    <title lang="zh-Hans">After Hours with Michael Lance</title>
+    <desc lang="zh-Hans">After Hours with Michael Lance</desc>
+    <url>https://www.rthk.hk/radio/radio3/programme/after_hours</url>
+  </programme>
+  <programme start="20261113010000 +0800" stop="20261113060000 +0800" channel="radio3">
+    <title lang="zh-Hans">Night Music on Radio 3</title>
+    <desc lang="zh-Hans">Night Music on Radio 3</desc>
+    <url>https://www.rthk.hk/radio/radio3/programme/nightmusic</url>
+  </programme>
+  <programme start="20261113060000 +0800" stop="20261113063000 +0800" channel="radio3">
+    <title lang="zh-Hans">Early AM</title>
+    <desc lang="zh-Hans">Early AM</desc>
+    <url>https://www.rthk.hk/radio/radio3/programme/earlyam</url>
+  </programme>
+  <programme start="20261113063000 +0800" stop="20261113080000 +0800" channel="radio3">
+    <title lang="zh-Hans">Hong Kong Today</title>
+    <desc lang="zh-Hans">Friday</desc>
+    <url>https://www.rthk.hk/radio/radio3/programme/hongkongtoday</url>
+  </programme>
+  <programme start="20261113080000 +0800" stop="20261113090000 +0800" channel="radio3">
+    <title lang="zh-Hans">Money Talk</title>
+    <desc lang="zh-Hans">Money Talk</desc>
+    <url>https://www.rthk.hk/radio/radio3/programme/money_talk</url>
+  </programme>
+  <programme start="20261113090000 +0800" stop="20261113100000 +0800" channel="radio3">
+    <title lang="zh-Hans">Backchat</title>
+    <desc lang="zh-Hans">US-China Hong Kong Forum / Northern Link rail project agreement / Gen Z collectors survey / The Festival of Connoisseurs</desc>
+    <url>https://www.rthk.hk/radio/radio3/programme/backchat</url>
+  </programme>
+  <programme start="20261113100000 +0800" stop="20261113120000 +0800" channel="radio3">
+    <title lang="zh-Hans">Brunch</title>
+    <desc lang="zh-Hans">Emeric Payer - Swimming / Hamish Williams - The Nutters Club / Vada Chung - Paws For Good</desc>
+    <url>https://www.rthk.hk/radio/radio3/programme/brunch</url>
+  </programme>
+  <programme start="20261113120000 +0800" stop="20261113130000 +0800" channel="radio3">
+    <title lang="zh-Hans">The Brew</title>
+    <desc lang="zh-Hans">James Marsh - Movie Time / Danny Hicks - Sports and All</desc>
+    <url>https://www.rthk.hk/radio/radio3/programme/thebrew</url>
+  </programme>
+  <programme start="20261113130000 +0800" stop="20261113131500 +0800" channel="radio3">
+    <title lang="zh-Hans">News at One</title>
+    <desc lang="zh-Hans">News at One</desc>
+    <url>https://www.rthk.hk/radio/radio3/programme/newsatone</url>
+  </programme>
+  <programme start="20261113131500 +0800" stop="20261113140000 +0800" channel="radio3">
+    <title lang="zh-Hans">The Brew</title>
+    <desc lang="zh-Hans">James Marsh - Movie Time / Danny Hicks - Sports and All</desc>
+    <url>https://www.rthk.hk/radio/radio3/programme/thebrew</url>
+  </programme>
+  <programme start="20261113140000 +0800" stop="20261113170000 +0800" channel="radio3">
+    <title lang="zh-Hans">Steve James</title>
+    <desc lang="zh-Hans">Steve James</desc>
+    <url>https://www.rthk.hk/radio/radio3/programme/stevejames</url>
+  </programme>
+  <programme start="20261113170000 +0800" stop="20261113180000 +0800" channel="radio3">
+    <title lang="zh-Hans">The Close</title>
+    <desc lang="zh-Hans">The Close</desc>
+    <url>https://www.rthk.hk/radio/radio3/programme/the_close</url>
+  </programme>
+  <programme start="20261113180000 +0800" stop="20261113183000 +0800" channel="radio3">
+    <title lang="zh-Hans">Newswrap</title>
+    <desc lang="zh-Hans">Newswrap</desc>
+    <url>https://www.rthk.hk/radio/radio3/programme/newswrap</url>
+  </programme>
+  <programme start="20261113183000 +0800" stop="20261113210000 +0800" channel="radio3">
+    <title lang="zh-Hans">Sunset Sounds with Simon Willson</title>
+    <desc lang="zh-Hans">Sunset Sounds with Simon Willson</desc>
+    <url>https://www.rthk.hk/radio/radio3/programme/sunsetsounds_simonwillson</url>
+  </programme>
+  <programme start="20261113210000 +0800" stop="20261113220000 +0800" channel="radio3">
+    <title lang="zh-Hans">In the Common Room</title>
+    <desc lang="zh-Hans">SportsFix - Thomas Concu</desc>
+    <url>https://www.rthk.hk/radio/radio3/programme/common_room</url>
+  </programme>
+  <programme start="20261113220000 +0800" stop="20261113230000 +0800" channel="radio3">
+    <title lang="zh-Hans">After Hours with Michael Lance</title>
+    <desc lang="zh-Hans">After Hours with Michael Lance</desc>
+    <url>https://www.rthk.hk/radio/radio3/programme/after_hours</url>
+  </programme>
+  <programme start="20261113230000 +0800" stop="20261113231500 +0800" channel="radio3">
+    <title lang="zh-Hans">News at Eleven</title>
+    <desc lang="zh-Hans">News at Eleven</desc>
+    <url>https://www.rthk.hk/radio/radio3/programme/newsateleven</url>
+  </programme>
+  <programme start="20261113231500 +0800" stop="20261114010000 +0800" channel="radio3">
+    <title lang="zh-Hans">After Hours with Michael Lance</title>
+    <desc lang="zh-Hans">After Hours with Michael Lance</desc>
+    <url>https://www.rthk.hk/radio/radio3/programme/after_hours</url>
+  </programme>
+  <programme start="20261113000000 +0800" stop="20261113060000 +0800" channel="radio4">
+    <title lang="zh-Hans">Night Music 长夜细听</title>
+    <desc lang="zh-Hans">Night Music 长夜细听</desc>
+    <url>https://www.rthk.hk/radio/radio4/programme/nightmusic</url>
+  </programme>
+  <programme start="20261113060000 +0800" stop="20261113080000 +0800" channel="radio4">
+    <title lang="zh-Hans">Aubade</title>
+    <desc lang="zh-Hans">Aubade</desc>
+    <url>https://www.rthk.hk/radio/radio4/programme/Aubade</url>
+  </programme>
+  <programme start="20261113080000 +0800" stop="20261113100000 +0800" channel="radio4">
+    <title lang="zh-Hans">First Notes 由聆开始</title>
+    <desc lang="zh-Hans">First Notes 由聆开始</desc>
+    <url>https://www.rthk.hk/radio/radio4/programme/firstnotes</url>
+  </programme>
+  <programme start="20261113100000 +0800" stop="20261113130000 +0800" channel="radio4">
+    <title lang="zh-Hans">Non-stop Classics 美乐无休</title>
+    <desc lang="zh-Hans">Non-stop Classics 美乐无休</desc>
+    <url>https://www.rthk.hk/radio/radio4/programme/NonstopClassics</url>
+  </programme>
+  <programme start="20261113130000 +0800" stop="20261113140000 +0800" channel="radio4">
+    <title lang="zh-Hans">Delight in a Bite 一时之选</title>
+    <desc lang="zh-Hans">Delight in a Bite 一时之选</desc>
+    <url>https://www.rthk.hk/radio/radio4/programme/delightinabite</url>
+  </programme>
+  <programme start="20261113140000 +0800" stop="20261113150000 +0800" channel="radio4">
+    <title lang="zh-Hans">One Belt One Road Music Journey - Central Asia (Repeat) 一带一路音乐之旅—中亚篇（重播）</title>
+    <desc lang="zh-Hans">One Belt One Road Music Journey - Central Asia (Repeat) 一带一路音乐之旅—中亚篇（重播）</desc>
+    <url>https://www.rthk.hk/radio/radio4/programme/onebeltoneroadcentralasia_r</url>
+  </programme>
+  <programme start="20261113150000 +0800" stop="20261113170000 +0800" channel="radio4">
+    <title lang="zh-Hans">Concert on 4 (Repeat) 四台音乐会（重播）</title>
+    <desc lang="zh-Hans">“Hong Kong Artists” Series 2026: Percussion Recital by Elise Liu and Friends</desc>
+    <url>https://www.rthk.hk/radio/radio4/programme/concerton4rpt</url>
+  </programme>
+  <programme start="20261113170000 +0800" stop="20261113180000 +0800" channel="radio4">
+    <title lang="zh-Hans">Sunset Music Diary 日乐志</title>
+    <desc lang="zh-Hans">Sunset Music Diary 日乐志</desc>
+    <url>https://www.rthk.hk/radio/radio4/programme/sunsetmusicdiary</url>
+  </programme>
+  <programme start="20261113180000 +0800" stop="20261113181800 +0800" channel="radio4">
+    <title lang="zh-Hans">Arts News 艺坛快讯</title>
+    <desc lang="zh-Hans">戏弄华装：香港舞台服装的记录与教育之旅</desc>
+    <url>https://www.rthk.hk/radio/radio4/programme/ArtsNews</url>
+  </programme>
+  <programme start="20261113181800 +0800" stop="20261113190000 +0800" channel="radio4">
+    <title lang="zh-Hans">Sunset Music Diary 日乐志</title>
+    <desc lang="zh-Hans">Sunset Music Diary 日乐志</desc>
+    <url>https://www.rthk.hk/radio/radio4/programme/sunsetmusicdiary</url>
+  </programme>
+  <programme start="20261113190000 +0800" stop="20261113200000 +0800" channel="radio4">
+    <title lang="zh-Hans">Simply Classical 就是古典</title>
+    <desc lang="zh-Hans">Simply Classical 就是古典</desc>
+    <url>https://www.rthk.hk/radio/radio4/programme/simplyclassical</url>
+  </programme>
+  <programme start="20261113200000 +0800" stop="20261113220000 +0800" channel="radio4">
+    <title lang="zh-Hans">Concert on 4 四台音乐会</title>
+    <desc lang="zh-Hans">The Greater Bay Area Youth Orchestra Concert Tour 2026</desc>
+    <url>https://www.rthk.hk/radio/radio4/programme/concerton4</url>
+  </programme>
+  <programme start="20261113220000 +0800" stop="20261113235700 +0800" channel="radio4">
+    <title lang="zh-Hans">Nocturne 夜心曲</title>
+    <desc lang="zh-Hans">Nocturne 夜心曲</desc>
+    <url>https://www.rthk.hk/radio/radio4/programme/nocturne</url>
+  </programme>
+  <programme start="20261113235700 +0800" stop="20261114000000 +0800" channel="radio4">
+    <title lang="zh-Hans">Reflections 晚祷</title>
+    <desc lang="zh-Hans">Reflections 晚祷</desc>
+    <url>https://www.rthk.hk/radio/radio4/programme/Reflection</url>
+  </programme>
+  <programme start="20261113000000 +0800" stop="20261113020000 +0800" channel="radio5">
+    <title lang="zh-Hans">戏曲之夜</title>
+    <desc lang="zh-Hans">节目内容</desc>
+    <url>https://www.rthk.hk/radio/radio5/programme/tconight</url>
+  </programme>
+  <programme start="20261113020000 +0800" stop="20261113050000 +0800" channel="radio5">
+    <title lang="zh-Hans">越夜粤精彩</title>
+    <desc lang="zh-Hans">节目内容</desc>
+    <url>https://www.rthk.hk/radio/radio5/programme/tcoexcitingnight</url>
+  </programme>
+  <programme start="20261113050000 +0800" stop="20261113063000 +0800" channel="radio5">
+    <title lang="zh-Hans">清晨爽利</title>
+    <desc lang="zh-Hans">「健健康康在清晨」主题: 校园欺凌(2) 嘉宾主持: 沈君豪医生（精神科专科）</desc>
+    <url>https://www.rthk.hk/radio/radio5/programme/hellosunrise</url>
+  </programme>
+  <programme start="20261113063000 +0800" stop="20261113080000 +0800" channel="radio5">
+    <title lang="zh-Hans">晨早新闻天地（与第一台联播）</title>
+    <desc lang="zh-Hans">晨早新闻天地（与第一台联播）</desc>
+    <url>https://www.rthk.hk/radio/radio5/programme/hktoday</url>
+  </programme>
+  <programme start="20261113080000 +0800" stop="20261113100000 +0800" channel="radio5">
+    <title lang="zh-Hans">自在早晨</title>
+    <desc lang="zh-Hans">自在早晨</desc>
+    <url>https://www.rthk.hk/radio/radio5/programme/relax_morning</url>
+  </programme>
+  <programme start="20261113100000 +0800" stop="20261113130000 +0800" channel="radio5">
+    <title lang="zh-Hans">香江暖流</title>
+    <desc lang="zh-Hans">《香江游戏王》挑战自己！</desc>
+    <url>https://www.rthk.hk/radio/radio5/programme/elderly</url>
+  </programme>
+  <programme start="20261113130000 +0800" stop="20261113160000 +0800" channel="radio5">
+    <title lang="zh-Hans">戏曲天地</title>
+    <desc lang="zh-Hans">节目内容</desc>
+    <url>https://www.rthk.hk/radio/radio5/programme/tco</url>
+  </programme>
+  <programme start="20261113160000 +0800" stop="20261113180000 +0800" channel="radio5">
+    <title lang="zh-Hans">有你同行</title>
+    <desc lang="zh-Hans">有你同行</desc>
+    <url>https://www.rthk.hk/radio/radio5/programme/standbyme_2011</url>
+  </programme>
+  <programme start="20261113180000 +0800" stop="20261113190000 +0800" channel="radio5">
+    <title lang="zh-Hans">傍晚新闻天地（与第一台联播）</title>
+    <desc lang="zh-Hans">傍晚新闻天地（与第一台联播）</desc>
+    <url>https://www.rthk.hk/radio/radio5/programme/6oclocknews</url>
+  </programme>
+  <programme start="20261113190000 +0800" stop="20261113200000 +0800" channel="radio5">
+    <title lang="zh-Hans">优闲安多Fun</title>
+    <desc lang="zh-Hans">优闲安多Fun - 星期五 : 环游世界</desc>
+    <url>https://www.rthk.hk/radio/radio5/programme/what_a_cozy_evening</url>
+  </programme>
+  <programme start="20261113200000 +0800" stop="20261113210000 +0800" channel="radio5">
+    <title lang="zh-Hans">乐龄是敢的</title>
+    <desc lang="zh-Hans">乐龄是敢的</desc>
+    <url>https://www.rthk.hk/radio/radio5/programme/elderly_go</url>
+  </programme>
+  <programme start="20261113210000 +0800" stop="20261113220000 +0800" channel="radio5">
+    <title lang="zh-Hans">绿TEEN工作</title>
+    <desc lang="zh-Hans">绿TEEN工作</desc>
+    <url>https://www.rthk.hk/radio/radio5/programme/teensforgreen</url>
+  </programme>
+  <programme start="20261113220000 +0800" stop="20261113223500 +0800" channel="radio5">
+    <title lang="zh-Hans">晚间新闻天地（与第一台联播）</title>
+    <desc lang="zh-Hans">晚间新闻天地（与第一台联播）</desc>
+    <url>https://www.rthk.hk/radio/radio5/programme/eveningnews</url>
+  </programme>
+  <programme start="20261113223500 +0800" stop="20261114020000 +0800" channel="radio5">
+    <title lang="zh-Hans">戏曲之夜</title>
+    <desc lang="zh-Hans">节目内容</desc>
+    <url>https://www.rthk.hk/radio/radio5/programme/tconight</url>
+  </programme>
+  <programme start="20261113000000 +0800" stop="20261113020000 +0800" channel="pth">
+    <title lang="zh-Hans">月夜乐逍遥</title>
+    <desc lang="zh-Hans">月夜乐逍遥</desc>
+    <url>https://www.rthk.hk/radio/pth/programme/MoonlightDejavu1</url>
+  </programme>
+  <programme start="20261113020000 +0800" stop="20261113060000 +0800" channel="pth">
+    <title lang="zh-Hans">轻谈浅唱不夜天（与第二台联播）</title>
+    <desc lang="zh-Hans">轻谈浅唱不夜天（与第二台联播）</desc>
+    <url>https://www.rthk.hk/radio/pth/programme/keepuco</url>
+  </programme>
+  <programme start="20261113060000 +0800" stop="20261113070000 +0800" channel="pth">
+    <title lang="zh-Hans">晨光第一线（与第二台联播）</title>
+    <desc lang="zh-Hans">晨光第一线（与第二台联播）</desc>
+    <url>https://www.rthk.hk/radio/pth/programme/morningsuite</url>
+  </programme>
+  <programme start="20261113070000 +0800" stop="20261113090000 +0800" channel="pth">
+    <title lang="zh-Hans">好Young音乐</title>
+    <desc lang="zh-Hans">好Young音乐</desc>
+    <url>https://www.rthk.hk/radio/pth/programme/2024youngmusic</url>
+  </programme>
+  <programme start="20261113090000 +0800" stop="20261113100000 +0800" channel="pth">
+    <title lang="zh-Hans">621新闻财经</title>
+    <desc lang="zh-Hans">621新闻财经</desc>
+    <url>https://www.rthk.hk/radio/pth/programme/2022morningnewsfinance</url>
+  </programme>
+  <programme start="20261113100000 +0800" stop="20261113120000 +0800" channel="pth">
+    <title lang="zh-Hans">新紫荆广场</title>
+    <desc lang="zh-Hans">杨子矜 麦尚中 郭雅诗 洪翠娟/给生活加点甜是我的使命/中山地道一日游/社会热点话题</desc>
+    <url>https://www.rthk.hk/radio/pth/programme/xinzijingguangchang</url>
+  </programme>
+  <programme start="20261113120000 +0800" stop="20261113130000 +0800" channel="pth">
+    <title lang="zh-Hans">U秀帮</title>
+    <desc lang="zh-Hans">U秀帮</desc>
+    <url>https://www.rthk.hk/radio/pth/programme/uxiubang</url>
+  </programme>
+  <programme start="20261113130000 +0800" stop="20261113140000 +0800" channel="pth">
+    <title lang="zh-Hans">午间新闻/财经</title>
+    <desc lang="zh-Hans">黄德几：恒指补裂口有突 港股有弹都有散！关注业绩、息口敏感题材</desc>
+    <url>https://www.rthk.hk/radio/pth/programme/noonnews</url>
+  </programme>
+  <programme start="20261113140000 +0800" stop="20261113160000 +0800" channel="pth">
+    <title lang="zh-Hans">寰听世界</title>
+    <desc lang="zh-Hans">寰听世界-寰球食光/深圳台广播剧《斗嘴一班》</desc>
+    <url>https://www.rthk.hk/radio/pth/programme/huantingshijie</url>
+  </programme>
+  <programme start="20261113160000 +0800" stop="20261113170000 +0800" channel="pth">
+    <title lang="zh-Hans">普出校园精彩</title>
+    <desc lang="zh-Hans">普出校园精彩</desc>
+    <url>https://www.rthk.hk/radio/pth/programme/schooltour</url>
+  </programme>
+  <programme start="20261113170000 +0800" stop="20261113180000 +0800" channel="pth">
+    <title lang="zh-Hans">e线金融网</title>
+    <desc lang="zh-Hans">张健朗、吴子轩：故事只是故事 记忆体业绩才是硬道理？关注数据中心资金回报</desc>
+    <url>https://www.rthk.hk/radio/pth/programme/ezone2020</url>
+  </programme>
+  <programme start="20261113180000 +0800" stop="20261113193000 +0800" channel="pth">
+    <title lang="zh-Hans">音乐抱抱</title>
+    <desc lang="zh-Hans">音乐抱抱</desc>
+    <url>https://www.rthk.hk/radio/pth/programme/yinyuebaobao</url>
+  </programme>
+  <programme start="20261113193000 +0800" stop="20261113200000 +0800" channel="pth">
+    <title lang="zh-Hans">晚间新闻/财经</title>
+    <desc lang="zh-Hans">晚间新闻/财经</desc>
+    <url>https://www.rthk.hk/radio/pth/programme/wanjianxinwencaijing</url>
+  </programme>
+  <programme start="20261113200000 +0800" stop="20261113210000 +0800" channel="pth">
+    <title lang="zh-Hans">CIBS节目：艺术无界限</title>
+    <desc lang="zh-Hans">第七集：绘画上油小师傅 -「wePaint 菁然社企」</desc>
+    <url>https://www.rthk.hk/radio/pth/programme/p2368_arts_beyond_boundaries</url>
+  </programme>
+  <programme start="20261113210000 +0800" stop="20261113220000 +0800" channel="pth">
+    <title lang="zh-Hans">CIBS节目：非专业推介</title>
+    <desc lang="zh-Hans">第七集 电影与广告的音画语言</desc>
+    <url>https://www.rthk.hk/radio/pth/programme/g1656_b_side_music</url>
+  </programme>
+  <programme start="20261113220000 +0800" stop="20261113230000 +0800" channel="pth">
+    <title lang="zh-Hans">CIBS节目：好死有SAY</title>
+    <desc lang="zh-Hans">第7集 : 家有一老如有一宝</desc>
+    <url>https://www.rthk.hk/radio/pth/programme/g1698_rip_on_my_way</url>
+  </programme>
+  <programme start="20261113230000 +0800" stop="20261114020000 +0800" channel="pth">
+    <title lang="zh-Hans">月夜乐逍遥</title>
+    <desc lang="zh-Hans">月夜乐逍遥</desc>
+    <url>https://www.rthk.hk/radio/pth/programme/MoonlightDejavu1</url>
+  </programme>
+  <programme start="20261113000000 +0800" stop="20261113060000 +0800" channel="radiocnrhk">
+    <title lang="zh-Hans">转播中央人民广播电台香港之声</title>
+    <url>https://www.rthk.hk/radio/radiocnrhk/programme/cnr</url>
+  </programme>
+  <programme start="20261113060000 +0800" stop="20261114000000 +0800" channel="radiocnrhk">
+    <title lang="zh-Hans">转播中央人民广播电台香港之声</title>
+    <url>https://www.rthk.hk/radio/radiocnrhk/programme/cnr</url>
+  </programme>
+  <programme start="20261113000000 +0800" stop="20261113060000 +0800" channel="radiocmgrgb">
+    <title lang="zh-Hans">转播中央广播电视总台粤港澳大湾区之声</title>
+    <url>https://www.rthk.hk/radio/radiocmgrgb/programme/cmg</url>
+  </programme>
+  <programme start="20261113060000 +0800" stop="20261114000000 +0800" channel="radiocmgrgb">
     <title lang="zh-Hans">转播中央广播电视总台粤港澳大湾区之声</title>
     <url>https://www.rthk.hk/radio/radiocmgrgb/programme/cmg</url>
   </programme>
@@ -1442,6 +1035,7 @@
   </programme>
   <programme start="20261115010000 +0800" stop="20261115020000 +0800" channel="radio2">
     <title lang="zh-Hans">音乐关系</title>
+    <desc lang="zh-Hans">嘉宾：敲击乐演奏家 谭诗蔚 Sylvia (下)</desc>
     <url>https://www.rthk.hk/radio/radio2/programme/music_companion</url>
   </programme>
   <programme start="20261115020000 +0800" stop="20261115060000 +0800" channel="radio2">
@@ -1765,6 +1359,7 @@
   </programme>
   <programme start="20261115170000 +0800" stop="20261115180000 +0800" channel="pth">
     <title lang="zh-Hans">U秀帮周日版</title>
+    <desc lang="zh-Hans">二次元入圈指南</desc>
     <url>https://www.rthk.hk/radio/pth/programme/elitebunchsunday</url>
   </programme>
   <programme start="20261115180000 +0800" stop="20261115200000 +0800" channel="pth">
@@ -2205,6 +1800,408 @@
     <url>https://www.rthk.hk/radio/radiocmgrgb/programme/cmg</url>
   </programme>
   <programme start="20261116060000 +0800" stop="20261117000000 +0800" channel="radiocmgrgb">
+    <title lang="zh-Hans">转播中央广播电视总台粤港澳大湾区之声</title>
+    <url>https://www.rthk.hk/radio/radiocmgrgb/programme/cmg</url>
+  </programme>
+  <programme start="20261117000000 +0800" stop="20261117010000 +0800" channel="radio1">
+    <title lang="zh-Hans">那些年 张伟基</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/those_were_the_days</url>
+  </programme>
+  <programme start="20261117010000 +0800" stop="20261117013000 +0800" channel="radio1">
+    <title lang="zh-Hans">香港故事</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/Hongkongstory</url>
+  </programme>
+  <programme start="20261117013000 +0800" stop="20261117033000 +0800" channel="radio1">
+    <title lang="zh-Hans">CIBS人人广播</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/cibs_we_broadcast</url>
+  </programme>
+  <programme start="20261117033000 +0800" stop="20261117050000 +0800" channel="radio1">
+    <title lang="zh-Hans">大自然之声</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/sound_of_nature</url>
+  </programme>
+  <programme start="20261117050000 +0800" stop="20261117063000 +0800" channel="radio1">
+    <title lang="zh-Hans">清晨爽利 （与第五台联播）</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/fresh_morning</url>
+  </programme>
+  <programme start="20261117063000 +0800" stop="20261117080000 +0800" channel="radio1">
+    <title lang="zh-Hans">晨早新闻天地</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/hktoday</url>
+  </programme>
+  <programme start="20261117080000 +0800" stop="20261117100000 +0800" channel="radio1">
+    <title lang="zh-Hans">千禧年代</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/HK2000</url>
+  </programme>
+  <programme start="20261117100000 +0800" stop="20261117102000 +0800" channel="radio1">
+    <title lang="zh-Hans">一桶金</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/Moneyprogram</url>
+  </programme>
+  <programme start="20261117102000 +0800" stop="20261117120000 +0800" channel="radio1">
+    <title lang="zh-Hans">是日快乐</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/itsahappyday</url>
+  </programme>
+  <programme start="20261117120000 +0800" stop="20261117123000 +0800" channel="radio1">
+    <title lang="zh-Hans">午间新闻天地</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/12oclocknews</url>
+  </programme>
+  <programme start="20261117123000 +0800" stop="20261117130000 +0800" channel="radio1">
+    <title lang="zh-Hans">一桶金</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/Moneyprogram</url>
+  </programme>
+  <programme start="20261117130000 +0800" stop="20261117150000 +0800" channel="radio1">
+    <title lang="zh-Hans">精灵一点</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/healthpedia</url>
+  </programme>
+  <programme start="20261117150000 +0800" stop="20261117160000 +0800" channel="radio1">
+    <title lang="zh-Hans">港识生活馆</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/yolo</url>
+  </programme>
+  <programme start="20261117160000 +0800" stop="20261117163000 +0800" channel="radio1">
+    <title lang="zh-Hans">动力4射</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/sport4life</url>
+  </programme>
+  <programme start="20261117163000 +0800" stop="20261117170000 +0800" channel="radio1">
+    <title lang="zh-Hans">一桶金</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/Moneyprogram</url>
+  </programme>
+  <programme start="20261117170000 +0800" stop="20261117180000 +0800" channel="radio1">
+    <title lang="zh-Hans">自由风自由PHONE</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/openline_openview</url>
+  </programme>
+  <programme start="20261117180000 +0800" stop="20261117190000 +0800" channel="radio1">
+    <title lang="zh-Hans">傍晚新闻天地</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/6oclocknews</url>
+  </programme>
+  <programme start="20261117190000 +0800" stop="20261117200000 +0800" channel="radio1">
+    <title lang="zh-Hans">十八好时光</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/18heartfeltvibes</url>
+  </programme>
+  <programme start="20261117200000 +0800" stop="20261117220000 +0800" channel="radio1">
+    <title lang="zh-Hans">守下留情</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/seesaw</url>
+  </programme>
+  <programme start="20261117220000 +0800" stop="20261117223500 +0800" channel="radio1">
+    <title lang="zh-Hans">晚间新闻天地</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/eveningnews</url>
+  </programme>
+  <programme start="20261117223500 +0800" stop="20261118000000 +0800" channel="radio1">
+    <title lang="zh-Hans">讲东讲西 (星期一至五)</title>
+    <url>https://www.rthk.hk/radio/radio1/programme/Free_as_the_wind</url>
+  </programme>
+  <programme start="20261117000000 +0800" stop="20261117020000 +0800" channel="radio2">
+    <title lang="zh-Hans">音乐说</title>
+    <url>https://www.rthk.hk/radio/radio2/programme/letthemusicspeak</url>
+  </programme>
+  <programme start="20261117020000 +0800" stop="20261117060000 +0800" channel="radio2">
+    <title lang="zh-Hans">轻谈浅唱不夜天</title>
+    <url>https://www.rthk.hk/radio/radio2/programme/keepuco</url>
+  </programme>
+  <programme start="20261117060000 +0800" stop="20261117100000 +0800" channel="radio2">
+    <title lang="zh-Hans">晨光第一线</title>
+    <url>https://www.rthk.hk/radio/radio2/programme/morningsuite</url>
+  </programme>
+  <programme start="20261117100000 +0800" stop="20261117120000 +0800" channel="radio2">
+    <title lang="zh-Hans">疯 Show 快活人</title>
+    <url>https://www.rthk.hk/radio/radio2/programme/crazyandhappy</url>
+  </programme>
+  <programme start="20261117120000 +0800" stop="20261117130000 +0800" channel="radio2">
+    <title lang="zh-Hans">音乐中年</title>
+    <url>https://www.rthk.hk/radio/radio2/programme/musiclife</url>
+  </programme>
+  <programme start="20261117130000 +0800" stop="20261117150000 +0800" channel="radio2">
+    <title lang="zh-Hans">Made in Hong Kong 李志刚</title>
+    <url>https://www.rthk.hk/radio/radio2/programme/madeinhk</url>
+  </programme>
+  <programme start="20261117150000 +0800" stop="20261117170000 +0800" channel="radio2">
+    <title lang="zh-Hans">三五成群</title>
+    <url>https://www.rthk.hk/radio/radio2/programme/threesacrowd</url>
+  </programme>
+  <programme start="20261117170000 +0800" stop="20261117190000 +0800" channel="radio2">
+    <title lang="zh-Hans">骚动音乐</title>
+    <url>https://www.rthk.hk/radio/radio2/programme/musicinaction</url>
+  </programme>
+  <programme start="20261117190000 +0800" stop="20261117200000 +0800" channel="radio2">
+    <title lang="zh-Hans">Albert Au 区瑞强</title>
+    <url>https://www.rthk.hk/radio/radio2/programme/albertau</url>
+  </programme>
+  <programme start="20261117200000 +0800" stop="20261117210000 +0800" channel="radio2">
+    <title lang="zh-Hans">恬淡情怀</title>
+    <url>https://www.rthk.hk/radio/radio2/programme/subtle_sensuality</url>
+  </programme>
+  <programme start="20261117210000 +0800" stop="20261117220000 +0800" channel="radio2">
+    <title lang="zh-Hans">音乐情人</title>
+    <url>https://www.rthk.hk/radio/radio2/programme/musiclover</url>
+  </programme>
+  <programme start="20261117220000 +0800" stop="20261118000000 +0800" channel="radio2">
+    <title lang="zh-Hans">她．他．它</title>
+    <url>https://www.rthk.hk/radio/radio2/programme/ladiesnight</url>
+  </programme>
+  <programme start="20261117000000 +0800" stop="20261117010000 +0800" channel="radio3">
+    <title lang="zh-Hans">After Hours with Michael Lance</title>
+    <url>https://www.rthk.hk/radio/radio3/programme/after_hours</url>
+  </programme>
+  <programme start="20261117010000 +0800" stop="20261117060000 +0800" channel="radio3">
+    <title lang="zh-Hans">Night Music on Radio 3</title>
+    <url>https://www.rthk.hk/radio/radio3/programme/nightmusic</url>
+  </programme>
+  <programme start="20261117060000 +0800" stop="20261117063000 +0800" channel="radio3">
+    <title lang="zh-Hans">Early AM</title>
+    <url>https://www.rthk.hk/radio/radio3/programme/earlyam</url>
+  </programme>
+  <programme start="20261117063000 +0800" stop="20261117080000 +0800" channel="radio3">
+    <title lang="zh-Hans">Hong Kong Today</title>
+    <url>https://www.rthk.hk/radio/radio3/programme/hongkongtoday</url>
+  </programme>
+  <programme start="20261117080000 +0800" stop="20261117090000 +0800" channel="radio3">
+    <title lang="zh-Hans">Money Talk</title>
+    <url>https://www.rthk.hk/radio/radio3/programme/money_talk</url>
+  </programme>
+  <programme start="20261117090000 +0800" stop="20261117100000 +0800" channel="radio3">
+    <title lang="zh-Hans">Backchat</title>
+    <url>https://www.rthk.hk/radio/radio3/programme/backchat</url>
+  </programme>
+  <programme start="20261117100000 +0800" stop="20261117120000 +0800" channel="radio3">
+    <title lang="zh-Hans">Brunch</title>
+    <url>https://www.rthk.hk/radio/radio3/programme/brunch</url>
+  </programme>
+  <programme start="20261117120000 +0800" stop="20261117130000 +0800" channel="radio3">
+    <title lang="zh-Hans">The Brew</title>
+    <url>https://www.rthk.hk/radio/radio3/programme/thebrew</url>
+  </programme>
+  <programme start="20261117130000 +0800" stop="20261117131500 +0800" channel="radio3">
+    <title lang="zh-Hans">News at One</title>
+    <url>https://www.rthk.hk/radio/radio3/programme/newsatone</url>
+  </programme>
+  <programme start="20261117131500 +0800" stop="20261117140000 +0800" channel="radio3">
+    <title lang="zh-Hans">The Brew</title>
+    <url>https://www.rthk.hk/radio/radio3/programme/thebrew</url>
+  </programme>
+  <programme start="20261117140000 +0800" stop="20261117170000 +0800" channel="radio3">
+    <title lang="zh-Hans">Steve James</title>
+    <url>https://www.rthk.hk/radio/radio3/programme/stevejames</url>
+  </programme>
+  <programme start="20261117170000 +0800" stop="20261117180000 +0800" channel="radio3">
+    <title lang="zh-Hans">The Close</title>
+    <url>https://www.rthk.hk/radio/radio3/programme/the_close</url>
+  </programme>
+  <programme start="20261117180000 +0800" stop="20261117183000 +0800" channel="radio3">
+    <title lang="zh-Hans">Newswrap</title>
+    <url>https://www.rthk.hk/radio/radio3/programme/newswrap</url>
+  </programme>
+  <programme start="20261117183000 +0800" stop="20261117210000 +0800" channel="radio3">
+    <title lang="zh-Hans">Sunset Sounds with Simon Willson</title>
+    <url>https://www.rthk.hk/radio/radio3/programme/sunsetsounds_simonwillson</url>
+  </programme>
+  <programme start="20261117210000 +0800" stop="20261117220000 +0800" channel="radio3">
+    <title lang="zh-Hans">In the Common Room</title>
+    <url>https://www.rthk.hk/radio/radio3/programme/common_room</url>
+  </programme>
+  <programme start="20261117220000 +0800" stop="20261117230000 +0800" channel="radio3">
+    <title lang="zh-Hans">After Hours with Michael Lance</title>
+    <url>https://www.rthk.hk/radio/radio3/programme/after_hours</url>
+  </programme>
+  <programme start="20261117230000 +0800" stop="20261117231500 +0800" channel="radio3">
+    <title lang="zh-Hans">News at Eleven</title>
+    <url>https://www.rthk.hk/radio/radio3/programme/newsateleven</url>
+  </programme>
+  <programme start="20261117231500 +0800" stop="20261118010000 +0800" channel="radio3">
+    <title lang="zh-Hans">After Hours with Michael Lance</title>
+    <url>https://www.rthk.hk/radio/radio3/programme/after_hours</url>
+  </programme>
+  <programme start="20261117000000 +0800" stop="20261117060000 +0800" channel="radio4">
+    <title lang="zh-Hans">Night Music 长夜细听</title>
+    <url>https://www.rthk.hk/radio/radio4/programme/nightmusic</url>
+  </programme>
+  <programme start="20261117060000 +0800" stop="20261117080000 +0800" channel="radio4">
+    <title lang="zh-Hans">Aubade</title>
+    <url>https://www.rthk.hk/radio/radio4/programme/Aubade</url>
+  </programme>
+  <programme start="20261117080000 +0800" stop="20261117100000 +0800" channel="radio4">
+    <title lang="zh-Hans">First Notes 由聆开始</title>
+    <url>https://www.rthk.hk/radio/radio4/programme/firstnotes</url>
+  </programme>
+  <programme start="20261117100000 +0800" stop="20261117130000 +0800" channel="radio4">
+    <title lang="zh-Hans">Non-stop Classics 美乐无休</title>
+    <url>https://www.rthk.hk/radio/radio4/programme/NonstopClassics</url>
+  </programme>
+  <programme start="20261117130000 +0800" stop="20261117140000 +0800" channel="radio4">
+    <title lang="zh-Hans">Delight in a Bite 一时之选</title>
+    <url>https://www.rthk.hk/radio/radio4/programme/delightinabite</url>
+  </programme>
+  <programme start="20261117140000 +0800" stop="20261117150000 +0800" channel="radio4">
+    <title lang="zh-Hans">Music from China (Repeat) 乐在神州（重播）</title>
+    <url>https://www.rthk.hk/radio/radio4/programme/musicfromchina_r</url>
+  </programme>
+  <programme start="20261117150000 +0800" stop="20261117170000 +0800" channel="radio4">
+    <title lang="zh-Hans">Concert on 4 (Repeat) 四台音乐会（重播）</title>
+    <desc lang="zh-Hans">Shunske Sato and Shuann Chai: Beethoven Violin Sonatas</desc>
+    <url>https://www.rthk.hk/radio/radio4/programme/concerton4rpt</url>
+  </programme>
+  <programme start="20261117170000 +0800" stop="20261117180000 +0800" channel="radio4">
+    <title lang="zh-Hans">Sunset Music Diary 日乐志</title>
+    <url>https://www.rthk.hk/radio/radio4/programme/sunsetmusicdiary</url>
+  </programme>
+  <programme start="20261117180000 +0800" stop="20261117181800 +0800" channel="radio4">
+    <title lang="zh-Hans">Arts News 艺坛快讯</title>
+    <url>https://www.rthk.hk/radio/radio4/programme/ArtsNews</url>
+  </programme>
+  <programme start="20261117181800 +0800" stop="20261117190000 +0800" channel="radio4">
+    <title lang="zh-Hans">Sunset Music Diary 日乐志</title>
+    <url>https://www.rthk.hk/radio/radio4/programme/sunsetmusicdiary</url>
+  </programme>
+  <programme start="20261117190000 +0800" stop="20261117200000 +0800" channel="radio4">
+    <title lang="zh-Hans">Simply Classical 就是古典</title>
+    <url>https://www.rthk.hk/radio/radio4/programme/simplyclassical</url>
+  </programme>
+  <programme start="20261117200000 +0800" stop="20261117220000 +0800" channel="radio4">
+    <title lang="zh-Hans">Concert on 4 四台音乐会</title>
+    <desc lang="zh-Hans">Czech Philharmonic: Suk and Sibelius</desc>
+    <url>https://www.rthk.hk/radio/radio4/programme/concerton4</url>
+  </programme>
+  <programme start="20261117220000 +0800" stop="20261117235700 +0800" channel="radio4">
+    <title lang="zh-Hans">Nocturne 夜心曲</title>
+    <url>https://www.rthk.hk/radio/radio4/programme/nocturne</url>
+  </programme>
+  <programme start="20261117235700 +0800" stop="20261118000000 +0800" channel="radio4">
+    <title lang="zh-Hans">Reflections 晚祷</title>
+    <url>https://www.rthk.hk/radio/radio4/programme/Reflection</url>
+  </programme>
+  <programme start="20261117000000 +0800" stop="20261117020000 +0800" channel="radio5">
+    <title lang="zh-Hans">戏曲之夜</title>
+    <url>https://www.rthk.hk/radio/radio5/programme/tconight</url>
+  </programme>
+  <programme start="20261117020000 +0800" stop="20261117050000 +0800" channel="radio5">
+    <title lang="zh-Hans">越夜粤精彩</title>
+    <url>https://www.rthk.hk/radio/radio5/programme/tcoexcitingnight</url>
+  </programme>
+  <programme start="20261117050000 +0800" stop="20261117063000 +0800" channel="radio5">
+    <title lang="zh-Hans">清晨爽利</title>
+    <url>https://www.rthk.hk/radio/radio5/programme/hellosunrise</url>
+  </programme>
+  <programme start="20261117063000 +0800" stop="20261117080000 +0800" channel="radio5">
+    <title lang="zh-Hans">晨早新闻天地（与第一台联播）</title>
+    <url>https://www.rthk.hk/radio/radio5/programme/hktoday</url>
+  </programme>
+  <programme start="20261117080000 +0800" stop="20261117100000 +0800" channel="radio5">
+    <title lang="zh-Hans">自在早晨</title>
+    <url>https://www.rthk.hk/radio/radio5/programme/relax_morning</url>
+  </programme>
+  <programme start="20261117100000 +0800" stop="20261117130000 +0800" channel="radio5">
+    <title lang="zh-Hans">香江暖流</title>
+    <url>https://www.rthk.hk/radio/radio5/programme/elderly</url>
+  </programme>
+  <programme start="20261117130000 +0800" stop="20261117160000 +0800" channel="radio5">
+    <title lang="zh-Hans">戏曲天地</title>
+    <url>https://www.rthk.hk/radio/radio5/programme/tco</url>
+  </programme>
+  <programme start="20261117160000 +0800" stop="20261117180000 +0800" channel="radio5">
+    <title lang="zh-Hans">有你同行</title>
+    <url>https://www.rthk.hk/radio/radio5/programme/standbyme_2011</url>
+  </programme>
+  <programme start="20261117180000 +0800" stop="20261117190000 +0800" channel="radio5">
+    <title lang="zh-Hans">傍晚新闻天地（与第一台联播）</title>
+    <url>https://www.rthk.hk/radio/radio5/programme/6oclocknews</url>
+  </programme>
+  <programme start="20261117190000 +0800" stop="20261117200000 +0800" channel="radio5">
+    <title lang="zh-Hans">优闲安多Fun</title>
+    <url>https://www.rthk.hk/radio/radio5/programme/what_a_cozy_evening</url>
+  </programme>
+  <programme start="20261117200000 +0800" stop="20261117210000 +0800" channel="radio5">
+    <title lang="zh-Hans">善报</title>
+    <url>https://www.rthk.hk/radio/radio5/programme/goodpost</url>
+  </programme>
+  <programme start="20261117210000 +0800" stop="20261117220000 +0800" channel="radio5">
+    <title lang="zh-Hans">奋发时刻</title>
+    <url>https://www.rthk.hk/radio/radio5/programme/study_hard</url>
+  </programme>
+  <programme start="20261117220000 +0800" stop="20261117223500 +0800" channel="radio5">
+    <title lang="zh-Hans">晚间新闻天地（与第一台联播）</title>
+    <url>https://www.rthk.hk/radio/radio5/programme/eveningnews</url>
+  </programme>
+  <programme start="20261117223500 +0800" stop="20261118020000 +0800" channel="radio5">
+    <title lang="zh-Hans">戏曲之夜</title>
+    <url>https://www.rthk.hk/radio/radio5/programme/tconight</url>
+  </programme>
+  <programme start="20261117000000 +0800" stop="20261117020000 +0800" channel="pth">
+    <title lang="zh-Hans">月夜乐逍遥</title>
+    <url>https://www.rthk.hk/radio/pth/programme/MoonlightDejavu1</url>
+  </programme>
+  <programme start="20261117020000 +0800" stop="20261117060000 +0800" channel="pth">
+    <title lang="zh-Hans">轻谈浅唱不夜天（与第二台联播）</title>
+    <url>https://www.rthk.hk/radio/pth/programme/keepuco</url>
+  </programme>
+  <programme start="20261117060000 +0800" stop="20261117070000 +0800" channel="pth">
+    <title lang="zh-Hans">晨光第一线（与第二台联播）</title>
+    <url>https://www.rthk.hk/radio/pth/programme/morningsuite</url>
+  </programme>
+  <programme start="20261117070000 +0800" stop="20261117090000 +0800" channel="pth">
+    <title lang="zh-Hans">好Young音乐</title>
+    <url>https://www.rthk.hk/radio/pth/programme/2024youngmusic</url>
+  </programme>
+  <programme start="20261117090000 +0800" stop="20261117100000 +0800" channel="pth">
+    <title lang="zh-Hans">621新闻财经</title>
+    <url>https://www.rthk.hk/radio/pth/programme/2022morningnewsfinance</url>
+  </programme>
+  <programme start="20261117100000 +0800" stop="20261117120000 +0800" channel="pth">
+    <title lang="zh-Hans">新紫荆广场</title>
+    <url>https://www.rthk.hk/radio/pth/programme/xinzijingguangchang</url>
+  </programme>
+  <programme start="20261117120000 +0800" stop="20261117130000 +0800" channel="pth">
+    <title lang="zh-Hans">U秀帮</title>
+    <url>https://www.rthk.hk/radio/pth/programme/uxiubang</url>
+  </programme>
+  <programme start="20261117130000 +0800" stop="20261117140000 +0800" channel="pth">
+    <title lang="zh-Hans">午间新闻/财经</title>
+    <url>https://www.rthk.hk/radio/pth/programme/noonnews</url>
+  </programme>
+  <programme start="20261117140000 +0800" stop="20261117160000 +0800" channel="pth">
+    <title lang="zh-Hans">寰听世界</title>
+    <url>https://www.rthk.hk/radio/pth/programme/huantingshijie</url>
+  </programme>
+  <programme start="20261117160000 +0800" stop="20261117170000 +0800" channel="pth">
+    <title lang="zh-Hans">普出校园精彩</title>
+    <url>https://www.rthk.hk/radio/pth/programme/schooltour</url>
+  </programme>
+  <programme start="20261117170000 +0800" stop="20261117180000 +0800" channel="pth">
+    <title lang="zh-Hans">e线金融网</title>
+    <url>https://www.rthk.hk/radio/pth/programme/ezone2020</url>
+  </programme>
+  <programme start="20261117180000 +0800" stop="20261117193000 +0800" channel="pth">
+    <title lang="zh-Hans">音乐抱抱</title>
+    <url>https://www.rthk.hk/radio/pth/programme/yinyuebaobao</url>
+  </programme>
+  <programme start="20261117193000 +0800" stop="20261117200000 +0800" channel="pth">
+    <title lang="zh-Hans">晚间新闻/财经</title>
+    <url>https://www.rthk.hk/radio/pth/programme/wanjianxinwencaijing</url>
+  </programme>
+  <programme start="20261117200000 +0800" stop="20261117210000 +0800" channel="pth">
+    <title lang="zh-Hans">CIBS节目：从不孤单． 「同创」照顾新里程</title>
+    <url>https://www.rthk.hk/radio/pth/programme/p2390_carers_are_not_alone</url>
+  </programme>
+  <programme start="20261117210000 +0800" stop="20261117220000 +0800" channel="pth">
+    <title lang="zh-Hans">CIBS节目：体适能与您</title>
+    <url>https://www.rthk.hk/radio/pth/programme/g1690_physical_fitness_and_u</url>
+  </programme>
+  <programme start="20261117220000 +0800" stop="20261117230000 +0800" channel="pth">
+    <title lang="zh-Hans">夜妈妈心里话</title>
+    <url>https://www.rthk.hk/radio/pth/programme/2022dreamalittledream</url>
+  </programme>
+  <programme start="20261117230000 +0800" stop="20261118020000 +0800" channel="pth">
+    <title lang="zh-Hans">月夜乐逍遥</title>
+    <url>https://www.rthk.hk/radio/pth/programme/MoonlightDejavu1</url>
+  </programme>
+  <programme start="20261117000000 +0800" stop="20261117060000 +0800" channel="radiocnrhk">
+    <title lang="zh-Hans">转播中央人民广播电台香港之声</title>
+    <url>https://www.rthk.hk/radio/radiocnrhk/programme/cnr</url>
+  </programme>
+  <programme start="20261117060000 +0800" stop="20261118000000 +0800" channel="radiocnrhk">
+    <title lang="zh-Hans">转播中央人民广播电台香港之声</title>
+    <url>https://www.rthk.hk/radio/radiocnrhk/programme/cnr</url>
+  </programme>
+  <programme start="20261117000000 +0800" stop="20261117060000 +0800" channel="radiocmgrgb">
+    <title lang="zh-Hans">转播中央广播电视总台粤港澳大湾区之声</title>
+    <url>https://www.rthk.hk/radio/radiocmgrgb/programme/cmg</url>
+  </programme>
+  <programme start="20261117060000 +0800" stop="20261118000000 +0800" channel="radiocmgrgb">
     <title lang="zh-Hans">转播中央广播电视总台粤港澳大湾区之声</title>
     <url>https://www.rthk.hk/radio/radiocmgrgb/programme/cmg</url>
   </programme>
