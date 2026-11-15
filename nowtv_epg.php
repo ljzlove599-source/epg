@@ -3,7 +3,7 @@
  * 香港 Now TV 官方节目单采集（PHP版）
  * 数据源：https://nowplayer.now.com/tvguide
  * 输出：epg/epg_nowtv.xml（标准 XMLTV 格式）
- * 繁简转换：同目录 t2s.json（支持 // 和 /* */ 注释）
+ * 繁简转换：同目录 t2s.json（支持单行、多行注释格式）
  * 运行方式：php nowtv_epg.php
  */
 
@@ -27,9 +27,9 @@ $_t2s_map = null;
  * 移除 JSON 中的单行/多行注释，支持 t2s.json 带注释写法
  */
 function strip_json_comments($json) {
-    // 移除多行注释 /* ... */
+    // 移除多行注释
     $json = preg_replace('/\/\*.*?\*\//s', '', $json);
-    // 移除单行注释 // ...
+    // 移除单行注释
     $json = preg_replace('/\/\/.*$/m', '', $json);
     return trim($json);
 }
@@ -60,7 +60,7 @@ function load_t2s_map() {
         return $_t2s_map;
     }
 
-    // 按键长度降序，长词优先替换（strtr 原生也支持，此处双重保险）
+    // 按键长度降序，长词优先替换
     uksort($map, function($a, $b) {
         return mb_strlen($b, 'UTF-8') - mb_strlen($a, 'UTF-8');
     });
@@ -113,7 +113,7 @@ function http_get($url, $extra_headers = [], $timeout = 25, $retries = 2) {
             return $response;
         }
         $last_error = curl_error($ch) . " (HTTP {$http_code})";
-        usleep(500000); // 重试间隔0.5秒
+        usleep(500000);
     }
     curl_close($ch);
     throw new Exception("请求失败 [{$url}]: {$last_error}");
@@ -175,17 +175,14 @@ function count_covered_ymds($rows, $all_ymds, $min_hours) {
 
 /**
  * 获取频道列表（含频道中文名）
- * 坑点：频道名只能从详情页 <title> 提取，列表页只有编号
  */
 function fetch_channel_list() {
     echo "[步骤1/5] 正在获取频道列表...\n";
     $html = http_get(TVGUIDE_URL . '?lang=zh');
 
-    // 主匹配：频道号
     preg_match_all('/<span class="ch-num">(\d+)<\/span>/', $html, $matches);
     $ids = array_unique($matches[1] ?? []);
 
-    // 兜底匹配：从详情链接提取
     if (empty($ids)) {
         preg_match_all('/\/tvguide\/channeldetail\/(\d+)\/\d+/', $html, $matches);
         $ids = array_unique($matches[1] ?? []);
@@ -237,7 +234,7 @@ function fetch_channel_list() {
             $title = trim($t[1]);
             $gt_pos = strrpos($title, '>');
             $name = $gt_pos !== false ? trim(mb_substr($title, $gt_pos + 1)) : $title;
-            $channels[$idx]['name'] = t2s($name); // 频道名同步繁转简
+            $channels[$idx]['name'] = t2s($name);
         }
         curl_multi_remove_handle($multi, $c);
         curl_close($c);
@@ -249,8 +246,6 @@ function fetch_channel_list() {
 
 /**
  * 批量获取单日多频道节目
- * 坑点②：channelIdList 必须重复参数名，不能逗号拼接
- * 坑点①：必须带 lang=zh，否则全英文
  */
 function fetch_day_batch($source_ids, $day) {
     $param_str = '';
@@ -277,8 +272,6 @@ function fetch_day_batch($source_ids, $day) {
 
 /**
  * 原始节目转标准格式 + 源内去重
- * 坑点④：start/end 是毫秒时间戳
- * 坑点⑥：相邻天有重叠，按 start|title 去重
  */
 function to_rows($arr) {
     $seen = [];
@@ -315,7 +308,6 @@ function to_rows($arr) {
 
 /**
  * 获取单个节目简介（带全局缓存）
- * 坑点：必须带 lang=zh，否则 chiSynopsis 为空
  */
 function fetch_desc($pid) {
     global $_desc_cache;
@@ -328,7 +320,6 @@ function fetch_desc($pid) {
         $json = http_get($url);
         $d = json_decode($json, true);
 
-        // 优先级：中文简介 > 通用 > 英文兜底
         $candidates = [
             $d['chiSynopsis'] ?? '',
             $d['synopsis'] ?? '',
@@ -352,8 +343,7 @@ function fetch_desc($pid) {
 }
 
 /**
- * 按唯一标题回填简介（大幅减少请求量）
- * 坑点③：epglist 不带简介，需逐条抓；但同标题节目重复率极高
+ * 按唯一标题回填简介
  */
 function fill_descs(&$rows) {
     $title_to_pid = [];
@@ -417,7 +407,6 @@ function fill_descs(&$rows) {
         curl_multi_close($multi);
     }
 
-    // 回填到所有节目
     foreach ($rows as &$row) {
         if (isset($desc_map[$row['title']])) {
             $row['desc'] = $desc_map[$row['title']];
@@ -430,21 +419,18 @@ function fill_descs(&$rows) {
  * 主函数：采集 + 生成 XMLTV
  */
 function generate_epg_xml() {
-    // 预加载繁简映射
     load_t2s_map();
     echo "[步骤0/5] 繁简映射表: " . (file_exists(T2S_FILE) ? '已加载，共 ' . count($GLOBALS['_t2s_map']) . ' 条映射' : '未启用（t2s.json 不存在）') . "\n";
 
     $channels = fetch_channel_list();
     $today_ymd = hk_ymd(0);
 
-    // 生成日期范围
     $all_ymds = [];
     for ($d = 1; $d <= MAX_DAY; $d++) {
         $ymd = hk_ymd($d - 1);
         if ($ymd >= $today_ymd) $all_ymds[] = $ymd;
     }
 
-    // 逐天批量抓取
     echo "[步骤2/5] 正在抓取7天节目数据...\n";
     $per_day = [];
     for ($day = 1; $day <= MAX_DAY; $day++) {
@@ -459,7 +445,6 @@ function generate_epg_xml() {
         $per_day[$day] = $day_data;
     }
 
-    // 整理单频道全量节目 + 跨天去重 + 回填简介
     echo "[步骤3/5] 正在处理数据并回填节目简介...\n";
     $channel_progs = [];
     foreach ($channels as $ch) {
@@ -487,7 +472,6 @@ function generate_epg_xml() {
             return $a['startTs'] - $b['startTs'];
         });
 
-        // 回填简介
         if (!empty($unique)) {
             fill_descs($unique);
         }
@@ -498,7 +482,6 @@ function generate_epg_xml() {
         ];
     }
 
-    // 生成 XMLTV
     echo "[步骤4/5] 正在生成 XML 文件...\n";
     $xml = new SimpleXMLElement(
         '<?xml version="1.0" encoding="UTF-8"?>' .
@@ -517,13 +500,12 @@ function generate_epg_xml() {
         $ch_node->addChild('lcn', $sid);
     }
 
-    // 写入节目单（标题、简介统一繁转简）
+    // 写入节目单
     foreach ($channel_progs as $sid => $data) {
         foreach ($data['programmes'] as $prog) {
             $p_node = $xml->addChild('programme');
             $p_node->addAttribute('channel', "nowtv.{$sid}");
 
-            // 毫秒转 XMLTV 时间格式 YYYYMMDDHHmmss +0800
             $start = date('YmdHis', intval($prog['startTs'] / 1000)) . ' +0800';
             $stop  = date('YmdHis', intval($prog['stopTs'] / 1000)) . ' +0800';
             $p_node->addAttribute('start', $start);
@@ -586,3 +568,4 @@ try {
     echo "\n❌ 运行出错: " . $e->getMessage() . "\n";
     exit(1);
 }
+
