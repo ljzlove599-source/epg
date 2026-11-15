@@ -1,0 +1,31 @@
+name: 采集 TDM 澳广视 EPG
+
+on:
+  schedule:
+    - cron: '40 16 * * *'  # 北京时间 00:40 执行
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: curl, json, mbstring
+
+      - name: 运行采集
+        run: php tdm_epg.php
+
+      - name: 提交文件
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+          git add epg_sources/tdm_epg.xml
+          git diff --quiet --cached && echo "无更新" || git commit -m "自动更新 TDM EPG $(date +'%Y-%m-%d')"
+          git push
