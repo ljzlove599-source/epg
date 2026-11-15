@@ -1,0 +1,33 @@
+name: Now TV EPG 自动生成
+
+on:
+  schedule:
+    - cron: '0 16 * * *'  # 每日 UTC 16:00 = 北京时间 00:00 执行
+  workflow_dispatch:      # 支持手动触发
+
+jobs:
+  build-epg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装 PHP 环境
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+          extensions: curl, mbstring, simplexml, json, dom
+          tools: none
+
+      - name: 创建输出目录
+        run: mkdir -p epg
+
+      - name: 运行 EPG 采集脚本
+        run: php nowtv_epg.php
+
+      - name: 归档生成的 EPG 文件
+        uses: actions/upload-artifact@v4
+        with:
+          name: epg_nowtv
+          path: epg/epg_nowtv.xml
+          retention-days: 7
