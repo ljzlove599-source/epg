@@ -82053,6 +82053,12 @@
   <programme start="20261115113000 +0800" stop="20261115130000 +0800" channel="mod.208">
     <title lang="zh">2026-27司诺克赛季 上海大师赛 四强主桌(2)ZHA vs WIL(第二阶段)(普)</title>
   </programme>
+  <programme start="20261115130000 +0800" stop="20261115190000 +0800" channel="mod.208">
+    <title lang="zh">首播2026-27司诺克赛季冠中冠四强(普)</title>
+  </programme>
+  <programme start="20261115190000 +0800" stop="20261115200000 +0800" channel="mod.208">
+    <title lang="zh">重播2026PBR骑牛团体赛 EP12(普)</title>
+  </programme>
   <programme start="20261115200000 +0800" stop="20261115204500 +0800" channel="mod.208">
     <title lang="zh">蕾娜塔女子职业撞球总冠军赛(7) 四强 魏子茜vs凯莉费雪(普)</title>
   </programme>
