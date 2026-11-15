@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # 授予写仓库权限
+  contents: write
 
 jobs:
   build-epg:
@@ -29,6 +29,9 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add epg/epg_nowtv.xml
-          git diff --quiet && echo "无变更，跳过提交" && exit 0
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "无变更，跳过提交"
+            exit 0
+          fi
           git commit -m "chore: 自动更新 NowTV EPG 节目单"
           git push
