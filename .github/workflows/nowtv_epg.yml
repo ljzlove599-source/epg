@@ -2,8 +2,11 @@ name: Now TV EPG 自动生成
 
 on:
   schedule:
-    - cron: '0 16 * * *'  # 每日 UTC 16:00 = 北京时间 00:00 执行
-  workflow_dispatch:      # 支持手动触发
+    - cron: '0 16 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write  # 授予写仓库权限
 
 jobs:
   build-epg:
@@ -17,17 +20,15 @@ jobs:
         with:
           php-version: '8.1'
           extensions: curl, mbstring, simplexml, json, dom
-          tools: none
-
-      - name: 创建输出目录
-        run: mkdir -p epg
 
       - name: 运行 EPG 采集脚本
         run: php nowtv_epg.php
 
-      - name: 归档生成的 EPG 文件
-        uses: actions/upload-artifact@v4
-        with:
-          name: epg_nowtv
-          path: epg/epg_nowtv.xml
-          retention-days: 7
+      - name: 提交并推送 XML 文件到仓库
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add epg/epg_nowtv.xml
+          git diff --quiet && echo "无变更，跳过提交" && exit 0
+          git commit -m "chore: 自动更新 NowTV EPG 节目单"
+          git push
