@@ -78297,17 +78297,17 @@
   <programme start="20261118151500 +0800" stop="20261118153000 +0800" channel="mod.200">
     <title lang="zh">欧国联精华 第6比赛日 11/17(普)</title>
   </programme>
-  <programme start="20261118153000 +0800" stop="20261118173000 +0800" channel="mod.200">
-    <title lang="zh">NBA 黄蜂 VS 湖人 11/18 例行赛(普)</title>
-  </programme>
-  <programme start="20261118173000 +0800" stop="20261118180000 +0800" channel="mod.200">
+  <programme start="20261118153000 +0800" stop="20261118160000 +0800" channel="mod.200">
     <title lang="zh">NBA动态#3(普)</title>
   </programme>
-  <programme start="20261118180000 +0800" stop="20261118200000 +0800" channel="mod.200">
-    <title lang="zh">UEFA欧国联 丹麦 VS 挪威 第6轮(普)</title>
-  </programme>
-  <programme start="20261118200000 +0800" stop="20261118203000 +0800" channel="mod.200">
+  <programme start="20261118160000 +0800" stop="20261118163000 +0800" channel="mod.200">
     <title lang="zh">英超名人堂 #23 阿斯顿维拉1992-93 赛季背后(普)</title>
+  </programme>
+  <programme start="20261118163000 +0800" stop="20261118183000 +0800" channel="mod.200">
+    <title lang="zh">NBA 黄蜂 VS 湖人 11/18 例行赛(普)</title>
+  </programme>
+  <programme start="20261118183000 +0800" stop="20261118203000 +0800" channel="mod.200">
+    <title lang="zh">UEFA欧国联 丹麦 VS 挪威 第6轮(普)</title>
   </programme>
   <programme start="20261118203000 +0800" stop="20261118210000 +0800" channel="mod.200">
     <title lang="zh">英超名人堂 #24 (新)(普)</title>
@@ -134722,7 +134722,7 @@
     <title lang="zh">女人我最大 享食尚(5716)(普)</title>
   </programme>
   <programme start="20261116220000 +0800" stop="20261116230000 +0800" channel="mod.311">
-    <title lang="zh">食尚玩家疯狂总部(138)(普)</title>
+    <title lang="zh">食尚玩家热血48小时(252)(普)</title>
   </programme>
   <programme start="20261116230000 +0800" stop="20261117000000 +0800" channel="mod.311">
     <title lang="zh">11点热吵店(1216)(护)</title>
@@ -134740,19 +134740,19 @@
     <title lang="zh">11点热吵店(1216)(护)</title>
   </programme>
   <programme start="20261117050000 +0800" stop="20261117060000 +0800" channel="mod.311">
-    <title lang="zh">食尚玩家疯狂总部(138)(普)</title>
+    <title lang="zh">食尚玩家热血48小时(252)(普)</title>
   </programme>
   <programme start="20261117060000 +0800" stop="20261117090000 +0800" channel="mod.311">
     <title lang="zh">早安台湾(普)</title>
   </programme>
   <programme start="20261117090000 +0800" stop="20261117100000 +0800" channel="mod.311">
-    <title lang="zh">健康2‧0享食尚滴鸡精(普)</title>
+    <title lang="zh">健康2‧0享食尚滴鸡精(3160)(普)</title>
   </programme>
   <programme start="20261117100000 +0800" stop="20261117110000 +0800" channel="mod.311">
     <title lang="zh">女人我最大 享食尚(5716)(普)</title>
   </programme>
   <programme start="20261117110000 +0800" stop="20261117120000 +0800" channel="mod.311">
-    <title lang="zh">食尚玩家疯狂总部(138)(普)</title>
+    <title lang="zh">食尚玩家热血48小时(252)(普)</title>
   </programme>
   <programme start="20261117120000 +0800" stop="20261117140000 +0800" channel="mod.311">
     <title lang="zh">午间12.13整点新闻(普)</title>
@@ -134767,7 +134767,7 @@
     <title lang="zh">女人我最大 享食尚(5716)(普)</title>
   </programme>
   <programme start="20261117170000 +0800" stop="20261117180000 +0800" channel="mod.311">
-    <title lang="zh">食尚玩家疯狂总部(138)(普)</title>
+    <title lang="zh">食尚玩家热血48小时(252)(普)</title>
   </programme>
   <programme start="20261117180000 +0800" stop="20261117190000 +0800" channel="mod.311">
     <title lang="zh">国民大会(2691)(普)</title>
@@ -134866,7 +134866,7 @@
     <title lang="zh">早安台湾(普)</title>
   </programme>
   <programme start="20261119090000 +0800" stop="20261119100000 +0800" channel="mod.311">
-    <title lang="zh">健康2‧0享食尚滴鸡精(普)</title>
+    <title lang="zh">健康2‧0享食尚滴鸡精(3164)(普)</title>
   </programme>
   <programme start="20261119100000 +0800" stop="20261119110000 +0800" channel="mod.311">
     <title lang="zh">女人我最大 享食尚(5718)(普)</title>
@@ -134926,7 +134926,7 @@
     <title lang="zh">早安台湾(普)</title>
   </programme>
   <programme start="20261120090000 +0800" stop="20261120100000 +0800" channel="mod.311">
-    <title lang="zh">健康2‧0(普)</title>
+    <title lang="zh">健康2‧0(3153)(普)</title>
   </programme>
   <programme start="20261120100000 +0800" stop="20261120110000 +0800" channel="mod.311">
     <title lang="zh">女人我最大 享食尚(5719)(普)</title>
@@ -134959,25 +134959,25 @@
     <title lang="zh">无所畏惧之永不放弃(31)(普)</title>
   </programme>
   <programme start="20261120210000 +0800" stop="20261120220000 +0800" channel="mod.311">
-    <title lang="zh">女人我最大(普)</title>
+    <title lang="zh">女人我最大(5506)(普)</title>
   </programme>
   <programme start="20261120220000 +0800" stop="20261120230000 +0800" channel="mod.311">
     <title lang="zh">食尚玩家Hello腹饿代(10)(普)</title>
   </programme>
   <programme start="20261120230000 +0800" stop="20261121000000 +0800" channel="mod.311">
-    <title lang="zh">11点热吵店(护)</title>
+    <title lang="zh">11点热吵店(1010)(护)</title>
   </programme>
   <programme start="20261121000000 +0800" stop="20261121020000 +0800" channel="mod.311">
     <title lang="zh">少康战情室(3283)(普)</title>
   </programme>
   <programme start="20261121020000 +0800" stop="20261121030000 +0800" channel="mod.311">
-    <title lang="zh">女人我最大(普)</title>
+    <title lang="zh">女人我最大(5506)(普)</title>
   </programme>
   <programme start="20261121030000 +0800" stop="20261121040000 +0800" channel="mod.311">
     <title lang="zh">无所畏惧之永不放弃(31)(普)</title>
   </programme>
   <programme start="20261121040000 +0800" stop="20261121050000 +0800" channel="mod.311">
-    <title lang="zh">11点热吵店(护)</title>
+    <title lang="zh">11点热吵店(1010)(护)</title>
   </programme>
   <programme start="20261121050000 +0800" stop="20261121060000 +0800" channel="mod.311">
     <title lang="zh">食尚玩家Hello腹饿代(10)(普)</title>
@@ -134989,7 +134989,7 @@
     <title lang="zh">地球黄金线(普)</title>
   </programme>
   <programme start="20261121100000 +0800" stop="20261121110000 +0800" channel="mod.311">
-    <title lang="zh">健康2‧0(普)</title>
+    <title lang="zh">健康2‧0(3246)(普)</title>
   </programme>
   <programme start="20261121110000 +0800" stop="20261121120000 +0800" channel="mod.311">
     <title lang="zh">一步一脚印发现新台湾(971)(普)</title>
@@ -135040,7 +135040,7 @@
     <title lang="zh">食尚玩家(59)(普)</title>
   </programme>
   <programme start="20261122040000 +0800" stop="20261122050000 +0800" channel="mod.311">
-    <title lang="zh">女人我最大(普)</title>
+    <title lang="zh">女人我最大(5710)(普)</title>
   </programme>
   <programme start="20261122050000 +0800" stop="20261122060000 +0800" channel="mod.311">
     <title lang="zh">地球黄金线(普)</title>
@@ -135052,7 +135052,7 @@
     <title lang="zh">地球黄金线(普)</title>
   </programme>
   <programme start="20261122100000 +0800" stop="20261122110000 +0800" channel="mod.311">
-    <title lang="zh">健康2‧0(普)</title>
+    <title lang="zh">健康2‧0(3247)(普)</title>
   </programme>
   <programme start="20261122110000 +0800" stop="20261122120000 +0800" channel="mod.311">
     <title lang="zh">11点热吵店(护)</title>
@@ -135067,10 +135067,10 @@
     <title lang="zh">食尚玩家我们这一家(28)(普)</title>
   </programme>
   <programme start="20261122160000 +0800" stop="20261122170000 +0800" channel="mod.311">
-    <title lang="zh">健康2‧0(普)</title>
+    <title lang="zh">健康2‧0(3153)(普)</title>
   </programme>
   <programme start="20261122170000 +0800" stop="20261122180000 +0800" channel="mod.311">
-    <title lang="zh">女人我最大 享食尚(普)</title>
+    <title lang="zh">女人我最大 享食尚(5719)(普)</title>
   </programme>
   <programme start="20261122180000 +0800" stop="20261122190000 +0800" channel="mod.311">
     <title lang="zh">食尚玩家Hello腹饿代(10)(普)</title>
@@ -135089,6 +135089,435 @@
   </programme>
   <programme start="20261122230000 +0800" stop="20261123000000 +0800" channel="mod.311">
     <title lang="zh">TVBS文茜的世界财经周报(1229)(普)</title>
+  </programme>
+  <programme start="20261123000000 +0800" stop="20261123010000 +0800" channel="mod.311">
+    <title lang="zh">11点热吵店(护)</title>
+  </programme>
+  <programme start="20261123010000 +0800" stop="20261123020000 +0800" channel="mod.311">
+    <title lang="zh">自由的旅行者(4)(普)</title>
+  </programme>
+  <programme start="20261123020000 +0800" stop="20261123030000 +0800" channel="mod.311">
+    <title lang="zh">健康2‧0(3247)(普)</title>
+  </programme>
+  <programme start="20261123030000 +0800" stop="20261123040000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家(60)(普)</title>
+  </programme>
+  <programme start="20261123040000 +0800" stop="20261123050000 +0800" channel="mod.311">
+    <title lang="zh">11点热吵店(1205)(护)</title>
+  </programme>
+  <programme start="20261123050000 +0800" stop="20261123060000 +0800" channel="mod.311">
+    <title lang="zh">地球黄金线(普)</title>
+  </programme>
+  <programme start="20261123060000 +0800" stop="20261123090000 +0800" channel="mod.311">
+    <title lang="zh">早安台湾(普)</title>
+  </programme>
+  <programme start="20261123090000 +0800" stop="20261123100000 +0800" channel="mod.311">
+    <title lang="zh">健康2‧0享食尚滴鸡精(3248)(普)</title>
+  </programme>
+  <programme start="20261123100000 +0800" stop="20261123110000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大(5506)(普)</title>
+  </programme>
+  <programme start="20261123110000 +0800" stop="20261123120000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家Hello腹饿代(10)(普)</title>
+  </programme>
+  <programme start="20261123120000 +0800" stop="20261123140000 +0800" channel="mod.311">
+    <title lang="zh">午间12.13整点新闻(普)</title>
+  </programme>
+  <programme start="20261123140000 +0800" stop="20261123150000 +0800" channel="mod.311">
+    <title lang="zh">11点热吵店(1010)(护)</title>
+  </programme>
+  <programme start="20261123150000 +0800" stop="20261123160000 +0800" channel="mod.311">
+    <title lang="zh">无所畏惧之永不放弃(31)(普)</title>
+  </programme>
+  <programme start="20261123160000 +0800" stop="20261123170000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大(5506)(普)</title>
+  </programme>
+  <programme start="20261123170000 +0800" stop="20261123180000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家Hello腹饿代(10)(普)</title>
+  </programme>
+  <programme start="20261123180000 +0800" stop="20261123190000 +0800" channel="mod.311">
+    <title lang="zh">国民大会(2695)(普)</title>
+  </programme>
+  <programme start="20261123190000 +0800" stop="20261123200000 +0800" channel="mod.311">
+    <title lang="zh">FOCUS全球新闻(3540)(普)</title>
+  </programme>
+  <programme start="20261123200000 +0800" stop="20261123210000 +0800" channel="mod.311">
+    <title lang="zh">无所畏惧之永不放弃(32)(普)</title>
+  </programme>
+  <programme start="20261123210000 +0800" stop="20261123220000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大 享食尚(5720)(普)</title>
+  </programme>
+  <programme start="20261123220000 +0800" stop="20261123230000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家疯狂总部(150)(普)</title>
+  </programme>
+  <programme start="20261123230000 +0800" stop="20261124000000 +0800" channel="mod.311">
+    <title lang="zh">11点热吵店(1220)(护)</title>
+  </programme>
+  <programme start="20261124000000 +0800" stop="20261124020000 +0800" channel="mod.311">
+    <title lang="zh">少康战情室(3284)(普)</title>
+  </programme>
+  <programme start="20261124020000 +0800" stop="20261124030000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大 享食尚(5720)(普)</title>
+  </programme>
+  <programme start="20261124030000 +0800" stop="20261124040000 +0800" channel="mod.311">
+    <title lang="zh">无所畏惧之永不放弃(32)(普)</title>
+  </programme>
+  <programme start="20261124040000 +0800" stop="20261124050000 +0800" channel="mod.311">
+    <title lang="zh">11点热吵店(1220)(护)</title>
+  </programme>
+  <programme start="20261124050000 +0800" stop="20261124060000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家疯狂总部(150)(普)</title>
+  </programme>
+  <programme start="20261124060000 +0800" stop="20261124090000 +0800" channel="mod.311">
+    <title lang="zh">早安台湾(普)</title>
+  </programme>
+  <programme start="20261124090000 +0800" stop="20261124100000 +0800" channel="mod.311">
+    <title lang="zh">健康2‧0享食尚滴鸡精(普)</title>
+  </programme>
+  <programme start="20261124100000 +0800" stop="20261124110000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大 享食尚(5720)(普)</title>
+  </programme>
+  <programme start="20261124110000 +0800" stop="20261124120000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家疯狂总部(150)(普)</title>
+  </programme>
+  <programme start="20261124120000 +0800" stop="20261124140000 +0800" channel="mod.311">
+    <title lang="zh">午间12.13整点新闻(普)</title>
+  </programme>
+  <programme start="20261124140000 +0800" stop="20261124150000 +0800" channel="mod.311">
+    <title lang="zh">11点热吵店(1220)(护)</title>
+  </programme>
+  <programme start="20261124150000 +0800" stop="20261124160000 +0800" channel="mod.311">
+    <title lang="zh">无所畏惧之永不放弃(32)(普)</title>
+  </programme>
+  <programme start="20261124160000 +0800" stop="20261124170000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大 享食尚(5720)(普)</title>
+  </programme>
+  <programme start="20261124170000 +0800" stop="20261124180000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家疯狂总部(150)(普)</title>
+  </programme>
+  <programme start="20261124180000 +0800" stop="20261124190000 +0800" channel="mod.311">
+    <title lang="zh">国民大会(2696)(普)</title>
+  </programme>
+  <programme start="20261124190000 +0800" stop="20261124200000 +0800" channel="mod.311">
+    <title lang="zh">FOCUS全球新闻(3541)(普)</title>
+  </programme>
+  <programme start="20261124200000 +0800" stop="20261124210000 +0800" channel="mod.311">
+    <title lang="zh">无所畏惧之永不放弃(33)(普)</title>
+  </programme>
+  <programme start="20261124210000 +0800" stop="20261124220000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大 享食尚(5721)(普)</title>
+  </programme>
+  <programme start="20261124220000 +0800" stop="20261124230000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家(61)(普)</title>
+  </programme>
+  <programme start="20261124230000 +0800" stop="20261125000000 +0800" channel="mod.311">
+    <title lang="zh">11点热吵店(1221)(护)</title>
+  </programme>
+  <programme start="20261125000000 +0800" stop="20261125020000 +0800" channel="mod.311">
+    <title lang="zh">少康战情室(3285)(普)</title>
+  </programme>
+  <programme start="20261125020000 +0800" stop="20261125030000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大 享食尚(5721)(普)</title>
+  </programme>
+  <programme start="20261125030000 +0800" stop="20261125040000 +0800" channel="mod.311">
+    <title lang="zh">无所畏惧之永不放弃(33)(普)</title>
+  </programme>
+  <programme start="20261125040000 +0800" stop="20261125050000 +0800" channel="mod.311">
+    <title lang="zh">11点热吵店(1221)(护)</title>
+  </programme>
+  <programme start="20261125050000 +0800" stop="20261125060000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家(61)(普)</title>
+  </programme>
+  <programme start="20261125060000 +0800" stop="20261125090000 +0800" channel="mod.311">
+    <title lang="zh">早安台湾(普)</title>
+  </programme>
+  <programme start="20261125090000 +0800" stop="20261125100000 +0800" channel="mod.311">
+    <title lang="zh">健康2‧0享食尚滴鸡精(3248)(普)</title>
+  </programme>
+  <programme start="20261125100000 +0800" stop="20261125110000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大 享食尚(5721)(普)</title>
+  </programme>
+  <programme start="20261125110000 +0800" stop="20261125120000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家(61)(普)</title>
+  </programme>
+  <programme start="20261125120000 +0800" stop="20261125140000 +0800" channel="mod.311">
+    <title lang="zh">午间12.13整点新闻(普)</title>
+  </programme>
+  <programme start="20261125140000 +0800" stop="20261125150000 +0800" channel="mod.311">
+    <title lang="zh">11点热吵店(1221)(护)</title>
+  </programme>
+  <programme start="20261125150000 +0800" stop="20261125160000 +0800" channel="mod.311">
+    <title lang="zh">无所畏惧之永不放弃(33)(普)</title>
+  </programme>
+  <programme start="20261125160000 +0800" stop="20261125170000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大 享食尚(5721)(普)</title>
+  </programme>
+  <programme start="20261125170000 +0800" stop="20261125180000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家(61)(普)</title>
+  </programme>
+  <programme start="20261125180000 +0800" stop="20261125190000 +0800" channel="mod.311">
+    <title lang="zh">国民大会(2697)(普)</title>
+  </programme>
+  <programme start="20261125190000 +0800" stop="20261125200000 +0800" channel="mod.311">
+    <title lang="zh">FOCUS全球新闻(3542)(普)</title>
+  </programme>
+  <programme start="20261125200000 +0800" stop="20261125210000 +0800" channel="mod.311">
+    <title lang="zh">无所畏惧之永不放弃(34)(普)</title>
+  </programme>
+  <programme start="20261125210000 +0800" stop="20261125220000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大 享食尚(5722)(普)</title>
+  </programme>
+  <programme start="20261125220000 +0800" stop="20261125230000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家(62)(普)</title>
+  </programme>
+  <programme start="20261125230000 +0800" stop="20261126000000 +0800" channel="mod.311">
+    <title lang="zh">11点热吵店(1222)(护)</title>
+  </programme>
+  <programme start="20261126000000 +0800" stop="20261126020000 +0800" channel="mod.311">
+    <title lang="zh">少康战情室(3286)(普)</title>
+  </programme>
+  <programme start="20261126020000 +0800" stop="20261126030000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大 享食尚(5722)(普)</title>
+  </programme>
+  <programme start="20261126030000 +0800" stop="20261126040000 +0800" channel="mod.311">
+    <title lang="zh">无所畏惧之永不放弃(34)(普)</title>
+  </programme>
+  <programme start="20261126040000 +0800" stop="20261126050000 +0800" channel="mod.311">
+    <title lang="zh">11点热吵店(1222)(护)</title>
+  </programme>
+  <programme start="20261126050000 +0800" stop="20261126060000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家(62)(普)</title>
+  </programme>
+  <programme start="20261126060000 +0800" stop="20261126090000 +0800" channel="mod.311">
+    <title lang="zh">早安台湾(普)</title>
+  </programme>
+  <programme start="20261126090000 +0800" stop="20261126100000 +0800" channel="mod.311">
+    <title lang="zh">健康2‧0享食尚滴鸡精(普)</title>
+  </programme>
+  <programme start="20261126100000 +0800" stop="20261126110000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大 享食尚(5722)(普)</title>
+  </programme>
+  <programme start="20261126110000 +0800" stop="20261126120000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家(60)(普)</title>
+  </programme>
+  <programme start="20261126120000 +0800" stop="20261126140000 +0800" channel="mod.311">
+    <title lang="zh">午间12.13整点新闻(普)</title>
+  </programme>
+  <programme start="20261126140000 +0800" stop="20261126150000 +0800" channel="mod.311">
+    <title lang="zh">11点热吵店(1222)(护)</title>
+  </programme>
+  <programme start="20261126150000 +0800" stop="20261126160000 +0800" channel="mod.311">
+    <title lang="zh">无所畏惧之永不放弃(34)(普)</title>
+  </programme>
+  <programme start="20261126160000 +0800" stop="20261126170000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大 享食尚(5722)(普)</title>
+  </programme>
+  <programme start="20261126170000 +0800" stop="20261126180000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家(62)(普)</title>
+  </programme>
+  <programme start="20261126180000 +0800" stop="20261126190000 +0800" channel="mod.311">
+    <title lang="zh">国民大会(2698)(普)</title>
+  </programme>
+  <programme start="20261126190000 +0800" stop="20261126200000 +0800" channel="mod.311">
+    <title lang="zh">FOCUS全球新闻(3543)(普)</title>
+  </programme>
+  <programme start="20261126200000 +0800" stop="20261126210000 +0800" channel="mod.311">
+    <title lang="zh">无所畏惧之永不放弃(35)(普)</title>
+  </programme>
+  <programme start="20261126210000 +0800" stop="20261126220000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大 享食尚(5723)(普)</title>
+  </programme>
+  <programme start="20261126220000 +0800" stop="20261126230000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家我们这一家(29)(普)</title>
+  </programme>
+  <programme start="20261126230000 +0800" stop="20261127000000 +0800" channel="mod.311">
+    <title lang="zh">11点热吵店(1223)(护)</title>
+  </programme>
+  <programme start="20261127000000 +0800" stop="20261127020000 +0800" channel="mod.311">
+    <title lang="zh">少康战情室(3287)(普)</title>
+  </programme>
+  <programme start="20261127020000 +0800" stop="20261127030000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大 享食尚(5723)(普)</title>
+  </programme>
+  <programme start="20261127030000 +0800" stop="20261127040000 +0800" channel="mod.311">
+    <title lang="zh">无所畏惧之永不放弃(35)(普)</title>
+  </programme>
+  <programme start="20261127040000 +0800" stop="20261127050000 +0800" channel="mod.311">
+    <title lang="zh">11点热吵店(1223)(护)</title>
+  </programme>
+  <programme start="20261127050000 +0800" stop="20261127060000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家我们这一家(29)(普)</title>
+  </programme>
+  <programme start="20261127060000 +0800" stop="20261127090000 +0800" channel="mod.311">
+    <title lang="zh">早安台湾(普)</title>
+  </programme>
+  <programme start="20261127090000 +0800" stop="20261127100000 +0800" channel="mod.311">
+    <title lang="zh">健康2‧0(普)</title>
+  </programme>
+  <programme start="20261127100000 +0800" stop="20261127110000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大 享食尚(5723)(普)</title>
+  </programme>
+  <programme start="20261127110000 +0800" stop="20261127120000 +0800" channel="mod.311">
+    <title lang="zh">我们这一家(29)(普)</title>
+  </programme>
+  <programme start="20261127120000 +0800" stop="20261127140000 +0800" channel="mod.311">
+    <title lang="zh">午间12.13整点新闻(普)</title>
+  </programme>
+  <programme start="20261127140000 +0800" stop="20261127150000 +0800" channel="mod.311">
+    <title lang="zh">11点热吵店(1223)(护)</title>
+  </programme>
+  <programme start="20261127150000 +0800" stop="20261127160000 +0800" channel="mod.311">
+    <title lang="zh">无所畏惧之永不放弃(35)(普)</title>
+  </programme>
+  <programme start="20261127160000 +0800" stop="20261127170000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大 享食尚(5723)(普)</title>
+  </programme>
+  <programme start="20261127170000 +0800" stop="20261127180000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家我们这一家(29)(普)</title>
+  </programme>
+  <programme start="20261127180000 +0800" stop="20261127190000 +0800" channel="mod.311">
+    <title lang="zh">国民大会(2699)(普)</title>
+  </programme>
+  <programme start="20261127190000 +0800" stop="20261127200000 +0800" channel="mod.311">
+    <title lang="zh">FOCUS全球新闻(3544)(普)</title>
+  </programme>
+  <programme start="20261127200000 +0800" stop="20261127210000 +0800" channel="mod.311">
+    <title lang="zh">无所畏惧之永不放弃(36)(普)</title>
+  </programme>
+  <programme start="20261127210000 +0800" stop="20261127220000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大(普)</title>
+  </programme>
+  <programme start="20261127220000 +0800" stop="20261127230000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家Hello腹饿代(14)(普)</title>
+  </programme>
+  <programme start="20261127230000 +0800" stop="20261128000000 +0800" channel="mod.311">
+    <title lang="zh">11点热吵店(护)</title>
+  </programme>
+  <programme start="20261128000000 +0800" stop="20261128010000 +0800" channel="mod.311">
+    <title lang="zh">地球黄金线(3766)(普)</title>
+  </programme>
+  <programme start="20261128010000 +0800" stop="20261128020000 +0800" channel="mod.311">
+    <title lang="zh">健康2.0(普)</title>
+  </programme>
+  <programme start="20261128020000 +0800" stop="20261128030000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大(普)</title>
+  </programme>
+  <programme start="20261128030000 +0800" stop="20261128040000 +0800" channel="mod.311">
+    <title lang="zh">无所畏惧之永不放弃(36)(普)</title>
+  </programme>
+  <programme start="20261128040000 +0800" stop="20261128050000 +0800" channel="mod.311">
+    <title lang="zh">11点热吵店(护)</title>
+  </programme>
+  <programme start="20261128050000 +0800" stop="20261128060000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家Hello腹饿代(14)(普)</title>
+  </programme>
+  <programme start="20261128060000 +0800" stop="20261128090000 +0800" channel="mod.311">
+    <title lang="zh">早安台湾(普)</title>
+  </programme>
+  <programme start="20261128090000 +0800" stop="20261128100000 +0800" channel="mod.311">
+    <title lang="zh">地球黄金线(普)</title>
+  </programme>
+  <programme start="20261128100000 +0800" stop="20261128110000 +0800" channel="mod.311">
+    <title lang="zh">健康2‧0(普)</title>
+  </programme>
+  <programme start="20261128110000 +0800" stop="20261128120000 +0800" channel="mod.311">
+    <title lang="zh">一步一脚印发现新台湾(972)(普)</title>
+  </programme>
+  <programme start="20261128120000 +0800" stop="20261128140000 +0800" channel="mod.311">
+    <title lang="zh">午间12.13整点新闻(普)</title>
+  </programme>
+  <programme start="20261128140000 +0800" stop="20261128150000 +0800" channel="mod.311">
+    <title lang="zh">11点热吵店(护)</title>
+  </programme>
+  <programme start="20261128150000 +0800" stop="20261128160000 +0800" channel="mod.311">
+    <title lang="zh">自由的旅行者(4)(普)</title>
+  </programme>
+  <programme start="20261128160000 +0800" stop="20261128170000 +0800" channel="mod.311">
+    <title lang="zh">一步一脚印发现新台湾(973)(普)</title>
+  </programme>
+  <programme start="20261128170000 +0800" stop="20261128180000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大 享食尚(普)</title>
+  </programme>
+  <programme start="20261128180000 +0800" stop="20261128190000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家(61)(普)</title>
+  </programme>
+  <programme start="20261128190000 +0800" stop="20261128200000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家(62)(普)</title>
+  </programme>
+  <programme start="20261128200000 +0800" stop="20261128210000 +0800" channel="mod.311">
+    <title lang="zh">胡来旅行社2(1)(护)</title>
+  </programme>
+  <programme start="20261128210000 +0800" stop="20261128220000 +0800" channel="mod.311">
+    <title lang="zh">护照带了没(1)(普)</title>
+  </programme>
+  <programme start="20261128220000 +0800" stop="20261128230000 +0800" channel="mod.311">
+    <title lang="zh">TVBS文茜的世界周报(普)</title>
+  </programme>
+  <programme start="20261128230000 +0800" stop="20261129000000 +0800" channel="mod.311">
+    <title lang="zh">TVBS文茜的世界周报(欧洲版)(普)</title>
+  </programme>
+  <programme start="20261129000000 +0800" stop="20261129010000 +0800" channel="mod.311">
+    <title lang="zh">胡来旅行社2(1)(护)</title>
+  </programme>
+  <programme start="20261129010000 +0800" stop="20261129020000 +0800" channel="mod.311">
+    <title lang="zh">护照带了没(1)(普)</title>
+  </programme>
+  <programme start="20261129020000 +0800" stop="20261129030000 +0800" channel="mod.311">
+    <title lang="zh">健康2‧0(普)</title>
+  </programme>
+  <programme start="20261129030000 +0800" stop="20261129040000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家(61)(普)</title>
+  </programme>
+  <programme start="20261129040000 +0800" stop="20261129050000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大(普)</title>
+  </programme>
+  <programme start="20261129050000 +0800" stop="20261129060000 +0800" channel="mod.311">
+    <title lang="zh">地球黄金线(普)</title>
+  </programme>
+  <programme start="20261129060000 +0800" stop="20261129090000 +0800" channel="mod.311">
+    <title lang="zh">早安台湾(普)</title>
+  </programme>
+  <programme start="20261129090000 +0800" stop="20261129100000 +0800" channel="mod.311">
+    <title lang="zh">地球黄金线(普)</title>
+  </programme>
+  <programme start="20261129100000 +0800" stop="20261129110000 +0800" channel="mod.311">
+    <title lang="zh">健康2‧0(普)</title>
+  </programme>
+  <programme start="20261129110000 +0800" stop="20261129120000 +0800" channel="mod.311">
+    <title lang="zh">11点热吵店(护)</title>
+  </programme>
+  <programme start="20261129120000 +0800" stop="20261129140000 +0800" channel="mod.311">
+    <title lang="zh">午间12.13整点新闻(普)</title>
+  </programme>
+  <programme start="20261129140000 +0800" stop="20261129150000 +0800" channel="mod.311">
+    <title lang="zh">胡来旅行社2(1)(护)</title>
+  </programme>
+  <programme start="20261129150000 +0800" stop="20261129160000 +0800" channel="mod.311">
+    <title lang="zh">护照带了没(1)(普)</title>
+  </programme>
+  <programme start="20261129160000 +0800" stop="20261129170000 +0800" channel="mod.311">
+    <title lang="zh">健康2‧0(普)</title>
+  </programme>
+  <programme start="20261129170000 +0800" stop="20261129180000 +0800" channel="mod.311">
+    <title lang="zh">女人我最大 享食尚(普)</title>
+  </programme>
+  <programme start="20261129180000 +0800" stop="20261129190000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家Hello腹饿代(14)(普)</title>
+  </programme>
+  <programme start="20261129190000 +0800" stop="20261129200000 +0800" channel="mod.311">
+    <title lang="zh">食尚玩家我们这一家(28)(普)</title>
+  </programme>
+  <programme start="20261129200000 +0800" stop="20261129210000 +0800" channel="mod.311">
+    <title lang="zh">11点热吵店(护)</title>
+  </programme>
+  <programme start="20261129210000 +0800" stop="20261129220000 +0800" channel="mod.311">
+    <title lang="zh">自由的旅行者(5)(普)</title>
+  </programme>
+  <programme start="20261129220000 +0800" stop="20261129230000 +0800" channel="mod.311">
+    <title lang="zh">TVBS文茜的世界周报(1230)(普)</title>
+  </programme>
+  <programme start="20261129230000 +0800" stop="20261130000000 +0800" channel="mod.311">
+    <title lang="zh">TVBS文茜的世界财经周报(1231)(普)</title>
   </programme>
   <programme start="20261116013000 +0800" stop="20261116020000 +0800" channel="mod.312">
     <title lang="zh">长钰温泉饭店 台客狂飨曲(重播)(普)</title>
@@ -144494,6 +144923,510 @@
   </programme>
   <programme start="20261122230000 +0800" stop="20261123000000 +0800" channel="mod.321">
     <title lang="zh">WTO姐妹会(3550)(护)</title>
+  </programme>
+  <programme start="20261123000000 +0800" stop="20261123010000 +0800" channel="mod.321">
+    <title lang="zh">世界正美丽(260)(普)</title>
+  </programme>
+  <programme start="20261123010000 +0800" stop="20261123020000 +0800" channel="mod.321">
+    <title lang="zh">故乡好滋味(104)(普)</title>
+  </programme>
+  <programme start="20261123020000 +0800" stop="20261123030000 +0800" channel="mod.321">
+    <title lang="zh">灿烂的遗产(6)(普)</title>
+  </programme>
+  <programme start="20261123030000 +0800" stop="20261123040000 +0800" channel="mod.321">
+    <title lang="zh">灿烂的遗产(7)(普)</title>
+  </programme>
+  <programme start="20261123040000 +0800" stop="20261123050000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(281)(普)</title>
+  </programme>
+  <programme start="20261123050000 +0800" stop="20261123060000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3550)(护)</title>
+  </programme>
+  <programme start="20261123060000 +0800" stop="20261123070000 +0800" channel="mod.321">
+    <title lang="zh">故乡好滋味(104)(普)</title>
+  </programme>
+  <programme start="20261123070000 +0800" stop="20261123080000 +0800" channel="mod.321">
+    <title lang="zh">世界正美丽(260)(普)</title>
+  </programme>
+  <programme start="20261123080000 +0800" stop="20261123090000 +0800" channel="mod.321">
+    <title lang="zh">绑架之日(15)(护)</title>
+  </programme>
+  <programme start="20261123090000 +0800" stop="20261123100000 +0800" channel="mod.321">
+    <title lang="zh">李祘(114)(普)</title>
+  </programme>
+  <programme start="20261123100000 +0800" stop="20261123110000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3548)(护)</title>
+  </programme>
+  <programme start="20261123110000 +0800" stop="20261123120000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(309)(普)</title>
+  </programme>
+  <programme start="20261123120000 +0800" stop="20261123130000 +0800" channel="mod.321">
+    <title lang="zh">1200八大民生新闻(1123)(普)</title>
+  </programme>
+  <programme start="20261123130000 +0800" stop="20261123140000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3548)(护)</title>
+  </programme>
+  <programme start="20261123140000 +0800" stop="20261123150000 +0800" channel="mod.321">
+    <title lang="zh">美食第一等(18)(普)</title>
+  </programme>
+  <programme start="20261123150000 +0800" stop="20261123160000 +0800" channel="mod.321">
+    <title lang="zh">绑架之日(15)(护)</title>
+  </programme>
+  <programme start="20261123160000 +0800" stop="20261123170000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(309)(普)</title>
+  </programme>
+  <programme start="20261123170000 +0800" stop="20261123180000 +0800" channel="mod.321">
+    <title lang="zh">李祘(114)(普)</title>
+  </programme>
+  <programme start="20261123180000 +0800" stop="20261123190000 +0800" channel="mod.321">
+    <title lang="zh">1800八大民生新闻(1123)(普)</title>
+  </programme>
+  <programme start="20261123190000 +0800" stop="20261123200000 +0800" channel="mod.321">
+    <title lang="zh">李祘(115)(普)</title>
+  </programme>
+  <programme start="20261123200000 +0800" stop="20261123210000 +0800" channel="mod.321">
+    <title lang="zh">自由的旅行者第四季(8)(护)</title>
+  </programme>
+  <programme start="20261123210000 +0800" stop="20261123220000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3555)(护)</title>
+  </programme>
+  <programme start="20261123220000 +0800" stop="20261123230000 +0800" channel="mod.321">
+    <title lang="zh">李祘(115)(普)</title>
+  </programme>
+  <programme start="20261123230000 +0800" stop="20261124000000 +0800" channel="mod.321">
+    <title lang="zh">绑架之日(16)(护)</title>
+  </programme>
+  <programme start="20261124000000 +0800" stop="20261124010000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(309)(普)</title>
+  </programme>
+  <programme start="20261124010000 +0800" stop="20261124020000 +0800" channel="mod.321">
+    <title lang="zh">自由的旅行者第四季(8)(护)</title>
+  </programme>
+  <programme start="20261124020000 +0800" stop="20261124030000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3555)(护)</title>
+  </programme>
+  <programme start="20261124030000 +0800" stop="20261124040000 +0800" channel="mod.321">
+    <title lang="zh">李祘(115)(普)</title>
+  </programme>
+  <programme start="20261124040000 +0800" stop="20261124050000 +0800" channel="mod.321">
+    <title lang="zh">绑架之日(16)(护)</title>
+  </programme>
+  <programme start="20261124050000 +0800" stop="20261124060000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(309)(普)</title>
+  </programme>
+  <programme start="20261124060000 +0800" stop="20261124070000 +0800" channel="mod.321">
+    <title lang="zh">自由的旅行者第四季(8)(护)</title>
+  </programme>
+  <programme start="20261124070000 +0800" stop="20261124080000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3555)(护)</title>
+  </programme>
+  <programme start="20261124080000 +0800" stop="20261124090000 +0800" channel="mod.321">
+    <title lang="zh">绑架之日(16)(护)</title>
+  </programme>
+  <programme start="20261124090000 +0800" stop="20261124100000 +0800" channel="mod.321">
+    <title lang="zh">李祘(115)(普)</title>
+  </programme>
+  <programme start="20261124100000 +0800" stop="20261124110000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3555)(护)</title>
+  </programme>
+  <programme start="20261124110000 +0800" stop="20261124120000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(310)(普)</title>
+  </programme>
+  <programme start="20261124120000 +0800" stop="20261124130000 +0800" channel="mod.321">
+    <title lang="zh">1200八大民生新闻(1124)(普)</title>
+  </programme>
+  <programme start="20261124130000 +0800" stop="20261124140000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3555)(护)</title>
+  </programme>
+  <programme start="20261124140000 +0800" stop="20261124150000 +0800" channel="mod.321">
+    <title lang="zh">自由的旅行者第四季(8)(护)</title>
+  </programme>
+  <programme start="20261124150000 +0800" stop="20261124160000 +0800" channel="mod.321">
+    <title lang="zh">绑架之日(16)(护)</title>
+  </programme>
+  <programme start="20261124160000 +0800" stop="20261124170000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(310)(普)</title>
+  </programme>
+  <programme start="20261124170000 +0800" stop="20261124180000 +0800" channel="mod.321">
+    <title lang="zh">李祘(115)(普)</title>
+  </programme>
+  <programme start="20261124180000 +0800" stop="20261124190000 +0800" channel="mod.321">
+    <title lang="zh">1800八大民生新闻(1124)(普)</title>
+  </programme>
+  <programme start="20261124190000 +0800" stop="20261124200000 +0800" channel="mod.321">
+    <title lang="zh">李祘(116)(普)</title>
+  </programme>
+  <programme start="20261124200000 +0800" stop="20261124210000 +0800" channel="mod.321">
+    <title lang="zh">詹姆士出走料理(385)(普)</title>
+  </programme>
+  <programme start="20261124210000 +0800" stop="20261124220000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3556)(护)</title>
+  </programme>
+  <programme start="20261124220000 +0800" stop="20261124230000 +0800" channel="mod.321">
+    <title lang="zh">李祘(116)(普)</title>
+  </programme>
+  <programme start="20261124230000 +0800" stop="20261125000000 +0800" channel="mod.321">
+    <title lang="zh">联结(1)(护)</title>
+  </programme>
+  <programme start="20261125000000 +0800" stop="20261125010000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(310)(普)</title>
+  </programme>
+  <programme start="20261125010000 +0800" stop="20261125020000 +0800" channel="mod.321">
+    <title lang="zh">詹姆士出走料理(385)(普)</title>
+  </programme>
+  <programme start="20261125020000 +0800" stop="20261125030000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3556)(护)</title>
+  </programme>
+  <programme start="20261125030000 +0800" stop="20261125040000 +0800" channel="mod.321">
+    <title lang="zh">李祘(116)(普)</title>
+  </programme>
+  <programme start="20261125040000 +0800" stop="20261125050000 +0800" channel="mod.321">
+    <title lang="zh">联结(1)(护)</title>
+  </programme>
+  <programme start="20261125050000 +0800" stop="20261125060000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(310)(普)</title>
+  </programme>
+  <programme start="20261125060000 +0800" stop="20261125070000 +0800" channel="mod.321">
+    <title lang="zh">詹姆士出走料理(385)(普)</title>
+  </programme>
+  <programme start="20261125070000 +0800" stop="20261125080000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3556)(护)</title>
+  </programme>
+  <programme start="20261125080000 +0800" stop="20261125090000 +0800" channel="mod.321">
+    <title lang="zh">联结(1)(护)</title>
+  </programme>
+  <programme start="20261125090000 +0800" stop="20261125100000 +0800" channel="mod.321">
+    <title lang="zh">李祘(116)(普)</title>
+  </programme>
+  <programme start="20261125100000 +0800" stop="20261125110000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3556)(护)</title>
+  </programme>
+  <programme start="20261125110000 +0800" stop="20261125120000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(311)(普)</title>
+  </programme>
+  <programme start="20261125120000 +0800" stop="20261125130000 +0800" channel="mod.321">
+    <title lang="zh">1200八大民生新闻(1125)(普)</title>
+  </programme>
+  <programme start="20261125130000 +0800" stop="20261125140000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3556)(护)</title>
+  </programme>
+  <programme start="20261125140000 +0800" stop="20261125150000 +0800" channel="mod.321">
+    <title lang="zh">詹姆士出走料理(385)(普)</title>
+  </programme>
+  <programme start="20261125150000 +0800" stop="20261125160000 +0800" channel="mod.321">
+    <title lang="zh">联结(1)(护)</title>
+  </programme>
+  <programme start="20261125160000 +0800" stop="20261125170000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(311)(普)</title>
+  </programme>
+  <programme start="20261125170000 +0800" stop="20261125180000 +0800" channel="mod.321">
+    <title lang="zh">李祘(116)(普)</title>
+  </programme>
+  <programme start="20261125180000 +0800" stop="20261125190000 +0800" channel="mod.321">
+    <title lang="zh">1800八大民生新闻(1125)(普)</title>
+  </programme>
+  <programme start="20261125190000 +0800" stop="20261125200000 +0800" channel="mod.321">
+    <title lang="zh">李祘(117)(普)</title>
+  </programme>
+  <programme start="20261125200000 +0800" stop="20261125210000 +0800" channel="mod.321">
+    <title lang="zh">台湾第一等(672)(护)</title>
+  </programme>
+  <programme start="20261125210000 +0800" stop="20261125220000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3557)(护)</title>
+  </programme>
+  <programme start="20261125220000 +0800" stop="20261125230000 +0800" channel="mod.321">
+    <title lang="zh">李祘(117)(普)</title>
+  </programme>
+  <programme start="20261125230000 +0800" stop="20261126000000 +0800" channel="mod.321">
+    <title lang="zh">联结(2)(护)</title>
+  </programme>
+  <programme start="20261126000000 +0800" stop="20261126010000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(311)(普)</title>
+  </programme>
+  <programme start="20261126010000 +0800" stop="20261126020000 +0800" channel="mod.321">
+    <title lang="zh">台湾第一等(672)(护)</title>
+  </programme>
+  <programme start="20261126020000 +0800" stop="20261126030000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3557)(护)</title>
+  </programme>
+  <programme start="20261126030000 +0800" stop="20261126040000 +0800" channel="mod.321">
+    <title lang="zh">李祘(117)(普)</title>
+  </programme>
+  <programme start="20261126040000 +0800" stop="20261126050000 +0800" channel="mod.321">
+    <title lang="zh">联结(2)(护)</title>
+  </programme>
+  <programme start="20261126050000 +0800" stop="20261126060000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(311)(普)</title>
+  </programme>
+  <programme start="20261126060000 +0800" stop="20261126070000 +0800" channel="mod.321">
+    <title lang="zh">台湾第一等(672)(护)</title>
+  </programme>
+  <programme start="20261126070000 +0800" stop="20261126080000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3557)(护)</title>
+  </programme>
+  <programme start="20261126080000 +0800" stop="20261126090000 +0800" channel="mod.321">
+    <title lang="zh">联结(2)(护)</title>
+  </programme>
+  <programme start="20261126090000 +0800" stop="20261126100000 +0800" channel="mod.321">
+    <title lang="zh">李祘(117)(普)</title>
+  </programme>
+  <programme start="20261126100000 +0800" stop="20261126110000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3557)(护)</title>
+  </programme>
+  <programme start="20261126110000 +0800" stop="20261126120000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(312)(普)</title>
+  </programme>
+  <programme start="20261126120000 +0800" stop="20261126130000 +0800" channel="mod.321">
+    <title lang="zh">1200八大民生新闻(1126)(普)</title>
+  </programme>
+  <programme start="20261126130000 +0800" stop="20261126140000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3557)(护)</title>
+  </programme>
+  <programme start="20261126140000 +0800" stop="20261126150000 +0800" channel="mod.321">
+    <title lang="zh">台湾第一等(672)(护)</title>
+  </programme>
+  <programme start="20261126150000 +0800" stop="20261126160000 +0800" channel="mod.321">
+    <title lang="zh">联结(2)(护)</title>
+  </programme>
+  <programme start="20261126160000 +0800" stop="20261126170000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(312)(普)</title>
+  </programme>
+  <programme start="20261126170000 +0800" stop="20261126180000 +0800" channel="mod.321">
+    <title lang="zh">李祘(117)(普)</title>
+  </programme>
+  <programme start="20261126180000 +0800" stop="20261126190000 +0800" channel="mod.321">
+    <title lang="zh">1800八大民生新闻(1126)(普)</title>
+  </programme>
+  <programme start="20261126190000 +0800" stop="20261126200000 +0800" channel="mod.321">
+    <title lang="zh">李祘(118)(普)</title>
+  </programme>
+  <programme start="20261126200000 +0800" stop="20261126210000 +0800" channel="mod.321">
+    <title lang="zh">世界第一等精选(1029)(护)</title>
+  </programme>
+  <programme start="20261126210000 +0800" stop="20261126220000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3558)(护)</title>
+  </programme>
+  <programme start="20261126220000 +0800" stop="20261126230000 +0800" channel="mod.321">
+    <title lang="zh">李祘(118)(普)</title>
+  </programme>
+  <programme start="20261126230000 +0800" stop="20261127000000 +0800" channel="mod.321">
+    <title lang="zh">联结(3)(护)</title>
+  </programme>
+  <programme start="20261127000000 +0800" stop="20261127010000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(312)(普)</title>
+  </programme>
+  <programme start="20261127010000 +0800" stop="20261127020000 +0800" channel="mod.321">
+    <title lang="zh">世界第一等精选(1029)(护)</title>
+  </programme>
+  <programme start="20261127020000 +0800" stop="20261127030000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3558)(护)</title>
+  </programme>
+  <programme start="20261127030000 +0800" stop="20261127040000 +0800" channel="mod.321">
+    <title lang="zh">李祘(118)(普)</title>
+  </programme>
+  <programme start="20261127040000 +0800" stop="20261127050000 +0800" channel="mod.321">
+    <title lang="zh">联结(3)(护)</title>
+  </programme>
+  <programme start="20261127050000 +0800" stop="20261127060000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(312)(普)</title>
+  </programme>
+  <programme start="20261127060000 +0800" stop="20261127070000 +0800" channel="mod.321">
+    <title lang="zh">世界第一等精选(1029)(护)</title>
+  </programme>
+  <programme start="20261127070000 +0800" stop="20261127080000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3558)(护)</title>
+  </programme>
+  <programme start="20261127080000 +0800" stop="20261127090000 +0800" channel="mod.321">
+    <title lang="zh">联结(3)(护)</title>
+  </programme>
+  <programme start="20261127090000 +0800" stop="20261127100000 +0800" channel="mod.321">
+    <title lang="zh">李祘(118)(普)</title>
+  </programme>
+  <programme start="20261127100000 +0800" stop="20261127110000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3558)(护)</title>
+  </programme>
+  <programme start="20261127110000 +0800" stop="20261127120000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(313)(普)</title>
+  </programme>
+  <programme start="20261127120000 +0800" stop="20261127130000 +0800" channel="mod.321">
+    <title lang="zh">1200八大民生新闻(1127)(普)</title>
+  </programme>
+  <programme start="20261127130000 +0800" stop="20261127140000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3558)(护)</title>
+  </programme>
+  <programme start="20261127140000 +0800" stop="20261127150000 +0800" channel="mod.321">
+    <title lang="zh">世界第一等精选(1029)(护)</title>
+  </programme>
+  <programme start="20261127150000 +0800" stop="20261127160000 +0800" channel="mod.321">
+    <title lang="zh">联结(3)(护)</title>
+  </programme>
+  <programme start="20261127160000 +0800" stop="20261127170000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(313)(普)</title>
+  </programme>
+  <programme start="20261127170000 +0800" stop="20261127180000 +0800" channel="mod.321">
+    <title lang="zh">李祘(118)(普)</title>
+  </programme>
+  <programme start="20261127180000 +0800" stop="20261127190000 +0800" channel="mod.321">
+    <title lang="zh">1800八大民生新闻(1127)(普)</title>
+  </programme>
+  <programme start="20261127190000 +0800" stop="20261127200000 +0800" channel="mod.321">
+    <title lang="zh">李祘(119)(普)</title>
+  </programme>
+  <programme start="20261127200000 +0800" stop="20261127210000 +0800" channel="mod.321">
+    <title lang="zh">美食第一等(19)(普)</title>
+  </programme>
+  <programme start="20261127210000 +0800" stop="20261127220000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3552)(护)</title>
+  </programme>
+  <programme start="20261127220000 +0800" stop="20261127230000 +0800" channel="mod.321">
+    <title lang="zh">李祘(119)(普)</title>
+  </programme>
+  <programme start="20261127230000 +0800" stop="20261128000000 +0800" channel="mod.321">
+    <title lang="zh">联结(4)(护)</title>
+  </programme>
+  <programme start="20261128000000 +0800" stop="20261128010000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(313)(普)</title>
+  </programme>
+  <programme start="20261128010000 +0800" stop="20261128020000 +0800" channel="mod.321">
+    <title lang="zh">美食第一等(19)(普)</title>
+  </programme>
+  <programme start="20261128020000 +0800" stop="20261128030000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3552)(护)</title>
+  </programme>
+  <programme start="20261128030000 +0800" stop="20261128040000 +0800" channel="mod.321">
+    <title lang="zh">李祘(119)(普)</title>
+  </programme>
+  <programme start="20261128040000 +0800" stop="20261128050000 +0800" channel="mod.321">
+    <title lang="zh">联结(4)(护)</title>
+  </programme>
+  <programme start="20261128050000 +0800" stop="20261128060000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(313)(普)</title>
+  </programme>
+  <programme start="20261128060000 +0800" stop="20261128070000 +0800" channel="mod.321">
+    <title lang="zh">美食第一等(19)(普)</title>
+  </programme>
+  <programme start="20261128070000 +0800" stop="20261128080000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3552)(护)</title>
+  </programme>
+  <programme start="20261128080000 +0800" stop="20261128090000 +0800" channel="mod.321">
+    <title lang="zh">灿烂的遗产(6)(普)</title>
+  </programme>
+  <programme start="20261128090000 +0800" stop="20261128100000 +0800" channel="mod.321">
+    <title lang="zh">灿烂的遗产(7)(普)</title>
+  </programme>
+  <programme start="20261128100000 +0800" stop="20261128110000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(281)(普)</title>
+  </programme>
+  <programme start="20261128110000 +0800" stop="20261128120000 +0800" channel="mod.321">
+    <title lang="zh">世界正美丽(261)(普)</title>
+  </programme>
+  <programme start="20261128120000 +0800" stop="20261128130000 +0800" channel="mod.321">
+    <title lang="zh">1200八大民生新闻(1128)(普)</title>
+  </programme>
+  <programme start="20261128130000 +0800" stop="20261128140000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3553)(护)</title>
+  </programme>
+  <programme start="20261128140000 +0800" stop="20261128150000 +0800" channel="mod.321">
+    <title lang="zh">灿烂的遗产(6)(普)</title>
+  </programme>
+  <programme start="20261128150000 +0800" stop="20261128160000 +0800" channel="mod.321">
+    <title lang="zh">灿烂的遗产(7)(普)</title>
+  </programme>
+  <programme start="20261128160000 +0800" stop="20261128170000 +0800" channel="mod.321">
+    <title lang="zh">故乡好滋味(104)(普)</title>
+  </programme>
+  <programme start="20261128170000 +0800" stop="20261128180000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(281)(普)</title>
+  </programme>
+  <programme start="20261128180000 +0800" stop="20261128190000 +0800" channel="mod.321">
+    <title lang="zh">1800八大民生新闻(1128)(普)</title>
+  </programme>
+  <programme start="20261128190000 +0800" stop="20261128200000 +0800" channel="mod.321">
+    <title lang="zh">故乡好滋味(105)(普)</title>
+  </programme>
+  <programme start="20261128200000 +0800" stop="20261128210000 +0800" channel="mod.321">
+    <title lang="zh">灿烂的遗产(8)(普)</title>
+  </programme>
+  <programme start="20261128210000 +0800" stop="20261128220000 +0800" channel="mod.321">
+    <title lang="zh">灿烂的遗产(9)(普)</title>
+  </programme>
+  <programme start="20261128220000 +0800" stop="20261128230000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(282)(普)</title>
+  </programme>
+  <programme start="20261128230000 +0800" stop="20261129000000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3553)(护)</title>
+  </programme>
+  <programme start="20261129000000 +0800" stop="20261129010000 +0800" channel="mod.321">
+    <title lang="zh">世界正美丽(261)(普)</title>
+  </programme>
+  <programme start="20261129010000 +0800" stop="20261129020000 +0800" channel="mod.321">
+    <title lang="zh">故乡好滋味(105)(普)</title>
+  </programme>
+  <programme start="20261129020000 +0800" stop="20261129030000 +0800" channel="mod.321">
+    <title lang="zh">灿烂的遗产(8)(普)</title>
+  </programme>
+  <programme start="20261129030000 +0800" stop="20261129040000 +0800" channel="mod.321">
+    <title lang="zh">灿烂的遗产(9)(普)</title>
+  </programme>
+  <programme start="20261129040000 +0800" stop="20261129050000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(282)(普)</title>
+  </programme>
+  <programme start="20261129050000 +0800" stop="20261129060000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3553)(护)</title>
+  </programme>
+  <programme start="20261129060000 +0800" stop="20261129070000 +0800" channel="mod.321">
+    <title lang="zh">故乡好滋味(105)(普)</title>
+  </programme>
+  <programme start="20261129070000 +0800" stop="20261129080000 +0800" channel="mod.321">
+    <title lang="zh">世界正美丽(261)(普)</title>
+  </programme>
+  <programme start="20261129080000 +0800" stop="20261129090000 +0800" channel="mod.321">
+    <title lang="zh">灿烂的遗产(8)(普)</title>
+  </programme>
+  <programme start="20261129090000 +0800" stop="20261129100000 +0800" channel="mod.321">
+    <title lang="zh">灿烂的遗产(9)(普)</title>
+  </programme>
+  <programme start="20261129100000 +0800" stop="20261129110000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(282)(普)</title>
+  </programme>
+  <programme start="20261129110000 +0800" stop="20261129120000 +0800" channel="mod.321">
+    <title lang="zh">世界正美丽(262)(普)</title>
+  </programme>
+  <programme start="20261129120000 +0800" stop="20261129130000 +0800" channel="mod.321">
+    <title lang="zh">1200八大民生新闻(1129)(普)</title>
+  </programme>
+  <programme start="20261129130000 +0800" stop="20261129140000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3554)(护)</title>
+  </programme>
+  <programme start="20261129140000 +0800" stop="20261129150000 +0800" channel="mod.321">
+    <title lang="zh">灿烂的遗产(8)(普)</title>
+  </programme>
+  <programme start="20261129150000 +0800" stop="20261129160000 +0800" channel="mod.321">
+    <title lang="zh">灿烂的遗产(9)(普)</title>
+  </programme>
+  <programme start="20261129160000 +0800" stop="20261129170000 +0800" channel="mod.321">
+    <title lang="zh">故乡好滋味(105)(普)</title>
+  </programme>
+  <programme start="20261129170000 +0800" stop="20261129180000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(282)(普)</title>
+  </programme>
+  <programme start="20261129180000 +0800" stop="20261129190000 +0800" channel="mod.321">
+    <title lang="zh">1800八大民生新闻(1129)(普)</title>
+  </programme>
+  <programme start="20261129190000 +0800" stop="20261129200000 +0800" channel="mod.321">
+    <title lang="zh">故乡好滋味(1)(普)</title>
+  </programme>
+  <programme start="20261129200000 +0800" stop="20261129210000 +0800" channel="mod.321">
+    <title lang="zh">灿烂的遗产(10)(普)</title>
+  </programme>
+  <programme start="20261129210000 +0800" stop="20261129220000 +0800" channel="mod.321">
+    <title lang="zh">灿烂的遗产(11)(普)</title>
+  </programme>
+  <programme start="20261129220000 +0800" stop="20261129230000 +0800" channel="mod.321">
+    <title lang="zh">综艺新时代(283)(普)</title>
+  </programme>
+  <programme start="20261129230000 +0800" stop="20261130000000 +0800" channel="mod.321">
+    <title lang="zh">WTO姐妹会(3554)(护)</title>
   </programme>
   <programme start="20261116000000 +0800" stop="20261116003000 +0800" channel="mod.322">
     <title lang="zh">Fighting吧！向前冲(普)</title>
@@ -175291,10 +176224,10 @@
     <title lang="zh">寰宇世界通(普)</title>
   </programme>
   <programme start="20261117045500 +0800" stop="20261117055500 +0800" channel="mod.501">
-    <title lang="zh">寰宇全球新闻(普)</title>
+    <title lang="zh">寰宇世界通(普)</title>
   </programme>
   <programme start="20261117055500 +0800" stop="20261117065500 +0800" channel="mod.501">
-    <title lang="zh">寰宇全球新闻(普)</title>
+    <title lang="zh">寰宇世界通(普)</title>
   </programme>
   <programme start="20261117065500 +0800" stop="20261117075500 +0800" channel="mod.501">
     <title lang="zh">寰宇全球早报(普)</title>
@@ -176074,40 +177007,40 @@
     <title lang="zh">寰宇世界通(普)</title>
   </programme>
   <programme start="20261127225500 +0800" stop="20261127235500 +0800" channel="mod.501">
-    <title lang="zh">寰宇世界通(普)</title>
+    <title lang="zh">国际快易通(普)</title>
   </programme>
   <programme start="20261127235500 +0800" stop="20261128000000 +0800" channel="mod.501">
     <title lang="zh">寰宇世界通(普)</title>
   </programme>
   <programme start="20261128005500 +0800" stop="20261128015500 +0800" channel="mod.501">
-    <title lang="zh">寰宇世界通(普)</title>
+    <title lang="zh">国际快易通(普)</title>
   </programme>
   <programme start="20261128015500 +0800" stop="20261128025500 +0800" channel="mod.501">
-    <title lang="zh">寰宇世界通(普)</title>
+    <title lang="zh">国际快易通(普)</title>
   </programme>
   <programme start="20261128025500 +0800" stop="20261128035500 +0800" channel="mod.501">
     <title lang="zh">寰宇世界通(普)</title>
   </programme>
   <programme start="20261128035500 +0800" stop="20261128045500 +0800" channel="mod.501">
-    <title lang="zh">寰宇世界通(普)</title>
+    <title lang="zh">国际快易通(普)</title>
   </programme>
   <programme start="20261128045500 +0800" stop="20261128055500 +0800" channel="mod.501">
-    <title lang="zh">寰宇全球新闻(普)</title>
+    <title lang="zh">国际快易通(普)</title>
   </programme>
   <programme start="20261128055500 +0800" stop="20261128065500 +0800" channel="mod.501">
-    <title lang="zh">寰宇全球新闻(普)</title>
+    <title lang="zh">寰宇世界通(普)</title>
   </programme>
   <programme start="20261128065500 +0800" stop="20261128075500 +0800" channel="mod.501">
-    <title lang="zh">寰宇全球新闻(普)</title>
+    <title lang="zh">寰宇全球早报(普)</title>
   </programme>
   <programme start="20261128075500 +0800" stop="20261128085500 +0800" channel="mod.501">
-    <title lang="zh">寰宇世界通(普)</title>
+    <title lang="zh">寰宇全球早报(普)</title>
   </programme>
   <programme start="20261128085500 +0800" stop="20261128095500 +0800" channel="mod.501">
-    <title lang="zh">寰宇世界通(普)</title>
+    <title lang="zh">寰宇全球早报(普)</title>
   </programme>
   <programme start="20261128095500 +0800" stop="20261128105500 +0800" channel="mod.501">
-    <title lang="zh">寰宇世界通(普)</title>
+    <title lang="zh">寰宇全球现场(普)</title>
   </programme>
   <programme start="20261128105500 +0800" stop="20261128115500 +0800" channel="mod.501">
     <title lang="zh">寰宇全球现场(普)</title>
@@ -176119,64 +177052,64 @@
     <title lang="zh">寰宇全球现场(普)</title>
   </programme>
   <programme start="20261128135500 +0800" stop="20261128145500 +0800" channel="mod.501">
-    <title lang="zh">寰宇全球现场(普)</title>
+    <title lang="zh">寰宇整点新闻(普)</title>
   </programme>
   <programme start="20261128145500 +0800" stop="20261128155500 +0800" channel="mod.501">
-    <title lang="zh">寰宇全球现场(普)</title>
+    <title lang="zh">寰宇整点新闻(普)</title>
   </programme>
   <programme start="20261128155500 +0800" stop="20261128165500 +0800" channel="mod.501">
-    <title lang="zh">寰宇全球现场(普)</title>
+    <title lang="zh">九合一大选开票特别报导(普)</title>
   </programme>
   <programme start="20261128165500 +0800" stop="20261128175500 +0800" channel="mod.501">
-    <title lang="zh">寰宇全球新闻(普)</title>
+    <title lang="zh">九合一大选开票特别报导(普)</title>
   </programme>
   <programme start="20261128175500 +0800" stop="20261128185500 +0800" channel="mod.501">
-    <title lang="zh">寰宇全球新闻(普)</title>
+    <title lang="zh">九合一大选开票特别报导(普)</title>
   </programme>
   <programme start="20261128185500 +0800" stop="20261128195500 +0800" channel="mod.501">
-    <title lang="zh">寰宇全球新闻(普)</title>
+    <title lang="zh">九合一大选开票特别报导(普)</title>
   </programme>
   <programme start="20261128195500 +0800" stop="20261128205500 +0800" channel="mod.501">
-    <title lang="zh">寰宇整点新闻(普)</title>
+    <title lang="zh">九合一大选开票特别报导(普)</title>
   </programme>
   <programme start="20261128205500 +0800" stop="20261128215500 +0800" channel="mod.501">
-    <title lang="zh">Linking 368 Taiwan(普)</title>
+    <title lang="zh">寰宇世界通(普)</title>
   </programme>
   <programme start="20261128215500 +0800" stop="20261128225500 +0800" channel="mod.501">
-    <title lang="zh">国际快易通(普)</title>
+    <title lang="zh">寰宇世界通(普)</title>
   </programme>
   <programme start="20261128225500 +0800" stop="20261128235500 +0800" channel="mod.501">
-    <title lang="zh">寰宇全球新闻(普)</title>
+    <title lang="zh">寰宇世界通(普)</title>
   </programme>
   <programme start="20261128235500 +0800" stop="20261129000000 +0800" channel="mod.501">
-    <title lang="zh">寰宇全球新闻(普)</title>
+    <title lang="zh">寰宇世界通(普)</title>
   </programme>
   <programme start="20261129005500 +0800" stop="20261129015500 +0800" channel="mod.501">
-    <title lang="zh">寰宇整点新闻(普)</title>
+    <title lang="zh">寰宇世界通(普)</title>
   </programme>
   <programme start="20261129015500 +0800" stop="20261129025500 +0800" channel="mod.501">
-    <title lang="zh">国际快易通(普)</title>
+    <title lang="zh">寰宇世界通(普)</title>
   </programme>
   <programme start="20261129025500 +0800" stop="20261129035500 +0800" channel="mod.501">
-    <title lang="zh">寰宇全球新闻(普)</title>
+    <title lang="zh">寰宇世界通(普)</title>
   </programme>
   <programme start="20261129035500 +0800" stop="20261129045500 +0800" channel="mod.501">
-    <title lang="zh">寰宇全球新闻(普)</title>
+    <title lang="zh">寰宇世界通(普)</title>
   </programme>
   <programme start="20261129045500 +0800" stop="20261129055500 +0800" channel="mod.501">
-    <title lang="zh">寰宇整点新闻(普)</title>
+    <title lang="zh">寰宇世界通(普)</title>
   </programme>
   <programme start="20261129055500 +0800" stop="20261129065500 +0800" channel="mod.501">
-    <title lang="zh">寰宇全球新闻(普)</title>
+    <title lang="zh">寰宇世界通(普)</title>
   </programme>
   <programme start="20261129065500 +0800" stop="20261129075500 +0800" channel="mod.501">
-    <title lang="zh">寰宇全球新闻(普)</title>
+    <title lang="zh">寰宇世界通(普)</title>
   </programme>
   <programme start="20261129075500 +0800" stop="20261129085500 +0800" channel="mod.501">
-    <title lang="zh">寰宇全球新闻(普)</title>
+    <title lang="zh">寰宇全球早报(普)</title>
   </programme>
   <programme start="20261129085500 +0800" stop="20261129095500 +0800" channel="mod.501">
-    <title lang="zh">国际快易通(普)</title>
+    <title lang="zh">寰宇全球早报(普)</title>
   </programme>
   <programme start="20261129095500 +0800" stop="20261129105500 +0800" channel="mod.501">
     <title lang="zh">全球面对面(普)</title>
@@ -176209,7 +177142,7 @@
     <title lang="zh">寰宇全球新闻(普)</title>
   </programme>
   <programme start="20261129195500 +0800" stop="20261129202500 +0800" channel="mod.501">
-    <title lang="zh">新台湾大体验(普)</title>
+    <title lang="zh">进击的台湾(普)</title>
   </programme>
   <programme start="20261129202500 +0800" stop="20261129205500 +0800" channel="mod.501">
     <title lang="zh">寰宇整点新闻(普)</title>
@@ -176377,10 +177310,10 @@
     <title lang="zh">寰宇焦点新闻(普)</title>
   </programme>
   <programme start="20261118020000 +0800" stop="20261118030000 +0800" channel="mod.502">
-    <title lang="zh">寰宇晚间新闻(普)</title>
+    <title lang="zh">寰宇焦点新闻(普)</title>
   </programme>
   <programme start="20261118030000 +0800" stop="20261118040000 +0800" channel="mod.502">
-    <title lang="zh">寰宇晚间新闻(普)</title>
+    <title lang="zh">寰宇焦点新闻(普)</title>
   </programme>
   <programme start="20261118040000 +0800" stop="20261118050000 +0800" channel="mod.502">
     <title lang="zh">寰宇焦点新闻(普)</title>
@@ -191927,6 +192860,561 @@
   </programme>
   <programme start="20261123230000 +0800" stop="20261124000000 +0800" channel="mod.553">
     <title lang="zh">Inside The Trauma Unit(普)</title>
+  </programme>
+  <programme start="20261124000000 +0800" stop="20261124000300 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261124000300 +0800" stop="20261124010000 +0800" channel="mod.553">
+    <title lang="zh">East Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261124010000 +0800" stop="20261124020000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Hour(普)</title>
+  </programme>
+  <programme start="20261124020000 +0800" stop="20261124030000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Tonight(普)</title>
+  </programme>
+  <programme start="20261124030000 +0800" stop="20261124040000 +0800" channel="mod.553">
+    <title lang="zh">Insight(普)</title>
+  </programme>
+  <programme start="20261124040000 +0800" stop="20261124050000 +0800" channel="mod.553">
+    <title lang="zh">Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261124050000 +0800" stop="20261124060000 +0800" channel="mod.553">
+    <title lang="zh">Inside The Trauma Unit(普)</title>
+  </programme>
+  <programme start="20261124060000 +0800" stop="20261124070000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Tonight(普)</title>
+  </programme>
+  <programme start="20261124070000 +0800" stop="20261124100000 +0800" channel="mod.553">
+    <title lang="zh">Asia First(普)</title>
+  </programme>
+  <programme start="20261124100000 +0800" stop="20261124110000 +0800" channel="mod.553">
+    <title lang="zh">Inside The Trauma Unit(普)</title>
+  </programme>
+  <programme start="20261124110000 +0800" stop="20261124130000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261124130000 +0800" stop="20261124140000 +0800" channel="mod.553">
+    <title lang="zh">Inside The Trauma Unit(普)</title>
+  </programme>
+  <programme start="20261124140000 +0800" stop="20261124160000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261124160000 +0800" stop="20261124163000 +0800" channel="mod.553">
+    <title lang="zh">Money Mind(普)</title>
+  </programme>
+  <programme start="20261124163000 +0800" stop="20261124170000 +0800" channel="mod.553">
+    <title lang="zh">CNA Correspondent(普)</title>
+  </programme>
+  <programme start="20261124170000 +0800" stop="20261124170200 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261124170200 +0800" stop="20261124180000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Hour(普)</title>
+  </programme>
+  <programme start="20261124180000 +0800" stop="20261124190000 +0800" channel="mod.553">
+    <title lang="zh">East Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261124190000 +0800" stop="20261124200000 +0800" channel="mod.553">
+    <title lang="zh">Inside The Trauma Unit(普)</title>
+  </programme>
+  <programme start="20261124200000 +0800" stop="20261124210000 +0800" channel="mod.553">
+    <title lang="zh">Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261124210000 +0800" stop="20261124220000 +0800" channel="mod.553">
+    <title lang="zh">Shermin&apos;s Manga Mayhem(普)</title>
+  </programme>
+  <programme start="20261124220000 +0800" stop="20261124230000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Tonight(普)</title>
+  </programme>
+  <programme start="20261124230000 +0800" stop="20261125000000 +0800" channel="mod.553">
+    <title lang="zh">Inside The Trauma Unit(普)</title>
+  </programme>
+  <programme start="20261125000000 +0800" stop="20261125000300 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261125000300 +0800" stop="20261125010000 +0800" channel="mod.553">
+    <title lang="zh">East Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261125010000 +0800" stop="20261125020000 +0800" channel="mod.553">
+    <title lang="zh">Inside The Trauma Unit(普)</title>
+  </programme>
+  <programme start="20261125020000 +0800" stop="20261125030000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Tonight(普)</title>
+  </programme>
+  <programme start="20261125030000 +0800" stop="20261125040000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Hour(普)</title>
+  </programme>
+  <programme start="20261125040000 +0800" stop="20261125050000 +0800" channel="mod.553">
+    <title lang="zh">Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261125050000 +0800" stop="20261125060000 +0800" channel="mod.553">
+    <title lang="zh">Shermin&apos;s Manga Mayhem(普)</title>
+  </programme>
+  <programme start="20261125060000 +0800" stop="20261125070000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Tonight(普)</title>
+  </programme>
+  <programme start="20261125070000 +0800" stop="20261125100000 +0800" channel="mod.553">
+    <title lang="zh">Asia First(普)</title>
+  </programme>
+  <programme start="20261125100000 +0800" stop="20261125110000 +0800" channel="mod.553">
+    <title lang="zh">Shermin&apos;s Manga Mayhem(普)</title>
+  </programme>
+  <programme start="20261125110000 +0800" stop="20261125130000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261125130000 +0800" stop="20261125140000 +0800" channel="mod.553">
+    <title lang="zh">Inside The Trauma Unit(普)</title>
+  </programme>
+  <programme start="20261125140000 +0800" stop="20261125160000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261125160000 +0800" stop="20261125170000 +0800" channel="mod.553">
+    <title lang="zh">Insight(普)</title>
+  </programme>
+  <programme start="20261125170000 +0800" stop="20261125170200 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261125170200 +0800" stop="20261125180000 +0800" channel="mod.553">
+    <title lang="zh">Inside The Trauma Unit(普)</title>
+  </programme>
+  <programme start="20261125180000 +0800" stop="20261125190000 +0800" channel="mod.553">
+    <title lang="zh">East Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261125190000 +0800" stop="20261125200000 +0800" channel="mod.553">
+    <title lang="zh">Inside The Trauma Unit(普)</title>
+  </programme>
+  <programme start="20261125200000 +0800" stop="20261125210000 +0800" channel="mod.553">
+    <title lang="zh">Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261125210000 +0800" stop="20261125213000 +0800" channel="mod.553">
+    <title lang="zh">Money Mind(普)</title>
+  </programme>
+  <programme start="20261125213000 +0800" stop="20261125220000 +0800" channel="mod.553">
+    <title lang="zh">CNA Correspondent(普)</title>
+  </programme>
+  <programme start="20261125220000 +0800" stop="20261125230000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Tonight(普)</title>
+  </programme>
+  <programme start="20261125230000 +0800" stop="20261126000000 +0800" channel="mod.553">
+    <title lang="zh">Shermin&apos;s Manga Mayhem(普)</title>
+  </programme>
+  <programme start="20261126000000 +0800" stop="20261126000300 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261126000300 +0800" stop="20261126010000 +0800" channel="mod.553">
+    <title lang="zh">East Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261126010000 +0800" stop="20261126020000 +0800" channel="mod.553">
+    <title lang="zh">Inside The Trauma Unit(普)</title>
+  </programme>
+  <programme start="20261126020000 +0800" stop="20261126030000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Tonight(普)</title>
+  </programme>
+  <programme start="20261126030000 +0800" stop="20261126040000 +0800" channel="mod.553">
+    <title lang="zh">Inside The Trauma Unit(普)</title>
+  </programme>
+  <programme start="20261126040000 +0800" stop="20261126050000 +0800" channel="mod.553">
+    <title lang="zh">Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261126050000 +0800" stop="20261126053000 +0800" channel="mod.553">
+    <title lang="zh">Money Mind(普)</title>
+  </programme>
+  <programme start="20261126053000 +0800" stop="20261126060000 +0800" channel="mod.553">
+    <title lang="zh">CNA Correspondent(普)</title>
+  </programme>
+  <programme start="20261126060000 +0800" stop="20261126070000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Tonight(普)</title>
+  </programme>
+  <programme start="20261126070000 +0800" stop="20261126100000 +0800" channel="mod.553">
+    <title lang="zh">Asia First(普)</title>
+  </programme>
+  <programme start="20261126100000 +0800" stop="20261126103000 +0800" channel="mod.553">
+    <title lang="zh">Money Mind(普)</title>
+  </programme>
+  <programme start="20261126103000 +0800" stop="20261126110000 +0800" channel="mod.553">
+    <title lang="zh">CNA Correspondent(普)</title>
+  </programme>
+  <programme start="20261126110000 +0800" stop="20261126130000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261126130000 +0800" stop="20261126140000 +0800" channel="mod.553">
+    <title lang="zh">Shermin&apos;s Manga Mayhem(普)</title>
+  </programme>
+  <programme start="20261126140000 +0800" stop="20261126160000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261126160000 +0800" stop="20261126170000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Hour(普)</title>
+  </programme>
+  <programme start="20261126170000 +0800" stop="20261126170200 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261126170200 +0800" stop="20261126173000 +0800" channel="mod.553">
+    <title lang="zh">Talking Point(普)</title>
+  </programme>
+  <programme start="20261126173000 +0800" stop="20261126180000 +0800" channel="mod.553">
+    <title lang="zh">Call Us Wunderkind(普)</title>
+  </programme>
+  <programme start="20261126180000 +0800" stop="20261126190000 +0800" channel="mod.553">
+    <title lang="zh">East Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261126190000 +0800" stop="20261126193000 +0800" channel="mod.553">
+    <title lang="zh">Laws That Shaped Our Nation(普)</title>
+  </programme>
+  <programme start="20261126193000 +0800" stop="20261126200000 +0800" channel="mod.553">
+    <title lang="zh">On The Red Dot(普)</title>
+  </programme>
+  <programme start="20261126200000 +0800" stop="20261126210000 +0800" channel="mod.553">
+    <title lang="zh">Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261126210000 +0800" stop="20261126220000 +0800" channel="mod.553">
+    <title lang="zh">Insight(普)</title>
+  </programme>
+  <programme start="20261126220000 +0800" stop="20261126230000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Tonight(普)</title>
+  </programme>
+  <programme start="20261126230000 +0800" stop="20261126233000 +0800" channel="mod.553">
+    <title lang="zh">Laws That Shaped Our Nation(普)</title>
+  </programme>
+  <programme start="20261126233000 +0800" stop="20261127000000 +0800" channel="mod.553">
+    <title lang="zh">CNA Correspondent(普)</title>
+  </programme>
+  <programme start="20261127000000 +0800" stop="20261127000300 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261127000300 +0800" stop="20261127010000 +0800" channel="mod.553">
+    <title lang="zh">East Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261127010000 +0800" stop="20261127020000 +0800" channel="mod.553">
+    <title lang="zh">Inside The Trauma Unit(普)</title>
+  </programme>
+  <programme start="20261127020000 +0800" stop="20261127030000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Tonight(普)</title>
+  </programme>
+  <programme start="20261127030000 +0800" stop="20261127040000 +0800" channel="mod.553">
+    <title lang="zh">Inside The Trauma Unit(普)</title>
+  </programme>
+  <programme start="20261127040000 +0800" stop="20261127050000 +0800" channel="mod.553">
+    <title lang="zh">Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261127050000 +0800" stop="20261127060000 +0800" channel="mod.553">
+    <title lang="zh">Insight(普)</title>
+  </programme>
+  <programme start="20261127060000 +0800" stop="20261127070000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Tonight(普)</title>
+  </programme>
+  <programme start="20261127070000 +0800" stop="20261127100000 +0800" channel="mod.553">
+    <title lang="zh">Asia First(普)</title>
+  </programme>
+  <programme start="20261127100000 +0800" stop="20261127110000 +0800" channel="mod.553">
+    <title lang="zh">Insight(普)</title>
+  </programme>
+  <programme start="20261127110000 +0800" stop="20261127130000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261127130000 +0800" stop="20261127133000 +0800" channel="mod.553">
+    <title lang="zh">Laws That Shaped Our Nation(普)</title>
+  </programme>
+  <programme start="20261127133000 +0800" stop="20261127140000 +0800" channel="mod.553">
+    <title lang="zh">Call Us Wunderkind(普)</title>
+  </programme>
+  <programme start="20261127140000 +0800" stop="20261127160000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261127160000 +0800" stop="20261127170000 +0800" channel="mod.553">
+    <title lang="zh">Inside The Trauma Unit(普)</title>
+  </programme>
+  <programme start="20261127170000 +0800" stop="20261127170200 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261127170200 +0800" stop="20261127180000 +0800" channel="mod.553">
+    <title lang="zh">Insight(普)</title>
+  </programme>
+  <programme start="20261127180000 +0800" stop="20261127190000 +0800" channel="mod.553">
+    <title lang="zh">East Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261127190000 +0800" stop="20261127200000 +0800" channel="mod.553">
+    <title lang="zh">Shermin&apos;s Manga Mayhem(普)</title>
+  </programme>
+  <programme start="20261127200000 +0800" stop="20261127210000 +0800" channel="mod.553">
+    <title lang="zh">Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261127210000 +0800" stop="20261127220000 +0800" channel="mod.553">
+    <title lang="zh">Japan Hour(普)</title>
+  </programme>
+  <programme start="20261127220000 +0800" stop="20261127230000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Tonight(普)</title>
+  </programme>
+  <programme start="20261127230000 +0800" stop="20261128000000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Hour(普)</title>
+  </programme>
+  <programme start="20261128000000 +0800" stop="20261128000300 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261128000300 +0800" stop="20261128010000 +0800" channel="mod.553">
+    <title lang="zh">East Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261128010000 +0800" stop="20261128020000 +0800" channel="mod.553">
+    <title lang="zh">Shermin&apos;s Manga Mayhem(普)</title>
+  </programme>
+  <programme start="20261128020000 +0800" stop="20261128030000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Tonight(普)</title>
+  </programme>
+  <programme start="20261128030000 +0800" stop="20261128040000 +0800" channel="mod.553">
+    <title lang="zh">Inside The Trauma Unit(普)</title>
+  </programme>
+  <programme start="20261128040000 +0800" stop="20261128050000 +0800" channel="mod.553">
+    <title lang="zh">Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261128050000 +0800" stop="20261128060000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Hour(普)</title>
+  </programme>
+  <programme start="20261128060000 +0800" stop="20261128070000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Tonight(普)</title>
+  </programme>
+  <programme start="20261128070000 +0800" stop="20261128073000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261128073000 +0800" stop="20261128080000 +0800" channel="mod.553">
+    <title lang="zh">On The Red Dot(普)</title>
+  </programme>
+  <programme start="20261128080000 +0800" stop="20261128083000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261128083000 +0800" stop="20261128090000 +0800" channel="mod.553">
+    <title lang="zh">Talking Point(普)</title>
+  </programme>
+  <programme start="20261128090000 +0800" stop="20261128093000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261128093000 +0800" stop="20261128100000 +0800" channel="mod.553">
+    <title lang="zh">Call Us Wunderkind(普)</title>
+  </programme>
+  <programme start="20261128100000 +0800" stop="20261128100200 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261128100200 +0800" stop="20261128110000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Hour(普)</title>
+  </programme>
+  <programme start="20261128110000 +0800" stop="20261128113000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261128113000 +0800" stop="20261128120000 +0800" channel="mod.553">
+    <title lang="zh">On The Red Dot(普)</title>
+  </programme>
+  <programme start="20261128120000 +0800" stop="20261128123000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261128123000 +0800" stop="20261128130000 +0800" channel="mod.553">
+    <title lang="zh">Money Mind(普)</title>
+  </programme>
+  <programme start="20261128130000 +0800" stop="20261128130200 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261128130200 +0800" stop="20261128140000 +0800" channel="mod.553">
+    <title lang="zh">Insight(普)</title>
+  </programme>
+  <programme start="20261128140000 +0800" stop="20261128143000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261128143000 +0800" stop="20261128150000 +0800" channel="mod.553">
+    <title lang="zh">CNA Correspondent(普)</title>
+  </programme>
+  <programme start="20261128150000 +0800" stop="20261128153000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261128153000 +0800" stop="20261128160000 +0800" channel="mod.553">
+    <title lang="zh">Call Us Wunderkind(普)</title>
+  </programme>
+  <programme start="20261128160000 +0800" stop="20261128160200 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261128160200 +0800" stop="20261128170000 +0800" channel="mod.553">
+    <title lang="zh">Inside The Trauma Unit(普)</title>
+  </programme>
+  <programme start="20261128170000 +0800" stop="20261128173000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261128173000 +0800" stop="20261128180000 +0800" channel="mod.553">
+    <title lang="zh">Talking Point(普)</title>
+  </programme>
+  <programme start="20261128180000 +0800" stop="20261128183000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261128183000 +0800" stop="20261128190000 +0800" channel="mod.553">
+    <title lang="zh">On The Red Dot(普)</title>
+  </programme>
+  <programme start="20261128190000 +0800" stop="20261128190200 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261128190200 +0800" stop="20261128200000 +0800" channel="mod.553">
+    <title lang="zh">Japan Hour(普)</title>
+  </programme>
+  <programme start="20261128200000 +0800" stop="20261128203000 +0800" channel="mod.553">
+    <title lang="zh">Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261128203000 +0800" stop="20261128210000 +0800" channel="mod.553">
+    <title lang="zh">Money Mind(普)</title>
+  </programme>
+  <programme start="20261128210000 +0800" stop="20261128210200 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261128210200 +0800" stop="20261128220000 +0800" channel="mod.553">
+    <title lang="zh">Limitless S2(普)</title>
+  </programme>
+  <programme start="20261128220000 +0800" stop="20261128223000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Tonight(普)</title>
+  </programme>
+  <programme start="20261128223000 +0800" stop="20261128230000 +0800" channel="mod.553">
+    <title lang="zh">On The Red Dot(普)</title>
+  </programme>
+  <programme start="20261128230000 +0800" stop="20261128230300 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261128230300 +0800" stop="20261129000000 +0800" channel="mod.553">
+    <title lang="zh">Shermin&apos;s Manga Mayhem(普)</title>
+  </programme>
+  <programme start="20261129000000 +0800" stop="20261129000300 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261129000300 +0800" stop="20261129003000 +0800" channel="mod.553">
+    <title lang="zh">CNA Correspondent(普)</title>
+  </programme>
+  <programme start="20261129003000 +0800" stop="20261129010000 +0800" channel="mod.553">
+    <title lang="zh">Call Us Wunderkind(普)</title>
+  </programme>
+  <programme start="20261129010000 +0800" stop="20261129013000 +0800" channel="mod.553">
+    <title lang="zh">Money Mind(普)</title>
+  </programme>
+  <programme start="20261129013000 +0800" stop="20261129020000 +0800" channel="mod.553">
+    <title lang="zh">Talking Point(普)</title>
+  </programme>
+  <programme start="20261129020000 +0800" stop="20261129023000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Tonight(普)</title>
+  </programme>
+  <programme start="20261129023000 +0800" stop="20261129030000 +0800" channel="mod.553">
+    <title lang="zh">On The Red Dot(普)</title>
+  </programme>
+  <programme start="20261129030000 +0800" stop="20261129040000 +0800" channel="mod.553">
+    <title lang="zh">Shermin&apos;s Manga Mayhem(普)</title>
+  </programme>
+  <programme start="20261129040000 +0800" stop="20261129043000 +0800" channel="mod.553">
+    <title lang="zh">Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261129043000 +0800" stop="20261129050000 +0800" channel="mod.553">
+    <title lang="zh">Call Us Wunderkind(普)</title>
+  </programme>
+  <programme start="20261129050000 +0800" stop="20261129060000 +0800" channel="mod.553">
+    <title lang="zh">Limitless S2(普)</title>
+  </programme>
+  <programme start="20261129060000 +0800" stop="20261129063000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Tonight(普)</title>
+  </programme>
+  <programme start="20261129063000 +0800" stop="20261129070000 +0800" channel="mod.553">
+    <title lang="zh">CNA Correspondent(普)</title>
+  </programme>
+  <programme start="20261129070000 +0800" stop="20261129073000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261129073000 +0800" stop="20261129080000 +0800" channel="mod.553">
+    <title lang="zh">On The Red Dot(普)</title>
+  </programme>
+  <programme start="20261129080000 +0800" stop="20261129083000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261129083000 +0800" stop="20261129090000 +0800" channel="mod.553">
+    <title lang="zh">Call Us Wunderkind(普)</title>
+  </programme>
+  <programme start="20261129090000 +0800" stop="20261129093000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261129093000 +0800" stop="20261129100000 +0800" channel="mod.553">
+    <title lang="zh">Talking Point(普)</title>
+  </programme>
+  <programme start="20261129100000 +0800" stop="20261129100200 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261129100200 +0800" stop="20261129110000 +0800" channel="mod.553">
+    <title lang="zh">Limitless S2(普)</title>
+  </programme>
+  <programme start="20261129110000 +0800" stop="20261129113000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261129113000 +0800" stop="20261129120000 +0800" channel="mod.553">
+    <title lang="zh">Money Mind(普)</title>
+  </programme>
+  <programme start="20261129120000 +0800" stop="20261129123000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261129123000 +0800" stop="20261129130000 +0800" channel="mod.553">
+    <title lang="zh">CNA Correspondent(普)</title>
+  </programme>
+  <programme start="20261129130000 +0800" stop="20261129130200 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261129130200 +0800" stop="20261129140000 +0800" channel="mod.553">
+    <title lang="zh">Japan Hour(普)</title>
+  </programme>
+  <programme start="20261129140000 +0800" stop="20261129143000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261129143000 +0800" stop="20261129150000 +0800" channel="mod.553">
+    <title lang="zh">Call Us Wunderkind(普)</title>
+  </programme>
+  <programme start="20261129150000 +0800" stop="20261129153000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261129153000 +0800" stop="20261129160000 +0800" channel="mod.553">
+    <title lang="zh">On The Red Dot(普)</title>
+  </programme>
+  <programme start="20261129160000 +0800" stop="20261129160200 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261129160200 +0800" stop="20261129170000 +0800" channel="mod.553">
+    <title lang="zh">Inside The Trauma Unit(普)</title>
+  </programme>
+  <programme start="20261129170000 +0800" stop="20261129173000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261129173000 +0800" stop="20261129180000 +0800" channel="mod.553">
+    <title lang="zh">CNA Correspondent(普)</title>
+  </programme>
+  <programme start="20261129180000 +0800" stop="20261129183000 +0800" channel="mod.553">
+    <title lang="zh">Asia Now(普)</title>
+  </programme>
+  <programme start="20261129183000 +0800" stop="20261129190000 +0800" channel="mod.553">
+    <title lang="zh">Talking Point(普)</title>
+  </programme>
+  <programme start="20261129190000 +0800" stop="20261129190200 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261129190200 +0800" stop="20261129200000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Hour(普)</title>
+  </programme>
+  <programme start="20261129200000 +0800" stop="20261129203000 +0800" channel="mod.553">
+    <title lang="zh">Asia Tonight(普)</title>
+  </programme>
+  <programme start="20261129203000 +0800" stop="20261129210000 +0800" channel="mod.553">
+    <title lang="zh">Call Us Wunderkind(普)</title>
+  </programme>
+  <programme start="20261129210000 +0800" stop="20261129210200 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261129210200 +0800" stop="20261129220000 +0800" channel="mod.553">
+    <title lang="zh">Limitless S2(普)</title>
+  </programme>
+  <programme start="20261129220000 +0800" stop="20261129223000 +0800" channel="mod.553">
+    <title lang="zh">Singapore Tonight(普)</title>
+  </programme>
+  <programme start="20261129223000 +0800" stop="20261129230000 +0800" channel="mod.553">
+    <title lang="zh">Talking Point(普)</title>
+  </programme>
+  <programme start="20261129230000 +0800" stop="20261129230300 +0800" channel="mod.553">
+    <title lang="zh">Headline News(普)</title>
+  </programme>
+  <programme start="20261129230300 +0800" stop="20261130000000 +0800" channel="mod.553">
+    <title lang="zh">Limitless S2(普)</title>
   </programme>
   <programme start="20261116000000 +0800" stop="20261116010000 +0800" channel="mod.554">
     <title lang="zh">Late Night with Seth Meyers(普)</title>
@@ -229729,7 +231217,7 @@
     <title lang="zh">芭犁大舞台(普)</title>
   </programme>
   <programme start="20261117060000 +0800" stop="20261117070000 +0800" channel="mod.729">
-    <title lang="zh">合天之音(普)</title>
+    <title lang="zh">阿锜to新闻(普)</title>
   </programme>
   <programme start="20261117070000 +0800" stop="20261117090000 +0800" channel="mod.729">
     <title lang="zh">欢迎来做伙(护)</title>
@@ -229771,7 +231259,7 @@
     <title lang="zh">芭犁大舞台(普)</title>
   </programme>
   <programme start="20261118060000 +0800" stop="20261118070000 +0800" channel="mod.729">
-    <title lang="zh">合天之音(普)</title>
+    <title lang="zh">阿锜to新闻(普)</title>
   </programme>
   <programme start="20261118070000 +0800" stop="20261118090000 +0800" channel="mod.729">
     <title lang="zh">欢迎来做伙(护)</title>
@@ -229813,7 +231301,7 @@
     <title lang="zh">芭犁大舞台(普)</title>
   </programme>
   <programme start="20261119060000 +0800" stop="20261119070000 +0800" channel="mod.729">
-    <title lang="zh">合天之音(普)</title>
+    <title lang="zh">阿锜to新闻(普)</title>
   </programme>
   <programme start="20261119070000 +0800" stop="20261119090000 +0800" channel="mod.729">
     <title lang="zh">欢迎来做伙(普)</title>
@@ -229855,7 +231343,7 @@
     <title lang="zh">芭犁大舞台(普)</title>
   </programme>
   <programme start="20261120060000 +0800" stop="20261120070000 +0800" channel="mod.729">
-    <title lang="zh">合天之音(普)</title>
+    <title lang="zh">阿锜to新闻(普)</title>
   </programme>
   <programme start="20261120070000 +0800" stop="20261120090000 +0800" channel="mod.729">
     <title lang="zh">欢迎来做伙(护)</title>
@@ -229897,7 +231385,7 @@
     <title lang="zh">芭犁大舞台(普)</title>
   </programme>
   <programme start="20261121060000 +0800" stop="20261121070000 +0800" channel="mod.729">
-    <title lang="zh">合天之音(普)</title>
+    <title lang="zh">阿锜to新闻(普)</title>
   </programme>
   <programme start="20261121070000 +0800" stop="20261121090000 +0800" channel="mod.729">
     <title lang="zh">欢迎来做伙(护)</title>
@@ -229939,7 +231427,7 @@
     <title lang="zh">芭犁大舞台(普)</title>
   </programme>
   <programme start="20261122060000 +0800" stop="20261122070000 +0800" channel="mod.729">
-    <title lang="zh">合天之音(普)</title>
+    <title lang="zh">阿锜to新闻(普)</title>
   </programme>
   <programme start="20261122070000 +0800" stop="20261122080000 +0800" channel="mod.729">
     <title lang="zh">赛鸽竞翔(普)</title>
@@ -229984,7 +231472,7 @@
     <title lang="zh">芭犁大舞台(普)</title>
   </programme>
   <programme start="20261123060000 +0800" stop="20261123070000 +0800" channel="mod.729">
-    <title lang="zh">合天之音(普)</title>
+    <title lang="zh">阿锜to新闻(普)</title>
   </programme>
   <programme start="20261123070000 +0800" stop="20261123090000 +0800" channel="mod.729">
     <title lang="zh">欢迎来做伙(护)</title>
@@ -230026,7 +231514,7 @@
     <title lang="zh">芭犁大舞台(普)</title>
   </programme>
   <programme start="20261124060000 +0800" stop="20261124070000 +0800" channel="mod.729">
-    <title lang="zh">合天之音(普)</title>
+    <title lang="zh">阿锜to新闻(普)</title>
   </programme>
   <programme start="20261124070000 +0800" stop="20261124090000 +0800" channel="mod.729">
     <title lang="zh">欢迎来做伙(护)</title>
@@ -230068,7 +231556,7 @@
     <title lang="zh">芭犁大舞台(普)</title>
   </programme>
   <programme start="20261125060000 +0800" stop="20261125070000 +0800" channel="mod.729">
-    <title lang="zh">合天之音(普)</title>
+    <title lang="zh">阿锜to新闻(普)</title>
   </programme>
   <programme start="20261125070000 +0800" stop="20261125080000 +0800" channel="mod.729">
     <title lang="zh">赛鸽竞翔(普)</title>
@@ -230113,7 +231601,7 @@
     <title lang="zh">芭犁大舞台(普)</title>
   </programme>
   <programme start="20261126060000 +0800" stop="20261126070000 +0800" channel="mod.729">
-    <title lang="zh">合天之音(普)</title>
+    <title lang="zh">阿锜to新闻(普)</title>
   </programme>
   <programme start="20261126070000 +0800" stop="20261126090000 +0800" channel="mod.729">
     <title lang="zh">欢迎来做伙(护)</title>
@@ -230155,7 +231643,7 @@
     <title lang="zh">芭犁大舞台(普)</title>
   </programme>
   <programme start="20261127060000 +0800" stop="20261127070000 +0800" channel="mod.729">
-    <title lang="zh">合天之音(普)</title>
+    <title lang="zh">阿锜to新闻(普)</title>
   </programme>
   <programme start="20261127070000 +0800" stop="20261127090000 +0800" channel="mod.729">
     <title lang="zh">欢迎来做伙(护)</title>
@@ -230197,7 +231685,7 @@
     <title lang="zh">芭犁大舞台(普)</title>
   </programme>
   <programme start="20261128060000 +0800" stop="20261128070000 +0800" channel="mod.729">
-    <title lang="zh">合天之音(普)</title>
+    <title lang="zh">阿锜to新闻(普)</title>
   </programme>
   <programme start="20261128070000 +0800" stop="20261128090000 +0800" channel="mod.729">
     <title lang="zh">欢迎来做伙(护)</title>
@@ -230239,7 +231727,7 @@
     <title lang="zh">芭犁大舞台(普)</title>
   </programme>
   <programme start="20261129060000 +0800" stop="20261129070000 +0800" channel="mod.729">
-    <title lang="zh">合天之音(普)</title>
+    <title lang="zh">阿锜to新闻(普)</title>
   </programme>
   <programme start="20261129070000 +0800" stop="20261129080000 +0800" channel="mod.729">
     <title lang="zh">赛鸽竞翔(普)</title>
