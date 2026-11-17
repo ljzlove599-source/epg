@@ -1,0 +1,35 @@
+name: ELTA EPG 节目单生成
+
+on:
+  schedule:
+    # 每日台北时间 00:30 自动执行（对应 UTC 16:30）
+    - cron: '30 16 * * *'
+  workflow_dispatch: # 支持手动触发执行
+
+jobs:
+  build-epg:
+    runs-on: ubuntu-latest
+    name: 生成 ELTA OTT 节目单
+    steps:
+      - name: 检出项目代码
+        uses: actions/checkout@v4
+
+      - name: 配置 PHP 运行环境
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+          extensions: curl, json, xml, mbstring
+          coverage: none
+
+      - name: 创建输出目录
+        run: mkdir -p epg
+
+      - name: 执行 EPG 生成脚本
+        run: php epg_elta.php
+
+      - name: 归档生成的 EPG 文件
+        uses: actions/upload-artifact@v4
+        with:
+          name: epg_elta.xml
+          path: epg/epg_elta.xml
+          retention-days: 7
