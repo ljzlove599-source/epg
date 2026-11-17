@@ -2,7 +2,7 @@
 /**
  * 台湾 ELTA OTT 节目单数据源（eltaott.tv）—— PHP 移植版
  * 输出标准 XMLTV 格式 EPG 文件：epg/epg_elta.xml
- * 新增：繁体转简体功能，读取同目录 t2s.json 映射表
+ * 功能：繁转简（同目录 t2s.json）、内置频道别名映射、广播日跨天去重、半成品日期过滤
  * 
  * ⚠️ 运行环境要求：必须在海外网络（如 GitHub Actions 海外机房）执行
  * 境内 DNS 会污染 CDN 域名 piceltaott-elta.cdn.hinet.net，导致数据请求失败
@@ -15,10 +15,45 @@ define('PROBE_BACK', 3);   // 向前探测天数（仅用于边界校验）
 define('PROBE_AHEAD', 7);  // 向后探测天数
 define('OUTPUT_FILE', __DIR__ . '/epg/epg_elta.xml');
 define('TIMEZONE', new DateTimeZone('Asia/Taipei'));
+define('T2S_FILE', __DIR__ . '/t2s.json');
 
 // 静态缓存
 static $channelCache = null;
 static $t2sMap = null;
+
+// ==================== 频道别名配置区（直接在此修改） ====================
+// 键：繁转简后的原始频道名；值：最终显示的频道名
+function get_channel_alias_map(): array
+{
+    return [
+        // 体育基础台
+        '体育1台' => '爱尔达体育1台',
+        '体育2台' => '爱尔达体育2台',
+        '体育3台' => '爱尔达体育3台',
+        '体育4台' => '爱尔达体育4台',
+
+        // 体育MAX系列
+        '体育MAX1台' => '爱尔达体育MAX1',
+        '体育MAX2台' => '爱尔达体育MAX2',
+        '体育MAX3台' => '爱尔达体育MAX3',
+        '体育MAX4台' => '爱尔达体育MAX4',
+        '体育MAX5台' => '爱尔达体育MAX5',
+        '体育MAX6台' => '爱尔达体育MAX6',
+        '体育MAX7台' => '爱尔达体育MAX7',
+        '体育MAX8台' => '爱尔达体育MAX8',
+        '体育MAX9台' => '爱尔达体育MAX9',
+        '体育MAX10台' => '爱尔达体育MAX10',
+
+        // 新闻/综合台
+        '影剧台' => '爱尔达影剧台',
+        '综合台' => '爱尔达综合台',
+        '日韩台' => '日韩台',
+
+        // 电竞/主题台
+        'Ginx电竞频道' => 'Ginx TV电竞频道',
+    ];
+}
+// =======================================================================
 
 /**
  * 移除 JSON 中的单行与多行注释
@@ -31,7 +66,7 @@ function strip_json_comments(string $json): string
 }
 
 /**
- * 加载繁转简映射表（同目录 t2s.json）
+ * 加载繁转简映射表
  * @return array 繁=>简映射数组，加载失败返回空数组
  */
 function load_t2s_map(): array
@@ -39,14 +74,13 @@ function load_t2s_map(): array
     global $t2sMap;
     if ($t2sMap !== null) return $t2sMap;
 
-    $t2sFile = __DIR__ . '/t2s.json';
-    if (!file_exists($t2sFile)) {
+    if (!file_exists(T2S_FILE)) {
         echo "[提示] 未找到 t2s.json，跳过繁转简处理" . PHP_EOL;
         $t2sMap = [];
         return $t2sMap;
     }
 
-    $content = file_get_contents($t2sFile);
+    $content = file_get_contents(T2S_FILE);
     if ($content === false) {
         echo "[警告] 读取 t2s.json 失败，跳过繁转简处理" . PHP_EOL;
         $t2sMap = [];
@@ -67,7 +101,7 @@ function load_t2s_map(): array
 }
 
 /**
- * 繁体转简体转换
+ * 文本繁转简
  * @param string $text 原始繁体文本
  * @return string 转换后的简体文本
  */
@@ -76,6 +110,18 @@ function t2s_convert(string $text): string
     $map = load_t2s_map();
     if (empty($map)) return $text;
     return strtr($text, $map);
+}
+
+/**
+ * 频道名称标准化：繁转简 + 内置别名替换
+ * @param string $originName 原始频道名
+ * @return string 处理后的频道名
+ */
+function normalize_channel_name(string $originName): string
+{
+    $simpleName = t2s_convert(trim($originName));
+    $aliasMap = get_channel_alias_map();
+    return $aliasMap[$simpleName] ?? $simpleName;
 }
 
 /**
@@ -94,7 +140,7 @@ function taipei_ymd(int $offsetDays = 0): string
  */
 function dash_ymd(string $ymd): string
 {
-    return substr($ymd, 0, 4) . '-' . substr($ymd, 4, 2) . '-' . substr($ymd, 6, 8);
+    return substr($ymd, 0, 4) . '-' . substr($ymd, 4, 2) . '-' . substr($ymd, 6, 2);
 }
 
 /**
@@ -167,9 +213,11 @@ function fetch_channel_list(): array
 
         $inWindow = true;
         if ($stStr && $etStr && strpos($stStr, '0000') !== 0) {
-            $st = DateTime::createFromFormat('Y-m-d H:i:s', $stStr, TIMEZONE)->getTimestamp();
-            $et = DateTime::createFromFormat('Y-m-d H:i:s', $etStr, TIMEZONE)->getTimestamp();
-            $inWindow = ($st <= $now && $et > $now);
+            $st = DateTime::createFromFormat('Y-m-d H:i:s', $stStr, TIMEZONE);
+            $et = DateTime::createFromFormat('Y-m-d H:i:s', $etStr, TIMEZONE);
+            if ($st && $et) {
+                $inWindow = ($st->getTimestamp() <= $now && $et->getTimestamp() > $now);
+            }
         }
 
         if (!($showType === 1 || ($showType === 2 && $inWindow))) continue;
@@ -234,13 +282,13 @@ function generate_epg(): void
     $xml->writeAttribute('source-info-name', 'ELTA OTT');
     $xml->writeAttribute('generator-info-name', 'elta-epg-php');
 
-    // 写入频道元数据（名称繁转简）
+    // 写入频道元数据（名称标准化）
     foreach ($channels as $ch) {
         $xml->startElement('channel');
         $xml->writeAttribute('id', $ch['sourceId']);
         $xml->startElement('display-name');
         $xml->writeAttribute('lang', 'zh');
-        $xml->text(t2s_convert($ch['name']));
+        $xml->text(normalize_channel_name($ch['name']));
         $xml->endElement();
         $xml->endElement();
     }
@@ -327,4 +375,3 @@ try {
     echo "[致命错误] " . $e->getMessage() . PHP_EOL;
     exit(1);
 }
-
