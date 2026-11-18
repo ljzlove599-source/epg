@@ -2,8 +2,14 @@ name: 采集 TDM 澳广视 EPG
 
 on:
   schedule:
-    - cron: '40 16 * * *'  # 北京时间 00:40 执行
+    - cron: '40 16 * * *'  # UTC 16:40 = 北京时间 00:40
   workflow_dispatch:
+
+# 并发控制
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false  # false：已经在运行的任务不打断；true：新任务进来直接杀掉正在跑的旧任务
+  # 👉 EPG采集建议用 false，采集中途杀掉容易生成损坏的xml；如果你希望总是跑最新，可以改成 true
 
 permissions:
   contents: write
@@ -27,5 +33,7 @@ jobs:
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
           git add epg_sources/tdm_epg.xml
-          git diff --quiet --cached && echo "无更新" || git commit -m "自动更新 TDM EPG $(date +'%Y-%m-%d')"
-          git push
+          git diff --quiet --cached && echo "无更新" || {
+            git commit -m "自动更新 TDM EPG $(date +'%Y-%m-%d')"
+            git push --force-with-lease origin main
+          }
