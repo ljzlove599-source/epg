@@ -3,7 +3,9 @@ name: 51zmt EPG 自动生成
 on:
   # 定时执行：北京时间每天凌晨 3 点自动运行（UTC 时间 19:00）
   schedule:
-    - cron: '0 17 * * *'
+    - cron: '40 19 * * *' # UTC 16:40 = 北京时间 00:40
+    - cron: '20 23 * * *' # UTC 00:15 = 北京时间 08:15
+    - cron: '00 07 * * *' # UTC 07:00 = 北京时间 15:00
   # 支持手动在 Actions 页面触发运行
   workflow_dispatch:
     inputs:
