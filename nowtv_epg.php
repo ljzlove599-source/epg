@@ -1,571 +1,323 @@
 <?php
 /**
- * 香港 Now TV 官方节目单采集（PHP版）
- * 数据源：https://nowplayer.now.com/tvguide
- * 输出：epg/epg_nowtv.xml（标准 XMLTV 格式）
- * 繁简转换：同目录 t2s.json（支持单行、多行注释格式）
- * 运行方式：php nowtv_epg.php
+ * NowTV EPG 抓取脚本（PHP 版本）
+ * 输出标准 XMLTV 格式文件到 epg/epg_nowtv.xml
+ * 依赖：php-curl, php-xmlwriter（PHP 7.4+ 默认内置）
  */
 
-// 基础配置
-define('BASE_URL', 'https://nowplayer.now.com');
-define('TVGUIDE_URL', BASE_URL . '/tvguide');
-define('USER_AGENT', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36');
-define('MAX_DAY', 7);          // 接口最多支持7天
-define('BATCH_SIZE', 24);      // 单次请求频道数（保守值）
-define('DESC_CONCURRENCY', 8); // 简介抓取并发数
-define('T2S_FILE', __DIR__ . '/t2s.json'); // 外置繁简映射表
-define('OUTPUT_FILE', __DIR__ . '/epg/epg_nowtv.xml'); // 输出路径
-define('DAY_FILL_MIN_HOURS', 6); // 单日覆盖满6小时才算有效天
+class NowTVEPG
+{
+    // 接口常量（与原 Python 代码完全一致）
+    private const CATALOG_API = 'https://catalogapi.nowtv.now.com/CatalogEngine';
+    private const PLATFORM = 'NPX';
+    private const LANG = 'zh';
+    private const APP_ID = '15';
+    private const DETAIL_CHUNK_SIZE = 500; // 单批节目详情请求数量
+    private const TIMEZONE = 'Asia/Shanghai';
 
-// 全局简介缓存（进程内有效，避免重复请求）
-$_desc_cache = [];
-// 全局繁简映射表
-$_t2s_map = null;
+    private string $outputFile;
+    private DateTimeZone $tz;
 
-/**
- * 移除 JSON 中的单行/多行注释，支持 t2s.json 带注释写法
- */
-function strip_json_comments($json) {
-    // 移除多行注释
-    $json = preg_replace('/\/\*.*?\*\//s', '', $json);
-    // 移除单行注释
-    $json = preg_replace('/\/\/.*$/m', '', $json);
-    return trim($json);
-}
-
-/**
- * 加载外置繁简映射表
- * 文件不存在或格式错误时返回空数组，不影响主流程
- */
-function load_t2s_map() {
-    global $_t2s_map;
-    if ($_t2s_map !== null) return $_t2s_map;
-
-    if (!file_exists(T2S_FILE)) {
-        $_t2s_map = [];
-        return $_t2s_map;
+    public function __construct(string $outputFile = __DIR__ . '/epg/epg_nowtv.xml')
+    {
+        $this->outputFile = $outputFile;
+        $this->tz = new DateTimeZone(self::TIMEZONE);
     }
 
-    $content = file_get_contents(T2S_FILE);
-    if ($content === false) {
-        $_t2s_map = [];
-        return $_t2s_map;
+    /**
+     * 生成接口调用的 callerReferenceNo（与 Python 逻辑一致）
+     */
+    private function generateRefNo(): string
+    {
+        return 'Ad449480d' . (int)(microtime(true) * 1000);
     }
 
-    $clean = strip_json_comments($content);
-    $map = json_decode($clean, true);
-    if (!is_array($map)) {
-        $_t2s_map = [];
-        return $_t2s_map;
-    }
-
-    // 按键长度降序，长词优先替换
-    uksort($map, function($a, $b) {
-        return mb_strlen($b, 'UTF-8') - mb_strlen($a, 'UTF-8');
-    });
-
-    $_t2s_map = $map;
-    return $_t2s_map;
-}
-
-/**
- * 繁体转简体
- * 无映射表时直接返回原字符串
- */
-function t2s($str) {
-    global $_t2s_map;
-    if ($_t2s_map === null) load_t2s_map();
-    if (empty($_t2s_map) || empty($str)) return $str;
-    return strtr($str, $_t2s_map);
-}
-
-/**
- * 通用 GET 请求（支持 gzip、重试、自定义头）
- */
-function http_get($url, $extra_headers = [], $timeout = 25, $retries = 2) {
-    $default_headers = [
-        'User-Agent: ' . USER_AGENT,
-        'Referer: ' . TVGUIDE_URL . '?lang=zh',
-        'Accept: */*',
-        'X-Requested-With: XMLHttpRequest',
-        'Accept-Language: zh-CN,zh;q=0.9',
-    ];
-    $headers = array_merge($default_headers, $extra_headers);
-
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-    curl_setopt($ch, CURLOPT_TIMEOUT, $timeout);
-    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-    curl_setopt($ch, CURLOPT_ENCODING, 'gzip,deflate');
-    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
-    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
-
-    $last_error = '';
-    for ($i = 0; $i <= $retries; $i++) {
-        $response = curl_exec($ch);
-        $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-        if ($http_code === 200 && $response !== false) {
-            curl_close($ch);
-            return $response;
-        }
-        $last_error = curl_error($ch) . " (HTTP {$http_code})";
-        usleep(500000);
-    }
-    curl_close($ch);
-    throw new Exception("请求失败 [{$url}]: {$last_error}");
-}
-
-/**
- * 获取香港时区的 YYYYMMDD 日期
- */
-function hk_ymd($offset_days = 0) {
-    $dt = new DateTime('now', new DateTimeZone('Asia/Hong_Kong'));
-    if ($offset_days !== 0) {
-        $dt->modify("{$offset_days} day");
-    }
-    return $dt->format('Ymd');
-}
-
-/**
- * YYYYMMDD 转接口 day 序号（今天=1）
- */
-function ymd_to_day_index($ymd, $today_ymd) {
-    $d1 = DateTime::createFromFormat('Ymd', $ymd, new DateTimeZone('Asia/Hong_Kong'));
-    $d2 = DateTime::createFromFormat('Ymd', $today_ymd, new DateTimeZone('Asia/Hong_Kong'));
-    $diff = $d1->diff($d2)->days * ($d1 > $d2 ? 1 : -1);
-    return $diff + 1;
-}
-
-/**
- * 判断简介是否为有效真实简介
- */
-function has_real_desc($desc, $title) {
-    $desc = trim($desc);
-    if (mb_strlen($desc, 'UTF-8') < 20) return false;
-    if ($desc === $title) return false;
-    return true;
-}
-
-/**
- * 计算有效覆盖天数（单日覆盖时长≥阈值才算1天）
- */
-function count_covered_ymds($rows, $all_ymds, $min_hours) {
-    $count = 0;
-    foreach ($all_ymds as $ymd) {
-        $day_start = DateTime::createFromFormat('Ymd H:i:s', "{$ymd} 00:00:00", new DateTimeZone('Asia/Hong_Kong'))->getTimestamp() * 1000;
-        $day_end = $day_start + 86400 * 1000;
-        $covered_ms = 0;
-
-        foreach ($rows as $row) {
-            $s = max($row['startTs'], $day_start);
-            $e = min($row['stopTs'], $day_end);
-            if ($e > $s) $covered_ms += ($e - $s);
-        }
-
-        if ($covered_ms / 1000 >= $min_hours * 3600) {
-            $count++;
-        }
-    }
-    return $count;
-}
-
-/**
- * 获取频道列表（含频道中文名）
- */
-function fetch_channel_list() {
-    echo "[步骤1/5] 正在获取频道列表...\n";
-    $html = http_get(TVGUIDE_URL . '?lang=zh');
-
-    preg_match_all('/<span class="ch-num">(\d+)<\/span>/', $html, $matches);
-    $ids = array_unique($matches[1] ?? []);
-
-    if (empty($ids)) {
-        preg_match_all('/\/tvguide\/channeldetail\/(\d+)\/\d+/', $html, $matches);
-        $ids = array_unique($matches[1] ?? []);
-    }
-
-    if (empty($ids)) {
-        throw new Exception("未提取到任何频道号");
-    }
-
-    sort($ids);
-    $channels = [];
-    foreach ($ids as $id) {
-        $channels[] = [
-            'sourceId' => $id,
-            'name' => '',
-            'num' => $id,
+    /**
+     * 统一 POST 请求封装
+     */
+    private function postRequest(string $endpoint, array $payload): ?array
+    {
+        $url = self::CATALOG_API . '/' . $endpoint;
+        $headers = [
+            'Host: catalogapi.nowtv.now.com',
+            'Content-Type: application/json; charset=utf-8',
         ];
-    }
-    echo "  共发现 " . count($channels) . " 个频道，正在获取频道名称...\n";
 
-    // 并发抓取详情页拿频道名
-    $multi = curl_multi_init();
-    $handles = [];
-
-    foreach ($channels as $idx => $ch) {
-        $url = BASE_URL . "/tvguide/channeldetail/{$ch['sourceId']}/1?lang=zh";
-        $c = curl_init($url);
-        curl_setopt($c, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($c, CURLOPT_ENCODING, 'gzip,deflate');
-        curl_setopt($c, CURLOPT_SSL_VERIFYPEER, false);
-        curl_setopt($c, CURLOPT_SSL_VERIFYHOST, false);
-        curl_setopt($c, CURLOPT_HTTPHEADER, [
-            'User-Agent: ' . USER_AGENT,
-            'Referer: ' . TVGUIDE_URL . '?lang=zh',
+        $ch = curl_init($url);
+        curl_setopt_array($ch, [
+            CURLOPT_POST => true,
+            CURLOPT_POSTFIELDS => json_encode($payload, JSON_UNESCAPED_UNICODE),
+            CURLOPT_HTTPHEADER => $headers,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_SSL_VERIFYPEER => true,
+            CURLOPT_SSL_VERIFYHOST => 2,
+            CURLOPT_TIMEOUT => 30,
+            CURLOPT_CONNECTTIMEOUT => 10,
         ]);
-        $handles[$idx] = $c;
-        curl_multi_add_handle($multi, $c);
-    }
 
-    $active = null;
-    do {
-        curl_multi_exec($multi, $active);
-        curl_multi_select($multi);
-    } while ($active > 0);
+        $response = curl_exec($ch);
+        $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        $error = curl_error($ch);
+        curl_close($ch);
 
-    foreach ($handles as $idx => $c) {
-        $html = curl_multi_getcontent($c);
-        if (preg_match('/<title>([^<]*)<\/title>/', $html, $t)) {
-            $title = trim($t[1]);
-            $gt_pos = strrpos($title, '>');
-            $name = $gt_pos !== false ? trim(mb_substr($title, $gt_pos + 1)) : $title;
-            $channels[$idx]['name'] = t2s($name);
+        if ($error || $httpCode !== 200) {
+            $this->log("请求失败 [{$endpoint}] HTTP:{$httpCode} 错误:{$error}");
+            return null;
         }
-        curl_multi_remove_handle($multi, $c);
-        curl_close($c);
-    }
-    curl_multi_close($multi);
 
-    return $channels;
-}
-
-/**
- * 批量获取单日多频道节目
- */
-function fetch_day_batch($source_ids, $day) {
-    $param_str = '';
-    foreach ($source_ids as $id) {
-        $param_str .= '&channelIdList=' . urlencode($id);
-    }
-    $url = BASE_URL . "/tvguide/epglist?day={$day}" . $param_str . '&lang=zh';
-
-    try {
-        $json = http_get($url);
-        $data = json_decode($json, true);
-        if (!is_array($data)) return [];
-
-        $result = [];
-        foreach ($source_ids as $i => $id) {
-            $result[$id] = isset($data[$i]) && is_array($data[$i]) ? $data[$i] : [];
+        $data = json_decode($response, true);
+        if (json_last_error() !== JSON_ERROR_NONE) {
+            $this->log("JSON 解析失败 [{$endpoint}]: " . json_last_error_msg());
+            return null;
         }
-        return $result;
-    } catch (Exception $e) {
-        fwrite(STDERR, "[警告] 第{$day}天批量抓取失败: " . $e->getMessage() . "\n");
-        return [];
-    }
-}
 
-/**
- * 原始节目转标准格式 + 源内去重
- */
-function to_rows($arr) {
-    $seen = [];
-    $rows = [];
-
-    foreach ($arr as $item) {
-        $st = (int)($item['start'] ?? 0);
-        $et = (int)($item['end'] ?? 0);
-        $title = trim((string)($item['name'] ?? ''));
-
-        if ($st <= 0 || $et <= 0 || $et <= $st) continue;
-        if (empty($title)) continue;
-
-        $key = "{$st}|{$title}";
-        if (isset($seen[$key])) continue;
-        $seen[$key] = true;
-
-        $rows[] = [
-            'startTs'  => $st,
-            'stopTs'   => $et,
-            'title'    => $title,
-            'desc'     => '',
-            'category' => '',
-            '_pid'     => (string)($item['vimProgramId'] ?? ''),
-        ];
+        return $data;
     }
 
-    usort($rows, function($a, $b) {
-        return $a['startTs'] - $b['startTs'];
-    });
-
-    return $rows;
-}
-
-/**
- * 获取单个节目简介（带全局缓存）
- */
-function fetch_desc($pid) {
-    global $_desc_cache;
-    if (empty($pid)) return '';
-    if (isset($_desc_cache[$pid])) return $_desc_cache[$pid];
-
-    $url = BASE_URL . '/tvguide/epgprogramdetail?programId=' . urlencode($pid) . '&lang=zh';
-
-    try {
-        $json = http_get($url);
-        $d = json_decode($json, true);
-
-        $candidates = [
-            $d['chiSynopsis'] ?? '',
-            $d['synopsis'] ?? '',
-            $d['engSynopsis'] ?? '',
+    /**
+     * 获取频道列表
+     */
+    public function fetchChannels(): array
+    {
+        $this->log("📡 正在从 NowTV 获取频道列表");
+        $payload = [
+            'appId' => self::APP_ID,
+            'lang' => self::LANG,
+            'callerReferenceNo' => $this->generateRefNo(),
+            'platform' => self::PLATFORM,
         ];
 
-        $desc = '';
-        foreach ($candidates as $c) {
-            $c = trim((string)$c);
-            if (mb_strlen($c, 'UTF-8') > 20) {
-                $desc = $c;
-                break;
-            }
-        }
-    } catch (Exception $e) {
-        $desc = '';
-    }
-
-    $_desc_cache[$pid] = $desc;
-    return $desc;
-}
-
-/**
- * 按唯一标题回填简介
- */
-function fill_descs(&$rows) {
-    $title_to_pid = [];
-    foreach ($rows as $r) {
-        if (!isset($title_to_pid[$r['title']]) && !empty($r['_pid'])) {
-            $title_to_pid[$r['title']] = $r['_pid'];
-        }
-    }
-
-    if (empty($title_to_pid)) return;
-
-    $titles = array_keys($title_to_pid);
-    $desc_map = [];
-    $batches = array_chunk($titles, DESC_CONCURRENCY);
-
-    foreach ($batches as $batch) {
-        $multi = curl_multi_init();
-        $handles = [];
-
-        foreach ($batch as $title) {
-            $pid = $title_to_pid[$title];
-            $url = BASE_URL . '/tvguide/epgprogramdetail?programId=' . urlencode($pid) . '&lang=zh';
-            $c = curl_init($url);
-            curl_setopt($c, CURLOPT_RETURNTRANSFER, true);
-            curl_setopt($c, CURLOPT_ENCODING, 'gzip,deflate');
-            curl_setopt($c, CURLOPT_SSL_VERIFYPEER, false);
-            curl_setopt($c, CURLOPT_SSL_VERIFYHOST, false);
-            curl_setopt($c, CURLOPT_HTTPHEADER, [
-                'User-Agent: ' . USER_AGENT,
-                'Referer: ' . TVGUIDE_URL . '?lang=zh',
-                'X-Requested-With: XMLHttpRequest',
-            ]);
-            $handles[$title] = $c;
-            curl_multi_add_handle($multi, $c);
+        $data = $this->postRequest('getLiveChannelList', $payload);
+        if (!$data || !isset($data['channelList'])) {
+            throw new Exception("频道列表获取失败");
         }
 
-        $active = null;
-        do {
-            curl_multi_exec($multi, $active);
-            curl_multi_select($multi);
-        } while ($active > 0);
-
-        foreach ($handles as $title => $c) {
-            $json = curl_multi_getcontent($c);
-            $d = json_decode($json, true);
-            $candidates = [
-                $d['chiSynopsis'] ?? '',
-                $d['synopsis'] ?? '',
-                $d['engSynopsis'] ?? '',
+        $channels = [];
+        foreach ($data['channelList'] as $item) {
+            $channels[] = [
+                'channel_id' => (string)$item['channelId'],
+                'name' => $item['name'],
+                'logo' => $item['channelLogoLink'] ?? null,
             ];
-            foreach ($candidates as $cand) {
-                $cand = trim((string)$cand);
-                if (mb_strlen($cand, 'UTF-8') > 20) {
-                    $desc_map[$title] = $cand;
-                    break;
-                }
+        }
+
+        $this->log("📺 从 NowTV 发现 " . count($channels) . " 个频道");
+        return $channels;
+    }
+
+    /**
+     * 批量获取节目详情（分块请求，与 Python 分块逻辑一致）
+     */
+    private function fetchProgramDetails(array $progIds): array
+    {
+        $chunks = array_chunk($progIds, self::DETAIL_CHUNK_SIZE);
+        $totalChunks = count($chunks);
+        $details = [];
+
+        foreach ($chunks as $index => $chunk) {
+            $this->log("  正在获取第 " . ($index + 1) . "/{$totalChunks} 批节目详情");
+            $payload = [
+                'lang' => self::LANG,
+                'programIdList' => $chunk,
+                'callerReferenceNo' => $this->generateRefNo(),
+                'platform' => self::PLATFORM,
+            ];
+
+            $data = $this->postRequest('getEPGProgramDetailList', $payload);
+            if (!$data || !isset($data['epgProgramList'])) {
+                $this->log("  ⚠️  第 " . ($index + 1) . " 批详情获取失败，跳过");
+                continue;
             }
-            curl_multi_remove_handle($multi, $c);
-            curl_close($c);
-        }
-        curl_multi_close($multi);
-    }
 
-    foreach ($rows as &$row) {
-        if (isset($desc_map[$row['title']])) {
-            $row['desc'] = $desc_map[$row['title']];
-        }
-    }
-    unset($row);
-}
-
-/**
- * 主函数：采集 + 生成 XMLTV
- */
-function generate_epg_xml() {
-    load_t2s_map();
-    echo "[步骤0/5] 繁简映射表: " . (file_exists(T2S_FILE) ? '已加载，共 ' . count($GLOBALS['_t2s_map']) . ' 条映射' : '未启用（t2s.json 不存在）') . "\n";
-
-    $channels = fetch_channel_list();
-    $today_ymd = hk_ymd(0);
-
-    $all_ymds = [];
-    for ($d = 1; $d <= MAX_DAY; $d++) {
-        $ymd = hk_ymd($d - 1);
-        if ($ymd >= $today_ymd) $all_ymds[] = $ymd;
-    }
-
-    echo "[步骤2/5] 正在抓取7天节目数据...\n";
-    $per_day = [];
-    for ($day = 1; $day <= MAX_DAY; $day++) {
-        echo "  正在抓取第 {$day} 天...\n";
-        $day_data = [];
-        $chunks = array_chunk($channels, BATCH_SIZE);
-        foreach ($chunks as $chunk) {
-            $ids = array_column($chunk, 'sourceId');
-            $batch = fetch_day_batch($ids, $day);
-            $day_data = array_merge($day_data, $batch);
-        }
-        $per_day[$day] = $day_data;
-    }
-
-    echo "[步骤3/5] 正在处理数据并回填节目简介...\n";
-    $channel_progs = [];
-    foreach ($channels as $ch) {
-        $sid = $ch['sourceId'];
-        $all_rows = [];
-
-        for ($day = 1; $day <= MAX_DAY; $day++) {
-            if (isset($per_day[$day][$sid])) {
-                $rows = to_rows($per_day[$day][$sid]);
-                $all_rows = array_merge($all_rows, $rows);
+            foreach ($data['epgProgramList'] as $item) {
+                $details[(string)$item['programId']] = $item;
             }
         }
 
-        // 跨天全局去重
-        $seen = [];
-        $unique = [];
-        foreach ($all_rows as $r) {
-            $key = "{$r['startTs']}|{$r['title']}";
-            if (!isset($seen[$key])) {
-                $seen[$key] = true;
-                $unique[] = $r;
-            }
-        }
-        usort($unique, function($a, $b) {
-            return $a['startTs'] - $b['startTs'];
-        });
+        return $details;
+    }
 
-        if (!empty($unique)) {
-            fill_descs($unique);
-        }
+    /**
+     * 获取所有频道的节目单（未来7天）
+     */
+    public function fetchPrograms(array $channels): array
+    {
+        $channelCount = count($channels);
+        $this->log("📡 正在抓取 {$channelCount} 个频道的节目数据");
+        $channelIds = array_column($channels, 'channel_id');
 
-        $channel_progs[$sid] = [
-            'channel' => $ch,
-            'programmes' => $unique,
+        $payload = [
+            'channelIdList' => $channelIds,
+            'startDay' => 0,
+            'endDay' => 6,
+            'lang' => self::LANG,
+            'callerReferenceNo' => $this->generateRefNo(),
+            'platform' => self::PLATFORM,
         ];
+
+        $data = $this->postRequest('getEPGDetail', $payload);
+        if (!$data || !isset($data['epgDetail'])) {
+            throw new Exception("EPG 节目列表获取失败");
+        }
+
+        // 收集原始节目和节目ID
+        $rawPrograms = [];
+        $progIds = [];
+        foreach ($data['epgDetail'] as $channelEpg) {
+            $cid = (string)$channelEpg['channelId'];
+            foreach ($channelEpg['programs'] as $prog) {
+                $rawPrograms[] = ['cid' => $cid, 'prog' => $prog];
+                $progIds[] = (string)$prog['vimProgramId'];
+            }
+        }
+
+        $rawCount = count($rawPrograms);
+        $this->log("📊 共获取到 {$rawCount} 个节目，正在批量获取节目详情");
+        $details = $this->fetchProgramDetails($progIds);
+
+        // 组装最终节目数据
+        $programs = [];
+        foreach ($rawPrograms as $item) {
+            try {
+                $cid = $item['cid'];
+                $prog = $item['prog'];
+                $progId = (string)$prog['vimProgramId'];
+                $detail = $details[$progId] ?? [];
+
+                // 优先取中文简介， fallback 英文
+                $desc = $detail['chiSynopsis'] ?? $detail['synopsis'] ?? '';
+
+                // 毫秒时间戳转上海时区时间（与 Python 逻辑完全一致）
+                $start = DateTime::createFromFormat('U', (int)($prog['start'] / 1000));
+                $start->setTimezone($this->tz);
+                $end = DateTime::createFromFormat('U', (int)($prog['end'] / 1000));
+                $end->setTimezone($this->tz);
+
+                $programs[] = [
+                    'channel_id' => $cid,
+                    'title' => $prog['name'] ?? '',
+                    'start_time' => $start,
+                    'end_time' => $end,
+                    'description' => $desc,
+                ];
+            } catch (Exception $e) {
+                $this->log("⚠️  解析节目数据失败: " . $e->getMessage());
+            }
+        }
+
+        $this->log("✅ 共生成 " . count($programs) . " 个节目");
+        return $programs;
     }
 
-    echo "[步骤4/5] 正在生成 XML 文件...\n";
-    $xml = new SimpleXMLElement(
-        '<?xml version="1.0" encoding="UTF-8"?>' .
-        '<tv generator-info-name="NowTV-EPG-PHP" source-info-url="https://nowplayer.now.com/tvguide"></tv>'
-    );
+    /**
+     * 生成标准 XMLTV 格式 EPG
+     */
+    private function generateEpgXml(array $channels, array $programs): string
+    {
+        $xml = new XMLWriter();
+        $xml->openMemory();
+        $xml->setIndent(true);
+        $xml->setIndentString('  ');
+        $xml->startDocument('1.0', 'UTF-8');
 
-    // 写入频道信息
-    foreach ($channel_progs as $sid => $data) {
-        $ch_node = $xml->addChild('channel');
-        $ch_node->addAttribute('id', "nowtv.{$sid}");
+        // 根节点
+        $xml->startElement('tv');
+        $xml->writeAttribute('source-info-url', 'https://www.nowtv.now.com/');
+        $xml->writeAttribute('source-info-name', 'NowTV EPG');
 
-        $name = $data['channel']['name'] ?: "Now频道{$sid}";
-        $dn = $ch_node->addChild('display-name', htmlspecialchars($name, ENT_XML1, 'UTF-8'));
-        $dn->addAttribute('lang', 'zh');
+        // 写入频道列表
+        foreach ($channels as $ch) {
+            $xml->startElement('channel');
+            $xml->writeAttribute('id', $ch['channel_id']);
 
-        $ch_node->addChild('lcn', $sid);
+            $xml->startElement('display-name');
+            $xml->writeAttribute('lang', self::LANG);
+            $xml->text($ch['name']);
+            $xml->endElement();
+
+            if ($ch['logo']) {
+                $xml->startElement('icon');
+                $xml->writeAttribute('src', $ch['logo']);
+                $xml->endElement();
+            }
+
+            $xml->endElement(); // channel
+        }
+
+        // 写入节目列表
+        foreach ($programs as $prog) {
+            $xml->startElement('programme');
+            $xml->writeAttribute('start', $prog['start_time']->format('YmdHis O'));
+            $xml->writeAttribute('stop', $prog['end_time']->format('YmdHis O'));
+            $xml->writeAttribute('channel', $prog['channel_id']);
+
+            $xml->startElement('title');
+            $xml->writeAttribute('lang', self::LANG);
+            $xml->text($prog['title']);
+            $xml->endElement();
+
+            if (!empty($prog['description'])) {
+                $xml->startElement('desc');
+                $xml->writeAttribute('lang', self::LANG);
+                $xml->text($prog['description']);
+                $xml->endElement();
+            }
+
+            $xml->endElement(); // programme
+        }
+
+        $xml->endElement(); // tv
+        $xml->endDocument();
+
+        return $xml->outputMemory();
     }
 
-    // 写入节目单
-    foreach ($channel_progs as $sid => $data) {
-        foreach ($data['programmes'] as $prog) {
-            $p_node = $xml->addChild('programme');
-            $p_node->addAttribute('channel', "nowtv.{$sid}");
-
-            $start = date('YmdHis', intval($prog['startTs'] / 1000)) . ' +0800';
-            $stop  = date('YmdHis', intval($prog['stopTs'] / 1000)) . ' +0800';
-            $p_node->addAttribute('start', $start);
-            $p_node->addAttribute('stop', $stop);
-
-            $title = t2s($prog['title']);
-            $title_node = $p_node->addChild('title', htmlspecialchars($title, ENT_XML1, 'UTF-8'));
-            $title_node->addAttribute('lang', 'zh');
-
-            if (!empty($prog['desc'])) {
-                $desc = t2s($prog['desc']);
-                $desc_node = $p_node->addChild('desc', htmlspecialchars($desc, ENT_XML1, 'UTF-8'));
-                $desc_node->addAttribute('lang', 'zh');
+    /**
+     * 主执行入口
+     */
+    public function run(): void
+    {
+        try {
+            // 确保输出目录存在
+            $outputDir = dirname($this->outputFile);
+            if (!is_dir($outputDir)) {
+                mkdir($outputDir, 0755, true);
+                $this->log("📁 创建输出目录: {$outputDir}");
             }
 
-            if (!empty($prog['category'])) {
-                $cat = t2s($prog['category']);
-                $cat_node = $p_node->addChild('category', htmlspecialchars($cat, ENT_XML1, 'UTF-8'));
-                $cat_node->addAttribute('lang', 'zh');
+            // 1. 获取频道
+            $channels = $this->fetchChannels();
+            if (empty($channels)) {
+                throw new Exception("频道列表为空，终止执行");
             }
+
+            // 2. 获取节目
+            $programs = $this->fetchPrograms($channels);
+
+            // 3. 生成 XML 并写入文件
+            $xmlContent = $this->generateEpgXml($channels, $programs);
+            file_put_contents($this->outputFile, $xmlContent);
+
+            $channelCount = count($channels);
+            $progCount = count($programs);
+            $this->log("🎉 EPG 生成完成！已保存到 {$this->outputFile}");
+            $this->log("📊 统计：{$channelCount} 个频道，{$progCount} 个节目");
+
+        } catch (Exception $e) {
+            $this->log("❌ 执行失败: " . $e->getMessage());
+            exit(1);
         }
     }
 
-    // 格式化输出并保存
-    $dom = dom_import_simplexml($xml)->ownerDocument;
-    $dom->formatOutput = true;
-    $dom->preserveWhiteSpace = false;
-    $xml_str = $dom->saveXML();
-
-    // 自动创建输出目录
-    $output_dir = dirname(OUTPUT_FILE);
-    if (!is_dir($output_dir)) {
-        mkdir($output_dir, 0755, true);
+    /**
+     * 简单日志输出
+     */
+    private function log(string $message): void
+    {
+        echo '[' . date('Y-m-d H:i:s') . '] ' . $message . PHP_EOL;
     }
-
-    file_put_contents(OUTPUT_FILE, $xml_str);
-
-    // 统计输出
-    $total_progs = 0;
-    $total_desc = 0;
-    foreach ($channel_progs as $d) {
-        $total_progs += count($d['programmes']);
-        foreach ($d['programmes'] as $p) {
-            if (!empty($p['desc'])) $total_desc++;
-        }
-    }
-
-    echo "\n✅ 生成完成！\n";
-    echo "  输出文件: " . OUTPUT_FILE . "\n";
-    echo "  频道数量: " . count($channel_progs) . "\n";
-    echo "  节目总数: {$total_progs}\n";
-    echo "  带简介数: {$total_desc} (" . round($total_desc / max(1, $total_progs) * 100, 1) . "%)\n";
 }
 
-// 入口
-try {
-    date_default_timezone_set('Asia/Hong_Kong');
-    generate_epg_xml();
-} catch (Exception $e) {
-    echo "\n❌ 运行出错: " . $e->getMessage() . "\n";
-    exit(1);
-}
-
+// 执行脚本
+$epg = new NowTVEPG();
+$epg->run();
