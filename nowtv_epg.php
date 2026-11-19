@@ -1,8 +1,9 @@
 <?php
 /**
- * NowTV EPG 抓取脚本（PHP 版本）
+ * NowTV EPG 抓取脚本（PHP 版本 + 外置繁简转换）
  * 输出标准 XMLTV 格式文件到 epg/epg_nowtv.xml
  * 依赖：php-curl, php-xmlwriter（PHP 7.4+ 默认内置）
+ * 繁简字典：同目录下 t2s.json，格式为 {"繁体":"简体"} 键值对
  */
 
 class NowTVEPG
@@ -17,11 +18,52 @@ class NowTVEPG
 
     private string $outputFile;
     private DateTimeZone $tz;
+    private array $charMap = []; // 繁简转换映射表
 
     public function __construct(string $outputFile = __DIR__ . '/epg/epg_nowtv.xml')
     {
         $this->outputFile = $outputFile;
         $this->tz = new DateTimeZone(self::TIMEZONE);
+        $this->loadCharMap(); // 加载外置繁简转换字典
+    }
+
+    /**
+     * 加载同目录下的 t2s.json 繁简转换字典
+     */
+    private function loadCharMap(): void
+    {
+        $mapFile = __DIR__ . '/t2s.json';
+        if (!file_exists($mapFile)) {
+            $this->log("ℹ️ 未找到 t2s.json 字典，保持繁体输出");
+            return;
+        }
+
+        $jsonContent = file_get_contents($mapFile);
+        if ($jsonContent === false) {
+            $this->log("⚠️ 读取 t2s.json 失败，保持繁体输出");
+            return;
+        }
+
+        $map = json_decode($jsonContent, true);
+        if (!is_array($map)) {
+            $this->log("⚠️ t2s.json 格式错误（需为键值对对象），保持繁体输出");
+            return;
+        }
+
+        $this->charMap = $map;
+        $this->log("🔤 已加载繁简转换字典，共 " . count($map) . " 条映射");
+    }
+
+    /**
+     * 繁体转简体（基于外置字典）
+     */
+    private function t2s(string $text): string
+    {
+        if (empty($this->charMap) || $text === '') {
+            return $text;
+        }
+        // strtr 自动优先匹配最长词组，无需手动排序
+        return strtr($text, $this->charMap);
     }
 
     /**
@@ -75,7 +117,7 @@ class NowTVEPG
     }
 
     /**
-     * 获取频道列表
+     * 获取频道列表（自动繁简转换）
      */
     public function fetchChannels(): array
     {
@@ -96,7 +138,7 @@ class NowTVEPG
         foreach ($data['channelList'] as $item) {
             $channels[] = [
                 'channel_id' => (string)$item['channelId'],
-                'name' => $item['name'],
+                'name' => $this->t2s($item['name']), // 频道名繁转简
                 'logo' => $item['channelLogoLink'] ?? null,
             ];
         }
@@ -138,7 +180,7 @@ class NowTVEPG
     }
 
     /**
-     * 获取所有频道的节目单（未来7天）
+     * 获取所有频道的节目单（未来7天，自动繁简转换）
      */
     public function fetchPrograms(array $channels): array
     {
@@ -175,7 +217,7 @@ class NowTVEPG
         $this->log("📊 共获取到 {$rawCount} 个节目，正在批量获取节目详情");
         $details = $this->fetchProgramDetails($progIds);
 
-        // 组装最终节目数据
+        // 组装最终节目数据（繁简转换）
         $programs = [];
         foreach ($rawPrograms as $item) {
             try {
@@ -195,10 +237,10 @@ class NowTVEPG
 
                 $programs[] = [
                     'channel_id' => $cid,
-                    'title' => $prog['name'] ?? '',
+                    'title' => $this->t2s($prog['name'] ?? ''), // 标题繁转简
                     'start_time' => $start,
                     'end_time' => $end,
-                    'description' => $desc,
+                    'description' => $this->t2s($desc), // 简介繁转简
                 ];
             } catch (Exception $e) {
                 $this->log("⚠️  解析节目数据失败: " . $e->getMessage());
