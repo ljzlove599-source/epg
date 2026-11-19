@@ -1,0 +1,89 @@
+name: 51zmt EPG 自动生成
+
+on:
+  # 定时执行：北京时间每天凌晨 3 点自动运行（UTC 时间 19:00）
+  schedule:
+    - cron: '0 17 * * *'
+  # 支持手动在 Actions 页面触发运行
+  workflow_dispatch:
+    inputs:
+      force:
+        description: '强制重新下载（忽略缓存）'
+        required: false
+        default: true
+        type: boolean
+
+jobs:
+  build-epg:
+    runs-on: ubuntu-latest
+    name: 生成 XMLTV 节目单
+    
+    steps:
+      - name: 检出仓库代码
+        uses: actions/checkout@v4
+
+      - name: 设置 PHP 环境
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: curl, zlib, mbstring, dom, libxml, xml
+          coverage: none
+
+      - name: 验证 PHP 环境
+        run: |
+          php -v
+          php -m | grep -E 'curl|zlib|mbstring|dom|libxml'
+
+      - name: 准备运行目录
+        run: |
+          mkdir -p cache xml
+          chmod 755 cache xml
+
+      - name: 检查繁简映射文件
+        run: |
+          if [ ! -f "t2s.json" ]; then
+            echo "::error::缺少 t2s.json 繁简映射文件，请将文件放到仓库根目录"
+            exit 1
+          fi
+          echo "t2s.json 已就绪"
+
+      - name: 恢复缓存数据（加速运行）
+        uses: actions/cache@v4
+        with:
+          path: cache/
+          key: epg-cache-${{ github.run_id }}
+          restore-keys: |
+            epg-cache-
+
+      - name: 运行 EPG 生成脚本
+        run: |
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            php 51zmt_epg.php build --force
+          else
+            php 51zmt_epg.php build
+          fi
+
+      - name: 校验生成结果
+        run: |
+          if [ ! -f "xml/epg_51zmt.xml.gz" ]; then
+            echo "::error::生成失败，未找到输出文件"
+            exit 1
+          fi
+          SIZE=$(du -h xml/epg_51zmt.xml.gz | awk '{print $1}')
+          echo "生成成功，文件大小：$SIZE"
+
+      - name: 上传生成产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: epg_51zmt.xml.gz
+          path: xml/epg_51zmt.xml.gz
+          retention-days: 7
+
+      - name: 提交生成文件到仓库（可选）
+        if: success()
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add xml/epg_51zmt.xml.gz
+          git commit -m "auto: 更新 EPG 节目单 $(date +'%Y-%m-%d')" || echo "无变更，跳过提交"
+          git push || echo "提交失败，可能无权限"
