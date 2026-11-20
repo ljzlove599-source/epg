@@ -44,8 +44,7 @@ jobs:
             "https://github.com/mytv-android/myTVlogo|img"
             "https://github.com/wanglindl/TVlogo|logo"
             "https://github.com/sumingyd/IPTV-Scanner-Editor-Pro|logo"
-            "https://github.com/ngc7293/IPTV-Logo|png"
-            "https://github.com/lizongying/my-tv-logo|images"
+
           )
 
           TEMP_ROOT=$(mktemp -d)
