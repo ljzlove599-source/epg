@@ -135,7 +135,7 @@ jobs:
             return 0
           }
 
-          # 关键修复：导出所有自定义函数，子进程才能正常调用
+          # 导出所有自定义函数，子进程可正常调用
           export -f retry_cmd pull_repo
 
           # ========== 读取并校验配置文件 ==========
@@ -160,8 +160,11 @@ jobs:
           echo ""
           echo "📥 开始按优先级同步台标（优先级高的后同步，自动覆盖低优先级）"
           # 按优先级升序排序，保证高优先级后执行、覆盖低优先级
-          find "$TEMP_ROOT" -maxdepth 1 -type d -name "repo_*" | while read -r repo_dir; do
-            [ -f "$repo_dir/.priority" ] && echo "$(cat "$repo_dir/.priority")|$repo_dir"
+          find "$TEMP_ROOT" -maxdepth 1 -type d -name "repo_*" -print0 | while IFS= read -r -d '' repo_dir; do
+            if [ -f "$repo_dir/.priority" ]; then
+              prio=$(cat "$repo_dir/.priority")
+              echo "$prio|$repo_dir"
+            fi
           done | sort -n | while IFS='|' read -r prio repo_dir; do
             echo "  同步优先级 $prio 仓库: $(basename "$repo_dir")"
 
@@ -180,7 +183,8 @@ jobs:
             echo "🔧 开始文件名规范化处理"
             cd "$WORKSPACE/$LOGO_DIR"
 
-            while IFS= read -r file; do
+            # 安全遍历：null分隔符兼容所有特殊字符文件名
+            find . -name "*.$FILE_EXT" -type f -print0 | while IFS= read -r -d '' file; do
               old_name=$(basename "$file")
               dir=$(dirname "$file")
 
@@ -199,7 +203,7 @@ jobs:
               if [ "$old_name" != "$new_name" ] && [ ! -f "$dir/$new_name" ]; then
                 mv -f "$file" "$dir/$new_name"
               fi
-            done < <(find . -name "*.$FILE_EXT" -type f)
+            done
             echo "✅ 文件名规范化完成"
           fi
 
@@ -210,48 +214,44 @@ jobs:
             invalid_count=0
             cd "$WORKSPACE/$LOGO_DIR"
 
-            while IFS= read -r file; do
+            find . -name "*.$FILE_EXT" -type f -print0 | while IFS= read -r -d '' file; do
               if ! file --mime-type "$file" | grep -q 'image/png'; then
                 echo "  删除无效/损坏图片: $file"
                 rm -f "$file"
                 invalid_count=$((invalid_count + 1))
               fi
-            done < <(find . -name "*.$FILE_EXT" -type f)
+            done
             echo "✅ 图片校验完成，清理无效文件: $invalid_count 个"
           fi
 
-          # ========== 重复文件去重（基于MD5） ==========
+          # ========== 重复文件去重（awk单遍处理，彻底规避特殊字符问题） ==========
           if [ "$DEDUP_ENABLED" = "true" ]; then
             echo ""
             echo "♻️ 开始重复文件去重"
             cd "$WORKSPACE/$LOGO_DIR"
             dup_count=0
 
-            # 生成哈希列表：格式为 哈希|文件路径
-            find . -name "*.$FILE_EXT" -type f -exec md5sum {} \; | awk '{
-              hash = $1;
-              sub(/^[^ ]+ +/, "", $0);
-              file = $0;
-              print hash "|" file
-            }' | sort > "$TEMP_ROOT/md5_list.txt"
+            # 生成哈希列表，awk直接识别重复项并输出待删除文件，完全规避引号/特殊字符问题
+            find . -name "*.$FILE_EXT" -type f -print0 | xargs -0 md5sum | \
+              awk '{
+                hash = $1;
+                sub(/^[^ ]+ +/, "", $0);
+                file = $0;
+                if (hash in seen) {
+                  print file;
+                } else {
+                  seen[hash] = file;
+                }
+              }' > "$TEMP_ROOT/dup_files.txt"
 
-            # 提取重复的哈希值
-            cut -d'|' -f1 "$TEMP_ROOT/md5_list.txt" | uniq -d > "$TEMP_ROOT/dup_hashes.txt"
+            # 批量删除重复文件
+            while IFS= read -r dup_file; do
+              [ -z "$dup_file" ] && continue
+              echo "  删除重复文件: $dup_file"
+              rm -f "$dup_file"
+              dup_count=$((dup_count + 1))
+            done < "$TEMP_ROOT/dup_files.txt"
 
-            # 每组重复文件保留第一个，删除其余
-            while read -r hash; do
-              [ -z "$hash" ] && continue
-              files=()
-              while IFS= read -r file; do
-                files+=("$file")
-              done < <(grep "^$hash|" "$TEMP_ROOT/md5_list.txt" | cut -d'|' -f2-)
-
-              for ((i=1; i<${#files[@]}; i++)); do
-                echo "  删除重复文件: ${files[$i]}"
-                rm -f "${files[$i]}"
-                dup_count=$((dup_count + 1))
-              done
-            done < "$TEMP_ROOT/dup_hashes.txt"
             echo "✅ 去重完成，清理重复文件: $dup_count 个"
           fi
 
@@ -264,7 +264,7 @@ jobs:
 
           FINAL_COUNT=$(find "$LOGO_DIR" -name "*.$FILE_EXT" -type f | wc -l)
           NEW_COUNT=$((FINAL_COUNT - INIT_COUNT))
-          [ "$NEW_COUNT -lt 0 ] && NEW_COUNT=0
+          [ "$NEW_COUNT" -lt 0 ] && NEW_COUNT=0
 
           echo "NEW_COUNT=$NEW_COUNT" >> $GITHUB_ENV
           echo "FINAL_COUNT=$FINAL_COUNT" >> $GITHUB_ENV
