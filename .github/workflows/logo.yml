@@ -156,9 +156,12 @@ jobs:
           echo ""
           echo "✅ 所有仓库拉取流程执行完毕"
 
-          # ========== 按优先级顺序同步到目标目录 ==========
+          # ========== 按优先级顺序同步到目标目录（核心修复：扁平化输出，无子目录） ==========
           echo ""
-          echo "📥 开始按优先级同步台标（优先级高的后同步，自动覆盖低优先级）"
+          echo "📥 开始按优先级同步台标（扁平化输出，高优先级覆盖低优先级）"
+          TARGET_DIR="$WORKSPACE/$LOGO_DIR"
+          mkdir -p "$TARGET_DIR"
+
           # 按优先级升序排序，保证高优先级后执行、覆盖低优先级
           find "$TEMP_ROOT" -maxdepth 1 -type d -name "repo_*" -print0 | while IFS= read -r -d '' repo_dir; do
             if [ -f "$repo_dir/.priority" ]; then
@@ -169,13 +172,18 @@ jobs:
             echo "  同步优先级 $prio 仓库: $(basename "$repo_dir")"
 
             cd "$repo_dir"
-            # 筛选符合大小和后缀的文件，通过rsync批量同步
-            find . -name "*.$FILE_EXT" -type f -size +"$MIN_FILE_SIZE" -print0 2>/dev/null | \
-              rsync -0 -a --files-from=- . "$WORKSPACE/$LOGO_DIR/" \
-                $([ "$FORCE_OVERWRITE" != "true" ] && echo "--ignore-existing") \
-                2>/dev/null || true
+            # 递归查找所有符合条件的png文件，扁平化复制到目标根目录
+            find . -name "*.$FILE_EXT" -type f -size +"$MIN_FILE_SIZE" -print0 2>/dev/null | while IFS= read -r -d '' file; do
+              filename=$(basename "$file")
+              target_file="$TARGET_DIR/$filename"
+
+              # 覆盖策略：强制覆盖 或 文件不存在时复制
+              if [ "$FORCE_OVERWRITE" = "true" ] || [ ! -f "$target_file" ]; then
+                cp -f "$file" "$target_file"
+              fi
+            done
           done
-          echo "✅ 台标同步完成"
+          echo "✅ 台标同步完成，所有文件已平铺至 $LOGO_DIR 根目录"
 
           # ========== 文件名规范化处理 ==========
           if [ "$NORMALIZE_FILENAME" = "true" ]; then
@@ -184,7 +192,7 @@ jobs:
             cd "$WORKSPACE/$LOGO_DIR"
 
             # 安全遍历：null分隔符兼容所有特殊字符文件名
-            find . -name "*.$FILE_EXT" -type f -print0 | while IFS= read -r -d '' file; do
+            find . -maxdepth 1 -name "*.$FILE_EXT" -type f -print0 | while IFS= read -r -d '' file; do
               old_name=$(basename "$file")
               dir=$(dirname "$file")
 
@@ -214,7 +222,7 @@ jobs:
             invalid_count=0
             cd "$WORKSPACE/$LOGO_DIR"
 
-            find . -name "*.$FILE_EXT" -type f -print0 | while IFS= read -r -d '' file; do
+            find . -maxdepth 1 -name "*.$FILE_EXT" -type f -print0 | while IFS= read -r -d '' file; do
               if ! file --mime-type "$file" | grep -q 'image/png'; then
                 echo "  删除无效/损坏图片: $file"
                 rm -f "$file"
@@ -231,8 +239,8 @@ jobs:
             cd "$WORKSPACE/$LOGO_DIR"
             dup_count=0
 
-            # 生成哈希列表，awk直接识别重复项并输出待删除文件，完全规避引号/特殊字符问题
-            find . -name "*.$FILE_EXT" -type f -print0 | xargs -0 md5sum | \
+            # 生成哈希列表，awk直接识别重复项并输出待删除文件
+            find . -maxdepth 1 -name "*.$FILE_EXT" -type f -print0 | xargs -0 md5sum | \
               awk '{
                 hash = $1;
                 sub(/^[^ ]+ +/, "", $0);
@@ -259,10 +267,11 @@ jobs:
           echo ""
           echo "🧹 执行最终清理"
           cd "$WORKSPACE"
+          # 清理不合规文件与空目录
           find "$LOGO_DIR" -type f -name "*.$FILE_EXT" ! -size +"$MIN_FILE_SIZE" -delete 2>/dev/null
           find "$LOGO_DIR" -type d -empty -delete 2>/dev/null
 
-          FINAL_COUNT=$(find "$LOGO_DIR" -name "*.$FILE_EXT" -type f | wc -l)
+          FINAL_COUNT=$(find "$LOGO_DIR" -maxdepth 1 -name "*.$FILE_EXT" -type f | wc -l)
           NEW_COUNT=$((FINAL_COUNT - INIT_COUNT))
           [ "$NEW_COUNT" -lt 0 ] && NEW_COUNT=0
 
@@ -281,10 +290,10 @@ jobs:
         run: |
           cd "$WORKSPACE"
           echo "📄 生成台标文件清单"
-          find "$LOGO_DIR" -name "*.$FILE_EXT" -type f | sort | jq -R -s 'split("\n") | map(select(length > 0))' > logo_list.json
+          find "$LOGO_DIR" -maxdepth 1 -name "*.$FILE_EXT" -type f | sort | jq -R -s 'split("\n") | map(select(length > 0))' > logo_list.json
 
           echo "📄 生成台标详细映射表"
-          find "$LOGO_DIR" -name "*.$FILE_EXT" -type f | sort | while IFS= read -r file; do
+          find "$LOGO_DIR" -maxdepth 1 -name "*.$FILE_EXT" -type f | sort | while IFS= read -r file; do
             filename=$(basename "$file" ."$FILE_EXT")
             size=$(stat -c%s "$file")
             md5=$(md5sum "$file" | cut -d' ' -f1)
