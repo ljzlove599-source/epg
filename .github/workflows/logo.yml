@@ -1,0 +1,321 @@
+name: Logo Update
+
+env:
+  TZ: Asia/Shanghai
+  LOGO_DIR: "logo"
+  FILE_EXT: "png"
+  MIN_FILE_SIZE: "1k"
+  CLONE_RETRY: 2
+  FORCE_LOWERCASE: false
+  # 新增核心配置
+  FORCE_OVERWRITE: "true"          # 启用台标覆盖更新（高优先级源覆盖低优先级）
+  PARALLEL_JOBS: 3                 # 仓库并行拉取并发数
+  CONFIG_FILE: "config/repos.conf" # 仓库源配置文件路径
+  NORMALIZE_FILENAME: "true"       # 启用文件名规范化
+  VALIDATE_IMAGE: "true"           # 启用图片完整性校验
+  DEDUP_ENABLED: "true"            # 启用重复文件去重
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 5'
+
+jobs:
+  sync-logo:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 初始化环境与统计基线
+        run: |
+          # 路径安全校验：防止路径遍历漏洞
+          if [[ "$LOGO_DIR" == *".."* ]] || [[ "$LOGO_DIR" == /* ]]; then
+            echo "❌ LOGO_DIR 包含非法路径，禁止使用绝对路径或上级目录跳转"
+            exit 1
+          fi
+
+          mkdir -p "$LOGO_DIR"
+          echo "WORKSPACE=$(pwd)" >> $GITHUB_ENV
+          echo "INIT_COUNT=$(find "$LOGO_DIR" -name "*.$FILE_EXT" -type f | wc -l)" >> $GITHUB_ENV
+
+      - name: 并行拉取+优先级同步+全量后处理
+        run: |
+          set -euo pipefail
+
+          # ========== 基础环境与工具函数 ==========
+          TEMP_ROOT=$(mktemp -d)
+          export TEMP_ROOT CLONE_RETRY FILE_EXT MIN_FILE_SIZE FORCE_OVERRIDE WORKSPACE
+          # 脚本退出自动清理临时目录（无论成功失败）
+          trap 'rm -rf "$TEMP_ROOT"' EXIT
+
+          retry_cmd() {
+            local max_retries=$1
+            shift
+            local attempt=1
+            while [ $attempt -le $max_retries ]; do
+              if "$@" 2>/dev/null; then
+                return 0
+              fi
+              [ $attempt -lt $max_retries ] && sleep 2
+              attempt=$((attempt + 1))
+            done
+            return 1
+          }
+
+          # ========== 读取并校验配置文件 ==========
+          if [ ! -f "$CONFIG_FILE" ]; then
+            echo "❌ 配置文件 $CONFIG_FILE 不存在，请先创建仓库配置文件"
+            exit 1
+          fi
+          # 过滤注释行与空行
+          grep -v '^#' "$CONFIG_FILE" | grep -v '^$' > "$TEMP_ROOT/repos.txt"
+          REPO_COUNT=$(wc -l < "$TEMP_ROOT/repos.txt")
+          echo "📋 读取到 $REPO_COUNT 个有效仓库配置"
+          [ "$REPO_COUNT" -eq 0 ] && echo "❌ 无有效仓库条目" && exit 1
+
+          # ========== 单仓库拉取函数（并行执行） ==========
+          pull_repo() {
+            local REPO_LINE="$1"
+            IFS='|' read -r URL SRC_DIRS BRANCH PRIORITY <<< "$REPO_LINE"
+            PRIORITY=${PRIORITY:-10}
+
+            local REPO_HASH=$(echo "$URL" | md5sum | cut -c1-8)
+            local TEMP_DIR="$TEMP_ROOT/repo_$REPO_HASH"
+            local REPO_NAME=$(basename "$URL" .git)
+
+            echo "======================================"
+            echo "📦 正在拉取: $REPO_NAME (优先级: $PRIORITY)"
+
+            # 自动检测默认分支，兼容 main/master 双分支场景
+            if [ -z "$BRANCH" ]; then
+              BRANCH=$(git ls-remote --symref "$URL" HEAD 2>/dev/null | grep '^ref:' | awk '{print $2}' | sed 's|refs/heads/||' || true)
+              if [ -z "$BRANCH" ]; then
+                if git ls-remote --exit-code --heads "$URL" main &>/dev/null; then
+                  BRANCH="main"
+                elif git ls-remote --exit-code --heads "$URL" master &>/dev/null; then
+                  BRANCH="master"
+                else
+                  echo "❌ 无法获取默认分支，跳过该仓库"
+                  return 0
+                fi
+              fi
+            fi
+            echo "🔖 目标分支: $BRANCH"
+
+            # 带重试的稀疏克隆
+            if ! retry_cmd "$CLONE_RETRY" git clone --depth 1 --filter=blob:none --single-branch --no-checkout --branch "$BRANCH" "$URL" "$TEMP_DIR"; then
+              echo "❌ 仓库克隆失败，跳过"
+              return 0
+            fi
+
+            cd "$TEMP_DIR"
+            git sparse-checkout init --cone 2>/dev/null || true
+
+            IFS=',' read -ra DIR_LIST <<< "$SRC_DIRS"
+            local DIR_SUCCESS=0
+            for DIR in "${DIR_LIST[@]}"; do
+              DIR=$(echo "$DIR" | xargs)
+              if ! git ls-tree HEAD "$DIR" &>/dev/null; then
+                echo "  📂 目录不存在: $DIR，跳过"
+                continue
+              fi
+
+              if ! retry_cmd "$CLONE_RETRY" git sparse-checkout set "$DIR"; then
+                echo "  📂 目录检出失败: $DIR，跳过"
+                continue
+              fi
+              if ! retry_cmd "$CLONE_RETRY" git checkout; then
+                echo "  📂 目录检出失败: $DIR，跳过"
+                continue
+              fi
+              DIR_SUCCESS=$((DIR_SUCCESS + 1))
+            done
+
+            # 写入优先级标记文件，用于后续排序同步
+            echo "$PRIORITY" > "$TEMP_DIR/.priority"
+            echo "✅ 拉取完成，有效目录: $DIR_SUCCESS/${#DIR_LIST[@]}"
+            return 0
+          }
+          export -f pull_repo
+
+          # ========== 并行拉取所有仓库 ==========
+          echo ""
+          echo "🚀 开始并行拉取仓库，并发数: $PARALLEL_JOBS"
+          xargs -P "$PARALLEL_JOBS" -I {} bash -c 'pull_repo "$@"' _ {} < "$TEMP_ROOT/repos.txt"
+          echo ""
+          echo "✅ 所有仓库拉取流程执行完毕"
+
+          # ========== 按优先级顺序同步到目标目录 ==========
+          echo ""
+          echo "📥 开始按优先级同步台标（优先级高的后同步，自动覆盖低优先级）"
+          # 按优先级升序排序，保证高优先级后执行、覆盖低优先级
+          find "$TEMP_ROOT" -maxdepth 1 -type d -name "repo_*" | while read -r repo_dir; do
+            [ -f "$repo_dir/.priority" ] && echo "$(cat "$repo_dir/.priority")|$repo_dir"
+          done | sort -n | while IFS='|' read -r prio repo_dir; do
+            echo "  同步优先级 $prio 仓库: $(basename "$repo_dir")"
+
+            cd "$repo_dir"
+            # 筛选符合大小和后缀的文件，通过rsync批量同步
+            find . -name "*.$FILE_EXT" -type f -size +"$MIN_FILE_SIZE" -print0 2>/dev/null | \
+              rsync -0 -a --files-from=- . "$WORKSPACE/$LOGO_DIR/" \
+                $([ "$FORCE_OVERWRITE" != "true" ] && echo "--ignore-existing") \
+                2>/dev/null || true
+          done
+          echo "✅ 台标同步完成"
+
+          # ========== 文件名规范化处理 ==========
+          if [ "$NORMALIZE_FILENAME" = "true" ]; then
+            echo ""
+            echo "🔧 开始文件名规范化处理"
+            cd "$WORKSPACE/$LOGO_DIR"
+
+            while IFS= read -r file; do
+              old_name=$(basename "$file")
+              dir=$(dirname "$file")
+
+              # 规范化规则：去空格、统一分隔符、去括号、替换特殊字符
+              new_name=$(echo "$old_name" | \
+                sed 's/[ 　]//g' | \
+                sed 's/[-_＿－]/-/g' | \
+                sed 's/[【】\[\]()（）]//g' | \
+                sed 's/[&*?<>|\\/:"]/-/g' | \
+                sed 's/-\+/-/g' | sed 's/^-//' | sed 's/-$//')
+
+              # 可选全局转小写
+              [ "$FORCE_LOWERCASE" = "true" ] && new_name=$(echo "$new_name" | tr '[:upper:]' '[:lower:]')
+
+              # 重命名（目标文件不存在时执行）
+              if [ "$old_name" != "$new_name" ] && [ ! -f "$dir/$new_name" ]; then
+                mv -f "$file" "$dir/$new_name"
+              fi
+            done < <(find . -name "*.$FILE_EXT" -type f)
+            echo "✅ 文件名规范化完成"
+          fi
+
+          # ========== 图片完整性校验 ==========
+          if [ "$VALIDATE_IMAGE" = "true" ]; then
+            echo ""
+            echo "🖼️ 开始图片完整性校验"
+            invalid_count=0
+            cd "$WORKSPACE/$LOGO_DIR"
+
+            while IFS= read -r file; do
+              if ! file --mime-type "$file" | grep -q 'image/png'; then
+                echo "  删除无效/损坏图片: $file"
+                rm -f "$file"
+                invalid_count=$((invalid_count + 1))
+              fi
+            done < <(find . -name "*.$FILE_EXT" -type f)
+            echo "✅ 图片校验完成，清理无效文件: $invalid_count 个"
+          fi
+
+          # ========== 重复文件去重（基于MD5） ==========
+          if [ "$DEDUP_ENABLED" = "true" ]; then
+            echo ""
+            echo "♻️ 开始重复文件去重"
+            cd "$WORKSPACE/$LOGO_DIR"
+            dup_count=0
+
+            # 生成哈希列表：格式为 哈希|文件路径
+            find . -name "*.$FILE_EXT" -type f -exec md5sum {} \; | awk '{
+              hash = $1;
+              sub(/^[^ ]+ +/, "", $0);
+              file = $0;
+              print hash "|" file
+            }' | sort > "$TEMP_ROOT/md5_list.txt"
+
+            # 提取重复的哈希值
+            cut -d'|' -f1 "$TEMP_ROOT/md5_list.txt" | uniq -d > "$TEMP_ROOT/dup_hashes.txt"
+
+            # 每组重复文件保留第一个，删除其余
+            while read -r hash; do
+              [ -z "$hash" ] && continue
+              files=()
+              while IFS= read -r file; do
+                files+=("$file")
+              done < <(grep "^$hash|" "$TEMP_ROOT/md5_list.txt" | cut -d'|' -f2-)
+
+              for ((i=1; i<${#files[@]}; i++)); do
+                echo "  删除重复文件: ${files[$i]}"
+                rm -f "${files[$i]}"
+                dup_count=$((dup_count + 1))
+              done
+            done < "$TEMP_ROOT/dup_hashes.txt"
+            echo "✅ 去重完成，清理重复文件: $dup_count 个"
+          fi
+
+          # ========== 全局清理与统计 ==========
+          echo ""
+          echo "🧹 执行最终清理"
+          cd "$WORKSPACE"
+          find "$LOGO_DIR" -type f -name "*.$FILE_EXT" ! -size +"$MIN_FILE_SIZE" -delete 2>/dev/null
+          find "$LOGO_DIR" -type d -empty -delete 2>/dev/null
+
+          FINAL_COUNT=$(find "$LOGO_DIR" -name "*.$FILE_EXT" -type f | wc -l)
+          NEW_COUNT=$((FINAL_COUNT - INIT_COUNT))
+          [ "$NEW_COUNT" -lt 0 ] && NEW_COUNT=0
+
+          echo "NEW_COUNT=$NEW_COUNT" >> $GITHUB_ENV
+          echo "FINAL_COUNT=$FINAL_COUNT" >> $GITHUB_ENV
+
+          echo ""
+          echo "======================================"
+          echo "📊 同步完成统计"
+          echo "   原有台标数: $INIT_COUNT"
+          echo "   新增台标数: $NEW_COUNT"
+          echo "   当前总台标数: $FINAL_COUNT"
+          echo "======================================"
+
+      - name: 生成台标清单与映射表
+        run: |
+          cd "$WORKSPACE"
+          echo "📄 生成台标文件清单"
+          find "$LOGO_DIR" -name "*.$FILE_EXT" -type f | sort | jq -R -s 'split("\n") | map(select(length > 0))' > logo_list.json
+
+          echo "📄 生成台标详细映射表"
+          find "$LOGO_DIR" -name "*.$FILE_EXT" -type f | sort | while IFS= read -r file; do
+            filename=$(basename "$file" ."$FILE_EXT")
+            size=$(stat -c%s "$file")
+            md5=$(md5sum "$file" | cut -d' ' -f1)
+            jq -n \
+              --arg name "$filename" \
+              --arg path "$file" \
+              --argjson size "$size" \
+              --arg md5 "$md5" \
+              '{name: $name, path: $path, size: $size, md5: $md5}'
+          done | jq -s '{update_time: $ARGS.named.time, total: length, channels: .}' --arg time "$(date +'%Y-%m-%d %H:%M:%S %Z')" > logo_map.json
+
+          echo "✅ 清单与映射表生成完成"
+
+      - name: 暂存文件
+        run: |
+          git add "$LOGO_DIR"/*.$FILE_EXT 2>/dev/null || true
+          git add logo_list.json logo_map.json 2>/dev/null || true
+        continue-on-error: true
+
+      - name: 提交并推送更新
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --cached --name-only | grep -q .; then
+            git fetch origin main
+            git commit -m "频道台标更新: $(date +'%Y-%m-%d %H:%M') (CST) | 新增${NEW_COUNT}个，共${FINAL_COUNT}个"
+            # 改用安全推送，避免意外覆盖远程提交
+            git push origin HEAD:$GITHUB_REF_NAME --force-with-lease
+            echo "✅ 推送完成"
+          else
+            echo "ℹ️ 无文件变更，跳过提交"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 最终清理
+        if: always()
+        run: rm -rf temp_* .temp_* /tmp/tmp.* 2>/dev/null
