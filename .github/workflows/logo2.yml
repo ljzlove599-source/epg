@@ -18,9 +18,9 @@ env:
   CATEGORY_DIR: "logo_categories"
   CATEGORY_REGION_ENABLED: "true"
   CATEGORY_TYPE_ENABLED: "true"
-  # ========== 新增：指定仓库保留目录结构配置 ==========
-  STRUCTURE_OUTPUT_ENABLED: "true"    # 总开关：是否启用部分仓库保留结构输出
-  STRUCTURE_OUTPUT_DIR: "TVLOGO"      # 保留结构的输出根目录（与logo目录平级）
+  # 指定仓库保留目录结构配置
+  STRUCTURE_OUTPUT_ENABLED: "true"
+  STRUCTURE_OUTPUT_DIR: "TVLOGO"
 
 on:
   workflow_dispatch:
@@ -42,17 +42,17 @@ jobs:
 
       - name: 初始化环境与统计基线
         run: |
-          # 路径安全校验：防止路径遍历漏洞
+          # 路径安全校验
           if [[ "$LOGO_DIR" == *".."* ]] || [[ "$LOGO_DIR" == /* ]]; then
-            echo "❌ LOGO_DIR 包含非法路径，禁止使用绝对路径或上级目录跳转"
+            echo "❌ LOGO_DIR 包含非法路径"
             exit 1
           fi
           if [[ "$CATEGORY_DIR" == *".."* ]] || [[ "$CATEGORY_DIR" == /* ]]; then
-            echo "❌ CATEGORY_DIR 包含非法路径，禁止使用绝对路径或上级目录跳转"
+            echo "❌ CATEGORY_DIR 包含非法路径"
             exit 1
           fi
           if [[ "$STRUCTURE_OUTPUT_DIR" == *".."* ]] || [[ "$STRUCTURE_OUTPUT_DIR" == /* ]]; then
-            echo "❌ STRUCTURE_OUTPUT_DIR 包含非法路径，禁止使用绝对路径或上级目录跳转"
+            echo "❌ STRUCTURE_OUTPUT_DIR 包含非法路径"
             exit 1
           fi
 
@@ -73,7 +73,6 @@ jobs:
           export ENABLE_CATEGORY CATEGORY_DIR CATEGORY_REGION_ENABLED CATEGORY_TYPE_ENABLED
           export STRUCTURE_OUTPUT_ENABLED STRUCTURE_OUTPUT_DIR
 
-          # 脚本退出自动清理临时目录
           trap 'rm -rf "$TEMP_ROOT"' EXIT
 
           # ========== 工具函数 ==========
@@ -91,8 +90,7 @@ jobs:
             return 1
           }
 
-          # 目录统一后处理函数：规范化、图片校验、去重、小文件清理
-          # 参数1：目标目录；参数2：是否递归处理(true/false，默认false)
+          # 目录统一后处理函数
           process_directory() {
             local target_dir="$1"
             local recursive="${2:-false}"
@@ -127,7 +125,7 @@ jobs:
             if [ "$VALIDATE_IMAGE" = "true" ]; then
               find . $depth_arg -name "*.$FILE_EXT" -type f -print0 | while IFS= read -r -d '' file; do
                 if ! file --mime-type "$file" | grep -q 'image/png'; then
-                  echo "  删除无效/损坏图片: $file"
+                  echo "  删除无效图片: $file"
                   rm -f "$file"
                 fi
               done
@@ -142,11 +140,8 @@ jobs:
                   hash = $1;
                   sub(/^[^ ]+ +/, "", $0);
                   file = $0;
-                  if (hash in seen) {
-                    print file;
-                  } else {
-                    seen[hash] = file;
-                  }
+                  if (hash in seen) { print file; }
+                  else { seen[hash] = file; }
                 }' > "$tmp_dup"
 
               while IFS= read -r dup_file; do
@@ -166,22 +161,22 @@ jobs:
 
           pull_repo() {
             local REPO_LINE="$1"
-            # 配置格式：URL|SRC_DIRS|BRANCH|PRIORITY|REGION|TYPE|PRESERVE_STRUCTURE
-            # 最后两个分类字段、最后一个保留结构字段均可选，留空使用默认值
             IFS='|' read -r URL SRC_DIRS BRANCH PRIORITY REGION TYPE PRESERVE_STRUCT <<< "$REPO_LINE"
             PRIORITY=${PRIORITY:-10}
             REGION=${REGION:-}
             TYPE=${TYPE:-}
             PRESERVE_STRUCT=${PRESERVE_STRUCT:-false}
 
+            # ===== 核心修复：用整行配置生成哈希，同仓库不同行不冲突 =====
             local REPO_HASH
-            REPO_HASH=$(echo "$URL" | md5sum | cut -c1-8)
+            REPO_HASH=$(echo "$REPO_LINE" | md5sum | cut -c1-8)
             local TEMP_DIR="$TEMP_ROOT/repo_$REPO_HASH"
             local REPO_NAME
             REPO_NAME=$(basename "$URL" .git)
 
             echo "======================================"
             echo "📦 正在拉取: $REPO_NAME (优先级: $PRIORITY)"
+            echo "🔑 配置哈希: $REPO_HASH"
             [ -n "$REGION" ] && echo "🌍 地区分类: $REGION"
             [ -n "$TYPE" ] && echo "📺 类型分类: $TYPE"
             [ "$PRESERVE_STRUCT" = "true" ] && echo "📂 保留目录结构: 是"
@@ -195,14 +190,14 @@ jobs:
                 elif git ls-remote --exit-code --heads "$URL" master &>/dev/null; then
                   BRANCH="master"
                 else
-                  echo "❌ 无法获取默认分支，跳过该仓库"
+                  echo "❌ 无法获取默认分支，跳过"
                   return 0
                 fi
               fi
             fi
             echo "🔖 目标分支: $BRANCH"
 
-            # 带重试的稀疏克隆
+            # 稀疏克隆
             if ! retry_cmd "$CLONE_RETRY" git clone --depth 1 --filter=blob:none --single-branch --no-checkout --branch "$BRANCH" "$URL" "$TEMP_DIR"; then
               echo "❌ 仓库克隆失败，跳过"
               return 0
@@ -231,22 +226,26 @@ jobs:
               DIR_SUCCESS=$((DIR_SUCCESS + 1))
             done
 
+            # 统计本次拉取到的有效图片数，方便排查
+            local img_count
+            img_count=$(find . -name "*.$FILE_EXT" -type f -size +"$MIN_FILE_SIZE" 2>/dev/null | wc -l)
+
             # 写入标记文件
             echo "$PRIORITY" > "$TEMP_DIR/.priority"
             echo "$REGION" > "$TEMP_DIR/.region"
             echo "$TYPE" > "$TEMP_DIR/.type"
             echo "$PRESERVE_STRUCT" > "$TEMP_DIR/.preserve_struct"
+            echo "$img_count" > "$TEMP_DIR/.img_count"
 
-            echo "✅ 拉取完成，有效目录: $DIR_SUCCESS/${#DIR_LIST[@]}"
+            echo "✅ 拉取完成，有效目录: $DIR_SUCCESS/${#DIR_LIST[@]}，有效图片: $img_count 张"
             return 0
           }
 
-          # 导出所有自定义函数，子进程可正常调用
           export -f retry_cmd pull_repo process_directory
 
-          # ========== 读取并校验配置文件 ==========
+          # ========== 读取配置 ==========
           if [ ! -f "$CONFIG_FILE" ]; then
-            echo "❌ 配置文件 $CONFIG_FILE 不存在，请先创建仓库配置文件"
+            echo "❌ 配置文件 $CONFIG_FILE 不存在"
             exit 1
           fi
           grep -v '^#' "$CONFIG_FILE" | grep -v '^$' > "$TEMP_ROOT/repos.txt"
@@ -254,16 +253,16 @@ jobs:
           echo "📋 读取到 $REPO_COUNT 个有效仓库配置"
           [ "$REPO_COUNT" -eq 0 ] && echo "❌ 无有效仓库条目" && exit 1
 
-          # ========== 并行拉取所有仓库 ==========
+          # ========== 并行拉取 ==========
           echo ""
           echo "🚀 开始并行拉取仓库，并发数: $PARALLEL_JOBS"
           xargs -P "$PARALLEL_JOBS" -I {} bash -c 'pull_repo "$@"' _ {} < "$TEMP_ROOT/repos.txt"
           echo ""
           echo "✅ 所有仓库拉取流程执行完毕"
 
-          # ========== 1. 所有仓库统一平铺到主目录（原有逻辑不变） ==========
+          # ========== 1. 所有仓库统一平铺到主 logo 目录 ==========
           echo ""
-          echo "📥 开始按优先级同步台标（扁平化输出，高优先级覆盖低优先级）"
+          echo "📥 【1/3】主目录平铺同步"
           TARGET_DIR="$WORKSPACE/$LOGO_DIR"
           mkdir -p "$TARGET_DIR"
 
@@ -273,7 +272,9 @@ jobs:
               echo "$prio|$repo_dir"
             fi
           done | sort -n | while IFS='|' read -r prio repo_dir; do
-            echo "  同步优先级 $prio 仓库: $(basename "$repo_dir")"
+            repo_name=$(basename "$repo_dir")
+            img_count=$(cat "$repo_dir/.img_count" 2>/dev/null || echo 0)
+            echo "  同步优先级 $prio: $repo_name (预计 $img_count 个文件)"
 
             cd "$repo_dir"
             find . -name "*.$FILE_EXT" -type f -size +"$MIN_FILE_SIZE" -print0 2>/dev/null | while IFS= read -r -d '' file; do
@@ -285,12 +286,12 @@ jobs:
               fi
             done
           done
-          echo "✅ 主目录平铺同步完成"
+          echo "✅ 主目录平铺同步完成，当前文件数: $(find "$TARGET_DIR" -maxdepth 1 -name "*.$FILE_EXT" -type f | wc -l)"
 
-          # ========== 2. 仅标记仓库输出保留目录结构版本 ==========
+          # ========== 2. 标记仓库输出保留目录结构版本 ==========
           if [ "$STRUCTURE_OUTPUT_ENABLED" = "true" ]; then
             echo ""
-            echo "🗂️  开始生成保留目录结构的副本（仅标记的仓库）"
+            echo "🗂️  【2/3】保留结构目录同步（仅标记仓库）"
             STRUCT_TARGET="$WORKSPACE/$STRUCTURE_OUTPUT_DIR"
             mkdir -p "$STRUCT_TARGET"
 
@@ -302,7 +303,7 @@ jobs:
                 echo "$prio|$repo_dir"
               fi
             done | sort -n | while IFS='|' read -r prio repo_dir; do
-              echo "  同步（保留结构）优先级 $prio 仓库: $(basename "$repo_dir")"
+              echo "  同步（保留结构）优先级 $prio: $(basename "$repo_dir")"
 
               cd "$repo_dir"
               find . -name "*.$FILE_EXT" -type f -size +"$MIN_FILE_SIZE" -print0 2>/dev/null | while IFS= read -r -d '' file; do
@@ -318,10 +319,10 @@ jobs:
             echo "✅ 保留结构目录生成完成"
           fi
 
-          # ========== 3. 分类目录输出（原有逻辑不变） ==========
+          # ========== 3. 分类目录输出 ==========
           if [ "$ENABLE_CATEGORY" = "true" ]; then
             echo ""
-            echo "🗂️  开始生成分类目录副本"
+            echo "🗂️  【3/3】分类目录生成"
             CATEGORY_ROOT="$WORKSPACE/$CATEGORY_DIR"
             mkdir -p "$CATEGORY_ROOT"
             [ "$CATEGORY_REGION_ENABLED" = "true" ] && mkdir -p "$CATEGORY_ROOT/region"
@@ -333,7 +334,7 @@ jobs:
                 echo "$prio|$repo_dir"
               fi
             done | sort -n | while IFS='|' read -r prio repo_dir; do
-              echo "  处理优先级 $prio 仓库: $(basename "$repo_dir")"
+              echo "  处理优先级 $prio: $(basename "$repo_dir")"
               repo_region=$(cat "$repo_dir/.region" 2>/dev/null || true)
               repo_type=$(cat "$repo_dir/.type" 2>/dev/null || true)
 
@@ -341,6 +342,7 @@ jobs:
               find . -name "*.$FILE_EXT" -type f -size +"$MIN_FILE_SIZE" -print0 2>/dev/null | while IFS= read -r -d '' file; do
                 filename=$(basename "$file")
 
+                # 地区分类：字段非空才生成
                 if [ "$CATEGORY_REGION_ENABLED" = "true" ] && [ -n "$repo_region" ]; then
                   region_target="$CATEGORY_ROOT/region/$repo_region"
                   mkdir -p "$region_target"
@@ -350,6 +352,7 @@ jobs:
                   fi
                 fi
 
+                # 类型分类：字段非空才生成
                 if [ "$CATEGORY_TYPE_ENABLED" = "true" ] && [ -n "$repo_type" ]; then
                   type_target="$CATEGORY_ROOT/type/$repo_type"
                   mkdir -p "$type_target"
@@ -360,26 +363,26 @@ jobs:
                 fi
               done
             done
-            echo "✅ 分类目录副本生成完成"
+            echo "✅ 分类目录生成完成"
           fi
 
           # ========== 统一全量后处理 ==========
           echo ""
-          echo "🔧 开始执行全局后处理（规范化+校验+去重）"
+          echo "🔧 开始执行全局后处理"
           
-          echo "  [1/3] 处理主平铺目录: $LOGO_DIR"
+          echo "  [1/3] 主平铺目录: $LOGO_DIR"
           process_directory "$WORKSPACE/$LOGO_DIR"
 
           if [ "$STRUCTURE_OUTPUT_ENABLED" = "true" ]; then
-            echo "  [2/3] 处理保留结构目录: $STRUCTURE_OUTPUT_DIR"
+            echo "  [2/3] 保留结构目录: $STRUCTURE_OUTPUT_DIR"
             process_directory "$WORKSPACE/$STRUCTURE_OUTPUT_DIR" true
           fi
 
           if [ "$ENABLE_CATEGORY" = "true" ]; then
-            echo "  [3/3] 处理分类目录: $CATEGORY_DIR"
+            echo "  [3/3] 分类目录: $CATEGORY_DIR"
             find "$WORKSPACE/$CATEGORY_DIR" -type d -print0 | while IFS= read -r -d '' cat_dir; do
               if find "$cat_dir" -maxdepth 1 -name "*.$FILE_EXT" -type f | grep -q .; then
-                echo "    - 子目录: ${cat_dir#$WORKSPACE/}"
+                echo "    - ${cat_dir#$WORKSPACE/}"
                 process_directory "$cat_dir"
               fi
             done
@@ -460,4 +463,3 @@ jobs:
       - name: 最终清理
         if: always()
         run: rm -rf temp_* .temp_* /tmp/tmp.* 2>/dev/null
-
