@@ -7,13 +7,12 @@ env:
   MIN_FILE_SIZE: "1k"
   CLONE_RETRY: 2
   FORCE_LOWERCASE: false
-  # 新增核心配置
-  FORCE_OVERWRITE: "true"          # 启用台标覆盖更新（高优先级源覆盖低优先级）
-  PARALLEL_JOBS: 3                 # 仓库并行拉取并发数
-  CONFIG_FILE: "config/repos.conf" # 仓库源配置文件路径
-  NORMALIZE_FILENAME: "true"       # 启用文件名规范化
-  VALIDATE_IMAGE: "true"           # 启用图片完整性校验
-  DEDUP_ENABLED: "true"            # 启用重复文件去重
+  FORCE_OVERWRITE: "true"
+  PARALLEL_JOBS: 3
+  CONFIG_FILE: "config/repos.conf"
+  NORMALIZE_FILENAME: "true"
+  VALIDATE_IMAGE: "true"
+  DEDUP_ENABLED: "true"
 
 on:
   workflow_dispatch:
@@ -49,46 +48,38 @@ jobs:
         run: |
           set -euo pipefail
 
-          # ========== 基础环境与工具函数 ==========
+          # ========== 基础环境与全局变量 ==========
           TEMP_ROOT=$(mktemp -d)
-          export TEMP_ROOT CLONE_RETRY FILE_EXT MIN_FILE_SIZE FORCE_OVERRIDE WORKSPACE
+          export TEMP_ROOT CLONE_RETRY FILE_EXT MIN_FILE_SIZE FORCE_OVERWRITE WORKSPACE LOGO_DIR FORCE_LOWERCASE NORMALIZE_FILENAME VALIDATE_IMAGE DEDUP_ENABLED
+
           # 脚本退出自动清理临时目录（无论成功失败）
           trap 'rm -rf "$TEMP_ROOT"' EXIT
 
+          # ========== 工具函数 ==========
           retry_cmd() {
             local max_retries=$1
             shift
             local attempt=1
-            while [ $attempt -le $max_retries ]; do
+            while [ $attempt -le "$max_retries" ]; do
               if "$@" 2>/dev/null; then
                 return 0
               fi
-              [ $attempt -lt $max_retries ] && sleep 2
+              [ $attempt -lt "$max_retries" ] && sleep 2
               attempt=$((attempt + 1))
             done
             return 1
           }
 
-          # ========== 读取并校验配置文件 ==========
-          if [ ! -f "$CONFIG_FILE" ]; then
-            echo "❌ 配置文件 $CONFIG_FILE 不存在，请先创建仓库配置文件"
-            exit 1
-          fi
-          # 过滤注释行与空行
-          grep -v '^#' "$CONFIG_FILE" | grep -v '^$' > "$TEMP_ROOT/repos.txt"
-          REPO_COUNT=$(wc -l < "$TEMP_ROOT/repos.txt")
-          echo "📋 读取到 $REPO_COUNT 个有效仓库配置"
-          [ "$REPO_COUNT" -eq 0 ] && echo "❌ 无有效仓库条目" && exit 1
-
-          # ========== 单仓库拉取函数（并行执行） ==========
           pull_repo() {
             local REPO_LINE="$1"
             IFS='|' read -r URL SRC_DIRS BRANCH PRIORITY <<< "$REPO_LINE"
             PRIORITY=${PRIORITY:-10}
 
-            local REPO_HASH=$(echo "$URL" | md5sum | cut -c1-8)
+            local REPO_HASH
+            REPO_HASH=$(echo "$URL" | md5sum | cut -c1-8)
             local TEMP_DIR="$TEMP_ROOT/repo_$REPO_HASH"
-            local REPO_NAME=$(basename "$URL" .git)
+            local REPO_NAME
+            REPO_NAME=$(basename "$URL" .git)
 
             echo "======================================"
             echo "📦 正在拉取: $REPO_NAME (优先级: $PRIORITY)"
@@ -143,7 +134,20 @@ jobs:
             echo "✅ 拉取完成，有效目录: $DIR_SUCCESS/${#DIR_LIST[@]}"
             return 0
           }
-          export -f pull_repo
+
+          # 关键修复：导出所有自定义函数，子进程才能正常调用
+          export -f retry_cmd pull_repo
+
+          # ========== 读取并校验配置文件 ==========
+          if [ ! -f "$CONFIG_FILE" ]; then
+            echo "❌ 配置文件 $CONFIG_FILE 不存在，请先创建仓库配置文件"
+            exit 1
+          fi
+          # 过滤注释行与空行
+          grep -v '^#' "$CONFIG_FILE" | grep -v '^$' > "$TEMP_ROOT/repos.txt"
+          REPO_COUNT=$(wc -l < "$TEMP_ROOT/repos.txt")
+          echo "📋 读取到 $REPO_COUNT 个有效仓库配置"
+          [ "$REPO_COUNT" -eq 0 ] && echo "❌ 无有效仓库条目" && exit 1
 
           # ========== 并行拉取所有仓库 ==========
           echo ""
@@ -260,7 +264,7 @@ jobs:
 
           FINAL_COUNT=$(find "$LOGO_DIR" -name "*.$FILE_EXT" -type f | wc -l)
           NEW_COUNT=$((FINAL_COUNT - INIT_COUNT))
-          [ "$NEW_COUNT" -lt 0 ] && NEW_COUNT=0
+          [ "$NEW_COUNT -lt 0 ] && NEW_COUNT=0
 
           echo "NEW_COUNT=$NEW_COUNT" >> $GITHUB_ENV
           echo "FINAL_COUNT=$FINAL_COUNT" >> $GITHUB_ENV
@@ -307,7 +311,6 @@ jobs:
           if git diff --cached --name-only | grep -q .; then
             git fetch origin main
             git commit -m "频道台标更新: $(date +'%Y-%m-%d %H:%M') (CST) | 新增${NEW_COUNT}个，共${FINAL_COUNT}个"
-            # 改用安全推送，避免意外覆盖远程提交
             git push origin HEAD:$GITHUB_REF_NAME --force-with-lease
             echo "✅ 推送完成"
           else
@@ -319,3 +322,4 @@ jobs:
       - name: 最终清理
         if: always()
         run: rm -rf temp_* .temp_* /tmp/tmp.* 2>/dev/null
+
