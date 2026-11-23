@@ -24,221 +24,6 @@
     <display-name>澳门-Macau</display-name>
     <display-name>96</display-name>
   </channel>
-  <programme start="20261121070000 +0800" stop="20261121080000 +0800" channel="1">
-    <title lang="zh-CN">早晨新闻</title>
-  </programme>
-  <programme start="20261121080000 +0800" stop="20261121090000 +0800" channel="1">
-    <title lang="zh-CN">澳门早晨</title>
-  </programme>
-  <programme start="20261121090000 +0800" stop="20261121090500 +0800" channel="1">
-    <title lang="zh-CN">TDM 新视点</title>
-  </programme>
-  <programme start="20261121090500 +0800" stop="20261121131200 +0800" channel="1">
-    <title lang="zh-CN">直播第73届澳门格兰披治大赛车</title>
-  </programme>
-  <programme start="20261121131200 +0800" stop="20261121131700 +0800" channel="1">
-    <title lang="zh-CN">“你问我答”粤澳法律直播间 </title>
-  </programme>
-  <programme start="20261121131700 +0800" stop="20261121132400 +0800" channel="1">
-    <title lang="zh-CN">时局综观</title>
-    <desc lang="zh-CN">解读、分析近期热门的内地和国际新闻热话。</desc>
-  </programme>
-  <programme start="20261121132400 +0800" stop="20261121133000 +0800" channel="1">
-    <title lang="zh-CN">午间天气报告</title>
-  </programme>
-  <programme start="20261121133000 +0800" stop="20261121140000 +0800" channel="1">
-    <title lang="zh-CN">午间新闻</title>
-  </programme>
-  <programme start="20261121140000 +0800" stop="20261121173000 +0800" channel="1">
-    <title lang="zh-CN">直播第73届澳门格兰披治大赛车</title>
-  </programme>
-  <programme start="20261121173000 +0800" stop="20261121180000 +0800" channel="1">
-    <title lang="zh-CN">趋记茶餐厅</title>
-    <desc lang="zh-CN">一部以澳门茶餐厅为背景的轻松幽默连续剧，故事围绕茶餐厅的日常营运展开，当中穿插生活热话，搞笑得来又有共鸣，欢迎大家光临！</desc>
-  </programme>
-  <programme start="20261121180000 +0800" stop="20261121184300 +0800" channel="1">
-    <title lang="zh-CN">动感教菁</title>
-  </programme>
-  <programme start="20261121184300 +0800" stop="20261121185000 +0800" channel="1">
-    <title lang="zh-CN">时局综观</title>
-    <desc lang="zh-CN">解读、分析近期热门的内地和国际新闻热话。</desc>
-  </programme>
-  <programme start="20261121185000 +0800" stop="20261121190000 +0800" channel="1">
-    <title lang="zh-CN">新闻提要</title>
-  </programme>
-  <programme start="20261121190000 +0800" stop="20261121195500 +0800" channel="1">
-    <title lang="zh-CN">澳视新闻</title>
-  </programme>
-  <programme start="20261121195500 +0800" stop="20261121200000 +0800" channel="1">
-    <title lang="zh-CN">天气报告</title>
-  </programme>
-  <programme start="20261121200000 +0800" stop="20261121201000 +0800" channel="1">
-    <title lang="zh-CN">漫游澳门．乐在各区</title>
-  </programme>
-  <programme start="20261121201000 +0800" stop="20261121203500 +0800" channel="1">
-    <title lang="zh-CN">爱上博物馆</title>
-  </programme>
-  <programme start="20261121203500 +0800" stop="20261121212000 +0800" channel="1">
-    <title lang="zh-CN">镇乡之宝</title>
-    <desc lang="zh-CN">每一个乡镇都有属于自己独特的《镇乡之宝》！当中包括世代相传的技能、源自大自然的恩赐及翻转乡镇经济命运的行业等。每集将揭开世界各地特殊的‘宝’，并透视每座乡镇的精神和样貌，打开对世界的另一种认知。</desc>
-  </programme>
-  <programme start="20261121212000 +0800" stop="20261121215000 +0800" channel="1">
-    <title lang="zh-CN">考古者说</title>
-  </programme>
-  <programme start="20261121215000 +0800" stop="20261121220000 +0800" channel="1">
-    <title lang="zh-CN">虫出江湖</title>
-  </programme>
-  <programme start="20261121220000 +0800" stop="20261121223000 +0800" channel="1">
-    <title lang="zh-CN">普通话新闻</title>
-  </programme>
-  <programme start="20261121223000 +0800" stop="20261121231500 +0800" channel="1">
-    <title lang="zh-CN">十点半澳视纵横︰财经杂志</title>
-  </programme>
-  <programme start="20261121231500 +0800" stop="20261121235000 +0800" channel="1">
-    <title lang="zh-CN">晚间新闻</title>
-  </programme>
-  <programme start="20261121235000 +0800" stop="20261122000100 +0800" channel="1">
-    <title lang="zh-CN">体育新闻</title>
-  </programme>
-  <programme start="20261122000100 +0800" stop="20261122010000 +0800" channel="1">
-    <title lang="zh-CN">AI 剧场 瑰宝之舞</title>
-    <desc lang="zh-CN">人工智慧（AI）技术在短短一年内让中国短剧产业发生翻天覆地的变化。根据中国网络视听协会统计，2026年第一季新上线的微短剧，其中95%由AI制作。AI短剧拥有制作与成本优势的不可抗力，且能大幅拓展传统影视的题材边界，轻松实现高难度特效、科幻宇宙、宏大历史或奇幻穿越等昂贵场景，能快速跟上网路流行趋势，即时调整剧本并产出对应内容。 《AI剧场 瑰宝之舞》，澳广视出品、澳广视原创剧本。这是一部以澳门非物质文化遗产「葡萄牙土风舞」为主题的故事。讲述一位生活在缺席高频音世界的中度听障华人女生苏恩，偶然在内地探亲时被葡萄牙土风舞的欢乐氛围与舞者笑容所感染。回澳后，她结识了大学生路易士并获得鼓励加入舞团。在路易士坚持不懈的协助下，她克服听力障碍跨越旋律跃动，渐渐爱上这门传统表演艺术。</desc>
-  </programme>
-  <programme start="20261122010000 +0800" stop="20261122013500 +0800" channel="1">
-    <title lang="zh-CN">AI 剧场 药香情缘</title>
-  </programme>
-  <programme start="20261122013500 +0800" stop="20261122020500 +0800" channel="1">
-    <title lang="zh-CN">露天风情葡萄牙 第二季</title>
-  </programme>
-  <programme start="20261122020500 +0800" stop="20261122023000 +0800" channel="1">
-    <title lang="zh-CN">爱上博物馆</title>
-  </programme>
-  <programme start="20261122023000 +0800" stop="20261122030000 +0800" channel="1">
-    <title lang="zh-CN">考古者说</title>
-  </programme>
-  <programme start="20261122030000 +0800" stop="20261122032500 +0800" channel="1">
-    <title lang="zh-CN">录播普通话新闻</title>
-  </programme>
-  <programme start="20261122032500 +0800" stop="20261122040000 +0800" channel="1">
-    <title lang="zh-CN">录播晚间新闻</title>
-  </programme>
-  <programme start="20261122040000 +0800" stop="20261122044700 +0800" channel="1">
-    <title lang="zh-CN">口述澳门历史名人堂 II</title>
-    <desc lang="zh-CN">澳门，这个座落在南海之滨的小城巿，是祖国的一颗掌上明珠，也是东西方文化交织相融之地，曾有不少历史名人在此驻足停留，对后世影响深远。《口述澳门历史名人堂2》将延续第一季节目的精神，与观众一起探寻历史名人们留下过的足迹，并以光影为墨、以镜头为笔，发掘珍贵文献素材，结合专家学者们的深度分享，记录先贤们的卓越贡献，打造值得代代相传的文化经典。</desc>
-  </programme>
-  <programme start="20261122044700 +0800" stop="20261122052500 +0800" channel="1">
-    <title lang="zh-CN">重播财经杂志</title>
-  </programme>
-  <programme start="20261122052500 +0800" stop="20261122064000 +0800" channel="1">
-    <title lang="zh-CN">无名的爱</title>
-  </programme>
-  <programme start="20261122064000 +0800" stop="20261122074000 +0800" channel="1">
-    <title lang="zh-CN">《葡角漫游》之佛得角</title>
-    <desc lang="zh-CN">澳门一直与葡萄牙及其他葡语系国家保持着良好的关系，随着澳广视辖下澳门 - Macau卫星频道落地到葡语国家，观众范围不断扩大，彼此交流更加方便。澳广视主持人布廷欣早前到访葡语系国家葡萄牙及佛得角。一连三集的《葡角漫游》之佛得角，分别会带大家快闪葡萄牙，一尝当地美食; 去到佛得角首都普拉亚，了解中国在当地的援助项目;还会去到佛得角其中两个拥有美丽海洋资源的岛屿，感受不一样的非洲风情。</desc>
-  </programme>
-  <programme start="20261122070000 +0800" stop="20261122073000 +0800" channel="1">
-    <title lang="zh-CN">AI 剧场 药香情缘</title>
-  </programme>
-  <programme start="20261122073000 +0800" stop="20261122074000 +0800" channel="1">
-    <title lang="zh-CN">育才成长  筑新未来︰家长学堂</title>
-  </programme>
-  <programme start="20261122074000 +0800" stop="20261122075500 +0800" channel="1">
-    <title lang="zh-CN">澳门经典车小百科</title>
-  </programme>
-  <programme start="20261122075500 +0800" stop="20261122131200 +0800" channel="1">
-    <title lang="zh-CN">直播第73届澳门格兰披治大赛车</title>
-  </programme>
-  <programme start="20261122131200 +0800" stop="20261122131700 +0800" channel="1">
-    <title lang="zh-CN">“你问我答”粤澳法律直播间 </title>
-  </programme>
-  <programme start="20261122131700 +0800" stop="20261122132400 +0800" channel="1">
-    <title lang="zh-CN">SUN闻搜罗</title>
-  </programme>
-  <programme start="20261122132400 +0800" stop="20261122133000 +0800" channel="1">
-    <title lang="zh-CN">午间天气报告</title>
-  </programme>
-  <programme start="20261122133000 +0800" stop="20261122140000 +0800" channel="1">
-    <title lang="zh-CN">午间新闻</title>
-  </programme>
-  <programme start="20261122140000 +0800" stop="20261122173000 +0800" channel="1">
-    <title lang="zh-CN">直播第73届澳门格兰披治大赛车</title>
-  </programme>
-  <programme start="20261122173000 +0800" stop="20261122180000 +0800" channel="1">
-    <title lang="zh-CN">教煮CHILL 好玩</title>
-    <desc lang="zh-CN">想知边度可以边煮、边食、边CHILL？ 澳广视全新烹饪节目《教煮CHILL好玩》帮到你！ 由靓女主持马思霖、Vanessa 带你每集解锁唔同菜式， 更会邀请神秘嘉宾一齐试菜倾计！ 记住逢星期四晚上九点三十三分，91台澳视澳门， 锁定《教煮CHILL好玩》，同你一齐 CHILL 住开炉！</desc>
-  </programme>
-  <programme start="20261122180000 +0800" stop="20261122184300 +0800" channel="1">
-    <title lang="zh-CN">澳门早晨一周精华</title>
-  </programme>
-  <programme start="20261122184300 +0800" stop="20261122185000 +0800" channel="1">
-    <title lang="zh-CN">SUN闻搜罗</title>
-  </programme>
-  <programme start="20261122185000 +0800" stop="20261122190000 +0800" channel="1">
-    <title lang="zh-CN">新闻提要</title>
-  </programme>
-  <programme start="20261122190000 +0800" stop="20261122195500 +0800" channel="1">
-    <title lang="zh-CN">澳视新闻</title>
-  </programme>
-  <programme start="20261122195500 +0800" stop="20261122200000 +0800" channel="1">
-    <title lang="zh-CN">天气报告</title>
-  </programme>
-  <programme start="20261122200000 +0800" stop="20261122213500 +0800" channel="1">
-    <title lang="zh-CN">孺子可教也</title>
-    <desc lang="zh-CN">在迎来小学毕业试之际，三位教育方式截然不同的鹰爸，兔爸以及羊爸，以自认为最好的教育方式管教孩子，却忽略了孩子的天赋差异和需求，造成与孩子的感情出现裂痕。爸爸们痛定思痛后，决心撕下"动物属性"的标签，努力修复好亲子关系，陪同孩子一起面对毕业试这个重要的里程碑。</desc>
-  </programme>
-  <programme start="20261122213500 +0800" stop="20261122214000 +0800" channel="1">
-    <title lang="zh-CN">巧手时光</title>
-  </programme>
-  <programme start="20261122214000 +0800" stop="20261122220000 +0800" channel="1">
-    <title lang="zh-CN">诗词有故事</title>
-    <desc lang="zh-CN">诗篇留纸上，岁月藏字间。 词句诉心事，悲欢诉世间。 细解文中意，重探旧时颜。 《诗词有故事》共读古贤篇。 本节目通过讲述中华诗词背后的故事，传承民族精神，弘扬中华文化，厚植家国情怀。</desc>
-  </programme>
-  <programme start="20261122220000 +0800" stop="20261122223000 +0800" channel="1">
-    <title lang="zh-CN">普通话新闻</title>
-  </programme>
-  <programme start="20261122223000 +0800" stop="20261122231500 +0800" channel="1">
-    <title lang="zh-CN">十点半澳视纵横︰中国城市动态</title>
-  </programme>
-  <programme start="20261122231500 +0800" stop="20261122235000 +0800" channel="1">
-    <title lang="zh-CN">晚间新闻</title>
-  </programme>
-  <programme start="20261122235000 +0800" stop="20261123000100 +0800" channel="1">
-    <title lang="zh-CN">体育新闻</title>
-  </programme>
-  <programme start="20261123000100 +0800" stop="20261123014000 +0800" channel="1">
-    <title lang="zh-CN">拳心</title>
-    <desc lang="zh-CN">《拳心》是澳广视于2024年至2025年重点制作的剧集项目。剧本于2024年底与澳门科技大学人文艺术学院合作开发，并于2025年底邀请中港澳三地资深导演吕小龙参与拍摄制作。 该剧由导演何飞、总监制吕小龙携手澳广视制作团队共同打造，故事以澳门为背景，透过拳击比赛展现热血、梦想与友情的主题，并将邀请港澳演员参与演出。</desc>
-  </programme>
-  <programme start="20261123014000 +0800" stop="20261123020500 +0800" channel="1">
-    <title lang="zh-CN">露天风情葡萄牙 第二季</title>
-  </programme>
-  <programme start="20261123020500 +0800" stop="20261123025000 +0800" channel="1">
-    <title lang="zh-CN">镇乡之宝</title>
-    <desc lang="zh-CN">每一个乡镇都有属于自己独特的《镇乡之宝》！当中包括世代相传的技能、源自大自然的恩赐及翻转乡镇经济命运的行业等。每集将揭开世界各地特殊的‘宝’，并透视每座乡镇的精神和样貌，打开对世界的另一种认知。</desc>
-  </programme>
-  <programme start="20261123025000 +0800" stop="20261123030000 +0800" channel="1">
-    <title lang="zh-CN">四川非遗100 - 第四季</title>
-    <desc lang="zh-CN">《四川非遗100》系列短视频已制作播出多季，每集聚焦一个具体的四川非物质文化遗产项目及其传承人。第四季共10集，包含峨眉武术、汶川羊皮鼓舞、丹棱唢呐、唤马剪纸、丹棱冻粑、德阳潮扇、阆中保宁醋、邛窑烧造、先市酱油、藏文书法（《墨香犹存》）。</desc>
-  </programme>
-  <programme start="20261123030000 +0800" stop="20261123032500 +0800" channel="1">
-    <title lang="zh-CN">录播普通话新闻</title>
-  </programme>
-  <programme start="20261123032500 +0800" stop="20261123040000 +0800" channel="1">
-    <title lang="zh-CN">录播晚间新闻</title>
-  </programme>
-  <programme start="20261123040000 +0800" stop="20261123044700 +0800" channel="1">
-    <title lang="zh-CN">口述澳门历史名人堂 II</title>
-    <desc lang="zh-CN">澳门，这个座落在南海之滨的小城巿，是祖国的一颗掌上明珠，也是东西方文化交织相融之地，曾有不少历史名人在此驻足停留，对后世影响深远。《口述澳门历史名人堂2》将延续第一季节目的精神，与观众一起探寻历史名人们留下过的足迹，并以光影为墨、以镜头为笔，发掘珍贵文献素材，结合专家学者们的深度分享，记录先贤们的卓越贡献，打造值得代代相传的文化经典。</desc>
-  </programme>
-  <programme start="20261123044700 +0800" stop="20261123052500 +0800" channel="1">
-    <title lang="zh-CN">重播中国城市动态</title>
-  </programme>
-  <programme start="20261123052500 +0800" stop="20261123064500 +0800" channel="1">
-    <title lang="zh-CN">美味缘是您</title>
-  </programme>
-  <programme start="20261123064500 +0800" stop="20261123074500 +0800" channel="1">
-    <title lang="zh-CN">澳门经典车小百科</title>
-  </programme>
   <programme start="20261123070000 +0800" stop="20261123080000 +0800" channel="1">
     <title lang="zh-CN">早晨新闻</title>
   </programme>
@@ -261,7 +46,10 @@
   <programme start="20261123140000 +0800" stop="20261123145900 +0800" channel="1">
     <title lang="zh-CN">每日财经</title>
   </programme>
-  <programme start="20261123145900 +0800" stop="20261123190000 +0800" channel="1">
+  <programme start="20261123145900 +0800" stop="20261123164500 +0800" channel="1">
+    <title lang="zh-CN">直播立法会辩论经济财政领域2027施政方针政策</title>
+  </programme>
+  <programme start="20261123164500 +0800" stop="20261123190000 +0800" channel="1">
     <title lang="zh-CN">直播立法会辩论经济财政领域2027施政方针政策</title>
   </programme>
   <programme start="20261123190000 +0800" stop="20261123195500 +0800" channel="1">
@@ -272,6 +60,7 @@
   </programme>
   <programme start="20261123200000 +0800" stop="20261123212000 +0800" channel="1">
     <title lang="zh-CN">今日宜加油</title>
+    <desc lang="zh-CN">《今日宜加油》是一部职场题材电视剧，根据韩国漫画《高斯电子公司》改编，由郑恺、陈钰琪、王鹤棣主演，故事讲述高发电子公司中企划三部曾是高发电子最风光的部门，近三年因不靠谱企划地位一落千丈。但部门众人以各自方式演绎平凡奋斗者的生活，李天然、范思思、吴意美、白马帅等，有梦想有执着，对部门有深厚感情。他们面临副董挑刺、一部竞争，用努力化解危机，使三部重回巅峰，也在笑中带泪的职场中成长，收获爱情与友情。</desc>
   </programme>
   <programme start="20261123212000 +0800" stop="20261123213300 +0800" channel="1">
     <title lang="zh-CN">川西秘境·净土香巴拉</title>
@@ -310,6 +99,7 @@
   </programme>
   <programme start="20261124012700 +0800" stop="20261124024900 +0800" channel="1">
     <title lang="zh-CN">今日宜加油</title>
+    <desc lang="zh-CN">《今日宜加油》是一部职场题材电视剧，根据韩国漫画《高斯电子公司》改编，由郑恺、陈钰琪、王鹤棣主演，故事讲述高发电子公司中企划三部曾是高发电子最风光的部门，近三年因不靠谱企划地位一落千丈。但部门众人以各自方式演绎平凡奋斗者的生活，李天然、范思思、吴意美、白马帅等，有梦想有执着，对部门有深厚感情。他们面临副董挑刺、一部竞争，用努力化解危机，使三部重回巅峰，也在笑中带泪的职场中成长，收获爱情与友情。</desc>
   </programme>
   <programme start="20261124024900 +0800" stop="20261124030000 +0800" channel="1">
     <title lang="zh-CN">川西秘境·净土香巴拉</title>
@@ -335,6 +125,7 @@
   </programme>
   <programme start="20261124052500 +0800" stop="20261124062500 +0800" channel="1">
     <title lang="zh-CN">七夜雪</title>
+    <desc lang="zh-CN">李沁、曾舜晞、王弘毅、陈昊森、曾可妮主演，不羁剑客霍展白（曾舜晞饰）为友人之子求药，结识药师谷谷主薛紫夜（李沁饰）。八年时间，二人在日日相处之中，从彼此各有执念，到默契加深，互相救赎，并约定来年梅树下共饮。却因各自背负的责任而难言爱意，最终只留下天人永隔的遗憾。</desc>
   </programme>
   <programme start="20261124070000 +0800" stop="20261124080000 +0800" channel="1">
     <title lang="zh-CN">早晨新闻</title>
@@ -342,15 +133,8 @@
   <programme start="20261124080000 +0800" stop="20261124090000 +0800" channel="1">
     <title lang="zh-CN">澳门早晨</title>
   </programme>
-  <programme start="20261124090000 +0800" stop="20261124090200 +0800" channel="1">
-    <title lang="zh-CN">TDM 新视点</title>
-  </programme>
-  <programme start="20261124090200 +0800" stop="20261124092500 +0800" channel="1">
-    <title lang="zh-CN">家家有本事</title>
-    <desc lang="zh-CN">《家家有本事》为一个综合性生活资讯的家庭类节目，邀请相关人士就相关主题提供专业知识，包括日常生活、健康资讯等元素。</desc>
-  </programme>
-  <programme start="20261124092500 +0800" stop="20261124100000 +0800" channel="1">
-    <title lang="zh-CN">厨房里的桃花源</title>
+  <programme start="20261124090000 +0800" stop="20261124100000 +0800" channel="1">
+    <title lang="zh-CN">新闻报道</title>
   </programme>
   <programme start="20261124100000 +0800" stop="20261124103000 +0800" channel="1">
     <title lang="zh-CN">新闻报道</title>
@@ -366,6 +150,7 @@
   </programme>
   <programme start="20261124111500 +0800" stop="20261124124000 +0800" channel="1">
     <title lang="zh-CN">今日宜加油</title>
+    <desc lang="zh-CN">《今日宜加油》是一部职场题材电视剧，根据韩国漫画《高斯电子公司》改编，由郑恺、陈钰琪、王鹤棣主演，故事讲述高发电子公司中企划三部曾是高发电子最风光的部门，近三年因不靠谱企划地位一落千丈。但部门众人以各自方式演绎平凡奋斗者的生活，李天然、范思思、吴意美、白马帅等，有梦想有执着，对部门有深厚感情。他们面临副董挑刺、一部竞争，用努力化解危机，使三部重回巅峰，也在笑中带泪的职场中成长，收获爱情与友情。</desc>
   </programme>
   <programme start="20261124124000 +0800" stop="20261124130000 +0800" channel="1">
     <title lang="zh-CN">茶馆·川人与茶</title>
@@ -427,6 +212,7 @@
   </programme>
   <programme start="20261124200000 +0800" stop="20261124212500 +0800" channel="1">
     <title lang="zh-CN">今日宜加油</title>
+    <desc lang="zh-CN">《今日宜加油》是一部职场题材电视剧，根据韩国漫画《高斯电子公司》改编，由郑恺、陈钰琪、王鹤棣主演，故事讲述高发电子公司中企划三部曾是高发电子最风光的部门，近三年因不靠谱企划地位一落千丈。但部门众人以各自方式演绎平凡奋斗者的生活，李天然、范思思、吴意美、白马帅等，有梦想有执着，对部门有深厚感情。他们面临副董挑刺、一部竞争，用努力化解危机，使三部重回巅峰，也在笑中带泪的职场中成长，收获爱情与友情。</desc>
   </programme>
   <programme start="20261124212500 +0800" stop="20261124213300 +0800" channel="1">
     <title lang="zh-CN">虫出江湖</title>
@@ -459,6 +245,7 @@
   </programme>
   <programme start="20261125012700 +0800" stop="20261125025500 +0800" channel="1">
     <title lang="zh-CN">今日宜加油</title>
+    <desc lang="zh-CN">《今日宜加油》是一部职场题材电视剧，根据韩国漫画《高斯电子公司》改编，由郑恺、陈钰琪、王鹤棣主演，故事讲述高发电子公司中企划三部曾是高发电子最风光的部门，近三年因不靠谱企划地位一落千丈。但部门众人以各自方式演绎平凡奋斗者的生活，李天然、范思思、吴意美、白马帅等，有梦想有执着，对部门有深厚感情。他们面临副董挑刺、一部竞争，用努力化解危机，使三部重回巅峰，也在笑中带泪的职场中成长，收获爱情与友情。</desc>
   </programme>
   <programme start="20261125025500 +0800" stop="20261125030000 +0800" channel="1">
     <title lang="zh-CN">虫出江湖</title>
@@ -481,6 +268,7 @@
   </programme>
   <programme start="20261125052500 +0800" stop="20261125062500 +0800" channel="1">
     <title lang="zh-CN">七夜雪</title>
+    <desc lang="zh-CN">李沁、曾舜晞、王弘毅、陈昊森、曾可妮主演，不羁剑客霍展白（曾舜晞饰）为友人之子求药，结识药师谷谷主薛紫夜（李沁饰）。八年时间，二人在日日相处之中，从彼此各有执念，到默契加深，互相救赎，并约定来年梅树下共饮。却因各自背负的责任而难言爱意，最终只留下天人永隔的遗憾。</desc>
   </programme>
   <programme start="20261125070000 +0800" stop="20261125080000 +0800" channel="1">
     <title lang="zh-CN">早晨新闻</title>
@@ -852,70 +640,273 @@
   <programme start="20261128052500 +0800" stop="20261128062500 +0800" channel="1">
     <title lang="zh-CN">七夜雪</title>
   </programme>
-  <programme start="20261121071000 +0800" stop="20261121175000 +0800" channel="2">
-    <title lang="zh-CN">73° Grande Prémio de Macau (Directo)</title>
+  <programme start="20261128070000 +0800" stop="20261128080000 +0800" channel="1">
+    <title lang="zh-CN">早晨新闻</title>
   </programme>
-  <programme start="20261121175000 +0800" stop="20261121183500 +0800" channel="2">
-    <title lang="zh-CN">Corridas Pelo Mundo</title>
-    <desc lang="zh-CN">节目纪录业余车手马可和冈瑟两兄弟，为延续赛车手父亲竞逐世界知名赛事的愿望，参加一系列全球大型耐力赛，包括勒芒经典赛、赞德沃特12小时耐力赛、杜拜24小时耐力赛的真实故事。</desc>
+  <programme start="20261128080000 +0800" stop="20261128090000 +0800" channel="1">
+    <title lang="zh-CN">澳门早晨</title>
   </programme>
-  <programme start="20261121183500 +0800" stop="20261121190000 +0800" channel="2">
-    <title lang="zh-CN">O Programa dos Barcos</title>
+  <programme start="20261128090000 +0800" stop="20261128090200 +0800" channel="1">
+    <title lang="zh-CN">TDM 新视点</title>
   </programme>
-  <programme start="20261121190000 +0800" stop="20261121200000 +0800" channel="2">
-    <title lang="zh-CN">Veterinário de Província T2 - Fim</title>
+  <programme start="20261128090200 +0800" stop="20261128094800 +0800" channel="1">
+    <title lang="zh-CN">在世界的角落扎营</title>
   </programme>
-  <programme start="20261121200000 +0800" stop="20261121205000 +0800" channel="2">
-    <title lang="zh-CN">Telejornal</title>
+  <programme start="20261128094800 +0800" stop="20261128100000 +0800" channel="1">
+    <title lang="zh-CN">5亿年，岩石里的生命奇迹</title>
   </programme>
-  <programme start="20261121205000 +0800" stop="20261121213500 +0800" channel="2">
-    <title lang="zh-CN">Parenthood: Uma História de Família T5</title>
+  <programme start="20261128100000 +0800" stop="20261128103000 +0800" channel="1">
+    <title lang="zh-CN">新闻报道</title>
   </programme>
-  <programme start="20261121213500 +0800" stop="20261121214500 +0800" channel="2">
-    <title lang="zh-CN">Minha Terra, Minha Gente</title>
+  <programme start="20261128103000 +0800" stop="20261128110000 +0800" channel="1">
+    <title lang="zh-CN">重播澳视新闻档案</title>
+    <desc lang="zh-CN">节目设有“近距离对话”、“新闻深度游”等环节，邀请政府官员或社会人士近距离对话，探讨时事热话，亦会深度报道社会关注议题。</desc>
   </programme>
-  <programme start="20261121214500 +0800" stop="20261121223500 +0800" channel="2">
-    <title lang="zh-CN">Ritmos da Cidade</title>
+  <programme start="20261128110000 +0800" stop="20261128111000 +0800" channel="1">
+    <title lang="zh-CN">育才成长  筑新未来︰家长学堂</title>
   </programme>
-  <programme start="20261121223500 +0800" stop="20261121231000 +0800" channel="2">
-    <title lang="zh-CN">TDM News</title>
+  <programme start="20261128111000 +0800" stop="20261128111500 +0800" channel="1">
+    <title lang="zh-CN">TDM 新视点</title>
   </programme>
-  <programme start="20261121231000 +0800" stop="20261122003500 +0800" channel="2">
-    <title lang="zh-CN">Crank - Veneno no Sangue</title>
+  <programme start="20261128111500 +0800" stop="20261128125000 +0800" channel="1">
+    <title lang="zh-CN">金色大道</title>
   </programme>
-  <programme start="20261122003500 +0800" stop="20261122013500 +0800" channel="2">
-    <title lang="zh-CN">RTPi Directo</title>
+  <programme start="20261128125000 +0800" stop="20261128130500 +0800" channel="1">
+    <title lang="zh-CN">Z世代 青年说第二季</title>
   </programme>
-  <programme start="20261122080000 +0800" stop="20261122173000 +0800" channel="2">
-    <title lang="zh-CN">73° Grande Prémio de Macau (Directo)</title>
+  <programme start="20261128130500 +0800" stop="20261128131200 +0800" channel="1">
+    <title lang="zh-CN">国家公园 ‧ 小小世界</title>
   </programme>
-  <programme start="20261122173000 +0800" stop="20261122181000 +0800" channel="2">
-    <title lang="zh-CN">China 360° (Repetição)</title>
+  <programme start="20261128131200 +0800" stop="20261128131700 +0800" channel="1">
+    <title lang="zh-CN">“你问我答”粤澳法律直播间 </title>
   </programme>
-  <programme start="20261122181000 +0800" stop="20261122190000 +0800" channel="2">
-    <title lang="zh-CN">Corridas Pelo Mundo - Fim</title>
-    <desc lang="zh-CN">节目纪录业余车手马可和冈瑟两兄弟，为延续赛车手父亲竞逐世界知名赛事的愿望，参加一系列全球大型耐力赛，包括勒芒经典赛、赞德沃特12小时耐力赛、杜拜24小时耐力赛的真实故事。</desc>
+  <programme start="20261128131700 +0800" stop="20261128132400 +0800" channel="1">
+    <title lang="zh-CN">时局综观</title>
+    <desc lang="zh-CN">解读、分析近期热门的内地和国际新闻热话。</desc>
   </programme>
-  <programme start="20261122190000 +0800" stop="20261122200000 +0800" channel="2">
-    <title lang="zh-CN">Hotéis Fantásticos: A Vida para Lá do Átrio do Hotel</title>
+  <programme start="20261128132400 +0800" stop="20261128133000 +0800" channel="1">
+    <title lang="zh-CN">午间天气报告</title>
   </programme>
-  <programme start="20261122200000 +0800" stop="20261122205000 +0800" channel="2">
-    <title lang="zh-CN">Telejornal</title>
+  <programme start="20261128133000 +0800" stop="20261128140000 +0800" channel="1">
+    <title lang="zh-CN">午间新闻</title>
   </programme>
-  <programme start="20261122205000 +0800" stop="20261122220000 +0800" channel="2">
-    <title lang="zh-CN">Franco</title>
+  <programme start="20261128140000 +0800" stop="20261128153400 +0800" channel="1">
+    <title lang="zh-CN">白鹿原</title>
   </programme>
-  <programme start="20261122220000 +0800" stop="20261122223500 +0800" channel="2">
-    <title lang="zh-CN">Departamento da Felicidade</title>
+  <programme start="20261128153400 +0800" stop="20261128154000 +0800" channel="1">
+    <title lang="zh-CN">巧手时光</title>
   </programme>
-  <programme start="20261122223500 +0800" stop="20261122231000 +0800" channel="2">
-    <title lang="zh-CN">TDM News</title>
+  <programme start="20261128154000 +0800" stop="20261128160000 +0800" channel="1">
+    <title lang="zh-CN">澳门早晨精华录</title>
   </programme>
-  <programme start="20261122231000 +0800" stop="20261122234500 +0800" channel="2">
-    <title lang="zh-CN">Entregues à Sorte - Estreia</title>
+  <programme start="20261128160000 +0800" stop="20261128163000 +0800" channel="1">
+    <title lang="zh-CN">儿童节目︰舒克贝塔 第1季</title>
+    <desc lang="zh-CN">故事以团结友爱与秉持正义的价值观为核心，讲述了两只小老鼠飞行员舒克和坦克手贝塔精彩的冒险经历。舒克不愿背负鼠族世代传承的“小偷”名声，选择离家通过劳动获得尊重。贝塔被家中的花猫咪丽欺负，在意外获得坦克后也选择去世界闯荡。</desc>
   </programme>
-  <programme start="20261122234500 +0800" stop="20261123004500 +0800" channel="2">
-    <title lang="zh-CN">RTPi Directo</title>
+  <programme start="20261128163000 +0800" stop="20261128165600 +0800" channel="1">
+    <title lang="zh-CN">儿童节目︰萌赛可第二季</title>
+    <desc lang="zh-CN">这是一部动作冒险喜剧，讲述了身怀绝技的“萌赛可”小队保护伙伴、对抗邪恶的爆笑故事。“萌赛可”小队包括五名成员，他们虽然长相小巧可爱，但各个身手不凡。为了保护对“鱿鱼特攻队”漫画感兴趣的菲菲公主，萌赛可用勇气和智慧一次次挫败敌人的进攻，维护宇宙的和平。</desc>
+  </programme>
+  <programme start="20261128165600 +0800" stop="20261128170000 +0800" channel="1">
+    <title lang="zh-CN">儿童节目︰萌浪兔 第2季</title>
+    <desc lang="zh-CN">萌浪是一只无忧无虑、古灵精怪但热情充沛的小兔子。萌浪最好的朋友：Piu Piu，是一只谨慎害羞、情绪化的小鸡。尽管两个好朋友的性格截然不同，却拥有着独一无二的坚固友情。从平凡到非凡，它们一起经历着最好的时光。无论是去月球冒险还是一起种菜浇花，萌浪和Piu Piu总能遇到一些意想不到又不太顺利的事情。然而每一次，棘手的困难和误会总会得到解决，最终变成幽默的欢乐时...</desc>
+  </programme>
+  <programme start="20261128170000 +0800" stop="20261128180000 +0800" channel="1">
+    <title lang="zh-CN">儿童节目︰开心超人联盟之平行时空大冒险 (第十八季)</title>
+    <desc lang="zh-CN">本季延续系列世界观，讲述五超人与伽罗受潮博士委托，前往平行时空对抗统治者黑煞并拯救星星球。众人为获取对抗黑煞的关键武器开天辟地斧，开启多元宇宙寻器冒险，经历异时空团队协作与黑暗势力周旋的考验。剧情通过平行时空设定拓展叙事维度，聚焦超人联盟跨越时空界限的正义使命与勇气主题。</desc>
+  </programme>
+  <programme start="20261128180000 +0800" stop="20261128184300 +0800" channel="1">
+    <title lang="zh-CN">动感教菁</title>
+  </programme>
+  <programme start="20261128184300 +0800" stop="20261128185000 +0800" channel="1">
+    <title lang="zh-CN">时局综观</title>
+    <desc lang="zh-CN">解读、分析近期热门的内地和国际新闻热话。</desc>
+  </programme>
+  <programme start="20261128185000 +0800" stop="20261128190000 +0800" channel="1">
+    <title lang="zh-CN">新闻提要</title>
+  </programme>
+  <programme start="20261128190000 +0800" stop="20261128195500 +0800" channel="1">
+    <title lang="zh-CN">澳视新闻</title>
+  </programme>
+  <programme start="20261128195500 +0800" stop="20261128200000 +0800" channel="1">
+    <title lang="zh-CN">天气报告</title>
+  </programme>
+  <programme start="20261128200000 +0800" stop="20261128201000 +0800" channel="1">
+    <title lang="zh-CN">漫游澳门．乐在各区</title>
+  </programme>
+  <programme start="20261128201000 +0800" stop="20261128214500 +0800" channel="1">
+    <title lang="zh-CN">奏响新时代丝路乐章 共创人类命运共同体向葡语国家电视台赠送《大国建造》第三季《共同的建造》纪录片仪式</title>
+    <desc lang="zh-CN">由外交部驻澳门特派员公署和澳门特区政府联合举办、澳广视承办的“奏响新时代丝路乐章 共创人类命运共同体”─ 向葡语国家电视台赠送《大国建造》第三季《共同的建造》纪录片仪式顺利举行。 外交部驻澳门特派员公署连续五年向葡语国家赠送中国优秀葡语译制纪录片。今年赠送的《共同的建造》是《大国建造》的续篇，透过50个充满烟火气息的故事，展现中国建造者与“一带一路”共建国家人民携手将蓝图变为实景的历程，让葡语国家观众更真切理解共建“一带一路”的精神内涵。 出席仪式包括外交部驻澳门公署特派员卞立新，特区政府社会文化司司长代表、教育及青年发展局局长龚志明，澳广视董事会主席高开贤，旅游局局长文绮华，新闻局局长黄乐宜，安哥拉、莫桑比克驻澳门总领事，葡萄牙驻澳门总领事馆参赞，以及佛得角、几内亚比绍、圣多美等葡语国家电视台代表。仪式并设表演环节，由国家级非物质文化遗产代表性项目川剧变脸，配合现代街舞的动感演绎，向葡语国家媒体展示中华优秀传统文化的创新生命力。</desc>
+  </programme>
+  <programme start="20261128214500 +0800" stop="20261128220000 +0800" channel="1">
+    <title lang="zh-CN">虫出江湖</title>
+  </programme>
+  <programme start="20261128220000 +0800" stop="20261128223000 +0800" channel="1">
+    <title lang="zh-CN">普通话新闻</title>
+  </programme>
+  <programme start="20261128223000 +0800" stop="20261128231500 +0800" channel="1">
+    <title lang="zh-CN">十点半澳视纵横︰财经杂志</title>
+  </programme>
+  <programme start="20261128231500 +0800" stop="20261128235000 +0800" channel="1">
+    <title lang="zh-CN">晚间新闻</title>
+  </programme>
+  <programme start="20261128235000 +0800" stop="20261129000100 +0800" channel="1">
+    <title lang="zh-CN">体育新闻</title>
+  </programme>
+  <programme start="20261129000100 +0800" stop="20261129013500 +0800" channel="1">
+    <title lang="zh-CN">白鹿原</title>
+  </programme>
+  <programme start="20261129013500 +0800" stop="20261129020000 +0800" channel="1">
+    <title lang="zh-CN">露天风情葡萄牙 第二季</title>
+  </programme>
+  <programme start="20261129020000 +0800" stop="20261129030000 +0800" channel="1">
+    <title lang="zh-CN">人类的记忆 ─ 中国的世界遗产 熊猫家园</title>
+  </programme>
+  <programme start="20261129030000 +0800" stop="20261129032500 +0800" channel="1">
+    <title lang="zh-CN">录播普通话新闻</title>
+  </programme>
+  <programme start="20261129032500 +0800" stop="20261129040000 +0800" channel="1">
+    <title lang="zh-CN">录播晚间新闻</title>
+  </programme>
+  <programme start="20261129040000 +0800" stop="20261129044700 +0800" channel="1">
+    <title lang="zh-CN">在世界的角落扎营</title>
+  </programme>
+  <programme start="20261129044700 +0800" stop="20261129052500 +0800" channel="1">
+    <title lang="zh-CN">重播财经杂志</title>
+  </programme>
+  <programme start="20261129052500 +0800" stop="20261129062500 +0800" channel="1">
+    <title lang="zh-CN">金色大道</title>
+  </programme>
+  <programme start="20261129070000 +0800" stop="20261129083500 +0800" channel="1">
+    <title lang="zh-CN">孺子可教也</title>
+    <desc lang="zh-CN">在迎来小学毕业试之际，三位教育方式截然不同的鹰爸，兔爸以及羊爸，以自认为最好的教育方式管教孩子，却忽略了孩子的天赋差异和需求，造成与孩子的感情出现裂痕。爸爸们痛定思痛后，决心撕下"动物属性"的标签，努力修复好亲子关系，陪同孩子一起面对毕业试这个重要的里程碑。</desc>
+  </programme>
+  <programme start="20261129083500 +0800" stop="20261129090000 +0800" channel="1">
+    <title lang="zh-CN">趋记茶餐厅</title>
+    <desc lang="zh-CN">一部以澳门茶餐厅为背景的轻松幽默连续剧，故事围绕茶餐厅的日常营运展开，当中穿插生活热话，搞笑得来又有共鸣，欢迎大家光临！</desc>
+  </programme>
+  <programme start="20261129090000 +0800" stop="20261129090200 +0800" channel="1">
+    <title lang="zh-CN">TDM 新视点</title>
+  </programme>
+  <programme start="20261129090200 +0800" stop="20261129094800 +0800" channel="1">
+    <title lang="zh-CN">在世界的角落扎营</title>
+  </programme>
+  <programme start="20261129094800 +0800" stop="20261129100000 +0800" channel="1">
+    <title lang="zh-CN">5亿年，岩石里的生命奇迹</title>
+  </programme>
+  <programme start="20261129100000 +0800" stop="20261129103000 +0800" channel="1">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261129103000 +0800" stop="20261129111000 +0800" channel="1">
+    <title lang="zh-CN">重播财经杂志</title>
+  </programme>
+  <programme start="20261129111000 +0800" stop="20261129111500 +0800" channel="1">
+    <title lang="zh-CN">TDM 新视点</title>
+  </programme>
+  <programme start="20261129111500 +0800" stop="20261129125000 +0800" channel="1">
+    <title lang="zh-CN">金色大道</title>
+  </programme>
+  <programme start="20261129125000 +0800" stop="20261129130500 +0800" channel="1">
+    <title lang="zh-CN">Z世代 青年说第二季</title>
+  </programme>
+  <programme start="20261129130500 +0800" stop="20261129131200 +0800" channel="1">
+    <title lang="zh-CN">国家公园 ‧ 小小世界</title>
+  </programme>
+  <programme start="20261129131200 +0800" stop="20261129131700 +0800" channel="1">
+    <title lang="zh-CN">“你问我答”粤澳法律直播间 </title>
+  </programme>
+  <programme start="20261129131700 +0800" stop="20261129132400 +0800" channel="1">
+    <title lang="zh-CN">SUN闻搜罗</title>
+  </programme>
+  <programme start="20261129132400 +0800" stop="20261129133000 +0800" channel="1">
+    <title lang="zh-CN">午间天气报告</title>
+  </programme>
+  <programme start="20261129133000 +0800" stop="20261129140000 +0800" channel="1">
+    <title lang="zh-CN">午间新闻</title>
+  </programme>
+  <programme start="20261129140000 +0800" stop="20261129153500 +0800" channel="1">
+    <title lang="zh-CN">白鹿原</title>
+  </programme>
+  <programme start="20261129153500 +0800" stop="20261129160500 +0800" channel="1">
+    <title lang="zh-CN">味道-美味阿勒泰</title>
+  </programme>
+  <programme start="20261129160500 +0800" stop="20261129163000 +0800" channel="1">
+    <title lang="zh-CN">儿童节目︰舒克贝塔 第1季</title>
+    <desc lang="zh-CN">故事以团结友爱与秉持正义的价值观为核心，讲述了两只小老鼠飞行员舒克和坦克手贝塔精彩的冒险经历。舒克不愿背负鼠族世代传承的“小偷”名声，选择离家通过劳动获得尊重。贝塔被家中的花猫咪丽欺负，在意外获得坦克后也选择去世界闯荡。</desc>
+  </programme>
+  <programme start="20261129163000 +0800" stop="20261129165600 +0800" channel="1">
+    <title lang="zh-CN">儿童节目︰萌赛可第二季</title>
+    <desc lang="zh-CN">这是一部动作冒险喜剧，讲述了身怀绝技的“萌赛可”小队保护伙伴、对抗邪恶的爆笑故事。“萌赛可”小队包括五名成员，他们虽然长相小巧可爱，但各个身手不凡。为了保护对“鱿鱼特攻队”漫画感兴趣的菲菲公主，萌赛可用勇气和智慧一次次挫败敌人的进攻，维护宇宙的和平。</desc>
+  </programme>
+  <programme start="20261129165600 +0800" stop="20261129170000 +0800" channel="1">
+    <title lang="zh-CN">儿童节目︰萌浪兔 第2季</title>
+    <desc lang="zh-CN">萌浪是一只无忧无虑、古灵精怪但热情充沛的小兔子。萌浪最好的朋友：Piu Piu，是一只谨慎害羞、情绪化的小鸡。尽管两个好朋友的性格截然不同，却拥有着独一无二的坚固友情。从平凡到非凡，它们一起经历着最好的时光。无论是去月球冒险还是一起种菜浇花，萌浪和Piu Piu总能遇到一些意想不到又不太顺利的事情。然而每一次，棘手的困难和误会总会得到解决，最终变成幽默的欢乐时...</desc>
+  </programme>
+  <programme start="20261129170000 +0800" stop="20261129180000 +0800" channel="1">
+    <title lang="zh-CN">儿童节目︰开心超人联盟之平行时空大冒险 (第十八季)</title>
+    <desc lang="zh-CN">本季延续系列世界观，讲述五超人与伽罗受潮博士委托，前往平行时空对抗统治者黑煞并拯救星星球。众人为获取对抗黑煞的关键武器开天辟地斧，开启多元宇宙寻器冒险，经历异时空团队协作与黑暗势力周旋的考验。剧情通过平行时空设定拓展叙事维度，聚焦超人联盟跨越时空界限的正义使命与勇气主题。</desc>
+  </programme>
+  <programme start="20261129180000 +0800" stop="20261129184300 +0800" channel="1">
+    <title lang="zh-CN">澳门早晨一周精华</title>
+  </programme>
+  <programme start="20261129184300 +0800" stop="20261129185000 +0800" channel="1">
+    <title lang="zh-CN">SUN闻搜罗</title>
+  </programme>
+  <programme start="20261129185000 +0800" stop="20261129190000 +0800" channel="1">
+    <title lang="zh-CN">新闻提要</title>
+  </programme>
+  <programme start="20261129190000 +0800" stop="20261129195500 +0800" channel="1">
+    <title lang="zh-CN">澳视新闻</title>
+  </programme>
+  <programme start="20261129195500 +0800" stop="20261129200000 +0800" channel="1">
+    <title lang="zh-CN">天气报告</title>
+  </programme>
+  <programme start="20261129200000 +0800" stop="20261129213500 +0800" channel="1">
+    <title lang="zh-CN">孺子可教也</title>
+    <desc lang="zh-CN">在迎来小学毕业试之际，三位教育方式截然不同的鹰爸，兔爸以及羊爸，以自认为最好的教育方式管教孩子，却忽略了孩子的天赋差异和需求，造成与孩子的感情出现裂痕。爸爸们痛定思痛后，决心撕下"动物属性"的标签，努力修复好亲子关系，陪同孩子一起面对毕业试这个重要的里程碑。</desc>
+  </programme>
+  <programme start="20261129213500 +0800" stop="20261129214000 +0800" channel="1">
+    <title lang="zh-CN">巧手时光</title>
+  </programme>
+  <programme start="20261129214000 +0800" stop="20261129220000 +0800" channel="1">
+    <title lang="zh-CN">诗词有故事</title>
+    <desc lang="zh-CN">诗篇留纸上，岁月藏字间。 词句诉心事，悲欢诉世间。 细解文中意，重探旧时颜。 《诗词有故事》共读古贤篇。 本节目通过讲述中华诗词背后的故事，传承民族精神，弘扬中华文化，厚植家国情怀。</desc>
+  </programme>
+  <programme start="20261129220000 +0800" stop="20261129223000 +0800" channel="1">
+    <title lang="zh-CN">普通话新闻</title>
+  </programme>
+  <programme start="20261129223000 +0800" stop="20261129231500 +0800" channel="1">
+    <title lang="zh-CN">十点半澳视纵横︰中国城市动态</title>
+  </programme>
+  <programme start="20261129231500 +0800" stop="20261129235000 +0800" channel="1">
+    <title lang="zh-CN">晚间新闻</title>
+  </programme>
+  <programme start="20261129235000 +0800" stop="20261130000100 +0800" channel="1">
+    <title lang="zh-CN">体育新闻</title>
+  </programme>
+  <programme start="20261130000100 +0800" stop="20261130013500 +0800" channel="1">
+    <title lang="zh-CN">白鹿原</title>
+  </programme>
+  <programme start="20261130013500 +0800" stop="20261130020500 +0800" channel="1">
+    <title lang="zh-CN">露天风情葡萄牙 第二季</title>
+  </programme>
+  <programme start="20261130020500 +0800" stop="20261130030000 +0800" channel="1">
+    <title lang="zh-CN">人类的记忆 ─ 中国的世界遗产 瑶池黄龙</title>
+  </programme>
+  <programme start="20261130030000 +0800" stop="20261130032500 +0800" channel="1">
+    <title lang="zh-CN">录播普通话新闻</title>
+  </programme>
+  <programme start="20261130032500 +0800" stop="20261130040000 +0800" channel="1">
+    <title lang="zh-CN">录播晚间新闻</title>
+  </programme>
+  <programme start="20261130040000 +0800" stop="20261130044700 +0800" channel="1">
+    <title lang="zh-CN">在世界的角落扎营</title>
+  </programme>
+  <programme start="20261130044700 +0800" stop="20261130052500 +0800" channel="1">
+    <title lang="zh-CN">重播中国城市动态</title>
+  </programme>
+  <programme start="20261130052500 +0800" stop="20261130062500 +0800" channel="1">
+    <title lang="zh-CN">金色大道</title>
   </programme>
   <programme start="20261123090000 +0800" stop="20261123130500 +0800" channel="2">
     <title lang="zh-CN">Debate das Linhas de Acção Governativa para 2027 - Área da Economia e Finanças (Directo)</title>
@@ -1130,89 +1121,119 @@
   <programme start="20261128000500 +0800" stop="20261128010500 +0800" channel="2">
     <title lang="zh-CN">RTPi Directo</title>
   </programme>
-  <programme start="20261121070400 +0800" stop="20261121070500 +0800" channel="6">
-    <title lang="zh-CN">开台</title>
+  <programme start="20261128133000 +0800" stop="20261128144000 +0800" channel="2">
+    <title lang="zh-CN">Telejornal RTPi (Diferido)</title>
   </programme>
-  <programme start="20261121070500 +0800" stop="20261121130000 +0800" channel="6">
-    <title lang="zh-CN">直播第73届澳门格兰披治大赛车</title>
+  <programme start="20261128144000 +0800" stop="20261128151000 +0800" channel="2">
+    <title lang="zh-CN">Emoções no Índico</title>
   </programme>
-  <programme start="20261121130000 +0800" stop="20261121130500 +0800" channel="6">
-    <title lang="zh-CN">体育新闻</title>
+  <programme start="20261128151000 +0800" stop="20261128153000 +0800" channel="2">
+    <title lang="zh-CN">Pocoyo T1</title>
   </programme>
-  <programme start="20261121130500 +0800" stop="20261121180000 +0800" channel="6">
-    <title lang="zh-CN">直播第73届澳门格兰披治大赛车</title>
+  <programme start="20261128153000 +0800" stop="20261128155500 +0800" channel="2">
+    <title lang="zh-CN">Senninha na Pista Maluca T1</title>
   </programme>
-  <programme start="20261121180000 +0800" stop="20261121184000 +0800" channel="6">
-    <title lang="zh-CN">竞健群英2026</title>
+  <programme start="20261128155500 +0800" stop="20261128161000 +0800" channel="2">
+    <title lang="zh-CN">Snoopy no Espaço T1</title>
   </programme>
-  <programme start="20261121184000 +0800" stop="20261121203500 +0800" channel="6">
-    <title lang="zh-CN">亚洲冠军精英联赛：武里南联 对 鹿岛鹿角</title>
+  <programme start="20261128161000 +0800" stop="20261128163500 +0800" channel="2">
+    <title lang="zh-CN">Extreme Football T1</title>
   </programme>
-  <programme start="20261121203500 +0800" stop="20261121205000 +0800" channel="6">
-    <title lang="zh-CN">澳门经典车小百科</title>
+  <programme start="20261128163500 +0800" stop="20261128170500 +0800" channel="2">
+    <title lang="zh-CN">Sandra: The Fairytale Detective - Estreia</title>
   </programme>
-  <programme start="20261121205000 +0800" stop="20261121210000 +0800" channel="6">
-    <title lang="zh-CN">体育新闻</title>
+  <programme start="20261128170500 +0800" stop="20261128175500 +0800" channel="2">
+    <title lang="zh-CN">Ásia</title>
   </programme>
-  <programme start="20261121210000 +0800" stop="20261121213000 +0800" channel="6">
-    <title lang="zh-CN">2026勒芒杯杂志：第七集 赛季回顾</title>
+  <programme start="20261128175500 +0800" stop="20261128183500 +0800" channel="2">
+    <title lang="zh-CN">Hora dos Portugueses</title>
   </programme>
-  <programme start="20261121213000 +0800" stop="20261121214000 +0800" channel="6">
-    <title lang="zh-CN">每周体育精华</title>
+  <programme start="20261128183500 +0800" stop="20261128190000 +0800" channel="2">
+    <title lang="zh-CN">O Programa dos Barcos</title>
   </programme>
-  <programme start="20261121214000 +0800" stop="20261121225000 +0800" channel="6">
-    <title lang="zh-CN">2026WTT中国乒乓球大满贯：男单决赛</title>
+  <programme start="20261128190000 +0800" stop="20261128200000 +0800" channel="2">
+    <title lang="zh-CN">Ben Fogle: E a Cidade Perdida da América</title>
   </programme>
-  <programme start="20261121225000 +0800" stop="20261121230000 +0800" channel="6">
-    <title lang="zh-CN">体育新闻</title>
+  <programme start="20261128200000 +0800" stop="20261128205000 +0800" channel="2">
+    <title lang="zh-CN">Telejornal</title>
   </programme>
-  <programme start="20261121230000 +0800" stop="20261122005000 +0800" channel="6">
-    <title lang="zh-CN">爱知．名古屋第20届亚运会：男子武术</title>
+  <programme start="20261128205000 +0800" stop="20261128213500 +0800" channel="2">
+    <title lang="zh-CN">Parenthood: Uma História de Família T5</title>
   </programme>
-  <programme start="20261122005000 +0800" stop="20261122010000 +0800" channel="6">
-    <title lang="zh-CN">每周体育精华</title>
+  <programme start="20261128213500 +0800" stop="20261128214500 +0800" channel="2">
+    <title lang="zh-CN">Minha Terra, Minha Gente</title>
   </programme>
-  <programme start="20261122010000 +0800" stop="20261122020000 +0800" channel="6">
-    <title lang="zh-CN">收台</title>
+  <programme start="20261128214500 +0800" stop="20261128223500 +0800" channel="2">
+    <title lang="zh-CN">Ritmos da Cidade</title>
   </programme>
-  <programme start="20261122075000 +0800" stop="20261122075500 +0800" channel="6">
-    <title lang="zh-CN">开台</title>
+  <programme start="20261128223500 +0800" stop="20261128231000 +0800" channel="2">
+    <title lang="zh-CN">TDM News</title>
   </programme>
-  <programme start="20261122075500 +0800" stop="20261122130000 +0800" channel="6">
-    <title lang="zh-CN">直播第73届澳门格兰披治大赛车</title>
+  <programme start="20261128231000 +0800" stop="20261129005000 +0800" channel="2">
+    <title lang="zh-CN">Most Likely To Murder</title>
   </programme>
-  <programme start="20261122130000 +0800" stop="20261122130500 +0800" channel="6">
-    <title lang="zh-CN">体育新闻</title>
+  <programme start="20261129005000 +0800" stop="20261129015000 +0800" channel="2">
+    <title lang="zh-CN">RTPi Directo</title>
   </programme>
-  <programme start="20261122130500 +0800" stop="20261122173000 +0800" channel="6">
-    <title lang="zh-CN">直播第73届澳门格兰披治大赛车</title>
+  <programme start="20261129105500 +0800" stop="20261129121500 +0800" channel="2">
+    <title lang="zh-CN">Missa Dominical (Directo)</title>
   </programme>
-  <programme start="20261122173000 +0800" stop="20261122181000 +0800" channel="6">
-    <title lang="zh-CN">环球体育</title>
+  <programme start="20261129121500 +0800" stop="20261129130000 +0800" channel="2">
+    <title lang="zh-CN">Fama de Cantão Nascida no Mar - Fim</title>
   </programme>
-  <programme start="20261122181000 +0800" stop="20261122191000 +0800" channel="6">
-    <title lang="zh-CN">2026马来西亚羽毛球公开赛：女单4强</title>
+  <programme start="20261129130000 +0800" stop="20261129133000 +0800" channel="2">
+    <title lang="zh-CN">Encruzilhadas da Vida</title>
   </programme>
-  <programme start="20261122191000 +0800" stop="20261122202500 +0800" channel="6">
-    <title lang="zh-CN">2026马来西亚羽毛球公开赛：女双4强</title>
+  <programme start="20261129133000 +0800" stop="20261129144000 +0800" channel="2">
+    <title lang="zh-CN">Telejornal RTPi (Diferido)</title>
   </programme>
-  <programme start="20261122202500 +0800" stop="20261122204500 +0800" channel="6">
-    <title lang="zh-CN">爱知．名古屋第20届亚运会：复合弓女子个人决赛</title>
+  <programme start="20261129144000 +0800" stop="20261129151000 +0800" channel="2">
+    <title lang="zh-CN">Passado em Foco: Gente da Nossa Terra - Macau aqui tão Perto</title>
   </programme>
-  <programme start="20261122204500 +0800" stop="20261122205500 +0800" channel="6">
-    <title lang="zh-CN">体育新闻</title>
+  <programme start="20261129151000 +0800" stop="20261129154000 +0800" channel="2">
+    <title lang="zh-CN">China 360° (Repetição)</title>
   </programme>
-  <programme start="20261122205500 +0800" stop="20261122230000 +0800" channel="6">
-    <title lang="zh-CN">直播2026/2027西班牙甲组足球联赛：巴塞罗那  对 维拉利尔</title>
+  <programme start="20261129154000 +0800" stop="20261129155500 +0800" channel="2">
+    <title lang="zh-CN">Yoko</title>
   </programme>
-  <programme start="20261122230000 +0800" stop="20261122231000 +0800" channel="6">
-    <title lang="zh-CN">体育新闻</title>
+  <programme start="20261129155500 +0800" stop="20261129161500 +0800" channel="2">
+    <title lang="zh-CN">O Mundo do Snoopy T1</title>
   </programme>
-  <programme start="20261122231000 +0800" stop="20261123011500 +0800" channel="6">
-    <title lang="zh-CN">直播2026/2027西班牙甲组足球联赛：桑坦德  对  皇家苏斯达</title>
+  <programme start="20261129161500 +0800" stop="20261129164000 +0800" channel="2">
+    <title lang="zh-CN">Carmen Sandiego T2</title>
   </programme>
-  <programme start="20261123011500 +0800" stop="20261123021500 +0800" channel="6">
-    <title lang="zh-CN">收台</title>
+  <programme start="20261129164000 +0800" stop="20261129171000 +0800" channel="2">
+    <title lang="zh-CN">Basketeers T2</title>
+  </programme>
+  <programme start="20261129171000 +0800" stop="20261129174500 +0800" channel="2">
+    <title lang="zh-CN">Vicky e a Musa T1</title>
+  </programme>
+  <programme start="20261129174500 +0800" stop="20261129181000 +0800" channel="2">
+    <title lang="zh-CN">O Mundo Inexplorado</title>
+  </programme>
+  <programme start="20261129181000 +0800" stop="20261129190000 +0800" channel="2">
+    <title lang="zh-CN">Patrões Fora T2</title>
+  </programme>
+  <programme start="20261129190000 +0800" stop="20261129200000 +0800" channel="2">
+    <title lang="zh-CN">Hotéis Fantásticos: A Vida para Lá do Átrio do Hotel</title>
+  </programme>
+  <programme start="20261129200000 +0800" stop="20261129205000 +0800" channel="2">
+    <title lang="zh-CN">Telejornal</title>
+  </programme>
+  <programme start="20261129205000 +0800" stop="20261129215000 +0800" channel="2">
+    <title lang="zh-CN">O Estado da Região</title>
+  </programme>
+  <programme start="20261129215000 +0800" stop="20261129223500 +0800" channel="2">
+    <title lang="zh-CN">Obroni Wawu: A Roupa dos Brancos Mortos</title>
+  </programme>
+  <programme start="20261129223500 +0800" stop="20261129231000 +0800" channel="2">
+    <title lang="zh-CN">TDM News</title>
+  </programme>
+  <programme start="20261129231000 +0800" stop="20261129234500 +0800" channel="2">
+    <title lang="zh-CN">Entregues à Sorte</title>
+  </programme>
+  <programme start="20261129234500 +0800" stop="20261130004500 +0800" channel="2">
+    <title lang="zh-CN">RTPi Directo</title>
   </programme>
   <programme start="20261123095900 +0800" stop="20261123100000 +0800" channel="6">
     <title lang="zh-CN">开台</title>
@@ -1514,333 +1535,97 @@
   <programme start="20261128010000 +0800" stop="20261128020000 +0800" channel="6">
     <title lang="zh-CN">收台</title>
   </programme>
-  <programme start="20261121065900 +0800" stop="20261121070000 +0800" channel="5">
+  <programme start="20261128095900 +0800" stop="20261128100000 +0800" channel="6">
     <title lang="zh-CN">开台</title>
   </programme>
-  <programme start="20261121070000 +0800" stop="20261121080000 +0800" channel="5">
-    <title lang="zh-CN">早晨新闻</title>
+  <programme start="20261128100000 +0800" stop="20261128103500 +0800" channel="6">
+    <title lang="zh-CN">2026印尼羽毛球公开赛：女单4强</title>
   </programme>
-  <programme start="20261121080000 +0800" stop="20261121090000 +0800" channel="5">
-    <title lang="zh-CN">澳门早晨</title>
+  <programme start="20261128103500 +0800" stop="20261128120000 +0800" channel="6">
+    <title lang="zh-CN">2026印尼羽毛球公开赛：女单4强</title>
   </programme>
-  <programme start="20261121090000 +0800" stop="20261121093000 +0800" channel="5">
-    <title lang="zh-CN">重播早晨新闻</title>
+  <programme start="20261128120000 +0800" stop="20261128130000 +0800" channel="6">
+    <title lang="zh-CN">爱知．名古屋第20届亚运会：滑板女子街式决赛</title>
   </programme>
-  <programme start="20261121093000 +0800" stop="20261121095000 +0800" channel="5">
-    <title lang="zh-CN">家家有求</title>
-    <desc lang="zh-CN">为求住得安心，每个家庭都会出尽法宝。《家家有求》为观众剖析家居需要及畅谈家居新知，由装修设计物料，到日常家居保养、维修、新科技，以至日常家居种种疑难应有尽有。</desc>
-  </programme>
-  <programme start="20261121095000 +0800" stop="20261121100000 +0800" channel="5">
-    <title lang="zh-CN">澳门早晨精华篇</title>
-  </programme>
-  <programme start="20261121100000 +0800" stop="20261121103000 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261121103000 +0800" stop="20261121110000 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261121110000 +0800" stop="20261121110800 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261121110800 +0800" stop="20261121111500 +0800" channel="5">
-    <title lang="zh-CN">时局综观</title>
-    <desc lang="zh-CN">解读、分析近期热门的内地和国际新闻热话。</desc>
-  </programme>
-  <programme start="20261121111500 +0800" stop="20261121112300 +0800" channel="5">
-    <title lang="zh-CN">中国软实力</title>
-  </programme>
-  <programme start="20261121112300 +0800" stop="20261121115300 +0800" channel="5">
-    <title lang="zh-CN">重播澳视新闻档案</title>
-    <desc lang="zh-CN">节目设有“近距离对话”、“新闻深度游”等环节，邀请政府官员或社会人士近距离对话，探讨时事热话，亦会深度报道社会关注议题。</desc>
-  </programme>
-  <programme start="20261121115300 +0800" stop="20261121120000 +0800" channel="5">
-    <title lang="zh-CN">育才成长 筑新未来： 家长学堂</title>
-  </programme>
-  <programme start="20261121120000 +0800" stop="20261121122000 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261121122000 +0800" stop="20261121122700 +0800" channel="5">
-    <title lang="zh-CN">时局综观</title>
-    <desc lang="zh-CN">解读、分析近期热门的内地和国际新闻热话。</desc>
-  </programme>
-  <programme start="20261121122700 +0800" stop="20261121123000 +0800" channel="5">
-    <title lang="zh-CN">街市情报</title>
-  </programme>
-  <programme start="20261121123000 +0800" stop="20261121125000 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261121125000 +0800" stop="20261121130000 +0800" channel="5">
-    <title lang="zh-CN">宇宙更强</title>
-  </programme>
-  <programme start="20261121130000 +0800" stop="20261121131000 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261121131000 +0800" stop="20261121131700 +0800" channel="5">
-    <title lang="zh-CN">营商创新研究所</title>
-    <desc lang="zh-CN">由所长及研究员带观众去了解政府在推动社区经济、科创发展等方面的政策、措施及相关活动等内容。</desc>
-  </programme>
-  <programme start="20261121131700 +0800" stop="20261121132400 +0800" channel="5">
-    <title lang="zh-CN">时局综观</title>
-    <desc lang="zh-CN">解读、分析近期热门的内地和国际新闻热话。</desc>
-  </programme>
-  <programme start="20261121132400 +0800" stop="20261121133000 +0800" channel="5">
-    <title lang="zh-CN">午间天气报告</title>
-  </programme>
-  <programme start="20261121133000 +0800" stop="20261121140000 +0800" channel="5">
-    <title lang="zh-CN">午间新闻</title>
-  </programme>
-  <programme start="20261121140000 +0800" stop="20261121145400 +0800" channel="5">
-    <title lang="zh-CN">造物说：一共分几步</title>
-    <desc lang="zh-CN">节目以日常生活中我们熟悉且陌生的消费品为主角，立足于他们的生产过程，凭藉通俗易懂且趣味的语言传达科普知识，深入浅出地介绍这些物品从设计、制造到最终成型、走向市场的整个过程。使用文化事件、社会现象、历史故事等知识的补充，梳理产品与人类生活的关系，增强观众的认识和理解的同时，展现工业制造的秩序美。</desc>
-  </programme>
-  <programme start="20261121145400 +0800" stop="20261121150000 +0800" channel="5">
-    <title lang="zh-CN">“你问我答”粤澳法律直播间 </title>
-  </programme>
-  <programme start="20261121150000 +0800" stop="20261121152500 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261121152500 +0800" stop="20261121153000 +0800" channel="5">
-    <title lang="zh-CN">街市情报</title>
-  </programme>
-  <programme start="20261121153000 +0800" stop="20261121160000 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261121160000 +0800" stop="20261121163000 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261121163000 +0800" stop="20261121170000 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261121170000 +0800" stop="20261121173000 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261121173000 +0800" stop="20261121174500 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261121174500 +0800" stop="20261121175200 +0800" channel="5">
-    <title lang="zh-CN">横琴攻略</title>
-  </programme>
-  <programme start="20261121175200 +0800" stop="20261121180000 +0800" channel="5">
-    <title lang="zh-CN">时局综观</title>
-    <desc lang="zh-CN">解读、分析近期热门的内地和国际新闻热话。</desc>
-  </programme>
-  <programme start="20261121180000 +0800" stop="20261121180500 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261121180500 +0800" stop="20261121180700 +0800" channel="5">
-    <title lang="zh-CN">TDM 新视点</title>
-  </programme>
-  <programme start="20261121180700 +0800" stop="20261121183200 +0800" channel="5">
-    <title lang="zh-CN">澳门早晨精华录</title>
-  </programme>
-  <programme start="20261121183200 +0800" stop="20261121190000 +0800" channel="5">
-    <title lang="zh-CN">湾区全媒睇</title>
-  </programme>
-  <programme start="20261121190000 +0800" stop="20261121195500 +0800" channel="5">
-    <title lang="zh-CN">澳视新闻</title>
-  </programme>
-  <programme start="20261121195500 +0800" stop="20261121195800 +0800" channel="5">
-    <title lang="zh-CN">天气报告</title>
-  </programme>
-  <programme start="20261121195800 +0800" stop="20261121200000 +0800" channel="5">
-    <title lang="zh-CN">TDM 新视点</title>
-  </programme>
-  <programme start="20261121200000 +0800" stop="20261121210000 +0800" channel="5">
-    <title lang="zh-CN">录播澳视新闻</title>
-  </programme>
-  <programme start="20261121210000 +0800" stop="20261121220000 +0800" channel="5">
-    <title lang="zh-CN">录播澳视新闻</title>
-  </programme>
-  <programme start="20261121220000 +0800" stop="20261121223000 +0800" channel="5">
-    <title lang="zh-CN">普通话新闻</title>
-  </programme>
-  <programme start="20261121223000 +0800" stop="20261121231500 +0800" channel="5">
-    <title lang="zh-CN">十点半澳视纵横：财经杂志</title>
-  </programme>
-  <programme start="20261121231500 +0800" stop="20261121235000 +0800" channel="5">
-    <title lang="zh-CN">晚间新闻</title>
-  </programme>
-  <programme start="20261121235000 +0800" stop="20261122000500 +0800" channel="5">
+  <programme start="20261128130000 +0800" stop="20261128131500 +0800" channel="6">
     <title lang="zh-CN">体育新闻</title>
   </programme>
-  <programme start="20261122000500 +0800" stop="20261122003500 +0800" channel="5">
-    <title lang="zh-CN">中国城市报道</title>
+  <programme start="20261128131500 +0800" stop="20261128154000 +0800" channel="6">
+    <title lang="zh-CN">2026美国网球公开赛：女单8强</title>
   </programme>
-  <programme start="20261122003500 +0800" stop="20261122004500 +0800" channel="5">
-    <title lang="zh-CN">澳门早晨精华篇</title>
+  <programme start="20261128154000 +0800" stop="20261128171000 +0800" channel="6">
+    <title lang="zh-CN">爱知．名古屋第20届亚运会：乒乓球女单32强</title>
   </programme>
-  <programme start="20261122004500 +0800" stop="20261122011500 +0800" channel="5">
-    <title lang="zh-CN">录播普通话新闻</title>
+  <programme start="20261128171000 +0800" stop="20261128180000 +0800" channel="6">
+    <title lang="zh-CN">亚洲高尔夫球巡回赛精华</title>
   </programme>
-  <programme start="20261122011500 +0800" stop="20261122015000 +0800" channel="5">
-    <title lang="zh-CN">录播晚间新闻</title>
+  <programme start="20261128180000 +0800" stop="20261128190000 +0800" channel="6">
+    <title lang="zh-CN">2026年超级跑车锦标赛精华：第十八集-伊普斯威奇站</title>
   </programme>
-  <programme start="20261122015000 +0800" stop="20261122020000 +0800" channel="5">
-    <title lang="zh-CN">重播体育新闻</title>
+  <programme start="20261128190000 +0800" stop="20261128200000 +0800" channel="6">
+    <title lang="zh-CN">2026街头联盟滑板赛精华：第七集 坦佩站 - 男子组</title>
   </programme>
-  <programme start="20261122020000 +0800" stop="20261122030000 +0800" channel="5">
+  <programme start="20261128200000 +0800" stop="20261128204500 +0800" channel="6">
+    <title lang="zh-CN">2026街头联盟滑板赛精华：第八集 坦佩站 - 女子组</title>
+  </programme>
+  <programme start="20261128204500 +0800" stop="20261128205500 +0800" channel="6">
+    <title lang="zh-CN">体育新闻</title>
+  </programme>
+  <programme start="20261128205500 +0800" stop="20261128225000 +0800" channel="6">
+    <title lang="zh-CN">亚洲冠军精英联赛：艾沙姆 对 吉达艾阿里</title>
+  </programme>
+  <programme start="20261128225000 +0800" stop="20261128230000 +0800" channel="6">
+    <title lang="zh-CN">体育新闻</title>
+  </programme>
+  <programme start="20261128230000 +0800" stop="20261129010000 +0800" channel="6">
+    <title lang="zh-CN">2026/2027欧洲冠军联赛 ：加拉塔沙雷 对 阿士东维拉</title>
+  </programme>
+  <programme start="20261129010000 +0800" stop="20261129012500 +0800" channel="6">
+    <title lang="zh-CN">爱知．名古屋第20届亚运会：柔道女子78公斤铜牌赛、决赛</title>
+  </programme>
+  <programme start="20261129012500 +0800" stop="20261129033000 +0800" channel="6">
+    <title lang="zh-CN">直播2026/2027西班牙甲组足球联赛：艾尔切  对  马德里体育会</title>
+  </programme>
+  <programme start="20261129033000 +0800" stop="20261129043000 +0800" channel="6">
     <title lang="zh-CN">收台</title>
   </programme>
-  <programme start="20261122065900 +0800" stop="20261122070000 +0800" channel="5">
+  <programme start="20261129095900 +0800" stop="20261129100000 +0800" channel="6">
     <title lang="zh-CN">开台</title>
   </programme>
-  <programme start="20261122070000 +0800" stop="20261122073200 +0800" channel="5">
-    <title lang="zh-CN">录播新闻报道</title>
+  <programme start="20261129100000 +0800" stop="20261129130000 +0800" channel="6">
+    <title lang="zh-CN">录播第六届天沐杯横琴名校赛艇邀请赛</title>
   </programme>
-  <programme start="20261122073200 +0800" stop="20261122074500 +0800" channel="5">
-    <title lang="zh-CN">自在练瑜伽</title>
-  </programme>
-  <programme start="20261122074500 +0800" stop="20261122080000 +0800" channel="5">
-    <title lang="zh-CN">心灵手语</title>
-  </programme>
-  <programme start="20261122080000 +0800" stop="20261122083000 +0800" channel="5">
-    <title lang="zh-CN">录播新闻报道</title>
-  </programme>
-  <programme start="20261122083000 +0800" stop="20261122085500 +0800" channel="5">
-    <title lang="zh-CN">澳门人澳门事</title>
-    <desc lang="zh-CN">活在澳门, 感受生活, , 探索城市每个角落、关注民生议题、繁华背后发掘一个又一个澳门人的故事、欣赏各地艺术风采、推广本土文化艺术、重温旧城旧事，翻开当中的历史记忆、走过不同地方，感受人民风情、紧贴你的生活资讯节目。</desc>
-  </programme>
-  <programme start="20261122085500 +0800" stop="20261122090000 +0800" channel="5">
-    <title lang="zh-CN">“你问我答”粤澳法律直播间 </title>
-  </programme>
-  <programme start="20261122090000 +0800" stop="20261122093000 +0800" channel="5">
-    <title lang="zh-CN">录播新闻报道</title>
-  </programme>
-  <programme start="20261122093000 +0800" stop="20261122100000 +0800" channel="5">
-    <title lang="zh-CN">丝路时间U Silk : 粉雪奇遇</title>
-    <desc lang="zh-CN">中法两国滑雪运动达人分别前往对方国家的粉雪胜地-法国萨瓦与中国吉林，采用手机连线与极限挑战的方式，探索长白山和阿尔卑斯山“同纬度粉雪”的独特魅力，展现人与自然的和谐之美；并通过与当地人的热情互动，带领观众体验独具特色的冰雪文化，体现中法两国在文明交流互鉴中寻求共同发展，生动诠释构建“人类命运共同体”的深刻内涵。</desc>
-  </programme>
-  <programme start="20261122100000 +0800" stop="20261122103000 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261122103000 +0800" stop="20261122110000 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261122110000 +0800" stop="20261122111200 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261122111200 +0800" stop="20261122112000 +0800" channel="5">
-    <title lang="zh-CN">SUN闻搜罗</title>
-  </programme>
-  <programme start="20261122112000 +0800" stop="20261122120000 +0800" channel="5">
-    <title lang="zh-CN">财经杂志</title>
-  </programme>
-  <programme start="20261122120000 +0800" stop="20261122122000 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261122122000 +0800" stop="20261122122700 +0800" channel="5">
-    <title lang="zh-CN">SUN闻搜罗</title>
-  </programme>
-  <programme start="20261122122700 +0800" stop="20261122123000 +0800" channel="5">
-    <title lang="zh-CN">街市情报</title>
-  </programme>
-  <programme start="20261122123000 +0800" stop="20261122125000 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261122125000 +0800" stop="20261122130000 +0800" channel="5">
-    <title lang="zh-CN">海派百工2</title>
-  </programme>
-  <programme start="20261122130000 +0800" stop="20261122131700 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261122131700 +0800" stop="20261122132400 +0800" channel="5">
-    <title lang="zh-CN">SUN闻搜罗</title>
-  </programme>
-  <programme start="20261122132400 +0800" stop="20261122133000 +0800" channel="5">
-    <title lang="zh-CN">午间天气报告</title>
-  </programme>
-  <programme start="20261122133000 +0800" stop="20261122140000 +0800" channel="5">
-    <title lang="zh-CN">午间新闻</title>
-  </programme>
-  <programme start="20261122140000 +0800" stop="20261122144500 +0800" channel="5">
-    <title lang="zh-CN">香港空间改造王</title>
-  </programme>
-  <programme start="20261122144500 +0800" stop="20261122150000 +0800" channel="5">
-    <title lang="zh-CN">心灵手语</title>
-  </programme>
-  <programme start="20261122150000 +0800" stop="20261122152500 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261122152500 +0800" stop="20261122153000 +0800" channel="5">
-    <title lang="zh-CN">街市情报</title>
-  </programme>
-  <programme start="20261122153000 +0800" stop="20261122160000 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261122160000 +0800" stop="20261122163000 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261122163000 +0800" stop="20261122170000 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261122170000 +0800" stop="20261122173000 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261122173000 +0800" stop="20261122175000 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261122175000 +0800" stop="20261122180000 +0800" channel="5">
-    <title lang="zh-CN">SUN闻搜罗</title>
-  </programme>
-  <programme start="20261122180000 +0800" stop="20261122180500 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261122180500 +0800" stop="20261122180700 +0800" channel="5">
-    <title lang="zh-CN">TDM 新视点</title>
-  </programme>
-  <programme start="20261122180700 +0800" stop="20261122183500 +0800" channel="5">
-    <title lang="zh-CN">丝路时间U Silk : 粉雪奇遇</title>
-    <desc lang="zh-CN">中法两国滑雪运动达人分别前往对方国家的粉雪胜地-法国萨瓦与中国吉林，采用手机连线与极限挑战的方式，探索长白山和阿尔卑斯山“同纬度粉雪”的独特魅力，展现人与自然的和谐之美；并通过与当地人的热情互动，带领观众体验独具特色的冰雪文化，体现中法两国在文明交流互鉴中寻求共同发展，生动诠释构建“人类命运共同体”的深刻内涵。</desc>
-  </programme>
-  <programme start="20261122183500 +0800" stop="20261122185000 +0800" channel="5">
-    <title lang="zh-CN">澳门早晨精华篇</title>
-  </programme>
-  <programme start="20261122185000 +0800" stop="20261122190000 +0800" channel="5">
-    <title lang="zh-CN">“你问我答”粤澳法律直播间 </title>
-  </programme>
-  <programme start="20261122190000 +0800" stop="20261122195500 +0800" channel="5">
-    <title lang="zh-CN">澳视新闻</title>
-  </programme>
-  <programme start="20261122195500 +0800" stop="20261122195800 +0800" channel="5">
-    <title lang="zh-CN">天气报告</title>
-  </programme>
-  <programme start="20261122195800 +0800" stop="20261122200000 +0800" channel="5">
-    <title lang="zh-CN">TDM 新视点</title>
-  </programme>
-  <programme start="20261122200000 +0800" stop="20261122210000 +0800" channel="5">
-    <title lang="zh-CN">录播澳视新闻</title>
-  </programme>
-  <programme start="20261122210000 +0800" stop="20261122220000 +0800" channel="5">
-    <title lang="zh-CN">录播澳视新闻</title>
-  </programme>
-  <programme start="20261122220000 +0800" stop="20261122223000 +0800" channel="5">
-    <title lang="zh-CN">普通话新闻</title>
-  </programme>
-  <programme start="20261122223000 +0800" stop="20261122231500 +0800" channel="5">
-    <title lang="zh-CN">十点半澳视纵横：中国城市动态</title>
-  </programme>
-  <programme start="20261122231500 +0800" stop="20261122235000 +0800" channel="5">
-    <title lang="zh-CN">晚间新闻</title>
-  </programme>
-  <programme start="20261122235000 +0800" stop="20261123000500 +0800" channel="5">
+  <programme start="20261129130000 +0800" stop="20261129131500 +0800" channel="6">
     <title lang="zh-CN">体育新闻</title>
   </programme>
-  <programme start="20261123000500 +0800" stop="20261123003500 +0800" channel="5">
-    <title lang="zh-CN">中国城市报道</title>
+  <programme start="20261129131500 +0800" stop="20261129174000 +0800" channel="6">
+    <title lang="zh-CN">2026美国网球公开赛：男单8强</title>
   </programme>
-  <programme start="20261123003500 +0800" stop="20261123004500 +0800" channel="5">
-    <title lang="zh-CN">澳门早晨精华篇</title>
+  <programme start="20261129174000 +0800" stop="20261129184000 +0800" channel="6">
+    <title lang="zh-CN">2026欧洲勒芒系列赛精华：第一集 巴塞罗那站</title>
   </programme>
-  <programme start="20261123004500 +0800" stop="20261123011500 +0800" channel="5">
-    <title lang="zh-CN">录播普通话新闻</title>
+  <programme start="20261129184000 +0800" stop="20261129185000 +0800" channel="6">
+    <title lang="zh-CN">每周体育精华</title>
   </programme>
-  <programme start="20261123011500 +0800" stop="20261123015000 +0800" channel="5">
-    <title lang="zh-CN">录播晚间新闻</title>
+  <programme start="20261129185000 +0800" stop="20261129205000 +0800" channel="6">
+    <title lang="zh-CN">爱知．名古屋第20届亚运会：羽毛球女团决赛 中国 对 日本</title>
   </programme>
-  <programme start="20261123015000 +0800" stop="20261123020000 +0800" channel="5">
-    <title lang="zh-CN">重播体育新闻</title>
+  <programme start="20261129205000 +0800" stop="20261129210000 +0800" channel="6">
+    <title lang="zh-CN">体育新闻</title>
   </programme>
-  <programme start="20261123020000 +0800" stop="20261123030000 +0800" channel="5">
+  <programme start="20261129210000 +0800" stop="20261129225000 +0800" channel="6">
+    <title lang="zh-CN">亚洲冠军精英联赛：纽卡素喷射机 对 柏雷素尔</title>
+  </programme>
+  <programme start="20261129225000 +0800" stop="20261129230000 +0800" channel="6">
+    <title lang="zh-CN">体育新闻</title>
+  </programme>
+  <programme start="20261129230000 +0800" stop="20261129231000 +0800" channel="6">
+    <title lang="zh-CN">每周体育精华</title>
+  </programme>
+  <programme start="20261129231000 +0800" stop="20261130011500 +0800" channel="6">
+    <title lang="zh-CN">直播2026/2027西班牙甲组足球联赛：拉科鲁尼亚  对  巴塞罗那</title>
+  </programme>
+  <programme start="20261130011500 +0800" stop="20261130021500 +0800" channel="6">
     <title lang="zh-CN">收台</title>
   </programme>
   <programme start="20261123065900 +0800" stop="20261123070000 +0800" channel="5">
@@ -1919,11 +1704,8 @@
   <programme start="20261124080000 +0800" stop="20261124090000 +0800" channel="5">
     <title lang="zh-CN">澳门早晨</title>
   </programme>
-  <programme start="20261124090000 +0800" stop="20261124093000 +0800" channel="5">
-    <title lang="zh-CN">重播早晨新闻</title>
-  </programme>
-  <programme start="20261124093000 +0800" stop="20261124100000 +0800" channel="5">
-    <title lang="zh-CN">湾区全媒睇</title>
+  <programme start="20261124090000 +0800" stop="20261124100000 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
   </programme>
   <programme start="20261124100000 +0800" stop="20261124103000 +0800" channel="5">
     <title lang="zh-CN">新闻报道</title>
@@ -2300,128 +2082,332 @@
   <programme start="20261128020000 +0800" stop="20261128030000 +0800" channel="5">
     <title lang="zh-CN">收台</title>
   </programme>
-  <programme start="20261121095900 +0800" stop="20261121100000 +0800" channel="7">
+  <programme start="20261128065900 +0800" stop="20261128070000 +0800" channel="5">
     <title lang="zh-CN">开台</title>
   </programme>
-  <programme start="20261121100000 +0800" stop="20261121125400 +0800" channel="7">
-    <title lang="zh-CN">好剧连场: 赖猫的狮子倒影</title>
-    <desc lang="zh-CN">《赖猫的狮子倒影》是由朱亚文、杨子姗、贺军翔、李媛主演的都市情感剧 。该剧根据傲无常的小说《老婆爱上我》改编，讲述了女总裁慕晚晴与“无业游民”刘青这对欢喜冤家先婚后爱的故事。 一个是身家过亿的女总裁，一个是身无分文的无业游民，慕晚晴和刘青的第一次见面就在两个人的婚礼现场。从毫无感情、互相敌对，到彼此扶持、互生情愫，刘青一边暗中帮助慕晚晴解决公司遇到的重重危机，一边机智对抗着横空出现的慕晚晴前任男友冯聪。就在两人的感情经历重重考验之际，一股背后的黑暗势力也渐渐浮出水面。为了完成老一辈的遗愿，慕晚晴和刘青踏上了去泰国的行程，与黑暗势力正面交锋并取得了胜利，二人也认定对方是自己的唯一所爱。两人回国过上幸福圆满的生活。</desc>
+  <programme start="20261128070000 +0800" stop="20261128080000 +0800" channel="5">
+    <title lang="zh-CN">早晨新闻</title>
   </programme>
-  <programme start="20261121125400 +0800" stop="20261121130000 +0800" channel="7">
-    <title lang="zh-CN">国宝时刻</title>
+  <programme start="20261128080000 +0800" stop="20261128090000 +0800" channel="5">
+    <title lang="zh-CN">澳门早晨</title>
   </programme>
-  <programme start="20261121130000 +0800" stop="20261121160500 +0800" channel="7">
-    <title lang="zh-CN">好剧连场: 鲲鹏击浪</title>
-    <desc lang="zh-CN">该剧由刘飚执导，刘承林、米卓清领衔主演，讲述1918年毛泽东从湖南第一师范毕业到1921年参加党的一大所历经的心路历程。这期间中国发生了巨大的变化，新文化运动掀起西学东渐的风潮，马克思主义的曙光第一次照进中国，五四运动高举起自由与民主的旗帜，军阀混战的硝烟加重了中国人民的苦难。在这风云际会的历史舞台上，各方势力风起云涌，诡异的时局迷雾重重，国家和民族的命运如同萧瑟寒风中的一叶扁舟，生死存亡只在一瞬。这几年间，毛泽东在国家民族危难之际，胸怀大志、坚韧不拔寻找救国救民道路，从一个青年学子逐渐成长为坚定的马克思主义者。该剧通过毛泽东北上寻求真理、组织青年学生赴法勤工俭学、领导湖南驱张运动、创办《湘江评论》、开展学运工运、组建湖南共产主义小组等事件，记述了毛泽东如何在纷繁杂乱的众多主义中寻找到马克思主义并为之奋斗一生的感人故事。</desc>
+  <programme start="20261128090000 +0800" stop="20261128093000 +0800" channel="5">
+    <title lang="zh-CN">重播早晨新闻</title>
   </programme>
-  <programme start="20261121160500 +0800" stop="20261121163500 +0800" channel="7">
-    <title lang="zh-CN">我是你的瓷儿</title>
-    <desc lang="zh-CN">以中国手工瓷装饰历史为脉络，以瓷器的颜值为贯穿点，通过讲述手工瓷器之美，拉近我们与瓷儿的距离。从简单的单色釉，繁衍到五彩交融的各类装饰，青花、斗彩、五彩及现代创新装饰等，依托手工瓷器发展时光轴，次第登场。</desc>
+  <programme start="20261128093000 +0800" stop="20261128095000 +0800" channel="5">
+    <title lang="zh-CN">家家有求</title>
+    <desc lang="zh-CN">为求住得安心，每个家庭都会出尽法宝。《家家有求》为观众剖析家居需要及畅谈家居新知，由装修设计物料，到日常家居保养、维修、新科技，以至日常家居种种疑难应有尽有。</desc>
   </programme>
-  <programme start="20261121163500 +0800" stop="20261121173000 +0800" channel="7">
-    <title lang="zh-CN">致命预报</title>
-    <desc lang="zh-CN">极端天气，造成极大破坏，气象专家、科学家研究重大天气事件暴增以及做成的恶果，日新月异的科技，不断造福世人，对于预测天气，能否做到更准确？放眼未来，又有没有新技术可以控制天气？</desc>
+  <programme start="20261128095000 +0800" stop="20261128100000 +0800" channel="5">
+    <title lang="zh-CN">澳门早晨精华篇</title>
   </programme>
-  <programme start="20261121173000 +0800" stop="20261121175800 +0800" channel="7">
+  <programme start="20261128100000 +0800" stop="20261128103000 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261128103000 +0800" stop="20261128110000 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261128110000 +0800" stop="20261128110800 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261128110800 +0800" stop="20261128111500 +0800" channel="5">
+    <title lang="zh-CN">时局综观</title>
+    <desc lang="zh-CN">解读、分析近期热门的内地和国际新闻热话。</desc>
+  </programme>
+  <programme start="20261128111500 +0800" stop="20261128112300 +0800" channel="5">
+    <title lang="zh-CN">澳门早晨精华篇</title>
+  </programme>
+  <programme start="20261128112300 +0800" stop="20261128115300 +0800" channel="5">
+    <title lang="zh-CN">重播澳视新闻档案</title>
+    <desc lang="zh-CN">节目设有“近距离对话”、“新闻深度游”等环节，邀请政府官员或社会人士近距离对话，探讨时事热话，亦会深度报道社会关注议题。</desc>
+  </programme>
+  <programme start="20261128115300 +0800" stop="20261128120000 +0800" channel="5">
+    <title lang="zh-CN">育才成长 筑新未来： 家长学堂</title>
+  </programme>
+  <programme start="20261128120000 +0800" stop="20261128122000 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261128122000 +0800" stop="20261128122700 +0800" channel="5">
+    <title lang="zh-CN">时局综观</title>
+    <desc lang="zh-CN">解读、分析近期热门的内地和国际新闻热话。</desc>
+  </programme>
+  <programme start="20261128122700 +0800" stop="20261128123000 +0800" channel="5">
+    <title lang="zh-CN">街市情报</title>
+  </programme>
+  <programme start="20261128123000 +0800" stop="20261128125000 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261128125000 +0800" stop="20261128130000 +0800" channel="5">
+    <title lang="zh-CN">带路行 - 斯里兰卡篇</title>
+    <desc lang="zh-CN">说到斯里兰卡，大家第一时间会想起什么？是飘香的锡兰红茶，抑或印度洋上那滴“眼泪”？今次澳广视新闻采访队决定跳出明信片，带大家实地了解“一带一路”倡议下中斯合作的成果。</desc>
+  </programme>
+  <programme start="20261128130000 +0800" stop="20261128131000 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261128131000 +0800" stop="20261128131700 +0800" channel="5">
+    <title lang="zh-CN">营商创新研究所</title>
+    <desc lang="zh-CN">由所长及研究员带观众去了解政府在推动社区经济、科创发展等方面的政策、措施及相关活动等内容。</desc>
+  </programme>
+  <programme start="20261128131700 +0800" stop="20261128132400 +0800" channel="5">
+    <title lang="zh-CN">时局综观</title>
+    <desc lang="zh-CN">解读、分析近期热门的内地和国际新闻热话。</desc>
+  </programme>
+  <programme start="20261128132400 +0800" stop="20261128133000 +0800" channel="5">
+    <title lang="zh-CN">午间天气报告</title>
+  </programme>
+  <programme start="20261128133000 +0800" stop="20261128140000 +0800" channel="5">
+    <title lang="zh-CN">午间新闻</title>
+  </programme>
+  <programme start="20261128140000 +0800" stop="20261128145400 +0800" channel="5">
+    <title lang="zh-CN">造物说：一共分几步</title>
+    <desc lang="zh-CN">节目以日常生活中我们熟悉且陌生的消费品为主角，立足于他们的生产过程，凭藉通俗易懂且趣味的语言传达科普知识，深入浅出地介绍这些物品从设计、制造到最终成型、走向市场的整个过程。使用文化事件、社会现象、历史故事等知识的补充，梳理产品与人类生活的关系，增强观众的认识和理解的同时，展现工业制造的秩序美。</desc>
+  </programme>
+  <programme start="20261128145400 +0800" stop="20261128150000 +0800" channel="5">
+    <title lang="zh-CN">“你问我答”粤澳法律直播间 </title>
+  </programme>
+  <programme start="20261128150000 +0800" stop="20261128152500 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261128152500 +0800" stop="20261128153000 +0800" channel="5">
+    <title lang="zh-CN">街市情报</title>
+  </programme>
+  <programme start="20261128153000 +0800" stop="20261128160000 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261128160000 +0800" stop="20261128163000 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261128163000 +0800" stop="20261128170000 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261128170000 +0800" stop="20261128173000 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261128173000 +0800" stop="20261128174500 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261128174500 +0800" stop="20261128175200 +0800" channel="5">
+    <title lang="zh-CN">横琴攻略</title>
+  </programme>
+  <programme start="20261128175200 +0800" stop="20261128180000 +0800" channel="5">
+    <title lang="zh-CN">时局综观</title>
+    <desc lang="zh-CN">解读、分析近期热门的内地和国际新闻热话。</desc>
+  </programme>
+  <programme start="20261128180000 +0800" stop="20261128180500 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261128180500 +0800" stop="20261128180700 +0800" channel="5">
+    <title lang="zh-CN">TDM 新视点</title>
+  </programme>
+  <programme start="20261128180700 +0800" stop="20261128183200 +0800" channel="5">
     <title lang="zh-CN">澳门早晨精华录</title>
   </programme>
-  <programme start="20261121175800 +0800" stop="20261121180000 +0800" channel="7">
+  <programme start="20261128183200 +0800" stop="20261128190000 +0800" channel="5">
+    <title lang="zh-CN">湾区全媒睇</title>
+  </programme>
+  <programme start="20261128190000 +0800" stop="20261128195500 +0800" channel="5">
+    <title lang="zh-CN">澳视新闻</title>
+  </programme>
+  <programme start="20261128195500 +0800" stop="20261128195800 +0800" channel="5">
+    <title lang="zh-CN">天气报告</title>
+  </programme>
+  <programme start="20261128195800 +0800" stop="20261128200000 +0800" channel="5">
     <title lang="zh-CN">TDM 新视点</title>
   </programme>
-  <programme start="20261121180000 +0800" stop="20261121182500 +0800" channel="7">
-    <title lang="zh-CN">篮球旋风 第二季</title>
+  <programme start="20261128200000 +0800" stop="20261128210000 +0800" channel="5">
+    <title lang="zh-CN">录播澳视新闻</title>
   </programme>
-  <programme start="20261121182500 +0800" stop="20261121200000 +0800" channel="7">
-    <title lang="zh-CN">非爱不可</title>
-    <desc lang="zh-CN">新加坡剧集《非爱不可》以三条交织的情感线展开：年幼失聪的英俊（崇喆饰）立志当上厨师努力不懈，与主厨的女儿安心（林昭婷饰）相恋，历经重重的挫折和挑战。好友耀飞（孙政饰）隐瞒自己的抑郁症当上医生，却在职场中面对种种的困境，与女友紫阳（洪丽婷饰）追爱之路也处处触礁。英俊的祖母君红（刘玲玲饰）追求黄昏之恋，却遭老板骗财骗情感，以至面临人生的大危机……</desc>
+  <programme start="20261128210000 +0800" stop="20261128220000 +0800" channel="5">
+    <title lang="zh-CN">录播澳视新闻</title>
   </programme>
-  <programme start="20261121200000 +0800" stop="20261121202400 +0800" channel="7">
-    <title lang="zh-CN">走进水世界</title>
-    <desc lang="zh-CN">通过镜头，体验水上以及水中独特感受，展开环球之旅，挑战各种极限，探索未知领域，目睹大自然的美妙。</desc>
+  <programme start="20261128220000 +0800" stop="20261128223000 +0800" channel="5">
+    <title lang="zh-CN">普通话新闻</title>
   </programme>
-  <programme start="20261121202400 +0800" stop="20261121203000 +0800" channel="7">
-    <title lang="zh-CN">世遗City Walk</title>
-    <desc lang="zh-CN">时下流行城市漫步！今次阿盛和Bianca就会作为澳门地胆，带大家穿梭街巷，品尝美食，快闪世遗，打卡「澳门历史城区」，与大家一同发掘澳门的不同面貌。</desc>
+  <programme start="20261128223000 +0800" stop="20261128231500 +0800" channel="5">
+    <title lang="zh-CN">十点半澳视纵横：财经杂志</title>
   </programme>
-  <programme start="20261121203000 +0800" stop="20261121210000 +0800" channel="7">
-    <title lang="zh-CN">我是你的瓷儿</title>
-    <desc lang="zh-CN">以中国手工瓷装饰历史为脉络，以瓷器的颜值为贯穿点，通过讲述手工瓷器之美，拉近我们与瓷儿的距离。从简单的单色釉，繁衍到五彩交融的各类装饰，青花、斗彩、五彩及现代创新装饰等，依托手工瓷器发展时光轴，次第登场。</desc>
+  <programme start="20261128231500 +0800" stop="20261128235000 +0800" channel="5">
+    <title lang="zh-CN">晚间新闻</title>
   </programme>
-  <programme start="20261121210000 +0800" stop="20261121214500 +0800" channel="7">
-    <title lang="zh-CN">衣衣不舍</title>
-    <desc lang="zh-CN">节目每集聚焦于素人嘉宾舍不得丢弃的旧衣物，由艺人嘉宾聆听其故事后，在10小时内以比赛形式对衣物进行改造，使其重获新生。节目同时介绍新加坡环保品牌，以提升公众的环保意识。</desc>
+  <programme start="20261128235000 +0800" stop="20261129000500 +0800" channel="5">
+    <title lang="zh-CN">体育新闻</title>
   </programme>
-  <programme start="20261121214500 +0800" stop="20261121220000 +0800" channel="7">
-    <title lang="zh-CN">石韵风华(第二季)</title>
+  <programme start="20261129000500 +0800" stop="20261129003200 +0800" channel="5">
+    <title lang="zh-CN">中国城市报道</title>
   </programme>
-  <programme start="20261121220000 +0800" stop="20261121225000 +0800" channel="7">
-    <title lang="zh-CN">唐顿庄园 第五季</title>
-    <desc lang="zh-CN">第五季的剧情主要围绕着唐顿庄园面临的时代挑战展开，贵族和仆人之间的生活继续交织，展现了家族内部的爱恨情仇和秘密，以及在外来文化冲击下庄园的新挑战。玛丽在丧夫后努力保护庄园，并寻找新的生活，她的爱情故事也跌宕起伏，为剧情增添了紧张感。同时，伊蒂丝和德鲁的关系面临危机，安娜和贝茨的故事线也引人入胜。</desc>
+  <programme start="20261129003200 +0800" stop="20261129004500 +0800" channel="5">
+    <title lang="zh-CN">澳门早晨精华篇</title>
   </programme>
-  <programme start="20261121225000 +0800" stop="20261121230000 +0800" channel="7">
-    <title lang="zh-CN">海派百工2</title>
+  <programme start="20261129004500 +0800" stop="20261129011500 +0800" channel="5">
+    <title lang="zh-CN">录播普通话新闻</title>
   </programme>
-  <programme start="20261121230000 +0800" stop="20261122000100 +0800" channel="7">
-    <title lang="zh-CN">青春有歌</title>
-    <desc lang="zh-CN">节目每集设置一个音乐主题，邀请经典校园歌曲音乐人、新声代校园歌手与主持人一起“唱”、“谈”八十、九十年代流行的校园歌曲及校园民谣，欣赏新时代优秀原创校园歌曲作品，分享歌曲创作演出经历和音乐背后的故事。</desc>
+  <programme start="20261129011500 +0800" stop="20261129015000 +0800" channel="5">
+    <title lang="zh-CN">录播晚间新闻</title>
   </programme>
-  <programme start="20261122000100 +0800" stop="20261122010100 +0800" channel="7">
+  <programme start="20261129015000 +0800" stop="20261129020000 +0800" channel="5">
+    <title lang="zh-CN">重播体育新闻</title>
+  </programme>
+  <programme start="20261129020000 +0800" stop="20261129030000 +0800" channel="5">
     <title lang="zh-CN">收台</title>
   </programme>
-  <programme start="20261122095900 +0800" stop="20261122100000 +0800" channel="7">
+  <programme start="20261129065900 +0800" stop="20261129070000 +0800" channel="5">
     <title lang="zh-CN">开台</title>
   </programme>
-  <programme start="20261122100000 +0800" stop="20261122125200 +0800" channel="7">
-    <title lang="zh-CN">好剧连场: 赖猫的狮子倒影</title>
-    <desc lang="zh-CN">《赖猫的狮子倒影》是由朱亚文、杨子姗、贺军翔、李媛主演的都市情感剧 。该剧根据傲无常的小说《老婆爱上我》改编，讲述了女总裁慕晚晴与“无业游民”刘青这对欢喜冤家先婚后爱的故事。 一个是身家过亿的女总裁，一个是身无分文的无业游民，慕晚晴和刘青的第一次见面就在两个人的婚礼现场。从毫无感情、互相敌对，到彼此扶持、互生情愫，刘青一边暗中帮助慕晚晴解决公司遇到的重重危机，一边机智对抗着横空出现的慕晚晴前任男友冯聪。就在两人的感情经历重重考验之际，一股背后的黑暗势力也渐渐浮出水面。为了完成老一辈的遗愿，慕晚晴和刘青踏上了去泰国的行程，与黑暗势力正面交锋并取得了胜利，二人也认定对方是自己的唯一所爱。两人回国过上幸福圆满的生活。</desc>
+  <programme start="20261129070000 +0800" stop="20261129073200 +0800" channel="5">
+    <title lang="zh-CN">录播新闻报道</title>
   </programme>
-  <programme start="20261122125200 +0800" stop="20261122125900 +0800" channel="7">
-    <title lang="zh-CN">国宝时刻</title>
+  <programme start="20261129073200 +0800" stop="20261129074500 +0800" channel="5">
+    <title lang="zh-CN">自在练瑜伽</title>
   </programme>
-  <programme start="20261122125900 +0800" stop="20261122143000 +0800" channel="7">
-    <title lang="zh-CN">好剧连场: 鲲鹏击浪</title>
-    <desc lang="zh-CN">该剧由刘飚执导，刘承林、米卓清领衔主演，讲述1918年毛泽东从湖南第一师范毕业到1921年参加党的一大所历经的心路历程。这期间中国发生了巨大的变化，新文化运动掀起西学东渐的风潮，马克思主义的曙光第一次照进中国，五四运动高举起自由与民主的旗帜，军阀混战的硝烟加重了中国人民的苦难。在这风云际会的历史舞台上，各方势力风起云涌，诡异的时局迷雾重重，国家和民族的命运如同萧瑟寒风中的一叶扁舟，生死存亡只在一瞬。这几年间，毛泽东在国家民族危难之际，胸怀大志、坚韧不拔寻找救国救民道路，从一个青年学子逐渐成长为坚定的马克思主义者。该剧通过毛泽东北上寻求真理、组织青年学生赴法勤工俭学、领导湖南驱张运动、创办《湘江评论》、开展学运工运、组建湖南共产主义小组等事件，记述了毛泽东如何在纷繁杂乱的众多主义中寻找到马克思主义并为之奋斗一生的感人故事。</desc>
+  <programme start="20261129074500 +0800" stop="20261129080000 +0800" channel="5">
+    <title lang="zh-CN">心灵手语</title>
   </programme>
-  <programme start="20261122143000 +0800" stop="20261122160500 +0800" channel="7">
-    <title lang="zh-CN">好剧连场: 灿烂的风和海</title>
+  <programme start="20261129080000 +0800" stop="20261129083000 +0800" channel="5">
+    <title lang="zh-CN">录播新闻报道</title>
   </programme>
-  <programme start="20261122160500 +0800" stop="20261122173000 +0800" channel="7">
-    <title lang="zh-CN">越战越勇</title>
-    <desc lang="zh-CN">《越战越勇》为有着歌唱梦想的观众开放，关注他们“筑梦、追梦、圆梦”的心路历程，主打“真人、真故事”，所有创作皆以真实为核心。每个登场选手没有任何剧本，他们只需做到“尽情歌唱”和“实话实说”。每期有6位来自全国各地、各行各业的参赛者登上舞台，通过演唱环节及点评投票对决环节，增加节目的刺激性。</desc>
+  <programme start="20261129083000 +0800" stop="20261129085500 +0800" channel="5">
+    <title lang="zh-CN">澳门人澳门事</title>
+    <desc lang="zh-CN">活在澳门, 感受生活, , 探索城市每个角落、关注民生议题、繁华背后发掘一个又一个澳门人的故事、欣赏各地艺术风采、推广本土文化艺术、重温旧城旧事，翻开当中的历史记忆、走过不同地方，感受人民风情、紧贴你的生活资讯节目。</desc>
   </programme>
-  <programme start="20261122173000 +0800" stop="20261122175800 +0800" channel="7">
-    <title lang="zh-CN">趋记茶餐厅</title>
-    <desc lang="zh-CN">一部以澳门茶餐厅为背景的轻松幽默连续剧，故事围绕茶餐厅的日常营运展开，当中穿插生活热话，搞笑得来又有共鸣，欢迎大家光临！</desc>
+  <programme start="20261129085500 +0800" stop="20261129090000 +0800" channel="5">
+    <title lang="zh-CN">“你问我答”粤澳法律直播间 </title>
   </programme>
-  <programme start="20261122175800 +0800" stop="20261122180000 +0800" channel="7">
-    <title lang="zh-CN">TDM 新视点</title>
+  <programme start="20261129090000 +0800" stop="20261129092800 +0800" channel="5">
+    <title lang="zh-CN">录播新闻报道</title>
   </programme>
-  <programme start="20261122180000 +0800" stop="20261122182500 +0800" channel="7">
-    <title lang="zh-CN">篮球旋风 第二季</title>
+  <programme start="20261129092800 +0800" stop="20261129100000 +0800" channel="5">
+    <title lang="zh-CN">丝路时间U Silk : 回家的鱼</title>
   </programme>
-  <programme start="20261122182500 +0800" stop="20261122200000 +0800" channel="7">
-    <title lang="zh-CN">乘风踏浪</title>
-    <desc lang="zh-CN">《乘风踏浪》由乔杉、杨子姗领衔主演的时代创业喜剧。该剧讲述了以彭锦西和罗虹夫妇为代表的兴城泳装人乘着改革东风成功创业的故事，通过两个小人物从解决温饱到成为万元户，再到成为当地企业家代表的历程，将时代发展浪潮的关键节点一一还原，以小见大地展现出改革开放的变迁史。 1978年，20岁的辽宁兴城人彭锦西（乔杉饰）被情敌秦升举报“投机倒把”入狱，失去了上大学的资格。彭锦西出狱后自产自销做起泳裤生意，女友罗虹（杨子姗饰）不离不弃，他们克服重重困难喜结连理，彭锦西成为当地第一个“万元户”。1980年代初，政策放开，远亲贾为民等人效仿彭锦西建作坊做泳装，开始与他展开价格战，彭锦西夫妇见招拆招，既巩固了本地市场，又团结了同行，让“兴城泳装”走向全国。1990年代，彭锦西遭遇秦升复仇和市场整改的双面夹击，跌入低谷，他依旧乐观，凭藉过人的智慧，几经沉浮找到突破口，建立正规工厂和自主品牌，成功突围。之后，夫妇二带领“兴城泳装”乘风踏浪，成为全球最大的泳装生产基地。</desc>
+  <programme start="20261129100000 +0800" stop="20261129103000 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
   </programme>
-  <programme start="20261122200000 +0800" stop="20261122210000 +0800" channel="7">
-    <title lang="zh-CN">中山装</title>
-    <desc lang="zh-CN">纪录片《中山装》是国内第一部专门讲述中山装的系列纪录片。本片将以“中山装”为载体，勾连近代中国的服饰变革，还原近百年来中国从觉醒到复兴的伟大历程。摄制组从广东中山出发，一路向北，沿着广州、武汉、宁波、上海、北京等孙中山先生曾经的足迹，追溯中山装的起源，采访“中山装”研究、中国近代史研究、中国服装史研究等方面的权威专家学者，在回顾历史的同时，真实记录中山装行业今天的发展、机遇与选择，通过历史与现实交替出现的方式，呈现中山装与中国人之间紧密的情感关联。本节目由「广东广播电视台对外传播中心」赠播。</desc>
+  <programme start="20261129103000 +0800" stop="20261129110000 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
   </programme>
-  <programme start="20261122210000 +0800" stop="20261122215000 +0800" channel="7">
-    <title lang="zh-CN">人间蒸发</title>
-    <desc lang="zh-CN">为什么会突然不见，并从此了无踪迹？根据资料显示，地球上每年有8百万人，因为种种原因，从我们身边消失。有的是被诱骗拐带、有的是被强行掳走、有的是离家出走。不见了亲人的家属，心里承受的是什么样的煎熬和痛苦？</desc>
+  <programme start="20261129110000 +0800" stop="20261129111200 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
   </programme>
-  <programme start="20261122215000 +0800" stop="20261122220000 +0800" channel="7">
+  <programme start="20261129111200 +0800" stop="20261129112000 +0800" channel="5">
+    <title lang="zh-CN">SUN闻搜罗</title>
+  </programme>
+  <programme start="20261129112000 +0800" stop="20261129120000 +0800" channel="5">
+    <title lang="zh-CN">财经杂志</title>
+  </programme>
+  <programme start="20261129120000 +0800" stop="20261129122000 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261129122000 +0800" stop="20261129122700 +0800" channel="5">
+    <title lang="zh-CN">SUN闻搜罗</title>
+  </programme>
+  <programme start="20261129122700 +0800" stop="20261129123000 +0800" channel="5">
+    <title lang="zh-CN">街市情报</title>
+  </programme>
+  <programme start="20261129123000 +0800" stop="20261129125000 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261129125000 +0800" stop="20261129130000 +0800" channel="5">
     <title lang="zh-CN">海派百工2</title>
   </programme>
-  <programme start="20261122220000 +0800" stop="20261122233500 +0800" channel="7">
-    <title lang="zh-CN">电影: 大幻术师</title>
-    <desc lang="zh-CN">钱小豪、孙飞翔、廖梦妍、 关翔匀主演。中华古彩戏法又称幻术。民国时期，北海市发生连环命案，幻术师罗宾协助警员龙聪调查，二人发现死者多为隐姓埋名的幻术师，而凶手美智子则利用失传已久的暗黑幻术杀人。美智子诱使罗宾和龙聪陷入幻境相残，危急关头，重伤的罗宾用计击退美智子。为防美智子卷土重来，龙聪将罗宾藏到警局疗伤。美智子趁雨夜偷袭，利用幻术召唤出玄冰白虎。罗宾亦倾起毕生功力，以赤焰火龙与之展开生死一搏……</desc>
+  <programme start="20261129130000 +0800" stop="20261129131700 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
   </programme>
-  <programme start="20261122233500 +0800" stop="20261123000100 +0800" channel="7">
-    <title lang="zh-CN">海龟去哪儿</title>
+  <programme start="20261129131700 +0800" stop="20261129132400 +0800" channel="5">
+    <title lang="zh-CN">SUN闻搜罗</title>
   </programme>
-  <programme start="20261123000100 +0800" stop="20261123010100 +0800" channel="7">
+  <programme start="20261129132400 +0800" stop="20261129133000 +0800" channel="5">
+    <title lang="zh-CN">午间天气报告</title>
+  </programme>
+  <programme start="20261129133000 +0800" stop="20261129140000 +0800" channel="5">
+    <title lang="zh-CN">午间新闻</title>
+  </programme>
+  <programme start="20261129140000 +0800" stop="20261129144500 +0800" channel="5">
+    <title lang="zh-CN">香港空间改造王</title>
+  </programme>
+  <programme start="20261129144500 +0800" stop="20261129150000 +0800" channel="5">
+    <title lang="zh-CN">心灵手语</title>
+  </programme>
+  <programme start="20261129150000 +0800" stop="20261129152500 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261129152500 +0800" stop="20261129153000 +0800" channel="5">
+    <title lang="zh-CN">街市情报</title>
+  </programme>
+  <programme start="20261129153000 +0800" stop="20261129160000 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261129160000 +0800" stop="20261129163000 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261129163000 +0800" stop="20261129170000 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261129170000 +0800" stop="20261129173000 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261129173000 +0800" stop="20261129175000 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261129175000 +0800" stop="20261129180000 +0800" channel="5">
+    <title lang="zh-CN">SUN闻搜罗</title>
+  </programme>
+  <programme start="20261129180000 +0800" stop="20261129180500 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
+  </programme>
+  <programme start="20261129180500 +0800" stop="20261129180700 +0800" channel="5">
+    <title lang="zh-CN">TDM 新视点</title>
+  </programme>
+  <programme start="20261129180700 +0800" stop="20261129184000 +0800" channel="5">
+    <title lang="zh-CN">丝路时间U Silk : 回家的鱼</title>
+  </programme>
+  <programme start="20261129184000 +0800" stop="20261129185000 +0800" channel="5">
+    <title lang="zh-CN">澳门早晨精华篇</title>
+  </programme>
+  <programme start="20261129185000 +0800" stop="20261129190000 +0800" channel="5">
+    <title lang="zh-CN">“你问我答”粤澳法律直播间 </title>
+  </programme>
+  <programme start="20261129190000 +0800" stop="20261129195500 +0800" channel="5">
+    <title lang="zh-CN">澳视新闻</title>
+  </programme>
+  <programme start="20261129195500 +0800" stop="20261129195800 +0800" channel="5">
+    <title lang="zh-CN">天气报告</title>
+  </programme>
+  <programme start="20261129195800 +0800" stop="20261129200000 +0800" channel="5">
+    <title lang="zh-CN">TDM 新视点</title>
+  </programme>
+  <programme start="20261129200000 +0800" stop="20261129210000 +0800" channel="5">
+    <title lang="zh-CN">录播澳视新闻</title>
+  </programme>
+  <programme start="20261129210000 +0800" stop="20261129220000 +0800" channel="5">
+    <title lang="zh-CN">录播澳视新闻</title>
+  </programme>
+  <programme start="20261129220000 +0800" stop="20261129223000 +0800" channel="5">
+    <title lang="zh-CN">普通话新闻</title>
+  </programme>
+  <programme start="20261129223000 +0800" stop="20261129231500 +0800" channel="5">
+    <title lang="zh-CN">十点半澳视纵横：中国城市动态</title>
+  </programme>
+  <programme start="20261129231500 +0800" stop="20261129235000 +0800" channel="5">
+    <title lang="zh-CN">晚间新闻</title>
+  </programme>
+  <programme start="20261129235000 +0800" stop="20261130000500 +0800" channel="5">
+    <title lang="zh-CN">体育新闻</title>
+  </programme>
+  <programme start="20261130000500 +0800" stop="20261130003500 +0800" channel="5">
+    <title lang="zh-CN">中国城市报道</title>
+  </programme>
+  <programme start="20261130003500 +0800" stop="20261130004500 +0800" channel="5">
+    <title lang="zh-CN">澳门早晨精华篇</title>
+  </programme>
+  <programme start="20261130004500 +0800" stop="20261130011500 +0800" channel="5">
+    <title lang="zh-CN">录播普通话新闻</title>
+  </programme>
+  <programme start="20261130011500 +0800" stop="20261130015000 +0800" channel="5">
+    <title lang="zh-CN">录播晚间新闻</title>
+  </programme>
+  <programme start="20261130015000 +0800" stop="20261130020000 +0800" channel="5">
+    <title lang="zh-CN">重播体育新闻</title>
+  </programme>
+  <programme start="20261130020000 +0800" stop="20261130030000 +0800" channel="5">
     <title lang="zh-CN">收台</title>
   </programme>
   <programme start="20261123095900 +0800" stop="20261123100000 +0800" channel="7">
@@ -2758,187 +2744,121 @@
   <programme start="20261128000100 +0800" stop="20261128010100 +0800" channel="7">
     <title lang="zh-CN">收台</title>
   </programme>
-  <programme start="20261121000200 +0800" stop="20261121004800 +0800" channel="8">
-    <title lang="zh-CN">葡语体育</title>
+  <programme start="20261128095900 +0800" stop="20261128100000 +0800" channel="7">
+    <title lang="zh-CN">开台</title>
   </programme>
-  <programme start="20261121004800 +0800" stop="20261121010000 +0800" channel="8">
-    <title lang="zh-CN">葡文节目重温 - 葡式烹饪</title>
+  <programme start="20261128100000 +0800" stop="20261128130200 +0800" channel="7">
+    <title lang="zh-CN">好剧连场: 我们的河山</title>
   </programme>
-  <programme start="20261121010000 +0800" stop="20261121013000 +0800" channel="8">
-    <title lang="zh-CN">澳门老店—传承</title>
-    <desc lang="zh-CN">为庆祝澳门回归25周年，本次将制作《澳门老店—传承》节目，以在澳门经营最少25年的店舖或老店，一同见证澳门一起成长的故事。 我们会走访不同区份的老店，一起细味熟悉的味道，当中还包括店铺的经营方式、承传故事及周边民生的情形，重温几代人见证澳门发展的点滴，并且分享回归后到现在的改变。诉说眼中的澳门，心中的家国情怀。</desc>
+  <programme start="20261128130200 +0800" stop="20261128155600 +0800" channel="7">
+    <title lang="zh-CN">好剧连场: 星落凝成糖</title>
   </programme>
-  <programme start="20261121013000 +0800" stop="20261121020000 +0800" channel="8">
-    <title lang="zh-CN">英语新闻</title>
-  </programme>
-  <programme start="20261121020000 +0800" stop="20261121025000 +0800" channel="8">
-    <title lang="zh-CN">葡语新闻</title>
-  </programme>
-  <programme start="20261121025000 +0800" stop="20261121031000 +0800" channel="8">
-    <title lang="zh-CN">澳门早晨精华录</title>
-  </programme>
-  <programme start="20261121031000 +0800" stop="20261121034000 +0800" channel="8">
-    <title lang="zh-CN">#文青这样玩</title>
-    <desc lang="zh-CN">以文青的角度出发，每集精选不同主题，介绍相关之文创产品及打卡热点，用唯美的画面带领观众寻找文创宝藏﹑更会介绍文青最爱的网红美食，展现澳门独特迷人的一面。</desc>
-  </programme>
-  <programme start="20261121034000 +0800" stop="20261121042500 +0800" channel="8">
-    <title lang="zh-CN">人与自然: 共存之道</title>
-  </programme>
-  <programme start="20261121042500 +0800" stop="20261121043500 +0800" channel="8">
+  <programme start="20261128155600 +0800" stop="20261128160500 +0800" channel="7">
     <title lang="zh-CN">国宝时刻</title>
   </programme>
-  <programme start="20261121043500 +0800" stop="20261121052500 +0800" channel="8">
-    <title lang="zh-CN">葡语新闻</title>
+  <programme start="20261128160500 +0800" stop="20261128163500 +0800" channel="7">
+    <title lang="zh-CN">我是你的瓷儿</title>
+    <desc lang="zh-CN">以中国手工瓷装饰历史为脉络，以瓷器的颜值为贯穿点，通过讲述手工瓷器之美，拉近我们与瓷儿的距离。从简单的单色釉，繁衍到五彩交融的各类装饰，青花、斗彩、五彩及现代创新装饰等，依托手工瓷器发展时光轴，次第登场。</desc>
   </programme>
-  <programme start="20261121052500 +0800" stop="20261121060000 +0800" channel="8">
-    <title lang="zh-CN">丝路时间U Silk - 茶香探秘</title>
+  <programme start="20261128163500 +0800" stop="20261128173000 +0800" channel="7">
+    <title lang="zh-CN">致命预报</title>
+    <desc lang="zh-CN">极端天气，造成极大破坏，气象专家、科学家研究重大天气事件暴增以及做成的恶果，日新月异的科技，不断造福世人，对于预测天气，能否做到更准确？放眼未来，又有没有新技术可以控制天气？</desc>
   </programme>
-  <programme start="20261121060000 +0800" stop="20261121064500 +0800" channel="8">
-    <title lang="zh-CN">葡语体育</title>
-  </programme>
-  <programme start="20261121064500 +0800" stop="20261121070000 +0800" channel="8">
-    <title lang="zh-CN">葡文节目重温 - 葡式烹饪</title>
-  </programme>
-  <programme start="20261121070000 +0800" stop="20261121070500 +0800" channel="8">
-    <title lang="zh-CN">世遗City Walk</title>
-  </programme>
-  <programme start="20261121070500 +0800" stop="20261121172500 +0800" channel="8">
-    <title lang="zh-CN">直播第73届澳门格兰披治大赛车</title>
-  </programme>
-  <programme start="20261121172500 +0800" stop="20261121174000 +0800" channel="8">
-    <title lang="zh-CN">世遗City Walk</title>
-  </programme>
-  <programme start="20261121174000 +0800" stop="20261121181000 +0800" channel="8">
-    <title lang="zh-CN">#文青这样玩</title>
-    <desc lang="zh-CN">以文青的角度出发，每集精选不同主题，介绍相关之文创产品及打卡热点，用唯美的画面带领观众寻找文创宝藏﹑更会介绍文青最爱的网红美食，展现澳门独特迷人的一面。</desc>
-  </programme>
-  <programme start="20261121181000 +0800" stop="20261121184000 +0800" channel="8">
-    <title lang="zh-CN">咁, 得唔得㗎?</title>
-    <desc lang="zh-CN">三个星途黯淡嘅艺人，唔可以唔得嘅一次! 12月14日晚九点半, 一齐俾个机会佢地，睇下今次《咁，得唔得㗎》!</desc>
-  </programme>
-  <programme start="20261121184000 +0800" stop="20261121190000 +0800" channel="8">
+  <programme start="20261128173000 +0800" stop="20261128175800 +0800" channel="7">
     <title lang="zh-CN">澳门早晨精华录</title>
   </programme>
-  <programme start="20261121190000 +0800" stop="20261121190800 +0800" channel="8">
-    <title lang="zh-CN">时局综观-英文字幕版</title>
+  <programme start="20261128175800 +0800" stop="20261128180000 +0800" channel="7">
+    <title lang="zh-CN">TDM 新视点</title>
   </programme>
-  <programme start="20261121190800 +0800" stop="20261121193000 +0800" channel="8">
-    <title lang="zh-CN">教煮CHILL 好玩</title>
-    <desc lang="zh-CN">想知边度可以边煮、边食、边CHILL？ 澳广视全新烹饪节目《教煮CHILL好玩》帮到你！ 由靓女主持马思霖、Vanessa 带你每集解锁唔同菜式， 更会邀请神秘嘉宾一齐试菜倾计！ 记住逢星期四晚上九点三十三分，91台澳视澳门， 锁定《教煮CHILL好玩》，同你一齐 CHILL 住开炉！</desc>
+  <programme start="20261128180000 +0800" stop="20261128182500 +0800" channel="7">
+    <title lang="zh-CN">篮球旋风 第二季</title>
   </programme>
-  <programme start="20261121193000 +0800" stop="20261121200000 +0800" channel="8">
-    <title lang="zh-CN">澳视新闻档案</title>
-    <desc lang="zh-CN">节目设有“近距离对话”、“新闻深度游”等环节，邀请政府官员或社会人士近距离对话，探讨时事热话，亦会深度报道社会关注议题。</desc>
+  <programme start="20261128182500 +0800" stop="20261128200000 +0800" channel="7">
+    <title lang="zh-CN">宠他，还是爱我？</title>
   </programme>
-  <programme start="20261121200000 +0800" stop="20261121210000 +0800" channel="8">
-    <title lang="zh-CN">粤语新闻</title>
+  <programme start="20261128200000 +0800" stop="20261128202400 +0800" channel="7">
+    <title lang="zh-CN">走进水世界</title>
+    <desc lang="zh-CN">通过镜头，体验水上以及水中独特感受，展开环球之旅，挑战各种极限，探索未知领域，目睹大自然的美妙。</desc>
   </programme>
-  <programme start="20261121210000 +0800" stop="20261121213000 +0800" channel="8">
-    <title lang="zh-CN">湾区全媒睇</title>
+  <programme start="20261128202400 +0800" stop="20261128203000 +0800" channel="7">
+    <title lang="zh-CN">世遗City Walk</title>
+    <desc lang="zh-CN">时下流行城市漫步！今次阿盛和Bianca就会作为澳门地胆，带大家穿梭街巷，品尝美食，快闪世遗，打卡「澳门历史城区」，与大家一同发掘澳门的不同面貌。</desc>
   </programme>
-  <programme start="20261121213000 +0800" stop="20261121220000 +0800" channel="8">
-    <title lang="zh-CN">丝路时间USilk - 丝路美食之探寻米踪</title>
+  <programme start="20261128203000 +0800" stop="20261128210000 +0800" channel="7">
+    <title lang="zh-CN">我是你的瓷儿</title>
+    <desc lang="zh-CN">以中国手工瓷装饰历史为脉络，以瓷器的颜值为贯穿点，通过讲述手工瓷器之美，拉近我们与瓷儿的距离。从简单的单色釉，繁衍到五彩交融的各类装饰，青花、斗彩、五彩及现代创新装饰等，依托手工瓷器发展时光轴，次第登场。</desc>
   </programme>
-  <programme start="20261121220000 +0800" stop="20261121225000 +0800" channel="8">
-    <title lang="zh-CN">粤语新闻</title>
+  <programme start="20261128210000 +0800" stop="20261128214500 +0800" channel="7">
+    <title lang="zh-CN">衣衣不舍</title>
+    <desc lang="zh-CN">节目每集聚焦于素人嘉宾舍不得丢弃的旧衣物，由艺人嘉宾聆听其故事后，在10小时内以比赛形式对衣物进行改造，使其重获新生。节目同时介绍新加坡环保品牌，以提升公众的环保意识。</desc>
   </programme>
-  <programme start="20261121225000 +0800" stop="20261121234000 +0800" channel="8">
-    <title lang="zh-CN">葡语新闻</title>
+  <programme start="20261128214500 +0800" stop="20261128220000 +0800" channel="7">
+    <title lang="zh-CN">石韵风华(第二季)</title>
   </programme>
-  <programme start="20261121234000 +0800" stop="20261122004000 +0800" channel="8">
-    <title lang="zh-CN">教煮CHILL 好玩</title>
-    <desc lang="zh-CN">想知边度可以边煮、边食、边CHILL？ 澳广视全新烹饪节目《教煮CHILL好玩》帮到你！ 由靓女主持马思霖、Vanessa 带你每集解锁唔同菜式， 更会邀请神秘嘉宾一齐试菜倾计！ 记住逢星期四晚上九点三十三分，91台澳视澳门， 锁定《教煮CHILL好玩》，同你一齐 CHILL 住开炉！</desc>
+  <programme start="20261128220000 +0800" stop="20261128225000 +0800" channel="7">
+    <title lang="zh-CN">唐顿庄园 第五季</title>
+    <desc lang="zh-CN">第五季的剧情主要围绕着唐顿庄园面临的时代挑战展开，贵族和仆人之间的生活继续交织，展现了家族内部的爱恨情仇和秘密，以及在外来文化冲击下庄园的新挑战。玛丽在丧夫后努力保护庄园，并寻找新的生活，她的爱情故事也跌宕起伏，为剧情增添了紧张感。同时，伊蒂丝和德鲁的关系面临危机，安娜和贝茨的故事线也引人入胜。</desc>
   </programme>
-  <programme start="20261122000200 +0800" stop="20261122003300 +0800" channel="8">
-    <title lang="zh-CN">中国360°</title>
+  <programme start="20261128225000 +0800" stop="20261128230000 +0800" channel="7">
+    <title lang="zh-CN">烈火，鲜血与旗帜</title>
   </programme>
-  <programme start="20261122003300 +0800" stop="20261122010000 +0800" channel="8">
-    <title lang="zh-CN">好丰味 2</title>
+  <programme start="20261128230000 +0800" stop="20261129000100 +0800" channel="7">
+    <title lang="zh-CN">青春有歌</title>
+    <desc lang="zh-CN">节目每集设置一个音乐主题，邀请经典校园歌曲音乐人、新声代校园歌手与主持人一起“唱”、“谈”八十、九十年代流行的校园歌曲及校园民谣，欣赏新时代优秀原创校园歌曲作品，分享歌曲创作演出经历和音乐背后的故事。</desc>
   </programme>
-  <programme start="20261122010000 +0800" stop="20261122013000 +0800" channel="8">
-    <title lang="zh-CN">澳门老店—传承</title>
-    <desc lang="zh-CN">为庆祝澳门回归25周年，本次将制作《澳门老店—传承》节目，以在澳门经营最少25年的店舖或老店，一同见证澳门一起成长的故事。 我们会走访不同区份的老店，一起细味熟悉的味道，当中还包括店铺的经营方式、承传故事及周边民生的情形，重温几代人见证澳门发展的点滴，并且分享回归后到现在的改变。诉说眼中的澳门，心中的家国情怀。</desc>
+  <programme start="20261129000100 +0800" stop="20261129010100 +0800" channel="7">
+    <title lang="zh-CN">收台</title>
   </programme>
-  <programme start="20261122013000 +0800" stop="20261122020000 +0800" channel="8">
-    <title lang="zh-CN">英语新闻</title>
+  <programme start="20261129095900 +0800" stop="20261129100000 +0800" channel="7">
+    <title lang="zh-CN">开台</title>
   </programme>
-  <programme start="20261122020000 +0800" stop="20261122025000 +0800" channel="8">
-    <title lang="zh-CN">葡语新闻</title>
+  <programme start="20261129100000 +0800" stop="20261129130200 +0800" channel="7">
+    <title lang="zh-CN">好剧连场: 我们的河山</title>
   </programme>
-  <programme start="20261122025000 +0800" stop="20261122031000 +0800" channel="8">
-    <title lang="zh-CN">澳门早晨精华录</title>
+  <programme start="20261129130200 +0800" stop="20261129155700 +0800" channel="7">
+    <title lang="zh-CN">好剧连场: 星落凝成糖</title>
   </programme>
-  <programme start="20261122031000 +0800" stop="20261122034000 +0800" channel="8">
-    <title lang="zh-CN">#文青这样玩</title>
-    <desc lang="zh-CN">以文青的角度出发，每集精选不同主题，介绍相关之文创产品及打卡热点，用唯美的画面带领观众寻找文创宝藏﹑更会介绍文青最爱的网红美食，展现澳门独特迷人的一面。</desc>
-  </programme>
-  <programme start="20261122034000 +0800" stop="20261122042500 +0800" channel="8">
-    <title lang="zh-CN">人与自然: 共存之道</title>
-  </programme>
-  <programme start="20261122042500 +0800" stop="20261122043500 +0800" channel="8">
+  <programme start="20261129155700 +0800" stop="20261129160500 +0800" channel="7">
     <title lang="zh-CN">国宝时刻</title>
   </programme>
-  <programme start="20261122043500 +0800" stop="20261122052500 +0800" channel="8">
-    <title lang="zh-CN">葡语新闻</title>
+  <programme start="20261129160500 +0800" stop="20261129173000 +0800" channel="7">
+    <title lang="zh-CN">越战越勇</title>
+    <desc lang="zh-CN">《越战越勇》为有着歌唱梦想的观众开放，关注他们“筑梦、追梦、圆梦”的心路历程，主打“真人、真故事”，所有创作皆以真实为核心。每个登场选手没有任何剧本，他们只需做到“尽情歌唱”和“实话实说”。每期有6位来自全国各地、各行各业的参赛者登上舞台，通过演唱环节及点评投票对决环节，增加节目的刺激性。</desc>
   </programme>
-  <programme start="20261122052500 +0800" stop="20261122072500 +0800" channel="8">
-    <title lang="zh-CN">第二十三届《澳广视至爱新听力》颁奖音乐会</title>
-  </programme>
-  <programme start="20261122072500 +0800" stop="20261122075500 +0800" channel="8">
-    <title lang="zh-CN">英语新闻</title>
-  </programme>
-  <programme start="20261122075500 +0800" stop="20261122164000 +0800" channel="8">
-    <title lang="zh-CN">直播第73届澳门格兰披治大赛车</title>
-  </programme>
-  <programme start="20261122164000 +0800" stop="20261122165000 +0800" channel="8">
-    <title lang="zh-CN">世遗City Walk</title>
-  </programme>
-  <programme start="20261122165000 +0800" stop="20261122172000 +0800" channel="8">
-    <title lang="zh-CN">中国360°</title>
-  </programme>
-  <programme start="20261122172000 +0800" stop="20261122173500 +0800" channel="8">
-    <title lang="zh-CN">好丰味 2</title>
-  </programme>
-  <programme start="20261122173500 +0800" stop="20261122180000 +0800" channel="8">
-    <title lang="zh-CN">#文青这样玩</title>
-    <desc lang="zh-CN">以文青的角度出发，每集精选不同主题，介绍相关之文创产品及打卡热点，用唯美的画面带领观众寻找文创宝藏﹑更会介绍文青最爱的网红美食，展现澳门独特迷人的一面。</desc>
-  </programme>
-  <programme start="20261122180000 +0800" stop="20261122183000 +0800" channel="8">
-    <title lang="zh-CN">咁, 得唔得㗎?</title>
-    <desc lang="zh-CN">三个星途黯淡嘅艺人，唔可以唔得嘅一次! 12月14日晚九点半, 一齐俾个机会佢地，睇下今次《咁，得唔得㗎》!</desc>
-  </programme>
-  <programme start="20261122183000 +0800" stop="20261122185200 +0800" channel="8">
+  <programme start="20261129173000 +0800" stop="20261129175800 +0800" channel="7">
     <title lang="zh-CN">趋记茶餐厅</title>
     <desc lang="zh-CN">一部以澳门茶餐厅为背景的轻松幽默连续剧，故事围绕茶餐厅的日常营运展开，当中穿插生活热话，搞笑得来又有共鸣，欢迎大家光临！</desc>
   </programme>
-  <programme start="20261122185200 +0800" stop="20261122190000 +0800" channel="8">
-    <title lang="zh-CN">时局综观-英文字幕版</title>
+  <programme start="20261129175800 +0800" stop="20261129180000 +0800" channel="7">
+    <title lang="zh-CN">TDM 新视点</title>
   </programme>
-  <programme start="20261122190000 +0800" stop="20261122192200 +0800" channel="8">
-    <title lang="zh-CN">家家有本事</title>
-    <desc lang="zh-CN">《家家有本事》为一个综合性生活资讯的家庭类节目，邀请相关人士就相关主题提供专业知识，包括日常生活、健康资讯等元素。</desc>
+  <programme start="20261129180000 +0800" stop="20261129182500 +0800" channel="7">
+    <title lang="zh-CN">篮球旋风 第二季</title>
   </programme>
-  <programme start="20261122192200 +0800" stop="20261122200000 +0800" channel="8">
-    <title lang="zh-CN">财经杂志</title>
+  <programme start="20261129182500 +0800" stop="20261129200000 +0800" channel="7">
+    <title lang="zh-CN">乘风踏浪</title>
+    <desc lang="zh-CN">《乘风踏浪》由乔杉、杨子姗领衔主演的时代创业喜剧。该剧讲述了以彭锦西和罗虹夫妇为代表的兴城泳装人乘着改革东风成功创业的故事，通过两个小人物从解决温饱到成为万元户，再到成为当地企业家代表的历程，将时代发展浪潮的关键节点一一还原，以小见大地展现出改革开放的变迁史。 1978年，20岁的辽宁兴城人彭锦西（乔杉饰）被情敌秦升举报“投机倒把”入狱，失去了上大学的资格。彭锦西出狱后自产自销做起泳裤生意，女友罗虹（杨子姗饰）不离不弃，他们克服重重困难喜结连理，彭锦西成为当地第一个“万元户”。1980年代初，政策放开，远亲贾为民等人效仿彭锦西建作坊做泳装，开始与他展开价格战，彭锦西夫妇见招拆招，既巩固了本地市场，又团结了同行，让“兴城泳装”走向全国。1990年代，彭锦西遭遇秦升复仇和市场整改的双面夹击，跌入低谷，他依旧乐观，凭藉过人的智慧，几经沉浮找到突破口，建立正规工厂和自主品牌，成功突围。之后，夫妇二带领“兴城泳装”乘风踏浪，成为全球最大的泳装生产基地。</desc>
   </programme>
-  <programme start="20261122200000 +0800" stop="20261122210000 +0800" channel="8">
-    <title lang="zh-CN">粤语新闻</title>
+  <programme start="20261129200000 +0800" stop="20261129210000 +0800" channel="7">
+    <title lang="zh-CN">中山装</title>
+    <desc lang="zh-CN">纪录片《中山装》是国内第一部专门讲述中山装的系列纪录片。本片将以“中山装”为载体，勾连近代中国的服饰变革，还原近百年来中国从觉醒到复兴的伟大历程。摄制组从广东中山出发，一路向北，沿着广州、武汉、宁波、上海、北京等孙中山先生曾经的足迹，追溯中山装的起源，采访“中山装”研究、中国近代史研究、中国服装史研究等方面的权威专家学者，在回顾历史的同时，真实记录中山装行业今天的发展、机遇与选择，通过历史与现实交替出现的方式，呈现中山装与中国人之间紧密的情感关联。本节目由「广东广播电视台对外传播中心」赠播。</desc>
   </programme>
-  <programme start="20261122210000 +0800" stop="20261122213000 +0800" channel="8">
-    <title lang="zh-CN">湾区全媒睇</title>
+  <programme start="20261129210000 +0800" stop="20261129215000 +0800" channel="7">
+    <title lang="zh-CN">人间蒸发</title>
+    <desc lang="zh-CN">为什么会突然不见，并从此了无踪迹？根据资料显示，地球上每年有8百万人，因为种种原因，从我们身边消失。有的是被诱骗拐带、有的是被强行掳走、有的是离家出走。不见了亲人的家属，心里承受的是什么样的煎熬和痛苦？</desc>
   </programme>
-  <programme start="20261122213000 +0800" stop="20261122220000 +0800" channel="8">
-    <title lang="zh-CN">丝路时间USilk - 丝路美食之探寻米踪</title>
+  <programme start="20261129215000 +0800" stop="20261129220000 +0800" channel="7">
+    <title lang="zh-CN">烈火，鲜血与旗帜</title>
   </programme>
-  <programme start="20261122220000 +0800" stop="20261122225000 +0800" channel="8">
-    <title lang="zh-CN">粤语新闻</title>
+  <programme start="20261129220000 +0800" stop="20261129233500 +0800" channel="7">
+    <title lang="zh-CN">电影: 新洗冤录</title>
+    <desc lang="zh-CN">欧阳震华、邵芸、吕宇主演。故事讲述大宋龙牙县，旱灾肆虐，迷信驱使下，童男童女屡成祭祀蛟龙的无辜牺牲。新官庄严勇敢解救孩童，却因此卷入诡谲命案，身陷囹圄。深爱庄严的仵作助手小宛，为救情郎，远赴他乡，恳求传奇提刑官宋慈出山。宋慈重出江湖，却发现案件背后暗流涌动，远比想像中复杂。一场围绕信仰、权力与人性的较量悄然展开，正义与邪恶的交锋，将如何揭开龙牙县隐藏多年的秘密，还无辜者以清白，还大地以安宁，成为所有人关注的焦点。</desc>
   </programme>
-  <programme start="20261122225000 +0800" stop="20261122234000 +0800" channel="8">
-    <title lang="zh-CN">葡语新闻</title>
+  <programme start="20261129233500 +0800" stop="20261130000100 +0800" channel="7">
+    <title lang="zh-CN">江豚重生─世界濒危物种保护的中国样本</title>
   </programme>
-  <programme start="20261122234000 +0800" stop="20261123004000 +0800" channel="8">
-    <title lang="zh-CN">家家有本事</title>
-    <desc lang="zh-CN">《家家有本事》为一个综合性生活资讯的家庭类节目，邀请相关人士就相关主题提供专业知识，包括日常生活、健康资讯等元素。</desc>
+  <programme start="20261130000100 +0800" stop="20261130010100 +0800" channel="7">
+    <title lang="zh-CN">收台</title>
   </programme>
   <programme start="20261123000200 +0800" stop="20261123010500 +0800" channel="8">
     <title lang="zh-CN">莫桑比克的魅力</title>
@@ -3648,6 +3568,311 @@
     <title lang="zh-CN">葡语新闻</title>
   </programme>
   <programme start="20261127234000 +0800" stop="20261128004000 +0800" channel="8">
+    <title lang="zh-CN">家家有本事</title>
+    <desc lang="zh-CN">《家家有本事》为一个综合性生活资讯的家庭类节目，邀请相关人士就相关主题提供专业知识，包括日常生活、健康资讯等元素。</desc>
+  </programme>
+  <programme start="20261128000200 +0800" stop="20261128004800 +0800" channel="8">
+    <title lang="zh-CN">葡语体育</title>
+  </programme>
+  <programme start="20261128004800 +0800" stop="20261128010000 +0800" channel="8">
+    <title lang="zh-CN">葡文节目重温 - 葡式烹饪</title>
+  </programme>
+  <programme start="20261128010000 +0800" stop="20261128013000 +0800" channel="8">
+    <title lang="zh-CN">澳门老店—传承</title>
+    <desc lang="zh-CN">为庆祝澳门回归25周年，本次将制作《澳门老店—传承》节目，以在澳门经营最少25年的店舖或老店，一同见证澳门一起成长的故事。 我们会走访不同区份的老店，一起细味熟悉的味道，当中还包括店铺的经营方式、承传故事及周边民生的情形，重温几代人见证澳门发展的点滴，并且分享回归后到现在的改变。诉说眼中的澳门，心中的家国情怀。</desc>
+  </programme>
+  <programme start="20261128013000 +0800" stop="20261128020000 +0800" channel="8">
+    <title lang="zh-CN">英语新闻</title>
+  </programme>
+  <programme start="20261128020000 +0800" stop="20261128025000 +0800" channel="8">
+    <title lang="zh-CN">葡语新闻</title>
+  </programme>
+  <programme start="20261128025000 +0800" stop="20261128031000 +0800" channel="8">
+    <title lang="zh-CN">澳门早晨精华录</title>
+  </programme>
+  <programme start="20261128031000 +0800" stop="20261128034000 +0800" channel="8">
+    <title lang="zh-CN">无名的爱</title>
+  </programme>
+  <programme start="20261128034000 +0800" stop="20261128043000 +0800" channel="8">
+    <title lang="zh-CN">改变世界的科技</title>
+  </programme>
+  <programme start="20261128043000 +0800" stop="20261128044000 +0800" channel="8">
+    <title lang="zh-CN">国宝时刻</title>
+  </programme>
+  <programme start="20261128044000 +0800" stop="20261128053000 +0800" channel="8">
+    <title lang="zh-CN">葡语新闻</title>
+  </programme>
+  <programme start="20261128053000 +0800" stop="20261128060000 +0800" channel="8">
+    <title lang="zh-CN">丝路时间U Silk - 对望丝路新旅程</title>
+  </programme>
+  <programme start="20261128060000 +0800" stop="20261128064500 +0800" channel="8">
+    <title lang="zh-CN">葡语体育</title>
+  </programme>
+  <programme start="20261128064500 +0800" stop="20261128070000 +0800" channel="8">
+    <title lang="zh-CN">葡文节目重温 - 葡式烹饪</title>
+  </programme>
+  <programme start="20261128070000 +0800" stop="20261128073000 +0800" channel="8">
+    <title lang="zh-CN">马交游﹕澳门Chill 好玩</title>
+  </programme>
+  <programme start="20261128073000 +0800" stop="20261128080000 +0800" channel="8">
+    <title lang="zh-CN">英语新闻</title>
+  </programme>
+  <programme start="20261128080000 +0800" stop="20261128083000 +0800" channel="8">
+    <title lang="zh-CN">无名的爱</title>
+  </programme>
+  <programme start="20261128083000 +0800" stop="20261128085200 +0800" channel="8">
+    <title lang="zh-CN">教煮CHILL 好玩</title>
+    <desc lang="zh-CN">想知边度可以边煮、边食、边CHILL？ 澳广视全新烹饪节目《教煮CHILL好玩》帮到你！ 由靓女主持马思霖、Vanessa 带你每集解锁唔同菜式， 更会邀请神秘嘉宾一齐试菜倾计！ 记住逢星期四晚上九点三十三分，91台澳视澳门， 锁定《教煮CHILL好玩》，同你一齐 CHILL 住开炉！</desc>
+  </programme>
+  <programme start="20261128085200 +0800" stop="20261128092000 +0800" channel="8">
+    <title lang="zh-CN">湾区全媒睇</title>
+  </programme>
+  <programme start="20261128092000 +0800" stop="20261128095000 +0800" channel="8">
+    <title lang="zh-CN">澳视新闻档案</title>
+    <desc lang="zh-CN">节目设有“近距离对话”、“新闻深度游”等环节，邀请政府官员或社会人士近距离对话，探讨时事热话，亦会深度报道社会关注议题。</desc>
+  </programme>
+  <programme start="20261128095000 +0800" stop="20261128100000 +0800" channel="8">
+    <title lang="zh-CN">好书分享</title>
+  </programme>
+  <programme start="20261128100000 +0800" stop="20261128103000 +0800" channel="8">
+    <title lang="zh-CN">粤语新闻</title>
+  </programme>
+  <programme start="20261128103000 +0800" stop="20261128112000 +0800" channel="8">
+    <title lang="zh-CN">改变世界的科技</title>
+  </programme>
+  <programme start="20261128112000 +0800" stop="20261128115000 +0800" channel="8">
+    <title lang="zh-CN">澳门老店—传承</title>
+    <desc lang="zh-CN">为庆祝澳门回归25周年，本次将制作《澳门老店—传承》节目，以在澳门经营最少25年的店舖或老店，一同见证澳门一起成长的故事。 我们会走访不同区份的老店，一起细味熟悉的味道，当中还包括店铺的经营方式、承传故事及周边民生的情形，重温几代人见证澳门发展的点滴，并且分享回归后到现在的改变。诉说眼中的澳门，心中的家国情怀。</desc>
+  </programme>
+  <programme start="20261128115000 +0800" stop="20261128122000 +0800" channel="8">
+    <title lang="zh-CN">无名的爱</title>
+  </programme>
+  <programme start="20261128122000 +0800" stop="20261128125000 +0800" channel="8">
+    <title lang="zh-CN">澳视新闻档案</title>
+    <desc lang="zh-CN">节目设有“近距离对话”、“新闻深度游”等环节，邀请政府官员或社会人士近距离对话，探讨时事热话，亦会深度报道社会关注议题。</desc>
+  </programme>
+  <programme start="20261128125000 +0800" stop="20261128132000 +0800" channel="8">
+    <title lang="zh-CN">马交游﹕澳门Chill 好玩</title>
+  </programme>
+  <programme start="20261128132000 +0800" stop="20261128134500 +0800" channel="8">
+    <title lang="zh-CN">教煮CHILL 好玩</title>
+    <desc lang="zh-CN">想知边度可以边煮、边食、边CHILL？ 澳广视全新烹饪节目《教煮CHILL好玩》帮到你！ 由靓女主持马思霖、Vanessa 带你每集解锁唔同菜式， 更会邀请神秘嘉宾一齐试菜倾计！ 记住逢星期四晚上九点三十三分，91台澳视澳门， 锁定《教煮CHILL好玩》，同你一齐 CHILL 住开炉！</desc>
+  </programme>
+  <programme start="20261128134500 +0800" stop="20261128135500 +0800" channel="8">
+    <title lang="zh-CN">时局综观-英文字幕版</title>
+  </programme>
+  <programme start="20261128135500 +0800" stop="20261128140000 +0800" channel="8">
+    <title lang="zh-CN">胡sir讲收藏</title>
+  </programme>
+  <programme start="20261128140000 +0800" stop="20261128143000 +0800" channel="8">
+    <title lang="zh-CN">粤语新闻</title>
+  </programme>
+  <programme start="20261128143000 +0800" stop="20261128150000 +0800" channel="8">
+    <title lang="zh-CN">澳门老店—传承</title>
+    <desc lang="zh-CN">为庆祝澳门回归25周年，本次将制作《澳门老店—传承》节目，以在澳门经营最少25年的店舖或老店，一同见证澳门一起成长的故事。 我们会走访不同区份的老店，一起细味熟悉的味道，当中还包括店铺的经营方式、承传故事及周边民生的情形，重温几代人见证澳门发展的点滴，并且分享回归后到现在的改变。诉说眼中的澳门，心中的家国情怀。</desc>
+  </programme>
+  <programme start="20261128150000 +0800" stop="20261128155000 +0800" channel="8">
+    <title lang="zh-CN">葡语新闻</title>
+  </programme>
+  <programme start="20261128155000 +0800" stop="20261128160500 +0800" channel="8">
+    <title lang="zh-CN">锡兰王子东行记</title>
+  </programme>
+  <programme start="20261128160500 +0800" stop="20261128165500 +0800" channel="8">
+    <title lang="zh-CN">改变世界的科技</title>
+  </programme>
+  <programme start="20261128165500 +0800" stop="20261128174000 +0800" channel="8">
+    <title lang="zh-CN">葡语体育</title>
+  </programme>
+  <programme start="20261128174000 +0800" stop="20261128180500 +0800" channel="8">
+    <title lang="zh-CN">无名的爱</title>
+  </programme>
+  <programme start="20261128180500 +0800" stop="20261128183000 +0800" channel="8">
+    <title lang="zh-CN">马交游﹕澳门Chill 好玩</title>
+  </programme>
+  <programme start="20261128183000 +0800" stop="20261128185000 +0800" channel="8">
+    <title lang="zh-CN">澳门早晨精华录</title>
+  </programme>
+  <programme start="20261128185000 +0800" stop="20261128190000 +0800" channel="8">
+    <title lang="zh-CN">时局综观-英文字幕版</title>
+  </programme>
+  <programme start="20261128190000 +0800" stop="20261128192300 +0800" channel="8">
+    <title lang="zh-CN">教煮CHILL 好玩</title>
+    <desc lang="zh-CN">想知边度可以边煮、边食、边CHILL？ 澳广视全新烹饪节目《教煮CHILL好玩》帮到你！ 由靓女主持马思霖、Vanessa 带你每集解锁唔同菜式， 更会邀请神秘嘉宾一齐试菜倾计！ 记住逢星期四晚上九点三十三分，91台澳视澳门， 锁定《教煮CHILL好玩》，同你一齐 CHILL 住开炉！</desc>
+  </programme>
+  <programme start="20261128192300 +0800" stop="20261128193000 +0800" channel="8">
+    <title lang="zh-CN">家家有𩠌煮</title>
+  </programme>
+  <programme start="20261128193000 +0800" stop="20261128200000 +0800" channel="8">
+    <title lang="zh-CN">澳视新闻档案</title>
+    <desc lang="zh-CN">节目设有“近距离对话”、“新闻深度游”等环节，邀请政府官员或社会人士近距离对话，探讨时事热话，亦会深度报道社会关注议题。</desc>
+  </programme>
+  <programme start="20261128200000 +0800" stop="20261128210000 +0800" channel="8">
+    <title lang="zh-CN">粤语新闻</title>
+  </programme>
+  <programme start="20261128210000 +0800" stop="20261128212800 +0800" channel="8">
+    <title lang="zh-CN">湾区全媒睇</title>
+  </programme>
+  <programme start="20261128212800 +0800" stop="20261128220000 +0800" channel="8">
+    <title lang="zh-CN">丝路时间U Silk - 玛丽眼中的厦门</title>
+  </programme>
+  <programme start="20261128220000 +0800" stop="20261128225000 +0800" channel="8">
+    <title lang="zh-CN">粤语新闻</title>
+  </programme>
+  <programme start="20261128225000 +0800" stop="20261128234000 +0800" channel="8">
+    <title lang="zh-CN">葡语新闻</title>
+  </programme>
+  <programme start="20261128234000 +0800" stop="20261129004000 +0800" channel="8">
+    <title lang="zh-CN">教煮CHILL 好玩</title>
+    <desc lang="zh-CN">想知边度可以边煮、边食、边CHILL？ 澳广视全新烹饪节目《教煮CHILL好玩》帮到你！ 由靓女主持马思霖、Vanessa 带你每集解锁唔同菜式， 更会邀请神秘嘉宾一齐试菜倾计！ 记住逢星期四晚上九点三十三分，91台澳视澳门， 锁定《教煮CHILL好玩》，同你一齐 CHILL 住开炉！</desc>
+  </programme>
+  <programme start="20261129000200 +0800" stop="20261129003500 +0800" channel="8">
+    <title lang="zh-CN">中国360°</title>
+  </programme>
+  <programme start="20261129003500 +0800" stop="20261129005200 +0800" channel="8">
+    <title lang="zh-CN">好丰味 2</title>
+  </programme>
+  <programme start="20261129005200 +0800" stop="20261129010000 +0800" channel="8">
+    <title lang="zh-CN">国宝时刻</title>
+  </programme>
+  <programme start="20261129010000 +0800" stop="20261129013000 +0800" channel="8">
+    <title lang="zh-CN">澳门老店—传承</title>
+    <desc lang="zh-CN">为庆祝澳门回归25周年，本次将制作《澳门老店—传承》节目，以在澳门经营最少25年的店舖或老店，一同见证澳门一起成长的故事。 我们会走访不同区份的老店，一起细味熟悉的味道，当中还包括店铺的经营方式、承传故事及周边民生的情形，重温几代人见证澳门发展的点滴，并且分享回归后到现在的改变。诉说眼中的澳门，心中的家国情怀。</desc>
+  </programme>
+  <programme start="20261129013000 +0800" stop="20261129020000 +0800" channel="8">
+    <title lang="zh-CN">英语新闻</title>
+  </programme>
+  <programme start="20261129020000 +0800" stop="20261129025000 +0800" channel="8">
+    <title lang="zh-CN">葡语新闻</title>
+  </programme>
+  <programme start="20261129025000 +0800" stop="20261129031000 +0800" channel="8">
+    <title lang="zh-CN">澳门早晨精华录</title>
+  </programme>
+  <programme start="20261129031000 +0800" stop="20261129034000 +0800" channel="8">
+    <title lang="zh-CN">无名的爱</title>
+  </programme>
+  <programme start="20261129034000 +0800" stop="20261129044000 +0800" channel="8">
+    <title lang="zh-CN">丝路美食之探寻米踪</title>
+  </programme>
+  <programme start="20261129044000 +0800" stop="20261129053000 +0800" channel="8">
+    <title lang="zh-CN">葡语新闻</title>
+  </programme>
+  <programme start="20261129053000 +0800" stop="20261129060000 +0800" channel="8">
+    <title lang="zh-CN">丝路时间U Silk - 对望丝路新旅程</title>
+  </programme>
+  <programme start="20261129060000 +0800" stop="20261129063000 +0800" channel="8">
+    <title lang="zh-CN">中国360°</title>
+  </programme>
+  <programme start="20261129063000 +0800" stop="20261129065000 +0800" channel="8">
+    <title lang="zh-CN">好丰味 2</title>
+  </programme>
+  <programme start="20261129065000 +0800" stop="20261129070000 +0800" channel="8">
+    <title lang="zh-CN">家家有𩠌煮</title>
+  </programme>
+  <programme start="20261129070000 +0800" stop="20261129073000 +0800" channel="8">
+    <title lang="zh-CN">马交游﹕澳门Chill 好玩</title>
+  </programme>
+  <programme start="20261129073000 +0800" stop="20261129080000 +0800" channel="8">
+    <title lang="zh-CN">英语新闻</title>
+  </programme>
+  <programme start="20261129080000 +0800" stop="20261129081000 +0800" channel="8">
+    <title lang="zh-CN">时局综观-英文字幕版</title>
+  </programme>
+  <programme start="20261129081000 +0800" stop="20261129084000 +0800" channel="8">
+    <title lang="zh-CN">无名的爱</title>
+  </programme>
+  <programme start="20261129084000 +0800" stop="20261129090300 +0800" channel="8">
+    <title lang="zh-CN">家家有本事</title>
+    <desc lang="zh-CN">《家家有本事》为一个综合性生活资讯的家庭类节目，邀请相关人士就相关主题提供专业知识，包括日常生活、健康资讯等元素。</desc>
+  </programme>
+  <programme start="20261129090300 +0800" stop="20261129093000 +0800" channel="8">
+    <title lang="zh-CN">湾区全媒睇</title>
+  </programme>
+  <programme start="20261129093000 +0800" stop="20261129101000 +0800" channel="8">
+    <title lang="zh-CN">财经杂志</title>
+  </programme>
+  <programme start="20261129101000 +0800" stop="20261129103500 +0800" channel="8">
+    <title lang="zh-CN">趋记茶餐厅</title>
+    <desc lang="zh-CN">一部以澳门茶餐厅为背景的轻松幽默连续剧，故事围绕茶餐厅的日常营运展开，当中穿插生活热话，搞笑得来又有共鸣，欢迎大家光临！</desc>
+  </programme>
+  <programme start="20261129103500 +0800" stop="20261129113000 +0800" channel="8">
+    <title lang="zh-CN">丝路美食之探寻米踪</title>
+  </programme>
+  <programme start="20261129113000 +0800" stop="20261129115500 +0800" channel="8">
+    <title lang="zh-CN">澳门老店—传承</title>
+    <desc lang="zh-CN">为庆祝澳门回归25周年，本次将制作《澳门老店—传承》节目，以在澳门经营最少25年的店舖或老店，一同见证澳门一起成长的故事。 我们会走访不同区份的老店，一起细味熟悉的味道，当中还包括店铺的经营方式、承传故事及周边民生的情形，重温几代人见证澳门发展的点滴，并且分享回归后到现在的改变。诉说眼中的澳门，心中的家国情怀。</desc>
+  </programme>
+  <programme start="20261129115500 +0800" stop="20261129122000 +0800" channel="8">
+    <title lang="zh-CN">无名的爱</title>
+  </programme>
+  <programme start="20261129122000 +0800" stop="20261129130000 +0800" channel="8">
+    <title lang="zh-CN">财经杂志</title>
+  </programme>
+  <programme start="20261129130000 +0800" stop="20261129133000 +0800" channel="8">
+    <title lang="zh-CN">马交游﹕澳门Chill 好玩</title>
+  </programme>
+  <programme start="20261129133000 +0800" stop="20261129135500 +0800" channel="8">
+    <title lang="zh-CN">家家有本事</title>
+    <desc lang="zh-CN">《家家有本事》为一个综合性生活资讯的家庭类节目，邀请相关人士就相关主题提供专业知识，包括日常生活、健康资讯等元素。</desc>
+  </programme>
+  <programme start="20261129135500 +0800" stop="20261129140500 +0800" channel="8">
+    <title lang="zh-CN">时局综观-英文字幕版</title>
+  </programme>
+  <programme start="20261129140500 +0800" stop="20261129143000 +0800" channel="8">
+    <title lang="zh-CN">趋记茶餐厅</title>
+    <desc lang="zh-CN">一部以澳门茶餐厅为背景的轻松幽默连续剧，故事围绕茶餐厅的日常营运展开，当中穿插生活热话，搞笑得来又有共鸣，欢迎大家光临！</desc>
+  </programme>
+  <programme start="20261129143000 +0800" stop="20261129150000 +0800" channel="8">
+    <title lang="zh-CN">澳门老店—传承</title>
+    <desc lang="zh-CN">为庆祝澳门回归25周年，本次将制作《澳门老店—传承》节目，以在澳门经营最少25年的店舖或老店，一同见证澳门一起成长的故事。 我们会走访不同区份的老店，一起细味熟悉的味道，当中还包括店铺的经营方式、承传故事及周边民生的情形，重温几代人见证澳门发展的点滴，并且分享回归后到现在的改变。诉说眼中的澳门，心中的家国情怀。</desc>
+  </programme>
+  <programme start="20261129150000 +0800" stop="20261129155000 +0800" channel="8">
+    <title lang="zh-CN">葡语新闻</title>
+  </programme>
+  <programme start="20261129155000 +0800" stop="20261129160500 +0800" channel="8">
+    <title lang="zh-CN">锡兰王子东行记</title>
+  </programme>
+  <programme start="20261129160500 +0800" stop="20261129170000 +0800" channel="8">
+    <title lang="zh-CN">丝路美食之探寻米踪</title>
+  </programme>
+  <programme start="20261129170000 +0800" stop="20261129173000 +0800" channel="8">
+    <title lang="zh-CN">中国360°</title>
+  </programme>
+  <programme start="20261129173000 +0800" stop="20261129180000 +0800" channel="8">
+    <title lang="zh-CN">无名的爱</title>
+  </programme>
+  <programme start="20261129180000 +0800" stop="20261129183000 +0800" channel="8">
+    <title lang="zh-CN">马交游﹕澳门Chill 好玩</title>
+  </programme>
+  <programme start="20261129183000 +0800" stop="20261129185200 +0800" channel="8">
+    <title lang="zh-CN">趋记茶餐厅</title>
+    <desc lang="zh-CN">一部以澳门茶餐厅为背景的轻松幽默连续剧，故事围绕茶餐厅的日常营运展开，当中穿插生活热话，搞笑得来又有共鸣，欢迎大家光临！</desc>
+  </programme>
+  <programme start="20261129185200 +0800" stop="20261129190000 +0800" channel="8">
+    <title lang="zh-CN">时局综观-英文字幕版</title>
+  </programme>
+  <programme start="20261129190000 +0800" stop="20261129192200 +0800" channel="8">
+    <title lang="zh-CN">家家有本事</title>
+    <desc lang="zh-CN">《家家有本事》为一个综合性生活资讯的家庭类节目，邀请相关人士就相关主题提供专业知识，包括日常生活、健康资讯等元素。</desc>
+  </programme>
+  <programme start="20261129192200 +0800" stop="20261129200000 +0800" channel="8">
+    <title lang="zh-CN">财经杂志</title>
+  </programme>
+  <programme start="20261129200000 +0800" stop="20261129210000 +0800" channel="8">
+    <title lang="zh-CN">粤语新闻</title>
+  </programme>
+  <programme start="20261129210000 +0800" stop="20261129212700 +0800" channel="8">
+    <title lang="zh-CN">湾区全媒睇</title>
+  </programme>
+  <programme start="20261129212700 +0800" stop="20261129220000 +0800" channel="8">
+    <title lang="zh-CN">丝路时间U Silk - 民以食为天</title>
+  </programme>
+  <programme start="20261129220000 +0800" stop="20261129225000 +0800" channel="8">
+    <title lang="zh-CN">粤语新闻</title>
+  </programme>
+  <programme start="20261129225000 +0800" stop="20261129234000 +0800" channel="8">
+    <title lang="zh-CN">葡语新闻</title>
+  </programme>
+  <programme start="20261129234000 +0800" stop="20261130004000 +0800" channel="8">
     <title lang="zh-CN">家家有本事</title>
     <desc lang="zh-CN">《家家有本事》为一个综合性生活资讯的家庭类节目，邀请相关人士就相关主题提供专业知识，包括日常生活、健康资讯等元素。</desc>
   </programme>
