@@ -35,5 +35,8 @@ jobs:
           git add epg_sources/tdm_epg.xml
           git diff --quiet --cached && echo "无更新" || {
             git commit -m "自动更新 TDM EPG $(date +'%Y-%m-%d')"
+            # 先拉取远程最新代码，用 rebase 方式合并
+            git pull --rebase origin main
+            # 再推送
             git push --force-with-lease origin main
           }
