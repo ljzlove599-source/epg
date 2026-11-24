@@ -22070,13 +22070,19 @@
   <programme start="20261125000000 +0800" stop="20261125010000 +0800" channel="51">
     <title lang="zh-CN">东森夜线新闻</title>
   </programme>
-  <programme start="20261125010000 +0800" stop="20261125030000 +0800" channel="51">
+  <programme start="20261125010000 +0800" stop="20261125020000 +0800" channel="51">
+    <title lang="zh-CN">关键时刻</title>
+  </programme>
+  <programme start="20261125020000 +0800" stop="20261125030000 +0800" channel="51">
     <title lang="zh-CN">关键时刻</title>
   </programme>
   <programme start="20261125030000 +0800" stop="20261125040000 +0800" channel="51">
     <title lang="zh-CN">东森夜线新闻</title>
   </programme>
-  <programme start="20261125040000 +0800" stop="20261125060000 +0800" channel="51">
+  <programme start="20261125040000 +0800" stop="20261125050000 +0800" channel="51">
+    <title lang="zh-CN">东森世界日报</title>
+  </programme>
+  <programme start="20261125050000 +0800" stop="20261125060000 +0800" channel="51">
     <title lang="zh-CN">东森世界日报</title>
   </programme>
   <programme start="20261125060000 +0800" stop="20261125090000 +0800" channel="51">
@@ -22097,19 +22103,28 @@
   <programme start="20261125200000 +0800" stop="20261125220000 +0800" channel="51">
     <title lang="zh-CN">东森世界日报</title>
   </programme>
-  <programme start="20261125220000 +0800" stop="20261126000000 +0800" channel="51">
+  <programme start="20261125220000 +0800" stop="20261125230000 +0800" channel="51">
+    <title lang="zh-CN">关键时刻</title>
+  </programme>
+  <programme start="20261125230000 +0800" stop="20261126000000 +0800" channel="51">
     <title lang="zh-CN">关键时刻</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126010000 +0800" channel="51">
     <title lang="zh-CN">东森夜线新闻</title>
   </programme>
-  <programme start="20261126010000 +0800" stop="20261126030000 +0800" channel="51">
+  <programme start="20261126010000 +0800" stop="20261126020000 +0800" channel="51">
+    <title lang="zh-CN">关键时刻</title>
+  </programme>
+  <programme start="20261126020000 +0800" stop="20261126030000 +0800" channel="51">
     <title lang="zh-CN">关键时刻</title>
   </programme>
   <programme start="20261126030000 +0800" stop="20261126040000 +0800" channel="51">
     <title lang="zh-CN">东森夜线新闻</title>
   </programme>
-  <programme start="20261126040000 +0800" stop="20261126060000 +0800" channel="51">
+  <programme start="20261126040000 +0800" stop="20261126050000 +0800" channel="51">
+    <title lang="zh-CN">东森世界日报</title>
+  </programme>
+  <programme start="20261126050000 +0800" stop="20261126060000 +0800" channel="51">
     <title lang="zh-CN">东森世界日报</title>
   </programme>
   <programme start="20261126060000 +0800" stop="20261126090000 +0800" channel="51">
@@ -22130,19 +22145,28 @@
   <programme start="20261126200000 +0800" stop="20261126220000 +0800" channel="51">
     <title lang="zh-CN">东森世界日报</title>
   </programme>
-  <programme start="20261126220000 +0800" stop="20261127000000 +0800" channel="51">
+  <programme start="20261126220000 +0800" stop="20261126230000 +0800" channel="51">
+    <title lang="zh-CN">关键时刻</title>
+  </programme>
+  <programme start="20261126230000 +0800" stop="20261127000000 +0800" channel="51">
     <title lang="zh-CN">关键时刻</title>
   </programme>
   <programme start="20261127000000 +0800" stop="20261127010000 +0800" channel="51">
     <title lang="zh-CN">东森夜线新闻</title>
   </programme>
-  <programme start="20261127010000 +0800" stop="20261127030000 +0800" channel="51">
+  <programme start="20261127010000 +0800" stop="20261127020000 +0800" channel="51">
+    <title lang="zh-CN">关键时刻</title>
+  </programme>
+  <programme start="20261127020000 +0800" stop="20261127030000 +0800" channel="51">
     <title lang="zh-CN">关键时刻</title>
   </programme>
   <programme start="20261127030000 +0800" stop="20261127040000 +0800" channel="51">
     <title lang="zh-CN">东森夜线新闻</title>
   </programme>
-  <programme start="20261127040000 +0800" stop="20261127060000 +0800" channel="51">
+  <programme start="20261127040000 +0800" stop="20261127050000 +0800" channel="51">
+    <title lang="zh-CN">东森世界日报</title>
+  </programme>
+  <programme start="20261127050000 +0800" stop="20261127060000 +0800" channel="51">
     <title lang="zh-CN">东森世界日报</title>
   </programme>
   <programme start="20261127060000 +0800" stop="20261127090000 +0800" channel="51">
@@ -22163,26 +22187,33 @@
   <programme start="20261127200000 +0800" stop="20261127220000 +0800" channel="51">
     <title lang="zh-CN">东森世界日报</title>
   </programme>
-  <programme start="20261127220000 +0800" stop="20261128000000 +0800" channel="51">
+  <programme start="20261127220000 +0800" stop="20261127230000 +0800" channel="51">
+    <title lang="zh-CN">关键时刻</title>
+  </programme>
+  <programme start="20261127230000 +0800" stop="20261128000000 +0800" channel="51">
     <title lang="zh-CN">关键时刻</title>
   </programme>
   <programme start="20261128000000 +0800" stop="20261128010000 +0800" channel="51">
     <title lang="zh-CN">东森夜线新闻</title>
   </programme>
   <programme start="20261128010000 +0800" stop="20261128020000 +0800" channel="51">
-    <title lang="zh-CN">关键时刻</title>
+    <title lang="zh-CN">台湾启示录</title>
+    <desc lang="zh-CN">以专题报导回顾社会案件、历史事件与人物故事，透过资料与访谈探讨事件背后的脉络。</desc>
   </programme>
   <programme start="20261128020000 +0800" stop="20261128030000 +0800" channel="51">
-    <title lang="zh-CN">关键时刻</title>
+    <title lang="zh-CN">台湾Cheers</title>
+    <desc lang="zh-CN">节目结合人物访谈、饮食文化与生活品味，透过餐桌交流与故事，认识台湾多元的生活样貌。</desc>
   </programme>
   <programme start="20261128030000 +0800" stop="20261128040000 +0800" channel="51">
-    <title lang="zh-CN">东森夜线新闻</title>
+    <title lang="zh-CN">台湾启示录</title>
+    <desc lang="zh-CN">以专题报导回顾社会案件、历史事件与人物故事，透过资料与访谈探讨事件背后的脉络。</desc>
   </programme>
   <programme start="20261128040000 +0800" stop="20261128050000 +0800" channel="51">
-    <title lang="zh-CN">东森世界日报</title>
+    <title lang="zh-CN">台湾Cheers</title>
+    <desc lang="zh-CN">节目结合人物访谈、饮食文化与生活品味，透过餐桌交流与故事，认识台湾多元的生活样貌。</desc>
   </programme>
   <programme start="20261128050000 +0800" stop="20261128060000 +0800" channel="51">
-    <title lang="zh-CN">东森世界日报</title>
+    <title lang="zh-CN">东森夜线新闻</title>
   </programme>
   <programme start="20261128060000 +0800" stop="20261128090000 +0800" channel="51">
     <title lang="zh-CN">Hello台湾</title>
@@ -22209,10 +22240,10 @@
     <title lang="zh-CN">东森夜线新闻</title>
   </programme>
   <programme start="20261129010000 +0800" stop="20261129020000 +0800" channel="51">
-    <title lang="zh-CN">东森夜线新闻</title>
+    <title lang="zh-CN">东森世界日报</title>
   </programme>
   <programme start="20261129020000 +0800" stop="20261129030000 +0800" channel="51">
-    <title lang="zh-CN">东森夜线新闻</title>
+    <title lang="zh-CN">东森世界日报</title>
   </programme>
   <programme start="20261129030000 +0800" stop="20261129040000 +0800" channel="51">
     <title lang="zh-CN">东森夜线新闻</title>
@@ -22221,7 +22252,7 @@
     <title lang="zh-CN">东森世界日报</title>
   </programme>
   <programme start="20261129050000 +0800" stop="20261129060000 +0800" channel="51">
-    <title lang="zh-CN">东森世界日报</title>
+    <title lang="zh-CN">东森夜线新闻</title>
   </programme>
   <programme start="20261129060000 +0800" stop="20261129090000 +0800" channel="51">
     <title lang="zh-CN">Hello台湾</title>
@@ -22289,7 +22320,10 @@
   <programme start="20261130200000 +0800" stop="20261130220000 +0800" channel="51">
     <title lang="zh-CN">东森世界日报</title>
   </programme>
-  <programme start="20261130220000 +0800" stop="20261201000000 +0800" channel="51">
+  <programme start="20261130220000 +0800" stop="20261130230000 +0800" channel="51">
+    <title lang="zh-CN">关键时刻</title>
+  </programme>
+  <programme start="20261130230000 +0800" stop="20261201000000 +0800" channel="51">
     <title lang="zh-CN">关键时刻</title>
   </programme>
   <programme start="20261124010000 +0800" stop="20261124013000 +0800" channel="53">

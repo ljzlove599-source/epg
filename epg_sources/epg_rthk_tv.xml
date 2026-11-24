@@ -7094,8 +7094,20 @@
     <desc lang="zh-Hans">矿洞里的任务</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/super_happy_magic_forest2025</url>
   </programme>
-  <programme start="20261201070500 +0800" stop="20261201080000 +0800" channel="tv31">
-    <title lang="zh-Hans">生活．健康．资讯</title>
+  <programme start="20261201070500 +0800" stop="20261201071500 +0800" channel="tv31">
+    <title lang="zh-Hans">奀菇菇搞搞震 2</title>
+    <desc lang="zh-Hans">我要菇飞</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/mushmushs2</url>
+  </programme>
+  <programme start="20261201071500 +0800" stop="20261201073000 +0800" channel="tv31">
+    <title lang="zh-Hans">奀菇菇搞搞震 2</title>
+    <desc lang="zh-Hans">收藏家搬新屋</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/mushmushs2</url>
+  </programme>
+  <programme start="20261201073000 +0800" stop="20261201080000 +0800" channel="tv31">
+    <title lang="zh-Hans">湾区全媒睇</title>
+    <desc lang="zh-Hans">第一千三百零一集</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/gbalifestyle</url>
   </programme>
   <programme start="20261201080000 +0800" stop="20261201080500 +0800" channel="tv31">
     <title lang="zh-Hans">盛事传城</title>
@@ -7116,7 +7128,9 @@
     <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
   </programme>
   <programme start="20261201110000 +0800" stop="20261201120000 +0800" channel="tv31">
-    <title lang="zh-Hans">生活．健康．资讯</title>
+    <title lang="zh-Hans">学人沙龙</title>
+    <desc lang="zh-Hans">街市的前世今生</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/talkshow</url>
   </programme>
   <programme start="20261201120000 +0800" stop="20261201130000 +0800" channel="tv31">
     <title lang="zh-Hans">31看世界 - 物种大灭绝</title>
