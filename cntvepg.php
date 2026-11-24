@@ -30,7 +30,7 @@ const BATCH_INTERVAL_US   = 1000000;
 const GZIP_COMPRESS_LEVEL = 6;
 
 // 输出目录：脚本同目录下的 epg 文件夹
-const OUTPUT_DIR = __DIR__ . '/epg';
+const OUTPUT_DIR = __DIR__ . '/epg_sources';
 
 const UA_POOL = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
