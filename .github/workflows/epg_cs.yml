@@ -53,7 +53,7 @@ jobs:
             composer install --no-dev --no-progress --no-interaction --prefer-dist
           fi
           # Python 依賴安裝
-          pip install --no-cache-dir opencc curl_cffi beautifulsoup4 requests
+          pip install --no-cache-dir opencc curl_cffi beautifulsoup4 requests aiohttp pytz
           echo "所有依賴安裝完成"
 
       # ---------- 3. 清理历史残留文件 ----------
@@ -105,6 +105,26 @@ jobs:
             echo "hami_generated=false" >> $GITHUB_OUTPUT
           fi
 
+      - name: Run litv EPG scraper
+        id: hami
+        continue-on-error: true
+        run: |
+          if [ -f "litv_epg_merged.py" ]; then
+            echo "運行litv EPG 抓取腳本..."
+            python3 litv_epg_merged.py "$(date '+%Y-%m-%d')" hami.xml
+            if [ -f "${EPG_OUTPUT_DIR}/hami.xml" ]; then
+              echo "✅ 成功生成 hami.xml"
+              echo "litv_generated=true" >> $GITHUB_OUTPUT
+              echo "litv EPG updated at $(date '+%Y-%m-%d %H:%M:%S')" > litv_time.txt
+            else
+              echo "⚠️ 未生成 hami.xml"
+              echo "hami_generated=false" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "⚠️ hami.py 不存在，跳過"
+            echo "hami_generated=false" >> $GITHUB_OUTPUT
+          fi          
+
       # ---------- 5. 检查并运行 PHP 采集脚本 ----------
       - name: Check PHP scripts existence
         id: check_scripts
@@ -112,8 +132,8 @@ jobs:
           echo "檢查 PHP 腳本文件..."
           declare -a scripts=( 
             "51zmt_epg.php" "cntvepg.php" "epg_4k.php" "epg_elta.php"
-            "kbro_epg.php" "mod.php" "nowtv_epg.php" "ofiii_epg.php"
-            "rthk.php" "tdm_epg.php" "zhongtiannam.php"
+            "kbro_epg.php" "mod.php" "nowtv_epg.php" 
+            "rthk.php" "tdm_epg.php" "zhongtianam.php"
           )
           existing_scripts=()
           for script in "${scripts[@]}"; do
