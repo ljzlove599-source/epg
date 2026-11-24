@@ -2,14 +2,14 @@ name: EPG 自动更新
 
 on:
   schedule:
-    # UTC 每天 18:10 → 北京時間次日 02:10
+    # UTC 每天 18:10 → 北京时间次日 02:10
     - cron: '10 18 * * *'
   workflow_dispatch:
 
-# 全局統一時區為北京時間
+# 全局统一时区与输出目录
 env:
   TZ: Asia/Shanghai
-  EPG_OUTPUT_DIR: epg_sources  # 统一声明输出目录，避免路径不一致
+  EPG_OUTPUT_DIR: epg_sources
 
 jobs:
   epg_comprehensive_processing:
@@ -48,13 +48,13 @@ jobs:
 
       - name: Install project dependencies
         run: |
-          # PHP 依賴安裝
+          # PHP 依赖安装
           if [ -f "composer.json" ]; then
             composer install --no-dev --no-progress --no-interaction --prefer-dist
           fi
-          # Python 依賴安裝
+          # Python 依赖安装
           pip install --no-cache-dir opencc curl_cffi beautifulsoup4 requests aiohttp pytz
-          echo "所有依賴安裝完成"
+          echo "所有依赖安装完成"
 
       # ---------- 3. 清理历史残留文件 ----------
       - name: Clean old output files
@@ -62,7 +62,7 @@ jobs:
           rm -f ${EPG_OUTPUT_DIR}/*.xml ${EPG_OUTPUT_DIR}/*.xml.gz *_time.txt time.txt
           rm -rf logs/
           mkdir -p logs ${EPG_OUTPUT_DIR}
-          echo "歷史文件清理完成，输出目录：${EPG_OUTPUT_DIR}"
+          echo "历史文件清理完成，输出目录：${EPG_OUTPUT_DIR}"
 
       # ---------- 4. 运行 Python 采集脚本 ----------
       - name: Run fourgtv EPG scraper
@@ -70,7 +70,7 @@ jobs:
         continue-on-error: true
         run: |
           if [ -f "fourgtv_epg.py" ]; then
-            echo "運行福建 EPG 抓取腳本..."
+            echo "运行福建 EPG 抓取脚本..."
             python3 fourgtv_epg.py
             if [ -f "${EPG_OUTPUT_DIR}/4g.xml" ]; then
               echo "✅ 成功生成 4g.xml"
@@ -81,7 +81,7 @@ jobs:
               echo "fourgtv_generated=false" >> $GITHUB_OUTPUT
             fi
           else
-            echo "⚠️ fourgtv_epg.py 不存在，跳過"
+            echo "⚠️ fourgtv_epg.py 不存在，跳过"
             echo "fourgtv_generated=false" >> $GITHUB_OUTPUT
           fi
 
@@ -90,7 +90,7 @@ jobs:
         continue-on-error: true
         run: |
           if [ -f "hami.py" ]; then
-            echo "運行hami EPG 抓取腳本..."
+            echo "运行hami EPG 抓取脚本..."
             python3 hami.py "$(date '+%Y-%m-%d')" hami.xml
             if [ -f "${EPG_OUTPUT_DIR}/hami.xml" ]; then
               echo "✅ 成功生成 hami.xml"
@@ -101,7 +101,7 @@ jobs:
               echo "hami_generated=false" >> $GITHUB_OUTPUT
             fi
           else
-            echo "⚠️ hami.py 不存在，跳過"
+            echo "⚠️ hami.py 不存在，跳过"
             echo "hami_generated=false" >> $GITHUB_OUTPUT
           fi
 
@@ -110,7 +110,7 @@ jobs:
         continue-on-error: true
         run: |
           if [ -f "litv_epg_merged.py" ]; then
-            echo "運行litv EPG 抓取腳本..."
+            echo "运行litv EPG 抓取脚本..."
             python3 litv_epg_merged.py "$(date '+%Y-%m-%d')" litv_epg.xml
             if [ -f "${EPG_OUTPUT_DIR}/litv_epg.xml" ]; then
               echo "✅ 成功生成 litv_epg.xml"
@@ -121,19 +121,19 @@ jobs:
               echo "litv_generated=false" >> $GITHUB_OUTPUT
             fi
           else
-            echo "⚠️ litv_epg_merged.py 不存在，跳過"
+            echo "⚠️ litv_epg_merged.py 不存在，跳过"
             echo "litv_generated=false" >> $GITHUB_OUTPUT
-          fi          
+          fi
 
       - name: Run ofiii EPG scraper
         id: ofiii
         continue-on-error: true
         run: |
           if [ -f "ofiii_epg.py" ]; then
-            echo "運行ofiii EPG 抓取腳本..."
+            echo "运行ofiii EPG 抓取脚本..."
             python3 ofiii_epg.py "$(date '+%Y-%m-%d')" ofiii.xml
             if [ -f "${EPG_OUTPUT_DIR}/ofiii.xml" ]; then
-              echo "✅ 成功生成 ofiii_epg.xml"
+              echo "✅ 成功生成 ofiii.xml"
               echo "ofiii_generated=true" >> $GITHUB_OUTPUT
               echo "ofiii EPG updated at $(date '+%Y-%m-%d %H:%M:%S')" > ofiii_time.txt
             else
@@ -141,20 +141,19 @@ jobs:
               echo "ofiii_generated=false" >> $GITHUB_OUTPUT
             fi
           else
-            echo "⚠️ ofiii_epg.py 不存在，跳過"
+            echo "⚠️ ofiii_epg.py 不存在，跳过"
             echo "ofiii_generated=false" >> $GITHUB_OUTPUT
-          fi          
-
+          fi
 
       # ---------- 5. 检查并运行 PHP 采集脚本 ----------
       - name: Check PHP scripts existence
         id: check_scripts
         run: |
-          echo "檢查 PHP 腳本文件..."
-          declare -a scripts=( 
+          echo "检查 PHP 脚本文件..."
+          declare -a scripts=(
             "51zmt_epg.php" "cntvepg.php" "epg_4k.php" "epg_elta.php"
-            "kbro_epg.php" "mod.php" "nowtv_epg.php" 
-            "rthk.php" "tdm_epg.php" "zhongtianam.php"
+            "kbro_epg.php" "mod.php" "nowtv_epg.php"
+            "rthk.php" "tdm_epg.php" "zhongtiannam.php"
           )
           existing_scripts=()
           for script in "${scripts[@]}"; do
@@ -166,7 +165,7 @@ jobs:
             fi
           done
           if [ ${#existing_scripts[@]} -eq 0 ]; then
-            echo "警告: 沒有找到任何 PHP 腳本文件，跳過 EPG 生成"
+            echo "警告: 没有找到任何 PHP 脚本文件，跳过 EPG 生成"
             echo "existing_scripts=" >> $GITHUB_OUTPUT
           else
             scripts_list=$(IFS=,; echo "${existing_scripts[*]}")
@@ -174,7 +173,7 @@ jobs:
           fi
 
       - name: Run PHP scripts to generate EPG XML
-        if: steps.check_scripts.outputs.existing_scripts != ''
+        if: ${{ steps.check_scripts.outputs.existing_scripts != '' }}
         id: run_php_scripts
         continue-on-error: true
         run: |
@@ -184,30 +183,30 @@ jobs:
 
           for script in "${scripts[@]}"; do
             echo "========================================="
-            echo "正在運行: $script"
+            echo "正在运行: $script"
             start_time=$(date +%s)
             log_file="logs/${script%.php}.log"
 
             if php "$script" > "$log_file" 2>&1; then
               end_time=$(date +%s)
               duration=$((end_time - start_time))
-              echo "✓ $script 執行成功 (耗時: ${duration}秒)"
+              echo "✓ $script 执行成功 (耗时: ${duration}秒)"
               success_count=$((success_count + 1))
             else
               end_time=$(date +%s)
               duration=$((end_time - start_time))
-              echo "✗ $script 執行失敗！(耗時: ${duration}秒)"
+              echo "✗ $script 执行失败！(耗时: ${duration}秒)"
               failed_scripts+=("$script")
-              echo "--- 最後 20 行日誌 ---"
-              tail -n 20 "$log_file" 2>/dev/null || echo "無法讀取日誌文件"
+              echo "--- 最后 20 行日志 ---"
+              tail -n 20 "$log_file" 2>/dev/null || echo "无法读取日志文件"
               echo "----------------------"
             fi
             echo "========================================="
           done
 
-          echo "執行完成: 成功 ${success_count} 個，失敗 ${#failed_scripts[@]} 個"
+          echo "执行完成: 成功 ${success_count} 个，失败 ${#failed_scripts[@]} 个"
           if [ ${#failed_scripts[@]} -gt 0 ]; then
-            echo "失敗腳本列表: ${failed_scripts[*]}"
+            echo "失败脚本列表: ${failed_scripts[*]}"
           fi
           echo "php_failed_count=${#failed_scripts[@]}" >> $GITHUB_OUTPUT
 
@@ -219,27 +218,27 @@ jobs:
             "4g.xml" "cntv.xml.gz" "epg_4k.xml" "epg_elta.xml"
             "epg_nowtv.xml" "epg_zhongtiannam.xml" "hami.xml" "litv_epg.xml"
             "ofiii.xml" "epg_rthk_tv.xml" "kbro_epg.xml" "mod_epg.xml"
-            "tdm_epg.xml" 
+            "tdm_epg.xml"
           )
-          
+
           generated_files=()
           valid_xml=0
           invalid_xml=0
-          
-          echo "開始檢查生成的 XML 文件（目录：${EPG_OUTPUT_DIR}）..."
+
+          echo "开始检查生成的 XML 文件（目录：${EPG_OUTPUT_DIR}）..."
           for xml_file in "${expected_xml[@]}"; do
             file_path="${EPG_OUTPUT_DIR}/${xml_file}"
             if [ -f "$file_path" ]; then
               filesize=$(stat -c%s "$file_path" 2>/dev/null || wc -c < "$file_path" | awk '{print $1}')
               echo "✓ 生成文件: $file_path (大小: $filesize bytes)"
               generated_files+=("$file_path")
-              
+
               if [[ "$xml_file" != *.gz ]]; then
                 if xmllint --noout "$file_path" 2>/dev/null; then
-                  echo "  ✅ XML 格式驗證通過"
+                  echo "  ✅ XML 格式验证通过"
                   valid_xml=$((valid_xml + 1))
                 else
-                  echo "  ❌ XML 格式驗證失敗！"
+                  echo "  ❌ XML 格式验证失败！"
                   invalid_xml=$((invalid_xml + 1))
                 fi
               fi
@@ -247,10 +246,10 @@ jobs:
               echo "✗ 未生成文件: $file_path"
             fi
           done
-          
-          echo "已生成文件數量: ${#generated_files[@]}"
-          echo "格式合法: $valid_xml 個，格式異常: $invalid_xml 個"
-          
+
+          echo "已生成文件数量: ${#generated_files[@]}"
+          echo "格式合法: $valid_xml 个，格式异常: $invalid_xml 个"
+
           if [ ${#generated_files[@]} -eq 0 ]; then
             echo "generated_xml=" >> $GITHUB_OUTPUT
           else
@@ -262,10 +261,10 @@ jobs:
 
       # ---------- 7. 更新时间戳 ----------
       - name: Update time.txt with latest timestamp
-        if: steps.check_xml.outputs.generated_xml != ''
+        if: ${{ steps.check_xml.outputs.generated_xml != '' }}
         run: |
           echo "Last XML update: $(date '+%Y-%m-%d %H:%M:%S')" > time.txt
-          echo "時間戳已更新: $(cat time.txt)"
+          echo "时间戳已更新: $(cat time.txt)"
 
       # ---------- 8. 提交结果并推送回仓库 ----------
       - name: Commit and push all generated files
@@ -295,11 +294,10 @@ jobs:
           shopt -u nullglob
 
           if git diff --cached --quiet; then
-            echo "無新增變更，跳過提交"
+            echo "无新增变更，跳过提交"
             exit 0
           fi
 
-          git commit -m "bot: 更新 EPG 數據 $(date '+%Y-%m-%d %H:%M')"
+          git commit -m "bot: 更新 EPG 数据 $(date '+%Y-%m-%d %H:%M')"
           git push origin ${{ github.ref_name }}
-          echo "✅ 所有生成結果已推送回倉庫"
-
+          echo "✅ 所有生成结果已推送回仓库"
