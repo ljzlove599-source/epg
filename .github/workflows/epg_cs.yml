@@ -131,7 +131,7 @@ jobs:
         run: |
           if [ -f "ofiii_epg.py" ]; then
             echo "运行ofiii EPG 抓取脚本..."
-            python3 ofiii_epg.py "$(date '+%Y-%m-%d')" ofiii.xml
+            python3 ofiii_epg.py "${EPG_OUTPUT_DIR}/ofiii.xml
             if [ -f "${EPG_OUTPUT_DIR}/ofiii.xml" ]; then
               echo "✅ 成功生成 ofiii.xml"
               echo "ofiii_generated=true" >> $GITHUB_OUTPUT
@@ -153,7 +153,7 @@ jobs:
           declare -a scripts=(
             "51zmt_epg.php" "cntvepg.php" "epg_4k.php" "epg_elta.php"
             "kbro_epg.php" "mod.php" "nowtv_epg.php"
-            "rthk.php" "tdm_epg.php" "zhongtiannam.php"
+            "rthk.php" "tdm_epg.php" "zhongtianam.php"
           )
           existing_scripts=()
           for script in "${scripts[@]}"; do
