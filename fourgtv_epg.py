@@ -21,7 +21,7 @@ except ImportError:
 
 # 路径配置：基于当前工作目录，兼容本地与GitHub Actions环境
 BASE_DIR = os.getcwd()
-OUTPUT_DIR = os.path.join(BASE_DIR, "epg")
+OUTPUT_DIR = os.path.join(BASE_DIR, "epg_sources")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # 提前初始化日志（控制台+文件双输出）
