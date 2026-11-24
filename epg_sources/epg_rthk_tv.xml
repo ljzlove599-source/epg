@@ -1218,6 +1218,7 @@
   </programme>
   <programme start="20261124220000 +0800" stop="20261124223000 +0800" channel="tv31">
     <title lang="zh-Hans">纵横天下事</title>
+    <desc lang="zh-Hans">纵横天下事：APEC中俄美元首历史性会面</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/globalinsight</url>
   </programme>
   <programme start="20261124223000 +0800" stop="20261124230000 +0800" channel="tv31">
@@ -1489,6 +1490,7 @@
   </programme>
   <programme start="20261124193000 +0800" stop="20261124200000 +0800" channel="tv32">
     <title lang="zh-Hans">纵横天下事</title>
+    <desc lang="zh-Hans">纵横天下事：APEC中俄美元首历史性会面</desc>
     <url>https://www.rthk.hk/tv/dtt32/programme/globalinsight</url>
   </programme>
   <programme start="20261124200000 +0800" stop="20261124201500 +0800" channel="tv32">
@@ -1525,6 +1527,7 @@
   </programme>
   <programme start="20261124230000 +0800" stop="20261124233000 +0800" channel="tv32">
     <title lang="zh-Hans">纵横天下事</title>
+    <desc lang="zh-Hans">纵横天下事：APEC中俄美元首历史性会面</desc>
     <url>https://www.rthk.hk/tv/dtt32/programme/globalinsight</url>
   </programme>
   <programme start="20261124233000 +0800" stop="20261125000000 +0800" channel="tv32">
@@ -1986,6 +1989,7 @@
   </programme>
   <programme start="20261125020000 +0800" stop="20261125023000 +0800" channel="tv31">
     <title lang="zh-Hans">纵横天下事</title>
+    <desc lang="zh-Hans">纵横天下事：APEC中俄美元首历史性会面</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/globalinsight</url>
   </programme>
   <programme start="20261125023000 +0800" stop="20261125030000 +0800" channel="tv31">
@@ -2084,6 +2088,7 @@
   </programme>
   <programme start="20261125131000 +0800" stop="20261125140000 +0800" channel="tv31">
     <title lang="zh-Hans">精灵一点</title>
+    <desc lang="zh-Hans">精灵一点 11月25日</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/healthpedia_tv</url>
   </programme>
   <programme start="20261125140000 +0800" stop="20261125140500 +0800" channel="tv31">
@@ -2206,6 +2211,7 @@
   </programme>
   <programme start="20261125010000 +0800" stop="20261125013000 +0800" channel="tv32">
     <title lang="zh-Hans">纵横天下事</title>
+    <desc lang="zh-Hans">纵横天下事：APEC中俄美元首历史性会面</desc>
     <url>https://www.rthk.hk/tv/dtt32/programme/globalinsight</url>
   </programme>
   <programme start="20261125013000 +0800" stop="20261125020000 +0800" channel="tv32">
@@ -5809,6 +5815,7 @@
   </programme>
   <programme start="20261129213000 +0800" stop="20261129220000 +0800" channel="tv32">
     <title lang="zh-Hans">纵横天下事</title>
+    <desc lang="zh-Hans">纵横天下事：APEC中俄美元首历史性会面</desc>
     <url>https://www.rthk.hk/tv/dtt32/programme/globalinsight</url>
   </programme>
   <programme start="20261129220000 +0800" stop="20261129220500 +0800" channel="tv32">

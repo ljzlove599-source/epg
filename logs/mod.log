@@ -20,12 +20,11 @@
 频道 LUXE TV HD (263) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=263&w=1]:  (HTTP 500)
 已处理 70 / 185 个频道
 频道 EYE TV旅游台HD (279) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=279&w=1]:  (HTTP 500)
-频道 三立综合台HD (301) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=301&w=1]:  (HTTP 500)
+已处理 80 / 185 个频道
 已处理 90 / 185 个频道
 频道 民视第一台HD (316) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=316&w=1]:  (HTTP 500)
 已处理 100 / 185 个频道
 频道 东森购物3台HD (349) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=349&w=1]:  (HTTP 500)
-频道 三立戏剧台HD (350) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=350&w=1]:  (HTTP 500)
 已处理 110 / 185 个频道
 频道 EYE TV戏剧台HD (358) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=358&w=1]:  (HTTP 500)
 频道 东森购物2台HD (365) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=365&w=1]:  (HTTP 500)
@@ -33,9 +32,8 @@
 已处理 120 / 185 个频道
 频道 东森购物1台HD (396) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=396&w=1]:  (HTTP 500)
 频道 东森购物4台HD (399) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=399&w=1]:  (HTTP 500)
-频道 三立财经新闻台HD (504) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=504&w=1]:  (HTTP 500)
+已处理 130 / 185 个频道
 频道 东森购物5台HD (546) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=546&w=1]:  (HTTP 500)
-频道 CNNI HD (550) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=550&w=1]:  (HTTP 500)
 已处理 140 / 185 个频道
 频道 TaiwanPlus (558) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=558&w=1]:  (HTTP 500)
 频道 视纳华仁纪实台HD (600) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=600&w=1]:  (HTTP 500)
@@ -47,4 +45,4 @@
 生成完成
 文件路径：/home/runner/work/epg/epg/epg_sources/mod_epg.xml
 频道数量：185 个
-文件大小：11985.81 KB
+文件大小：12091.93 KB

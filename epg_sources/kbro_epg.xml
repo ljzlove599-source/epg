@@ -40385,12 +40385,12 @@
   <programme start="20261125001500 +0800" stop="20261125004000 +0800" channel="107">
     <title lang="zh-CN">今日料理</title>
   </programme>
-  <programme start="20261125004000 +0800" stop="20261125010500 +0800" channel="107">
+  <programme start="20261125002000 +0800" stop="20261125004500 +0800" channel="107">
+    <title lang="zh-CN">今日料理</title>
+  </programme>
+  <programme start="20261125004500 +0800" stop="20261125011000 +0800" channel="107">
     <title lang="zh-CN">NHK短歌</title>
     <desc lang="zh-CN">深入推广日本传统短歌文学与现代创作美学的古典教养节目。由知名歌人担任指导导师，细致评析来自全国投稿作品的遣词造句与深邃意境，引领大众领略五七五七七诗体之美。</desc>
-  </programme>
-  <programme start="20261125010500 +0800" stop="20261125011000 +0800" channel="107">
-    <title lang="zh-CN">自然百景5min.</title>
   </programme>
   <programme start="20261125011000 +0800" stop="20261125013000 +0800" channel="107">
     <title lang="zh-CN">幸福德语</title>
@@ -40409,7 +40409,7 @@
     <title lang="zh-CN">与妈妈同乐</title>
   </programme>
   <programme start="20261125022500 +0800" stop="20261125023000 +0800" channel="107">
-    <title lang="zh-CN">迷你节目</title>
+    <title lang="zh-CN">自然百景5min.</title>
   </programme>
   <programme start="20261125023000 +0800" stop="20261125024500 +0800" channel="107">
     <title lang="zh-CN">晨间连续剧「绽放」:42</title>
@@ -40467,7 +40467,7 @@
     <title lang="zh-CN">迷你节目</title>
   </programme>
   <programme start="20261125102000 +0800" stop="20261125105000 +0800" channel="107">
-    <title lang="zh-CN">世界台精选</title>
+    <title lang="zh-CN">千鸟诺布与涩谷搞笑剧场 高桥真梨子首登搞笑节目！</title>
   </programme>
   <programme start="20261125105000 +0800" stop="20261125105500 +0800" channel="107">
     <title lang="zh-CN">大家的歌</title>
@@ -40561,8 +40561,7 @@
     <title lang="zh-CN">八点看新闻</title>
   </programme>
   <programme start="20261125210000 +0800" stop="20261125214500 +0800" channel="107">
-    <title lang="zh-CN">历史探侦</title>
-    <desc lang="zh-CN">以实地调查、史料研究及科学模拟等方式追寻历史线索，探索人物与事件背后的谜团。</desc>
+    <title lang="zh-CN">历史探侦「熊野 1000年的圣地」</title>
   </programme>
   <programme start="20261125214500 +0800" stop="20261125220000 +0800" channel="107">
     <title lang="zh-CN">夜间戏剧「青之花 器之森」:19</title>
@@ -40617,7 +40616,7 @@
     <title lang="zh-CN">迷你节目</title>
   </programme>
   <programme start="20261126023000 +0800" stop="20261126024500 +0800" channel="107">
-    <title lang="zh-CN">晨间连续剧「绽放」</title>
+    <title lang="zh-CN">晨间连续剧「绽放」:43</title>
   </programme>
   <programme start="20261126024500 +0800" stop="20261126031200 +0800" channel="107">
     <title lang="zh-CN">今日焦点</title>
@@ -40648,7 +40647,7 @@
     <title lang="zh-CN">6点晨间新闻</title>
   </programme>
   <programme start="20261126070000 +0800" stop="20261126071500 +0800" channel="107">
-    <title lang="zh-CN">晨间连续剧「绽放」</title>
+    <title lang="zh-CN">晨间连续剧「绽放」:44</title>
   </programme>
   <programme start="20261126071500 +0800" stop="20261126085400 +0800" channel="107">
     <title lang="zh-CN">晨间资讯快递</title>
@@ -40691,10 +40690,10 @@
     <title lang="zh-CN">迷你节目</title>
   </programme>
   <programme start="20261126113000 +0800" stop="20261126114500 +0800" channel="107">
-    <title lang="zh-CN">经典晨间剧「雏鸟」</title>
+    <title lang="zh-CN">经典晨间剧「雏鸟」:79</title>
   </programme>
   <programme start="20261126114500 +0800" stop="20261126120000 +0800" channel="107">
-    <title lang="zh-CN">晨间连续剧「绽放」</title>
+    <title lang="zh-CN">晨间连续剧「绽放」:44</title>
   </programme>
   <programme start="20261126120000 +0800" stop="20261126120500 +0800" channel="107">
     <title lang="zh-CN">新闻</title>
@@ -40715,7 +40714,7 @@
     <title lang="zh-CN">今日健康</title>
   </programme>
   <programme start="20261126142500 +0800" stop="20261126144000 +0800" channel="107">
-    <title lang="zh-CN">夜间戏剧「青之花 器之森」</title>
+    <title lang="zh-CN">夜间戏剧「青之花 器之森」:19</title>
   </programme>
   <programme start="20261126144000 +0800" stop="20261126145000 +0800" channel="107">
     <title lang="zh-CN">观点论点</title>
@@ -40758,8 +40757,11 @@
   <programme start="20261126180000 +0800" stop="20261126183000 +0800" channel="107">
     <title lang="zh-CN">六点新闻</title>
   </programme>
-  <programme start="20261126183000 +0800" stop="20261126194300 +0800" channel="107">
-    <title lang="zh-CN">世界台精选</title>
+  <programme start="20261126183000 +0800" stop="20261126193000 +0800" channel="107">
+    <title lang="zh-CN">百名山 登山之旅！鹿岛枪岳 漫步秋日山脊</title>
+  </programme>
+  <programme start="20261126193000 +0800" stop="20261126194300 +0800" channel="107">
+    <title lang="zh-CN">迷你节目</title>
   </programme>
   <programme start="20261126194300 +0800" stop="20261126194500 +0800" channel="107">
     <title lang="zh-CN">世界天气</title>
@@ -40771,11 +40773,10 @@
     <title lang="zh-CN">八点看新闻</title>
   </programme>
   <programme start="20261126210000 +0800" stop="20261126214500 +0800" channel="107">
-    <title lang="zh-CN">SONGS</title>
-    <desc lang="zh-CN">音乐节目邀请歌手与音乐人登场，以演唱、访谈及音乐故事，展现歌曲和创作者的魅力。</desc>
+    <title lang="zh-CN">SONGS SPECIAL 药师丸博子</title>
   </programme>
   <programme start="20261126214500 +0800" stop="20261126220000 +0800" channel="107">
-    <title lang="zh-CN">夜间戏剧「青之花 器之森」</title>
+    <title lang="zh-CN">夜间戏剧「青之花 器之森」:20</title>
   </programme>
   <programme start="20261126220000 +0800" stop="20261126223000 +0800" channel="107">
     <title lang="zh-CN">所桑！出事了</title>
@@ -40794,8 +40795,7 @@
     <title lang="zh-CN">世界天气</title>
   </programme>
   <programme start="20261126233000 +0800" stop="20261127000000 +0800" channel="107">
-    <title lang="zh-CN">极致艺能堂</title>
-    <desc lang="zh-CN">深入推广与鉴赏日本传统表演艺术之文化节目。透过高画质现场实况与名家精辟导读，引领观众品味歌舞伎、能乐、狂言、文乐及日本传统邦乐的极致舞台美学与深厚历史底蕴。</desc>
+    <title lang="zh-CN">极致艺能堂 第40回俳优祭特集</title>
   </programme>
   <programme start="20261127000000 +0800" stop="20261127000500 +0800" channel="107">
     <title lang="zh-CN">每日育儿指南</title>
@@ -40831,10 +40831,17 @@
     <title lang="zh-CN">哈啰！新闻资讯台</title>
   </programme>
   <programme start="20261127023000 +0800" stop="20261127024500 +0800" channel="107">
-    <title lang="zh-CN">晨间连续剧「绽放」</title>
+    <title lang="zh-CN">晨间连续剧「绽放」:44</title>
   </programme>
-  <programme start="20261127024500 +0800" stop="20261127035800 +0800" channel="107">
-    <title lang="zh-CN">世界台精选</title>
+  <programme start="20261127024500 +0800" stop="20261127034400 +0800" channel="107">
+    <title lang="zh-CN">百名山 登山之旅！鹿岛枪岳 漫步秋日山脊</title>
+  </programme>
+  <programme start="20261127034400 +0800" stop="20261127035400 +0800" channel="107">
+    <title lang="zh-CN">体验大自然10min.</title>
+    <desc lang="zh-CN">以短篇影像走访世界各地壮丽的自然景观，探索地形形成的历史及大自然奇妙的力量。</desc>
+  </programme>
+  <programme start="20261127035400 +0800" stop="20261127035800 +0800" channel="107">
+    <title lang="zh-CN">迷你节目</title>
   </programme>
   <programme start="20261127035800 +0800" stop="20261127040000 +0800" channel="107">
     <title lang="zh-CN">世界天气</title>
@@ -40858,7 +40865,7 @@
     <title lang="zh-CN">6点晨间新闻</title>
   </programme>
   <programme start="20261127070000 +0800" stop="20261127071500 +0800" channel="107">
-    <title lang="zh-CN">晨间连续剧「绽放」</title>
+    <title lang="zh-CN">晨间连续剧「绽放」:45</title>
   </programme>
   <programme start="20261127071500 +0800" stop="20261127085400 +0800" channel="107">
     <title lang="zh-CN">晨间资讯快递</title>
@@ -40899,16 +40906,19 @@
     <title lang="zh-CN">迷你节目</title>
   </programme>
   <programme start="20261127113000 +0800" stop="20261127114500 +0800" channel="107">
-    <title lang="zh-CN">经典晨间剧「雏鸟」</title>
+    <title lang="zh-CN">经典晨间剧「雏鸟」:80</title>
   </programme>
   <programme start="20261127114500 +0800" stop="20261127120000 +0800" channel="107">
-    <title lang="zh-CN">晨间连续剧「绽放」</title>
+    <title lang="zh-CN">晨间连续剧「绽放」:45</title>
   </programme>
   <programme start="20261127120000 +0800" stop="20261127120500 +0800" channel="107">
     <title lang="zh-CN">新闻</title>
   </programme>
-  <programme start="20261127120500 +0800" stop="20261127135000 +0800" channel="107">
+  <programme start="20261127120500 +0800" stop="20261127133000 +0800" channel="107">
     <title lang="zh-CN">列岛新闻</title>
+  </programme>
+  <programme start="20261127133000 +0800" stop="20261127135000 +0800" channel="107">
+    <title lang="zh-CN">世界台精选</title>
   </programme>
   <programme start="20261127135000 +0800" stop="20261127135500 +0800" channel="107">
     <title lang="zh-CN">世界天气</title>
@@ -40923,7 +40933,7 @@
     <title lang="zh-CN">今日健康</title>
   </programme>
   <programme start="20261127142500 +0800" stop="20261127144000 +0800" channel="107">
-    <title lang="zh-CN">夜间戏剧「青之花 器之森」</title>
+    <title lang="zh-CN">夜间戏剧「青之花 器之森」:20</title>
   </programme>
   <programme start="20261127144000 +0800" stop="20261127145500 +0800" channel="107">
     <title lang="zh-CN">相似找一找</title>
@@ -40969,7 +40979,11 @@
   <programme start="20261127180000 +0800" stop="20261127183000 +0800" channel="107">
     <title lang="zh-CN">六点新闻</title>
   </programme>
-  <programme start="20261127183000 +0800" stop="20261127194300 +0800" channel="107">
+  <programme start="20261127183000 +0800" stop="20261127191300 +0800" channel="107">
+    <title lang="zh-CN">夏井五木读旅！「四国特集 探访鲣鱼爱好第一的小镇」</title>
+    <desc lang="zh-CN">俳人夏井五木走访四国乡镇，深入探索热爱鲣鱼的在地生活文化与饮食传统，透过与居民互动交流及即兴俳句创作，体会丰富的人情风貌。</desc>
+  </programme>
+  <programme start="20261127191300 +0800" stop="20261127194300 +0800" channel="107">
     <title lang="zh-CN">世界台精选</title>
   </programme>
   <programme start="20261127194300 +0800" stop="20261127194500 +0800" channel="107">
@@ -41034,10 +41048,11 @@
     <title lang="zh-CN">与妈妈同乐</title>
   </programme>
   <programme start="20261128022500 +0800" stop="20261128023000 +0800" channel="107">
-    <title lang="zh-CN">迷你节目</title>
+    <title lang="zh-CN">日本百名山mini</title>
+    <desc lang="zh-CN">领略日本名山壮丽风光与登山乐趣的自然纪行短片。透过高画质空拍与登山步道实地跟拍，精选日本百名山的四季险奇地貌、高山特有动植物生态与健行探险指南。</desc>
   </programme>
   <programme start="20261128023000 +0800" stop="20261128024500 +0800" channel="107">
-    <title lang="zh-CN">晨间连续剧「绽放」</title>
+    <title lang="zh-CN">晨间连续剧「绽放」:45</title>
   </programme>
   <programme start="20261128024500 +0800" stop="20261128033500 +0800" channel="107">
     <title lang="zh-CN">土曜戏剧「老害之人」(5)最终回</title>
@@ -41054,11 +41069,15 @@
     <title lang="zh-CN">电视体操</title>
   </programme>
   <programme start="20261128041000 +0800" stop="20261128042500 +0800" channel="107">
-    <title lang="zh-CN">自然百景</title>
+    <title lang="zh-CN">自然百景「北海道 斜里海岸」</title>
+    <desc lang="zh-CN">走访北海道斜里海岸，以精致细腻的镜头捕捉沿岸壮阔的自然景观与四季生态，呈现野生动植物在严峻环境中繁衍生息的珍贵画面。</desc>
   </programme>
-  <programme start="20261128042500 +0800" stop="20261128045500 +0800" channel="107">
+  <programme start="20261128042500 +0800" stop="20261128045100 +0800" channel="107">
     <title lang="zh-CN">NHK地方台</title>
     <desc lang="zh-CN">深度介绍日本各都道府县在地特色风土与乡土文化的专题精选。深入各地城乡聚落走访百年老店、非物质文化遗产与在地创生人物，细腻展现日本地方社会丰厚的生活文化与人情味。</desc>
+  </programme>
+  <programme start="20261128045100 +0800" stop="20261128045500 +0800" channel="107">
+    <title lang="zh-CN">迷你节目</title>
   </programme>
   <programme start="20261128045500 +0800" stop="20261128050000 +0800" channel="107">
     <title lang="zh-CN">世界天气</title>
@@ -41073,7 +41092,7 @@
     <title lang="zh-CN">世界天气</title>
   </programme>
   <programme start="20261128070000 +0800" stop="20261128071500 +0800" channel="107">
-    <title lang="zh-CN">晨间连续剧「绽放」</title>
+    <title lang="zh-CN">晨间连续剧「绽放」第9周</title>
   </programme>
   <programme start="20261128071500 +0800" stop="20261128080000 +0800" channel="107">
     <title lang="zh-CN">知子酱开骂</title>
@@ -41094,7 +41113,8 @@
     <title lang="zh-CN">新闻气象</title>
   </programme>
   <programme start="20261128090500 +0800" stop="20261128093300 +0800" channel="107">
-    <title lang="zh-CN">世界台精选</title>
+    <title lang="zh-CN">家有小狗！柴犬 健与花</title>
+    <desc lang="zh-CN">温馨宠物家庭纪实节目，贴身记录柴犬健与花的日常生活点滴，呈现饲主与爱犬之间的亲密情感、趣味互动以及彼此相伴的疗愈生活时光。</desc>
   </programme>
   <programme start="20261128093300 +0800" stop="20261128100600 +0800" channel="107">
     <title lang="zh-CN">有吉发大财</title>
@@ -41122,26 +41142,33 @@
     <desc lang="zh-CN">走访日本各地制造工厂与知名产品生产基地的实地探勘节目。深入产线核心观察精密机械与职人精湛手艺，完整记录生活日用品到尖端零件诞生背后令人惊叹的制造工艺。</desc>
   </programme>
   <programme start="20261128114000 +0800" stop="20261128114500 +0800" channel="107">
-    <title lang="zh-CN">迷你节目</title>
+    <title lang="zh-CN">镜头日本</title>
+    <desc lang="zh-CN">精致人文风景摄影纪实短片。透过摄影师高画质镜头走访日本各地的四季自然景观、传统城乡建筑与常民生活细节，在悠扬配乐与静谧画面中呈现日本独特的美学意境与人文风情。</desc>
   </programme>
   <programme start="20261128114500 +0800" stop="20261128120000 +0800" channel="107">
-    <title lang="zh-CN">晨间连续剧「绽放」</title>
+    <title lang="zh-CN">晨间连续剧「绽放」第9周</title>
   </programme>
   <programme start="20261128120000 +0800" stop="20261128120500 +0800" channel="107">
     <title lang="zh-CN">新闻气象</title>
   </programme>
   <programme start="20261128120500 +0800" stop="20261128125000 +0800" channel="107">
-    <title lang="zh-CN">大河剧「丰臣兄弟！」</title>
+    <title lang="zh-CN">大河剧「丰臣兄弟！」:45</title>
   </programme>
-  <programme start="20261128125000 +0800" stop="20261128160000 +0800" channel="107">
-    <title lang="zh-CN">世界台精选</title>
+  <programme start="20261128125000 +0800" stop="20261128142000 +0800" channel="107">
+    <title lang="zh-CN">西藏天空圣地 中国秘境铁道之旅</title>
+    <desc lang="zh-CN">铁道旅游纪录节目，搭乘高原列车深入西藏高原与群山秘境，沿途饱览雪山、湖泊与藏地风光，记录铁道沿线的独特风土人情与历史文化。</desc>
   </programme>
-  <programme start="20261128160000 +0800" stop="20261128163000 +0800" channel="107">
-    <title lang="zh-CN">我家动物园</title>
-    <desc lang="zh-CN">透过动物园饲育员记录的珍贵影像，观察动物们的生活与有趣行为，发掘不为人知的生态。</desc>
+  <programme start="20261128142000 +0800" stop="20261128155000 +0800" channel="107">
+    <title lang="zh-CN">发现！离岛疗愈慢生活</title>
+    <desc lang="zh-CN">走访日本各地离岛的纪实漫游节目，记录岛屿迷人的自然景致、纯朴风土民情与居民悠闲的生活节奏，带领观众感受远离尘嚣的慢活时光。</desc>
   </programme>
-  <programme start="20261128163000 +0800" stop="20261128163500 +0800" channel="107">
-    <title lang="zh-CN">大家的歌</title>
+  <programme start="20261128155000 +0800" stop="20261128160000 +0800" channel="107">
+    <title lang="zh-CN">日本巨树之旅mini</title>
+    <desc lang="zh-CN">走访日本各地的大树，欣赏历经岁月的巨木姿态，并认识树木与当地自然、人文之间的关系。</desc>
+  </programme>
+  <programme start="20261128160000 +0800" stop="20261128163500 +0800" channel="107">
+    <title lang="zh-CN">游戏捉迷藏乐园</title>
+    <desc lang="zh-CN">《游戏捉迷藏》的舞台节目，角色们透过歌曲、舞蹈和游戏，与亲子观众共度欢乐时光。</desc>
   </programme>
   <programme start="20261128163500 +0800" stop="20261128165900 +0800" channel="107">
     <title lang="zh-CN">与妈妈同乐</title>
@@ -41149,11 +41176,11 @@
   <programme start="20261128165900 +0800" stop="20261128170000 +0800" channel="107">
     <title lang="zh-CN">SDGs之歌</title>
   </programme>
-  <programme start="20261128170000 +0800" stop="20261128170500 +0800" channel="107">
-    <title lang="zh-CN">迷你节目</title>
+  <programme start="20261128170000 +0800" stop="20261128173000 +0800" channel="107">
+    <title lang="zh-CN">千鸟诺布与涩谷搞笑剧场 高桥真梨子首登搞笑节目！</title>
   </programme>
-  <programme start="20261128170500 +0800" stop="20261128173500 +0800" channel="107">
-    <title lang="zh-CN">世界台精选</title>
+  <programme start="20261128173000 +0800" stop="20261128173500 +0800" channel="107">
+    <title lang="zh-CN">迷你节目</title>
   </programme>
   <programme start="20261128173500 +0800" stop="20261128174500 +0800" channel="107">
     <title lang="zh-CN">游戏学日语</title>
@@ -41169,16 +41196,33 @@
   <programme start="20261128180000 +0800" stop="20261128183000 +0800" channel="107">
     <title lang="zh-CN">六点新闻</title>
   </programme>
-  <programme start="20261128183000 +0800" stop="20261128195300 +0800" channel="107">
-    <title lang="zh-CN">世界台精选</title>
+  <programme start="20261128183000 +0800" stop="20261128194800 +0800" channel="107">
+    <title lang="zh-CN">大相扑珍贵影像特集 第2弹</title>
+  </programme>
+  <programme start="20261128194800 +0800" stop="20261128195300 +0800" channel="107">
+    <title lang="zh-CN">体验大自然5min.</title>
+    <desc lang="zh-CN">透过自然影像走访各地，欣赏壮阔景观与独特地貌，从不同视角感受地球环境的变化和魅力。</desc>
   </programme>
   <programme start="20261128195300 +0800" stop="20261128195500 +0800" channel="107">
     <title lang="zh-CN">世界天气</title>
   </programme>
-  <programme start="20261128195500 +0800" stop="20261128200000 +0800" channel="107">
+  <programme start="20261128195500 +0800" stop="20261128203300 +0800" channel="107">
+    <title lang="zh-CN">时空铁道～当时途中下车～京王井之头线</title>
+  </programme>
+  <programme start="20261128203300 +0800" stop="20261128203500 +0800" channel="107">
     <title lang="zh-CN">迷你节目</title>
   </programme>
-  <programme start="20261128200000 +0800" stop="20261128214900 +0800" channel="107">
+  <programme start="20261128203500 +0800" stop="20261128204500 +0800" channel="107">
+    <title lang="zh-CN">自然百景10min.</title>
+  </programme>
+  <programme start="20261128204500 +0800" stop="20261128210000 +0800" channel="107">
+    <title lang="zh-CN">新闻气象</title>
+  </programme>
+  <programme start="20261128210000 +0800" stop="20261128212900 +0800" channel="107">
+    <title lang="zh-CN">NHK求职应援讲座:1</title>
+    <desc lang="zh-CN">就业辅导与职场讲座节目，针对社会新鲜人与求职者提供实用的履历撰写、面试技巧及职涯规划指导，并邀请专家深入解析产业脉动与就业趋势。</desc>
+  </programme>
+  <programme start="20261128212900 +0800" stop="20261128214900 +0800" channel="107">
     <title lang="zh-CN">世界台精选</title>
   </programme>
   <programme start="20261128214900 +0800" stop="20261128215500 +0800" channel="107">
@@ -41191,7 +41235,10 @@
     <title lang="zh-CN">Venue 101</title>
     <desc lang="zh-CN">现场直播当红流行音乐与顶尖歌手演出舞台的指标性音乐节目。邀请日本国内外极具人气的唱跳团体、创作歌手与乐团现场献唱，透过访谈与互动展现音乐人的真实个性与舞台魅力。</desc>
   </programme>
-  <programme start="20261128223000 +0800" stop="20261129003000 +0800" channel="107">
+  <programme start="20261128223000 +0800" stop="20261129000000 +0800" channel="107">
+    <title lang="zh-CN">养猫养狗 感动重逢特集</title>
+  </programme>
+  <programme start="20261129000000 +0800" stop="20261129003000 +0800" channel="107">
     <title lang="zh-CN">世界台精选</title>
   </programme>
   <programme start="20261129003000 +0800" stop="20261129010000 +0800" channel="107">
@@ -41217,7 +41264,7 @@
     <desc lang="zh-CN">记录原生艺术家独特创作世界与生命热忱的精致艺术纪录短片。透过镜头深入走访身心障碍创作者朴素纯粹的创作现场，展现超越世俗常规、直击心灵的原创视觉艺术魅力。</desc>
   </programme>
   <programme start="20261129023000 +0800" stop="20261129024500 +0800" channel="107">
-    <title lang="zh-CN">晨间连续剧「绽放」</title>
+    <title lang="zh-CN">晨间连续剧「绽放」第9周</title>
   </programme>
   <programme start="20261129024500 +0800" stop="20261129033500 +0800" channel="107">
     <title lang="zh-CN">NHK特集</title>
@@ -41234,7 +41281,8 @@
     <desc lang="zh-CN">儿童节目透过歌曲、故事与各种创意单元，让孩子认识多元个性，思考共同生活与永续未来。</desc>
   </programme>
   <programme start="20261129041000 +0800" stop="20261129045600 +0800" channel="107">
-    <title lang="zh-CN">世界台精选</title>
+    <title lang="zh-CN">IMPACTS COP31专题「气候安全保障～如何应对粮」</title>
+    <desc lang="zh-CN">国际环境专题报导，聚焦全球气候变迁与极端气候对粮食供应造成的威胁，探讨各国在气候安全保障上的因应策略与永续农业发展方向。</desc>
   </programme>
   <programme start="20261129045600 +0800" stop="20261129050000 +0800" channel="107">
     <title lang="zh-CN">世界天气</title>
@@ -41243,7 +41291,8 @@
     <title lang="zh-CN">新闻</title>
   </programme>
   <programme start="20261129051000 +0800" stop="20261129055300 +0800" channel="107">
-    <title lang="zh-CN">特选！时代剧</title>
+    <title lang="zh-CN">特选！时代剧「生意世传 金与银」3:1</title>
+    <desc lang="zh-CN">江户时代，经营布庄的幸凭藉智慧与毅力面对商场竞争，在动荡的人情与世道中努力守护生意。</desc>
   </programme>
   <programme start="20261129055300 +0800" stop="20261129055500 +0800" channel="107">
     <title lang="zh-CN">气象情报</title>
@@ -41291,7 +41340,8 @@
     <title lang="zh-CN">科学新知</title>
   </programme>
   <programme start="20261129100000 +0800" stop="20261129105000 +0800" channel="107">
-    <title lang="zh-CN">精选戏剧</title>
+    <title lang="zh-CN">精选戏剧「关于眼前危机以及我的好感度」:1</title>
+    <desc lang="zh-CN">前主播转任大学公关后，面对校内接连爆发的问题，在维持形象与处理危机之间周旋，呈现大学与社会的荒谬。</desc>
   </programme>
   <programme start="20261129105000 +0800" stop="20261129105600 +0800" channel="107">
     <title lang="zh-CN">浮世绘江户生活</title>
@@ -41317,8 +41367,15 @@
     <title lang="zh-CN">糖果屋</title>
     <desc lang="zh-CN">甜点烘焙文化与文学故事节目。主持人化身为甜点师，根据世界名着、童话故事或历史名人的经典情节亲手烘焙各国传统糕点，在甜蜜香气中探索甜点背后蕴含的人文典故与历史起源。</desc>
   </programme>
-  <programme start="20261129140000 +0800" stop="20261129163000 +0800" channel="107">
-    <title lang="zh-CN">世界台精选</title>
+  <programme start="20261129140000 +0800" stop="20261129152000 +0800" channel="107">
+    <title lang="zh-CN">大相扑珍贵影像特集 第2弹</title>
+  </programme>
+  <programme start="20261129152000 +0800" stop="20261129162000 +0800" channel="107">
+    <title lang="zh-CN">送野生动物回家～狸猫之乡保护中心</title>
+  </programme>
+  <programme start="20261129162000 +0800" stop="20261129163000 +0800" channel="107">
+    <title lang="zh-CN">最后的乐园</title>
+    <desc lang="zh-CN">聚焦全球生物多样性关键热点的顶级自然生态纪实精华短片。运用先端超高画质摄影技术，深入地球各角落濒危原始栖地，捕捉珍稀野生动物的生存繁衍奇观与脆弱生态样貌。</desc>
   </programme>
   <programme start="20261129163000 +0800" stop="20261129170000 +0800" channel="107">
     <title lang="zh-CN">与爸爸同乐</title>
@@ -41331,8 +41388,11 @@
     <title lang="zh-CN">有吉发大财</title>
     <desc lang="zh-CN">由人气主持人带领探索金钱与社会日常运作秘密的知识综艺节目。透过深入各行各业、热门商品产线与大型公共设施现场，幽默解密令人好奇的成本定价与背后庞大的经济机制。</desc>
   </programme>
-  <programme start="20261129174300 +0800" stop="20261129175800 +0800" channel="107">
+  <programme start="20261129174300 +0800" stop="20261129175300 +0800" channel="107">
     <title lang="zh-CN">迷你节目</title>
+  </programme>
+  <programme start="20261129175300 +0800" stop="20261129175800 +0800" channel="107">
+    <title lang="zh-CN">自然百景5min.</title>
   </programme>
   <programme start="20261129175800 +0800" stop="20261129180000 +0800" channel="107">
     <title lang="zh-CN">世界天气</title>
@@ -41348,7 +41408,7 @@
     <title lang="zh-CN">迷你节目</title>
   </programme>
   <programme start="20261129190000 +0800" stop="20261129194500 +0800" channel="107">
-    <title lang="zh-CN">大河剧「丰臣兄弟！」</title>
+    <title lang="zh-CN">大河剧「丰臣兄弟！」:46</title>
   </programme>
   <programme start="20261129194500 +0800" stop="20261129200000 +0800" channel="107">
     <title lang="zh-CN">新闻气象</title>
@@ -41360,14 +41420,15 @@
     <title lang="zh-CN">世界天气</title>
   </programme>
   <programme start="20261129205000 +0800" stop="20261129214000 +0800" channel="107">
-    <title lang="zh-CN">精选戏剧</title>
+    <title lang="zh-CN">精选戏剧「关于眼前危机以及我的好感度」:2</title>
+    <desc lang="zh-CN">前主播转任大学公关后，面对校内接连爆发的问题，在维持形象与处理危机之间周旋，呈现大学与社会的荒谬。</desc>
   </programme>
   <programme start="20261129214000 +0800" stop="20261129214500 +0800" channel="107">
     <title lang="zh-CN">新闻气象</title>
   </programme>
   <programme start="20261129214500 +0800" stop="20261129224300 +0800" channel="107">
-    <title lang="zh-CN">日本单车行脚 终点！</title>
-    <desc lang="zh-CN">旅人骑着自行车走访日本各地，根据观众来信寻找令人难忘的风景，并在途中与当地居民相遇。</desc>
+    <title lang="zh-CN">日本单车行脚 终点！北海道</title>
+    <desc lang="zh-CN">旅人骑乘单车走访北海道，依循观众来信寻找令人难忘的风景，沿途感受地方风土与人们的故事。</desc>
   </programme>
   <programme start="20261129224300 +0800" stop="20261129224500 +0800" channel="107">
     <title lang="zh-CN">世界天气</title>
@@ -41386,8 +41447,15 @@
   <programme start="20261130002500 +0800" stop="20261130003000 +0800" channel="107">
     <title lang="zh-CN">大家的歌</title>
   </programme>
-  <programme start="20261130003000 +0800" stop="20261130020000 +0800" channel="107">
-    <title lang="zh-CN">世界台精选</title>
+  <programme start="20261130003000 +0800" stop="20261130014800 +0800" channel="107">
+    <title lang="zh-CN">大相扑珍贵影像特集 第2弹</title>
+  </programme>
+  <programme start="20261130014800 +0800" stop="20261130015000 +0800" channel="107">
+    <title lang="zh-CN">迷你节目</title>
+  </programme>
+  <programme start="20261130015000 +0800" stop="20261130020000 +0800" channel="107">
+    <title lang="zh-CN">日本百名山mini</title>
+    <desc lang="zh-CN">领略日本名山壮丽风光与登山乐趣的自然纪行短片。透过高画质空拍与登山步道实地跟拍，精选日本百名山的四季险奇地貌、高山特有动植物生态与健行探险指南。</desc>
   </programme>
   <programme start="20261130020000 +0800" stop="20261130023000 +0800" channel="107">
     <title lang="zh-CN">心忍术 波波丸！</title>
@@ -41401,13 +41469,13 @@
     <desc lang="zh-CN">鱼君带领观众认识各式鱼类，透过观察与解说探索牠们独特的生态、习性及令人惊奇的魅力。</desc>
   </programme>
   <programme start="20261130033000 +0800" stop="20261130035700 +0800" channel="107">
-    <title lang="zh-CN">世界台精选</title>
+    <title lang="zh-CN">养猫养狗 感动重逢特集</title>
   </programme>
   <programme start="20261130035700 +0800" stop="20261130040000 +0800" channel="107">
     <title lang="zh-CN">世界天气</title>
   </programme>
   <programme start="20261130040000 +0800" stop="20261130044500 +0800" channel="107">
-    <title lang="zh-CN">大河剧「丰臣兄弟！」</title>
+    <title lang="zh-CN">大河剧「丰臣兄弟！」:46</title>
   </programme>
   <programme start="20261130044500 +0800" stop="20261130045000 +0800" channel="107">
     <title lang="zh-CN">浮世绘江户生活</title>
@@ -41425,7 +41493,7 @@
     <title lang="zh-CN">6点晨间新闻</title>
   </programme>
   <programme start="20261130070000 +0800" stop="20261130071500 +0800" channel="107">
-    <title lang="zh-CN">晨间连续剧「绽放」</title>
+    <title lang="zh-CN">晨间连续剧「绽放」:45</title>
   </programme>
   <programme start="20261130071500 +0800" stop="20261130085400 +0800" channel="107">
     <title lang="zh-CN">晨间资讯快递</title>
@@ -41465,10 +41533,10 @@
     <title lang="zh-CN">迷你节目</title>
   </programme>
   <programme start="20261130113000 +0800" stop="20261130114500 +0800" channel="107">
-    <title lang="zh-CN">经典晨间剧「雏鸟」</title>
+    <title lang="zh-CN">经典晨间剧「雏鸟」:81</title>
   </programme>
   <programme start="20261130114500 +0800" stop="20261130120000 +0800" channel="107">
-    <title lang="zh-CN">晨间连续剧「绽放」</title>
+    <title lang="zh-CN">晨间连续剧「绽放」:45</title>
   </programme>
   <programme start="20261130120000 +0800" stop="20261130120500 +0800" channel="107">
     <title lang="zh-CN">新闻</title>
@@ -41486,8 +41554,7 @@
     <title lang="zh-CN">新闻气象</title>
   </programme>
   <programme start="20261130141000 +0800" stop="20261130145500 +0800" channel="107">
-    <title lang="zh-CN">SONGS</title>
-    <desc lang="zh-CN">音乐节目邀请歌手与音乐人登场，以演唱、访谈及音乐故事，展现歌曲和创作者的魅力。</desc>
+    <title lang="zh-CN">SONGS SPECIAL 药师丸博子</title>
   </programme>
   <programme start="20261130145500 +0800" stop="20261130154000 +0800" channel="107">
     <title lang="zh-CN">智慧之泉</title>
@@ -41544,7 +41611,7 @@
     <title lang="zh-CN">智慧之泉</title>
   </programme>
   <programme start="20261130214500 +0800" stop="20261130220000 +0800" channel="107">
-    <title lang="zh-CN">夜间戏剧「青之花 器之森」</title>
+    <title lang="zh-CN">夜间戏剧「青之花 器之森」:21</title>
   </programme>
   <programme start="20261130220000 +0800" stop="20261130223000 +0800" channel="107">
     <title lang="zh-CN">访谈挖挖挖</title>

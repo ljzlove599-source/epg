@@ -1,7 +1,6 @@
-PHP Fatal error:  Uncaught TypeError: DateTime::__construct() expects parameter 2 to be DateTimeZone, string given in /home/runner/work/epg/epg/epg_elta.php:133
-Stack trace:
-#0 /home/runner/work/epg/epg/epg_elta.php(133): DateTime->__construct()
-#1 /home/runner/work/epg/epg/epg_elta.php(250): taipei_ymd()
-#2 /home/runner/work/epg/epg/epg_elta.php(375): generate_epg()
-#3 {main}
-  thrown in /home/runner/work/epg/epg/epg_elta.php on line 133
+[信息] 已加载繁转简映射，共 3799 条规则
+
+=== 生成完成 ===
+有效频道：38/38 个
+节目总数：4696 条（本源无简介）
+输出路径：/home/runner/work/epg/epg/epg_sources/epg_elta.xml
