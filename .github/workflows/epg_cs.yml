@@ -1,0 +1,242 @@
+name: EPG 自动更新
+
+on:
+  schedule:
+    # UTC 每天 18:10 → 北京時間次日 02:10
+    - cron: '10 18 * * *'
+  workflow_dispatch:
+
+# 全局統一時區為北京時間
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  epg_comprehensive_processing:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ---------- 1. 環境準備 ----------
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Git and sync latest code
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin ${{ github.ref_name }}
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq libxml2-utils gzip
+
+      - name: Set up PHP environment
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.4'
+          tools: composer
+
+      - name: Set up Python environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install project dependencies
+        run: |
+          # PHP 依賴安裝
+          if [ -f "composer.json" ]; then
+            composer install --no-dev --no-progress --no-interaction --prefer-dist
+          fi
+          # Python 依賴安裝
+          pip install --no-cache-dir opencc curl_cffi beautifulsoup4 requests
+          echo "所有依賴安裝完成"
+
+      # ---------- 2. 清理歷史殘留文件 ----------
+      - name: Clean old output files
+        run: |
+          rm -f *.xml *.xml.gz *_time.txt time.txt
+          rm -rf logs/
+          mkdir -p logs
+          echo "歷史文件清理完成"
+
+
+      # ---------- 4. 運行 Python 採集腳本 ----------
+      - name: Run fourgtv EPG scraper
+        id: fujian_epg
+        continue-on-error: true
+        run: |
+          if [ -f "fourgtv_epg.py" ]; then
+            echo "運行福建 EPG 抓取腳本..."
+            python3 fourgtv_epg.py
+            if [ -f "epg/4g.xml" ]; then
+              echo "✅ 成功生成 4g.xml"
+              echo "fourgtv_generated=true" >> $GITHUB_OUTPUT
+              echo "fourgtv EPG updated at $(date '+%Y-%m-%d %H:%M:%S')" > fourgtv_time.txt
+            else
+              echo "⚠️ 未生成 4g.xml"
+              echo "fourgtv_generated=false" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "⚠️ fourgtv_epg.py 不存在，跳過"
+            echo "fourgtv_generated=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run hami EPG scraper
+        id: hami
+        continue-on-error: true
+        run: |
+          if [ -f "hami.py" ]; then
+            echo "運行hami EPG 抓取腳本..."
+            python3 hami.py "$(date '+%Y-%m-%d')" hami.xml
+            if [ -f "epg/hami.xml" ]; then
+              echo "✅ 成功生成 hami.xml"
+              echo "hami_generated=true" >> $GITHUB_OUTPUT
+              echo "hami EPG updated at $(date '+%Y-%m-%d %H:%M:%S')" > hami_time.txt
+            else
+              echo "⚠️ 未生成 hami.xml"
+              echo "iqilu_generated=false" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "⚠️ hami.py 不存在，跳過"
+            echo "iqilu_generated=false" >> $GITHUB_OUTPUT
+          fi
+
+      # ---------- 5. 檢查並運行 PHP 採集腳本 ----------
+      - name: Check PHP scripts existence
+        id: check_scripts
+        run: |
+          echo "檢查 PHP 腳本文件..."
+          declare -a scripts=( 
+            "51zmt_epg.php" "cntvepg.php" "epg_4k.php" "epg_elta.php"
+            "kbro_epg.php" "mod.php" "nowtv_epg.php" "ofiii_epg.php"
+            "rthk.php" "tdm_epg.php" "zhongtiannam.php"
+          )
+          existing_scripts=()
+          for script in "${scripts[@]}"; do
+            if [ -f "$script" ]; then
+              echo "✓ 找到文件: $script"
+              existing_scripts+=("$script")
+            else
+              echo "✗ 文件不存在: $script"
+            fi
+          done
+          if [ ${#existing_scripts[@]} -eq 0 ]; then
+            echo "警告: 沒有找到任何 PHP 腳本文件，跳過 EPG 生成"
+            echo "existing_scripts=" >> $GITHUB_OUTPUT
+          else
+            scripts_list=$(IFS=,; echo "${existing_scripts[*]}")
+            echo "existing_scripts=$scripts_list" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run PHP scripts to generate EPG XML
+        if: steps.check_scripts.outputs.existing_scripts != ''
+        id: run_php_scripts
+        run: |
+          IFS=',' read -ra scripts <<< "${{ steps.check_scripts.outputs.existing_scripts }}"
+          failed_scripts=()
+          success_count=0
+
+          for script in "${scripts[@]}"; do
+            echo "========================================="
+            echo "正在運行: $script"
+            start_time=$(date +%s)
+            log_file="logs/${script%.php}.log"
+
+            if php "$script" > "$log_file" 2>&1; then
+              end_time=$(date +%s)
+              duration=$((end_time - start_time))
+              echo "✓ $script 執行成功 (耗時: ${duration}秒)"
+              success_count=$((success_count + 1))
+            else
+              end_time=$(date +%s)
+              duration=$((end_time - start_time))
+              echo "✗ $script 執行失敗！(耗時: ${duration}秒)"
+              failed_scripts+=("$script")
+              echo "--- 最後 20 行日誌 ---"
+              tail -n 20 "$log_file" 2>/dev/null || echo "無法讀取日誌文件"
+              echo "----------------------"
+            fi
+            echo "========================================="
+          done
+
+          echo "執行完成: 成功 ${success_count} 個，失敗 ${#failed_scripts[@]} 個"
+          if [ ${#failed_scripts[@]} -gt 0 ]; then
+            echo "失敗腳本列表: ${failed_scripts[*]}"
+          fi
+          echo "php_failed_count=${#failed_scripts[@]}" >> $GITHUB_OUTPUT
+
+      # ---------- 6. 檢查生成的 XML 文件 ----------
+      - name: Check generated XML files
+        id: check_xml
+        run: |
+          declare -a expected_xml=(
+            "4g.xml" "cntv.xm.gz" "epg_4k.xml" "epg_elta.xml"
+            "epg_nowtv.xml" "epg_zhongtiannam.xml" "hami.xml" "litv_epg.xml"
+            "ofiii.xml" "epg_rthk_tv.xml" "kbro_epg.xml" "mod_epg.xml"
+            "tdm_epg.xml" 
+          )
+          
+          generated_files=()
+          valid_xml=0
+          invalid_xml=0
+          
+          echo "開始檢查生成的 XML 文件..."
+          for xml_file in "${expected_xml[@]}"; do
+            if [ -f "$xml_file" ]; then
+              filesize=$(stat -c%s "$xml_file" 2>/dev/null || wc -c < "$xml_file" | awk '{print $1}')
+              echo "✓ 生成文件: $xml_file (大小: $filesize bytes)"
+              generated_files+=("$xml_file")
+              
+              if [[ "$xml_file" != *.gz ]]; then
+                if xmllint --noout "$xml_file" 2>/dev/null; then
+                  echo "  ✅ XML 格式驗證通過"
+                  valid_xml=$((valid_xml + 1))
+                else
+                  echo "  ❌ XML 格式驗證失敗！"
+                  invalid_xml=$((invalid_xml + 1))
+                fi
+              fi
+            else
+              echo "✗ 未生成文件: $xml_file"
+            fi
+          done
+          
+          echo "已生成文件數量: ${#generated_files[@]}"
+          echo "格式合法: $valid_xml 個，格式異常: $invalid_xml 個"
+          
+          if [ ${#generated_files[@]} -eq 0 ]; then
+            echo "generated_xml=" >> $GITHUB_OUTPUT
+          else
+            xml_list=$(IFS=,; echo "${generated_files[*]}")
+            echo "generated_xml=$xml_list" >> $GITHUB_OUTPUT
+          fi
+          echo "valid_xml_count=$valid_xml" >> $GITHUB_OUTPUT
+          echo "invalid_xml_count=$invalid_xml" >> $GITHUB_OUTPUT
+
+     
+
+
+
+      # ---------- 8. 更新時間戳 ----------
+      - name: Update time.txt with latest timestamp
+        if: steps.check_xml.outputs.generated_xml != ''
+        run: |
+          echo "Last XML update: $(date '+%Y-%m-%d %H:%M:%S')" > time.txt
+          echo "時間戳已更新: $(cat time.txt)"
+
+      # ---------- 9. 提交結果並推送回倉庫 ----------
+      - name: Commit and push all generated files
+        run: |
+          git add *.xml *.xml.gz *_time.txt time.txt logs/
+          
+          if git diff --cached --quiet; then
+            echo "無新增變更，跳過提交"
+            exit 0
+          fi
+          
+          git commit -m "bot: 更新 EPG 數據 $(date '+%Y-%m-%d %H:%M')"
+          git push origin ${{ github.ref_name }}
+          echo "✅ 所有生成結果已推送回倉庫"
