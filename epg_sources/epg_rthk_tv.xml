@@ -1119,6 +1119,7 @@
   </programme>
   <programme start="20261124131000 +0800" stop="20261124140000 +0800" channel="tv31">
     <title lang="zh-Hans">精灵一点</title>
+    <desc lang="zh-Hans">精灵一点 11月24日</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/healthpedia_tv</url>
   </programme>
   <programme start="20261124140000 +0800" stop="20261124140500 +0800" channel="tv31">
@@ -1197,6 +1198,7 @@
   </programme>
   <programme start="20261124202500 +0800" stop="20261124203000 +0800" channel="tv31">
     <title lang="zh-Hans">政正关你事 - 官员讲话摘要</title>
+    <desc lang="zh-Hans">政正关你事 - 官员讲话摘要 #72 （李家超、陈国基、麦美娟、许正宇）</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
   </programme>
   <programme start="20261124203000 +0800" stop="20261124212500 +0800" channel="tv31">
@@ -1206,6 +1208,7 @@
   </programme>
   <programme start="20261124212500 +0800" stop="20261124213000 +0800" channel="tv31">
     <title lang="zh-Hans">政正关你事 - 官员讲话摘要</title>
+    <desc lang="zh-Hans">政正关你事 - 官员讲话摘要 #72 （李家超、陈国基、麦美娟、许正宇）</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
   </programme>
   <programme start="20261124213000 +0800" stop="20261124220000 +0800" channel="tv31">
@@ -1273,7 +1276,17 @@
     <title lang="zh-Hans">生活．健康．资讯</title>
     <desc lang="zh-Hans">生活．健康．资讯</desc>
   </programme>
-  <programme start="20261124080500 +0800" stop="20261124100000 +0800" channel="tv32">
+  <programme start="20261124080500 +0800" stop="20261124090000 +0800" channel="tv32">
+    <title lang="zh-Hans">千禧年代</title>
+    <desc lang="zh-Hans">千禧年代 11月24日</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/talkabout</url>
+  </programme>
+  <programme start="20261124090000 +0800" stop="20261124094500 +0800" channel="tv32">
+    <title lang="zh-Hans">千禧年代</title>
+    <desc lang="zh-Hans">千禧年代 11月24日</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/talkabout</url>
+  </programme>
+  <programme start="20261124094500 +0800" stop="20261124100000 +0800" channel="tv32">
     <title lang="zh-Hans">千禧年代</title>
     <desc lang="zh-Hans">千禧年代 11月24日</desc>
     <url>https://www.rthk.hk/tv/dtt32/programme/talkabout</url>
@@ -1300,22 +1313,27 @@
     <title lang="zh-Hans">新闻简报</title>
     <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
   </programme>
-  <programme start="20261124111000 +0800" stop="20261124112000 +0800" channel="tv32">
+  <programme start="20261124111000 +0800" stop="20261124112500 +0800" channel="tv32">
+    <title lang="zh-Hans">寰宇直播</title>
+    <desc lang="zh-Hans">寰宇直播</desc>
+  </programme>
+  <programme start="20261124112500 +0800" stop="20261124113000 +0800" channel="tv32">
     <title lang="zh-Hans">生活．健康．资讯</title>
     <desc lang="zh-Hans">生活．健康．资讯</desc>
-  </programme>
-  <programme start="20261124112000 +0800" stop="20261124113000 +0800" channel="tv32">
-    <title lang="zh-Hans">国宝时刻</title>
-    <desc lang="zh-Hans">七孔骨笛</desc>
-    <url>https://www.rthk.hk/tv/dtt32/programme/shiningtreasuresofchina</url>
   </programme>
   <programme start="20261124113000 +0800" stop="20261124114000 +0800" channel="tv32">
     <title lang="zh-Hans">新闻简报</title>
     <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
   </programme>
-  <programme start="20261124114000 +0800" stop="20261124120000 +0800" channel="tv32">
+  <programme start="20261124114000 +0800" stop="20261124114500 +0800" channel="tv32">
     <title lang="zh-Hans">生活．健康．资讯</title>
-    <desc lang="zh-Hans">生活．健康．资讯</desc>
+  </programme>
+  <programme start="20261124114500 +0800" stop="20261124115200 +0800" channel="tv32">
+    <title lang="zh-Hans">本地新闻</title>
+    <desc lang="zh-Hans">本地新闻</desc>
+  </programme>
+  <programme start="20261124115200 +0800" stop="20261124120000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
   </programme>
   <programme start="20261124120000 +0800" stop="20261124121000 +0800" channel="tv32">
     <title lang="zh-Hans">新闻简报</title>
@@ -1493,6 +1511,7 @@
   </programme>
   <programme start="20261124220000 +0800" stop="20261124220500 +0800" channel="tv32">
     <title lang="zh-Hans">政正关你事 - 官员讲话摘要</title>
+    <desc lang="zh-Hans">政正关你事 - 官员讲话摘要 #72 （李家超、陈国基、麦美娟、许正宇）</desc>
     <url>https://www.rthk.hk/tv/dtt32/programme/governmentandyou</url>
   </programme>
   <programme start="20261124220500 +0800" stop="20261124223000 +0800" channel="tv32">
@@ -2043,6 +2062,7 @@
   </programme>
   <programme start="20261125105500 +0800" stop="20261125110000 +0800" channel="tv31">
     <title lang="zh-Hans">政正关你事 - 官员讲话摘要</title>
+    <desc lang="zh-Hans">政正关你事 - 官员讲话摘要 #72 （李家超、陈国基、麦美娟、许正宇）</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
   </programme>
   <programme start="20261125110000 +0800" stop="20261125120000 +0800" channel="tv31">
@@ -2068,6 +2088,7 @@
   </programme>
   <programme start="20261125140000 +0800" stop="20261125140500 +0800" channel="tv31">
     <title lang="zh-Hans">政正关你事 - 官员讲话摘要</title>
+    <desc lang="zh-Hans">政正关你事 - 官员讲话摘要 #72 （李家超、陈国基、麦美娟、许正宇）</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
   </programme>
   <programme start="20261125140500 +0800" stop="20261125145000 +0800" channel="tv31">
@@ -2133,6 +2154,7 @@
   </programme>
   <programme start="20261125202500 +0800" stop="20261125203000 +0800" channel="tv31">
     <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">土木工程拓展署：中九龙绕道（九龙湾段）- 连系社区篇</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
   </programme>
   <programme start="20261125203000 +0800" stop="20261125212500 +0800" channel="tv31">
@@ -2142,6 +2164,7 @@
   </programme>
   <programme start="20261125212500 +0800" stop="20261125213000 +0800" channel="tv31">
     <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">土木工程拓展署：中九龙绕道（九龙湾段）- 连系社区篇</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
   </programme>
   <programme start="20261125213000 +0800" stop="20261125220000 +0800" channel="tv31">
@@ -2194,6 +2217,7 @@
   </programme>
   <programme start="20261125073500 +0800" stop="20261125074000 +0800" channel="tv32">
     <title lang="zh-Hans">政正关你事 - 官员讲话摘要</title>
+    <desc lang="zh-Hans">政正关你事 - 官员讲话摘要 #72 （李家超、陈国基、麦美娟、许正宇）</desc>
     <url>https://www.rthk.hk/tv/dtt32/programme/governmentandyou</url>
   </programme>
   <programme start="20261125074000 +0800" stop="20261125080500 +0800" channel="tv32">
@@ -2363,6 +2387,7 @@
   </programme>
   <programme start="20261125220000 +0800" stop="20261125220500 +0800" channel="tv32">
     <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">土木工程拓展署：中九龙绕道（九龙湾段）- 连系社区篇</desc>
     <url>https://www.rthk.hk/tv/dtt32/programme/governmentandyou</url>
   </programme>
   <programme start="20261125220500 +0800" stop="20261125223000 +0800" channel="tv32">
@@ -2910,6 +2935,7 @@
   </programme>
   <programme start="20261126105500 +0800" stop="20261126110000 +0800" channel="tv31">
     <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">土木工程拓展署：中九龙绕道（九龙湾段）- 连系社区篇</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
   </programme>
   <programme start="20261126110000 +0800" stop="20261126120000 +0800" channel="tv31">
@@ -2935,6 +2961,7 @@
   </programme>
   <programme start="20261126140000 +0800" stop="20261126140500 +0800" channel="tv31">
     <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">土木工程拓展署：中九龙绕道（九龙湾段）- 连系社区篇</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
   </programme>
   <programme start="20261126140500 +0800" stop="20261126145000 +0800" channel="tv31">
@@ -3062,6 +3089,7 @@
   </programme>
   <programme start="20261126073500 +0800" stop="20261126074000 +0800" channel="tv32">
     <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">土木工程拓展署：中九龙绕道（九龙湾段）- 连系社区篇</desc>
     <url>https://www.rthk.hk/tv/dtt32/programme/governmentandyou</url>
   </programme>
   <programme start="20261126074000 +0800" stop="20261126080500 +0800" channel="tv32">
@@ -4572,6 +4600,3093 @@
     <title lang="zh-Hans">The World Today</title>
   </programme>
   <programme start="20261127233000 +0800" stop="20261128000000 +0800" channel="tv35">
+    <title lang="zh-Hans">The Vibe</title>
+  </programme>
+  <programme start="20261128000000 +0800" stop="20261128003000 +0800" channel="tv31">
+    <title lang="zh-Hans">湾区全媒睇</title>
+    <desc lang="zh-Hans">第一千三百集</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/gbalifestyle</url>
+  </programme>
+  <programme start="20261128003000 +0800" stop="20261128010000 +0800" channel="tv31">
+    <title lang="zh-Hans">优游记精华游 2026</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/chillandtravelechoes2026</url>
+  </programme>
+  <programme start="20261128010000 +0800" stop="20261128020000 +0800" channel="tv31">
+    <title lang="zh-Hans">如果奔跑是我的人生</title>
+    <desc lang="zh-Hans">第七集：林天宇找到安心理论</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/borntorun</url>
+  </programme>
+  <programme start="20261128020000 +0800" stop="20261128023000 +0800" channel="tv31">
+    <title lang="zh-Hans">广播道会客室</title>
+    <desc lang="zh-Hans">广播道会客室｜阮苏少湄 (1)</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/onbroadcastdrive</url>
+  </programme>
+  <programme start="20261128023000 +0800" stop="20261128033000 +0800" channel="tv31">
+    <title lang="zh-Hans">非凡香港</title>
+    <desc lang="zh-Hans">洪水桥新发展区 | 香港网球发展 | 庙语大屿</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/vibranthongkong</url>
+  </programme>
+  <programme start="20261128033000 +0800" stop="20261128043000 +0800" channel="tv31">
+    <title lang="zh-Hans">家事法庭</title>
+    <desc lang="zh-Hans">第十六集：沈谢秩告白秦睿</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/holdacourtnow</url>
+  </programme>
+  <programme start="20261128043000 +0800" stop="20261128053000 +0800" channel="tv31">
+    <title lang="zh-Hans">再登地球之巅</title>
+    <desc lang="zh-Hans">第三集 生命之极</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/highestplateau</url>
+  </programme>
+  <programme start="20261128053000 +0800" stop="20261128060000 +0800" channel="tv31">
+    <title lang="zh-Hans">优游记精华游 2026</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/chillandtravelechoes2026</url>
+  </programme>
+  <programme start="20261128060000 +0800" stop="20261128063000 +0800" channel="tv31">
+    <title lang="zh-Hans">凝聚香港</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hkunited</url>
+  </programme>
+  <programme start="20261128063000 +0800" stop="20261128065000 +0800" channel="tv31">
+    <title lang="zh-Hans">BobieLand</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/bobieland</url>
+  </programme>
+  <programme start="20261128065000 +0800" stop="20261128070500 +0800" channel="tv31">
+    <title lang="zh-Hans">快乐魔法森林</title>
+    <desc lang="zh-Hans">独角兽的秘密</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/super_happy_magic_forest2025</url>
+  </programme>
+  <programme start="20261128070500 +0800" stop="20261128071500 +0800" channel="tv31">
+    <title lang="zh-Hans">奀菇菇搞搞震 2</title>
+    <desc lang="zh-Hans">暗黑森林</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/mushmushs2</url>
+  </programme>
+  <programme start="20261128071500 +0800" stop="20261128073000 +0800" channel="tv31">
+    <title lang="zh-Hans">奀菇菇搞搞震 2</title>
+    <desc lang="zh-Hans">画菇菇</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/mushmushs2</url>
+  </programme>
+  <programme start="20261128073000 +0800" stop="20261128080000 +0800" channel="tv31">
+    <title lang="zh-Hans">湾区全媒睇</title>
+    <desc lang="zh-Hans">第一千三百集</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/gbalifestyle</url>
+  </programme>
+  <programme start="20261128080000 +0800" stop="20261128080500 +0800" channel="tv31">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128080500 +0800" stop="20261128090000 +0800" channel="tv31">
+    <title lang="zh-Hans">星期六问责</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/accountabilitytv</url>
+  </programme>
+  <programme start="20261128090000 +0800" stop="20261128093000 +0800" channel="tv31">
+    <title lang="zh-Hans">铿锵集</title>
+    <desc lang="zh-Hans">安心告别式</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hkce</url>
+  </programme>
+  <programme start="20261128093000 +0800" stop="20261128101500 +0800" channel="tv31">
+    <title lang="zh-Hans">中华人民共和国香港特别行政区二零二六年度勋衔颁授典礼</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/2026honoursawardspc</url>
+  </programme>
+  <programme start="20261128101500 +0800" stop="20261128102500 +0800" channel="tv31">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128102500 +0800" stop="20261128105500 +0800" channel="tv31">
+    <title lang="zh-Hans">Power Up Your English 2.0</title>
+    <desc lang="zh-Hans">活力英语 2.0 - EP11</desc>
+  </programme>
+  <programme start="20261128105500 +0800" stop="20261128110000 +0800" channel="tv31">
+    <title lang="zh-Hans">政正关你事</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261128110000 +0800" stop="20261128112500 +0800" channel="tv31">
+    <title lang="zh-Hans">香港故事 ---近水留情</title>
+    <desc lang="zh-Hans">布袋澳—靠水食水．袋代相传</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hkstories_bondatwatersedge_e</url>
+  </programme>
+  <programme start="20261128112500 +0800" stop="20261128121000 +0800" channel="tv31">
+    <title lang="zh-Hans">尘封十三载</title>
+    <desc lang="zh-Hans">第七集：嫌疑犯马成群</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/thirteenyearsofdust</url>
+  </programme>
+  <programme start="20261128121000 +0800" stop="20261128130000 +0800" channel="tv31">
+    <title lang="zh-Hans">尘封十三载</title>
+    <desc lang="zh-Hans">第八集：马成群曾看到戴鸟头面具的人</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/thirteenyearsofdust</url>
+  </programme>
+  <programme start="20261128130000 +0800" stop="20261128130500 +0800" channel="tv31">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/newshighlights</url>
+  </programme>
+  <programme start="20261128130500 +0800" stop="20261128140000 +0800" channel="tv31">
+    <title lang="zh-Hans">非凡人物</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/theextraordinary</url>
+  </programme>
+  <programme start="20261128140000 +0800" stop="20261128140500 +0800" channel="tv31">
+    <title lang="zh-Hans">政正关你事</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261128140500 +0800" stop="20261128143500 +0800" channel="tv31">
+    <title lang="zh-Hans">时事摘录</title>
+    <desc lang="zh-Hans">时事摘录</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/newsreview2026</url>
+  </programme>
+  <programme start="20261128143500 +0800" stop="20261128144000 +0800" channel="tv31">
+    <title lang="zh-Hans">IP 新机遇</title>
+    <desc lang="zh-Hans">生命新章(商标)</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/ipno2026</url>
+  </programme>
+  <programme start="20261128144000 +0800" stop="20261128145000 +0800" channel="tv31">
+    <title lang="zh-Hans">IP 新机遇</title>
+    <desc lang="zh-Hans">画出新裁(外观设计)</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/ipno2026</url>
+  </programme>
+  <programme start="20261128145000 +0800" stop="20261128183000 +0800" channel="tv31">
+    <title lang="zh-Hans">FIBA 3x3 世界巡回赛 2026</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/fiba3x3worldtour2026</url>
+  </programme>
+  <programme start="20261128183000 +0800" stop="20261128190000 +0800" channel="tv31">
+    <title lang="zh-Hans">体坛快闪</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/sportsexpress</url>
+  </programme>
+  <programme start="20261128190000 +0800" stop="20261128191500 +0800" channel="tv31">
+    <title lang="zh-Hans">新闻天地</title>
+    <desc lang="zh-Hans">20261128</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hktoday_tv</url>
+  </programme>
+  <programme start="20261128191500 +0800" stop="20261128192000 +0800" channel="tv31">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128192000 +0800" stop="20261128193000 +0800" channel="tv31">
+    <title lang="zh-Hans">教育建言</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/educationalinsights</url>
+  </programme>
+  <programme start="20261128193000 +0800" stop="20261128200000 +0800" channel="tv31">
+    <title lang="zh-Hans">医研华章:香港内科医学院四十周年</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/40thanniversaryofhkcp</url>
+  </programme>
+  <programme start="20261128200000 +0800" stop="20261128202500 +0800" channel="tv31">
+    <title lang="zh-Hans">世界技能大赛  决战上海</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/worldskillscompshanghai2026</url>
+  </programme>
+  <programme start="20261128202500 +0800" stop="20261128203000 +0800" channel="tv31">
+    <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">民安队少年团「新团员启导课程」</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261128203000 +0800" stop="20261128212500 +0800" channel="tv31">
+    <title lang="zh-Hans">海市蜃楼</title>
+    <desc lang="zh-Hans">第十七集：众人前往百里府</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/themirage</url>
+  </programme>
+  <programme start="20261128212500 +0800" stop="20261128213000 +0800" channel="tv31">
+    <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">民安队少年团「新团员启导课程」</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261128213000 +0800" stop="20261128232000 +0800" channel="tv31">
+    <title lang="zh-Hans">周末大电影：龙的传人</title>
+    <desc lang="zh-Hans">龙的传人</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/weekendmovies</url>
+  </programme>
+  <programme start="20261128232000 +0800" stop="20261128233000 +0800" channel="tv31">
+    <title lang="zh-Hans">香港故事: 由AI开始</title>
+    <desc lang="zh-Hans">AI 动物读心术-解码大熊猫</desc>
+  </programme>
+  <programme start="20261128233000 +0800" stop="20261129000000 +0800" channel="tv31">
+    <title lang="zh-Hans">医生与你</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/doctorandyou2021</url>
+  </programme>
+  <programme start="20261128000000 +0800" stop="20261128001000 +0800" channel="tv32">
+    <title lang="zh-Hans">时事脉动</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/thecurrent</url>
+  </programme>
+  <programme start="20261128001000 +0800" stop="20261128010000 +0800" channel="tv32">
+    <title lang="zh-Hans">非凡香港</title>
+    <desc lang="zh-Hans">洪水桥新发展区 | 香港网球发展 | 庙语大屿</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/vibranthongkong</url>
+  </programme>
+  <programme start="20261128010000 +0800" stop="20261128013000 +0800" channel="tv32">
+    <title lang="zh-Hans">广播道会客室</title>
+    <desc lang="zh-Hans">广播道会客室｜阮苏少湄 (1)</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/onbroadcastdrive</url>
+  </programme>
+  <programme start="20261128013000 +0800" stop="20261128020000 +0800" channel="tv32">
+    <title lang="zh-Hans">凝聚香港</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/hkunited</url>
+  </programme>
+  <programme start="20261128020000 +0800" stop="20261128073000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128073000 +0800" stop="20261128073500 +0800" channel="tv32">
+    <title lang="zh-Hans">盛事传城</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/megaeventsmegahk2026_eng</url>
+  </programme>
+  <programme start="20261128073500 +0800" stop="20261128074000 +0800" channel="tv32">
+    <title lang="zh-Hans">政正关你事</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261128074000 +0800" stop="20261128080500 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128080500 +0800" stop="20261128090000 +0800" channel="tv32">
+    <title lang="zh-Hans">星期六问责</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/accountabilitytv</url>
+  </programme>
+  <programme start="20261128090000 +0800" stop="20261128093000 +0800" channel="tv32">
+    <title lang="zh-Hans">时事摘录</title>
+    <desc lang="zh-Hans">时事摘录</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newsreview2026</url>
+  </programme>
+  <programme start="20261128093000 +0800" stop="20261128093500 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128093500 +0800" stop="20261128103000 +0800" channel="tv32">
+    <title lang="zh-Hans">理财新世代</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/investmentera_tv</url>
+  </programme>
+  <programme start="20261128103000 +0800" stop="20261128103500 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128103500 +0800" stop="20261128110000 +0800" channel="tv32">
+    <title lang="zh-Hans">凝聚香港</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/hkunited</url>
+  </programme>
+  <programme start="20261128110000 +0800" stop="20261128111000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261128111000 +0800" stop="20261128113000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128113000 +0800" stop="20261128114000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261128114000 +0800" stop="20261128120000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128120000 +0800" stop="20261128121000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261128121000 +0800" stop="20261128123000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128123000 +0800" stop="20261128124000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261128124000 +0800" stop="20261128130000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128130000 +0800" stop="20261128130700 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261128130700 +0800" stop="20261128133000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128133000 +0800" stop="20261128133700 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261128133700 +0800" stop="20261128140000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128140000 +0800" stop="20261128141000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261128141000 +0800" stop="20261128143000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128143000 +0800" stop="20261128144000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261128144000 +0800" stop="20261128150000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128150000 +0800" stop="20261128151000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261128151000 +0800" stop="20261128153000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128153000 +0800" stop="20261128154000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261128154000 +0800" stop="20261128160000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128160000 +0800" stop="20261128161000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261128161000 +0800" stop="20261128163000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128163000 +0800" stop="20261128164000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261128164000 +0800" stop="20261128170000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128170000 +0800" stop="20261128171000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261128171000 +0800" stop="20261128173000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128173000 +0800" stop="20261128174000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261128174000 +0800" stop="20261128180000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128180000 +0800" stop="20261128181000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261128181000 +0800" stop="20261128183000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128183000 +0800" stop="20261128184000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261128184000 +0800" stop="20261128190000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128190000 +0800" stop="20261128191500 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻天地</title>
+    <desc lang="zh-Hans">20261128</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/hktoday_tv</url>
+  </programme>
+  <programme start="20261128191500 +0800" stop="20261128193000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128193000 +0800" stop="20261128200000 +0800" channel="tv32">
+    <title lang="zh-Hans">双城联动</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/betweentwocities</url>
+  </programme>
+  <programme start="20261128200000 +0800" stop="20261128201000 +0800" channel="tv32">
+    <title lang="zh-Hans">晚间新闻</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/eveningnews_tv</url>
+  </programme>
+  <programme start="20261128201000 +0800" stop="20261128202000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128202000 +0800" stop="20261128203000 +0800" channel="tv32">
+    <title lang="zh-Hans">2026带一路．「港」你知</title>
+    <desc lang="zh-Hans">中亚机遇转化为实质成果</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/beltandroadhkinaction2026_eng</url>
+  </programme>
+  <programme start="20261128203000 +0800" stop="20261128210000 +0800" channel="tv32">
+    <title lang="zh-Hans">时事摘录</title>
+    <desc lang="zh-Hans">时事摘录</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newsreview2026</url>
+  </programme>
+  <programme start="20261128210000 +0800" stop="20261128220000 +0800" channel="tv32">
+    <title lang="zh-Hans">星期六问责</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/accountabilitytv</url>
+  </programme>
+  <programme start="20261128220000 +0800" stop="20261128220500 +0800" channel="tv32">
+    <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">民安队少年团「新团员启导课程」</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261128220500 +0800" stop="20261128230000 +0800" channel="tv32">
+    <title lang="zh-Hans">理财新世代</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/investmentera_tv</url>
+  </programme>
+  <programme start="20261128230000 +0800" stop="20261128233000 +0800" channel="tv32">
+    <title lang="zh-Hans">双城联动</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/betweentwocities</url>
+  </programme>
+  <programme start="20261128233000 +0800" stop="20261129000000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261128000000 +0800" stop="20261128001100 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 7</title>
+  </programme>
+  <programme start="20261128001100 +0800" stop="20261128005900 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 8</title>
+  </programme>
+  <programme start="20261128005900 +0800" stop="20261128025900 +0800" channel="tv33">
+    <title lang="zh-Hans">中华考工记</title>
+  </programme>
+  <programme start="20261128025900 +0800" stop="20261128034600 +0800" channel="tv33">
+    <title lang="zh-Hans">画眉 5</title>
+  </programme>
+  <programme start="20261128034600 +0800" stop="20261128043400 +0800" channel="tv33">
+    <title lang="zh-Hans">画眉 6</title>
+  </programme>
+  <programme start="20261128043400 +0800" stop="20261128050200 +0800" channel="tv33">
+    <title lang="zh-Hans">今日说法</title>
+  </programme>
+  <programme start="20261128050200 +0800" stop="20261128053200 +0800" channel="tv33">
+    <title lang="zh-Hans">新闻联播</title>
+  </programme>
+  <programme start="20261128053200 +0800" stop="20261128060000 +0800" channel="tv33">
+    <title lang="zh-Hans">秦岭家园</title>
+  </programme>
+  <programme start="20261128060000 +0800" stop="20261128083000 +0800" channel="tv33">
+    <title lang="zh-Hans">朝闻天下</title>
+  </programme>
+  <programme start="20261128083000 +0800" stop="20261128091200 +0800" channel="tv33">
+    <title lang="zh-Hans">生活圈</title>
+  </programme>
+  <programme start="20261128091200 +0800" stop="20261128095800 +0800" channel="tv33">
+    <title lang="zh-Hans">生命树 38</title>
+  </programme>
+  <programme start="20261128095800 +0800" stop="20261128104400 +0800" channel="tv33">
+    <title lang="zh-Hans">生命树 39</title>
+  </programme>
+  <programme start="20261128104400 +0800" stop="20261128113000 +0800" channel="tv33">
+    <title lang="zh-Hans">生命树 40</title>
+  </programme>
+  <programme start="20261128113000 +0800" stop="20261128120000 +0800" channel="tv33">
+    <title lang="zh-Hans">文脉春秋</title>
+  </programme>
+  <programme start="20261128120000 +0800" stop="20261128123200 +0800" channel="tv33">
+    <title lang="zh-Hans">新闻30分</title>
+  </programme>
+  <programme start="20261128123200 +0800" stop="20261128130300 +0800" channel="tv33">
+    <title lang="zh-Hans">本草流芳</title>
+  </programme>
+  <programme start="20261128130300 +0800" stop="20261128134900 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 6</title>
+  </programme>
+  <programme start="20261128134900 +0800" stop="20261128143500 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 7</title>
+  </programme>
+  <programme start="20261128143500 +0800" stop="20261128152100 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 8</title>
+  </programme>
+  <programme start="20261128152100 +0800" stop="20261128160800 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 9</title>
+  </programme>
+  <programme start="20261128160800 +0800" stop="20261128163600 +0800" channel="tv33">
+    <title lang="zh-Hans">门楣之上</title>
+  </programme>
+  <programme start="20261128163600 +0800" stop="20261128171900 +0800" channel="tv33">
+    <title lang="zh-Hans">生活圈</title>
+  </programme>
+  <programme start="20261128171900 +0800" stop="20261128172900 +0800" channel="tv33">
+    <title lang="zh-Hans">第一动画乐园</title>
+  </programme>
+  <programme start="20261128172900 +0800" stop="20261128190000 +0800" channel="tv33">
+    <title lang="zh-Hans">中华考工记</title>
+  </programme>
+  <programme start="20261128190000 +0800" stop="20261128193500 +0800" channel="tv33">
+    <title lang="zh-Hans">新闻联播</title>
+  </programme>
+  <programme start="20261128193500 +0800" stop="20261128194100 +0800" channel="tv33">
+    <title lang="zh-Hans">天气预报</title>
+  </programme>
+  <programme start="20261128194100 +0800" stop="20261128200600 +0800" channel="tv33">
+    <title lang="zh-Hans">秦岭家园</title>
+  </programme>
+  <programme start="20261128200600 +0800" stop="20261128214300 +0800" channel="tv33">
+    <title lang="zh-Hans">金石探文明</title>
+  </programme>
+  <programme start="20261128214300 +0800" stop="20261128220000 +0800" channel="tv33">
+    <title lang="zh-Hans">焦点访谈</title>
+  </programme>
+  <programme start="20261128220000 +0800" stop="20261128223200 +0800" channel="tv33">
+    <title lang="zh-Hans">晚间新闻</title>
+  </programme>
+  <programme start="20261128223200 +0800" stop="20261128231800 +0800" channel="tv33">
+    <title lang="zh-Hans">踏歌行</title>
+  </programme>
+  <programme start="20261128231800 +0800" stop="20261129000400 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 9</title>
+  </programme>
+  <programme start="20261128000000 +0800" stop="20261128005600 +0800" channel="tv34">
+    <title lang="zh-Hans">家书：四万万人的抗战记忆3</title>
+  </programme>
+  <programme start="20261128005600 +0800" stop="20261128010000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128010000 +0800" stop="20261128012700 +0800" channel="tv34">
+    <title lang="zh-Hans">出海非洲3</title>
+  </programme>
+  <programme start="20261128012700 +0800" stop="20261128013000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128013000 +0800" stop="20261128015700 +0800" channel="tv34">
+    <title lang="zh-Hans">广府春秋第二季2</title>
+  </programme>
+  <programme start="20261128015700 +0800" stop="20261128020000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128020000 +0800" stop="20261128025600 +0800" channel="tv34">
+    <title lang="zh-Hans">寻味东莞1</title>
+  </programme>
+  <programme start="20261128025600 +0800" stop="20261128030000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128030000 +0800" stop="20261128032700 +0800" channel="tv34">
+    <title lang="zh-Hans">洋伙伴创想记5</title>
+  </programme>
+  <programme start="20261128032700 +0800" stop="20261128033000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128033000 +0800" stop="20261128035700 +0800" channel="tv34">
+    <title lang="zh-Hans">生活的减法1/在“她”乡4/中国微名片·世界遗产》第三季4</title>
+  </programme>
+  <programme start="20261128035700 +0800" stop="20261128040000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128040000 +0800" stop="20261128045600 +0800" channel="tv34">
+    <title lang="zh-Hans">祁连大墓1</title>
+  </programme>
+  <programme start="20261128045600 +0800" stop="20261128050000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128050000 +0800" stop="20261128052700 +0800" channel="tv34">
+    <title lang="zh-Hans">从风筝到卫星</title>
+  </programme>
+  <programme start="20261128052700 +0800" stop="20261128053000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128053000 +0800" stop="20261128055700 +0800" channel="tv34">
+    <title lang="zh-Hans">共赴未来中非合作</title>
+  </programme>
+  <programme start="20261128055700 +0800" stop="20261128060000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128060000 +0800" stop="20261128065600 +0800" channel="tv34">
+    <title lang="zh-Hans">家书：四万万人的抗战记忆4</title>
+  </programme>
+  <programme start="20261128065600 +0800" stop="20261128070000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128070000 +0800" stop="20261128072700 +0800" channel="tv34">
+    <title lang="zh-Hans">出海非洲4</title>
+  </programme>
+  <programme start="20261128072700 +0800" stop="20261128073000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128073000 +0800" stop="20261128075700 +0800" channel="tv34">
+    <title lang="zh-Hans">国宝寻踪：尘封的大秦帝国1</title>
+  </programme>
+  <programme start="20261128075700 +0800" stop="20261128080000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128080000 +0800" stop="20261128085600 +0800" channel="tv34">
+    <title lang="zh-Hans">寻味东莞2</title>
+  </programme>
+  <programme start="20261128085600 +0800" stop="20261128090000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128090000 +0800" stop="20261128092700 +0800" channel="tv34">
+    <title lang="zh-Hans">洋伙伴创想记6</title>
+  </programme>
+  <programme start="20261128092700 +0800" stop="20261128093000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128093000 +0800" stop="20261128095700 +0800" channel="tv34">
+    <title lang="zh-Hans">生活的减法2/在“她”乡5/中国微名片·世界遗产》第三季5</title>
+  </programme>
+  <programme start="20261128095700 +0800" stop="20261128100000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128100000 +0800" stop="20261128105600 +0800" channel="tv34">
+    <title lang="zh-Hans">祁连大墓1</title>
+  </programme>
+  <programme start="20261128105600 +0800" stop="20261128110000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128110000 +0800" stop="20261128112700 +0800" channel="tv34">
+    <title lang="zh-Hans">从风筝到卫星</title>
+  </programme>
+  <programme start="20261128112700 +0800" stop="20261128113000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128113000 +0800" stop="20261128115700 +0800" channel="tv34">
+    <title lang="zh-Hans">共赴未来中非合作</title>
+  </programme>
+  <programme start="20261128115700 +0800" stop="20261128120000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128120000 +0800" stop="20261128125600 +0800" channel="tv34">
+    <title lang="zh-Hans">家书：四万万人的抗战记忆4</title>
+  </programme>
+  <programme start="20261128125600 +0800" stop="20261128130000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128130000 +0800" stop="20261128132700 +0800" channel="tv34">
+    <title lang="zh-Hans">出海非洲4</title>
+  </programme>
+  <programme start="20261128132700 +0800" stop="20261128133000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128133000 +0800" stop="20261128135700 +0800" channel="tv34">
+    <title lang="zh-Hans">国宝寻踪：尘封的大秦帝国1</title>
+  </programme>
+  <programme start="20261128135700 +0800" stop="20261128140000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128140000 +0800" stop="20261128145600 +0800" channel="tv34">
+    <title lang="zh-Hans">寻味东莞2</title>
+  </programme>
+  <programme start="20261128145600 +0800" stop="20261128150000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128150000 +0800" stop="20261128152700 +0800" channel="tv34">
+    <title lang="zh-Hans">洋伙伴创想记6</title>
+  </programme>
+  <programme start="20261128152700 +0800" stop="20261128153000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128153000 +0800" stop="20261128155700 +0800" channel="tv34">
+    <title lang="zh-Hans">生活的减法2/在“她”乡5/中国微名片·世界遗产》第三季5</title>
+  </programme>
+  <programme start="20261128155700 +0800" stop="20261128160000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128160000 +0800" stop="20261128165600 +0800" channel="tv34">
+    <title lang="zh-Hans">祁连大墓1</title>
+  </programme>
+  <programme start="20261128165600 +0800" stop="20261128170000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128170000 +0800" stop="20261128172700 +0800" channel="tv34">
+    <title lang="zh-Hans">从风筝到卫星</title>
+  </programme>
+  <programme start="20261128172700 +0800" stop="20261128173000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128173000 +0800" stop="20261128175700 +0800" channel="tv34">
+    <title lang="zh-Hans">共赴未来中非合作</title>
+  </programme>
+  <programme start="20261128175700 +0800" stop="20261128180000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128180000 +0800" stop="20261128185600 +0800" channel="tv34">
+    <title lang="zh-Hans">家书：四万万人的抗战记忆4</title>
+  </programme>
+  <programme start="20261128185600 +0800" stop="20261128190000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128190000 +0800" stop="20261128192700 +0800" channel="tv34">
+    <title lang="zh-Hans">出海非洲4</title>
+  </programme>
+  <programme start="20261128192700 +0800" stop="20261128193000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128193000 +0800" stop="20261128195700 +0800" channel="tv34">
+    <title lang="zh-Hans">国宝寻踪：尘封的大秦帝国1</title>
+  </programme>
+  <programme start="20261128195700 +0800" stop="20261128200000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128200000 +0800" stop="20261128205600 +0800" channel="tv34">
+    <title lang="zh-Hans">寻味东莞2</title>
+  </programme>
+  <programme start="20261128205600 +0800" stop="20261128210000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128210000 +0800" stop="20261128212700 +0800" channel="tv34">
+    <title lang="zh-Hans">洋伙伴创想记6</title>
+  </programme>
+  <programme start="20261128212700 +0800" stop="20261128213000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128213000 +0800" stop="20261128215700 +0800" channel="tv34">
+    <title lang="zh-Hans">生活的减法2/在“她”乡5/中国微名片·世界遗产》第三季5</title>
+  </programme>
+  <programme start="20261128215700 +0800" stop="20261128220000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128220000 +0800" stop="20261128225600 +0800" channel="tv34">
+    <title lang="zh-Hans">祁连大墓1</title>
+  </programme>
+  <programme start="20261128225600 +0800" stop="20261128230000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128230000 +0800" stop="20261128232700 +0800" channel="tv34">
+    <title lang="zh-Hans">从风筝到卫星</title>
+  </programme>
+  <programme start="20261128232700 +0800" stop="20261128233000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128233000 +0800" stop="20261128235700 +0800" channel="tv34">
+    <title lang="zh-Hans">共赴未来中非合作</title>
+  </programme>
+  <programme start="20261128235700 +0800" stop="20261129000000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261128000000 +0800" stop="20261128010000 +0800" channel="tv35">
+    <title lang="zh-Hans">Global Business</title>
+  </programme>
+  <programme start="20261128010000 +0800" stop="20261128020000 +0800" channel="tv35">
+    <title lang="zh-Hans">Africa Live</title>
+  </programme>
+  <programme start="20261128020000 +0800" stop="20261128030000 +0800" channel="tv35">
+    <title lang="zh-Hans">Global Business</title>
+  </programme>
+  <programme start="20261128030000 +0800" stop="20261128033000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261128033000 +0800" stop="20261128040000 +0800" channel="tv35">
+    <title lang="zh-Hans">World Insight with Tian Wei</title>
+  </programme>
+  <programme start="20261128040000 +0800" stop="20261128043000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261128043000 +0800" stop="20261128050000 +0800" channel="tv35">
+    <title lang="zh-Hans">Dialogue</title>
+  </programme>
+  <programme start="20261128050000 +0800" stop="20261128053000 +0800" channel="tv35">
+    <title lang="zh-Hans">Global Business</title>
+  </programme>
+  <programme start="20261128053000 +0800" stop="20261128060000 +0800" channel="tv35">
+    <title lang="zh-Hans">The Point with Liu Xin</title>
+  </programme>
+  <programme start="20261128060000 +0800" stop="20261128070000 +0800" channel="tv35">
+    <title lang="zh-Hans">Americas Now</title>
+  </programme>
+  <programme start="20261128070000 +0800" stop="20261128073000 +0800" channel="tv35">
+    <title lang="zh-Hans">The Heat</title>
+  </programme>
+  <programme start="20261128073000 +0800" stop="20261128080000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261128080000 +0800" stop="20261128090000 +0800" channel="tv35">
+    <title lang="zh-Hans">Global Business</title>
+  </programme>
+  <programme start="20261128090000 +0800" stop="20261128093000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261128093000 +0800" stop="20261128100000 +0800" channel="tv35">
+    <title lang="zh-Hans">China 24</title>
+  </programme>
+  <programme start="20261128100000 +0800" stop="20261128103000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261128103000 +0800" stop="20261128110000 +0800" channel="tv35">
+    <title lang="zh-Hans">World Insight with Tian Wei</title>
+  </programme>
+  <programme start="20261128110000 +0800" stop="20261128111500 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261128111500 +0800" stop="20261128113000 +0800" channel="tv35">
+    <title lang="zh-Hans">Sports Scene</title>
+  </programme>
+  <programme start="20261128113000 +0800" stop="20261128120000 +0800" channel="tv35">
+    <title lang="zh-Hans">Travelogue</title>
+  </programme>
+  <programme start="20261128120000 +0800" stop="20261128130000 +0800" channel="tv35">
+    <title lang="zh-Hans">Global Watch</title>
+  </programme>
+  <programme start="20261128130000 +0800" stop="20261128140000 +0800" channel="tv35">
+    <title lang="zh-Hans">Big Story</title>
+  </programme>
+  <programme start="20261128140000 +0800" stop="20261128143000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261128143000 +0800" stop="20261128150000 +0800" channel="tv35">
+    <title lang="zh-Hans">The Heat</title>
+  </programme>
+  <programme start="20261128150000 +0800" stop="20261128153000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261128153000 +0800" stop="20261128160000 +0800" channel="tv35">
+    <title lang="zh-Hans">Sports Scene</title>
+  </programme>
+  <programme start="20261128160000 +0800" stop="20261128163000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261128163000 +0800" stop="20261128170000 +0800" channel="tv35">
+    <title lang="zh-Hans">Biz Talk</title>
+  </programme>
+  <programme start="20261128170000 +0800" stop="20261128173000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261128173000 +0800" stop="20261128180000 +0800" channel="tv35">
+    <title lang="zh-Hans">Inheritors</title>
+  </programme>
+  <programme start="20261128180000 +0800" stop="20261128181500 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261128181500 +0800" stop="20261128190000 +0800" channel="tv35">
+    <title lang="zh-Hans">Africa Live</title>
+  </programme>
+  <programme start="20261128190000 +0800" stop="20261128193000 +0800" channel="tv35">
+    <title lang="zh-Hans">Asia Today</title>
+  </programme>
+  <programme start="20261128193000 +0800" stop="20261128200000 +0800" channel="tv35">
+    <title lang="zh-Hans">Leaders Talk</title>
+  </programme>
+  <programme start="20261128200000 +0800" stop="20261128201500 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261128201500 +0800" stop="20261128210000 +0800" channel="tv35">
+    <title lang="zh-Hans">China 24</title>
+  </programme>
+  <programme start="20261128210000 +0800" stop="20261128213000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261128213000 +0800" stop="20261128220000 +0800" channel="tv35">
+    <title lang="zh-Hans">Biz Talk</title>
+  </programme>
+  <programme start="20261128220000 +0800" stop="20261128223000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261128223000 +0800" stop="20261128230000 +0800" channel="tv35">
+    <title lang="zh-Hans">Assignment Asia</title>
+  </programme>
+  <programme start="20261128230000 +0800" stop="20261128233000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261128233000 +0800" stop="20261129000000 +0800" channel="tv35">
+    <title lang="zh-Hans">Inheritors</title>
+  </programme>
+  <programme start="20261129000000 +0800" stop="20261129010000 +0800" channel="tv31">
+    <title lang="zh-Hans">非凡人物</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/theextraordinary</url>
+  </programme>
+  <programme start="20261129010000 +0800" stop="20261129013000 +0800" channel="tv31">
+    <title lang="zh-Hans">体坛快闪</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/sportsexpress</url>
+  </programme>
+  <programme start="20261129013000 +0800" stop="20261129020000 +0800" channel="tv31">
+    <title lang="zh-Hans">医研华章:香港内科医学院四十周年</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/40thanniversaryofhkcp</url>
+  </programme>
+  <programme start="20261129020000 +0800" stop="20261129023000 +0800" channel="tv31">
+    <title lang="zh-Hans">世界技能大赛  决战上海</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/worldskillscompshanghai2026</url>
+  </programme>
+  <programme start="20261129023000 +0800" stop="20261129033000 +0800" channel="tv31">
+    <title lang="zh-Hans">海市蜃楼</title>
+    <desc lang="zh-Hans">第十七集：众人前往百里府</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/themirage</url>
+  </programme>
+  <programme start="20261129033000 +0800" stop="20261129040000 +0800" channel="tv31">
+    <title lang="zh-Hans">时事摘录</title>
+    <desc lang="zh-Hans">时事摘录</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/newsreview2026</url>
+  </programme>
+  <programme start="20261129040000 +0800" stop="20261129043000 +0800" channel="tv31">
+    <title lang="zh-Hans">陪我讲-倾心诊所</title>
+    <desc lang="zh-Hans">风起之时</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/shallwetalk_caringclinic</url>
+  </programme>
+  <programme start="20261129043000 +0800" stop="20261129063000 +0800" channel="tv31">
+    <title lang="zh-Hans">演艺盛荟：鲁尔钢琴音乐节 - 钢琴演奏会</title>
+    <desc lang="zh-Hans">鲁尔钢琴音乐节 - 钢琴演奏会</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/artsonair2015</url>
+  </programme>
+  <programme start="20261129063000 +0800" stop="20261129073000 +0800" channel="tv31">
+    <title lang="zh-Hans">非凡人物</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/theextraordinary</url>
+  </programme>
+  <programme start="20261129073000 +0800" stop="20261129080000 +0800" channel="tv31">
+    <title lang="zh-Hans">铿锵集</title>
+    <desc lang="zh-Hans">一语之失</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hkcc</url>
+  </programme>
+  <programme start="20261129080000 +0800" stop="20261129082000 +0800" channel="tv31">
+    <title lang="zh-Hans">BobieLand</title>
+    <desc lang="zh-Hans">第三百四十八集 - 「洛洛的芭蕾课」上集</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/bobieland</url>
+  </programme>
+  <programme start="20261129082000 +0800" stop="20261129083500 +0800" channel="tv31">
+    <title lang="zh-Hans">BobieLand</title>
+    <desc lang="zh-Hans">第三百四十九集 - 「洛洛的芭蕾课」下集</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/bobieland</url>
+  </programme>
+  <programme start="20261129083500 +0800" stop="20261129085500 +0800" channel="tv31">
+    <title lang="zh-Hans">BobieLand</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/bobieland</url>
+  </programme>
+  <programme start="20261129085500 +0800" stop="20261129091000 +0800" channel="tv31">
+    <title lang="zh-Hans">BobieLand</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/bobieland</url>
+  </programme>
+  <programme start="20261129091000 +0800" stop="20261129093000 +0800" channel="tv31">
+    <title lang="zh-Hans">BobieLand</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/bobieland</url>
+  </programme>
+  <programme start="20261129093000 +0800" stop="20261129094000 +0800" channel="tv31">
+    <title lang="zh-Hans">快乐魔法森林</title>
+    <desc lang="zh-Hans">第1000个任务</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/super_happy_magic_forest2025</url>
+  </programme>
+  <programme start="20261129094000 +0800" stop="20261129095500 +0800" channel="tv31">
+    <title lang="zh-Hans">快乐魔法森林</title>
+    <desc lang="zh-Hans">开心大扫除</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/super_happy_magic_forest2025</url>
+  </programme>
+  <programme start="20261129095500 +0800" stop="20261129100500 +0800" channel="tv31">
+    <title lang="zh-Hans">奀菇菇搞搞震 2</title>
+    <desc lang="zh-Hans">早日康复</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/mushmushs2</url>
+  </programme>
+  <programme start="20261129100500 +0800" stop="20261129102000 +0800" channel="tv31">
+    <title lang="zh-Hans">奀菇菇搞搞震 2</title>
+    <desc lang="zh-Hans">蜘蛛网陷阱</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/mushmushs2</url>
+  </programme>
+  <programme start="20261129102000 +0800" stop="20261129102500 +0800" channel="tv31">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129102500 +0800" stop="20261129105500 +0800" channel="tv31">
+    <title lang="zh-Hans">《第78届香港学校音乐节优胜者汇演精华》</title>
+    <desc lang="zh-Hans">第一集《乐韵新声》</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/78thhkschoolsmusicfestival</url>
+  </programme>
+  <programme start="20261129105500 +0800" stop="20261129110000 +0800" channel="tv31">
+    <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">民安队少年团「新团员启导课程」</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261129110000 +0800" stop="20261129112500 +0800" channel="tv31">
+    <title lang="zh-Hans">双城联动</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/betweentwocities</url>
+  </programme>
+  <programme start="20261129112500 +0800" stop="20261129121000 +0800" channel="tv31">
+    <title lang="zh-Hans">尘封十三载</title>
+    <desc lang="zh-Hans">第九集：电单车修理店的刀哥</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/thirteenyearsofdust</url>
+  </programme>
+  <programme start="20261129121000 +0800" stop="20261129130000 +0800" channel="tv31">
+    <title lang="zh-Hans">尘封十三载</title>
+    <desc lang="zh-Hans">第十集：专案组警员被汽车蓄意撞伤</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/thirteenyearsofdust</url>
+  </programme>
+  <programme start="20261129130000 +0800" stop="20261129130500 +0800" channel="tv31">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/newshighlights</url>
+  </programme>
+  <programme start="20261129130500 +0800" stop="20261129131500 +0800" channel="tv31">
+    <title lang="zh-Hans">IP 新机遇</title>
+    <desc lang="zh-Hans">「动」识先机(版权)</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/ipno2026</url>
+  </programme>
+  <programme start="20261129131500 +0800" stop="20261129132500 +0800" channel="tv31">
+    <title lang="zh-Hans">IP 新机遇</title>
+    <desc lang="zh-Hans">独具「惠」眼(专利)</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/ipno2026</url>
+  </programme>
+  <programme start="20261129132500 +0800" stop="20261129153000 +0800" channel="tv31">
+    <title lang="zh-Hans">FIBA 3x3 世界巡回赛 2026</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/fiba3x3worldtour2026</url>
+  </programme>
+  <programme start="20261129153000 +0800" stop="20261129154000 +0800" channel="tv31">
+    <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">民安队少年团「新团员启导课程」</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261129154000 +0800" stop="20261129164000 +0800" channel="tv31">
+    <title lang="zh-Hans">识多一点点</title>
+    <desc lang="zh-Hans">第46(手语版)香港故事-声音导航#5场边热浪(手语版)亚太广播联盟机械人大赛2026#4谁主武林</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/lookandlearn</url>
+  </programme>
+  <programme start="20261129164000 +0800" stop="20261129171000 +0800" channel="tv31">
+    <title lang="zh-Hans">体坛快闪</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/sportsexpress</url>
+  </programme>
+  <programme start="20261129171000 +0800" stop="20261129173500 +0800" channel="tv31">
+    <title lang="zh-Hans">港乐 • 讲乐</title>
+    <desc lang="zh-Hans">第133集：激情摇滚系列</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/cantopoppower</url>
+  </programme>
+  <programme start="20261129173500 +0800" stop="20261129180000 +0800" channel="tv31">
+    <title lang="zh-Hans">港乐 • 讲乐</title>
+    <desc lang="zh-Hans">第148集：实力唱将系列</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/cantopoppower</url>
+  </programme>
+  <programme start="20261129180000 +0800" stop="20261129190000 +0800" channel="tv31">
+    <title lang="zh-Hans">同唱友谊歌 - 2026中越金曲音乐盛典</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/singfriendshipsongs2026</url>
+  </programme>
+  <programme start="20261129190000 +0800" stop="20261129191500 +0800" channel="tv31">
+    <title lang="zh-Hans">新闻天地</title>
+    <desc lang="zh-Hans">20261129</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hktoday_tv</url>
+  </programme>
+  <programme start="20261129191500 +0800" stop="20261129193000 +0800" channel="tv31">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129193000 +0800" stop="20261129200000 +0800" channel="tv31">
+    <title lang="zh-Hans">港乐 • 讲乐</title>
+    <desc lang="zh-Hans">第166集：IdG Bubbles</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/cantopoppower</url>
+  </programme>
+  <programme start="20261129200000 +0800" stop="20261129202500 +0800" channel="tv31">
+    <title lang="zh-Hans">睇得见。听得到</title>
+    <desc lang="zh-Hans">品川先生要搬家</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/inclusivehk</url>
+  </programme>
+  <programme start="20261129202500 +0800" stop="20261129203000 +0800" channel="tv31">
+    <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">拒绝不良资讯</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261129203000 +0800" stop="20261129212500 +0800" channel="tv31">
+    <title lang="zh-Hans">海市蜃楼</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/themirage</url>
+  </programme>
+  <programme start="20261129212500 +0800" stop="20261129213000 +0800" channel="tv31">
+    <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">拒绝不良资讯</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261129213000 +0800" stop="20261129234500 +0800" channel="tv31">
+    <title lang="zh-Hans">周末大电影：爱程攻防战</title>
+    <desc lang="zh-Hans">爱程攻防战</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/weekendmovies</url>
+  </programme>
+  <programme start="20261129234500 +0800" stop="20261130000000 +0800" channel="tv31">
+    <title lang="zh-Hans">FIBA 3x3 世界巡回赛 2026</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/fiba3x3worldtour2026</url>
+  </programme>
+  <programme start="20261129000000 +0800" stop="20261129010000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129010000 +0800" stop="20261129013000 +0800" channel="tv32">
+    <title lang="zh-Hans">双城联动</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/betweentwocities</url>
+  </programme>
+  <programme start="20261129013000 +0800" stop="20261129073500 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129073500 +0800" stop="20261129074000 +0800" channel="tv32">
+    <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">民安队少年团「新团员启导课程」</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261129074000 +0800" stop="20261129110000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129110000 +0800" stop="20261129111000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261129111000 +0800" stop="20261129113000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129113000 +0800" stop="20261129114000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261129114000 +0800" stop="20261129120000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129120000 +0800" stop="20261129121000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261129121000 +0800" stop="20261129123000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129123000 +0800" stop="20261129124000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261129124000 +0800" stop="20261129130000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129130000 +0800" stop="20261129130700 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261129130700 +0800" stop="20261129133000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129133000 +0800" stop="20261129133700 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261129133700 +0800" stop="20261129140000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129140000 +0800" stop="20261129141000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261129141000 +0800" stop="20261129143000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129143000 +0800" stop="20261129144000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261129144000 +0800" stop="20261129150000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129150000 +0800" stop="20261129151000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261129151000 +0800" stop="20261129153000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129153000 +0800" stop="20261129154000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261129154000 +0800" stop="20261129160000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129160000 +0800" stop="20261129161000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261129161000 +0800" stop="20261129163000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129163000 +0800" stop="20261129164000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261129164000 +0800" stop="20261129170000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129170000 +0800" stop="20261129171000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261129171000 +0800" stop="20261129173000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129173000 +0800" stop="20261129174000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261129174000 +0800" stop="20261129180000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129180000 +0800" stop="20261129181000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261129181000 +0800" stop="20261129183000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129183000 +0800" stop="20261129184000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261129184000 +0800" stop="20261129190000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129190000 +0800" stop="20261129191500 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻天地</title>
+    <desc lang="zh-Hans">20261129</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/hktoday_tv</url>
+  </programme>
+  <programme start="20261129191500 +0800" stop="20261129193000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129193000 +0800" stop="20261129200000 +0800" channel="tv32">
+    <title lang="zh-Hans">铿锵集</title>
+    <desc lang="zh-Hans">一语之失</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/hkcc</url>
+  </programme>
+  <programme start="20261129200000 +0800" stop="20261129201000 +0800" channel="tv32">
+    <title lang="zh-Hans">晚间新闻</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/eveningnews_tv</url>
+  </programme>
+  <programme start="20261129201000 +0800" stop="20261129203000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129203000 +0800" stop="20261129210000 +0800" channel="tv32">
+    <title lang="zh-Hans">双城联动</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/betweentwocities</url>
+  </programme>
+  <programme start="20261129210000 +0800" stop="20261129213000 +0800" channel="tv32">
+    <title lang="zh-Hans">看神州</title>
+    <desc lang="zh-Hans">中俄美元首深圳会晤 北京无人机新规催热跨城托管</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/kanshenzhou</url>
+  </programme>
+  <programme start="20261129213000 +0800" stop="20261129220000 +0800" channel="tv32">
+    <title lang="zh-Hans">纵横天下事</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/globalinsight</url>
+  </programme>
+  <programme start="20261129220000 +0800" stop="20261129220500 +0800" channel="tv32">
+    <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">拒绝不良资讯</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261129220500 +0800" stop="20261129223000 +0800" channel="tv32">
+    <title lang="zh-Hans">十八好时光</title>
+    <desc lang="zh-Hans">十八好时光 11月26日</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/18heartfeltvibestv</url>
+  </programme>
+  <programme start="20261129223000 +0800" stop="20261129230000 +0800" channel="tv32">
+    <title lang="zh-Hans">广播道会客室</title>
+    <desc lang="zh-Hans">广播道会客室｜阮苏少湄 (1)</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/onbroadcastdrive</url>
+  </programme>
+  <programme start="20261129230000 +0800" stop="20261129233000 +0800" channel="tv32">
+    <title lang="zh-Hans">大局观</title>
+    <desc lang="zh-Hans">双城角色</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/theviewpoint</url>
+  </programme>
+  <programme start="20261129233000 +0800" stop="20261130000000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261129000000 +0800" stop="20261129000400 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 9</title>
+  </programme>
+  <programme start="20261129000400 +0800" stop="20261129005200 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 10</title>
+  </programme>
+  <programme start="20261129005200 +0800" stop="20261129025900 +0800" channel="tv33">
+    <title lang="zh-Hans">中华考工记</title>
+  </programme>
+  <programme start="20261129025900 +0800" stop="20261129034600 +0800" channel="tv33">
+    <title lang="zh-Hans">画眉 7</title>
+  </programme>
+  <programme start="20261129034600 +0800" stop="20261129043200 +0800" channel="tv33">
+    <title lang="zh-Hans">画眉 8</title>
+  </programme>
+  <programme start="20261129043200 +0800" stop="20261129050200 +0800" channel="tv33">
+    <title lang="zh-Hans">寻古中国</title>
+  </programme>
+  <programme start="20261129050200 +0800" stop="20261129053200 +0800" channel="tv33">
+    <title lang="zh-Hans">新闻联播</title>
+  </programme>
+  <programme start="20261129053200 +0800" stop="20261129060000 +0800" channel="tv33">
+    <title lang="zh-Hans">秦岭家园</title>
+  </programme>
+  <programme start="20261129060000 +0800" stop="20261129083000 +0800" channel="tv33">
+    <title lang="zh-Hans">朝闻天下</title>
+  </programme>
+  <programme start="20261129083000 +0800" stop="20261129091200 +0800" channel="tv33">
+    <title lang="zh-Hans">生活圈</title>
+  </programme>
+  <programme start="20261129091200 +0800" stop="20261129095800 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 1</title>
+  </programme>
+  <programme start="20261129095800 +0800" stop="20261129104400 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 2</title>
+  </programme>
+  <programme start="20261129104400 +0800" stop="20261129113000 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 3</title>
+  </programme>
+  <programme start="20261129113000 +0800" stop="20261129120000 +0800" channel="tv33">
+    <title lang="zh-Hans">文脉春秋</title>
+  </programme>
+  <programme start="20261129120000 +0800" stop="20261129123200 +0800" channel="tv33">
+    <title lang="zh-Hans">新闻30分</title>
+  </programme>
+  <programme start="20261129123200 +0800" stop="20261129130400 +0800" channel="tv33">
+    <title lang="zh-Hans">本草流芳</title>
+  </programme>
+  <programme start="20261129130400 +0800" stop="20261129135000 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 10</title>
+  </programme>
+  <programme start="20261129135000 +0800" stop="20261129143600 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 11</title>
+  </programme>
+  <programme start="20261129143600 +0800" stop="20261129152200 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 12</title>
+  </programme>
+  <programme start="20261129152200 +0800" stop="20261129161000 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 13</title>
+  </programme>
+  <programme start="20261129161000 +0800" stop="20261129163800 +0800" channel="tv33">
+    <title lang="zh-Hans">门楣之上</title>
+  </programme>
+  <programme start="20261129163800 +0800" stop="20261129172500 +0800" channel="tv33">
+    <title lang="zh-Hans">生活圈</title>
+  </programme>
+  <programme start="20261129172500 +0800" stop="20261129190000 +0800" channel="tv33">
+    <title lang="zh-Hans">非遗里的中国</title>
+  </programme>
+  <programme start="20261129190000 +0800" stop="20261129193500 +0800" channel="tv33">
+    <title lang="zh-Hans">新闻联播</title>
+  </programme>
+  <programme start="20261129193500 +0800" stop="20261129194100 +0800" channel="tv33">
+    <title lang="zh-Hans">天气预报</title>
+  </programme>
+  <programme start="20261129194100 +0800" stop="20261129200600 +0800" channel="tv33">
+    <title lang="zh-Hans">秦岭家园</title>
+  </programme>
+  <programme start="20261129200600 +0800" stop="20261129214300 +0800" channel="tv33">
+    <title lang="zh-Hans">金石探文明</title>
+  </programme>
+  <programme start="20261129214300 +0800" stop="20261129220000 +0800" channel="tv33">
+    <title lang="zh-Hans">焦点访谈</title>
+  </programme>
+  <programme start="20261129220000 +0800" stop="20261129223200 +0800" channel="tv33">
+    <title lang="zh-Hans">晚间新闻</title>
+  </programme>
+  <programme start="20261129223200 +0800" stop="20261129232300 +0800" channel="tv33">
+    <title lang="zh-Hans">踏歌行</title>
+  </programme>
+  <programme start="20261129232300 +0800" stop="20261130000900 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 11</title>
+  </programme>
+  <programme start="20261129000000 +0800" stop="20261129005600 +0800" channel="tv34">
+    <title lang="zh-Hans">家书：四万万人的抗战记忆4</title>
+  </programme>
+  <programme start="20261129005600 +0800" stop="20261129010000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129010000 +0800" stop="20261129012700 +0800" channel="tv34">
+    <title lang="zh-Hans">出海非洲4</title>
+  </programme>
+  <programme start="20261129012700 +0800" stop="20261129013000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129013000 +0800" stop="20261129015700 +0800" channel="tv34">
+    <title lang="zh-Hans">国宝寻踪：尘封的大秦帝国1</title>
+  </programme>
+  <programme start="20261129015700 +0800" stop="20261129020000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129020000 +0800" stop="20261129025600 +0800" channel="tv34">
+    <title lang="zh-Hans">寻味东莞2</title>
+  </programme>
+  <programme start="20261129025600 +0800" stop="20261129030000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129030000 +0800" stop="20261129032700 +0800" channel="tv34">
+    <title lang="zh-Hans">洋伙伴创想记6</title>
+  </programme>
+  <programme start="20261129032700 +0800" stop="20261129033000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129033000 +0800" stop="20261129035700 +0800" channel="tv34">
+    <title lang="zh-Hans">生活的减法2/在“她”乡5/中国微名片·世界遗产》第三季5</title>
+  </programme>
+  <programme start="20261129035700 +0800" stop="20261129040000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129040000 +0800" stop="20261129045600 +0800" channel="tv34">
+    <title lang="zh-Hans">同一个太空</title>
+  </programme>
+  <programme start="20261129045600 +0800" stop="20261129050000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129050000 +0800" stop="20261129055600 +0800" channel="tv34">
+    <title lang="zh-Hans">肯尼亚的中国女孩/ 盲人推拿师和他的“非洲往事”</title>
+  </programme>
+  <programme start="20261129055600 +0800" stop="20261129060000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129060000 +0800" stop="20261129065600 +0800" channel="tv34">
+    <title lang="zh-Hans">超级工程 Ⅱ1</title>
+  </programme>
+  <programme start="20261129065600 +0800" stop="20261129070000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129070000 +0800" stop="20261129075600 +0800" channel="tv34">
+    <title lang="zh-Hans">超级工程 Ⅱ2</title>
+  </programme>
+  <programme start="20261129075600 +0800" stop="20261129080000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129080000 +0800" stop="20261129085600 +0800" channel="tv34">
+    <title lang="zh-Hans">超级工程 Ⅱ3</title>
+  </programme>
+  <programme start="20261129085600 +0800" stop="20261129090000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129090000 +0800" stop="20261129095600 +0800" channel="tv34">
+    <title lang="zh-Hans">超级工程 Ⅱ4</title>
+  </programme>
+  <programme start="20261129095600 +0800" stop="20261129100000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129100000 +0800" stop="20261129105600 +0800" channel="tv34">
+    <title lang="zh-Hans">同一个太空</title>
+  </programme>
+  <programme start="20261129105600 +0800" stop="20261129110000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129110000 +0800" stop="20261129115600 +0800" channel="tv34">
+    <title lang="zh-Hans">肯尼亚的中国女孩/ 盲人推拿师和他的“非洲往事”</title>
+  </programme>
+  <programme start="20261129115600 +0800" stop="20261129120000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129120000 +0800" stop="20261129125600 +0800" channel="tv34">
+    <title lang="zh-Hans">超级工程 Ⅱ1</title>
+  </programme>
+  <programme start="20261129125600 +0800" stop="20261129130000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129130000 +0800" stop="20261129135600 +0800" channel="tv34">
+    <title lang="zh-Hans">超级工程 Ⅱ2</title>
+  </programme>
+  <programme start="20261129135600 +0800" stop="20261129140000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129140000 +0800" stop="20261129145600 +0800" channel="tv34">
+    <title lang="zh-Hans">超级工程 Ⅱ3</title>
+  </programme>
+  <programme start="20261129145600 +0800" stop="20261129150000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129150000 +0800" stop="20261129155600 +0800" channel="tv34">
+    <title lang="zh-Hans">超级工程 Ⅱ4</title>
+  </programme>
+  <programme start="20261129155600 +0800" stop="20261129160000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129160000 +0800" stop="20261129165600 +0800" channel="tv34">
+    <title lang="zh-Hans">同一个太空</title>
+  </programme>
+  <programme start="20261129165600 +0800" stop="20261129170000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129170000 +0800" stop="20261129175600 +0800" channel="tv34">
+    <title lang="zh-Hans">肯尼亚的中国女孩/ 盲人推拿师和他的“非洲往事”</title>
+  </programme>
+  <programme start="20261129175600 +0800" stop="20261129180000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129180000 +0800" stop="20261129185600 +0800" channel="tv34">
+    <title lang="zh-Hans">超级工程 Ⅱ1</title>
+  </programme>
+  <programme start="20261129185600 +0800" stop="20261129190000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129190000 +0800" stop="20261129195600 +0800" channel="tv34">
+    <title lang="zh-Hans">超级工程 Ⅱ2</title>
+  </programme>
+  <programme start="20261129195600 +0800" stop="20261129200000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129200000 +0800" stop="20261129205600 +0800" channel="tv34">
+    <title lang="zh-Hans">超级工程 Ⅱ3</title>
+  </programme>
+  <programme start="20261129205600 +0800" stop="20261129210000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129210000 +0800" stop="20261129215600 +0800" channel="tv34">
+    <title lang="zh-Hans">超级工程 Ⅱ4</title>
+  </programme>
+  <programme start="20261129215600 +0800" stop="20261129220000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129220000 +0800" stop="20261129225600 +0800" channel="tv34">
+    <title lang="zh-Hans">同一个太空</title>
+  </programme>
+  <programme start="20261129225600 +0800" stop="20261129230000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129230000 +0800" stop="20261129235600 +0800" channel="tv34">
+    <title lang="zh-Hans">肯尼亚的中国女孩/ 盲人推拿师和他的“非洲往事”</title>
+  </programme>
+  <programme start="20261129235600 +0800" stop="20261130000000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261129000000 +0800" stop="20261129003000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261129003000 +0800" stop="20261129010000 +0800" channel="tv35">
+    <title lang="zh-Hans">The Agenda</title>
+  </programme>
+  <programme start="20261129010000 +0800" stop="20261129013000 +0800" channel="tv35">
+    <title lang="zh-Hans">Africa Live</title>
+  </programme>
+  <programme start="20261129013000 +0800" stop="20261129020000 +0800" channel="tv35">
+    <title lang="zh-Hans">Talk Africa</title>
+  </programme>
+  <programme start="20261129020000 +0800" stop="20261129023000 +0800" channel="tv35">
+    <title lang="zh-Hans">Sports Scene</title>
+  </programme>
+  <programme start="20261129023000 +0800" stop="20261129030000 +0800" channel="tv35">
+    <title lang="zh-Hans">Biz Talk</title>
+  </programme>
+  <programme start="20261129030000 +0800" stop="20261129033000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261129033000 +0800" stop="20261129040000 +0800" channel="tv35">
+    <title lang="zh-Hans">Travelogue</title>
+  </programme>
+  <programme start="20261129040000 +0800" stop="20261129043000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261129043000 +0800" stop="20261129050000 +0800" channel="tv35">
+    <title lang="zh-Hans">The Agenda</title>
+  </programme>
+  <programme start="20261129050000 +0800" stop="20261129053000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261129053000 +0800" stop="20261129060000 +0800" channel="tv35">
+    <title lang="zh-Hans">Leaders Talk</title>
+  </programme>
+  <programme start="20261129060000 +0800" stop="20261129070000 +0800" channel="tv35">
+    <title lang="zh-Hans">Full Frame</title>
+  </programme>
+  <programme start="20261129070000 +0800" stop="20261129073000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261129073000 +0800" stop="20261129080000 +0800" channel="tv35">
+    <title lang="zh-Hans">Assignment Asia</title>
+  </programme>
+  <programme start="20261129080000 +0800" stop="20261129083000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261129083000 +0800" stop="20261129090000 +0800" channel="tv35">
+    <title lang="zh-Hans">The Agenda</title>
+  </programme>
+  <programme start="20261129090000 +0800" stop="20261129100000 +0800" channel="tv35">
+    <title lang="zh-Hans">Big Story</title>
+  </programme>
+  <programme start="20261129100000 +0800" stop="20261129103000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261129103000 +0800" stop="20261129110000 +0800" channel="tv35">
+    <title lang="zh-Hans">Inheritors</title>
+  </programme>
+  <programme start="20261129110000 +0800" stop="20261129111500 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261129111500 +0800" stop="20261129113000 +0800" channel="tv35">
+    <title lang="zh-Hans">Sports Scene</title>
+  </programme>
+  <programme start="20261129113000 +0800" stop="20261129120000 +0800" channel="tv35">
+    <title lang="zh-Hans">Leaders Talk</title>
+  </programme>
+  <programme start="20261129120000 +0800" stop="20261129130000 +0800" channel="tv35">
+    <title lang="zh-Hans">Global Watch</title>
+  </programme>
+  <programme start="20261129130000 +0800" stop="20261129140000 +0800" channel="tv35">
+    <title lang="zh-Hans">Full Frame</title>
+  </programme>
+  <programme start="20261129140000 +0800" stop="20261129143000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261129143000 +0800" stop="20261129150000 +0800" channel="tv35">
+    <title lang="zh-Hans">Biz Talk</title>
+  </programme>
+  <programme start="20261129150000 +0800" stop="20261129153000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261129153000 +0800" stop="20261129160000 +0800" channel="tv35">
+    <title lang="zh-Hans">Sports Scene</title>
+  </programme>
+  <programme start="20261129160000 +0800" stop="20261129163000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261129163000 +0800" stop="20261129170000 +0800" channel="tv35">
+    <title lang="zh-Hans">Talk Africa</title>
+  </programme>
+  <programme start="20261129170000 +0800" stop="20261129173000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261129173000 +0800" stop="20261129180000 +0800" channel="tv35">
+    <title lang="zh-Hans">Faces of Africa</title>
+  </programme>
+  <programme start="20261129180000 +0800" stop="20261129181500 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261129181500 +0800" stop="20261129190000 +0800" channel="tv35">
+    <title lang="zh-Hans">Africa Live</title>
+  </programme>
+  <programme start="20261129190000 +0800" stop="20261129200000 +0800" channel="tv35">
+    <title lang="zh-Hans">Zoom in</title>
+  </programme>
+  <programme start="20261129200000 +0800" stop="20261129201500 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261129201500 +0800" stop="20261129210000 +0800" channel="tv35">
+    <title lang="zh-Hans">China 24</title>
+  </programme>
+  <programme start="20261129210000 +0800" stop="20261129213000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261129213000 +0800" stop="20261129220000 +0800" channel="tv35">
+    <title lang="zh-Hans">The Agenda</title>
+  </programme>
+  <programme start="20261129220000 +0800" stop="20261129230000 +0800" channel="tv35">
+    <title lang="zh-Hans">Big Story</title>
+  </programme>
+  <programme start="20261129230000 +0800" stop="20261129233000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261129233000 +0800" stop="20261130000000 +0800" channel="tv35">
+    <title lang="zh-Hans">Travelogue</title>
+  </programme>
+  <programme start="20261130000000 +0800" stop="20261130020000 +0800" channel="tv31">
+    <title lang="zh-Hans">FIBA 3x3 世界巡回赛 2026</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/fiba3x3worldtour2026</url>
+  </programme>
+  <programme start="20261130020000 +0800" stop="20261130023000 +0800" channel="tv31">
+    <title lang="zh-Hans">睇得见。听得到</title>
+    <desc lang="zh-Hans">品川先生要搬家</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/inclusivehk</url>
+  </programme>
+  <programme start="20261130023000 +0800" stop="20261130033000 +0800" channel="tv31">
+    <title lang="zh-Hans">海市蜃楼</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/themirage</url>
+  </programme>
+  <programme start="20261130033000 +0800" stop="20261130043000 +0800" channel="tv31">
+    <title lang="zh-Hans">识多一点点</title>
+    <desc lang="zh-Hans">第46(手语版)香港故事-声音导航#5场边热浪(手语版)亚太广播联盟机械人大赛2026#4谁主武林</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/lookandlearn</url>
+  </programme>
+  <programme start="20261130043000 +0800" stop="20261130050000 +0800" channel="tv31">
+    <title lang="zh-Hans">铿锵集</title>
+    <desc lang="zh-Hans">安心告别式</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hkce</url>
+  </programme>
+  <programme start="20261130050000 +0800" stop="20261130053000 +0800" channel="tv31">
+    <title lang="zh-Hans">香港故事: 乐地生根</title>
+    <desc lang="zh-Hans">同行</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hkstories_rootedinjoy</url>
+  </programme>
+  <programme start="20261130053000 +0800" stop="20261130060000 +0800" channel="tv31">
+    <title lang="zh-Hans">医生与你</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/doctorandyou2021</url>
+  </programme>
+  <programme start="20261130060000 +0800" stop="20261130073000 +0800" channel="tv31">
+    <title lang="zh-Hans">同唱友谊歌 - 2026中越金曲音乐盛典</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/singfriendshipsongs2026</url>
+  </programme>
+  <programme start="20261130073000 +0800" stop="20261130080000 +0800" channel="tv31">
+    <title lang="zh-Hans">优游记精华游 2026</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/chillandtravelechoes2026</url>
+  </programme>
+  <programme start="20261130080000 +0800" stop="20261130080500 +0800" channel="tv31">
+    <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">拒绝不良资讯</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261130080500 +0800" stop="20261130100000 +0800" channel="tv31">
+    <title lang="zh-Hans">千禧年代</title>
+    <desc lang="zh-Hans">千禧年代 11月30日</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/talkabout</url>
+  </programme>
+  <programme start="20261130100000 +0800" stop="20261130112000 +0800" channel="tv31">
+    <title lang="zh-Hans">国际刑警组织第94届全体大会</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/94thinterpolgeneralassembly</url>
+  </programme>
+  <programme start="20261130112000 +0800" stop="20261130113000 +0800" channel="tv31">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130113000 +0800" stop="20261130120000 +0800" channel="tv31">
+    <title lang="zh-Hans">铁流万里写丹心</title>
+    <desc lang="zh-Hans">长征血战改写的两段传奇人生</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/loyaltyacrosslongmarchvictory</url>
+  </programme>
+  <programme start="20261130120000 +0800" stop="20261130123000 +0800" channel="tv31">
+    <title lang="zh-Hans">31看世界 - 大熊猫云川和鑫宝</title>
+    <desc lang="zh-Hans">第二集</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/giantpanda</url>
+  </programme>
+  <programme start="20261130123000 +0800" stop="20261130130000 +0800" channel="tv31">
+    <title lang="zh-Hans">睇得见。听得到</title>
+    <desc lang="zh-Hans">品川先生要搬家</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/inclusivehk</url>
+  </programme>
+  <programme start="20261130130000 +0800" stop="20261130130700 +0800" channel="tv31">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/newshighlights</url>
+  </programme>
+  <programme start="20261130130700 +0800" stop="20261130131000 +0800" channel="tv31">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130131000 +0800" stop="20261130140000 +0800" channel="tv31">
+    <title lang="zh-Hans">精灵一点</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/healthpedia_tv</url>
+  </programme>
+  <programme start="20261130140000 +0800" stop="20261130140500 +0800" channel="tv31">
+    <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">拒绝不良资讯</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261130140500 +0800" stop="20261130145000 +0800" channel="tv31">
+    <title lang="zh-Hans">三叉戟 2</title>
+    <desc lang="zh-Hans">第十集：三叉戟寻人遇陷阱</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/trident2</url>
+  </programme>
+  <programme start="20261130145000 +0800" stop="20261130153500 +0800" channel="tv31">
+    <title lang="zh-Hans">三叉戟 2</title>
+    <desc lang="zh-Hans">第十一集：崔铁军成反诈网红</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/trident2</url>
+  </programme>
+  <programme start="20261130153500 +0800" stop="20261130160500 +0800" channel="tv31">
+    <title lang="zh-Hans">湾区全媒睇</title>
+    <desc lang="zh-Hans">第一千三百集</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/gbalifestyle</url>
+  </programme>
+  <programme start="20261130160500 +0800" stop="20261130163000 +0800" channel="tv31">
+    <title lang="zh-Hans">港乐 • 讲乐</title>
+    <desc lang="zh-Hans">第166集：IdG Bubbles</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/cantopoppower</url>
+  </programme>
+  <programme start="20261130163000 +0800" stop="20261130165000 +0800" channel="tv31">
+    <title lang="zh-Hans">BobieLand</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/bobieland</url>
+  </programme>
+  <programme start="20261130165000 +0800" stop="20261130170500 +0800" channel="tv31">
+    <title lang="zh-Hans">快乐魔法森林</title>
+    <desc lang="zh-Hans">矿洞里的任务</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/super_happy_magic_forest2025</url>
+  </programme>
+  <programme start="20261130170500 +0800" stop="20261130171500 +0800" channel="tv31">
+    <title lang="zh-Hans">奀菇菇搞搞震 2</title>
+    <desc lang="zh-Hans">我要菇飞</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/mushmushs2</url>
+  </programme>
+  <programme start="20261130171500 +0800" stop="20261130173000 +0800" channel="tv31">
+    <title lang="zh-Hans">奀菇菇搞搞震 2</title>
+    <desc lang="zh-Hans">收藏家搬新屋</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/mushmushs2</url>
+  </programme>
+  <programme start="20261130173000 +0800" stop="20261130180000 +0800" channel="tv31">
+    <title lang="zh-Hans">优游记精华游 2026</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/chillandtravelechoes2026</url>
+  </programme>
+  <programme start="20261130180000 +0800" stop="20261130183000 +0800" channel="tv31">
+    <title lang="zh-Hans">湾区全媒睇</title>
+    <desc lang="zh-Hans">第一千三百零一集</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/gbalifestyle</url>
+  </programme>
+  <programme start="20261130183000 +0800" stop="20261130190000 +0800" channel="tv31">
+    <title lang="zh-Hans">凝聚香港</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hkunited</url>
+  </programme>
+  <programme start="20261130190000 +0800" stop="20261130193000 +0800" channel="tv31">
+    <title lang="zh-Hans">新闻天地</title>
+    <desc lang="zh-Hans">20261130</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hktoday_tv</url>
+  </programme>
+  <programme start="20261130193000 +0800" stop="20261130202500 +0800" channel="tv31">
+    <title lang="zh-Hans">如果奔跑是我的人生</title>
+    <desc lang="zh-Hans">第八集：秦峰父母不看好两人</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/borntorun</url>
+  </programme>
+  <programme start="20261130202500 +0800" stop="20261130203000 +0800" channel="tv31">
+    <title lang="zh-Hans">政正关你事</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261130203000 +0800" stop="20261130212500 +0800" channel="tv31">
+    <title lang="zh-Hans">家事法庭</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/holdacourtnow</url>
+  </programme>
+  <programme start="20261130212500 +0800" stop="20261130213000 +0800" channel="tv31">
+    <title lang="zh-Hans">政正关你事</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261130213000 +0800" stop="20261130220000 +0800" channel="tv31">
+    <title lang="zh-Hans">香港故事: 乐地生根</title>
+    <desc lang="zh-Hans">写在潮汐之间</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hkstories_rootedinjoy</url>
+  </programme>
+  <programme start="20261130220000 +0800" stop="20261130223000 +0800" channel="tv31">
+    <title lang="zh-Hans">看神州</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/kanshenzhou</url>
+  </programme>
+  <programme start="20261130223000 +0800" stop="20261130230000 +0800" channel="tv31">
+    <title lang="zh-Hans">狮子山下</title>
+    <desc lang="zh-Hans">快乐起舞（一）</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/btlr_hhv</url>
+  </programme>
+  <programme start="20261130230000 +0800" stop="20261130233000 +0800" channel="tv31">
+    <title lang="zh-Hans">狮子山下</title>
+    <desc lang="zh-Hans">快乐起舞（二）</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/btlr_hhv</url>
+  </programme>
+  <programme start="20261130233000 +0800" stop="20261201000000 +0800" channel="tv31">
+    <title lang="zh-Hans">凝聚香港</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hkunited</url>
+  </programme>
+  <programme start="20261130000000 +0800" stop="20261130073500 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130073500 +0800" stop="20261130074000 +0800" channel="tv32">
+    <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">拒绝不良资讯</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261130074000 +0800" stop="20261130080500 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130080500 +0800" stop="20261130100000 +0800" channel="tv32">
+    <title lang="zh-Hans">千禧年代</title>
+    <desc lang="zh-Hans">千禧年代 11月30日</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/talkabout</url>
+  </programme>
+  <programme start="20261130100000 +0800" stop="20261130100500 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130100500 +0800" stop="20261130103000 +0800" channel="tv32">
+    <title lang="zh-Hans">湾区全媒睇</title>
+    <desc lang="zh-Hans">第一千三百集</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/gbalifestyle</url>
+  </programme>
+  <programme start="20261130103000 +0800" stop="20261130103500 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130103500 +0800" stop="20261130110000 +0800" channel="tv32">
+    <title lang="zh-Hans">铿锵集</title>
+    <desc lang="zh-Hans">一语之失</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/hkcc</url>
+  </programme>
+  <programme start="20261130110000 +0800" stop="20261130111000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261130111000 +0800" stop="20261130113000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130113000 +0800" stop="20261130114000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261130114000 +0800" stop="20261130120000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130120000 +0800" stop="20261130121000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261130121000 +0800" stop="20261130123000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130123000 +0800" stop="20261130124000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261130124000 +0800" stop="20261130130000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130130000 +0800" stop="20261130130700 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261130130700 +0800" stop="20261130133000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130133000 +0800" stop="20261130133700 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261130133700 +0800" stop="20261130140000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130140000 +0800" stop="20261130141000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261130141000 +0800" stop="20261130143000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130143000 +0800" stop="20261130144000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261130144000 +0800" stop="20261130150000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130150000 +0800" stop="20261130151000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261130151000 +0800" stop="20261130153000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130153000 +0800" stop="20261130154000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261130154000 +0800" stop="20261130160000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130160000 +0800" stop="20261130161000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261130161000 +0800" stop="20261130163000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130163000 +0800" stop="20261130164000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261130164000 +0800" stop="20261130170000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130170000 +0800" stop="20261130171000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261130171000 +0800" stop="20261130173000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130173000 +0800" stop="20261130174000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261130174000 +0800" stop="20261130180000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130180000 +0800" stop="20261130181000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261130181000 +0800" stop="20261130183000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130183000 +0800" stop="20261130184000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261130184000 +0800" stop="20261130190000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261130190000 +0800" stop="20261130193000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻天地</title>
+    <desc lang="zh-Hans">20261130</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/hktoday_tv</url>
+  </programme>
+  <programme start="20261130193000 +0800" stop="20261130200000 +0800" channel="tv32">
+    <title lang="zh-Hans">看神州</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/kanshenzhou</url>
+  </programme>
+  <programme start="20261130200000 +0800" stop="20261130201500 +0800" channel="tv32">
+    <title lang="zh-Hans">晚间新闻</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/eveningnews_tv</url>
+  </programme>
+  <programme start="20261130201500 +0800" stop="20261130210000 +0800" channel="tv32">
+    <title lang="zh-Hans">时事脉动</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/thecurrent</url>
+  </programme>
+  <programme start="20261130210000 +0800" stop="20261130213000 +0800" channel="tv32">
+    <title lang="zh-Hans">铿锵集</title>
+    <desc lang="zh-Hans">黄金时代</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/hkce</url>
+  </programme>
+  <programme start="20261130213000 +0800" stop="20261130220000 +0800" channel="tv32">
+    <title lang="zh-Hans">广东话去旅行：北京篇</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/cantravelogue_beijing_eng</url>
+  </programme>
+  <programme start="20261130220000 +0800" stop="20261130220500 +0800" channel="tv32">
+    <title lang="zh-Hans">政正关你事</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261130220500 +0800" stop="20261130223000 +0800" channel="tv32">
+    <title lang="zh-Hans">凝聚香港</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/hkunited</url>
+  </programme>
+  <programme start="20261130223000 +0800" stop="20261130230000 +0800" channel="tv32">
+    <title lang="zh-Hans">路政同行四十载</title>
+    <desc lang="zh-Hans">路政同行四十载 - 通港连城</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/40ahighwaysdepartment</url>
+  </programme>
+  <programme start="20261130230000 +0800" stop="20261130233000 +0800" channel="tv32">
+    <title lang="zh-Hans">看神州</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/kanshenzhou</url>
+  </programme>
+  <programme start="20261130233000 +0800" stop="20261201000000 +0800" channel="tv32">
+    <title lang="zh-Hans">时事脉动</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/thecurrent</url>
+  </programme>
+  <programme start="20261130000000 +0800" stop="20261130000900 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 11</title>
+  </programme>
+  <programme start="20261130000900 +0800" stop="20261130005700 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 12</title>
+  </programme>
+  <programme start="20261130005700 +0800" stop="20261130023100 +0800" channel="tv33">
+    <title lang="zh-Hans">中华考工记</title>
+  </programme>
+  <programme start="20261130023100 +0800" stop="20261130025900 +0800" channel="tv33">
+    <title lang="zh-Hans">门楣之上</title>
+  </programme>
+  <programme start="20261130025900 +0800" stop="20261130034600 +0800" channel="tv33">
+    <title lang="zh-Hans">画眉 9</title>
+  </programme>
+  <programme start="20261130034600 +0800" stop="20261130043200 +0800" channel="tv33">
+    <title lang="zh-Hans">画眉 10</title>
+  </programme>
+  <programme start="20261130043200 +0800" stop="20261130050000 +0800" channel="tv33">
+    <title lang="zh-Hans">今日说法</title>
+  </programme>
+  <programme start="20261130050000 +0800" stop="20261130053000 +0800" channel="tv33">
+    <title lang="zh-Hans">新闻联播</title>
+  </programme>
+  <programme start="20261130053000 +0800" stop="20261130060000 +0800" channel="tv33">
+    <title lang="zh-Hans">人与自然</title>
+  </programme>
+  <programme start="20261130060000 +0800" stop="20261130083200 +0800" channel="tv33">
+    <title lang="zh-Hans">朝闻天下</title>
+  </programme>
+  <programme start="20261130083200 +0800" stop="20261130091500 +0800" channel="tv33">
+    <title lang="zh-Hans">生活圈</title>
+  </programme>
+  <programme start="20261130091500 +0800" stop="20261130100100 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261130100100 +0800" stop="20261130104700 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261130104700 +0800" stop="20261130113300 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261130113300 +0800" stop="20261130120000 +0800" channel="tv33">
+    <title lang="zh-Hans">人与自然</title>
+  </programme>
+  <programme start="20261130120000 +0800" stop="20261130123200 +0800" channel="tv33">
+    <title lang="zh-Hans">新闻30分</title>
+  </programme>
+  <programme start="20261130123200 +0800" stop="20261130130100 +0800" channel="tv33">
+    <title lang="zh-Hans">今日说法</title>
+  </programme>
+  <programme start="20261130130100 +0800" stop="20261130133300 +0800" channel="tv33">
+    <title lang="zh-Hans">动物世界</title>
+  </programme>
+  <programme start="20261130133300 +0800" stop="20261130141900 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261130141900 +0800" stop="20261130150500 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261130150500 +0800" stop="20261130155100 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261130155100 +0800" stop="20261130163900 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261130163900 +0800" stop="20261130170800 +0800" channel="tv33">
+    <title lang="zh-Hans">人与自然</title>
+  </programme>
+  <programme start="20261130170800 +0800" stop="20261130190000 +0800" channel="tv33">
+    <title lang="zh-Hans">第一动画乐园</title>
+  </programme>
+  <programme start="20261130190000 +0800" stop="20261130193200 +0800" channel="tv33">
+    <title lang="zh-Hans">新闻联播</title>
+  </programme>
+  <programme start="20261130193200 +0800" stop="20261130194000 +0800" channel="tv33">
+    <title lang="zh-Hans">天气预报</title>
+  </programme>
+  <programme start="20261130194000 +0800" stop="20261130202600 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261130202600 +0800" stop="20261130211400 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261130211400 +0800" stop="20261130213100 +0800" channel="tv33">
+    <title lang="zh-Hans">焦点访谈</title>
+  </programme>
+  <programme start="20261130213100 +0800" stop="20261130220000 +0800" channel="tv33">
+    <title lang="zh-Hans">人与自然</title>
+  </programme>
+  <programme start="20261130220000 +0800" stop="20261130223200 +0800" channel="tv33">
+    <title lang="zh-Hans">晚间新闻</title>
+  </programme>
+  <programme start="20261130223200 +0800" stop="20261130231800 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261130231800 +0800" stop="20261201000500 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261130000000 +0800" stop="20261130005600 +0800" channel="tv34">
+    <title lang="zh-Hans">超级工程 Ⅱ1</title>
+  </programme>
+  <programme start="20261130005600 +0800" stop="20261130010000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130010000 +0800" stop="20261130015600 +0800" channel="tv34">
+    <title lang="zh-Hans">超级工程 Ⅱ2</title>
+  </programme>
+  <programme start="20261130015600 +0800" stop="20261130020000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130020000 +0800" stop="20261130025600 +0800" channel="tv34">
+    <title lang="zh-Hans">超级工程 Ⅱ3</title>
+  </programme>
+  <programme start="20261130025600 +0800" stop="20261130030000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130030000 +0800" stop="20261130035600 +0800" channel="tv34">
+    <title lang="zh-Hans">超级工程 Ⅱ4</title>
+  </programme>
+  <programme start="20261130035600 +0800" stop="20261130040000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130040000 +0800" stop="20261130045600 +0800" channel="tv34">
+    <title lang="zh-Hans">祁连大墓2</title>
+  </programme>
+  <programme start="20261130045600 +0800" stop="20261130050000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130050000 +0800" stop="20261130052700 +0800" channel="tv34">
+    <title lang="zh-Hans">种草阿里</title>
+  </programme>
+  <programme start="20261130052700 +0800" stop="20261130053000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130053000 +0800" stop="20261130055700 +0800" channel="tv34">
+    <title lang="zh-Hans">当下最美丽的土地</title>
+  </programme>
+  <programme start="20261130055700 +0800" stop="20261130060000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130060000 +0800" stop="20261130065600 +0800" channel="tv34">
+    <title lang="zh-Hans">宁夏黄河湿地 鸟的家园1/良渚与世界文明对话·巴西</title>
+  </programme>
+  <programme start="20261130065600 +0800" stop="20261130070000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130070000 +0800" stop="20261130072700 +0800" channel="tv34">
+    <title lang="zh-Hans">出海非洲5</title>
+  </programme>
+  <programme start="20261130072700 +0800" stop="20261130073000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130073000 +0800" stop="20261130075700 +0800" channel="tv34">
+    <title lang="zh-Hans">国宝寻踪：尘封的大秦帝国2</title>
+  </programme>
+  <programme start="20261130075700 +0800" stop="20261130080000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130080000 +0800" stop="20261130085600 +0800" channel="tv34">
+    <title lang="zh-Hans">寻味东莞3</title>
+  </programme>
+  <programme start="20261130085600 +0800" stop="20261130090000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130090000 +0800" stop="20261130092700 +0800" channel="tv34">
+    <title lang="zh-Hans">洋伙伴创想记7</title>
+  </programme>
+  <programme start="20261130092700 +0800" stop="20261130093000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130093000 +0800" stop="20261130095700 +0800" channel="tv34">
+    <title lang="zh-Hans">克里斯和他的中国伙伴</title>
+  </programme>
+  <programme start="20261130095700 +0800" stop="20261130100000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130100000 +0800" stop="20261130105600 +0800" channel="tv34">
+    <title lang="zh-Hans">祁连大墓2</title>
+  </programme>
+  <programme start="20261130105600 +0800" stop="20261130110000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130110000 +0800" stop="20261130112700 +0800" channel="tv34">
+    <title lang="zh-Hans">种草阿里</title>
+  </programme>
+  <programme start="20261130112700 +0800" stop="20261130113000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130113000 +0800" stop="20261130115700 +0800" channel="tv34">
+    <title lang="zh-Hans">当下最美丽的土地</title>
+  </programme>
+  <programme start="20261130115700 +0800" stop="20261130120000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130120000 +0800" stop="20261130125600 +0800" channel="tv34">
+    <title lang="zh-Hans">宁夏黄河湿地 鸟的家园1/良渚与世界文明对话·巴西</title>
+  </programme>
+  <programme start="20261130125600 +0800" stop="20261130130000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130130000 +0800" stop="20261130132700 +0800" channel="tv34">
+    <title lang="zh-Hans">出海非洲5</title>
+  </programme>
+  <programme start="20261130132700 +0800" stop="20261130133000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130133000 +0800" stop="20261130135700 +0800" channel="tv34">
+    <title lang="zh-Hans">国宝寻踪：尘封的大秦帝国2</title>
+  </programme>
+  <programme start="20261130135700 +0800" stop="20261130140000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130140000 +0800" stop="20261130145600 +0800" channel="tv34">
+    <title lang="zh-Hans">寻味东莞3</title>
+  </programme>
+  <programme start="20261130145600 +0800" stop="20261130150000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130150000 +0800" stop="20261130152700 +0800" channel="tv34">
+    <title lang="zh-Hans">洋伙伴创想记7</title>
+  </programme>
+  <programme start="20261130152700 +0800" stop="20261130153000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130153000 +0800" stop="20261130155700 +0800" channel="tv34">
+    <title lang="zh-Hans">克里斯和他的中国伙伴</title>
+  </programme>
+  <programme start="20261130155700 +0800" stop="20261130160000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130160000 +0800" stop="20261130165600 +0800" channel="tv34">
+    <title lang="zh-Hans">祁连大墓2</title>
+  </programme>
+  <programme start="20261130165600 +0800" stop="20261130170000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130170000 +0800" stop="20261130172700 +0800" channel="tv34">
+    <title lang="zh-Hans">种草阿里</title>
+  </programme>
+  <programme start="20261130172700 +0800" stop="20261130173000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130173000 +0800" stop="20261130175700 +0800" channel="tv34">
+    <title lang="zh-Hans">当下最美丽的土地</title>
+  </programme>
+  <programme start="20261130175700 +0800" stop="20261130180000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130180000 +0800" stop="20261130185600 +0800" channel="tv34">
+    <title lang="zh-Hans">宁夏黄河湿地 鸟的家园1/良渚与世界文明对话·巴西</title>
+  </programme>
+  <programme start="20261130185600 +0800" stop="20261130190000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130190000 +0800" stop="20261130192700 +0800" channel="tv34">
+    <title lang="zh-Hans">出海非洲5</title>
+  </programme>
+  <programme start="20261130192700 +0800" stop="20261130193000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130193000 +0800" stop="20261130195700 +0800" channel="tv34">
+    <title lang="zh-Hans">国宝寻踪：尘封的大秦帝国2</title>
+  </programme>
+  <programme start="20261130195700 +0800" stop="20261130200000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130200000 +0800" stop="20261130205600 +0800" channel="tv34">
+    <title lang="zh-Hans">寻味东莞3</title>
+  </programme>
+  <programme start="20261130205600 +0800" stop="20261130210000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130210000 +0800" stop="20261130212700 +0800" channel="tv34">
+    <title lang="zh-Hans">洋伙伴创想记7</title>
+  </programme>
+  <programme start="20261130212700 +0800" stop="20261130213000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130213000 +0800" stop="20261130215700 +0800" channel="tv34">
+    <title lang="zh-Hans">克里斯和他的中国伙伴</title>
+  </programme>
+  <programme start="20261130215700 +0800" stop="20261130220000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130220000 +0800" stop="20261130225600 +0800" channel="tv34">
+    <title lang="zh-Hans">祁连大墓2</title>
+  </programme>
+  <programme start="20261130225600 +0800" stop="20261130230000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130230000 +0800" stop="20261130232700 +0800" channel="tv34">
+    <title lang="zh-Hans">种草阿里</title>
+  </programme>
+  <programme start="20261130232700 +0800" stop="20261130233000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130233000 +0800" stop="20261130235700 +0800" channel="tv34">
+    <title lang="zh-Hans">当下最美丽的土地</title>
+  </programme>
+  <programme start="20261130235700 +0800" stop="20261201000000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261130000000 +0800" stop="20261130003000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261130003000 +0800" stop="20261130010000 +0800" channel="tv35">
+    <title lang="zh-Hans">Razor</title>
+  </programme>
+  <programme start="20261130010000 +0800" stop="20261130013000 +0800" channel="tv35">
+    <title lang="zh-Hans">Africa Live</title>
+  </programme>
+  <programme start="20261130013000 +0800" stop="20261130020000 +0800" channel="tv35">
+    <title lang="zh-Hans">Faces of Africa</title>
+  </programme>
+  <programme start="20261130020000 +0800" stop="20261130023000 +0800" channel="tv35">
+    <title lang="zh-Hans">Razor</title>
+  </programme>
+  <programme start="20261130023000 +0800" stop="20261130030000 +0800" channel="tv35">
+    <title lang="zh-Hans">Talk Africa</title>
+  </programme>
+  <programme start="20261130030000 +0800" stop="20261130033000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261130033000 +0800" stop="20261130040000 +0800" channel="tv35">
+    <title lang="zh-Hans">Inheritors</title>
+  </programme>
+  <programme start="20261130040000 +0800" stop="20261130043000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261130043000 +0800" stop="20261130050000 +0800" channel="tv35">
+    <title lang="zh-Hans">Travelogue</title>
+  </programme>
+  <programme start="20261130050000 +0800" stop="20261130053000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261130053000 +0800" stop="20261130060000 +0800" channel="tv35">
+    <title lang="zh-Hans">Assignment Asia</title>
+  </programme>
+  <programme start="20261130060000 +0800" stop="20261130070000 +0800" channel="tv35">
+    <title lang="zh-Hans">Americas Now</title>
+  </programme>
+  <programme start="20261130070000 +0800" stop="20261130073000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261130073000 +0800" stop="20261130080000 +0800" channel="tv35">
+    <title lang="zh-Hans">Faces of Africa</title>
+  </programme>
+  <programme start="20261130080000 +0800" stop="20261130083000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261130083000 +0800" stop="20261130090000 +0800" channel="tv35">
+    <title lang="zh-Hans">Inheritors</title>
+  </programme>
+  <programme start="20261130090000 +0800" stop="20261130093000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261130093000 +0800" stop="20261130100000 +0800" channel="tv35">
+    <title lang="zh-Hans">Razor</title>
+  </programme>
+  <programme start="20261130100000 +0800" stop="20261130103000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261130103000 +0800" stop="20261130110000 +0800" channel="tv35">
+    <title lang="zh-Hans">Travelogue</title>
+  </programme>
+  <programme start="20261130110000 +0800" stop="20261130111500 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261130111500 +0800" stop="20261130113000 +0800" channel="tv35">
+    <title lang="zh-Hans">Sports Scene</title>
+  </programme>
+  <programme start="20261130113000 +0800" stop="20261130120000 +0800" channel="tv35">
+    <title lang="zh-Hans">The Point with Liu Xin</title>
+  </programme>
+  <programme start="20261130120000 +0800" stop="20261130130000 +0800" channel="tv35">
+    <title lang="zh-Hans">Global Watch</title>
+  </programme>
+  <programme start="20261130130000 +0800" stop="20261130131500 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261130131500 +0800" stop="20261130133000 +0800" channel="tv35">
+    <title lang="zh-Hans">Sports Scene</title>
+  </programme>
+  <programme start="20261130133000 +0800" stop="20261130140000 +0800" channel="tv35">
+    <title lang="zh-Hans">Rediscovering China</title>
+  </programme>
+  <programme start="20261130140000 +0800" stop="20261130143000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261130143000 +0800" stop="20261130150000 +0800" channel="tv35">
+    <title lang="zh-Hans">Razor</title>
+  </programme>
+  <programme start="20261130150000 +0800" stop="20261130153000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261130153000 +0800" stop="20261130160000 +0800" channel="tv35">
+    <title lang="zh-Hans">Sports Scene</title>
+  </programme>
+  <programme start="20261130160000 +0800" stop="20261130161500 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261130161500 +0800" stop="20261130170000 +0800" channel="tv35">
+    <title lang="zh-Hans">Global Business</title>
+  </programme>
+  <programme start="20261130170000 +0800" stop="20261130173000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261130173000 +0800" stop="20261130180000 +0800" channel="tv35">
+    <title lang="zh-Hans">The Vibe</title>
+  </programme>
+  <programme start="20261130180000 +0800" stop="20261130181500 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261130181500 +0800" stop="20261130190000 +0800" channel="tv35">
+    <title lang="zh-Hans">Africa Live</title>
+  </programme>
+  <programme start="20261130190000 +0800" stop="20261130193000 +0800" channel="tv35">
+    <title lang="zh-Hans">Asia Today</title>
+  </programme>
+  <programme start="20261130193000 +0800" stop="20261130200000 +0800" channel="tv35">
+    <title lang="zh-Hans">Dialogue</title>
+  </programme>
+  <programme start="20261130200000 +0800" stop="20261130201500 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261130201500 +0800" stop="20261130210000 +0800" channel="tv35">
+    <title lang="zh-Hans">China 24</title>
+  </programme>
+  <programme start="20261130210000 +0800" stop="20261130213000 +0800" channel="tv35">
+    <title lang="zh-Hans">Global Business</title>
+  </programme>
+  <programme start="20261130213000 +0800" stop="20261130220000 +0800" channel="tv35">
+    <title lang="zh-Hans">The Point with Liu Xin</title>
+  </programme>
+  <programme start="20261130220000 +0800" stop="20261130223000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261130223000 +0800" stop="20261130230000 +0800" channel="tv35">
+    <title lang="zh-Hans">World Insight with Tian Wei</title>
+  </programme>
+  <programme start="20261130230000 +0800" stop="20261130233000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261130233000 +0800" stop="20261201000000 +0800" channel="tv35">
+    <title lang="zh-Hans">The Vibe</title>
+  </programme>
+  <programme start="20261201000000 +0800" stop="20261201003000 +0800" channel="tv31">
+    <title lang="zh-Hans">湾区全媒睇</title>
+    <desc lang="zh-Hans">第一千三百零一集</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/gbalifestyle</url>
+  </programme>
+  <programme start="20261201003000 +0800" stop="20261201010000 +0800" channel="tv31">
+    <title lang="zh-Hans">香港故事: 乐地生根</title>
+    <desc lang="zh-Hans">写在潮汐之间</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hkstories_rootedinjoy</url>
+  </programme>
+  <programme start="20261201010000 +0800" stop="20261201020000 +0800" channel="tv31">
+    <title lang="zh-Hans">如果奔跑是我的人生</title>
+    <desc lang="zh-Hans">第八集：秦峰父母不看好两人</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/borntorun</url>
+  </programme>
+  <programme start="20261201020000 +0800" stop="20261201023000 +0800" channel="tv31">
+    <title lang="zh-Hans">看神州</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/kanshenzhou</url>
+  </programme>
+  <programme start="20261201023000 +0800" stop="20261201030000 +0800" channel="tv31">
+    <title lang="zh-Hans">医研华章:香港内科医学院四十周年</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/40thanniversaryofhkcp</url>
+  </programme>
+  <programme start="20261201030000 +0800" stop="20261201033000 +0800" channel="tv31">
+    <title lang="zh-Hans">世界技能大赛  决战上海</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/worldskillscompshanghai2026</url>
+  </programme>
+  <programme start="20261201033000 +0800" stop="20261201043000 +0800" channel="tv31">
+    <title lang="zh-Hans">家事法庭</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/holdacourtnow</url>
+  </programme>
+  <programme start="20261201043000 +0800" stop="20261201050000 +0800" channel="tv31">
+    <title lang="zh-Hans">弦动新声</title>
+    <desc lang="zh-Hans">弦动新声(上)</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/heartstrings</url>
+  </programme>
+  <programme start="20261201050000 +0800" stop="20261201053000 +0800" channel="tv31">
+    <title lang="zh-Hans">弦动新声</title>
+    <desc lang="zh-Hans">弦动新声(下)</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/heartstrings</url>
+  </programme>
+  <programme start="20261201053000 +0800" stop="20261201060000 +0800" channel="tv31">
+    <title lang="zh-Hans">香港故事: 乐地生根</title>
+    <desc lang="zh-Hans">写在潮汐之间</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hkstories_rootedinjoy</url>
+  </programme>
+  <programme start="20261201060000 +0800" stop="20261201063000 +0800" channel="tv31">
+    <title lang="zh-Hans">凝聚香港</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hkunited</url>
+  </programme>
+  <programme start="20261201063000 +0800" stop="20261201065000 +0800" channel="tv31">
+    <title lang="zh-Hans">BobieLand</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/bobieland</url>
+  </programme>
+  <programme start="20261201065000 +0800" stop="20261201070500 +0800" channel="tv31">
+    <title lang="zh-Hans">快乐魔法森林</title>
+    <desc lang="zh-Hans">矿洞里的任务</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/super_happy_magic_forest2025</url>
+  </programme>
+  <programme start="20261201070500 +0800" stop="20261201080000 +0800" channel="tv31">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201080000 +0800" stop="20261201080500 +0800" channel="tv31">
+    <title lang="zh-Hans">盛事传城</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/megaeventsmegahk2026</url>
+  </programme>
+  <programme start="20261201080500 +0800" stop="20261201100000 +0800" channel="tv31">
+    <title lang="zh-Hans">千禧年代</title>
+    <desc lang="zh-Hans">千禧年代 12月1日</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/talkabout</url>
+  </programme>
+  <programme start="20261201100000 +0800" stop="20261201105500 +0800" channel="tv31">
+    <title lang="zh-Hans">狮子山下</title>
+    <desc lang="zh-Hans">录音带</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/btlr_2024</url>
+  </programme>
+  <programme start="20261201105500 +0800" stop="20261201110000 +0800" channel="tv31">
+    <title lang="zh-Hans">政正关你事</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261201110000 +0800" stop="20261201120000 +0800" channel="tv31">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201120000 +0800" stop="20261201130000 +0800" channel="tv31">
+    <title lang="zh-Hans">31看世界 - 物种大灭绝</title>
+    <desc lang="zh-Hans">物种大灭绝(下)</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/themassextinction</url>
+  </programme>
+  <programme start="20261201130000 +0800" stop="20261201130700 +0800" channel="tv31">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/newshighlights</url>
+  </programme>
+  <programme start="20261201130700 +0800" stop="20261201131000 +0800" channel="tv31">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201131000 +0800" stop="20261201140000 +0800" channel="tv31">
+    <title lang="zh-Hans">精灵一点</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/healthpedia_tv</url>
+  </programme>
+  <programme start="20261201140000 +0800" stop="20261201140500 +0800" channel="tv31">
+    <title lang="zh-Hans">政正关你事</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261201140500 +0800" stop="20261201145000 +0800" channel="tv31">
+    <title lang="zh-Hans">三叉戟 2</title>
+    <desc lang="zh-Hans">第十二集：网红反成诈骗犯</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/trident2</url>
+  </programme>
+  <programme start="20261201145000 +0800" stop="20261201153500 +0800" channel="tv31">
+    <title lang="zh-Hans">三叉戟 2</title>
+    <desc lang="zh-Hans">第十三集：吕征暗中帮忙师父</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/trident2</url>
+  </programme>
+  <programme start="20261201153500 +0800" stop="20261201160500 +0800" channel="tv31">
+    <title lang="zh-Hans">湾区全媒睇</title>
+    <desc lang="zh-Hans">第一千三百零一集</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/gbalifestyle</url>
+  </programme>
+  <programme start="20261201160500 +0800" stop="20261201163000 +0800" channel="tv31">
+    <title lang="zh-Hans">凝聚香港</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hkunited</url>
+  </programme>
+  <programme start="20261201163000 +0800" stop="20261201165000 +0800" channel="tv31">
+    <title lang="zh-Hans">BobieLand</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/bobieland</url>
+  </programme>
+  <programme start="20261201165000 +0800" stop="20261201170500 +0800" channel="tv31">
+    <title lang="zh-Hans">快乐魔法森林</title>
+    <desc lang="zh-Hans">可疑的菲斯</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/super_happy_magic_forest2025</url>
+  </programme>
+  <programme start="20261201170500 +0800" stop="20261201171500 +0800" channel="tv31">
+    <title lang="zh-Hans">奀菇菇搞搞震 2</title>
+    <desc lang="zh-Hans">奀菇菇捉迷藏</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/mushmushs2</url>
+  </programme>
+  <programme start="20261201171500 +0800" stop="20261201173000 +0800" channel="tv31">
+    <title lang="zh-Hans">奀菇菇搞搞震 2</title>
+    <desc lang="zh-Hans">力大磨菇</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/mushmushs2</url>
+  </programme>
+  <programme start="20261201173000 +0800" stop="20261201175500 +0800" channel="tv31">
+    <title lang="zh-Hans">香港故事: 乐地生根</title>
+    <desc lang="zh-Hans">写在潮汐之间</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hkstories_rootedinjoy</url>
+  </programme>
+  <programme start="20261201175500 +0800" stop="20261201180000 +0800" channel="tv31">
+    <title lang="zh-Hans">香港流行文化节2026: ImagineLand精选</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hkpcf2026</url>
+  </programme>
+  <programme start="20261201180000 +0800" stop="20261201183000 +0800" channel="tv31">
+    <title lang="zh-Hans">湾区全媒睇</title>
+    <desc lang="zh-Hans">第一千三百零二集</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/gbalifestyle</url>
+  </programme>
+  <programme start="20261201183000 +0800" stop="20261201190000 +0800" channel="tv31">
+    <title lang="zh-Hans">凝聚香港</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hkunited</url>
+  </programme>
+  <programme start="20261201190000 +0800" stop="20261201193000 +0800" channel="tv31">
+    <title lang="zh-Hans">新闻天地</title>
+    <desc lang="zh-Hans">20261201</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hktoday_tv</url>
+  </programme>
+  <programme start="20261201193000 +0800" stop="20261201202500 +0800" channel="tv31">
+    <title lang="zh-Hans">如果奔跑是我的人生</title>
+    <desc lang="zh-Hans">第九集：若华带周凯泽见母亲</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/borntorun</url>
+  </programme>
+  <programme start="20261201202500 +0800" stop="20261201203000 +0800" channel="tv31">
+    <title lang="zh-Hans">政正关你事 - 官员讲话摘要</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261201203000 +0800" stop="20261201212500 +0800" channel="tv31">
+    <title lang="zh-Hans">家事法庭</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/holdacourtnow</url>
+  </programme>
+  <programme start="20261201212500 +0800" stop="20261201213000 +0800" channel="tv31">
+    <title lang="zh-Hans">政正关你事 - 官员讲话摘要</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261201213000 +0800" stop="20261201220000 +0800" channel="tv31">
+    <title lang="zh-Hans">陪我讲-倾心诊所</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/shallwetalk_caringclinic</url>
+  </programme>
+  <programme start="20261201220000 +0800" stop="20261201223000 +0800" channel="tv31">
+    <title lang="zh-Hans">纵横天下事</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/globalinsight</url>
+  </programme>
+  <programme start="20261201223000 +0800" stop="20261201230000 +0800" channel="tv31">
+    <title lang="zh-Hans">狮子山下</title>
+    <desc lang="zh-Hans">快乐起舞（三）</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/btlr_hhv</url>
+  </programme>
+  <programme start="20261201230000 +0800" stop="20261201233000 +0800" channel="tv31">
+    <title lang="zh-Hans">狮子山下</title>
+    <desc lang="zh-Hans">快乐起舞（四）</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/btlr_hhv</url>
+  </programme>
+  <programme start="20261201233000 +0800" stop="20261202000000 +0800" channel="tv31">
+    <title lang="zh-Hans">凝聚香港</title>
+    <url>https://www.rthk.hk/tv/dtt31/programme/hkunited</url>
+  </programme>
+  <programme start="20261201000000 +0800" stop="20261201001000 +0800" channel="tv32">
+    <title lang="zh-Hans">时事脉动</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/thecurrent</url>
+  </programme>
+  <programme start="20261201001000 +0800" stop="20261201003500 +0800" channel="tv32">
+    <title lang="zh-Hans">铿锵集</title>
+    <desc lang="zh-Hans">黄金时代</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/hkce</url>
+  </programme>
+  <programme start="20261201003500 +0800" stop="20261201010000 +0800" channel="tv32">
+    <title lang="zh-Hans">广东话去旅行：北京篇</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/cantravelogue_beijing_eng</url>
+  </programme>
+  <programme start="20261201010000 +0800" stop="20261201013000 +0800" channel="tv32">
+    <title lang="zh-Hans">看神州</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/kanshenzhou</url>
+  </programme>
+  <programme start="20261201013000 +0800" stop="20261201020000 +0800" channel="tv32">
+    <title lang="zh-Hans">凝聚香港</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/hkunited</url>
+  </programme>
+  <programme start="20261201020000 +0800" stop="20261201073500 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201073500 +0800" stop="20261201074000 +0800" channel="tv32">
+    <title lang="zh-Hans">政正关你事</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261201074000 +0800" stop="20261201080500 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201080500 +0800" stop="20261201100000 +0800" channel="tv32">
+    <title lang="zh-Hans">千禧年代</title>
+    <desc lang="zh-Hans">千禧年代 12月1日</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/talkabout</url>
+  </programme>
+  <programme start="20261201100000 +0800" stop="20261201100500 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201100500 +0800" stop="20261201103000 +0800" channel="tv32">
+    <title lang="zh-Hans">湾区全媒睇</title>
+    <desc lang="zh-Hans">第一千三百零一集</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/gbalifestyle</url>
+  </programme>
+  <programme start="20261201103000 +0800" stop="20261201103500 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201103500 +0800" stop="20261201110000 +0800" channel="tv32">
+    <title lang="zh-Hans">凝聚香港</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/hkunited</url>
+  </programme>
+  <programme start="20261201110000 +0800" stop="20261201111000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261201111000 +0800" stop="20261201113000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201113000 +0800" stop="20261201114000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261201114000 +0800" stop="20261201120000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201120000 +0800" stop="20261201121000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261201121000 +0800" stop="20261201123000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201123000 +0800" stop="20261201124000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261201124000 +0800" stop="20261201130000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201130000 +0800" stop="20261201130700 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261201130700 +0800" stop="20261201133000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201133000 +0800" stop="20261201133700 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261201133700 +0800" stop="20261201140000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201140000 +0800" stop="20261201141000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261201141000 +0800" stop="20261201143000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201143000 +0800" stop="20261201144000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261201144000 +0800" stop="20261201150000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201150000 +0800" stop="20261201151000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261201151000 +0800" stop="20261201153000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201153000 +0800" stop="20261201154000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261201154000 +0800" stop="20261201160000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201160000 +0800" stop="20261201161000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261201161000 +0800" stop="20261201163000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201163000 +0800" stop="20261201164000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261201164000 +0800" stop="20261201170000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201170000 +0800" stop="20261201171000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261201171000 +0800" stop="20261201173000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201173000 +0800" stop="20261201174000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261201174000 +0800" stop="20261201180000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201180000 +0800" stop="20261201181000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261201181000 +0800" stop="20261201183000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201183000 +0800" stop="20261201184000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻简报</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
+  </programme>
+  <programme start="20261201184000 +0800" stop="20261201190000 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+  </programme>
+  <programme start="20261201190000 +0800" stop="20261201193000 +0800" channel="tv32">
+    <title lang="zh-Hans">新闻天地</title>
+    <desc lang="zh-Hans">20261201</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/hktoday_tv</url>
+  </programme>
+  <programme start="20261201193000 +0800" stop="20261201200000 +0800" channel="tv32">
+    <title lang="zh-Hans">纵横天下事</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/globalinsight</url>
+  </programme>
+  <programme start="20261201200000 +0800" stop="20261201201500 +0800" channel="tv32">
+    <title lang="zh-Hans">晚间新闻</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/eveningnews_tv</url>
+  </programme>
+  <programme start="20261201201500 +0800" stop="20261201210000 +0800" channel="tv32">
+    <title lang="zh-Hans">时事脉动</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/thecurrent</url>
+  </programme>
+  <programme start="20261201210000 +0800" stop="20261201213000 +0800" channel="tv32">
+    <title lang="zh-Hans">香港故事 - 声音导航 (英文版)</title>
+    <desc lang="zh-Hans">心鼓共鸣</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/hkstories_echoesofsound_eng</url>
+  </programme>
+  <programme start="20261201213000 +0800" stop="20261201220000 +0800" channel="tv32">
+    <title lang="zh-Hans">领游香港 2</title>
+    <desc lang="zh-Hans">第六集 - 法国</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/voyagewithambassadors2</url>
+  </programme>
+  <programme start="20261201220000 +0800" stop="20261201220500 +0800" channel="tv32">
+    <title lang="zh-Hans">政正关你事 - 官员讲话摘要</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/governmentandyou</url>
+  </programme>
+  <programme start="20261201220500 +0800" stop="20261201223000 +0800" channel="tv32">
+    <title lang="zh-Hans">凝聚香港</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/hkunited</url>
+  </programme>
+  <programme start="20261201223000 +0800" stop="20261201230000 +0800" channel="tv32">
+    <title lang="zh-Hans">伤健同行好雇事</title>
+    <desc lang="zh-Hans">手足情仨</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/caringemployermedal2025</url>
+  </programme>
+  <programme start="20261201230000 +0800" stop="20261201233000 +0800" channel="tv32">
+    <title lang="zh-Hans">纵横天下事</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/globalinsight</url>
+  </programme>
+  <programme start="20261201233000 +0800" stop="20261202000000 +0800" channel="tv32">
+    <title lang="zh-Hans">时事脉动</title>
+    <url>https://www.rthk.hk/tv/dtt32/programme/thecurrent</url>
+  </programme>
+  <programme start="20261201000000 +0800" stop="20261201000500 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261201000500 +0800" stop="20261201003700 +0800" channel="tv33">
+    <title lang="zh-Hans">动物世界</title>
+  </programme>
+  <programme start="20261201003700 +0800" stop="20261201012300 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261201012300 +0800" stop="20261201021100 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261201021100 +0800" stop="20261201030000 +0800" channel="tv33">
+    <title lang="zh-Hans">人与自然</title>
+  </programme>
+  <programme start="20261201030000 +0800" stop="20261201034600 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261201034600 +0800" stop="20261201043200 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261201043200 +0800" stop="20261201050000 +0800" channel="tv33">
+    <title lang="zh-Hans">今日说法</title>
+  </programme>
+  <programme start="20261201050000 +0800" stop="20261201053000 +0800" channel="tv33">
+    <title lang="zh-Hans">新闻联播</title>
+  </programme>
+  <programme start="20261201053000 +0800" stop="20261201060000 +0800" channel="tv33">
+    <title lang="zh-Hans">人与自然</title>
+  </programme>
+  <programme start="20261201060000 +0800" stop="20261201083200 +0800" channel="tv33">
+    <title lang="zh-Hans">朝闻天下</title>
+  </programme>
+  <programme start="20261201083200 +0800" stop="20261201091500 +0800" channel="tv33">
+    <title lang="zh-Hans">生活圈</title>
+  </programme>
+  <programme start="20261201091500 +0800" stop="20261201100100 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261201100100 +0800" stop="20261201104700 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261201104700 +0800" stop="20261201113300 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261201113300 +0800" stop="20261201120000 +0800" channel="tv33">
+    <title lang="zh-Hans">人与自然</title>
+  </programme>
+  <programme start="20261201120000 +0800" stop="20261201123200 +0800" channel="tv33">
+    <title lang="zh-Hans">新闻30分</title>
+  </programme>
+  <programme start="20261201123200 +0800" stop="20261201130100 +0800" channel="tv33">
+    <title lang="zh-Hans">今日说法</title>
+  </programme>
+  <programme start="20261201130100 +0800" stop="20261201133300 +0800" channel="tv33">
+    <title lang="zh-Hans">动物世界</title>
+  </programme>
+  <programme start="20261201133300 +0800" stop="20261201141900 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261201141900 +0800" stop="20261201150500 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261201150500 +0800" stop="20261201155100 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261201155100 +0800" stop="20261201163900 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261201163900 +0800" stop="20261201170800 +0800" channel="tv33">
+    <title lang="zh-Hans">人与自然</title>
+  </programme>
+  <programme start="20261201170800 +0800" stop="20261201190000 +0800" channel="tv33">
+    <title lang="zh-Hans">第一动画乐园</title>
+  </programme>
+  <programme start="20261201190000 +0800" stop="20261201193200 +0800" channel="tv33">
+    <title lang="zh-Hans">新闻联播</title>
+  </programme>
+  <programme start="20261201193200 +0800" stop="20261201194000 +0800" channel="tv33">
+    <title lang="zh-Hans">天气预报</title>
+  </programme>
+  <programme start="20261201194000 +0800" stop="20261201202600 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261201202600 +0800" stop="20261201211400 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261201211400 +0800" stop="20261201213100 +0800" channel="tv33">
+    <title lang="zh-Hans">焦点访谈</title>
+  </programme>
+  <programme start="20261201213100 +0800" stop="20261201220000 +0800" channel="tv33">
+    <title lang="zh-Hans">人与自然</title>
+  </programme>
+  <programme start="20261201220000 +0800" stop="20261201223200 +0800" channel="tv33">
+    <title lang="zh-Hans">晚间新闻</title>
+  </programme>
+  <programme start="20261201223200 +0800" stop="20261201231900 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261201231900 +0800" stop="20261202000700 +0800" channel="tv33">
+    <title lang="zh-Hans">电视剧</title>
+  </programme>
+  <programme start="20261201000000 +0800" stop="20261201000000 +0800" channel="tv34">
+    <title lang="zh-Hans">中国环球电视网纪录频道</title>
+  </programme>
+  <programme start="20261201000000 +0800" stop="20261201010000 +0800" channel="tv35">
+    <title lang="zh-Hans">Global Business</title>
+  </programme>
+  <programme start="20261201010000 +0800" stop="20261201020000 +0800" channel="tv35">
+    <title lang="zh-Hans">Africa Live</title>
+  </programme>
+  <programme start="20261201020000 +0800" stop="20261201030000 +0800" channel="tv35">
+    <title lang="zh-Hans">Global Business</title>
+  </programme>
+  <programme start="20261201030000 +0800" stop="20261201033000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261201033000 +0800" stop="20261201040000 +0800" channel="tv35">
+    <title lang="zh-Hans">World Insight with Tian Wei</title>
+  </programme>
+  <programme start="20261201040000 +0800" stop="20261201043000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261201043000 +0800" stop="20261201050000 +0800" channel="tv35">
+    <title lang="zh-Hans">Dialogue</title>
+  </programme>
+  <programme start="20261201050000 +0800" stop="20261201053000 +0800" channel="tv35">
+    <title lang="zh-Hans">Global Business</title>
+  </programme>
+  <programme start="20261201053000 +0800" stop="20261201060000 +0800" channel="tv35">
+    <title lang="zh-Hans">The Point with Liu Xin</title>
+  </programme>
+  <programme start="20261201060000 +0800" stop="20261201063000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261201063000 +0800" stop="20261201070000 +0800" channel="tv35">
+    <title lang="zh-Hans">Rediscovering China</title>
+  </programme>
+  <programme start="20261201070000 +0800" stop="20261201073000 +0800" channel="tv35">
+    <title lang="zh-Hans">The Heat</title>
+  </programme>
+  <programme start="20261201073000 +0800" stop="20261201080000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261201080000 +0800" stop="20261201090000 +0800" channel="tv35">
+    <title lang="zh-Hans">Global Business</title>
+  </programme>
+  <programme start="20261201090000 +0800" stop="20261201093000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261201093000 +0800" stop="20261201100000 +0800" channel="tv35">
+    <title lang="zh-Hans">China 24</title>
+  </programme>
+  <programme start="20261201100000 +0800" stop="20261201103000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261201103000 +0800" stop="20261201110000 +0800" channel="tv35">
+    <title lang="zh-Hans">World Insight with Tian Wei</title>
+  </programme>
+  <programme start="20261201110000 +0800" stop="20261201111500 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261201111500 +0800" stop="20261201113000 +0800" channel="tv35">
+    <title lang="zh-Hans">Sports Scene</title>
+  </programme>
+  <programme start="20261201113000 +0800" stop="20261201120000 +0800" channel="tv35">
+    <title lang="zh-Hans">The Hub With Wang Guan</title>
+  </programme>
+  <programme start="20261201120000 +0800" stop="20261201130000 +0800" channel="tv35">
+    <title lang="zh-Hans">Global Watch</title>
+  </programme>
+  <programme start="20261201130000 +0800" stop="20261201131500 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261201131500 +0800" stop="20261201133000 +0800" channel="tv35">
+    <title lang="zh-Hans">Sports Scene</title>
+  </programme>
+  <programme start="20261201133000 +0800" stop="20261201140000 +0800" channel="tv35">
+    <title lang="zh-Hans">Rediscovering China</title>
+  </programme>
+  <programme start="20261201140000 +0800" stop="20261201143000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261201143000 +0800" stop="20261201150000 +0800" channel="tv35">
+    <title lang="zh-Hans">The Heat</title>
+  </programme>
+  <programme start="20261201150000 +0800" stop="20261201153000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261201153000 +0800" stop="20261201160000 +0800" channel="tv35">
+    <title lang="zh-Hans">Sports Scene</title>
+  </programme>
+  <programme start="20261201160000 +0800" stop="20261201161500 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261201161500 +0800" stop="20261201170000 +0800" channel="tv35">
+    <title lang="zh-Hans">Global Business</title>
+  </programme>
+  <programme start="20261201170000 +0800" stop="20261201173000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261201173000 +0800" stop="20261201180000 +0800" channel="tv35">
+    <title lang="zh-Hans">The Vibe</title>
+  </programme>
+  <programme start="20261201180000 +0800" stop="20261201181500 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261201181500 +0800" stop="20261201190000 +0800" channel="tv35">
+    <title lang="zh-Hans">Africa Live</title>
+  </programme>
+  <programme start="20261201190000 +0800" stop="20261201193000 +0800" channel="tv35">
+    <title lang="zh-Hans">Asia Today</title>
+  </programme>
+  <programme start="20261201193000 +0800" stop="20261201200000 +0800" channel="tv35">
+    <title lang="zh-Hans">Dialogue</title>
+  </programme>
+  <programme start="20261201200000 +0800" stop="20261201201500 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261201201500 +0800" stop="20261201210000 +0800" channel="tv35">
+    <title lang="zh-Hans">China 24</title>
+  </programme>
+  <programme start="20261201210000 +0800" stop="20261201213000 +0800" channel="tv35">
+    <title lang="zh-Hans">Global Business</title>
+  </programme>
+  <programme start="20261201213000 +0800" stop="20261201220000 +0800" channel="tv35">
+    <title lang="zh-Hans">The Hub With Wang Guan</title>
+  </programme>
+  <programme start="20261201220000 +0800" stop="20261201223000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261201223000 +0800" stop="20261201230000 +0800" channel="tv35">
+    <title lang="zh-Hans">World Insight with Tian Wei</title>
+  </programme>
+  <programme start="20261201230000 +0800" stop="20261201233000 +0800" channel="tv35">
+    <title lang="zh-Hans">The World Today</title>
+  </programme>
+  <programme start="20261201233000 +0800" stop="20261202000000 +0800" channel="tv35">
     <title lang="zh-Hans">The Vibe</title>
   </programme>
 </tv>

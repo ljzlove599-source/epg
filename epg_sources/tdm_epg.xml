@@ -1247,8 +1247,11 @@
   <programme start="20261130200000 +0800" stop="20261130205000 +0800" channel="2">
     <title lang="zh-CN">Telejornal</title>
   </programme>
-  <programme start="20261130205000 +0800" stop="20261130214000 +0800" channel="2">
+  <programme start="20261130205000 +0800" stop="20261130212500 +0800" channel="2">
     <title lang="zh-CN">Semanário</title>
+  </programme>
+  <programme start="20261130212500 +0800" stop="20261130214000 +0800" channel="2">
+    <title lang="zh-CN">Passado em Foco: Macau Convivências</title>
   </programme>
   <programme start="20261130214000 +0800" stop="20261130223500 +0800" channel="2">
     <title lang="zh-CN">Mania de Você</title>
@@ -1568,8 +1571,11 @@
   <programme start="20261129095900 +0800" stop="20261129100000 +0800" channel="6">
     <title lang="zh-CN">开台</title>
   </programme>
-  <programme start="20261129100000 +0800" stop="20261129130000 +0800" channel="6">
+  <programme start="20261129100000 +0800" stop="20261129124500 +0800" channel="6">
     <title lang="zh-CN">录播第六届天沐杯横琴名校赛艇邀请赛</title>
+  </programme>
+  <programme start="20261129124500 +0800" stop="20261129130000 +0800" channel="6">
+    <title lang="zh-CN">澳门经典车小百科</title>
   </programme>
   <programme start="20261129130000 +0800" stop="20261129131500 +0800" channel="6">
     <title lang="zh-CN">体育新闻</title>

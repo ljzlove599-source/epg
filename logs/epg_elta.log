@@ -1,0 +1,7 @@
+PHP Fatal error:  Uncaught TypeError: DateTime::__construct() expects parameter 2 to be DateTimeZone, string given in /home/runner/work/epg/epg/epg_elta.php:133
+Stack trace:
+#0 /home/runner/work/epg/epg/epg_elta.php(133): DateTime->__construct()
+#1 /home/runner/work/epg/epg/epg_elta.php(250): taipei_ymd()
+#2 /home/runner/work/epg/epg/epg_elta.php(375): generate_epg()
+#3 {main}
+  thrown in /home/runner/work/epg/epg/epg_elta.php on line 133
