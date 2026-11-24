@@ -9,13 +9,14 @@ on:
 # 全局統一時區為北京時間
 env:
   TZ: Asia/Shanghai
+  EPG_OUTPUT_DIR: epg  # 统一声明输出目录，避免路径不一致
 
 jobs:
   epg_comprehensive_processing:
     runs-on: ubuntu-latest
 
     steps:
-      # ---------- 1. 環境準備 ----------
+      # ---------- 1. 拉取代码与 Git 配置 ----------
       - name: Checkout code
         uses: actions/checkout@v4
         with:
@@ -28,6 +29,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin ${{ github.ref_name }}
 
+      # ---------- 2. 安装系统与语言环境 ----------
       - name: Install system dependencies
         run: |
           sudo apt-get update
@@ -54,24 +56,23 @@ jobs:
           pip install --no-cache-dir opencc curl_cffi beautifulsoup4 requests
           echo "所有依賴安裝完成"
 
-      # ---------- 2. 清理歷史殘留文件 ----------
+      # ---------- 3. 清理历史残留文件 ----------
       - name: Clean old output files
         run: |
-          rm -f *.xml *.xml.gz *_time.txt time.txt
+          rm -f ${EPG_OUTPUT_DIR}/*.xml ${EPG_OUTPUT_DIR}/*.xml.gz *_time.txt time.txt
           rm -rf logs/
-          mkdir -p logs
-          echo "歷史文件清理完成"
+          mkdir -p logs ${EPG_OUTPUT_DIR}
+          echo "歷史文件清理完成，输出目录：${EPG_OUTPUT_DIR}"
 
-
-      # ---------- 4. 運行 Python 採集腳本 ----------
+      # ---------- 4. 运行 Python 采集脚本 ----------
       - name: Run fourgtv EPG scraper
-        id: fujian_epg
+        id: fourgtv_epg
         continue-on-error: true
         run: |
           if [ -f "fourgtv_epg.py" ]; then
             echo "運行福建 EPG 抓取腳本..."
             python3 fourgtv_epg.py
-            if [ -f "epg/4g.xml" ]; then
+            if [ -f "${EPG_OUTPUT_DIR}/4g.xml" ]; then
               echo "✅ 成功生成 4g.xml"
               echo "fourgtv_generated=true" >> $GITHUB_OUTPUT
               echo "fourgtv EPG updated at $(date '+%Y-%m-%d %H:%M:%S')" > fourgtv_time.txt
@@ -91,20 +92,20 @@ jobs:
           if [ -f "hami.py" ]; then
             echo "運行hami EPG 抓取腳本..."
             python3 hami.py "$(date '+%Y-%m-%d')" hami.xml
-            if [ -f "epg/hami.xml" ]; then
+            if [ -f "${EPG_OUTPUT_DIR}/hami.xml" ]; then
               echo "✅ 成功生成 hami.xml"
               echo "hami_generated=true" >> $GITHUB_OUTPUT
               echo "hami EPG updated at $(date '+%Y-%m-%d %H:%M:%S')" > hami_time.txt
             else
               echo "⚠️ 未生成 hami.xml"
-              echo "iqilu_generated=false" >> $GITHUB_OUTPUT
+              echo "hami_generated=false" >> $GITHUB_OUTPUT
             fi
           else
             echo "⚠️ hami.py 不存在，跳過"
-            echo "iqilu_generated=false" >> $GITHUB_OUTPUT
+            echo "hami_generated=false" >> $GITHUB_OUTPUT
           fi
 
-      # ---------- 5. 檢查並運行 PHP 採集腳本 ----------
+      # ---------- 5. 检查并运行 PHP 采集脚本 ----------
       - name: Check PHP scripts existence
         id: check_scripts
         run: |
@@ -134,6 +135,7 @@ jobs:
       - name: Run PHP scripts to generate EPG XML
         if: steps.check_scripts.outputs.existing_scripts != ''
         id: run_php_scripts
+        continue-on-error: true
         run: |
           IFS=',' read -ra scripts <<< "${{ steps.check_scripts.outputs.existing_scripts }}"
           failed_scripts=()
@@ -168,12 +170,12 @@ jobs:
           fi
           echo "php_failed_count=${#failed_scripts[@]}" >> $GITHUB_OUTPUT
 
-      # ---------- 6. 檢查生成的 XML 文件 ----------
+      # ---------- 6. 检查生成的 XML 文件 ----------
       - name: Check generated XML files
         id: check_xml
         run: |
           declare -a expected_xml=(
-            "4g.xml" "cntv.xm.gz" "epg_4k.xml" "epg_elta.xml"
+            "4g.xml" "cntv.xml.gz" "epg_4k.xml" "epg_elta.xml"
             "epg_nowtv.xml" "epg_zhongtiannam.xml" "hami.xml" "litv_epg.xml"
             "ofiii.xml" "epg_rthk_tv.xml" "kbro_epg.xml" "mod_epg.xml"
             "tdm_epg.xml" 
@@ -183,15 +185,16 @@ jobs:
           valid_xml=0
           invalid_xml=0
           
-          echo "開始檢查生成的 XML 文件..."
+          echo "開始檢查生成的 XML 文件（目录：${EPG_OUTPUT_DIR}）..."
           for xml_file in "${expected_xml[@]}"; do
-            if [ -f "$xml_file" ]; then
-              filesize=$(stat -c%s "$xml_file" 2>/dev/null || wc -c < "$xml_file" | awk '{print $1}')
-              echo "✓ 生成文件: $xml_file (大小: $filesize bytes)"
-              generated_files+=("$xml_file")
+            file_path="${EPG_OUTPUT_DIR}/${xml_file}"
+            if [ -f "$file_path" ]; then
+              filesize=$(stat -c%s "$file_path" 2>/dev/null || wc -c < "$file_path" | awk '{print $1}')
+              echo "✓ 生成文件: $file_path (大小: $filesize bytes)"
+              generated_files+=("$file_path")
               
               if [[ "$xml_file" != *.gz ]]; then
-                if xmllint --noout "$xml_file" 2>/dev/null; then
+                if xmllint --noout "$file_path" 2>/dev/null; then
                   echo "  ✅ XML 格式驗證通過"
                   valid_xml=$((valid_xml + 1))
                 else
@@ -200,7 +203,7 @@ jobs:
                 fi
               fi
             else
-              echo "✗ 未生成文件: $xml_file"
+              echo "✗ 未生成文件: $file_path"
             fi
           done
           
@@ -216,21 +219,17 @@ jobs:
           echo "valid_xml_count=$valid_xml" >> $GITHUB_OUTPUT
           echo "invalid_xml_count=$invalid_xml" >> $GITHUB_OUTPUT
 
-     
-
-
-
-      # ---------- 8. 更新時間戳 ----------
+      # ---------- 7. 更新时间戳 ----------
       - name: Update time.txt with latest timestamp
         if: steps.check_xml.outputs.generated_xml != ''
         run: |
           echo "Last XML update: $(date '+%Y-%m-%d %H:%M:%S')" > time.txt
           echo "時間戳已更新: $(cat time.txt)"
 
-      # ---------- 9. 提交結果並推送回倉庫 ----------
+      # ---------- 8. 提交结果并推送回仓库 ----------
       - name: Commit and push all generated files
         run: |
-          git add *.xml *.xml.gz *_time.txt time.txt logs/
+          git add ${EPG_OUTPUT_DIR}/*.xml ${EPG_OUTPUT_DIR}/*.xml.gz *_time.txt time.txt logs/
           
           if git diff --cached --quiet; then
             echo "無新增變更，跳過提交"
