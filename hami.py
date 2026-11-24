@@ -160,7 +160,7 @@ async def main():
     logger.info("开始生成 Hami 电视节目表")
     
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    output_dir = os.path.join(current_dir, "epg")
+    output_dir = os.path.join(current_dir, "epg_sources")
     os.makedirs(output_dir, exist_ok=True)
     logger.info(f"输出目录: {output_dir}")
     
