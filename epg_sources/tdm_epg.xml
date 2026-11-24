@@ -24,109 +24,6 @@
     <display-name>澳门-Macau</display-name>
     <display-name>96</display-name>
   </channel>
-  <programme start="20261123070000 +0800" stop="20261123080000 +0800" channel="1">
-    <title lang="zh-CN">早晨新闻</title>
-  </programme>
-  <programme start="20261123080000 +0800" stop="20261123085900 +0800" channel="1">
-    <title lang="zh-CN">澳门早晨</title>
-  </programme>
-  <programme start="20261123085900 +0800" stop="20261123130000 +0800" channel="1">
-    <title lang="zh-CN">直播立法会辩论经济财政领域2027施政方针政策</title>
-  </programme>
-  <programme start="20261123130000 +0800" stop="20261123132400 +0800" channel="1">
-    <title lang="zh-CN">口述澳门历史名人堂 II</title>
-    <desc lang="zh-CN">澳门，这个座落在南海之滨的小城巿，是祖国的一颗掌上明珠，也是东西方文化交织相融之地，曾有不少历史名人在此驻足停留，对后世影响深远。《口述澳门历史名人堂2》将延续第一季节目的精神，与观众一起探寻历史名人们留下过的足迹，并以光影为墨、以镜头为笔，发掘珍贵文献素材，结合专家学者们的深度分享，记录先贤们的卓越贡献，打造值得代代相传的文化经典。</desc>
-  </programme>
-  <programme start="20261123132400 +0800" stop="20261123133000 +0800" channel="1">
-    <title lang="zh-CN">午间天气报告</title>
-  </programme>
-  <programme start="20261123133000 +0800" stop="20261123140000 +0800" channel="1">
-    <title lang="zh-CN">午间新闻</title>
-  </programme>
-  <programme start="20261123140000 +0800" stop="20261123145900 +0800" channel="1">
-    <title lang="zh-CN">每日财经</title>
-  </programme>
-  <programme start="20261123145900 +0800" stop="20261123164500 +0800" channel="1">
-    <title lang="zh-CN">直播立法会辩论经济财政领域2027施政方针政策</title>
-  </programme>
-  <programme start="20261123164500 +0800" stop="20261123190000 +0800" channel="1">
-    <title lang="zh-CN">直播立法会辩论经济财政领域2027施政方针政策</title>
-  </programme>
-  <programme start="20261123190000 +0800" stop="20261123195500 +0800" channel="1">
-    <title lang="zh-CN">澳视新闻</title>
-  </programme>
-  <programme start="20261123195500 +0800" stop="20261123200000 +0800" channel="1">
-    <title lang="zh-CN">天气报告</title>
-  </programme>
-  <programme start="20261123200000 +0800" stop="20261123212000 +0800" channel="1">
-    <title lang="zh-CN">今日宜加油</title>
-    <desc lang="zh-CN">《今日宜加油》是一部职场题材电视剧，根据韩国漫画《高斯电子公司》改编，由郑恺、陈钰琪、王鹤棣主演，故事讲述高发电子公司中企划三部曾是高发电子最风光的部门，近三年因不靠谱企划地位一落千丈。但部门众人以各自方式演绎平凡奋斗者的生活，李天然、范思思、吴意美、白马帅等，有梦想有执着，对部门有深厚感情。他们面临副董挑刺、一部竞争，用努力化解危机，使三部重回巅峰，也在笑中带泪的职场中成长，收获爱情与友情。</desc>
-  </programme>
-  <programme start="20261123212000 +0800" stop="20261123213300 +0800" channel="1">
-    <title lang="zh-CN">川西秘境·净土香巴拉</title>
-  </programme>
-  <programme start="20261123213300 +0800" stop="20261123220000 +0800" channel="1">
-    <title lang="zh-CN">家家有本事</title>
-    <desc lang="zh-CN">《家家有本事》为一个综合性生活资讯的家庭类节目，邀请相关人士就相关主题提供专业知识，包括日常生活、健康资讯等元素。</desc>
-  </programme>
-  <programme start="20261123220000 +0800" stop="20261123223000 +0800" channel="1">
-    <title lang="zh-CN">普通话新闻</title>
-  </programme>
-  <programme start="20261123223000 +0800" stop="20261123230000 +0800" channel="1">
-    <title lang="zh-CN">十点半澳视纵横︰风火台</title>
-  </programme>
-  <programme start="20261123230000 +0800" stop="20261123231500 +0800" channel="1">
-    <title lang="zh-CN">横琴攻略</title>
-  </programme>
-  <programme start="20261123231500 +0800" stop="20261123235000 +0800" channel="1">
-    <title lang="zh-CN">晚间新闻</title>
-  </programme>
-  <programme start="20261123235000 +0800" stop="20261124000100 +0800" channel="1">
-    <title lang="zh-CN">体育新闻</title>
-  </programme>
-  <programme start="20261124000100 +0800" stop="20261124002700 +0800" channel="1">
-    <title lang="zh-CN">湾区全媒睇</title>
-  </programme>
-  <programme start="20261124002700 +0800" stop="20261124004900 +0800" channel="1">
-    <title lang="zh-CN">家家有本事</title>
-    <desc lang="zh-CN">《家家有本事》为一个综合性生活资讯的家庭类节目，邀请相关人士就相关主题提供专业知识，包括日常生活、健康资讯等元素。</desc>
-  </programme>
-  <programme start="20261124004900 +0800" stop="20261124011900 +0800" channel="1">
-    <title lang="zh-CN">重播风火台</title>
-  </programme>
-  <programme start="20261124011900 +0800" stop="20261124012700 +0800" channel="1">
-    <title lang="zh-CN">“你问我答”粤澳法律直播间 </title>
-  </programme>
-  <programme start="20261124012700 +0800" stop="20261124024900 +0800" channel="1">
-    <title lang="zh-CN">今日宜加油</title>
-    <desc lang="zh-CN">《今日宜加油》是一部职场题材电视剧，根据韩国漫画《高斯电子公司》改编，由郑恺、陈钰琪、王鹤棣主演，故事讲述高发电子公司中企划三部曾是高发电子最风光的部门，近三年因不靠谱企划地位一落千丈。但部门众人以各自方式演绎平凡奋斗者的生活，李天然、范思思、吴意美、白马帅等，有梦想有执着，对部门有深厚感情。他们面临副董挑刺、一部竞争，用努力化解危机，使三部重回巅峰，也在笑中带泪的职场中成长，收获爱情与友情。</desc>
-  </programme>
-  <programme start="20261124024900 +0800" stop="20261124030000 +0800" channel="1">
-    <title lang="zh-CN">川西秘境·净土香巴拉</title>
-  </programme>
-  <programme start="20261124030000 +0800" stop="20261124032500 +0800" channel="1">
-    <title lang="zh-CN">录播普通话新闻</title>
-  </programme>
-  <programme start="20261124032500 +0800" stop="20261124040000 +0800" channel="1">
-    <title lang="zh-CN">录播晚间新闻</title>
-  </programme>
-  <programme start="20261124040000 +0800" stop="20261124042500 +0800" channel="1">
-    <title lang="zh-CN">家家有本事</title>
-    <desc lang="zh-CN">《家家有本事》为一个综合性生活资讯的家庭类节目，邀请相关人士就相关主题提供专业知识，包括日常生活、健康资讯等元素。</desc>
-  </programme>
-  <programme start="20261124042500 +0800" stop="20261124044700 +0800" channel="1">
-    <title lang="zh-CN">澳门早晨精华录</title>
-  </programme>
-  <programme start="20261124044700 +0800" stop="20261124051700 +0800" channel="1">
-    <title lang="zh-CN">重播风火台</title>
-  </programme>
-  <programme start="20261124051700 +0800" stop="20261124052500 +0800" channel="1">
-    <title lang="zh-CN">“你问我答”粤澳法律直播间 </title>
-  </programme>
-  <programme start="20261124052500 +0800" stop="20261124062500 +0800" channel="1">
-    <title lang="zh-CN">七夜雪</title>
-    <desc lang="zh-CN">李沁、曾舜晞、王弘毅、陈昊森、曾可妮主演，不羁剑客霍展白（曾舜晞饰）为友人之子求药，结识药师谷谷主薛紫夜（李沁饰）。八年时间，二人在日日相处之中，从彼此各有执念，到默契加深，互相救赎，并约定来年梅树下共饮。却因各自背负的责任而难言爱意，最终只留下天人永隔的遗憾。</desc>
-  </programme>
   <programme start="20261124070000 +0800" stop="20261124080000 +0800" channel="1">
     <title lang="zh-CN">早晨新闻</title>
   </programme>
@@ -307,6 +204,7 @@
   </programme>
   <programme start="20261125200000 +0800" stop="20261125210500 +0800" channel="1">
     <title lang="zh-CN">今日宜加油</title>
+    <desc lang="zh-CN">《今日宜加油》是一部职场题材电视剧，根据韩国漫画《高斯电子公司》改编，由郑恺、陈钰琪、王鹤棣主演，故事讲述高发电子公司中企划三部曾是高发电子最风光的部门，近三年因不靠谱企划地位一落千丈。但部门众人以各自方式演绎平凡奋斗者的生活，李天然、范思思、吴意美、白马帅等，有梦想有执着，对部门有深厚感情。他们面临副董挑刺、一部竞争，用努力化解危机，使三部重回巅峰，也在笑中带泪的职场中成长，收获爱情与友情。</desc>
   </programme>
   <programme start="20261125210500 +0800" stop="20261125213300 +0800" channel="1">
     <title lang="zh-CN">AI 剧场 药香情缘</title>
@@ -353,6 +251,7 @@
   </programme>
   <programme start="20261126012700 +0800" stop="20261126023000 +0800" channel="1">
     <title lang="zh-CN">今日宜加油</title>
+    <desc lang="zh-CN">《今日宜加油》是一部职场题材电视剧，根据韩国漫画《高斯电子公司》改编，由郑恺、陈钰琪、王鹤棣主演，故事讲述高发电子公司中企划三部曾是高发电子最风光的部门，近三年因不靠谱企划地位一落千丈。但部门众人以各自方式演绎平凡奋斗者的生活，李天然、范思思、吴意美、白马帅等，有梦想有执着，对部门有深厚感情。他们面临副董挑刺、一部竞争，用努力化解危机，使三部重回巅峰，也在笑中带泪的职场中成长，收获爱情与友情。</desc>
   </programme>
   <programme start="20261126023000 +0800" stop="20261126030000 +0800" channel="1">
     <title lang="zh-CN">AI 剧场 药香情缘</title>
@@ -382,6 +281,7 @@
   </programme>
   <programme start="20261126052500 +0800" stop="20261126062500 +0800" channel="1">
     <title lang="zh-CN">七夜雪</title>
+    <desc lang="zh-CN">李沁、曾舜晞、王弘毅、陈昊森、曾可妮主演，不羁剑客霍展白（曾舜晞饰）为友人之子求药，结识药师谷谷主薛紫夜（李沁饰）。八年时间，二人在日日相处之中，从彼此各有执念，到默契加深，互相救赎，并约定来年梅树下共饮。却因各自背负的责任而难言爱意，最终只留下天人永隔的遗憾。</desc>
   </programme>
   <programme start="20261126070000 +0800" stop="20261126080000 +0800" channel="1">
     <title lang="zh-CN">早晨新闻</title>
@@ -417,6 +317,7 @@
   </programme>
   <programme start="20261126111500 +0800" stop="20261126125000 +0800" channel="1">
     <title lang="zh-CN">今日宜加油</title>
+    <desc lang="zh-CN">《今日宜加油》是一部职场题材电视剧，根据韩国漫画《高斯电子公司》改编，由郑恺、陈钰琪、王鹤棣主演，故事讲述高发电子公司中企划三部曾是高发电子最风光的部门，近三年因不靠谱企划地位一落千丈。但部门众人以各自方式演绎平凡奋斗者的生活，李天然、范思思、吴意美、白马帅等，有梦想有执着，对部门有深厚感情。他们面临副董挑刺、一部竞争，用努力化解危机，使三部重回巅峰，也在笑中带泪的职场中成长，收获爱情与友情。</desc>
   </programme>
   <programme start="20261126125000 +0800" stop="20261126131700 +0800" channel="1">
     <title lang="zh-CN">考古学家的神秘武器</title>
@@ -486,6 +387,7 @@
   </programme>
   <programme start="20261126200000 +0800" stop="20261126213300 +0800" channel="1">
     <title lang="zh-CN">今日宜加油</title>
+    <desc lang="zh-CN">《今日宜加油》是一部职场题材电视剧，根据韩国漫画《高斯电子公司》改编，由郑恺、陈钰琪、王鹤棣主演，故事讲述高发电子公司中企划三部曾是高发电子最风光的部门，近三年因不靠谱企划地位一落千丈。但部门众人以各自方式演绎平凡奋斗者的生活，李天然、范思思、吴意美、白马帅等，有梦想有执着，对部门有深厚感情。他们面临副董挑刺、一部竞争，用努力化解危机，使三部重回巅峰，也在笑中带泪的职场中成长，收获爱情与友情。</desc>
   </programme>
   <programme start="20261126213300 +0800" stop="20261126220000 +0800" channel="1">
     <title lang="zh-CN">教煮CHILL 好玩</title>
@@ -515,6 +417,7 @@
   </programme>
   <programme start="20261127012700 +0800" stop="20261127030000 +0800" channel="1">
     <title lang="zh-CN">今日宜加油</title>
+    <desc lang="zh-CN">《今日宜加油》是一部职场题材电视剧，根据韩国漫画《高斯电子公司》改编，由郑恺、陈钰琪、王鹤棣主演，故事讲述高发电子公司中企划三部曾是高发电子最风光的部门，近三年因不靠谱企划地位一落千丈。但部门众人以各自方式演绎平凡奋斗者的生活，李天然、范思思、吴意美、白马帅等，有梦想有执着，对部门有深厚感情。他们面临副董挑刺、一部竞争，用努力化解危机，使三部重回巅峰，也在笑中带泪的职场中成长，收获爱情与友情。</desc>
   </programme>
   <programme start="20261127030000 +0800" stop="20261127032500 +0800" channel="1">
     <title lang="zh-CN">录播普通话新闻</title>
@@ -534,6 +437,7 @@
   </programme>
   <programme start="20261127052500 +0800" stop="20261127062500 +0800" channel="1">
     <title lang="zh-CN">七夜雪</title>
+    <desc lang="zh-CN">李沁、曾舜晞、王弘毅、陈昊森、曾可妮主演，不羁剑客霍展白（曾舜晞饰）为友人之子求药，结识药师谷谷主薛紫夜（李沁饰）。八年时间，二人在日日相处之中，从彼此各有执念，到默契加深，互相救赎，并约定来年梅树下共饮。却因各自背负的责任而难言爱意，最终只留下天人永隔的遗憾。</desc>
   </programme>
   <programme start="20261127070000 +0800" stop="20261127080000 +0800" channel="1">
     <title lang="zh-CN">早晨新闻</title>
@@ -573,6 +477,7 @@
   </programme>
   <programme start="20261127200000 +0800" stop="20261127212500 +0800" channel="1">
     <title lang="zh-CN">今日宜加油</title>
+    <desc lang="zh-CN">《今日宜加油》是一部职场题材电视剧，根据韩国漫画《高斯电子公司》改编，由郑恺、陈钰琪、王鹤棣主演，故事讲述高发电子公司中企划三部曾是高发电子最风光的部门，近三年因不靠谱企划地位一落千丈。但部门众人以各自方式演绎平凡奋斗者的生活，李天然、范思思、吴意美、白马帅等，有梦想有执着，对部门有深厚感情。他们面临副董挑刺、一部竞争，用努力化解危机，使三部重回巅峰，也在笑中带泪的职场中成长，收获爱情与友情。</desc>
   </programme>
   <programme start="20261127212500 +0800" stop="20261127213300 +0800" channel="1">
     <title lang="zh-CN">虫出江湖</title>
@@ -613,6 +518,7 @@
   </programme>
   <programme start="20261128012700 +0800" stop="20261128025200 +0800" channel="1">
     <title lang="zh-CN">今日宜加油</title>
+    <desc lang="zh-CN">《今日宜加油》是一部职场题材电视剧，根据韩国漫画《高斯电子公司》改编，由郑恺、陈钰琪、王鹤棣主演，故事讲述高发电子公司中企划三部曾是高发电子最风光的部门，近三年因不靠谱企划地位一落千丈。但部门众人以各自方式演绎平凡奋斗者的生活，李天然、范思思、吴意美、白马帅等，有梦想有执着，对部门有深厚感情。他们面临副董挑刺、一部竞争，用努力化解危机，使三部重回巅峰，也在笑中带泪的职场中成长，收获爱情与友情。</desc>
   </programme>
   <programme start="20261128025200 +0800" stop="20261128030000 +0800" channel="1">
     <title lang="zh-CN">虫出江湖</title>
@@ -639,6 +545,7 @@
   </programme>
   <programme start="20261128052500 +0800" stop="20261128062500 +0800" channel="1">
     <title lang="zh-CN">七夜雪</title>
+    <desc lang="zh-CN">李沁、曾舜晞、王弘毅、陈昊森、曾可妮主演，不羁剑客霍展白（曾舜晞饰）为友人之子求药，结识药师谷谷主薛紫夜（李沁饰）。八年时间，二人在日日相处之中，从彼此各有执念，到默契加深，互相救赎，并约定来年梅树下共饮。却因各自背负的责任而难言爱意，最终只留下天人永隔的遗憾。</desc>
   </programme>
   <programme start="20261128070000 +0800" stop="20261128080000 +0800" channel="1">
     <title lang="zh-CN">早晨新闻</title>
@@ -651,6 +558,7 @@
   </programme>
   <programme start="20261128090200 +0800" stop="20261128094800 +0800" channel="1">
     <title lang="zh-CN">在世界的角落扎营</title>
+    <desc lang="zh-CN">与一名亲人好友在国外露营，会是怎样的一种体验？新加坡本地知名艺人们将携同一名伴侣，在国外展开前所未有的露营体验，挑战新颖户外活动，并对彼此前所未有的敞开心扉。</desc>
   </programme>
   <programme start="20261128094800 +0800" stop="20261128100000 +0800" channel="1">
     <title lang="zh-CN">5亿年，岩石里的生命奇迹</title>
@@ -670,6 +578,7 @@
   </programme>
   <programme start="20261128111500 +0800" stop="20261128125000 +0800" channel="1">
     <title lang="zh-CN">金色大道</title>
+    <desc lang="zh-CN">“六木”—林木森（陈泂江饰）的父母和妹妹在他年少时死于车祸，从此寄人篱下。他结识了两位好友，傻气讲义气耐打的黄金条（田铭耀饰），寡言木讷坚定的何建志（孙政饰）。三人读书不多，却都想要改变命运。他们奋力地走上金色大道，却在过程中逐渐迷失。某一天，六木闯入洋房将 建志开枪打死被全球通缉。逃亡中，三人反目成仇的往事层层揭开……</desc>
   </programme>
   <programme start="20261128125000 +0800" stop="20261128130500 +0800" channel="1">
     <title lang="zh-CN">Z世代 青年说第二季</title>
@@ -692,6 +601,7 @@
   </programme>
   <programme start="20261128140000 +0800" stop="20261128153400 +0800" channel="1">
     <title lang="zh-CN">白鹿原</title>
+    <desc lang="zh-CN">《白鹿原》由张嘉译担纲艺术总监并领衔何冰、秦海璐、刘佩琦、雷佳音、翟天临、李沁、姬他、邓伦、王骁、孙铱等实力演员出演。故事讲述20世纪初，渭河平原滋水县有一个白鹿原，生活着一群普通却不平凡的百姓。白鹿两家合而为村，相互依存又关系微妙。少东家白嘉轩（张嘉益饰）与鹿子霖（何冰饰）为了族长位置暗自较劲儿。嘉轩娶回逃难的仙草（秦海璐饰），先后生下孝文、孝武和白灵三个孩子。鹿子霖爱走歪门邪道，一心让两个儿子兆鹏和兆海光宗耀祖。生于乱世，城头变幻大王旗。但不管谁做官，总不免鱼肉底层的百姓。白嘉轩顶着各方的压力，成为白鹿原上响当当的一根硬骨头。可是孩子们长大后，却各有各的主意。拒绝包办婚姻的兆鹏（雷佳音饰）加入共产党，自己的弟弟则成为国军军官。白灵紧随兆鹏入了党，孝文一心讨好父亲，却渐渐偏离了正道。半个世纪的画卷，展现了中国乱世下的众生相…… 本剧改编自陈忠实同名的中国现代文学的经典巨着，荣获第四届茅盾文学奖（1989-1994年）。《白鹿原》是一部20世纪初渭河平原50年变迁的雄奇史诗，是一轴中国农村斑斓多彩、触目惊心的长幅画卷。特殊的时代背景，浓厚的关中风情，土地革命、抗日战争、解放战争，古老的土地，上演了一幕幕惊心动魄的画面。剧中朱先生对传统道德的坚守，白嘉轩勤劳与自私，鹿子霖望子成龙，白孝文情感波折，白灵投奔革命，黑娃被迫为匪，鹿兆鹏追求理想，鹿兆海舍生无义，演绎了两个家庭不同子孙，曲折的人生轨迹和命运归宿。</desc>
   </programme>
   <programme start="20261128153400 +0800" stop="20261128154000 +0800" channel="1">
     <title lang="zh-CN">巧手时光</title>
@@ -755,9 +665,11 @@
   </programme>
   <programme start="20261129000100 +0800" stop="20261129013500 +0800" channel="1">
     <title lang="zh-CN">白鹿原</title>
+    <desc lang="zh-CN">《白鹿原》由张嘉译担纲艺术总监并领衔何冰、秦海璐、刘佩琦、雷佳音、翟天临、李沁、姬他、邓伦、王骁、孙铱等实力演员出演。故事讲述20世纪初，渭河平原滋水县有一个白鹿原，生活着一群普通却不平凡的百姓。白鹿两家合而为村，相互依存又关系微妙。少东家白嘉轩（张嘉益饰）与鹿子霖（何冰饰）为了族长位置暗自较劲儿。嘉轩娶回逃难的仙草（秦海璐饰），先后生下孝文、孝武和白灵三个孩子。鹿子霖爱走歪门邪道，一心让两个儿子兆鹏和兆海光宗耀祖。生于乱世，城头变幻大王旗。但不管谁做官，总不免鱼肉底层的百姓。白嘉轩顶着各方的压力，成为白鹿原上响当当的一根硬骨头。可是孩子们长大后，却各有各的主意。拒绝包办婚姻的兆鹏（雷佳音饰）加入共产党，自己的弟弟则成为国军军官。白灵紧随兆鹏入了党，孝文一心讨好父亲，却渐渐偏离了正道。半个世纪的画卷，展现了中国乱世下的众生相…… 本剧改编自陈忠实同名的中国现代文学的经典巨着，荣获第四届茅盾文学奖（1989-1994年）。《白鹿原》是一部20世纪初渭河平原50年变迁的雄奇史诗，是一轴中国农村斑斓多彩、触目惊心的长幅画卷。特殊的时代背景，浓厚的关中风情，土地革命、抗日战争、解放战争，古老的土地，上演了一幕幕惊心动魄的画面。剧中朱先生对传统道德的坚守，白嘉轩勤劳与自私，鹿子霖望子成龙，白孝文情感波折，白灵投奔革命，黑娃被迫为匪，鹿兆鹏追求理想，鹿兆海舍生无义，演绎了两个家庭不同子孙，曲折的人生轨迹和命运归宿。</desc>
   </programme>
   <programme start="20261129013500 +0800" stop="20261129020000 +0800" channel="1">
     <title lang="zh-CN">露天风情葡萄牙 第二季</title>
+    <desc lang="zh-CN">主持人带你游走葡萄牙，享受独特和美丽的户外空间，无论是吃饭、喝酒或单纯的聊天，只为让你领略异国风情。</desc>
   </programme>
   <programme start="20261129020000 +0800" stop="20261129030000 +0800" channel="1">
     <title lang="zh-CN">人类的记忆 ─ 中国的世界遗产 熊猫家园</title>
@@ -770,12 +682,14 @@
   </programme>
   <programme start="20261129040000 +0800" stop="20261129044700 +0800" channel="1">
     <title lang="zh-CN">在世界的角落扎营</title>
+    <desc lang="zh-CN">与一名亲人好友在国外露营，会是怎样的一种体验？新加坡本地知名艺人们将携同一名伴侣，在国外展开前所未有的露营体验，挑战新颖户外活动，并对彼此前所未有的敞开心扉。</desc>
   </programme>
   <programme start="20261129044700 +0800" stop="20261129052500 +0800" channel="1">
     <title lang="zh-CN">重播财经杂志</title>
   </programme>
   <programme start="20261129052500 +0800" stop="20261129062500 +0800" channel="1">
     <title lang="zh-CN">金色大道</title>
+    <desc lang="zh-CN">“六木”—林木森（陈泂江饰）的父母和妹妹在他年少时死于车祸，从此寄人篱下。他结识了两位好友，傻气讲义气耐打的黄金条（田铭耀饰），寡言木讷坚定的何建志（孙政饰）。三人读书不多，却都想要改变命运。他们奋力地走上金色大道，却在过程中逐渐迷失。某一天，六木闯入洋房将 建志开枪打死被全球通缉。逃亡中，三人反目成仇的往事层层揭开……</desc>
   </programme>
   <programme start="20261129070000 +0800" stop="20261129083500 +0800" channel="1">
     <title lang="zh-CN">孺子可教也</title>
@@ -790,6 +704,7 @@
   </programme>
   <programme start="20261129090200 +0800" stop="20261129094800 +0800" channel="1">
     <title lang="zh-CN">在世界的角落扎营</title>
+    <desc lang="zh-CN">与一名亲人好友在国外露营，会是怎样的一种体验？新加坡本地知名艺人们将携同一名伴侣，在国外展开前所未有的露营体验，挑战新颖户外活动，并对彼此前所未有的敞开心扉。</desc>
   </programme>
   <programme start="20261129094800 +0800" stop="20261129100000 +0800" channel="1">
     <title lang="zh-CN">5亿年，岩石里的生命奇迹</title>
@@ -805,6 +720,7 @@
   </programme>
   <programme start="20261129111500 +0800" stop="20261129125000 +0800" channel="1">
     <title lang="zh-CN">金色大道</title>
+    <desc lang="zh-CN">“六木”—林木森（陈泂江饰）的父母和妹妹在他年少时死于车祸，从此寄人篱下。他结识了两位好友，傻气讲义气耐打的黄金条（田铭耀饰），寡言木讷坚定的何建志（孙政饰）。三人读书不多，却都想要改变命运。他们奋力地走上金色大道，却在过程中逐渐迷失。某一天，六木闯入洋房将 建志开枪打死被全球通缉。逃亡中，三人反目成仇的往事层层揭开……</desc>
   </programme>
   <programme start="20261129125000 +0800" stop="20261129130500 +0800" channel="1">
     <title lang="zh-CN">Z世代 青年说第二季</title>
@@ -826,6 +742,7 @@
   </programme>
   <programme start="20261129140000 +0800" stop="20261129153500 +0800" channel="1">
     <title lang="zh-CN">白鹿原</title>
+    <desc lang="zh-CN">《白鹿原》由张嘉译担纲艺术总监并领衔何冰、秦海璐、刘佩琦、雷佳音、翟天临、李沁、姬他、邓伦、王骁、孙铱等实力演员出演。故事讲述20世纪初，渭河平原滋水县有一个白鹿原，生活着一群普通却不平凡的百姓。白鹿两家合而为村，相互依存又关系微妙。少东家白嘉轩（张嘉益饰）与鹿子霖（何冰饰）为了族长位置暗自较劲儿。嘉轩娶回逃难的仙草（秦海璐饰），先后生下孝文、孝武和白灵三个孩子。鹿子霖爱走歪门邪道，一心让两个儿子兆鹏和兆海光宗耀祖。生于乱世，城头变幻大王旗。但不管谁做官，总不免鱼肉底层的百姓。白嘉轩顶着各方的压力，成为白鹿原上响当当的一根硬骨头。可是孩子们长大后，却各有各的主意。拒绝包办婚姻的兆鹏（雷佳音饰）加入共产党，自己的弟弟则成为国军军官。白灵紧随兆鹏入了党，孝文一心讨好父亲，却渐渐偏离了正道。半个世纪的画卷，展现了中国乱世下的众生相…… 本剧改编自陈忠实同名的中国现代文学的经典巨着，荣获第四届茅盾文学奖（1989-1994年）。《白鹿原》是一部20世纪初渭河平原50年变迁的雄奇史诗，是一轴中国农村斑斓多彩、触目惊心的长幅画卷。特殊的时代背景，浓厚的关中风情，土地革命、抗日战争、解放战争，古老的土地，上演了一幕幕惊心动魄的画面。剧中朱先生对传统道德的坚守，白嘉轩勤劳与自私，鹿子霖望子成龙，白孝文情感波折，白灵投奔革命，黑娃被迫为匪，鹿兆鹏追求理想，鹿兆海舍生无义，演绎了两个家庭不同子孙，曲折的人生轨迹和命运归宿。</desc>
   </programme>
   <programme start="20261129153500 +0800" stop="20261129160500 +0800" channel="1">
     <title lang="zh-CN">味道-美味阿勒泰</title>
@@ -886,9 +803,11 @@
   </programme>
   <programme start="20261130000100 +0800" stop="20261130013500 +0800" channel="1">
     <title lang="zh-CN">白鹿原</title>
+    <desc lang="zh-CN">《白鹿原》由张嘉译担纲艺术总监并领衔何冰、秦海璐、刘佩琦、雷佳音、翟天临、李沁、姬他、邓伦、王骁、孙铱等实力演员出演。故事讲述20世纪初，渭河平原滋水县有一个白鹿原，生活着一群普通却不平凡的百姓。白鹿两家合而为村，相互依存又关系微妙。少东家白嘉轩（张嘉益饰）与鹿子霖（何冰饰）为了族长位置暗自较劲儿。嘉轩娶回逃难的仙草（秦海璐饰），先后生下孝文、孝武和白灵三个孩子。鹿子霖爱走歪门邪道，一心让两个儿子兆鹏和兆海光宗耀祖。生于乱世，城头变幻大王旗。但不管谁做官，总不免鱼肉底层的百姓。白嘉轩顶着各方的压力，成为白鹿原上响当当的一根硬骨头。可是孩子们长大后，却各有各的主意。拒绝包办婚姻的兆鹏（雷佳音饰）加入共产党，自己的弟弟则成为国军军官。白灵紧随兆鹏入了党，孝文一心讨好父亲，却渐渐偏离了正道。半个世纪的画卷，展现了中国乱世下的众生相…… 本剧改编自陈忠实同名的中国现代文学的经典巨着，荣获第四届茅盾文学奖（1989-1994年）。《白鹿原》是一部20世纪初渭河平原50年变迁的雄奇史诗，是一轴中国农村斑斓多彩、触目惊心的长幅画卷。特殊的时代背景，浓厚的关中风情，土地革命、抗日战争、解放战争，古老的土地，上演了一幕幕惊心动魄的画面。剧中朱先生对传统道德的坚守，白嘉轩勤劳与自私，鹿子霖望子成龙，白孝文情感波折，白灵投奔革命，黑娃被迫为匪，鹿兆鹏追求理想，鹿兆海舍生无义，演绎了两个家庭不同子孙，曲折的人生轨迹和命运归宿。</desc>
   </programme>
   <programme start="20261130013500 +0800" stop="20261130020500 +0800" channel="1">
     <title lang="zh-CN">露天风情葡萄牙 第二季</title>
+    <desc lang="zh-CN">主持人带你游走葡萄牙，享受独特和美丽的户外空间，无论是吃饭、喝酒或单纯的聊天，只为让你领略异国风情。</desc>
   </programme>
   <programme start="20261130020500 +0800" stop="20261130030000 +0800" channel="1">
     <title lang="zh-CN">人类的记忆 ─ 中国的世界遗产 瑶池黄龙</title>
@@ -901,48 +820,122 @@
   </programme>
   <programme start="20261130040000 +0800" stop="20261130044700 +0800" channel="1">
     <title lang="zh-CN">在世界的角落扎营</title>
+    <desc lang="zh-CN">与一名亲人好友在国外露营，会是怎样的一种体验？新加坡本地知名艺人们将携同一名伴侣，在国外展开前所未有的露营体验，挑战新颖户外活动，并对彼此前所未有的敞开心扉。</desc>
   </programme>
   <programme start="20261130044700 +0800" stop="20261130052500 +0800" channel="1">
     <title lang="zh-CN">重播中国城市动态</title>
   </programme>
   <programme start="20261130052500 +0800" stop="20261130062500 +0800" channel="1">
     <title lang="zh-CN">金色大道</title>
+    <desc lang="zh-CN">“六木”—林木森（陈泂江饰）的父母和妹妹在他年少时死于车祸，从此寄人篱下。他结识了两位好友，傻气讲义气耐打的黄金条（田铭耀饰），寡言木讷坚定的何建志（孙政饰）。三人读书不多，却都想要改变命运。他们奋力地走上金色大道，却在过程中逐渐迷失。某一天，六木闯入洋房将 建志开枪打死被全球通缉。逃亡中，三人反目成仇的往事层层揭开……</desc>
   </programme>
-  <programme start="20261123090000 +0800" stop="20261123130500 +0800" channel="2">
-    <title lang="zh-CN">Debate das Linhas de Acção Governativa para 2027 - Área da Economia e Finanças (Directo)</title>
+  <programme start="20261130070000 +0800" stop="20261130080000 +0800" channel="1">
+    <title lang="zh-CN">早晨新闻</title>
   </programme>
-  <programme start="20261123130500 +0800" stop="20261123133000 +0800" channel="2">
-    <title lang="zh-CN">Passado em Foco: A Ementa de Hoje - Prato: Carapaus com Molho Cru</title>
+  <programme start="20261130080000 +0800" stop="20261130085900 +0800" channel="1">
+    <title lang="zh-CN">澳门早晨</title>
   </programme>
-  <programme start="20261123133000 +0800" stop="20261123143000 +0800" channel="2">
-    <title lang="zh-CN">Telejornal RTPi (Diferido)</title>
+  <programme start="20261130085900 +0800" stop="20261130130000 +0800" channel="1">
+    <title lang="zh-CN">直播立法会辩论运输工务领域2027施政方针政策</title>
   </programme>
-  <programme start="20261123143000 +0800" stop="20261123150000 +0800" channel="2">
-    <title lang="zh-CN">Saboroso à Portuguesa</title>
+  <programme start="20261130130000 +0800" stop="20261130132400 +0800" channel="1">
+    <title lang="zh-CN">口述澳门历史名人堂 II</title>
+    <desc lang="zh-CN">澳门，这个座落在南海之滨的小城巿，是祖国的一颗掌上明珠，也是东西方文化交织相融之地，曾有不少历史名人在此驻足停留，对后世影响深远。《口述澳门历史名人堂2》将延续第一季节目的精神，与观众一起探寻历史名人们留下过的足迹，并以光影为墨、以镜头为笔，发掘珍贵文献素材，结合专家学者们的深度分享，记录先贤们的卓越贡献，打造值得代代相传的文化经典。</desc>
   </programme>
-  <programme start="20261123150000 +0800" stop="20261123200000 +0800" channel="2">
-    <title lang="zh-CN">Debate das Linhas de Acção Governativa para 2027 - Área da Economia e Finanças (Directo)</title>
+  <programme start="20261130132400 +0800" stop="20261130133000 +0800" channel="1">
+    <title lang="zh-CN">午间天气报告</title>
   </programme>
-  <programme start="20261123200000 +0800" stop="20261123205000 +0800" channel="2">
-    <title lang="zh-CN">Telejornal</title>
+  <programme start="20261130133000 +0800" stop="20261130140000 +0800" channel="1">
+    <title lang="zh-CN">午间新闻</title>
   </programme>
-  <programme start="20261123205000 +0800" stop="20261123212500 +0800" channel="2">
-    <title lang="zh-CN">Semanário</title>
+  <programme start="20261130140000 +0800" stop="20261130145900 +0800" channel="1">
+    <title lang="zh-CN">每日财经</title>
   </programme>
-  <programme start="20261123212500 +0800" stop="20261123214500 +0800" channel="2">
-    <title lang="zh-CN">Passado em Foco: Macau Convivências</title>
+  <programme start="20261130145900 +0800" stop="20261130190000 +0800" channel="1">
+    <title lang="zh-CN">直播立法会辩论运输工务领域2027施政方针政策</title>
   </programme>
-  <programme start="20261123214500 +0800" stop="20261123223500 +0800" channel="2">
-    <title lang="zh-CN">Mania de Você</title>
+  <programme start="20261130190000 +0800" stop="20261130195500 +0800" channel="1">
+    <title lang="zh-CN">澳视新闻</title>
   </programme>
-  <programme start="20261123223500 +0800" stop="20261123231000 +0800" channel="2">
-    <title lang="zh-CN">TDM News</title>
+  <programme start="20261130195500 +0800" stop="20261130200000 +0800" channel="1">
+    <title lang="zh-CN">天气报告</title>
   </programme>
-  <programme start="20261123231000 +0800" stop="20261124000500 +0800" channel="2">
-    <title lang="zh-CN">Trio D'Ataque</title>
+  <programme start="20261130200000 +0800" stop="20261130210700 +0800" channel="1">
+    <title lang="zh-CN">今日宜加油</title>
+    <desc lang="zh-CN">《今日宜加油》是一部职场题材电视剧，根据韩国漫画《高斯电子公司》改编，由郑恺、陈钰琪、王鹤棣主演，故事讲述高发电子公司中企划三部曾是高发电子最风光的部门，近三年因不靠谱企划地位一落千丈。但部门众人以各自方式演绎平凡奋斗者的生活，李天然、范思思、吴意美、白马帅等，有梦想有执着，对部门有深厚感情。他们面临副董挑刺、一部竞争，用努力化解危机，使三部重回巅峰，也在笑中带泪的职场中成长，收获爱情与友情。</desc>
   </programme>
-  <programme start="20261124000500 +0800" stop="20261124010500 +0800" channel="2">
-    <title lang="zh-CN">RTPi Directo</title>
+  <programme start="20261130210700 +0800" stop="20261130212500 +0800" channel="1">
+    <title lang="zh-CN">AI 剧场 解梦人</title>
+    <desc lang="zh-CN">《AI剧场 解梦人》，澳广视出品、澳广视原创剧本。心理学家认为，梦境是人类潜意识的投射，解构梦境，将能更了解一个人的心理状况。故事围绕潜意识与梦境解构，讲述主角阿辉是一位身负异能青年解梦师，他运用特殊驾驭梦境能力，帮助一位命途多舛失意少女，帮她回归鲜活人生。 人工智慧（AI）技术在短短一年内让中国短剧产业发生翻天覆地的变化。根据中国网络视听协会统计，2026年第一季新上线的微短剧，其中95%由AI制作。AI短剧拥有制作与成本优势的不可抗力，且能大幅拓展传统影视的题材边界，轻松实现高难度特效、科幻宇宙、宏大历史或奇幻穿越等昂贵场景，能快速跟上网路流行趋势，即时调整剧本并产出对应内容。</desc>
+  </programme>
+  <programme start="20261130212500 +0800" stop="20261130213300 +0800" channel="1">
+    <title lang="zh-CN">巧手时光</title>
+  </programme>
+  <programme start="20261130213300 +0800" stop="20261130220000 +0800" channel="1">
+    <title lang="zh-CN">家家有本事</title>
+    <desc lang="zh-CN">《家家有本事》为一个综合性生活资讯的家庭类节目，邀请相关人士就相关主题提供专业知识，包括日常生活、健康资讯等元素。</desc>
+  </programme>
+  <programme start="20261130220000 +0800" stop="20261130223000 +0800" channel="1">
+    <title lang="zh-CN">普通话新闻</title>
+  </programme>
+  <programme start="20261130223000 +0800" stop="20261130230000 +0800" channel="1">
+    <title lang="zh-CN">十点半澳视纵横︰风火台</title>
+  </programme>
+  <programme start="20261130230000 +0800" stop="20261130231500 +0800" channel="1">
+    <title lang="zh-CN">横琴攻略</title>
+  </programme>
+  <programme start="20261130231500 +0800" stop="20261130235000 +0800" channel="1">
+    <title lang="zh-CN">晚间新闻</title>
+  </programme>
+  <programme start="20261130235000 +0800" stop="20261201000100 +0800" channel="1">
+    <title lang="zh-CN">体育新闻</title>
+  </programme>
+  <programme start="20261201000100 +0800" stop="20261201002700 +0800" channel="1">
+    <title lang="zh-CN">湾区全媒睇</title>
+  </programme>
+  <programme start="20261201002700 +0800" stop="20261201004900 +0800" channel="1">
+    <title lang="zh-CN">家家有本事</title>
+    <desc lang="zh-CN">《家家有本事》为一个综合性生活资讯的家庭类节目，邀请相关人士就相关主题提供专业知识，包括日常生活、健康资讯等元素。</desc>
+  </programme>
+  <programme start="20261201004900 +0800" stop="20261201011900 +0800" channel="1">
+    <title lang="zh-CN">重播风火台</title>
+  </programme>
+  <programme start="20261201011900 +0800" stop="20261201012700 +0800" channel="1">
+    <title lang="zh-CN">“你问我答”粤澳法律直播间 </title>
+  </programme>
+  <programme start="20261201012700 +0800" stop="20261201023300 +0800" channel="1">
+    <title lang="zh-CN">今日宜加油</title>
+    <desc lang="zh-CN">《今日宜加油》是一部职场题材电视剧，根据韩国漫画《高斯电子公司》改编，由郑恺、陈钰琪、王鹤棣主演，故事讲述高发电子公司中企划三部曾是高发电子最风光的部门，近三年因不靠谱企划地位一落千丈。但部门众人以各自方式演绎平凡奋斗者的生活，李天然、范思思、吴意美、白马帅等，有梦想有执着，对部门有深厚感情。他们面临副董挑刺、一部竞争，用努力化解危机，使三部重回巅峰，也在笑中带泪的职场中成长，收获爱情与友情。</desc>
+  </programme>
+  <programme start="20261201023300 +0800" stop="20261201025000 +0800" channel="1">
+    <title lang="zh-CN">AI 剧场 解梦人</title>
+    <desc lang="zh-CN">《AI剧场 解梦人》，澳广视出品、澳广视原创剧本。心理学家认为，梦境是人类潜意识的投射，解构梦境，将能更了解一个人的心理状况。故事围绕潜意识与梦境解构，讲述主角阿辉是一位身负异能青年解梦师，他运用特殊驾驭梦境能力，帮助一位命途多舛失意少女，帮她回归鲜活人生。 人工智慧（AI）技术在短短一年内让中国短剧产业发生翻天覆地的变化。根据中国网络视听协会统计，2026年第一季新上线的微短剧，其中95%由AI制作。AI短剧拥有制作与成本优势的不可抗力，且能大幅拓展传统影视的题材边界，轻松实现高难度特效、科幻宇宙、宏大历史或奇幻穿越等昂贵场景，能快速跟上网路流行趋势，即时调整剧本并产出对应内容。</desc>
+  </programme>
+  <programme start="20261201025000 +0800" stop="20261201030000 +0800" channel="1">
+    <title lang="zh-CN">巧手时光</title>
+  </programme>
+  <programme start="20261201030000 +0800" stop="20261201032500 +0800" channel="1">
+    <title lang="zh-CN">录播普通话新闻</title>
+  </programme>
+  <programme start="20261201032500 +0800" stop="20261201040000 +0800" channel="1">
+    <title lang="zh-CN">录播晚间新闻</title>
+  </programme>
+  <programme start="20261201040000 +0800" stop="20261201042500 +0800" channel="1">
+    <title lang="zh-CN">家家有本事</title>
+    <desc lang="zh-CN">《家家有本事》为一个综合性生活资讯的家庭类节目，邀请相关人士就相关主题提供专业知识，包括日常生活、健康资讯等元素。</desc>
+  </programme>
+  <programme start="20261201042500 +0800" stop="20261201044700 +0800" channel="1">
+    <title lang="zh-CN">澳门早晨精华录</title>
+  </programme>
+  <programme start="20261201044700 +0800" stop="20261201051700 +0800" channel="1">
+    <title lang="zh-CN">重播风火台</title>
+  </programme>
+  <programme start="20261201051700 +0800" stop="20261201052500 +0800" channel="1">
+    <title lang="zh-CN">“你问我答”粤澳法律直播间 </title>
+  </programme>
+  <programme start="20261201052500 +0800" stop="20261201062500 +0800" channel="1">
+    <title lang="zh-CN">七夜雪</title>
+    <desc lang="zh-CN">李沁、曾舜晞、王弘毅、陈昊森、曾可妮主演，不羁剑客霍展白（曾舜晞饰）为友人之子求药，结识药师谷谷主薛紫夜（李沁饰）。八年时间，二人在日日相处之中，从彼此各有执念，到默契加深，互相救赎，并约定来年梅树下共饮。却因各自背负的责任而难言爱意，最终只留下天人永隔的遗憾。</desc>
   </programme>
   <programme start="20261124133000 +0800" stop="20261124143000 +0800" channel="2">
     <title lang="zh-CN">Telejornal RTPi (Diferido)</title>
@@ -1072,6 +1065,7 @@
   </programme>
   <programme start="20261126212000 +0800" stop="20261126214000 +0800" channel="2">
     <title lang="zh-CN">Portugal na Esplanada T2</title>
+    <desc lang="zh-CN">主持人带你游走葡萄牙，享受独特和美丽的户外空间，无论是吃饭、喝酒或单纯的聊天，只为让你领略异国风情。</desc>
   </programme>
   <programme start="20261126214000 +0800" stop="20261126223500 +0800" channel="2">
     <title lang="zh-CN">Mania de Você</title>
@@ -1235,56 +1229,38 @@
   <programme start="20261129234500 +0800" stop="20261130004500 +0800" channel="2">
     <title lang="zh-CN">RTPi Directo</title>
   </programme>
-  <programme start="20261123095900 +0800" stop="20261123100000 +0800" channel="6">
-    <title lang="zh-CN">开台</title>
+  <programme start="20261130090000 +0800" stop="20261130130500 +0800" channel="2">
+    <title lang="zh-CN">Debate das Linhas de Acção Governativa para 2027 - Área dos Transportes e Obras Públicas (Directo)</title>
   </programme>
-  <programme start="20261123100000 +0800" stop="20261123124500 +0800" channel="6">
-    <title lang="zh-CN">2026汤尤杯羽毛球赛：中国 对 加拿大 - 汤姆斯杯分组赛</title>
+  <programme start="20261130130500 +0800" stop="20261130133000 +0800" channel="2">
+    <title lang="zh-CN">Passado em Foco: A Ementa de Hoje - Prato: Bacalhau com Natas</title>
   </programme>
-  <programme start="20261123124500 +0800" stop="20261123130000 +0800" channel="6">
-    <title lang="zh-CN">澳门经典车小百科</title>
+  <programme start="20261130133000 +0800" stop="20261130143000 +0800" channel="2">
+    <title lang="zh-CN">Telejornal RTPi (Diferido)</title>
   </programme>
-  <programme start="20261123130000 +0800" stop="20261123131500 +0800" channel="6">
-    <title lang="zh-CN">体育新闻</title>
+  <programme start="20261130143000 +0800" stop="20261130150000 +0800" channel="2">
+    <title lang="zh-CN">Esta Língua Que Nos Une</title>
   </programme>
-  <programme start="20261123131500 +0800" stop="20261123160000 +0800" channel="6">
-    <title lang="zh-CN">爱知．名古屋第20届亚运会：乒乓球男子团体-决赛</title>
+  <programme start="20261130150000 +0800" stop="20261130200000 +0800" channel="2">
+    <title lang="zh-CN">Debate das Linhas de Acção Governativa para 2027 - Área dos Transportes e Obras Públicas (Directo)</title>
   </programme>
-  <programme start="20261123160000 +0800" stop="20261123170000 +0800" channel="6">
-    <title lang="zh-CN">2026年超级跑车锦标赛精华：第十五集 - 柏斯站</title>
+  <programme start="20261130200000 +0800" stop="20261130205000 +0800" channel="2">
+    <title lang="zh-CN">Telejornal</title>
   </programme>
-  <programme start="20261123170000 +0800" stop="20261123173000 +0800" channel="6">
-    <title lang="zh-CN">2026/2027欧洲冠军联赛杂志</title>
+  <programme start="20261130205000 +0800" stop="20261130214000 +0800" channel="2">
+    <title lang="zh-CN">Semanário</title>
   </programme>
-  <programme start="20261123173000 +0800" stop="20261123184000 +0800" channel="6">
-    <title lang="zh-CN">2026马来西亚羽毛球公开赛：女双4强</title>
+  <programme start="20261130214000 +0800" stop="20261130223500 +0800" channel="2">
+    <title lang="zh-CN">Mania de Você</title>
   </programme>
-  <programme start="20261123184000 +0800" stop="20261123193000 +0800" channel="6">
-    <title lang="zh-CN">2026马来西亚羽毛球公开赛：混双4强</title>
+  <programme start="20261130223500 +0800" stop="20261130231000 +0800" channel="2">
+    <title lang="zh-CN">TDM News</title>
   </programme>
-  <programme start="20261123193000 +0800" stop="20261123200000 +0800" channel="6">
-    <title lang="zh-CN">2026勒芒杯杂志：第五集 银石站</title>
+  <programme start="20261130231000 +0800" stop="20261201000500 +0800" channel="2">
+    <title lang="zh-CN">Trio D'Ataque</title>
   </programme>
-  <programme start="20261123200000 +0800" stop="20261123204000 +0800" channel="6">
-    <title lang="zh-CN">环球体育</title>
-  </programme>
-  <programme start="20261123204000 +0800" stop="20261123205000 +0800" channel="6">
-    <title lang="zh-CN">体育新闻</title>
-  </programme>
-  <programme start="20261123205000 +0800" stop="20261123214000 +0800" channel="6">
-    <title lang="zh-CN">亚洲高尔夫球巡回赛精华</title>
-  </programme>
-  <programme start="20261123214000 +0800" stop="20261123234500 +0800" channel="6">
-    <title lang="zh-CN">直播亚洲冠军精英联赛：费尔干纳夫兹 对 希拉尔</title>
-  </programme>
-  <programme start="20261123234500 +0800" stop="20261123235500 +0800" channel="6">
-    <title lang="zh-CN">体育新闻</title>
-  </programme>
-  <programme start="20261123235500 +0800" stop="20261124020000 +0800" channel="6">
-    <title lang="zh-CN">直播亚洲冠军精英联赛：艾沙姆 对 吉达艾阿里</title>
-  </programme>
-  <programme start="20261124020000 +0800" stop="20261124030000 +0800" channel="6">
-    <title lang="zh-CN">收台</title>
+  <programme start="20261201000500 +0800" stop="20261201010500 +0800" channel="2">
+    <title lang="zh-CN">RTPi Directo</title>
   </programme>
   <programme start="20261124095900 +0800" stop="20261124100000 +0800" channel="6">
     <title lang="zh-CN">开台</title>
@@ -1628,71 +1604,49 @@
   <programme start="20261130011500 +0800" stop="20261130021500 +0800" channel="6">
     <title lang="zh-CN">收台</title>
   </programme>
-  <programme start="20261123065900 +0800" stop="20261123070000 +0800" channel="5">
+  <programme start="20261130095900 +0800" stop="20261130100000 +0800" channel="6">
     <title lang="zh-CN">开台</title>
   </programme>
-  <programme start="20261123070000 +0800" stop="20261123080000 +0800" channel="5">
-    <title lang="zh-CN">早晨新闻</title>
+  <programme start="20261130100000 +0800" stop="20261130122000 +0800" channel="6">
+    <title lang="zh-CN">2026美国网球公开赛：女单8强</title>
   </programme>
-  <programme start="20261123080000 +0800" stop="20261123085900 +0800" channel="5">
-    <title lang="zh-CN">澳门早晨</title>
+  <programme start="20261130122000 +0800" stop="20261130130000 +0800" channel="6">
+    <title lang="zh-CN">爱知．名古屋第20届亚运会：乒乓球女单8强</title>
   </programme>
-  <programme start="20261123085900 +0800" stop="20261123130000 +0800" channel="5">
-    <title lang="zh-CN">直播立法会辩论经济财政领域2027施政方针政策</title>
-  </programme>
-  <programme start="20261123130000 +0800" stop="20261123131700 +0800" channel="5">
-    <title lang="zh-CN">新闻报道</title>
-  </programme>
-  <programme start="20261123131700 +0800" stop="20261123132400 +0800" channel="5">
-    <title lang="zh-CN">巧手时光</title>
-  </programme>
-  <programme start="20261123132400 +0800" stop="20261123133000 +0800" channel="5">
-    <title lang="zh-CN">午间天气报告</title>
-  </programme>
-  <programme start="20261123133000 +0800" stop="20261123140000 +0800" channel="5">
-    <title lang="zh-CN">午间新闻</title>
-  </programme>
-  <programme start="20261123140000 +0800" stop="20261123145900 +0800" channel="5">
-    <title lang="zh-CN">每日财经</title>
-  </programme>
-  <programme start="20261123145900 +0800" stop="20261123210000 +0800" channel="5">
-    <title lang="zh-CN">直播立法会辩论经济财政领域2027施政方针政策</title>
-  </programme>
-  <programme start="20261123210000 +0800" stop="20261123220000 +0800" channel="5">
-    <title lang="zh-CN">录播澳视新闻</title>
-  </programme>
-  <programme start="20261123220000 +0800" stop="20261123223000 +0800" channel="5">
-    <title lang="zh-CN">普通话新闻</title>
-  </programme>
-  <programme start="20261123223000 +0800" stop="20261123230200 +0800" channel="5">
-    <title lang="zh-CN">十点半澳视纵横：风火台</title>
-  </programme>
-  <programme start="20261123230200 +0800" stop="20261123231500 +0800" channel="5">
-    <title lang="zh-CN">澳门早晨精华篇</title>
-  </programme>
-  <programme start="20261123231500 +0800" stop="20261123235000 +0800" channel="5">
-    <title lang="zh-CN">晚间新闻</title>
-  </programme>
-  <programme start="20261123235000 +0800" stop="20261124000500 +0800" channel="5">
+  <programme start="20261130130000 +0800" stop="20261130131500 +0800" channel="6">
     <title lang="zh-CN">体育新闻</title>
   </programme>
-  <programme start="20261124000500 +0800" stop="20261124003300 +0800" channel="5">
-    <title lang="zh-CN">丝路时间U Silk : 粉雪奇遇</title>
-    <desc lang="zh-CN">中法两国滑雪运动达人分别前往对方国家的粉雪胜地-法国萨瓦与中国吉林，采用手机连线与极限挑战的方式，探索长白山和阿尔卑斯山“同纬度粉雪”的独特魅力，展现人与自然的和谐之美；并通过与当地人的热情互动，带领观众体验独具特色的冰雪文化，体现中法两国在文明交流互鉴中寻求共同发展，生动诠释构建“人类命运共同体”的深刻内涵。</desc>
+  <programme start="20261130131500 +0800" stop="20261130144500 +0800" channel="6">
+    <title lang="zh-CN">2026印尼羽毛球公开赛：男单4强</title>
   </programme>
-  <programme start="20261124003300 +0800" stop="20261124004500 +0800" channel="5">
-    <title lang="zh-CN">澳门早晨精华篇</title>
+  <programme start="20261130144500 +0800" stop="20261130170000 +0800" channel="6">
+    <title lang="zh-CN">2026美国网球公开赛：女单8强</title>
   </programme>
-  <programme start="20261124004500 +0800" stop="20261124011500 +0800" channel="5">
-    <title lang="zh-CN">录播普通话新闻</title>
+  <programme start="20261130170000 +0800" stop="20261130173000 +0800" channel="6">
+    <title lang="zh-CN">2026/2027欧洲冠军联赛杂志</title>
   </programme>
-  <programme start="20261124011500 +0800" stop="20261124015000 +0800" channel="5">
-    <title lang="zh-CN">录播晚间新闻</title>
+  <programme start="20261130173000 +0800" stop="20261130193000 +0800" channel="6">
+    <title lang="zh-CN">亚洲冠军二级联赛：淡滨尼流浪 对  上海申花</title>
   </programme>
-  <programme start="20261124015000 +0800" stop="20261124020000 +0800" channel="5">
-    <title lang="zh-CN">重播体育新闻</title>
+  <programme start="20261130193000 +0800" stop="20261130200000 +0800" channel="6">
+    <title lang="zh-CN">2026勒芒杯杂志：第一集 巴塞罗那站</title>
   </programme>
-  <programme start="20261124020000 +0800" stop="20261124030000 +0800" channel="5">
+  <programme start="20261130200000 +0800" stop="20261130205000 +0800" channel="6">
+    <title lang="zh-CN">环球体育</title>
+  </programme>
+  <programme start="20261130205000 +0800" stop="20261130210000 +0800" channel="6">
+    <title lang="zh-CN">体育新闻</title>
+  </programme>
+  <programme start="20261130210000 +0800" stop="20261130225000 +0800" channel="6">
+    <title lang="zh-CN">2026/2027 欧洲青年冠军联赛：飞燕诺 对 波尔图</title>
+  </programme>
+  <programme start="20261130225000 +0800" stop="20261130230000 +0800" channel="6">
+    <title lang="zh-CN">体育新闻</title>
+  </programme>
+  <programme start="20261130230000 +0800" stop="20261201010000 +0800" channel="6">
+    <title lang="zh-CN">2026/2027欧洲冠军联赛 ：沙巴 对 巴塞罗那</title>
+  </programme>
+  <programme start="20261201010000 +0800" stop="20261201020000 +0800" channel="6">
     <title lang="zh-CN">收台</title>
   </programme>
   <programme start="20261124065900 +0800" stop="20261124070000 +0800" channel="5">
@@ -2410,57 +2364,70 @@
   <programme start="20261130020000 +0800" stop="20261130030000 +0800" channel="5">
     <title lang="zh-CN">收台</title>
   </programme>
-  <programme start="20261123095900 +0800" stop="20261123100000 +0800" channel="7">
+  <programme start="20261130065900 +0800" stop="20261130070000 +0800" channel="5">
     <title lang="zh-CN">开台</title>
   </programme>
-  <programme start="20261123100000 +0800" stop="20261123125200 +0800" channel="7">
-    <title lang="zh-CN">好剧连场: 赖猫的狮子倒影</title>
-    <desc lang="zh-CN">《赖猫的狮子倒影》是由朱亚文、杨子姗、贺军翔、李媛主演的都市情感剧 。该剧根据傲无常的小说《老婆爱上我》改编，讲述了女总裁慕晚晴与“无业游民”刘青这对欢喜冤家先婚后爱的故事。 一个是身家过亿的女总裁，一个是身无分文的无业游民，慕晚晴和刘青的第一次见面就在两个人的婚礼现场。从毫无感情、互相敌对，到彼此扶持、互生情愫，刘青一边暗中帮助慕晚晴解决公司遇到的重重危机，一边机智对抗着横空出现的慕晚晴前任男友冯聪。就在两人的感情经历重重考验之际，一股背后的黑暗势力也渐渐浮出水面。为了完成老一辈的遗愿，慕晚晴和刘青踏上了去泰国的行程，与黑暗势力正面交锋并取得了胜利，二人也认定对方是自己的唯一所爱。两人回国过上幸福圆满的生活。</desc>
+  <programme start="20261130070000 +0800" stop="20261130080000 +0800" channel="5">
+    <title lang="zh-CN">早晨新闻</title>
   </programme>
-  <programme start="20261123125200 +0800" stop="20261123130400 +0800" channel="7">
-    <title lang="zh-CN">国宝时刻</title>
+  <programme start="20261130080000 +0800" stop="20261130085900 +0800" channel="5">
+    <title lang="zh-CN">澳门早晨</title>
   </programme>
-  <programme start="20261123130400 +0800" stop="20261123160600 +0800" channel="7">
-    <title lang="zh-CN">好剧连场: 灿烂的风和海</title>
+  <programme start="20261130085900 +0800" stop="20261130130000 +0800" channel="5">
+    <title lang="zh-CN">直播立法会辩论运输工务领域2027施政方针政策</title>
   </programme>
-  <programme start="20261123160600 +0800" stop="20261123173000 +0800" channel="7">
-    <title lang="zh-CN">星光大道</title>
-    <desc lang="zh-CN">《星光大道》节目突出大众参与性、娱乐性，为全国各地，各行各业的观众提供一个放声歌唱，展现自我的舞台。</desc>
+  <programme start="20261130130000 +0800" stop="20261130131700 +0800" channel="5">
+    <title lang="zh-CN">新闻报道</title>
   </programme>
-  <programme start="20261123173000 +0800" stop="20261123175800 +0800" channel="7">
-    <title lang="zh-CN">中山装</title>
-    <desc lang="zh-CN">纪录片《中山装》是国内第一部专门讲述中山装的系列纪录片。本片将以“中山装”为载体，勾连近代中国的服饰变革，还原近百年来中国从觉醒到复兴的伟大历程。摄制组从广东中山出发，一路向北，沿着广州、武汉、宁波、上海、北京等孙中山先生曾经的足迹，追溯中山装的起源，采访“中山装”研究、中国近代史研究、中国服装史研究等方面的权威专家学者，在回顾历史的同时，真实记录中山装行业今天的发展、机遇与选择，通过历史与现实交替出现的方式，呈现中山装与中国人之间紧密的情感关联。本节目由「广东广播电视台对外传播中心」赠播。</desc>
+  <programme start="20261130131700 +0800" stop="20261130132400 +0800" channel="5">
+    <title lang="zh-CN">巧手时光</title>
   </programme>
-  <programme start="20261123175800 +0800" stop="20261123180000 +0800" channel="7">
-    <title lang="zh-CN">TDM 新视点</title>
+  <programme start="20261130132400 +0800" stop="20261130133000 +0800" channel="5">
+    <title lang="zh-CN">午间天气报告</title>
   </programme>
-  <programme start="20261123180000 +0800" stop="20261123182500 +0800" channel="7">
-    <title lang="zh-CN">篮球旋风 第二季</title>
+  <programme start="20261130133000 +0800" stop="20261130140000 +0800" channel="5">
+    <title lang="zh-CN">午间新闻</title>
   </programme>
-  <programme start="20261123182500 +0800" stop="20261123200000 +0800" channel="7">
-    <title lang="zh-CN">乘风踏浪</title>
-    <desc lang="zh-CN">《乘风踏浪》由乔杉、杨子姗领衔主演的时代创业喜剧。该剧讲述了以彭锦西和罗虹夫妇为代表的兴城泳装人乘着改革东风成功创业的故事，通过两个小人物从解决温饱到成为万元户，再到成为当地企业家代表的历程，将时代发展浪潮的关键节点一一还原，以小见大地展现出改革开放的变迁史。 1978年，20岁的辽宁兴城人彭锦西（乔杉饰）被情敌秦升举报“投机倒把”入狱，失去了上大学的资格。彭锦西出狱后自产自销做起泳裤生意，女友罗虹（杨子姗饰）不离不弃，他们克服重重困难喜结连理，彭锦西成为当地第一个“万元户”。1980年代初，政策放开，远亲贾为民等人效仿彭锦西建作坊做泳装，开始与他展开价格战，彭锦西夫妇见招拆招，既巩固了本地市场，又团结了同行，让“兴城泳装”走向全国。1990年代，彭锦西遭遇秦升复仇和市场整改的双面夹击，跌入低谷，他依旧乐观，凭藉过人的智慧，几经沉浮找到突破口，建立正规工厂和自主品牌，成功突围。之后，夫妇二带领“兴城泳装”乘风踏浪，成为全球最大的泳装生产基地。</desc>
+  <programme start="20261130140000 +0800" stop="20261130145900 +0800" channel="5">
+    <title lang="zh-CN">每日财经</title>
   </programme>
-  <programme start="20261123200000 +0800" stop="20261123205000 +0800" channel="7">
-    <title lang="zh-CN">大国建造 第二季</title>
-    <desc lang="zh-CN">大型纪录片《大国建造》第二季，以“探寻工程奇迹”为主线，选择最具标志性的建筑和工程，探秘更绿色、更科技、更智慧的建造，展现大国建造在推进中国式现代化中的中国智慧、中国方案与中国力量，并通过超级工程背后的凡人故事，礼赞新时代大国工匠在聚光成芒中所展现的踔厉奋发、勇毅前行的奋斗精神。</desc>
+  <programme start="20261130145900 +0800" stop="20261130210000 +0800" channel="5">
+    <title lang="zh-CN">直播立法会辩论运输工务领域2027施政方针政策</title>
   </programme>
-  <programme start="20261123205000 +0800" stop="20261123210000 +0800" channel="7">
-    <title lang="zh-CN">海派百工2</title>
+  <programme start="20261130210000 +0800" stop="20261130220000 +0800" channel="5">
+    <title lang="zh-CN">录播澳视新闻</title>
   </programme>
-  <programme start="20261123210000 +0800" stop="20261123213500 +0800" channel="7">
-    <title lang="zh-CN">洪流 - 山东抗日武装起义纪实</title>
-    <desc lang="zh-CN">聚焦1937年7月全民族抗战爆发至1938年12月八路军山东纵队成立期间的历史史实，展现在中国共产党领导下，山东各地的党员及民众戮力同心、共御外辱的英雄壮举。本节目由「山东广播电视台媒资版权中心」赠播。</desc>
+  <programme start="20261130220000 +0800" stop="20261130223000 +0800" channel="5">
+    <title lang="zh-CN">普通话新闻</title>
   </programme>
-  <programme start="20261123213500 +0800" stop="20261123231000 +0800" channel="7">
-    <title lang="zh-CN">非爱不可</title>
-    <desc lang="zh-CN">新加坡剧集《非爱不可》以三条交织的情感线展开：年幼失聪的英俊（崇喆饰）立志当上厨师努力不懈，与主厨的女儿安心（林昭婷饰）相恋，历经重重的挫折和挑战。好友耀飞（孙政饰）隐瞒自己的抑郁症当上医生，却在职场中面对种种的困境，与女友紫阳（洪丽婷饰）追爱之路也处处触礁。英俊的祖母君红（刘玲玲饰）追求黄昏之恋，却遭老板骗财骗情感，以至面临人生的大危机……</desc>
+  <programme start="20261130223000 +0800" stop="20261130230200 +0800" channel="5">
+    <title lang="zh-CN">十点半澳视纵横：风火台</title>
   </programme>
-  <programme start="20261123231000 +0800" stop="20261124000100 +0800" channel="7">
-    <title lang="zh-CN">边缘老人</title>
-    <desc lang="zh-CN">夕阳无限好，安享晚年是无数老人家心愿，但未必人人如愿，部份长者，有些难关特别难面对。纪录片《边缘老人》带大家去到世界各地，审视长者面临的问题，包括年老抑郁、老人骗局、缺乏资源养老等。</desc>
+  <programme start="20261130230200 +0800" stop="20261130231500 +0800" channel="5">
+    <title lang="zh-CN">澳门早晨精华篇</title>
   </programme>
-  <programme start="20261124000100 +0800" stop="20261124010100 +0800" channel="7">
+  <programme start="20261130231500 +0800" stop="20261130235000 +0800" channel="5">
+    <title lang="zh-CN">晚间新闻</title>
+  </programme>
+  <programme start="20261130235000 +0800" stop="20261201000500 +0800" channel="5">
+    <title lang="zh-CN">体育新闻</title>
+  </programme>
+  <programme start="20261201000500 +0800" stop="20261201003700 +0800" channel="5">
+    <title lang="zh-CN">丝路时间U Silk : 回家的鱼</title>
+  </programme>
+  <programme start="20261201003700 +0800" stop="20261201004500 +0800" channel="5">
+    <title lang="zh-CN">澳门早晨精华篇</title>
+  </programme>
+  <programme start="20261201004500 +0800" stop="20261201011500 +0800" channel="5">
+    <title lang="zh-CN">录播普通话新闻</title>
+  </programme>
+  <programme start="20261201011500 +0800" stop="20261201015000 +0800" channel="5">
+    <title lang="zh-CN">录播晚间新闻</title>
+  </programme>
+  <programme start="20261201015000 +0800" stop="20261201020000 +0800" channel="5">
+    <title lang="zh-CN">重播体育新闻</title>
+  </programme>
+  <programme start="20261201020000 +0800" stop="20261201030000 +0800" channel="5">
     <title lang="zh-CN">收台</title>
   </programme>
   <programme start="20261124095900 +0800" stop="20261124100000 +0800" channel="7">
@@ -2475,6 +2442,7 @@
   </programme>
   <programme start="20261124130200 +0800" stop="20261124160500 +0800" channel="7">
     <title lang="zh-CN">好剧连场: 灿烂的风和海</title>
+    <desc lang="zh-CN">《灿烂的风和海》是由钟楚曦、孙阳、陈昊宇、韩东君、耿乐 、倪虹洁主演的一套以现代爱情为题材的电视剧。故事围绕在澳门这座摩登繁华与古朴市井交织的城市中的三场奇遇，讲述了性格张扬的艺廊策展人陈嘉慧，与来澳门参赛的车手韩俊豪相遇，开启了一段浪漫又治愈的爱情故事。此外，剧集请来多位熟悉的港星演出，包括方中信、李若彤、汤镇业、李施嬅、李治廷、郑希怡等，他们在剧中演活澳门最真实的日常，无论是街坊邻里的温情，抑或光鲜职场背后的辛酸，每个角色都充满故事。 陈嘉慧（钟楚曦饰）在澳门生活了数年，成为了一名自由而神秘的艺术策展人。在这座文化交融的城市中，她重新审视了自己的梦想与爱情。随性自在的徐君乐（孙阳饰）被视为斜杠青年和澳门的小达人，但在他看似无忧的生活背后，却也面临着重大的生命选择。从小就充满上进心的麦又歌（陈昊宇饰）因公司紧急任务而孤身来到澳门，却遭遇重重困难，开始反思自己的选择是否正确。职业赛车手韩俊豪（韩东君饰）则是在准备参加国际GT杯赛事，他虽然已过了职业生涯的巅峰期，但心中仍渴望在赛场上寻找一个真正的胜负。</desc>
   </programme>
   <programme start="20261124160500 +0800" stop="20261124162000 +0800" channel="7">
     <title lang="zh-CN">江河与共</title>
@@ -2554,6 +2522,7 @@
   </programme>
   <programme start="20261125130000 +0800" stop="20261125160500 +0800" channel="7">
     <title lang="zh-CN">好剧连场: 灿烂的风和海</title>
+    <desc lang="zh-CN">《灿烂的风和海》是由钟楚曦、孙阳、陈昊宇、韩东君、耿乐 、倪虹洁主演的一套以现代爱情为题材的电视剧。故事围绕在澳门这座摩登繁华与古朴市井交织的城市中的三场奇遇，讲述了性格张扬的艺廊策展人陈嘉慧，与来澳门参赛的车手韩俊豪相遇，开启了一段浪漫又治愈的爱情故事。此外，剧集请来多位熟悉的港星演出，包括方中信、李若彤、汤镇业、李施嬅、李治廷、郑希怡等，他们在剧中演活澳门最真实的日常，无论是街坊邻里的温情，抑或光鲜职场背后的辛酸，每个角色都充满故事。 陈嘉慧（钟楚曦饰）在澳门生活了数年，成为了一名自由而神秘的艺术策展人。在这座文化交融的城市中，她重新审视了自己的梦想与爱情。随性自在的徐君乐（孙阳饰）被视为斜杠青年和澳门的小达人，但在他看似无忧的生活背后，却也面临着重大的生命选择。从小就充满上进心的麦又歌（陈昊宇饰）因公司紧急任务而孤身来到澳门，却遭遇重重困难，开始反思自己的选择是否正确。职业赛车手韩俊豪（韩东君饰）则是在准备参加国际GT杯赛事，他虽然已过了职业生涯的巅峰期，但心中仍渴望在赛场上寻找一个真正的胜负。</desc>
   </programme>
   <programme start="20261125160500 +0800" stop="20261125163500 +0800" channel="7">
     <title lang="zh-CN">一城烟火 一城诗</title>
@@ -2630,6 +2599,7 @@
   </programme>
   <programme start="20261126130000 +0800" stop="20261126160500 +0800" channel="7">
     <title lang="zh-CN">好剧连场: 灿烂的风和海</title>
+    <desc lang="zh-CN">《灿烂的风和海》是由钟楚曦、孙阳、陈昊宇、韩东君、耿乐 、倪虹洁主演的一套以现代爱情为题材的电视剧。故事围绕在澳门这座摩登繁华与古朴市井交织的城市中的三场奇遇，讲述了性格张扬的艺廊策展人陈嘉慧，与来澳门参赛的车手韩俊豪相遇，开启了一段浪漫又治愈的爱情故事。此外，剧集请来多位熟悉的港星演出，包括方中信、李若彤、汤镇业、李施嬅、李治廷、郑希怡等，他们在剧中演活澳门最真实的日常，无论是街坊邻里的温情，抑或光鲜职场背后的辛酸，每个角色都充满故事。 陈嘉慧（钟楚曦饰）在澳门生活了数年，成为了一名自由而神秘的艺术策展人。在这座文化交融的城市中，她重新审视了自己的梦想与爱情。随性自在的徐君乐（孙阳饰）被视为斜杠青年和澳门的小达人，但在他看似无忧的生活背后，却也面临着重大的生命选择。从小就充满上进心的麦又歌（陈昊宇饰）因公司紧急任务而孤身来到澳门，却遭遇重重困难，开始反思自己的选择是否正确。职业赛车手韩俊豪（韩东君饰）则是在准备参加国际GT杯赛事，他虽然已过了职业生涯的巅峰期，但心中仍渴望在赛场上寻找一个真正的胜负。</desc>
   </programme>
   <programme start="20261126160500 +0800" stop="20261126162000 +0800" channel="7">
     <title lang="zh-CN">诗词有故事</title>
@@ -2860,150 +2830,51 @@
   <programme start="20261130000100 +0800" stop="20261130010100 +0800" channel="7">
     <title lang="zh-CN">收台</title>
   </programme>
-  <programme start="20261123000200 +0800" stop="20261123010500 +0800" channel="8">
-    <title lang="zh-CN">莫桑比克的魅力</title>
+  <programme start="20261130095900 +0800" stop="20261130100000 +0800" channel="7">
+    <title lang="zh-CN">开台</title>
   </programme>
-  <programme start="20261123010500 +0800" stop="20261123013000 +0800" channel="8">
-    <title lang="zh-CN">澳门老店—传承</title>
-    <desc lang="zh-CN">为庆祝澳门回归25周年，本次将制作《澳门老店—传承》节目，以在澳门经营最少25年的店舖或老店，一同见证澳门一起成长的故事。 我们会走访不同区份的老店，一起细味熟悉的味道，当中还包括店铺的经营方式、承传故事及周边民生的情形，重温几代人见证澳门发展的点滴，并且分享回归后到现在的改变。诉说眼中的澳门，心中的家国情怀。</desc>
+  <programme start="20261130100000 +0800" stop="20261130130200 +0800" channel="7">
+    <title lang="zh-CN">好剧连场: 我们的河山</title>
   </programme>
-  <programme start="20261123013000 +0800" stop="20261123020000 +0800" channel="8">
-    <title lang="zh-CN">英语新闻</title>
+  <programme start="20261130130200 +0800" stop="20261130155600 +0800" channel="7">
+    <title lang="zh-CN">好剧连场: 星落凝成糖</title>
   </programme>
-  <programme start="20261123020000 +0800" stop="20261123025000 +0800" channel="8">
-    <title lang="zh-CN">葡语新闻</title>
-  </programme>
-  <programme start="20261123025000 +0800" stop="20261123031000 +0800" channel="8">
-    <title lang="zh-CN">澳门历史人物</title>
-  </programme>
-  <programme start="20261123031000 +0800" stop="20261123034000 +0800" channel="8">
-    <title lang="zh-CN">#文青这样玩</title>
-    <desc lang="zh-CN">以文青的角度出发，每集精选不同主题，介绍相关之文创产品及打卡热点，用唯美的画面带领观众寻找文创宝藏﹑更会介绍文青最爱的网红美食，展现澳门独特迷人的一面。</desc>
-  </programme>
-  <programme start="20261123034000 +0800" stop="20261123043000 +0800" channel="8">
-    <title lang="zh-CN">海上生名粤</title>
-  </programme>
-  <programme start="20261123043000 +0800" stop="20261123044000 +0800" channel="8">
+  <programme start="20261130155600 +0800" stop="20261130160500 +0800" channel="7">
     <title lang="zh-CN">国宝时刻</title>
   </programme>
-  <programme start="20261123044000 +0800" stop="20261123053000 +0800" channel="8">
-    <title lang="zh-CN">葡语新闻</title>
+  <programme start="20261130160500 +0800" stop="20261130173000 +0800" channel="7">
+    <title lang="zh-CN">星光大道</title>
+    <desc lang="zh-CN">《星光大道》节目突出大众参与性、娱乐性，为全国各地，各行各业的观众提供一个放声歌唱，展现自我的舞台。</desc>
   </programme>
-  <programme start="20261123053000 +0800" stop="20261123060000 +0800" channel="8">
-    <title lang="zh-CN">丝路时间U Silk - 对望丝路新旅程</title>
-  </programme>
-  <programme start="20261123060000 +0800" stop="20261123070000 +0800" channel="8">
-    <title lang="zh-CN">莫桑比克的魅力</title>
-  </programme>
-  <programme start="20261123070000 +0800" stop="20261123073000 +0800" channel="8">
-    <title lang="zh-CN">咁, 得唔得㗎?</title>
-    <desc lang="zh-CN">三个星途黯淡嘅艺人，唔可以唔得嘅一次! 12月14日晚九点半, 一齐俾个机会佢地，睇下今次《咁，得唔得㗎》!</desc>
-  </programme>
-  <programme start="20261123073000 +0800" stop="20261123080000 +0800" channel="8">
-    <title lang="zh-CN">英语新闻</title>
-  </programme>
-  <programme start="20261123080000 +0800" stop="20261123083000 +0800" channel="8">
-    <title lang="zh-CN">#文青这样玩</title>
-    <desc lang="zh-CN">以文青的角度出发，每集精选不同主题，介绍相关之文创产品及打卡热点，用唯美的画面带领观众寻找文创宝藏﹑更会介绍文青最爱的网红美食，展现澳门独特迷人的一面。</desc>
-  </programme>
-  <programme start="20261123083000 +0800" stop="20261123085500 +0800" channel="8">
-    <title lang="zh-CN">澳门人澳门事</title>
-    <desc lang="zh-CN">活在澳门, 感受生活, , 探索城市每个角落、关注民生议题、繁华背后发掘一个又一个澳门人的故事、欣赏各地艺术风采、推广本土文化艺术、重温旧城旧事，翻开当中的历史记忆、走过不同地方，感受人民风情、紧贴你的生活资讯节目。</desc>
-  </programme>
-  <programme start="20261123085500 +0800" stop="20261123092000 +0800" channel="8">
-    <title lang="zh-CN">家家有本事</title>
-    <desc lang="zh-CN">《家家有本事》为一个综合性生活资讯的家庭类节目，邀请相关人士就相关主题提供专业知识，包括日常生活、健康资讯等元素。</desc>
-  </programme>
-  <programme start="20261123092000 +0800" stop="20261123100000 +0800" channel="8">
-    <title lang="zh-CN">中国城市动态</title>
-  </programme>
-  <programme start="20261123100000 +0800" stop="20261123103000 +0800" channel="8">
-    <title lang="zh-CN">粤语新闻</title>
-  </programme>
-  <programme start="20261123103000 +0800" stop="20261123112000 +0800" channel="8">
-    <title lang="zh-CN">海上生名粤</title>
-  </programme>
-  <programme start="20261123112000 +0800" stop="20261123115000 +0800" channel="8">
-    <title lang="zh-CN">澳门老店—传承</title>
-    <desc lang="zh-CN">为庆祝澳门回归25周年，本次将制作《澳门老店—传承》节目，以在澳门经营最少25年的店舖或老店，一同见证澳门一起成长的故事。 我们会走访不同区份的老店，一起细味熟悉的味道，当中还包括店铺的经营方式、承传故事及周边民生的情形，重温几代人见证澳门发展的点滴，并且分享回归后到现在的改变。诉说眼中的澳门，心中的家国情怀。</desc>
-  </programme>
-  <programme start="20261123115000 +0800" stop="20261123122000 +0800" channel="8">
-    <title lang="zh-CN">#文青这样玩</title>
-    <desc lang="zh-CN">以文青的角度出发，每集精选不同主题，介绍相关之文创产品及打卡热点，用唯美的画面带领观众寻找文创宝藏﹑更会介绍文青最爱的网红美食，展现澳门独特迷人的一面。</desc>
-  </programme>
-  <programme start="20261123122000 +0800" stop="20261123130000 +0800" channel="8">
-    <title lang="zh-CN">中国城市动态</title>
-  </programme>
-  <programme start="20261123130000 +0800" stop="20261123133000 +0800" channel="8">
-    <title lang="zh-CN">咁, 得唔得㗎?</title>
-    <desc lang="zh-CN">三个星途黯淡嘅艺人，唔可以唔得嘅一次! 12月14日晚九点半, 一齐俾个机会佢地，睇下今次《咁，得唔得㗎》!</desc>
-  </programme>
-  <programme start="20261123133000 +0800" stop="20261123135300 +0800" channel="8">
-    <title lang="zh-CN">澳门人澳门事</title>
-    <desc lang="zh-CN">活在澳门, 感受生活, , 探索城市每个角落、关注民生议题、繁华背后发掘一个又一个澳门人的故事、欣赏各地艺术风采、推广本土文化艺术、重温旧城旧事，翻开当中的历史记忆、走过不同地方，感受人民风情、紧贴你的生活资讯节目。</desc>
-  </programme>
-  <programme start="20261123135300 +0800" stop="20261123140000 +0800" channel="8">
-    <title lang="zh-CN">好书分享</title>
-  </programme>
-  <programme start="20261123140000 +0800" stop="20261123143000 +0800" channel="8">
-    <title lang="zh-CN">粤语新闻</title>
-  </programme>
-  <programme start="20261123143000 +0800" stop="20261123150000 +0800" channel="8">
-    <title lang="zh-CN">澳门老店—传承</title>
-    <desc lang="zh-CN">为庆祝澳门回归25周年，本次将制作《澳门老店—传承》节目，以在澳门经营最少25年的店舖或老店，一同见证澳门一起成长的故事。 我们会走访不同区份的老店，一起细味熟悉的味道，当中还包括店铺的经营方式、承传故事及周边民生的情形，重温几代人见证澳门发展的点滴，并且分享回归后到现在的改变。诉说眼中的澳门，心中的家国情怀。</desc>
-  </programme>
-  <programme start="20261123150000 +0800" stop="20261123155000 +0800" channel="8">
-    <title lang="zh-CN">葡语新闻</title>
-  </programme>
-  <programme start="20261123155000 +0800" stop="20261123160500 +0800" channel="8">
-    <title lang="zh-CN">下姜村的数字未来梦</title>
-  </programme>
-  <programme start="20261123160500 +0800" stop="20261123165000 +0800" channel="8">
-    <title lang="zh-CN">海上生名粤</title>
-  </programme>
-  <programme start="20261123165000 +0800" stop="20261123175000 +0800" channel="8">
-    <title lang="zh-CN">莫桑比克的魅力</title>
-  </programme>
-  <programme start="20261123175000 +0800" stop="20261123181500 +0800" channel="8">
-    <title lang="zh-CN">#文青这样玩</title>
-    <desc lang="zh-CN">以文青的角度出发，每集精选不同主题，介绍相关之文创产品及打卡热点，用唯美的画面带领观众寻找文创宝藏﹑更会介绍文青最爱的网红美食，展现澳门独特迷人的一面。</desc>
-  </programme>
-  <programme start="20261123181500 +0800" stop="20261123184000 +0800" channel="8">
-    <title lang="zh-CN">咁, 得唔得㗎?</title>
-    <desc lang="zh-CN">三个星途黯淡嘅艺人，唔可以唔得嘅一次! 12月14日晚九点半, 一齐俾个机会佢地，睇下今次《咁，得唔得㗎》!</desc>
-  </programme>
-  <programme start="20261123184000 +0800" stop="20261123190000 +0800" channel="8">
+  <programme start="20261130173000 +0800" stop="20261130175300 +0800" channel="7">
     <title lang="zh-CN">澳门早晨精华录</title>
   </programme>
-  <programme start="20261123190000 +0800" stop="20261123192200 +0800" channel="8">
-    <title lang="zh-CN">趋记茶餐厅</title>
-    <desc lang="zh-CN">一部以澳门茶餐厅为背景的轻松幽默连续剧，故事围绕茶餐厅的日常营运展开，当中穿插生活热话，搞笑得来又有共鸣，欢迎大家光临！</desc>
+  <programme start="20261130175300 +0800" stop="20261130175500 +0800" channel="7">
+    <title lang="zh-CN">TDM 新视点</title>
   </programme>
-  <programme start="20261123192200 +0800" stop="20261123200000 +0800" channel="8">
-    <title lang="zh-CN">中国城市动态</title>
+  <programme start="20261130175500 +0800" stop="20261130182000 +0800" channel="7">
+    <title lang="zh-CN">篮球旋风 第二季</title>
   </programme>
-  <programme start="20261123200000 +0800" stop="20261123210000 +0800" channel="8">
-    <title lang="zh-CN">粤语新闻</title>
+  <programme start="20261130182000 +0800" stop="20261130195500 +0800" channel="7">
+    <title lang="zh-CN">乘风踏浪</title>
+    <desc lang="zh-CN">《乘风踏浪》由乔杉、杨子姗领衔主演的时代创业喜剧。该剧讲述了以彭锦西和罗虹夫妇为代表的兴城泳装人乘着改革东风成功创业的故事，通过两个小人物从解决温饱到成为万元户，再到成为当地企业家代表的历程，将时代发展浪潮的关键节点一一还原，以小见大地展现出改革开放的变迁史。 1978年，20岁的辽宁兴城人彭锦西（乔杉饰）被情敌秦升举报“投机倒把”入狱，失去了上大学的资格。彭锦西出狱后自产自销做起泳裤生意，女友罗虹（杨子姗饰）不离不弃，他们克服重重困难喜结连理，彭锦西成为当地第一个“万元户”。1980年代初，政策放开，远亲贾为民等人效仿彭锦西建作坊做泳装，开始与他展开价格战，彭锦西夫妇见招拆招，既巩固了本地市场，又团结了同行，让“兴城泳装”走向全国。1990年代，彭锦西遭遇秦升复仇和市场整改的双面夹击，跌入低谷，他依旧乐观，凭藉过人的智慧，几经沉浮找到突破口，建立正规工厂和自主品牌，成功突围。之后，夫妇二带领“兴城泳装”乘风踏浪，成为全球最大的泳装生产基地。</desc>
   </programme>
-  <programme start="20261123210000 +0800" stop="20261123212300 +0800" channel="8">
-    <title lang="zh-CN">澳门人澳门事</title>
-    <desc lang="zh-CN">活在澳门, 感受生活, , 探索城市每个角落、关注民生议题、繁华背后发掘一个又一个澳门人的故事、欣赏各地艺术风采、推广本土文化艺术、重温旧城旧事，翻开当中的历史记忆、走过不同地方，感受人民风情、紧贴你的生活资讯节目。</desc>
+  <programme start="20261130195500 +0800" stop="20261130210500 +0800" channel="7">
+    <title lang="zh-CN">小小少年</title>
   </programme>
-  <programme start="20261123212300 +0800" stop="20261123213000 +0800" channel="8">
-    <title lang="zh-CN">家家有𩠌煮</title>
+  <programme start="20261130210500 +0800" stop="20261130213500 +0800" channel="7">
+    <title lang="zh-CN">洪流 - 山东抗日武装起义纪实</title>
+    <desc lang="zh-CN">聚焦1937年7月全民族抗战爆发至1938年12月八路军山东纵队成立期间的历史史实，展现在中国共产党领导下，山东各地的党员及民众戮力同心、共御外辱的英雄壮举。本节目由「山东广播电视台媒资版权中心」赠播。</desc>
   </programme>
-  <programme start="20261123213000 +0800" stop="20261123220000 +0800" channel="8">
-    <title lang="zh-CN">丝路时间USilk - 丝路美食之探寻米踪</title>
+  <programme start="20261130213500 +0800" stop="20261130231000 +0800" channel="7">
+    <title lang="zh-CN">宠他，还是爱我？</title>
   </programme>
-  <programme start="20261123220000 +0800" stop="20261123225000 +0800" channel="8">
-    <title lang="zh-CN">粤语新闻</title>
+  <programme start="20261130231000 +0800" stop="20261201000100 +0800" channel="7">
+    <title lang="zh-CN">边缘老人</title>
+    <desc lang="zh-CN">夕阳无限好，安享晚年是无数老人家心愿，但未必人人如愿，部份长者，有些难关特别难面对。纪录片《边缘老人》带大家去到世界各地，审视长者面临的问题，包括年老抑郁、老人骗局、缺乏资源养老等。</desc>
   </programme>
-  <programme start="20261123225000 +0800" stop="20261123234000 +0800" channel="8">
-    <title lang="zh-CN">葡语新闻</title>
-  </programme>
-  <programme start="20261123234000 +0800" stop="20261124004000 +0800" channel="8">
-    <title lang="zh-CN">趋记茶餐厅</title>
-    <desc lang="zh-CN">一部以澳门茶餐厅为背景的轻松幽默连续剧，故事围绕茶餐厅的日常营运展开，当中穿插生活热话，搞笑得来又有共鸣，欢迎大家光临！</desc>
+  <programme start="20261201000100 +0800" stop="20261201010100 +0800" channel="7">
+    <title lang="zh-CN">收台</title>
   </programme>
   <programme start="20261124000200 +0800" stop="20261124010200 +0800" channel="8">
     <title lang="zh-CN">莫桑比克的魅力</title>
@@ -3875,5 +3746,140 @@
   <programme start="20261129234000 +0800" stop="20261130004000 +0800" channel="8">
     <title lang="zh-CN">家家有本事</title>
     <desc lang="zh-CN">《家家有本事》为一个综合性生活资讯的家庭类节目，邀请相关人士就相关主题提供专业知识，包括日常生活、健康资讯等元素。</desc>
+  </programme>
+  <programme start="20261130000200 +0800" stop="20261130010500 +0800" channel="8">
+    <title lang="zh-CN">莫桑比克的魅力</title>
+  </programme>
+  <programme start="20261130010500 +0800" stop="20261130013000 +0800" channel="8">
+    <title lang="zh-CN">澳门老店—传承</title>
+    <desc lang="zh-CN">为庆祝澳门回归25周年，本次将制作《澳门老店—传承》节目，以在澳门经营最少25年的店舖或老店，一同见证澳门一起成长的故事。 我们会走访不同区份的老店，一起细味熟悉的味道，当中还包括店铺的经营方式、承传故事及周边民生的情形，重温几代人见证澳门发展的点滴，并且分享回归后到现在的改变。诉说眼中的澳门，心中的家国情怀。</desc>
+  </programme>
+  <programme start="20261130013000 +0800" stop="20261130020000 +0800" channel="8">
+    <title lang="zh-CN">英语新闻</title>
+  </programme>
+  <programme start="20261130020000 +0800" stop="20261130025000 +0800" channel="8">
+    <title lang="zh-CN">葡语新闻</title>
+  </programme>
+  <programme start="20261130025000 +0800" stop="20261130031000 +0800" channel="8">
+    <title lang="zh-CN">澳门历史人物</title>
+  </programme>
+  <programme start="20261130031000 +0800" stop="20261130034000 +0800" channel="8">
+    <title lang="zh-CN">“葡”出个味蕾</title>
+  </programme>
+  <programme start="20261130034000 +0800" stop="20261130044000 +0800" channel="8">
+    <title lang="zh-CN">丝路美食之探寻米踪</title>
+  </programme>
+  <programme start="20261130044000 +0800" stop="20261130053000 +0800" channel="8">
+    <title lang="zh-CN">葡语新闻</title>
+  </programme>
+  <programme start="20261130053000 +0800" stop="20261130060000 +0800" channel="8">
+    <title lang="zh-CN">丝路时间U Silk - 对望丝路新旅程</title>
+  </programme>
+  <programme start="20261130060000 +0800" stop="20261130070000 +0800" channel="8">
+    <title lang="zh-CN">莫桑比克的魅力</title>
+  </programme>
+  <programme start="20261130070000 +0800" stop="20261130073000 +0800" channel="8">
+    <title lang="zh-CN">马交游﹕澳门Chill 好玩</title>
+  </programme>
+  <programme start="20261130073000 +0800" stop="20261130080000 +0800" channel="8">
+    <title lang="zh-CN">英语新闻</title>
+  </programme>
+  <programme start="20261130080000 +0800" stop="20261130083000 +0800" channel="8">
+    <title lang="zh-CN">“葡”出个味蕾</title>
+  </programme>
+  <programme start="20261130083000 +0800" stop="20261130085500 +0800" channel="8">
+    <title lang="zh-CN">澳门人澳门事</title>
+    <desc lang="zh-CN">活在澳门, 感受生活, , 探索城市每个角落、关注民生议题、繁华背后发掘一个又一个澳门人的故事、欣赏各地艺术风采、推广本土文化艺术、重温旧城旧事，翻开当中的历史记忆、走过不同地方，感受人民风情、紧贴你的生活资讯节目。</desc>
+  </programme>
+  <programme start="20261130085500 +0800" stop="20261130092000 +0800" channel="8">
+    <title lang="zh-CN">家家有本事</title>
+    <desc lang="zh-CN">《家家有本事》为一个综合性生活资讯的家庭类节目，邀请相关人士就相关主题提供专业知识，包括日常生活、健康资讯等元素。</desc>
+  </programme>
+  <programme start="20261130092000 +0800" stop="20261130100000 +0800" channel="8">
+    <title lang="zh-CN">中国城市动态</title>
+  </programme>
+  <programme start="20261130100000 +0800" stop="20261130103000 +0800" channel="8">
+    <title lang="zh-CN">粤语新闻</title>
+  </programme>
+  <programme start="20261130103000 +0800" stop="20261130113000 +0800" channel="8">
+    <title lang="zh-CN">丝路美食之探寻米踪</title>
+  </programme>
+  <programme start="20261130113000 +0800" stop="20261130115500 +0800" channel="8">
+    <title lang="zh-CN">澳门老店—传承</title>
+    <desc lang="zh-CN">为庆祝澳门回归25周年，本次将制作《澳门老店—传承》节目，以在澳门经营最少25年的店舖或老店，一同见证澳门一起成长的故事。 我们会走访不同区份的老店，一起细味熟悉的味道，当中还包括店铺的经营方式、承传故事及周边民生的情形，重温几代人见证澳门发展的点滴，并且分享回归后到现在的改变。诉说眼中的澳门，心中的家国情怀。</desc>
+  </programme>
+  <programme start="20261130115500 +0800" stop="20261130122000 +0800" channel="8">
+    <title lang="zh-CN">“葡”出个味蕾</title>
+  </programme>
+  <programme start="20261130122000 +0800" stop="20261130130000 +0800" channel="8">
+    <title lang="zh-CN">中国城市动态</title>
+  </programme>
+  <programme start="20261130130000 +0800" stop="20261130133000 +0800" channel="8">
+    <title lang="zh-CN">马交游﹕澳门Chill 好玩</title>
+  </programme>
+  <programme start="20261130133000 +0800" stop="20261130135300 +0800" channel="8">
+    <title lang="zh-CN">澳门人澳门事</title>
+    <desc lang="zh-CN">活在澳门, 感受生活, , 探索城市每个角落、关注民生议题、繁华背后发掘一个又一个澳门人的故事、欣赏各地艺术风采、推广本土文化艺术、重温旧城旧事，翻开当中的历史记忆、走过不同地方，感受人民风情、紧贴你的生活资讯节目。</desc>
+  </programme>
+  <programme start="20261130135300 +0800" stop="20261130140000 +0800" channel="8">
+    <title lang="zh-CN">国宝时刻</title>
+  </programme>
+  <programme start="20261130140000 +0800" stop="20261130143000 +0800" channel="8">
+    <title lang="zh-CN">粤语新闻</title>
+  </programme>
+  <programme start="20261130143000 +0800" stop="20261130150000 +0800" channel="8">
+    <title lang="zh-CN">澳门老店—传承</title>
+    <desc lang="zh-CN">为庆祝澳门回归25周年，本次将制作《澳门老店—传承》节目，以在澳门经营最少25年的店舖或老店，一同见证澳门一起成长的故事。 我们会走访不同区份的老店，一起细味熟悉的味道，当中还包括店铺的经营方式、承传故事及周边民生的情形，重温几代人见证澳门发展的点滴，并且分享回归后到现在的改变。诉说眼中的澳门，心中的家国情怀。</desc>
+  </programme>
+  <programme start="20261130150000 +0800" stop="20261130155000 +0800" channel="8">
+    <title lang="zh-CN">葡语新闻</title>
+  </programme>
+  <programme start="20261130155000 +0800" stop="20261130160500 +0800" channel="8">
+    <title lang="zh-CN">锡兰王子东行记</title>
+  </programme>
+  <programme start="20261130160500 +0800" stop="20261130170000 +0800" channel="8">
+    <title lang="zh-CN">丝路美食之探寻米踪</title>
+  </programme>
+  <programme start="20261130170000 +0800" stop="20261130180000 +0800" channel="8">
+    <title lang="zh-CN">莫桑比克的魅力</title>
+  </programme>
+  <programme start="20261130180000 +0800" stop="20261130183000 +0800" channel="8">
+    <title lang="zh-CN">“葡”出个味蕾</title>
+  </programme>
+  <programme start="20261130183000 +0800" stop="20261130184000 +0800" channel="8">
+    <title lang="zh-CN">家家有𩠌煮</title>
+  </programme>
+  <programme start="20261130184000 +0800" stop="20261130190000 +0800" channel="8">
+    <title lang="zh-CN">澳门早晨精华录</title>
+  </programme>
+  <programme start="20261130190000 +0800" stop="20261130192200 +0800" channel="8">
+    <title lang="zh-CN">趋记茶餐厅</title>
+    <desc lang="zh-CN">一部以澳门茶餐厅为背景的轻松幽默连续剧，故事围绕茶餐厅的日常营运展开，当中穿插生活热话，搞笑得来又有共鸣，欢迎大家光临！</desc>
+  </programme>
+  <programme start="20261130192200 +0800" stop="20261130200000 +0800" channel="8">
+    <title lang="zh-CN">中国城市动态</title>
+  </programme>
+  <programme start="20261130200000 +0800" stop="20261130210000 +0800" channel="8">
+    <title lang="zh-CN">粤语新闻</title>
+  </programme>
+  <programme start="20261130210000 +0800" stop="20261130212300 +0800" channel="8">
+    <title lang="zh-CN">澳门人澳门事</title>
+    <desc lang="zh-CN">活在澳门, 感受生活, , 探索城市每个角落、关注民生议题、繁华背后发掘一个又一个澳门人的故事、欣赏各地艺术风采、推广本土文化艺术、重温旧城旧事，翻开当中的历史记忆、走过不同地方，感受人民风情、紧贴你的生活资讯节目。</desc>
+  </programme>
+  <programme start="20261130212300 +0800" stop="20261130213000 +0800" channel="8">
+    <title lang="zh-CN">好书分享</title>
+  </programme>
+  <programme start="20261130213000 +0800" stop="20261130220000 +0800" channel="8">
+    <title lang="zh-CN">丝路时间U Silk - 民以食为天</title>
+  </programme>
+  <programme start="20261130220000 +0800" stop="20261130225000 +0800" channel="8">
+    <title lang="zh-CN">粤语新闻</title>
+  </programme>
+  <programme start="20261130225000 +0800" stop="20261130234000 +0800" channel="8">
+    <title lang="zh-CN">葡语新闻</title>
+  </programme>
+  <programme start="20261130234000 +0800" stop="20261201004000 +0800" channel="8">
+    <title lang="zh-CN">趋记茶餐厅</title>
+    <desc lang="zh-CN">一部以澳门茶餐厅为背景的轻松幽默连续剧，故事围绕茶餐厅的日常营运展开，当中穿插生活热话，搞笑得来又有共鸣，欢迎大家光临！</desc>
   </programme>
 </tv>
