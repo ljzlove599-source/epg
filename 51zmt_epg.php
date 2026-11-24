@@ -1,7 +1,7 @@
 <?php
 // ======================== 配置区（可自行修改） ========================
 define('Z51_CACHE_DIR', __DIR__ . '/cache');    // 缓存目录
-define('OUTPUT_GZ', __DIR__ . '/xml/epg_51zmt.xml.gz'); // 最终输出GZ文件
+define('OUTPUT_GZ', __DIR__ . '/epg_sources/epg_51zmt.xml.gz'); // 最终输出GZ文件
 define('T2S_JSON_PATH', __DIR__ . '/t2s.json'); // 繁简映射文件路径
 define('Z51_TTL', 6 * 3600);                    // 数据缓存有效期（秒），默认6小时
 define('TIMEZONE', 'Asia/Shanghai');            // 默认时区
