@@ -130,7 +130,8 @@ function normalize_channel_name(string $originName): string
  */
 function taipei_ymd(int $offsetDays = 0): string
 {
-    $date = new DateTime('now', TIMEZONE);
+    // 修复：传入 DateTimeZone 对象，而非字符串常量
+    $date = new DateTime('now', new DateTimeZone(TIMEZONE));
     $date->modify($offsetDays . ' day');
     return $date->format('Ymd');
 }
@@ -213,7 +214,7 @@ function fetch_channel_list(): array
 
         $inWindow = true;
         if ($stStr && $etStr && strpos($stStr, '0000') !== 0) {
-            // 核心修改：实例化 DateTimeZone 对象作为第三个参数
+            // 已修复：实例化 DateTimeZone 对象作为第三个参数
             $st = DateTime::createFromFormat('Y-m-d H:i:s', $stStr, new DateTimeZone(TIMEZONE));
             $et = DateTime::createFromFormat('Y-m-d H:i:s', $etStr, new DateTimeZone(TIMEZONE));
             if ($st && $et) {
@@ -338,8 +339,9 @@ function generate_epg(): void
         usort($programList, fn($a, $b) => $a['start'] - $b['start']);
 
         foreach ($programList as $prog) {
-            $startDt = (new DateTime())->setTimestamp($prog['start'])->setTimezone(TIMEZONE);
-            $stopDt  = (new DateTime())->setTimestamp($prog['stop'])->setTimezone(TIMEZONE);
+            // 修复：setTimezone 必须传入 DateTimeZone 对象
+            $startDt = (new DateTime())->setTimestamp($prog['start'])->setTimezone(new DateTimeZone(TIMEZONE));
+            $stopDt  = (new DateTime())->setTimestamp($prog['stop'])->setTimezone(new DateTimeZone(TIMEZONE));
 
             $xml->startElement('programme');
             $xml->writeAttribute('start', $startDt->format('YmdHis') . ' +0800');
