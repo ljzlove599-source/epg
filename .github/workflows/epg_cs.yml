@@ -131,11 +131,13 @@ jobs:
         run: |
           if [ -f "ofiii_epg.py" ]; then
             echo "运行ofiii EPG 抓取脚本..."
-            python3 ofiii_epg.py "${EPG_OUTPUT_DIR}/ofiii.xml
+            current_time=$(date '+%Y-%m-%d %H:%M:%S')
+            # 补全 --output 参数，指定输出路径
+            python3 ofiii_epg.py --output "${EPG_OUTPUT_DIR}/ofiii.xml"
             if [ -f "${EPG_OUTPUT_DIR}/ofiii.xml" ]; then
               echo "✅ 成功生成 ofiii.xml"
               echo "ofiii_generated=true" >> $GITHUB_OUTPUT
-              echo "ofiii EPG updated at $(date '+%Y-%m-%d %H:%M:%S')" > ofiii_time.txt
+              echo "ofiii EPG updated at ${current_time}" > ofiii_time.txt
             else
               echo "⚠️ 未生成 ofiii.xml"
               echo "ofiii_generated=false" >> $GITHUB_OUTPUT
@@ -144,6 +146,7 @@ jobs:
             echo "⚠️ ofiii_epg.py 不存在，跳过"
             echo "ofiii_generated=false" >> $GITHUB_OUTPUT
           fi
+
 
       # ---------- 5. 检查并运行 PHP 采集脚本 ----------
       - name: Check PHP scripts existence
