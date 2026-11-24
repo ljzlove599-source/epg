@@ -31,7 +31,7 @@ $sourceList = [
 
 // 1. 路径配置（GitHub Actions 使用相对路径，仓库根目录epg文件夹）
 $basePath = rtrim(__DIR__, DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR;
-$outputDir = $basePath . 'epg/';
+$outputDir = $basePath . 'epg_sources/';
 $logDir = $basePath . 'logs/';
 
 // 输出文件配置：只输出xml，不再输出gz
