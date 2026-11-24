@@ -9,7 +9,7 @@ on:
 # 全局統一時區為北京時間
 env:
   TZ: Asia/Shanghai
-  EPG_OUTPUT_DIR: epg  # 统一声明输出目录，避免路径不一致
+  EPG_OUTPUT_DIR: epg_sources  # 统一声明输出目录，避免路径不一致
 
 jobs:
   epg_comprehensive_processing:
@@ -229,13 +229,36 @@ jobs:
       # ---------- 8. 提交结果并推送回仓库 ----------
       - name: Commit and push all generated files
         run: |
-          git add ${EPG_OUTPUT_DIR}/*.xml ${EPG_OUTPUT_DIR}/*.xml.gz *_time.txt time.txt logs/
-          
+          shopt -s nullglob
+
+          # 分别收集各类文件
+          xml_files=(${EPG_OUTPUT_DIR}/*.xml)
+          gz_files=(${EPG_OUTPUT_DIR}/*.xml.gz)
+          time_files=(*_time.txt)
+
+          # 存在文件才执行 git add
+          if [ ${#xml_files[@]} -gt 0 ]; then
+            git add "${xml_files[@]}"
+          fi
+          if [ ${#gz_files[@]} -gt 0 ]; then
+            git add "${gz_files[@]}"
+          fi
+          if [ ${#time_files[@]} -gt 0 ]; then
+            git add "${time_files[@]}"
+          fi
+
+          # 固定添加 time.txt 和 logs 目录
+          [ -f time.txt ] && git add time.txt
+          [ -d logs/ ] && git add logs/
+
+          shopt -u nullglob
+
           if git diff --cached --quiet; then
             echo "無新增變更，跳過提交"
             exit 0
           fi
-          
+
           git commit -m "bot: 更新 EPG 數據 $(date '+%Y-%m-%d %H:%M')"
           git push origin ${{ github.ref_name }}
           echo "✅ 所有生成結果已推送回倉庫"
+
