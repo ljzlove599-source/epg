@@ -25,7 +25,7 @@ from opencc import OpenCC
 class Config:
     # 基础配置
     DAYS: int = 7                          # 获取节目天数
-    OUTPUT_DIR: str = "epg"                # 输出目录
+    OUTPUT_DIR: str = "epg_sources"                # 输出目录
     OUTPUT_FILE: str = "litv_epg.xml"      # 输出文件名
     DB_PATH: str = "litv_epg.db"           # SQLite 数据库本地路径
     
