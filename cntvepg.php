@@ -6,7 +6,7 @@
 declare(strict_types=1);
 
 // ========== 全局环境适配 ==========
-ini_set('max_execution_time', 0);
+ini_set('max_execution_time', '300');
 ini_set('memory_limit', '1G');
 date_default_timezone_set('Asia/Shanghai');
 
