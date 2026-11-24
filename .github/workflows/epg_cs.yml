@@ -106,24 +106,45 @@ jobs:
           fi
 
       - name: Run litv EPG scraper
-        id: hami
+        id: litv
         continue-on-error: true
         run: |
           if [ -f "litv_epg_merged.py" ]; then
             echo "運行litv EPG 抓取腳本..."
-            python3 litv_epg_merged.py "$(date '+%Y-%m-%d')" hami.xml
-            if [ -f "${EPG_OUTPUT_DIR}/hami.xml" ]; then
-              echo "✅ 成功生成 hami.xml"
+            python3 litv_epg_merged.py "$(date '+%Y-%m-%d')" litv_epg.xml
+            if [ -f "${EPG_OUTPUT_DIR}/litv_epg.xml" ]; then
+              echo "✅ 成功生成 litv_epg.xml"
               echo "litv_generated=true" >> $GITHUB_OUTPUT
               echo "litv EPG updated at $(date '+%Y-%m-%d %H:%M:%S')" > litv_time.txt
             else
-              echo "⚠️ 未生成 hami.xml"
-              echo "hami_generated=false" >> $GITHUB_OUTPUT
+              echo "⚠️ 未生成 litv_epg.xml"
+              echo "litv_generated=false" >> $GITHUB_OUTPUT
             fi
           else
-            echo "⚠️ hami.py 不存在，跳過"
-            echo "hami_generated=false" >> $GITHUB_OUTPUT
+            echo "⚠️ litv_epg_merged.py 不存在，跳過"
+            echo "litv_generated=false" >> $GITHUB_OUTPUT
           fi          
+
+      - name: Run ofiii EPG scraper
+        id: ofiii
+        continue-on-error: true
+        run: |
+          if [ -f "ofiii_epg.py" ]; then
+            echo "運行ofiii EPG 抓取腳本..."
+            python3 ofiii_epg.py "$(date '+%Y-%m-%d')" ofiii.xml
+            if [ -f "${EPG_OUTPUT_DIR}/ofiii.xml" ]; then
+              echo "✅ 成功生成 ofiii_epg.xml"
+              echo "ofiii_generated=true" >> $GITHUB_OUTPUT
+              echo "ofiii EPG updated at $(date '+%Y-%m-%d %H:%M:%S')" > ofiii_time.txt
+            else
+              echo "⚠️ 未生成 ofiii.xml"
+              echo "ofiii_generated=false" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "⚠️ ofiii_epg.py 不存在，跳過"
+            echo "ofiii_generated=false" >> $GITHUB_OUTPUT
+          fi          
+
 
       # ---------- 5. 检查并运行 PHP 采集脚本 ----------
       - name: Check PHP scripts existence
