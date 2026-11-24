@@ -89685,35 +89685,39 @@ ani</desc>
     <title lang="zh">Nations Championship -Wales v Australia</title>
     <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
   </programme>
-  <programme start="20261127100000 +0800" stop="20261127115000 +0800" channel="679">
+  <programme start="20261127100000 +0800" stop="20261127115500 +0800" channel="679">
     <title lang="zh">Nations Championship -France v South Africa</title>
     <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
   </programme>
-  <programme start="20261127115000 +0800" stop="20261127134000 +0800" channel="679">
+  <programme start="20261127115500 +0800" stop="20261127134500 +0800" channel="679">
     <title lang="zh">Bledisloe Cup -Australia v New Zealand</title>
     <desc lang="zh">The 2026 Bledisloe Cup is a two-test rugby union series between New Zealand and Australia.</desc>
   </programme>
-  <programme start="20261127134000 +0800" stop="20261127144000 +0800" channel="679">
-    <title lang="zh">5 &amp; 6 Nations -Legends</title>
-    <desc lang="zh">We look back at the most memorable moments legends and tries from Europe's most prestigious international rugby competition.</desc>
-  </programme>
-  <programme start="20261127144000 +0800" stop="20261127164000 +0800" channel="679">
-    <title lang="zh">AFLW -North Melbourne v Sydney</title>
-    <desc lang="zh">All the pulsating action from the 2026 AFLW season.</desc>
-  </programme>
-  <programme start="20261127164000 +0800" stop="20261127185000 +0800" channel="679">
-    <title lang="zh">AFLW -Grand Final[直播]</title>
-    <desc lang="zh">All the pulsating action from the 2026 AFLW season.</desc>
-  </programme>
-  <programme start="20261127185000 +0800" stop="20261127190000 +0800" channel="679">
+  <programme start="20261127134500 +0800" stop="20261127140000 +0800" channel="679">
     <title lang="zh">Premier Sports Extra -Premier Sports Extra</title>
     <desc lang="zh">A look back at some of the big games on Premier Sports.</desc>
   </programme>
-  <programme start="20261127190000 +0800" stop="20261127205000 +0800" channel="679">
+  <programme start="20261127140000 +0800" stop="20261127143000 +0800" channel="679">
+    <title lang="zh">5 and 6 Nations Classics -1988 - Wales v Scotland</title>
+    <desc lang="zh">A look at some of the best matches in the history of rugby's Six Nations.</desc>
+  </programme>
+  <programme start="20261127143000 +0800" stop="20261127163000 +0800" channel="679">
+    <title lang="zh">AFLW -North Melbourne v Sydney</title>
+    <desc lang="zh">All the pulsating action from the 2026 AFLW season.</desc>
+  </programme>
+  <programme start="20261127163000 +0800" stop="20261127190000 +0800" channel="679">
+    <title lang="zh">AFLW -North Melbourne v Melbourne[直播]</title>
+    <desc lang="zh">North Melbourne and Melbourne clash at IKON Park to see who lifts the 2026 AFLW crown.</desc>
+  </programme>
+  <programme start="20261127190000 +0800" stop="20261127191000 +0800" channel="679">
+    <title lang="zh">Premier Sports Extra -Premier Sports Extra</title>
+    <desc lang="zh">A look back at some of the big games on Premier Sports.</desc>
+  </programme>
+  <programme start="20261127191000 +0800" stop="20261127205500 +0800" channel="679">
     <title lang="zh">Nations Championship -Scotland v Japan</title>
     <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
   </programme>
-  <programme start="20261127205000 +0800" stop="20261127224000 +0800" channel="679">
+  <programme start="20261127205500 +0800" stop="20261127224000 +0800" channel="679">
     <title lang="zh">Nations Championship -Italy v Fiji</title>
     <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
   </programme>
@@ -89722,8 +89726,8 @@ ani</desc>
     <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
   </programme>
   <programme start="20261128003000 +0800" stop="20261128024000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 1[直播]</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -Fiji v Italy[直播]</title>
+    <desc lang="zh">Fiji and Italy lock horns at Allianz Stadium Twickenham in the 6th place final of this year's Nations Championship.</desc>
   </programme>
   <programme start="20261128024000 +0800" stop="20261128030000 +0800" channel="679">
     <title lang="zh">Premier Sports Extra -Premier Sports Extra</title>
@@ -89738,24 +89742,24 @@ ani</desc>
     <desc lang="zh">Highlights of the latest round from the Top 14.</desc>
   </programme>
   <programme start="20261128040000 +0800" stop="20261128061000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 2[直播]</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -Ireland v Australia[直播]</title>
+    <desc lang="zh">Ireland and the Wallabies clash at Allianz Stadium Twickenham in the 3rd place final of this year's Nations Championship.</desc>
   </programme>
   <programme start="20261128061000 +0800" stop="20261128064000 +0800" channel="679">
     <title lang="zh">5 and 6 Nations Classics -2001 - Wales v England</title>
     <desc lang="zh">A look at some of the best matches in the history of rugby's Six Nations.</desc>
   </programme>
   <programme start="20261128064000 +0800" stop="20261128084000 +0800" channel="679">
-    <title lang="zh">AFLW -Grand Final</title>
-    <desc lang="zh">All the pulsating action from the 2026 AFLW season.</desc>
+    <title lang="zh">AFLW -North Melbourne v Melbourne</title>
+    <desc lang="zh">North Melbourne and Melbourne clash at IKON Park to see who lifts the 2026 AFLW crown.</desc>
   </programme>
   <programme start="20261128084000 +0800" stop="20261128103000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 1</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -Fiji v Italy</title>
+    <desc lang="zh">Fiji and Italy lock horns at Allianz Stadium Twickenham in the 6th place final of this year's Nations Championship.</desc>
   </programme>
   <programme start="20261128103000 +0800" stop="20261128122000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 2</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -Ireland v Australia</title>
+    <desc lang="zh">Ireland and the Wallabies clash at Allianz Stadium Twickenham in the 3rd place final of this year's Nations Championship.</desc>
   </programme>
   <programme start="20261128122000 +0800" stop="20261128125000 +0800" channel="679">
     <title lang="zh">Top 14 Highlights -Round 9</title>
@@ -89778,16 +89782,16 @@ ani</desc>
     <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
   </programme>
   <programme start="20261128172000 +0800" stop="20261128191000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 1</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -Fiji v Italy</title>
+    <desc lang="zh">Fiji and Italy lock horns at Allianz Stadium Twickenham in the 6th place final of this year's Nations Championship.</desc>
   </programme>
   <programme start="20261128191000 +0800" stop="20261128210000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 2</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -Ireland v Australia</title>
+    <desc lang="zh">Ireland and the Wallabies clash at Allianz Stadium Twickenham in the 3rd place final of this year's Nations Championship.</desc>
   </programme>
   <programme start="20261128210000 +0800" stop="20261128231000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 3[直播]</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -Wales v Japan[直播]</title>
+    <desc lang="zh">Wales and Japan clash at Allianz Stadium Twickenham in the 5th place final of this year's Nations Championship.</desc>
   </programme>
   <programme start="20261128231000 +0800" stop="20261128233000 +0800" channel="679">
     <title lang="zh">Premier Sports Extra -Premier Sports Extra</title>
@@ -89798,8 +89802,8 @@ ani</desc>
     <desc lang="zh">We look back at the most memorable moments legends and tries from Europe's most prestigious international rugby competition.</desc>
   </programme>
   <programme start="20261129003000 +0800" stop="20261129024000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 4[直播]</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -England v New Zealand[直播]</title>
+    <desc lang="zh">England and the All Blacks lock horns at Allianz Stadium Twickenham in the 2nd place final of this year's Nations Championship.</desc>
   </programme>
   <programme start="20261129024000 +0800" stop="20261129030000 +0800" channel="679">
     <title lang="zh">Premier Sports Extra -Premier Sports Extra</title>
@@ -89826,12 +89830,12 @@ ani</desc>
     <desc lang="zh">A look at some of the best matches in the history of rugby's Six Nations.</desc>
   </programme>
   <programme start="20261129101000 +0800" stop="20261129120000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 1</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -Fiji v Italy</title>
+    <desc lang="zh">Fiji and Italy lock horns at Allianz Stadium Twickenham in the 6th place final of this year's Nations Championship.</desc>
   </programme>
   <programme start="20261129120000 +0800" stop="20261129135000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 2</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -Ireland v Australia</title>
+    <desc lang="zh">Ireland and the Wallabies clash at Allianz Stadium Twickenham in the 3rd place final of this year's Nations Championship.</desc>
   </programme>
   <programme start="20261129135000 +0800" stop="20261129142000 +0800" channel="679">
     <title lang="zh">5 and 6 Nations Classics -2002 - Wales v France</title>
@@ -89854,16 +89858,16 @@ ani</desc>
     <desc lang="zh">A look at some of the best matches in the history of rugby's Six Nations.</desc>
   </programme>
   <programme start="20261129172000 +0800" stop="20261129191000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 3</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -Wales v Japan</title>
+    <desc lang="zh">Wales and Japan clash at Allianz Stadium Twickenham in the 5th place final of this year's Nations Championship.</desc>
   </programme>
   <programme start="20261129191000 +0800" stop="20261129210000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 4</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -England v New Zealand</title>
+    <desc lang="zh">England and the All Blacks lock horns at Allianz Stadium Twickenham in the 2nd place final of this year's Nations Championship.</desc>
   </programme>
   <programme start="20261129210000 +0800" stop="20261129231000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 5[直播]</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -Scotland v Argentina[直播]</title>
+    <desc lang="zh">Scotland and the Pumas meet at Allianz Stadium Twickenham in the 4th place final of this year's Nations Championship.</desc>
   </programme>
   <programme start="20261129231000 +0800" stop="20261129233000 +0800" channel="679">
     <title lang="zh">Premier Sports Extra -Premier Sports Extra</title>
@@ -89874,8 +89878,8 @@ ani</desc>
     <desc lang="zh">We look back at the most memorable moments legends and tries from Europe's most prestigious international rugby competition.</desc>
   </programme>
   <programme start="20261130003000 +0800" stop="20261130024000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 6[直播]</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -South Africa v France[直播]</title>
+    <desc lang="zh">South Africa and France lock horns at Allianz Stadium Twickenham in the 2026 Nations Championship Final.</desc>
   </programme>
   <programme start="20261130024000 +0800" stop="20261130025500 +0800" channel="679">
     <title lang="zh">Premier Sports Extra -Premier Sports Extra</title>
@@ -89898,24 +89902,24 @@ ani</desc>
     <desc lang="zh">A look at some of the best matches in the history of rugby's Six Nations.</desc>
   </programme>
   <programme start="20261130063000 +0800" stop="20261130082000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 5</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -Scotland v Argentina</title>
+    <desc lang="zh">Scotland and the Pumas meet at Allianz Stadium Twickenham in the 4th place final of this year's Nations Championship.</desc>
   </programme>
   <programme start="20261130082000 +0800" stop="20261130101000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 6</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -South Africa v France</title>
+    <desc lang="zh">South Africa and France lock horns at Allianz Stadium Twickenham in the 2026 Nations Championship Final.</desc>
   </programme>
   <programme start="20261130101000 +0800" stop="20261130104000 +0800" channel="679">
     <title lang="zh">5 and 6 Nations Classics -2007 - Italy v France</title>
     <desc lang="zh">A look at some of the best matches in the history of rugby's Six Nations.</desc>
   </programme>
   <programme start="20261130104000 +0800" stop="20261130123000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 3</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -Wales v Japan</title>
+    <desc lang="zh">Wales and Japan clash at Allianz Stadium Twickenham in the 5th place final of this year's Nations Championship.</desc>
   </programme>
   <programme start="20261130123000 +0800" stop="20261130142000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 4</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -England v New Zealand</title>
+    <desc lang="zh">England and the All Blacks lock horns at Allianz Stadium Twickenham in the 2nd place final of this year's Nations Championship.</desc>
   </programme>
   <programme start="20261130142000 +0800" stop="20261130152000 +0800" channel="679">
     <title lang="zh">5 &amp; 6 Nations -Legends</title>
@@ -89930,20 +89934,20 @@ ani</desc>
     <desc lang="zh">Coverage of the Top 14 the top-tier league in French rugby.</desc>
   </programme>
   <programme start="20261130190000 +0800" stop="20261130205000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 1</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -Fiji v Italy</title>
+    <desc lang="zh">Fiji and Italy lock horns at Allianz Stadium Twickenham in the 6th place final of this year's Nations Championship.</desc>
   </programme>
   <programme start="20261130205000 +0800" stop="20261130212000 +0800" channel="679">
     <title lang="zh">Top 14 Highlights -Round 10</title>
     <desc lang="zh">Highlights of the latest round from the Top 14.</desc>
   </programme>
   <programme start="20261130212000 +0800" stop="20261130231000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 2</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -Ireland v Australia</title>
+    <desc lang="zh">Ireland and the Wallabies clash at Allianz Stadium Twickenham in the 3rd place final of this year's Nations Championship.</desc>
   </programme>
   <programme start="20261130231000 +0800" stop="20261201010000 +0800" channel="679">
-    <title lang="zh">Nations Championship -Finals Match 3</title>
-    <desc lang="zh">The Nations Championship returns to Premier Sports this November with Northern and Southern Hemisphere nations going head-to-head once again.</desc>
+    <title lang="zh">Nations Championship -Wales v Japan</title>
+    <desc lang="zh">Wales and Japan clash at Allianz Stadium Twickenham in the 5th place final of this year's Nations Championship.</desc>
   </programme>
   <programme start="20261123000000 +0800" stop="20261123010000 +0800" channel="683">
     <title lang="zh">亚洲巡回赛精华2026 -菲律宾高尔夫球公开赛</title>
