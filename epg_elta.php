@@ -14,7 +14,7 @@ define('USER_AGENT', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.
 define('PROBE_BACK', 3);   // 向前探测天数（仅用于边界校验）
 define('PROBE_AHEAD', 7);  // 向后探测天数
 define('OUTPUT_FILE', __DIR__ . '/epg/epg_elta.xml');
-define('TIMEZONE', new DateTimeZone('Asia/Taipei'));
+define('TIMEZONE', 'Asia/Shanghai');
 define('T2S_FILE', __DIR__ . '/t2s.json');
 
 // 静态缓存
@@ -213,12 +213,14 @@ function fetch_channel_list(): array
 
         $inWindow = true;
         if ($stStr && $etStr && strpos($stStr, '0000') !== 0) {
-            $st = DateTime::createFromFormat('Y-m-d H:i:s', $stStr, TIMEZONE);
-            $et = DateTime::createFromFormat('Y-m-d H:i:s', $etStr, TIMEZONE);
+            // 核心修改：实例化 DateTimeZone 对象作为第三个参数
+            $st = DateTime::createFromFormat('Y-m-d H:i:s', $stStr, new DateTimeZone(TIMEZONE));
+            $et = DateTime::createFromFormat('Y-m-d H:i:s', $etStr, new DateTimeZone(TIMEZONE));
             if ($st && $et) {
                 $inWindow = ($st->getTimestamp() <= $now && $et->getTimestamp() > $now);
             }
         }
+
 
         if (!($showType === 1 || ($showType === 2 && $inWindow))) continue;
 
