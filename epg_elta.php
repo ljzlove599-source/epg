@@ -13,7 +13,7 @@ define('PAGE_URL', 'https://eltaott.tv/channel/program_detail');
 define('USER_AGENT', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36');
 define('PROBE_BACK', 3);   // 向前探测天数（仅用于边界校验）
 define('PROBE_AHEAD', 7);  // 向后探测天数
-define('OUTPUT_FILE', __DIR__ . '/epg/epg_elta.xml');
+define('OUTPUT_FILE', __DIR__ . '/epg_sources/epg_elta.xml');
 define('TIMEZONE', 'Asia/Shanghai');
 define('T2S_FILE', __DIR__ . '/t2s.json');
 
