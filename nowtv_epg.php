@@ -20,7 +20,7 @@ class NowTVEPG
     private DateTimeZone $tz;
     private array $charMap = []; // 繁简转换映射表
 
-    public function __construct(string $outputFile = __DIR__ . '/epg/epg_nowtv.xml')
+    public function __construct(string $outputFile = __DIR__ . '/epg_sources/epg_nowtv.xml')
     {
         $this->outputFile = $outputFile;
         $this->tz = new DateTimeZone(self::TIMEZONE);
