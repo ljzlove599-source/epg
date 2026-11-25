@@ -67,8 +67,8 @@ jobs:
           if [ -f "composer.json" ]; then
             composer install --no-dev --no-progress --no-interaction --prefer-dist
           fi
-          # Python 依赖安装
-          pip install --no-cache-dir opencc-python-reimplemented curl_cffi beautifulsoup4 requests aiohttp pytz loguru httpx
+          # Python 依赖安装（去掉 --no-cache-dir，配合缓存生效）
+          pip install opencc-python-reimplemented curl_cffi beautifulsoup4 requests aiohttp pytz loguru httpx
           echo "所有依赖安装完成"
 
       # ---------- 3. 清理历史残留文件 ----------
