@@ -134,7 +134,7 @@ jobs:
           declare -a scripts=(
             "51zmt_epg.php" "cntvepg.php" "epg_4k.php" "epg_elta.php"
             "kbro_epg.php" "mod.php" "nowtv_epg.php"
-            "rthk.php" "tdm_epg.php" "zhongtiannam.php"
+            "rthk.php" "tdm_epg.php" "zhongtianam.php"
           )
           existing_scripts=()
           for script in "${scripts[@]}"; do
@@ -198,7 +198,7 @@ jobs:
         run: |
           declare -a expected_xml=(
             "4g.xml" "cntv.xml.gz" "epg_4k.xml" "epg_elta.xml"
-            "epg_nowtv.xml" "epg_zhongtiannam.xml" "hami.xml" "litv_epg.xml"
+            "epg_nowtv.xml" "epg_zhongtianam.xml" "hami.xml" "litv_epg.xml"
             "ofiii.xml" "epg_rthk_tv.xml" "kbro_epg.xml" "mod_epg.xml"
             "tdm_epg.xml"
           )
