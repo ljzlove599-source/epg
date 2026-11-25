@@ -1180,6 +1180,7 @@
   </programme>
   <programme start="20261125173000 +0800" stop="20261125180000 +0800" channel="tv31">
     <title lang="zh-Hans">议政四方</title>
+    <desc lang="zh-Hans">议政四方｜方国珊冀政府助立案法团转型业委会  陈学锋倡统筹各部门处理鼠患</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/inthechamber2026</url>
   </programme>
   <programme start="20261125180000 +0800" stop="20261125183000 +0800" channel="tv31">
@@ -1288,6 +1289,7 @@
   </programme>
   <programme start="20261125100500 +0800" stop="20261125103000 +0800" channel="tv32">
     <title lang="zh-Hans">议政四方</title>
+    <desc lang="zh-Hans">议政四方｜方国珊冀政府助立案法团转型业委会  陈学锋倡统筹各部门处理鼠患</desc>
     <url>https://www.rthk.hk/tv/dtt32/programme/inthechamber2026</url>
   </programme>
   <programme start="20261125103000 +0800" stop="20261125103500 +0800" channel="tv32">
@@ -3235,7 +3237,7 @@
     <url>https://www.rthk.hk/tv/dtt32/programme/vibranthongkong</url>
   </programme>
   <programme start="20261127215500 +0800" stop="20261127220000 +0800" channel="tv32">
-    <title lang="zh-Hans">2026带一路．「港」你知</title>
+    <title lang="zh-Hans">2026一带一路．「港」你知</title>
     <desc lang="zh-Hans">中亚机遇转化为实质成果</desc>
     <url>https://www.rthk.hk/tv/dtt32/programme/beltandroadhkinaction2026_eng</url>
   </programme>
@@ -3865,6 +3867,7 @@
   </programme>
   <programme start="20261128193000 +0800" stop="20261128200000 +0800" channel="tv31">
     <title lang="zh-Hans">医研华章:香港内科医学院四十周年</title>
+    <desc lang="zh-Hans">#1 于精于仁</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/40thanniversaryofhkcp</url>
   </programme>
   <programme start="20261128200000 +0800" stop="20261128202500 +0800" channel="tv31">
@@ -4086,7 +4089,7 @@
     <title lang="zh-Hans">生活．健康．资讯</title>
   </programme>
   <programme start="20261128202000 +0800" stop="20261128203000 +0800" channel="tv32">
-    <title lang="zh-Hans">2026带一路．「港」你知</title>
+    <title lang="zh-Hans">2026一带一路．「港」你知</title>
     <desc lang="zh-Hans">中亚机遇转化为实质成果</desc>
     <url>https://www.rthk.hk/tv/dtt32/programme/beltandroadhkinaction2026_eng</url>
   </programme>
@@ -4563,6 +4566,7 @@
   </programme>
   <programme start="20261129013000 +0800" stop="20261129020000 +0800" channel="tv31">
     <title lang="zh-Hans">医研华章:香港内科医学院四十周年</title>
+    <desc lang="zh-Hans">#1 于精于仁</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/40thanniversaryofhkcp</url>
   </programme>
   <programme start="20261129020000 +0800" stop="20261129023000 +0800" channel="tv31">
@@ -6162,6 +6166,7 @@
   </programme>
   <programme start="20261201023000 +0800" stop="20261201030000 +0800" channel="tv31">
     <title lang="zh-Hans">医研华章:香港内科医学院四十周年</title>
+    <desc lang="zh-Hans">#1 于精于仁</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/40thanniversaryofhkcp</url>
   </programme>
   <programme start="20261201030000 +0800" stop="20261201033000 +0800" channel="tv31">

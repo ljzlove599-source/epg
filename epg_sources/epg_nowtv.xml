@@ -795,7 +795,7 @@
     <title lang="zh">MLP Asia 2026 第1集 -HK Cannons Home Match</title>
   </programme>
   <programme start="20261126210000 +0800" stop="20261126230000 +0800" channel="096">
-    <title lang="zh">1O1O呈献: 1O1O呈献Popcorn 96: 马利与我</title>
+    <title lang="zh">1O1O呈献Popcorn 96: 马利与我</title>
     <desc lang="zh">Jennifer Aniston and Owen Wilson unleash huge laughs as John and Jenny Grogan, a young couple contemplating the decision to start a family. Then can Marley...an adorable Labrador pup who flunks obedience school and quickly turns his new home into a disaster area. But with a heart as big as his appetite for trouble, Marley sees the Grogans through the ups and downs of life and love, and they ultimately realize that 'the world's worst dog' truly brings out the best in them.</desc>
   </programme>
   <programme start="20261126230000 +0800" stop="20261126231500 +0800" channel="096">
@@ -49846,233 +49846,243 @@ ani</desc>
     <title lang="zh">总编辑时间</title>
     <desc lang="zh">《总编辑时间》: 凤凰总编辑重点编选和剖析一天最值得注意的头条新闻, 解构事情的来龙去脉, 让观众以评论员的眼光看世界, 深度瞭解重点事项。</desc>
   </programme>
-  <programme start="20261201000000 +0800" stop="20261201005700 +0800" channel="366">
+  <programme start="20261129000000 +0800" stop="20261129002700 +0800" channel="366">
     <title lang="zh">凤凰洲际快车</title>
     <desc lang="zh">《凤凰洲际快车》是凤凰卫视子夜时段的新闻资讯节目, 为您带来两岸三地, 以及国际社会的大小新闻、最新动态和局势发展。</desc>
   </programme>
-  <programme start="20261201005700 +0800" stop="20261201010000 +0800" channel="366">
+  <programme start="20261129002700 +0800" stop="20261129003000 +0800" channel="366">
     <title lang="zh">凤凰气象站</title>
   </programme>
-  <programme start="20261201010000 +0800" stop="20261201012700 +0800" channel="366">
-    <title lang="zh">凤凰正点播报 0100</title>
-    <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
-  </programme>
-  <programme start="20261201012700 +0800" stop="20261201013000 +0800" channel="366">
-    <title lang="zh">凤凰气象站</title>
-  </programme>
-  <programme start="20261201013000 +0800" stop="20261201020000 +0800" channel="366">
-    <title lang="zh">金石财经</title>
-    <desc lang="zh">《金石财经》精确对准汇股走势, 锁定最新金融行情, 结算每日热门财经话题, 即日即时评论各项消息。</desc>
-  </programme>
-  <programme start="20261201020000 +0800" stop="20261201022700 +0800" channel="366">
-    <title lang="zh">凤凰正点播报 0100</title>
-    <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
-  </programme>
-  <programme start="20261201022700 +0800" stop="20261201023000 +0800" channel="366">
-    <title lang="zh">凤凰气象站</title>
-  </programme>
-  <programme start="20261201023000 +0800" stop="20261201030000 +0800" channel="366">
-    <title lang="zh">凤凰财经日报</title>
-    <desc lang="zh">《凤凰财经日报》每日精选当天最瞩目的经济数据, 世界各地的政经新闻, 并广邀各方专家进行连线点评, 提供独到精辟的见解。亦会向观众提供全方位的新闻视觉, 率先把握时局带来的机遇。</desc>
-  </programme>
-  <programme start="20261201030000 +0800" stop="20261201032700 +0800" channel="366">
-    <title lang="zh">凤凰正点播报 0100</title>
-    <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
-  </programme>
-  <programme start="20261201032700 +0800" stop="20261201033000 +0800" channel="366">
-    <title lang="zh">凤凰气象站</title>
-  </programme>
-  <programme start="20261201033000 +0800" stop="20261201040000 +0800" channel="366">
-    <title lang="zh">总编辑时间</title>
-    <desc lang="zh">《总编辑时间》: 凤凰总编辑重点编选和剖析一天最值得注意的头条新闻, 解构事情的来龙去脉, 让观众以评论员的眼光看世界, 深度瞭解重点事项。</desc>
-  </programme>
-  <programme start="20261201040000 +0800" stop="20261201042700 +0800" channel="366">
-    <title lang="zh">凤凰正点播报 0100</title>
-    <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
-  </programme>
-  <programme start="20261201042700 +0800" stop="20261201043000 +0800" channel="366">
-    <title lang="zh">凤凰气象站</title>
-  </programme>
-  <programme start="20261201043000 +0800" stop="20261201045700 +0800" channel="366">
-    <title lang="zh">凤凰正点播报 0100</title>
-    <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
-  </programme>
-  <programme start="20261201045700 +0800" stop="20261201050000 +0800" channel="366">
-    <title lang="zh">凤凰气象站</title>
-  </programme>
-  <programme start="20261201050000 +0800" stop="20261201052700 +0800" channel="366">
-    <title lang="zh">凤凰正点播报 0100</title>
-    <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
-  </programme>
-  <programme start="20261201052700 +0800" stop="20261201053000 +0800" channel="366">
-    <title lang="zh">凤凰气象站</title>
-  </programme>
-  <programme start="20261201053000 +0800" stop="20261201060000 +0800" channel="366">
+  <programme start="20261129003000 +0800" stop="20261129010000 +0800" channel="366">
     <title lang="zh">新闻今日谈</title>
     <desc lang="zh">《新闻今日谈》: 节目针对当天最热门时事问题, 在观众最关注的时刻即时作出评论, 让观众更洞悉事件的真相。</desc>
   </programme>
-  <programme start="20261201060000 +0800" stop="20261201062700 +0800" channel="366">
+  <programme start="20261129010000 +0800" stop="20261129012700 +0800" channel="366">
     <title lang="zh">凤凰正点播报 0100</title>
     <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
   </programme>
-  <programme start="20261201062700 +0800" stop="20261201063000 +0800" channel="366">
+  <programme start="20261129012700 +0800" stop="20261129013000 +0800" channel="366">
     <title lang="zh">凤凰气象站</title>
   </programme>
-  <programme start="20261201063000 +0800" stop="20261201070000 +0800" channel="366">
-    <title lang="zh">凤凰聚焦</title>
-    <desc lang="zh">《凤凰聚焦》: 关注重大时政选题, 重大社会事件和新闻热点。原创性挖掘更多事实与背景。分析梳理新闻的前期后果, 人物命运, 呈现权威观点。</desc>
+  <programme start="20261129013000 +0800" stop="20261129015700 +0800" channel="366">
+    <title lang="zh">凤凰正点播报 0100</title>
+    <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
   </programme>
-  <programme start="20261201070000 +0800" stop="20261201075700 +0800" channel="366">
+  <programme start="20261129015700 +0800" stop="20261129020000 +0800" channel="366">
+    <title lang="zh">凤凰气象站</title>
+  </programme>
+  <programme start="20261129020000 +0800" stop="20261129022700 +0800" channel="366">
+    <title lang="zh">凤凰正点播报 0100</title>
+    <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
+  </programme>
+  <programme start="20261129022700 +0800" stop="20261129023000 +0800" channel="366">
+    <title lang="zh">凤凰气象站</title>
+  </programme>
+  <programme start="20261129023000 +0800" stop="20261129030000 +0800" channel="366">
+    <title lang="zh">问答神州</title>
+    <desc lang="zh">《问答神州》: 致力采访两岸四地的关键人物, 与政坛精英进行高端对话。观众将可第一时间掌握中国的最新变化和发展, 将眼光投向快速增长的中国经济、改革转型中的大时代。</desc>
+  </programme>
+  <programme start="20261129030000 +0800" stop="20261129032700 +0800" channel="366">
+    <title lang="zh">凤凰正点播报 0100</title>
+    <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
+  </programme>
+  <programme start="20261129032700 +0800" stop="20261129033000 +0800" channel="366">
+    <title lang="zh">凤凰气象站</title>
+  </programme>
+  <programme start="20261129033000 +0800" stop="20261129040000 +0800" channel="366">
+    <title lang="zh">风云对话</title>
+    <desc lang="zh">《风云对话》是一个高素质的访谈节目, 节目采访全球“最关键、最前线、最敏感”权倾一时的掌权者, 他们影响并决定着整个国际局势的变化和发展。一个个世界级人物在节目中, 亲自向您剖析他们的观点。</desc>
+  </programme>
+  <programme start="20261129040000 +0800" stop="20261129042700 +0800" channel="366">
+    <title lang="zh">凤凰正点播报 0100</title>
+    <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
+  </programme>
+  <programme start="20261129042700 +0800" stop="20261129043000 +0800" channel="366">
+    <title lang="zh">凤凰气象站</title>
+  </programme>
+  <programme start="20261129043000 +0800" stop="20261129050000 +0800" channel="366">
+    <title lang="zh">香港新视点</title>
+    <desc lang="zh">《香港新视点》透过访问特区政府官员、学者、焦点事件的相关人物, 以及采访两地的年轻人的交流团等, 让观众透彻了解香港以至内地政治文化, 加深对国情的认识。</desc>
+  </programme>
+  <programme start="20261129050000 +0800" stop="20261129052700 +0800" channel="366">
+    <title lang="zh">凤凰正点播报 0100</title>
+    <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
+  </programme>
+  <programme start="20261129052700 +0800" stop="20261129053000 +0800" channel="366">
+    <title lang="zh">凤凰气象站</title>
+  </programme>
+  <programme start="20261129053000 +0800" stop="20261129060000 +0800" channel="366">
+    <title lang="zh">新闻今日谈</title>
+    <desc lang="zh">《新闻今日谈》: 节目针对当天最热门时事问题, 在观众最关注的时刻即时作出评论, 让观众更洞悉事件的真相。</desc>
+  </programme>
+  <programme start="20261129060000 +0800" stop="20261129062700 +0800" channel="366">
+    <title lang="zh">凤凰正点播报 0100</title>
+    <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
+  </programme>
+  <programme start="20261129062700 +0800" stop="20261129063000 +0800" channel="366">
+    <title lang="zh">凤凰气象站</title>
+  </programme>
+  <programme start="20261129063000 +0800" stop="20261129070000 +0800" channel="366">
+    <title lang="zh">风云对话</title>
+    <desc lang="zh">《风云对话》是一个高素质的访谈节目, 节目采访全球“最关键、最前线、最敏感”权倾一时的掌权者, 他们影响并决定着整个国际局势的变化和发展。一个个世界级人物在节目中, 亲自向您剖析他们的观点。</desc>
+  </programme>
+  <programme start="20261129070000 +0800" stop="20261129075500 +0800" channel="366">
     <title lang="zh">凤凰早班车</title>
     <desc lang="zh">《凤凰早班车》: 透过凤凰卫视庞大的报导网络从国际各个主要通讯社获得新闻资讯, 在早上率先向观众报导国际间最新发生的重大事情。</desc>
   </programme>
-  <programme start="20261201075700 +0800" stop="20261201080000 +0800" channel="366">
+  <programme start="20261129075500 +0800" stop="20261129080000 +0800" channel="366">
     <title lang="zh">凤凰气象站</title>
   </programme>
-  <programme start="20261201080000 +0800" stop="20261201085700 +0800" channel="366">
+  <programme start="20261129080000 +0800" stop="20261129085500 +0800" channel="366">
     <title lang="zh">凤凰早班车</title>
     <desc lang="zh">《凤凰早班车》: 透过凤凰卫视庞大的报导网络从国际各个主要通讯社获得新闻资讯, 在早上率先向观众报导国际间最新发生的重大事情。</desc>
   </programme>
-  <programme start="20261201085700 +0800" stop="20261201090000 +0800" channel="366">
+  <programme start="20261129085500 +0800" stop="20261129090000 +0800" channel="366">
     <title lang="zh">凤凰气象站</title>
   </programme>
-  <programme start="20261201090000 +0800" stop="20261201092700 +0800" channel="366">
+  <programme start="20261129090000 +0800" stop="20261129092700 +0800" channel="366">
     <title lang="zh">凤凰正点播报 0900</title>
     <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
   </programme>
-  <programme start="20261201092700 +0800" stop="20261201093000 +0800" channel="366">
+  <programme start="20261129092700 +0800" stop="20261129093000 +0800" channel="366">
     <title lang="zh">凤凰气象站</title>
   </programme>
-  <programme start="20261201093000 +0800" stop="20261201100000 +0800" channel="366">
-    <title lang="zh">金石财经</title>
-    <desc lang="zh">《金石财经》精确对准汇股走势, 锁定最新金融行情, 结算每日热门财经话题, 即日即时评论各项消息。</desc>
+  <programme start="20261129093000 +0800" stop="20261129100000 +0800" channel="366">
+    <title lang="zh">风云对话</title>
+    <desc lang="zh">《风云对话》是一个高素质的访谈节目, 节目采访全球“最关键、最前线、最敏感”权倾一时的掌权者, 他们影响并决定着整个国际局势的变化和发展。一个个世界级人物在节目中, 亲自向您剖析他们的观点。</desc>
   </programme>
-  <programme start="20261201100000 +0800" stop="20261201105700 +0800" channel="366">
+  <programme start="20261129100000 +0800" stop="20261129105700 +0800" channel="366">
     <title lang="zh">凤凰正点播报 1000</title>
     <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
   </programme>
-  <programme start="20261201105700 +0800" stop="20261201110000 +0800" channel="366">
+  <programme start="20261129105700 +0800" stop="20261129110000 +0800" channel="366">
     <title lang="zh">凤凰气象站</title>
   </programme>
-  <programme start="20261201110000 +0800" stop="20261201112700 +0800" channel="366">
+  <programme start="20261129110000 +0800" stop="20261129114500 +0800" channel="366">
     <title lang="zh">凤凰正点播报 1100</title>
     <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
   </programme>
-  <programme start="20261201112700 +0800" stop="20261201113000 +0800" channel="366">
-    <title lang="zh">凤凰气象站</title>
+  <programme start="20261129114500 +0800" stop="20261129120000 +0800" channel="366">
+    <title lang="zh">我的香港故事</title>
+    <desc lang="zh">《我的香港故事》: 人物记录专题栏目。通过每集大约15分钟的精致篇幅, 讲述香港人的故事与发生的事。为全国华人观众, 了解香港新的视觉。</desc>
   </programme>
-  <programme start="20261201113000 +0800" stop="20261201120000 +0800" channel="366">
-    <title lang="zh">总编辑时间</title>
-    <desc lang="zh">《总编辑时间》: 凤凰总编辑重点编选和剖析一天最值得注意的头条新闻, 解构事情的来龙去脉, 让观众以评论员的眼光看世界, 深度瞭解重点事项。</desc>
-  </programme>
-  <programme start="20261201120000 +0800" stop="20261201125500 +0800" channel="366">
+  <programme start="20261129120000 +0800" stop="20261129125700 +0800" channel="366">
     <title lang="zh">凤凰午间专列</title>
     <desc lang="zh">《凤凰午间专列》: 凤凰中午的强档新闻节目, 采取泛中华的报道态度, 关注中国内地的新闻, 也关注香港、台湾以及国际的新闻, 视野更广阔, 话语空间亦突显其独特之处。节目简洁、实事求事、快人一步, 将新闻带给正在享用午餐的您, 让您在休息时段毋须读报而能轻松地接收全球最新出炉的新闻资讯。</desc>
   </programme>
-  <programme start="20261201125500 +0800" stop="20261201130000 +0800" channel="366">
+  <programme start="20261129125700 +0800" stop="20261129130000 +0800" channel="366">
     <title lang="zh">凤凰气象站</title>
   </programme>
-  <programme start="20261201130000 +0800" stop="20261201132700 +0800" channel="366">
+  <programme start="20261129130000 +0800" stop="20261129132700 +0800" channel="366">
     <title lang="zh">凤凰正点播报 1300</title>
     <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
   </programme>
-  <programme start="20261201132700 +0800" stop="20261201133000 +0800" channel="366">
+  <programme start="20261129132700 +0800" stop="20261129133000 +0800" channel="366">
     <title lang="zh">凤凰气象站</title>
   </programme>
-  <programme start="20261201133000 +0800" stop="20261201140000 +0800" channel="366">
-    <title lang="zh">金石财经</title>
-    <desc lang="zh">《金石财经》精确对准汇股走势, 锁定最新金融行情, 结算每日热门财经话题, 即日即时评论各项消息。</desc>
+  <programme start="20261129133000 +0800" stop="20261129140000 +0800" channel="366">
+    <title lang="zh">筑梦天下</title>
+    <desc lang="zh">《筑梦天下》: 寻找中外不同风格的建筑、民居, 道出背后的环境因素和地理条件, 详述生活于其间的人物, 细诉人和建筑之间纠缠不清的故事。</desc>
   </programme>
-  <programme start="20261201140000 +0800" stop="20261201142700 +0800" channel="366">
+  <programme start="20261129140000 +0800" stop="20261129142700 +0800" channel="366">
     <title lang="zh">凤凰正点播报 1400</title>
     <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
   </programme>
-  <programme start="20261201142700 +0800" stop="20261201143000 +0800" channel="366">
+  <programme start="20261129142700 +0800" stop="20261129143000 +0800" channel="366">
     <title lang="zh">凤凰气象站</title>
   </programme>
-  <programme start="20261201143000 +0800" stop="20261201150000 +0800" channel="366">
-    <title lang="zh">总编辑时间</title>
-    <desc lang="zh">《总编辑时间》: 凤凰总编辑重点编选和剖析一天最值得注意的头条新闻, 解构事情的来龙去脉, 让观众以评论员的眼光看世界, 深度瞭解重点事项。</desc>
+  <programme start="20261129143000 +0800" stop="20261129150000 +0800" channel="366">
+    <title lang="zh">风云对话</title>
+    <desc lang="zh">《风云对话》是一个高素质的访谈节目, 节目采访全球“最关键、最前线、最敏感”权倾一时的掌权者, 他们影响并决定着整个国际局势的变化和发展。一个个世界级人物在节目中, 亲自向您剖析他们的观点。</desc>
   </programme>
-  <programme start="20261201150000 +0800" stop="20261201155700 +0800" channel="366">
+  <programme start="20261129150000 +0800" stop="20261129155700 +0800" channel="366">
     <title lang="zh">凤凰正点播报 1500</title>
     <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
   </programme>
-  <programme start="20261201155700 +0800" stop="20261201160000 +0800" channel="366">
+  <programme start="20261129155700 +0800" stop="20261129160000 +0800" channel="366">
     <title lang="zh">凤凰气象站</title>
   </programme>
-  <programme start="20261201160000 +0800" stop="20261201165700 +0800" channel="366">
+  <programme start="20261129160000 +0800" stop="20261129162700 +0800" channel="366">
     <title lang="zh">凤凰正点播报 1600</title>
     <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
   </programme>
-  <programme start="20261201165700 +0800" stop="20261201170000 +0800" channel="366">
+  <programme start="20261129162700 +0800" stop="20261129163000 +0800" channel="366">
     <title lang="zh">凤凰气象站</title>
   </programme>
-  <programme start="20261201170000 +0800" stop="20261201172700 +0800" channel="366">
+  <programme start="20261129163000 +0800" stop="20261129170000 +0800" channel="366">
+    <title lang="zh">问答神州</title>
+    <desc lang="zh">《问答神州》: 致力采访两岸四地的关键人物, 与政坛精英进行高端对话。观众将可第一时间掌握中国的最新变化和发展, 将眼光投向快速增长的中国经济、改革转型中的大时代。</desc>
+  </programme>
+  <programme start="20261129170000 +0800" stop="20261129171500 +0800" channel="366">
     <title lang="zh">凤凰正点播报 1700</title>
     <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
   </programme>
-  <programme start="20261201172700 +0800" stop="20261201173000 +0800" channel="366">
-    <title lang="zh">凤凰气象站</title>
+  <programme start="20261129171500 +0800" stop="20261129180000 +0800" channel="366">
+    <title lang="zh">中国深度财经</title>
+    <desc lang="zh">《中国深度财经》: 节目以上海为据点, 全面、深入探讨中国内地经济发展状况, 从而让世界更准确地了解中国、了解上海。</desc>
   </programme>
-  <programme start="20261201173000 +0800" stop="20261201180000 +0800" channel="366">
-    <title lang="zh">金石财经</title>
-    <desc lang="zh">《金石财经》精确对准汇股走势, 锁定最新金融行情, 结算每日热门财经话题, 即日即时评论各项消息。</desc>
-  </programme>
-  <programme start="20261201180000 +0800" stop="20261201182700 +0800" channel="366">
+  <programme start="20261129180000 +0800" stop="20261129182700 +0800" channel="366">
     <title lang="zh">凤凰焦点新闻 1800</title>
     <desc lang="zh">《凤凰焦点新闻》: 聚焦重大时政议题, 重大社会事件和新闻热点, 原创性挖掘更多时事与背景, 分析梳理新闻的前因后果, 人物命运, 呈现权威观点。</desc>
   </programme>
-  <programme start="20261201182700 +0800" stop="20261201183000 +0800" channel="366">
+  <programme start="20261129182700 +0800" stop="20261129183000 +0800" channel="366">
     <title lang="zh">凤凰气象站</title>
   </programme>
-  <programme start="20261201183000 +0800" stop="20261201190000 +0800" channel="366">
+  <programme start="20261129183000 +0800" stop="20261129190000 +0800" channel="366">
     <title lang="zh">新闻今日谈</title>
     <desc lang="zh">《新闻今日谈》: 节目针对当天最热门时事问题, 在观众最关注的时刻即时作出评论, 让观众更洞悉事件的真相。</desc>
   </programme>
-  <programme start="20261201190000 +0800" stop="20261201195700 +0800" channel="366">
+  <programme start="20261129190000 +0800" stop="20261129191300 +0800" channel="366">
     <title lang="zh">华闻大直播</title>
     <desc lang="zh">《华闻大直播》: 报导两岸三地和大中华地区的重大事件, 以及与您生活息息相关的最新资讯；第一时间直击报导新闻时间, 关注时事和社会民生。</desc>
   </programme>
-  <programme start="20261201195700 +0800" stop="20261201200000 +0800" channel="366">
+  <programme start="20261129191300 +0800" stop="20261129191500 +0800" channel="366">
     <title lang="zh">凤凰气象站</title>
   </programme>
-  <programme start="20261201200000 +0800" stop="20261201202700 +0800" channel="366">
+  <programme start="20261129191500 +0800" stop="20261129200000 +0800" channel="366">
+    <title lang="zh">大新闻大历史</title>
+    <desc lang="zh">《大新闻大历史》是新闻式纪录片, 旨在透过正在发生的新闻, 沿着历史的脉络, 全方位探索事件的点、线、面、四维空间和三体世界。由表象勾勒事件轮廓, 还原新闻背后的逻辑。新闻纪录片去除盘根错节, 梳理由关键点构成的事实框架, 穿越在历史和现实之间, 进行一场思想验证。</desc>
+  </programme>
+  <programme start="20261129200000 +0800" stop="20261129202700 +0800" channel="366">
     <title lang="zh">凤凰焦点新闻 2000</title>
     <desc lang="zh">《凤凰焦点新闻》: 聚焦重大时政议题, 重大社会事件和新闻热点, 原创性挖掘更多时事与背景, 分析梳理新闻的前因后果, 人物命运, 呈现权威观点。</desc>
   </programme>
-  <programme start="20261201202700 +0800" stop="20261201203000 +0800" channel="366">
+  <programme start="20261129202700 +0800" stop="20261129203000 +0800" channel="366">
     <title lang="zh">凤凰气象站</title>
   </programme>
-  <programme start="20261201203000 +0800" stop="20261201210000 +0800" channel="366">
-    <title lang="zh">凤凰财经日报</title>
-    <desc lang="zh">《凤凰财经日报》每日精选当天最瞩目的经济数据, 世界各地的政经新闻, 并广邀各方专家进行连线点评, 提供独到精辟的见解。亦会向观众提供全方位的新闻视觉, 率先把握时局带来的机遇。</desc>
+  <programme start="20261129203000 +0800" stop="20261129210000 +0800" channel="366">
+    <title lang="zh">香港新视点</title>
+    <desc lang="zh">《香港新视点》透过访问特区政府官员、学者、焦点事件的相关人物, 以及采访两地的年轻人的交流团等, 让观众透彻了解香港以至内地政治文化, 加深对国情的认识。</desc>
   </programme>
-  <programme start="20261201210000 +0800" stop="20261201215500 +0800" channel="366">
+  <programme start="20261129210000 +0800" stop="20261129215500 +0800" channel="366">
     <title lang="zh">时事直通车</title>
     <desc lang="zh">《时事直通车》: 节目专门网罗国际重大事件和其他集锦新闻、聚焦大陆、台湾及香港的要闻时事。</desc>
   </programme>
-  <programme start="20261201215500 +0800" stop="20261201220000 +0800" channel="366">
+  <programme start="20261129215500 +0800" stop="20261129220000 +0800" channel="366">
     <title lang="zh">凤凰气象站</title>
   </programme>
-  <programme start="20261201220000 +0800" stop="20261201223000 +0800" channel="366">
-    <title lang="zh">总编辑时间</title>
-    <desc lang="zh">《总编辑时间》: 凤凰总编辑重点编选和剖析一天最值得注意的头条新闻, 解构事情的来龙去脉, 让观众以评论员的眼光看世界, 深度瞭解重点事项。</desc>
+  <programme start="20261129220000 +0800" stop="20261129222700 +0800" channel="366">
+    <title lang="zh">凤凰正点播报 2200</title>
+    <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
   </programme>
-  <programme start="20261201223000 +0800" stop="20261201230000 +0800" channel="366">
+  <programme start="20261129222700 +0800" stop="20261129223000 +0800" channel="366">
+    <title lang="zh">凤凰气象站</title>
+  </programme>
+  <programme start="20261129223000 +0800" stop="20261129230000 +0800" channel="366">
     <title lang="zh">新闻今日谈</title>
     <desc lang="zh">《新闻今日谈》: 节目针对当天最热门时事问题, 在观众最关注的时刻即时作出评论, 让观众更洞悉事件的真相。</desc>
   </programme>
-  <programme start="20261201230000 +0800" stop="20261201232700 +0800" channel="366">
-    <title lang="zh">凤凰焦点新闻 2300</title>
-    <desc lang="zh">《凤凰焦点新闻》: 聚焦重大时政议题, 重大社会事件和新闻热点, 原创性挖掘更多时事与背景, 分析梳理新闻的前因后果, 人物命运, 呈现权威观点。</desc>
+  <programme start="20261129230000 +0800" stop="20261129231500 +0800" channel="366">
+    <title lang="zh">凤凰正点播报 2300</title>
+    <desc lang="zh">《凤凰正点播报》: 每天全球各个角落、各个领域最有价值、新鲜热辣的新闻大事, 《凤凰正点播报》为你追踪报导。第一时间为你送上, 第一时间让你知道最新发展。</desc>
   </programme>
-  <programme start="20261201232700 +0800" stop="20261201233000 +0800" channel="366">
-    <title lang="zh">凤凰气象站</title>
+  <programme start="20261129231500 +0800" stop="20261129233000 +0800" channel="366">
+    <title lang="zh">我的香港故事</title>
+    <desc lang="zh">《我的香港故事》: 人物记录专题栏目。通过每集大约15分钟的精致篇幅, 讲述香港人的故事与发生的事。为全国华人观众, 了解香港新的视觉。</desc>
   </programme>
-  <programme start="20261201233000 +0800" stop="20261202000000 +0800" channel="366">
-    <title lang="zh">总编辑时间</title>
-    <desc lang="zh">《总编辑时间》: 凤凰总编辑重点编选和剖析一天最值得注意的头条新闻, 解构事情的来龙去脉, 让观众以评论员的眼光看世界, 深度瞭解重点事项。</desc>
+  <programme start="20261129233000 +0800" stop="20261130000000 +0800" channel="366">
+    <title lang="zh">问答神州</title>
+    <desc lang="zh">《问答神州》: 致力采访两岸四地的关键人物, 与政坛精英进行高端对话。观众将可第一时间掌握中国的最新变化和发展, 将眼光投向快速增长的中国经济、改革转型中的大时代。</desc>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124010000 +0800" channel="443">
     <title lang="zh">天兵公园 第1季第8集 -阿当/和电视比赛/曲棍球机/原始人/滑浪</title>
@@ -75068,7 +75078,7 @@ ani</desc>
   <programme start="20261201220000 +0800" stop="20261201230000 +0800" channel="611">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261201230000 +0800" stop="20261202100000 +0800" channel="611">
+  <programme start="20261201230000 +0800" stop="20261202000000 +0800" channel="611">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124020000 +0800" channel="612">
@@ -75356,7 +75366,7 @@ ani</desc>
   <programme start="20261201200000 +0800" stop="20261201220000 +0800" channel="612">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261201220000 +0800" stop="20261202090000 +0800" channel="612">
+  <programme start="20261201220000 +0800" stop="20261202000000 +0800" channel="612">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124020000 +0800" channel="613">
@@ -75644,7 +75654,7 @@ ani</desc>
   <programme start="20261201200000 +0800" stop="20261201220000 +0800" channel="613">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261201220000 +0800" stop="20261202090000 +0800" channel="613">
+  <programme start="20261201220000 +0800" stop="20261202000000 +0800" channel="613">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124010000 +0800" channel="620">
@@ -77087,7 +77097,7 @@ ani</desc>
   <programme start="20261201233000 +0800" stop="20261201234500 +0800" channel="621">
     <title lang="zh">英超金球 -第十周</title>
   </programme>
-  <programme start="20261201234500 +0800" stop="20261202104500 +0800" channel="621">
+  <programme start="20261201234500 +0800" stop="20261202000000 +0800" channel="621">
     <title lang="zh">英超金球 -第十一周</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124040000 +0800" channel="622">
@@ -77243,7 +77253,7 @@ ani</desc>
   <programme start="20261201160000 +0800" stop="20261201200000 +0800" channel="622">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261201200000 +0800" stop="20261202070000 +0800" channel="622">
+  <programme start="20261201200000 +0800" stop="20261202000000 +0800" channel="622">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124040000 +0800" channel="623">
@@ -77390,7 +77400,7 @@ ani</desc>
   <programme start="20261201160000 +0800" stop="20261201200000 +0800" channel="623">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261201200000 +0800" stop="20261202070000 +0800" channel="623">
+  <programme start="20261201200000 +0800" stop="20261202000000 +0800" channel="623">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124040000 +0800" channel="624">
@@ -77537,7 +77547,7 @@ ani</desc>
   <programme start="20261201160000 +0800" stop="20261201200000 +0800" channel="624">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261201200000 +0800" stop="20261202070000 +0800" channel="624">
+  <programme start="20261201200000 +0800" stop="20261202000000 +0800" channel="624">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124040000 +0800" channel="625">
@@ -77681,7 +77691,7 @@ ani</desc>
   <programme start="20261201160000 +0800" stop="20261201200000 +0800" channel="625">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261201200000 +0800" stop="20261202070000 +0800" channel="625">
+  <programme start="20261201200000 +0800" stop="20261202000000 +0800" channel="625">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124040000 +0800" channel="626">
@@ -77825,7 +77835,7 @@ ani</desc>
   <programme start="20261201160000 +0800" stop="20261201200000 +0800" channel="626">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261201200000 +0800" stop="20261202070000 +0800" channel="626">
+  <programme start="20261201200000 +0800" stop="20261202000000 +0800" channel="626">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124040000 +0800" channel="627">
@@ -77969,7 +77979,7 @@ ani</desc>
   <programme start="20261201160000 +0800" stop="20261201200000 +0800" channel="627">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261201200000 +0800" stop="20261202070000 +0800" channel="627">
+  <programme start="20261201200000 +0800" stop="20261202000000 +0800" channel="627">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124040000 +0800" channel="628">
@@ -78113,7 +78123,7 @@ ani</desc>
   <programme start="20261201160000 +0800" stop="20261201200000 +0800" channel="628">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261201200000 +0800" stop="20261202070000 +0800" channel="628">
+  <programme start="20261201200000 +0800" stop="20261202000000 +0800" channel="628">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124020000 +0800" channel="629">
@@ -78401,7 +78411,7 @@ ani</desc>
   <programme start="20261201200000 +0800" stop="20261201220000 +0800" channel="629">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261201220000 +0800" stop="20261202090000 +0800" channel="629">
+  <programme start="20261201220000 +0800" stop="20261202000000 +0800" channel="629">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124023000 +0800" channel="630">
@@ -78977,7 +78987,7 @@ ani</desc>
   <programme start="20261201214500 +0800" stop="20261201220000 +0800" channel="630">
     <title lang="zh">英超金球 -第十一周</title>
   </programme>
-  <programme start="20261201220000 +0800" stop="20261202090000 +0800" channel="630">
+  <programme start="20261201220000 +0800" stop="20261202000000 +0800" channel="630">
     <title lang="zh">英格兰超级联赛 -阿士东维拉 对 新特兰</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124020000 +0800" channel="631">
@@ -79412,7 +79422,7 @@ ani</desc>
   <programme start="20261201210000 +0800" stop="20261201220000 +0800" channel="631">
     <title lang="zh">PGA冠军巡回赛精华2026 -富历克高尔夫球邀请赛</title>
   </programme>
-  <programme start="20261201220000 +0800" stop="20261202090000 +0800" channel="631">
+  <programme start="20261201220000 +0800" stop="20261202000000 +0800" channel="631">
     <title lang="zh">WTA 26 清奈网球公开赛 -半准决赛(4)</title>
   </programme>
   <programme start="20261124013000 +0800" stop="20261124033000 +0800" channel="632">
@@ -80306,7 +80316,7 @@ ani</desc>
   <programme start="20261201213000 +0800" stop="20261201234500 +0800" channel="633">
     <title lang="zh">NFL 美式足球赛 26/27 -卡罗莱纳美洲豹 @ 坦帕湾海盗</title>
   </programme>
-  <programme start="20261201234500 +0800" stop="20261202104500 +0800" channel="633">
+  <programme start="20261201234500 +0800" stop="20261202000000 +0800" channel="633">
     <title lang="zh">一CUE过百 第198集</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124020000 +0800" channel="634">
@@ -80753,7 +80763,7 @@ ani</desc>
   <programme start="20261201213000 +0800" stop="20261201220000 +0800" channel="634">
     <title lang="zh">WTA全接触 第5集</title>
   </programme>
-  <programme start="20261201220000 +0800" stop="20261202090000 +0800" channel="634">
+  <programme start="20261201220000 +0800" stop="20261202000000 +0800" channel="634">
     <title lang="zh">WTA 26 广州网球公开赛 -决赛</title>
   </programme>
   <programme start="20261124014000 +0800" stop="20261124021000 +0800" channel="635">
@@ -81494,7 +81504,7 @@ ani</desc>
   <programme start="20261201210000 +0800" stop="20261201230000 +0800" channel="636">
     <title lang="zh">ATP 26 男子职业网球巡回赛年终赛 -双打准决赛(1)</title>
   </programme>
-  <programme start="20261201230000 +0800" stop="20261202100000 +0800" channel="636">
+  <programme start="20261201230000 +0800" stop="20261202000000 +0800" channel="636">
     <title lang="zh">ATP 26 精华 -上海网球大师赛</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124010000 +0800" channel="637">
@@ -82082,7 +82092,7 @@ ani</desc>
   <programme start="20261201204500 +0800" stop="20261201210000 +0800" channel="637">
     <title lang="zh">满分 147 第40集</title>
   </programme>
-  <programme start="20261201210000 +0800" stop="20261202080000 +0800" channel="637">
+  <programme start="20261201210000 +0800" stop="20261202000000 +0800" channel="637">
     <title lang="zh">英国桌球锦标赛 2026 第7集[直播]</title>
   </programme>
   <programme start="20261124003000 +0800" stop="20261124010000 +0800" channel="638">
@@ -84380,7 +84390,7 @@ ani</desc>
   <programme start="20261201200000 +0800" stop="20261201220000 +0800" channel="641">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261201220000 +0800" stop="20261202090000 +0800" channel="641">
+  <programme start="20261201220000 +0800" stop="20261202000000 +0800" channel="641">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124003000 +0800" channel="642">
@@ -85778,7 +85788,7 @@ ani</desc>
   <programme start="20261201160000 +0800" stop="20261201200000 +0800" channel="644">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261201200000 +0800" stop="20261202070000 +0800" channel="644">
+  <programme start="20261201200000 +0800" stop="20261202000000 +0800" channel="644">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124040000 +0800" channel="645">
@@ -85922,7 +85932,7 @@ ani</desc>
   <programme start="20261201160000 +0800" stop="20261201200000 +0800" channel="645">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261201200000 +0800" stop="20261202070000 +0800" channel="645">
+  <programme start="20261201200000 +0800" stop="20261202000000 +0800" channel="645">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124040000 +0800" channel="646">
@@ -86066,7 +86076,7 @@ ani</desc>
   <programme start="20261201160000 +0800" stop="20261201200000 +0800" channel="646">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261201200000 +0800" stop="20261202070000 +0800" channel="646">
+  <programme start="20261201200000 +0800" stop="20261202000000 +0800" channel="646">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124020000 +0800" channel="647">
@@ -86354,7 +86364,7 @@ ani</desc>
   <programme start="20261201200000 +0800" stop="20261201220000 +0800" channel="647">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261201220000 +0800" stop="20261202090000 +0800" channel="647">
+  <programme start="20261201220000 +0800" stop="20261202000000 +0800" channel="647">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124020000 +0800" channel="651">
@@ -86642,7 +86652,7 @@ ani</desc>
   <programme start="20261201200000 +0800" stop="20261201220000 +0800" channel="651">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261201220000 +0800" stop="20261202090000 +0800" channel="651">
+  <programme start="20261201220000 +0800" stop="20261202000000 +0800" channel="651">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261124000000 +0800" stop="20261124020000 +0800" channel="652">
@@ -86930,7 +86940,7 @@ ani</desc>
   <programme start="20261201200000 +0800" stop="20261201220000 +0800" channel="652">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261201220000 +0800" stop="20261202090000 +0800" channel="652">
+  <programme start="20261201220000 +0800" stop="20261202000000 +0800" channel="652">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261124000500 +0800" stop="20261124005000 +0800" channel="668">
@@ -87575,7 +87585,7 @@ ani</desc>
   <programme start="20261201215500 +0800" stop="20261201230000 +0800" channel="668">
     <title lang="zh">早着先机 第25集</title>
   </programme>
-  <programme start="20261201230000 +0800" stop="20261202100000 +0800" channel="668">
+  <programme start="20261201230000 +0800" stop="20261202001000 +0800" channel="668">
     <title lang="zh">赛马预测 第25集</title>
   </programme>
   <programme start="20261124020000 +0800" stop="20261124022600 +0800" channel="674">
@@ -88918,7 +88928,7 @@ ani</desc>
   <programme start="20261201183000 +0800" stop="20261201233000 +0800" channel="683">
     <title lang="zh">欧洲巡回赛26/27 澳洲PGA高尔夫球锦标赛 -第3天</title>
   </programme>
-  <programme start="20261201233000 +0800" stop="20261202103000 +0800" channel="683">
+  <programme start="20261201233000 +0800" stop="20261202000000 +0800" channel="683">
     <title lang="zh">欧洲巡回赛精华25/26 -杜拜高尔夫球巡回锦标赛</title>
   </programme>
   <programme start="20261124030000 +0800" stop="20261124033000 +0800" channel="684">
@@ -89176,7 +89186,7 @@ ani</desc>
   <programme start="20261201170000 +0800" stop="20261201200000 +0800" channel="684">
     <title lang="zh">PGA冠军巡回赛2026 嘉信理财集团高尔夫球锦标赛 -第2天</title>
   </programme>
-  <programme start="20261201200000 +0800" stop="20261202070000 +0800" channel="684">
+  <programme start="20261201200000 +0800" stop="20261202000000 +0800" channel="684">
     <title lang="zh">PGA巡回赛2026 德州奥斯汀高尔夫球锦标赛 -第5天</title>
   </programme>
   <programme start="20261124001500 +0800" stop="20261124004000 +0800" channel="711">
