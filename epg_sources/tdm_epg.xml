@@ -994,6 +994,12 @@
   <programme start="20261125235000 +0800" stop="20261126005000 +0800" channel="2">
     <title lang="zh-CN">RTPi Directo</title>
   </programme>
+  <programme start="20261126110000 +0800" stop="20261126113500 +0800" channel="2">
+    <title lang="zh-CN">Conferência de Imprensa do Conselho Executivo (Directo)</title>
+  </programme>
+  <programme start="20261126113500 +0800" stop="20261126130000 +0800" channel="2">
+    <title lang="zh-CN">RTPi Directo</title>
+  </programme>
   <programme start="20261126130000 +0800" stop="20261126143000 +0800" channel="2">
     <title lang="zh-CN">Telejornal RTPi (Diferido)</title>
   </programme>
@@ -1217,11 +1223,8 @@
   <programme start="20261130200000 +0800" stop="20261130205000 +0800" channel="2">
     <title lang="zh-CN">Telejornal</title>
   </programme>
-  <programme start="20261130205000 +0800" stop="20261130212500 +0800" channel="2">
-    <title lang="zh-CN">Semanário</title>
-  </programme>
-  <programme start="20261130212500 +0800" stop="20261130214000 +0800" channel="2">
-    <title lang="zh-CN">Passado em Foco: Macau Convivências</title>
+  <programme start="20261130205000 +0800" stop="20261130214000 +0800" channel="2">
+    <title lang="zh-CN">TDM Entrevista</title>
   </programme>
   <programme start="20261130214000 +0800" stop="20261130223500 +0800" channel="2">
     <title lang="zh-CN">Mania de Você</title>
