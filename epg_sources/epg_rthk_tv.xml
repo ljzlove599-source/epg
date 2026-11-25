@@ -1264,20 +1264,20 @@
     <desc lang="zh-Hans">第一千一百五十七集</desc>
     <url>https://www.rthk.hk/tv/dtt32/programme/hkunited</url>
   </programme>
-  <programme start="20261125020000 +0800" stop="20261125073500 +0800" channel="tv32">
+  <programme start="20261125020000 +0800" stop="20261125052800 +0800" channel="tv32">
     <title lang="zh-Hans">生活．健康．资讯</title>
     <desc lang="zh-Hans">生活．健康．资讯</desc>
   </programme>
-  <programme start="20261125073500 +0800" stop="20261125074000 +0800" channel="tv32">
-    <title lang="zh-Hans">政正关你事 - 官员讲话摘要</title>
-    <desc lang="zh-Hans">政正关你事 - 官员讲话摘要 #72 （李家超、陈国基、麦美娟、许正宇）</desc>
-    <url>https://www.rthk.hk/tv/dtt32/programme/governmentandyou</url>
+  <programme start="20261125052800 +0800" stop="20261125080500 +0800" channel="tv32">
+    <title lang="zh-Hans">寰宇直播</title>
+    <desc lang="zh-Hans">寰宇直播</desc>
   </programme>
-  <programme start="20261125074000 +0800" stop="20261125080500 +0800" channel="tv32">
-    <title lang="zh-Hans">生活．健康．资讯</title>
-    <desc lang="zh-Hans">生活．健康．资讯</desc>
+  <programme start="20261125080500 +0800" stop="20261125084000 +0800" channel="tv32">
+    <title lang="zh-Hans">千禧年代</title>
+    <desc lang="zh-Hans">千禧年代 11月25日</desc>
+    <url>https://www.rthk.hk/tv/dtt32/programme/talkabout</url>
   </programme>
-  <programme start="20261125080500 +0800" stop="20261125100000 +0800" channel="tv32">
+  <programme start="20261125084000 +0800" stop="20261125100000 +0800" channel="tv32">
     <title lang="zh-Hans">千禧年代</title>
     <desc lang="zh-Hans">千禧年代 11月25日</desc>
     <url>https://www.rthk.hk/tv/dtt32/programme/talkabout</url>
@@ -6338,6 +6338,7 @@
   </programme>
   <programme start="20261201213000 +0800" stop="20261201220000 +0800" channel="tv31">
     <title lang="zh-Hans">陪我讲-倾心诊所</title>
+    <desc lang="zh-Hans">爱的语言</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/shallwetalk_caringclinic</url>
   </programme>
   <programme start="20261201220000 +0800" stop="20261201223000 +0800" channel="tv31">
@@ -6671,8 +6672,221 @@
   <programme start="20261201231900 +0800" stop="20261202000700 +0800" channel="tv33">
     <title lang="zh-Hans">电视剧</title>
   </programme>
-  <programme start="20261201000000 +0800" stop="20261201000000 +0800" channel="tv34">
-    <title lang="zh-Hans">中国环球电视网纪录频道</title>
+  <programme start="20261201000000 +0800" stop="20261201005600 +0800" channel="tv34">
+    <title lang="zh-Hans">宁夏黄河湿地 鸟的家园1/良渚与世界文明对话·巴西</title>
+  </programme>
+  <programme start="20261201005600 +0800" stop="20261201010000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201010000 +0800" stop="20261201012700 +0800" channel="tv34">
+    <title lang="zh-Hans">出海非洲5</title>
+  </programme>
+  <programme start="20261201012700 +0800" stop="20261201013000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201013000 +0800" stop="20261201015700 +0800" channel="tv34">
+    <title lang="zh-Hans">国宝寻踪：尘封的大秦帝国2</title>
+  </programme>
+  <programme start="20261201015700 +0800" stop="20261201020000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201020000 +0800" stop="20261201025600 +0800" channel="tv34">
+    <title lang="zh-Hans">寻味东莞3</title>
+  </programme>
+  <programme start="20261201025600 +0800" stop="20261201030000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201030000 +0800" stop="20261201032700 +0800" channel="tv34">
+    <title lang="zh-Hans">洋伙伴创想记7</title>
+  </programme>
+  <programme start="20261201032700 +0800" stop="20261201033000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201033000 +0800" stop="20261201035700 +0800" channel="tv34">
+    <title lang="zh-Hans">克里斯和他的中国伙伴</title>
+  </programme>
+  <programme start="20261201035700 +0800" stop="20261201040000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201040000 +0800" stop="20261201045600 +0800" channel="tv34">
+    <title lang="zh-Hans">航拍中国第二季1</title>
+  </programme>
+  <programme start="20261201045600 +0800" stop="20261201050000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201050000 +0800" stop="20261201052700 +0800" channel="tv34">
+    <title lang="zh-Hans">朱鹮记1</title>
+  </programme>
+  <programme start="20261201052700 +0800" stop="20261201053000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201053000 +0800" stop="20261201055700 +0800" channel="tv34">
+    <title lang="zh-Hans">人生拼途1</title>
+  </programme>
+  <programme start="20261201055700 +0800" stop="20261201060000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201060000 +0800" stop="20261201065600 +0800" channel="tv34">
+    <title lang="zh-Hans">改变世界的动物伙伴——马</title>
+  </programme>
+  <programme start="20261201065600 +0800" stop="20261201070000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201070000 +0800" stop="20261201072700 +0800" channel="tv34">
+    <title lang="zh-Hans">我到丝路去1</title>
+  </programme>
+  <programme start="20261201072700 +0800" stop="20261201073000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201073000 +0800" stop="20261201075700 +0800" channel="tv34">
+    <title lang="zh-Hans">千帆之下1</title>
+  </programme>
+  <programme start="20261201075700 +0800" stop="20261201080000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201080000 +0800" stop="20261201085600 +0800" channel="tv34">
+    <title lang="zh-Hans">鲜生史第二季1/2</title>
+  </programme>
+  <programme start="20261201085600 +0800" stop="20261201090000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201090000 +0800" stop="20261201092700 +0800" channel="tv34">
+    <title lang="zh-Hans">高原青春狂想曲Ⅱ1</title>
+  </programme>
+  <programme start="20261201092700 +0800" stop="20261201093000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201093000 +0800" stop="20261201095700 +0800" channel="tv34">
+    <title lang="zh-Hans">之江故事1</title>
+  </programme>
+  <programme start="20261201095700 +0800" stop="20261201100000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201100000 +0800" stop="20261201105600 +0800" channel="tv34">
+    <title lang="zh-Hans">航拍中国第二季1</title>
+  </programme>
+  <programme start="20261201105600 +0800" stop="20261201110000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201110000 +0800" stop="20261201112700 +0800" channel="tv34">
+    <title lang="zh-Hans">朱鹮记1</title>
+  </programme>
+  <programme start="20261201112700 +0800" stop="20261201113000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201113000 +0800" stop="20261201115700 +0800" channel="tv34">
+    <title lang="zh-Hans">人生拼途1</title>
+  </programme>
+  <programme start="20261201115700 +0800" stop="20261201120000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201120000 +0800" stop="20261201125600 +0800" channel="tv34">
+    <title lang="zh-Hans">改变世界的动物伙伴——马</title>
+  </programme>
+  <programme start="20261201125600 +0800" stop="20261201130000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201130000 +0800" stop="20261201132700 +0800" channel="tv34">
+    <title lang="zh-Hans">我到丝路去1</title>
+  </programme>
+  <programme start="20261201132700 +0800" stop="20261201133000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201133000 +0800" stop="20261201135700 +0800" channel="tv34">
+    <title lang="zh-Hans">千帆之下1</title>
+  </programme>
+  <programme start="20261201135700 +0800" stop="20261201140000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201140000 +0800" stop="20261201145600 +0800" channel="tv34">
+    <title lang="zh-Hans">鲜生史第二季1/2</title>
+  </programme>
+  <programme start="20261201145600 +0800" stop="20261201150000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201150000 +0800" stop="20261201152700 +0800" channel="tv34">
+    <title lang="zh-Hans">高原青春狂想曲Ⅱ1</title>
+  </programme>
+  <programme start="20261201152700 +0800" stop="20261201153000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201153000 +0800" stop="20261201155700 +0800" channel="tv34">
+    <title lang="zh-Hans">之江故事1</title>
+  </programme>
+  <programme start="20261201155700 +0800" stop="20261201160000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201160000 +0800" stop="20261201165600 +0800" channel="tv34">
+    <title lang="zh-Hans">航拍中国第二季1</title>
+  </programme>
+  <programme start="20261201165600 +0800" stop="20261201170000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201170000 +0800" stop="20261201172700 +0800" channel="tv34">
+    <title lang="zh-Hans">朱鹮记1</title>
+  </programme>
+  <programme start="20261201172700 +0800" stop="20261201173000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201173000 +0800" stop="20261201175700 +0800" channel="tv34">
+    <title lang="zh-Hans">人生拼途1</title>
+  </programme>
+  <programme start="20261201175700 +0800" stop="20261201180000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201180000 +0800" stop="20261201185600 +0800" channel="tv34">
+    <title lang="zh-Hans">改变世界的动物伙伴——马</title>
+  </programme>
+  <programme start="20261201185600 +0800" stop="20261201190000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201190000 +0800" stop="20261201192700 +0800" channel="tv34">
+    <title lang="zh-Hans">我到丝路去1</title>
+  </programme>
+  <programme start="20261201192700 +0800" stop="20261201193000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201193000 +0800" stop="20261201195700 +0800" channel="tv34">
+    <title lang="zh-Hans">千帆之下1</title>
+  </programme>
+  <programme start="20261201195700 +0800" stop="20261201200000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201200000 +0800" stop="20261201205600 +0800" channel="tv34">
+    <title lang="zh-Hans">鲜生史第二季1/2</title>
+  </programme>
+  <programme start="20261201205600 +0800" stop="20261201210000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201210000 +0800" stop="20261201212700 +0800" channel="tv34">
+    <title lang="zh-Hans">高原青春狂想曲Ⅱ1</title>
+  </programme>
+  <programme start="20261201212700 +0800" stop="20261201213000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201213000 +0800" stop="20261201215700 +0800" channel="tv34">
+    <title lang="zh-Hans">之江故事1</title>
+  </programme>
+  <programme start="20261201215700 +0800" stop="20261201220000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201220000 +0800" stop="20261201225600 +0800" channel="tv34">
+    <title lang="zh-Hans">航拍中国第二季1</title>
+  </programme>
+  <programme start="20261201225600 +0800" stop="20261201230000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201230000 +0800" stop="20261201232700 +0800" channel="tv34">
+    <title lang="zh-Hans">朱鹮记1</title>
+  </programme>
+  <programme start="20261201232700 +0800" stop="20261201233000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261201233000 +0800" stop="20261201235700 +0800" channel="tv34">
+    <title lang="zh-Hans">人生拼途1</title>
+  </programme>
+  <programme start="20261201235700 +0800" stop="20261202000000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
   </programme>
   <programme start="20261201000000 +0800" stop="20261201010000 +0800" channel="tv35">
     <title lang="zh-Hans">Global Business</title>
@@ -6816,6 +7030,7 @@
   </programme>
   <programme start="20261202003000 +0800" stop="20261202010000 +0800" channel="tv31">
     <title lang="zh-Hans">陪我讲-倾心诊所</title>
+    <desc lang="zh-Hans">爱的语言</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/shallwetalk_caringclinic</url>
   </programme>
   <programme start="20261202010000 +0800" stop="20261202020000 +0800" channel="tv31">
@@ -6848,6 +7063,7 @@
   </programme>
   <programme start="20261202053000 +0800" stop="20261202060000 +0800" channel="tv31">
     <title lang="zh-Hans">陪我讲-倾心诊所</title>
+    <desc lang="zh-Hans">爱的语言</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/shallwetalk_caringclinic</url>
   </programme>
   <programme start="20261202060000 +0800" stop="20261202063000 +0800" channel="tv31">
@@ -6890,6 +7106,7 @@
   <programme start="20261202100000 +0800" stop="20261202140000 +0800" channel="tv31">
     <title lang="zh-Hans">2026年成都国际乒联混合团体世界杯</title>
     <desc lang="zh-Hans">12月2日日间赛事</desc>
+    <url>https://www.rthk.hk/tv/dtt31/programme/ittfmtwc2026chengdu</url>
   </programme>
   <programme start="20261202140000 +0800" stop="20261202140500 +0800" channel="tv31">
     <title lang="zh-Hans">政正关你事 - 官员讲话摘要</title>
@@ -6902,6 +7119,7 @@
   </programme>
   <programme start="20261202150000 +0800" stop="20261202153500 +0800" channel="tv31">
     <title lang="zh-Hans">陪我讲-倾心诊所</title>
+    <desc lang="zh-Hans">爱的语言</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/shallwetalk_caringclinic</url>
   </programme>
   <programme start="20261202153500 +0800" stop="20261202160500 +0800" channel="tv31">
@@ -7304,8 +7522,221 @@
   <programme start="20261202232000 +0800" stop="20261203000700 +0800" channel="tv33">
     <title lang="zh-Hans">电视剧</title>
   </programme>
-  <programme start="20261202000000 +0800" stop="20261202000000 +0800" channel="tv34">
-    <title lang="zh-Hans">中国环球电视网纪录频道</title>
+  <programme start="20261202000000 +0800" stop="20261202005600 +0800" channel="tv34">
+    <title lang="zh-Hans">改变世界的动物伙伴——马</title>
+  </programme>
+  <programme start="20261202005600 +0800" stop="20261202010000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202010000 +0800" stop="20261202012700 +0800" channel="tv34">
+    <title lang="zh-Hans">我到丝路去1</title>
+  </programme>
+  <programme start="20261202012700 +0800" stop="20261202013000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202013000 +0800" stop="20261202015700 +0800" channel="tv34">
+    <title lang="zh-Hans">千帆之下1</title>
+  </programme>
+  <programme start="20261202015700 +0800" stop="20261202020000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202020000 +0800" stop="20261202025600 +0800" channel="tv34">
+    <title lang="zh-Hans">鲜生史第二季1/2</title>
+  </programme>
+  <programme start="20261202025600 +0800" stop="20261202030000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202030000 +0800" stop="20261202032700 +0800" channel="tv34">
+    <title lang="zh-Hans">高原青春狂想曲Ⅱ1</title>
+  </programme>
+  <programme start="20261202032700 +0800" stop="20261202033000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202033000 +0800" stop="20261202035700 +0800" channel="tv34">
+    <title lang="zh-Hans">之江故事1</title>
+  </programme>
+  <programme start="20261202035700 +0800" stop="20261202040000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202040000 +0800" stop="20261202045600 +0800" channel="tv34">
+    <title lang="zh-Hans">航拍中国第二季2</title>
+  </programme>
+  <programme start="20261202045600 +0800" stop="20261202050000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202050000 +0800" stop="20261202052700 +0800" channel="tv34">
+    <title lang="zh-Hans">朱鹮记2</title>
+  </programme>
+  <programme start="20261202052700 +0800" stop="20261202053000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202053000 +0800" stop="20261202055700 +0800" channel="tv34">
+    <title lang="zh-Hans">人生拼途2</title>
+  </programme>
+  <programme start="20261202055700 +0800" stop="20261202060000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202060000 +0800" stop="20261202065600 +0800" channel="tv34">
+    <title lang="zh-Hans">新沂蒙 1</title>
+  </programme>
+  <programme start="20261202065600 +0800" stop="20261202070000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202070000 +0800" stop="20261202072700 +0800" channel="tv34">
+    <title lang="zh-Hans">我到丝路去2</title>
+  </programme>
+  <programme start="20261202072700 +0800" stop="20261202073000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202073000 +0800" stop="20261202075700 +0800" channel="tv34">
+    <title lang="zh-Hans">千帆之下2</title>
+  </programme>
+  <programme start="20261202075700 +0800" stop="20261202080000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202080000 +0800" stop="20261202085600 +0800" channel="tv34">
+    <title lang="zh-Hans">鲜生史第二季3/4</title>
+  </programme>
+  <programme start="20261202085600 +0800" stop="20261202090000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202090000 +0800" stop="20261202092700 +0800" channel="tv34">
+    <title lang="zh-Hans">高原青春狂想曲Ⅱ2</title>
+  </programme>
+  <programme start="20261202092700 +0800" stop="20261202093000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202093000 +0800" stop="20261202095700 +0800" channel="tv34">
+    <title lang="zh-Hans">之江故事2</title>
+  </programme>
+  <programme start="20261202095700 +0800" stop="20261202100000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202100000 +0800" stop="20261202105600 +0800" channel="tv34">
+    <title lang="zh-Hans">航拍中国第二季2</title>
+  </programme>
+  <programme start="20261202105600 +0800" stop="20261202110000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202110000 +0800" stop="20261202112700 +0800" channel="tv34">
+    <title lang="zh-Hans">朱鹮记2</title>
+  </programme>
+  <programme start="20261202112700 +0800" stop="20261202113000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202113000 +0800" stop="20261202115700 +0800" channel="tv34">
+    <title lang="zh-Hans">人生拼途2</title>
+  </programme>
+  <programme start="20261202115700 +0800" stop="20261202120000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202120000 +0800" stop="20261202125600 +0800" channel="tv34">
+    <title lang="zh-Hans">新沂蒙 1</title>
+  </programme>
+  <programme start="20261202125600 +0800" stop="20261202130000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202130000 +0800" stop="20261202132700 +0800" channel="tv34">
+    <title lang="zh-Hans">我到丝路去2</title>
+  </programme>
+  <programme start="20261202132700 +0800" stop="20261202133000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202133000 +0800" stop="20261202135700 +0800" channel="tv34">
+    <title lang="zh-Hans">千帆之下2</title>
+  </programme>
+  <programme start="20261202135700 +0800" stop="20261202140000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202140000 +0800" stop="20261202145600 +0800" channel="tv34">
+    <title lang="zh-Hans">鲜生史第二季3/4</title>
+  </programme>
+  <programme start="20261202145600 +0800" stop="20261202150000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202150000 +0800" stop="20261202152700 +0800" channel="tv34">
+    <title lang="zh-Hans">高原青春狂想曲Ⅱ2</title>
+  </programme>
+  <programme start="20261202152700 +0800" stop="20261202153000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202153000 +0800" stop="20261202155700 +0800" channel="tv34">
+    <title lang="zh-Hans">之江故事2</title>
+  </programme>
+  <programme start="20261202155700 +0800" stop="20261202160000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202160000 +0800" stop="20261202165600 +0800" channel="tv34">
+    <title lang="zh-Hans">航拍中国第二季2</title>
+  </programme>
+  <programme start="20261202165600 +0800" stop="20261202170000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202170000 +0800" stop="20261202172700 +0800" channel="tv34">
+    <title lang="zh-Hans">朱鹮记2</title>
+  </programme>
+  <programme start="20261202172700 +0800" stop="20261202173000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202173000 +0800" stop="20261202175700 +0800" channel="tv34">
+    <title lang="zh-Hans">人生拼途2</title>
+  </programme>
+  <programme start="20261202175700 +0800" stop="20261202180000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202180000 +0800" stop="20261202185600 +0800" channel="tv34">
+    <title lang="zh-Hans">新沂蒙 1</title>
+  </programme>
+  <programme start="20261202185600 +0800" stop="20261202190000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202190000 +0800" stop="20261202192700 +0800" channel="tv34">
+    <title lang="zh-Hans">我到丝路去2</title>
+  </programme>
+  <programme start="20261202192700 +0800" stop="20261202193000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202193000 +0800" stop="20261202195700 +0800" channel="tv34">
+    <title lang="zh-Hans">千帆之下2</title>
+  </programme>
+  <programme start="20261202195700 +0800" stop="20261202200000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202200000 +0800" stop="20261202205600 +0800" channel="tv34">
+    <title lang="zh-Hans">鲜生史第二季3/4</title>
+  </programme>
+  <programme start="20261202205600 +0800" stop="20261202210000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202210000 +0800" stop="20261202212700 +0800" channel="tv34">
+    <title lang="zh-Hans">高原青春狂想曲Ⅱ2</title>
+  </programme>
+  <programme start="20261202212700 +0800" stop="20261202213000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202213000 +0800" stop="20261202215700 +0800" channel="tv34">
+    <title lang="zh-Hans">之江故事2</title>
+  </programme>
+  <programme start="20261202215700 +0800" stop="20261202220000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202220000 +0800" stop="20261202225600 +0800" channel="tv34">
+    <title lang="zh-Hans">航拍中国第二季2</title>
+  </programme>
+  <programme start="20261202225600 +0800" stop="20261202230000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202230000 +0800" stop="20261202232700 +0800" channel="tv34">
+    <title lang="zh-Hans">朱鹮记2</title>
+  </programme>
+  <programme start="20261202232700 +0800" stop="20261202233000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
+  </programme>
+  <programme start="20261202233000 +0800" stop="20261202235700 +0800" channel="tv34">
+    <title lang="zh-Hans">人生拼途2</title>
+  </programme>
+  <programme start="20261202235700 +0800" stop="20261203000000 +0800" channel="tv34">
+    <title lang="zh-Hans">频道导视(英)</title>
   </programme>
   <programme start="20261202000000 +0800" stop="20261202010000 +0800" channel="tv35">
     <title lang="zh-Hans">Global Business</title>

@@ -4,12 +4,9 @@
 正在抓取节目单并生成 XML 文件...
 频道 民视HD (6) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=6&w=1]:  (HTTP 500)
 频道 公视(HD) (13) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=13&w=1]:  (HTTP 500)
-频道 公视台语台HD (14) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=14&w=1]:  (HTTP 500)
 已处理 10 / 185 个频道
-频道 公视儿少台HD (98) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=98&w=1]:  (HTTP 500)
 已处理 20 / 185 个频道
 已处理 30 / 185 个频道
-频道 爱尔达体育4台 (203) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=203&w=1]:  (HTTP 500)
 频道 博斯高球一台 (204) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=204&w=1]:  (HTTP 500)
 频道 博斯高球二台 (205) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=205&w=1]:  (HTTP 500)
 频道 博斯网球HD (206) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=206&w=1]:  (HTTP 500)
@@ -35,7 +32,6 @@
 已处理 120 / 185 个频道
 频道 东森购物1台HD (396) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=396&w=1]:  (HTTP 500)
 频道 东森购物4台HD (399) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=399&w=1]:  (HTTP 500)
-频道 寰宇新闻HD (501) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=501&w=1]:  (HTTP 500)
 已处理 130 / 185 个频道
 频道 东森购物5台HD (546) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=546&w=1]:  (HTTP 500)
 已处理 140 / 185 个频道
@@ -54,4 +50,4 @@
 生成完成
 文件路径：/home/runner/work/epg/epg/epg_sources/mod_epg.xml
 频道数量：185 个
-文件大小：11932.89 KB
+文件大小：12072.91 KB

@@ -26870,7 +26870,6 @@
   </programme>
   <programme start="20261126010000 +0800" stop="20261126031500 +0800" channel="68">
     <title lang="zh-CN">从地心窜出4</title>
-    <desc lang="zh-CN">西部矿镇遭地底怪物袭击，矿场主人海勒姆与居民联手反击，想办法除掉致命巨虫。</desc>
   </programme>
   <programme start="20261126031500 +0800" stop="20261126050000 +0800" channel="68">
     <title lang="zh-CN">反暴特战队</title>
@@ -26908,7 +26907,6 @@
   </programme>
   <programme start="20261126203000 +0800" stop="20261126224500 +0800" channel="68">
     <title lang="zh-CN">从地心窜出4</title>
-    <desc lang="zh-CN">西部矿镇遭地底怪物袭击，矿场主人海勒姆与居民联手反击，想办法除掉致命巨虫。</desc>
   </programme>
   <programme start="20261126224500 +0800" stop="20261127004500 +0800" channel="68">
     <title lang="zh-CN">浴血任务2</title>
@@ -26927,8 +26925,8 @@
     <desc lang="zh-CN">陨石撞击月球后使其偏离轨道，一群科学家与太空人必须想办法阻止月球撞向地球。</desc>
   </programme>
   <programme start="20261127070000 +0800" stop="20261127090000 +0800" channel="68">
-    <title lang="zh-CN">锁命横财</title>
-    <desc lang="zh-CN">一对夫妻发现死亡房客留下巨款，私藏后却引来犯罪集团追杀，生活陷入危险。</desc>
+    <title lang="zh-CN">天龙战警</title>
+    <desc lang="zh-CN">退休缉毒探员返乡后发现贩毒集团横行，当家人受到威胁，他决定挺身反击。</desc>
   </programme>
   <programme start="20261127090000 +0800" stop="20261127100000 +0800" channel="68">
     <title lang="zh-CN">乐活新观点</title>
@@ -26958,18 +26956,19 @@
   </programme>
   <programme start="20261127214500 +0800" stop="20261127234500 +0800" channel="68">
     <title lang="zh-CN">最后的猎物</title>
+    <desc lang="zh-CN">夫妻为躲避武装组织追杀搭机逃难，飞机却坠落荒野，他们必须躲避追兵与野兽求生。</desc>
   </programme>
   <programme start="20261127234500 +0800" stop="20261128024500 +0800" channel="68">
     <title lang="zh-CN">左轮百合</title>
     <desc lang="zh-CN">大正时代的前女间谍百合挺身救下一名遭追杀的少年，两人携手对抗追兵与军方势力。</desc>
   </programme>
   <programme start="20261128024500 +0800" stop="20261128050000 +0800" channel="68">
-    <title lang="zh-CN">火线正义</title>
-    <desc lang="zh-CN">男子的妻女在劫机事件中丧命，面对难以平息的伤痛，他追查恐怖分子并寻求正义。</desc>
+    <title lang="zh-CN">妇仇者联盟</title>
+    <desc lang="zh-CN">三名女子发现自己都遭同一名花心男子欺骗，决定联手设计复仇，展开一连串爆笑行动。</desc>
   </programme>
   <programme start="20261128050000 +0800" stop="20261128070000 +0800" channel="68">
-    <title lang="zh-CN">战俘</title>
-    <desc lang="zh-CN">二战太平洋战场的战俘题材动作战争片，英国空军军官在巴丹半岛上空被击落后落入日军战俘营，被营区指挥官逼迫与最强的战士搏斗取乐，并与战俘同伴策划逃脱。</desc>
+    <title lang="zh-CN">天龙战警</title>
+    <desc lang="zh-CN">退休缉毒探员返乡后发现贩毒集团横行，当家人受到威胁，他决定挺身反击。</desc>
   </programme>
   <programme start="20261128070000 +0800" stop="20261128090000 +0800" channel="68">
     <title lang="zh-CN">火线正义</title>
@@ -26997,35 +26996,34 @@
     <title lang="zh-CN">功夫</title>
     <desc lang="zh-CN">街头混混阿星假冒斧头帮敲诈猪笼城寨，意外卷入帮派与隐世武林高手之间的大战。</desc>
   </programme>
-  <programme start="20261128191500 +0800" stop="20261128213000 +0800" channel="68">
-    <title lang="zh-CN">最后目击</title>
-    <desc lang="zh-CN">男子的妻子在加油站离奇失踪，他在警方怀疑与时间压力下四处追查，试图救回妻子。</desc>
+  <programme start="20261128191500 +0800" stop="20261128220000 +0800" channel="68">
+    <title lang="zh-CN">捍卫战士-独行侠</title>
   </programme>
-  <programme start="20261128213000 +0800" stop="20261129003000 +0800" channel="68">
+  <programme start="20261128220000 +0800" stop="20261129004500 +0800" channel="68">
     <title lang="zh-CN">中途岛</title>
     <desc lang="zh-CN">二次世界大战期间，美日双方在太平洋中途岛附近交战，美军官兵面对决定战局的关键海战。</desc>
   </programme>
-  <programme start="20261129003000 +0800" stop="20261129024500 +0800" channel="68">
+  <programme start="20261129004500 +0800" stop="20261129030000 +0800" channel="68">
     <title lang="zh-CN">终极战士</title>
     <desc lang="zh-CN">一支精锐部队深入中美洲丛林执行任务，却遭到神秘外星猎手追杀，展开生死搏斗。</desc>
   </programme>
-  <programme start="20261129024500 +0800" stop="20261129050000 +0800" channel="68">
-    <title lang="zh-CN">妇仇者联盟</title>
-    <desc lang="zh-CN">三名女子发现自己都遭同一名花心男子欺骗，决定联手设计复仇，展开一连串爆笑行动。</desc>
+  <programme start="20261129030000 +0800" stop="20261129050000 +0800" channel="68">
+    <title lang="zh-CN">火线正义</title>
+    <desc lang="zh-CN">男子的妻女在劫机事件中丧命，面对难以平息的伤痛，他追查恐怖分子并寻求正义。</desc>
   </programme>
-  <programme start="20261129050000 +0800" stop="20261129070000 +0800" channel="68">
-    <title lang="zh-CN">天龙战警</title>
-    <desc lang="zh-CN">退休缉毒探员返乡后发现贩毒集团横行，当家人受到威胁，他决定挺身反击。</desc>
+  <programme start="20261129050000 +0800" stop="20261129060000 +0800" channel="68">
+    <title lang="zh-CN">电影万花筒</title>
   </programme>
-  <programme start="20261129070000 +0800" stop="20261129090000 +0800" channel="68">
-    <title lang="zh-CN">浴血任务2</title>
-    <desc lang="zh-CN">佣兵团执行任务时遭敌人伏击并失去伙伴，众人决定追击凶手，阻止危险武器落入敌手。</desc>
+  <programme start="20261129060000 +0800" stop="20261129090000 +0800" channel="68">
+    <title lang="zh-CN">中途岛</title>
+    <desc lang="zh-CN">二次世界大战期间，美日双方在太平洋中途岛附近交战，美军官兵面对决定战局的关键海战。</desc>
   </programme>
   <programme start="20261129090000 +0800" stop="20261129100000 +0800" channel="68">
     <title lang="zh-CN">乐活新观点</title>
   </programme>
   <programme start="20261129100000 +0800" stop="20261129114500 +0800" channel="68">
     <title lang="zh-CN">最后的猎物</title>
+    <desc lang="zh-CN">夫妻为躲避武装组织追杀搭机逃难，飞机却坠落荒野，他们必须躲避追兵与野兽求生。</desc>
   </programme>
   <programme start="20261129114500 +0800" stop="20261129140000 +0800" channel="68">
     <title lang="zh-CN">终极战士</title>
@@ -27038,108 +27036,69 @@
     <title lang="zh-CN">双向劫杀</title>
     <desc lang="zh-CN">出狱男子为履行对女子母亲的承诺带走黑帮老大的女儿，遭黑道与冷血杀手追击。</desc>
   </programme>
-  <programme start="20261129170000 +0800" stop="20261129200000 +0800" channel="68">
-    <title lang="zh-CN">中途岛</title>
-    <desc lang="zh-CN">二次世界大战期间，美日双方在太平洋中途岛附近交战，美军官兵面对决定战局的关键海战。</desc>
+  <programme start="20261129170000 +0800" stop="20261129194500 +0800" channel="68">
+    <title lang="zh-CN">捍卫战士-独行侠</title>
   </programme>
-  <programme start="20261129200000 +0800" stop="20261129221500 +0800" channel="68">
+  <programme start="20261129194500 +0800" stop="20261129220000 +0800" channel="68">
     <title lang="zh-CN">终极战士-掠夺者</title>
     <desc lang="zh-CN">外星猎人的科技落入地球，一群退伍军人与科学家联手对抗入侵者，阻止致命的猎杀。</desc>
   </programme>
-  <programme start="20261129221500 +0800" stop="20261130003000 +0800" channel="68">
+  <programme start="20261129220000 +0800" stop="20261130001500 +0800" channel="68">
     <title lang="zh-CN">捍卫战线</title>
     <desc lang="zh-CN">英国占领埃及期间，英军士兵引发冲突，亚历山大港警局的埃及守军奋力抵抗英军围攻。</desc>
   </programme>
-  <programme start="20261130003000 +0800" stop="20261130030000 +0800" channel="68">
+  <programme start="20261130001500 +0800" stop="20261130024500 +0800" channel="68">
     <title lang="zh-CN">侠盗联盟</title>
     <desc lang="zh-CN">珠宝大盗出狱后召集伙伴在欧洲策划连环窃案，同时躲避紧追不舍的法国警探。</desc>
   </programme>
-  <programme start="20261130030000 +0800" stop="20261130050000 +0800" channel="68">
-    <title lang="zh-CN">天龙战警</title>
-    <desc lang="zh-CN">退休缉毒探员返乡后发现贩毒集团横行，当家人受到威胁，他决定挺身反击。</desc>
+  <programme start="20261130024500 +0800" stop="20261130050000 +0800" channel="68">
+    <title lang="zh-CN">战俘</title>
+    <desc lang="zh-CN">二战太平洋战场的战俘题材动作战争片，英国空军军官在巴丹半岛上空被击落后落入日军战俘营，被营区指挥官逼迫与最强的战士搏斗取乐，并与战俘同伴策划逃脱。</desc>
   </programme>
-  <programme start="20261130050000 +0800" stop="20261130064500 +0800" channel="68">
-    <title lang="zh-CN">最后的猎物</title>
+  <programme start="20261130050000 +0800" stop="20261201050000 +0800" channel="68">
+    <title lang="zh-CN">休播</title>
   </programme>
-  <programme start="20261130064500 +0800" stop="20261130090000 +0800" channel="68">
-    <title lang="zh-CN">终极战士-掠夺者</title>
-    <desc lang="zh-CN">外星猎人的科技落入地球，一群退伍军人与科学家联手对抗入侵者，阻止致命的猎杀。</desc>
+  <programme start="20261201050000 +0800" stop="20261201070000 +0800" channel="68">
+    <title lang="zh-CN">战无不胜</title>
+    <desc lang="zh-CN">隐居墨西哥的男子教导少年武术，当危险的过去找上门，他为保护少年与自己奋力反击。</desc>
   </programme>
-  <programme start="20261130090000 +0800" stop="20261130100000 +0800" channel="68">
-    <title lang="zh-CN">乐活新观点</title>
-  </programme>
-  <programme start="20261130100000 +0800" stop="20261130111500 +0800" channel="68">
-    <title lang="zh-CN">战狼堡垒–救赎之路</title>
-    <desc lang="zh-CN">未来世界战火四起，战狼部队与昔日战友携手执行任务，在危机中寻找突围与救赎之路。</desc>
-  </programme>
-  <programme start="20261130111500 +0800" stop="20261130140000 +0800" channel="68">
-    <title lang="zh-CN">神鬼传奇</title>
-    <desc lang="zh-CN">冒险家欧康纳与埃及学家寻找古城宝藏，意外唤醒遭诅咒的木乃伊，必须阻止灾难。</desc>
-  </programme>
-  <programme start="20261130140000 +0800" stop="20261130150000 +0800" channel="68">
-    <title lang="zh-CN">乐活新观点</title>
-  </programme>
-  <programme start="20261130150000 +0800" stop="20261130170000 +0800" channel="68">
-    <title lang="zh-CN">士兵突击队</title>
-    <desc lang="zh-CN">土耳其特种部队深入伊拉克营救遭绑架的记者，途中面临恐怖分子威胁与保护村民的抉择。</desc>
-  </programme>
-  <programme start="20261130170000 +0800" stop="20261130194500 +0800" channel="68">
-    <title lang="zh-CN">战马一号</title>
-    <desc lang="zh-CN">海豹部队的直升机在阿富汗遭击落，幸存军人带着一名小女孩穿越险境，躲避叛军追捕。</desc>
-  </programme>
-  <programme start="20261130194500 +0800" stop="20261130214500 +0800" channel="68">
-    <title lang="zh-CN">赎命杀神</title>
-    <desc lang="zh-CN">退休警探受老友之托担任女儿的保镳，当女子遭绑架时，他挺身追查并展开营救。</desc>
-  </programme>
-  <programme start="20261130214500 +0800" stop="20261201000000 +0800" channel="68">
-    <title lang="zh-CN">逃出封锁线</title>
-    <desc lang="zh-CN">飞行员的飞机迫降敌境后，必须忍受严寒与饥饿，躲避敌军追捕，在荒野中寻找生路。</desc>
-  </programme>
-  <programme start="20261201000000 +0800" stop="20261201024500 +0800" channel="68">
-    <title lang="zh-CN">神鬼传奇</title>
-    <desc lang="zh-CN">冒险家欧康纳与埃及学家寻找古城宝藏，意外唤醒遭诅咒的木乃伊，必须阻止灾难。</desc>
-  </programme>
-  <programme start="20261201024500 +0800" stop="20261201050000 +0800" channel="68">
-    <title lang="zh-CN">危险性追缉</title>
-    <desc lang="zh-CN">一名音乐家救起在路边受伤的年轻女子，两个背负伤痛的人在相处中面对各自的人生困境。</desc>
-  </programme>
-  <programme start="20261201050000 +0800" stop="20261201064500 +0800" channel="68">
-    <title lang="zh-CN">最后的猎物</title>
-  </programme>
-  <programme start="20261201064500 +0800" stop="20261201090000 +0800" channel="68">
-    <title lang="zh-CN">重击防线</title>
-    <desc lang="zh-CN">边境小镇警长得知危险罪犯即将逃经此地，集结同仁设防，决心阻止对方逃脱。</desc>
+  <programme start="20261201070000 +0800" stop="20261201090000 +0800" channel="68">
+    <title lang="zh-CN">铁猴子传奇之怒火狼牙</title>
+    <desc lang="zh-CN">京城出现针对洋人的连环杀案，铁猴子杨天淳追查真相，却发现凶手与自己有深厚渊源。</desc>
   </programme>
   <programme start="20261201090000 +0800" stop="20261201100000 +0800" channel="68">
+    <title lang="zh-CN">乐活新观点</title>
+  </programme>
+  <programme start="20261201100000 +0800" stop="20261201103000 +0800" channel="68">
     <title lang="zh-CN">绝命塔罗牌幕后花絮</title>
     <desc lang="zh-CN">介绍恐怖电影《绝命塔罗牌》的幕后制作，带观众了解影片创作与拍摄过程。</desc>
   </programme>
-  <programme start="20261201100000 +0800" stop="20261201111500 +0800" channel="68">
-    <title lang="zh-CN">战狼堡垒–袭击者</title>
-    <desc lang="zh-CN">未来世界陷入动荡，战狼部队在行动受挫后追查神秘攻击者，并面对敌人的先进武装。</desc>
+  <programme start="20261201103000 +0800" stop="20261201110000 +0800" channel="68">
+    <title lang="zh-CN">绝地战警FOR LIFE幕后花絮</title>
   </programme>
-  <programme start="20261201111500 +0800" stop="20261201140000 +0800" channel="68">
-    <title lang="zh-CN">天劫倒数</title>
-    <desc lang="zh-CN">毁灭性彗星碎片即将撞击地球，一家人冒险穿越混乱地区，努力前往地下避难所。</desc>
+  <programme start="20261201110000 +0800" stop="20261201140000 +0800" channel="68">
+    <title lang="zh-CN">极盗战</title>
+    <desc lang="zh-CN">洛杉矶警探率精锐小组追缉银行抢匪，双方在一场针对联邦储备银行的劫案中展开对决。</desc>
   </programme>
   <programme start="20261201140000 +0800" stop="20261201150000 +0800" channel="68">
     <title lang="zh-CN">乐活新观点</title>
   </programme>
   <programme start="20261201150000 +0800" stop="20261201170000 +0800" channel="68">
-    <title lang="zh-CN">冲出封锁线4</title>
-    <desc lang="zh-CN">海豹特遣队在非洲执行秘密任务时发现非法武器交易，必须在有限时间内阻止危机。</desc>
+    <title lang="zh-CN">行动代号-叙利亚渗透计画</title>
+    <desc lang="zh-CN">俄罗斯军人前往叙利亚执行危险行动，面对恐怖分子追击，必须与昔日敌人合作求生。</desc>
   </programme>
-  <programme start="20261201170000 +0800" stop="20261201194500 +0800" channel="68">
-    <title lang="zh-CN">战略杀手</title>
-    <desc lang="zh-CN">核武专家与军方人员联手追查失窃的核弹，在争分夺秒的行动中阻止恐怖攻击。</desc>
+  <programme start="20261201170000 +0800" stop="20261201191500 +0800" channel="68">
+    <title lang="zh-CN">从地心窜出4</title>
   </programme>
-  <programme start="20261201194500 +0800" stop="20261201221500 +0800" channel="68">
-    <title lang="zh-CN">空中救援</title>
-    <desc lang="zh-CN">空中警卫在跨洋班机上收到匿名威胁，必须在飞机降落前找出藏身乘客之间的凶手。</desc>
+  <programme start="20261201191500 +0800" stop="20261201211500 +0800" channel="68">
+    <title lang="zh-CN">危墙狙击</title>
   </programme>
-  <programme start="20261201221500 +0800" stop="20261202001500 +0800" channel="68">
-    <title lang="zh-CN">风暴来袭-战火蔓延</title>
-    <desc lang="zh-CN">荷属海岛遭到攻击，三名年轻军团新兵必须迅速适应战场，为保护民众和家园奋战。</desc>
+  <programme start="20261201211500 +0800" stop="20261201231500 +0800" channel="68">
+    <title lang="zh-CN">史密斯先生</title>
+    <desc lang="zh-CN">神秘男子史密斯出手保护一名遭追杀的婴儿，与伙伴联手对抗杀手，揭开背后的阴谋。</desc>
+  </programme>
+  <programme start="20261201231500 +0800" stop="20261202020000 +0800" channel="68">
+    <title lang="zh-CN">猎杀战场</title>
   </programme>
   <programme start="20261125014000 +0800" stop="20261125030000 +0800" channel="70">
     <title lang="zh-CN">惊声尖笑2</title>
