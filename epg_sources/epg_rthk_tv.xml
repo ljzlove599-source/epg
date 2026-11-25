@@ -1337,7 +1337,11 @@
     <title lang="zh-Hans">新闻简报</title>
     <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
   </programme>
-  <programme start="20261125130700 +0800" stop="20261125132000 +0800" channel="tv32">
+  <programme start="20261125130700 +0800" stop="20261125131400 +0800" channel="tv32">
+    <title lang="zh-Hans">立法会大会 (口头质询)</title>
+    <desc lang="zh-Hans">立法会大会 (口头质询)</desc>
+  </programme>
+  <programme start="20261125131400 +0800" stop="20261125132000 +0800" channel="tv32">
     <title lang="zh-Hans">生活．健康．资讯</title>
     <desc lang="zh-Hans">生活．健康．资讯</desc>
   </programme>
@@ -1350,7 +1354,15 @@
     <title lang="zh-Hans">新闻简报</title>
     <url>https://www.rthk.hk/tv/dtt32/programme/newshighlights</url>
   </programme>
-  <programme start="20261125133700 +0800" stop="20261125140000 +0800" channel="tv32">
+  <programme start="20261125133700 +0800" stop="20261125134300 +0800" channel="tv32">
+    <title lang="zh-Hans">生活．健康．资讯</title>
+    <desc lang="zh-Hans">生活．健康．资讯</desc>
+  </programme>
+  <programme start="20261125134300 +0800" stop="20261125135300 +0800" channel="tv32">
+    <title lang="zh-Hans">本地新闻</title>
+    <desc lang="zh-Hans">本地新闻</desc>
+  </programme>
+  <programme start="20261125135300 +0800" stop="20261125140000 +0800" channel="tv32">
     <title lang="zh-Hans">生活．健康．资讯</title>
     <desc lang="zh-Hans">生活．健康．资讯</desc>
   </programme>
@@ -2059,6 +2071,7 @@
   </programme>
   <programme start="20261126131000 +0800" stop="20261126140000 +0800" channel="tv31">
     <title lang="zh-Hans">精灵一点</title>
+    <desc lang="zh-Hans">精灵一点 11月26日</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/healthpedia_tv</url>
   </programme>
   <programme start="20261126140000 +0800" stop="20261126140500 +0800" channel="tv31">
@@ -7110,7 +7123,6 @@
   </programme>
   <programme start="20261202100000 +0800" stop="20261202140000 +0800" channel="tv31">
     <title lang="zh-Hans">2026年成都国际乒联混合团体世界杯</title>
-    <desc lang="zh-Hans">12月2日日间赛事</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/ittfmtwc2026chengdu</url>
   </programme>
   <programme start="20261202140000 +0800" stop="20261202140500 +0800" channel="tv31">

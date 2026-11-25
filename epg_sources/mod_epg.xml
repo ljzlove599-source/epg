@@ -76099,7 +76099,7 @@
     <title lang="zh">LIVE HBL 永平高中 VS 南山高中 11/25 女生预赛第一阶段(普)</title>
   </programme>
   <programme start="20261125203000 +0800" stop="20261125210000 +0800" channel="mod.200">
-    <title lang="zh">英超名人堂 #25 (新)(普)</title>
+    <title lang="zh">英超名人堂 #25 Nemanja Matic (新)(普)</title>
   </programme>
   <programme start="20261125210000 +0800" stop="20261125220000 +0800" channel="mod.200">
     <title lang="zh">欧冠精华 第5比赛日 11/25 (新)(普)</title>
@@ -76129,16 +76129,16 @@
     <title lang="zh">LIVE UEFA欧冠 里斯本竞技 VS 曼联 第5比赛日(原音)(普)</title>
   </programme>
   <programme start="20261126060500 +0800" stop="20261126083000 +0800" channel="mod.200">
-    <title lang="zh">LIVE NBA 热火 VS 76人 11/26 例行赛(普)</title>
+    <title lang="zh">LIVE NBA 热火 VS 76人 11/26 NBA杯(普)</title>
   </programme>
   <programme start="20261126083000 +0800" stop="20261126111500 +0800" channel="mod.200">
-    <title lang="zh">LIVE NBA 灰狼 VS 雷霆 11/26 例行赛(普)</title>
+    <title lang="zh">LIVE NBA 灰狼 VS 雷霆 11/26 NBA杯(普)</title>
   </programme>
   <programme start="20261126111500 +0800" stop="20261126113000 +0800" channel="mod.200">
     <title lang="zh">德甲精华 第10轮(普)</title>
   </programme>
   <programme start="20261126113000 +0800" stop="20261126133000 +0800" channel="mod.200">
-    <title lang="zh">NBA 热火 VS 76人 11/26 例行赛(普)</title>
+    <title lang="zh">NBA 热火 VS 76人 11/26 NBA杯(普)</title>
   </programme>
   <programme start="20261126133000 +0800" stop="20261126151000 +0800" channel="mod.200">
     <title lang="zh">LIVE HBL 新竹高商 VS 南湖高中 11/26 女生预赛第一阶段(普)</title>
@@ -76182,11 +76182,11 @@
   <programme start="20261127035000 +0800" stop="20261127060500 +0800" channel="mod.200">
     <title lang="zh">LIVE UEFA欧霸 水晶宫 VS 皇家社会 第5比赛日(原音)(普)</title>
   </programme>
-  <programme start="20261127060500 +0800" stop="20261127063500 +0800" channel="mod.200">
-    <title lang="zh">体坛最前线 11/26(普)</title>
+  <programme start="20261127060500 +0800" stop="20261127070500 +0800" channel="mod.200">
+    <title lang="zh">2026 Crufts 与狗共舞赛 精华回顾(普)</title>
   </programme>
-  <programme start="20261127063500 +0800" stop="20261127080500 +0800" channel="mod.200">
-    <title lang="zh">HBL 普门中学 VS 庄敬高职 11/26 女生预赛第一阶段(普)</title>
+  <programme start="20261127070500 +0800" stop="20261127080500 +0800" channel="mod.200">
+    <title lang="zh">2026 Crufts 敏捷锦标赛 小&amp;中型犬组 / 中大&amp;大型犬组 精华回顾(普)</title>
   </programme>
   <programme start="20261127080500 +0800" stop="20261127093500 +0800" channel="mod.200">
     <title lang="zh">HBL 北一女中 VS 淡水商工 11/26 女生预赛第一阶段(普)</title>
@@ -76227,26 +76227,23 @@
   <programme start="20261127180000 +0800" stop="20261127193000 +0800" channel="mod.200">
     <title lang="zh">LIVE ISU花式滑冰大奖赛 日本站 男子短曲 11/27(普)</title>
   </programme>
-  <programme start="20261127193000 +0800" stop="20261127220000 +0800" channel="mod.200">
+  <programme start="20261127193000 +0800" stop="20261127213000 +0800" channel="mod.200">
+    <title lang="zh">NBA 热火 VS 76人 11/26 NBA杯(普)</title>
+  </programme>
+  <programme start="20261127213000 +0800" stop="20261127233000 +0800" channel="mod.200">
     <title lang="zh">青年奥运 中华队 田径 复赛/决赛 11/10(普)</title>
-  </programme>
-  <programme start="20261127220000 +0800" stop="20261127230000 +0800" channel="mod.200">
-    <title lang="zh">英超精华 第11轮(普)</title>
-  </programme>
-  <programme start="20261127230000 +0800" stop="20261127231500 +0800" channel="mod.200">
-    <title lang="zh">义甲精华 第12轮(普)</title>
-  </programme>
-  <programme start="20261127231500 +0800" stop="20261127233000 +0800" channel="mod.200">
-    <title lang="zh">法甲精华 第11轮(普)</title>
   </programme>
   <programme start="20261127233000 +0800" stop="20261128000000 +0800" channel="mod.200">
     <title lang="zh">体坛最前线 11/27 (新)(普)</title>
   </programme>
-  <programme start="20261128000000 +0800" stop="20261128013000 +0800" channel="mod.200">
-    <title lang="zh">115学年度HBL高中篮球联赛(普)</title>
+  <programme start="20261128000000 +0800" stop="20261128010000 +0800" channel="mod.200">
+    <title lang="zh">2025 Crufts 与狗共舞赛 精华回顾(普)</title>
   </programme>
-  <programme start="20261128013000 +0800" stop="20261128030000 +0800" channel="mod.200">
-    <title lang="zh">115学年度HBL高中篮球联赛(普)</title>
+  <programme start="20261128010000 +0800" stop="20261128020000 +0800" channel="mod.200">
+    <title lang="zh">2024 Crufts 与狗共舞赛 精华回顾(普)</title>
+  </programme>
+  <programme start="20261128020000 +0800" stop="20261128030000 +0800" channel="mod.200">
+    <title lang="zh">2023 Crufts 与狗共舞赛 精华回顾(普)</title>
   </programme>
   <programme start="20261128030000 +0800" stop="20261128033000 +0800" channel="mod.200">
     <title lang="zh">体坛最前线 11/27(普)</title>
@@ -76303,19 +76300,22 @@
     <title lang="zh">LIVE 英超 伊普斯维奇镇 VS 阿斯顿维拉 第12轮(原音)(普)</title>
   </programme>
   <programme start="20261129033500 +0800" stop="20261129040000 +0800" channel="mod.200">
-    <title lang="zh">英超名人堂 #25(普)</title>
+    <title lang="zh">英超名人堂 #25 Nemanja Matic(普)</title>
   </programme>
   <programme start="20261129040000 +0800" stop="20261129043000 +0800" channel="mod.200">
     <title lang="zh">体坛最前线 11/28 (新)(普)</title>
   </programme>
-  <programme start="20261129043000 +0800" stop="20261129060000 +0800" channel="mod.200">
-    <title lang="zh">HBL 南湖高中 VS 高苑工商 11/20 男生预赛(普)</title>
+  <programme start="20261129043000 +0800" stop="20261129053000 +0800" channel="mod.200">
+    <title lang="zh">2026 Crufts 与狗共舞赛 精华回顾(普)</title>
   </programme>
-  <programme start="20261129060000 +0800" stop="20261129073000 +0800" channel="mod.200">
-    <title lang="zh">HBL 南山高中 VS 新民高中 11/20 男生预赛(普)</title>
+  <programme start="20261129053000 +0800" stop="20261129063000 +0800" channel="mod.200">
+    <title lang="zh">2026 Crufts 敏捷障碍赛 非牧羊犬组 精华回顾(普)</title>
   </programme>
-  <programme start="20261129073000 +0800" stop="20261129090000 +0800" channel="mod.200">
-    <title lang="zh">HBL 能仁家商 VS 基隆商工 11/20 男生预赛(普)</title>
+  <programme start="20261129063000 +0800" stop="20261129070000 +0800" channel="mod.200">
+    <title lang="zh">体坛最前线 11/28(普)</title>
+  </programme>
+  <programme start="20261129070000 +0800" stop="20261129090000 +0800" channel="mod.200">
+    <title lang="zh">FIFA女子世界杯™附加赛 中华VS南非 11/28(普)</title>
   </programme>
   <programme start="20261129090000 +0800" stop="20261129093000 +0800" channel="mod.200">
     <title lang="zh">体坛最前线 11/28(普)</title>
@@ -76399,7 +76399,7 @@
     <title lang="zh">体坛最前线 11/30 (新)(普)</title>
   </programme>
   <programme start="20261201000000 +0800" stop="20261201003000 +0800" channel="mod.200">
-    <title lang="zh">英超名人堂 #25(普)</title>
+    <title lang="zh">英超名人堂 #25 Nemanja Matic(普)</title>
   </programme>
   <programme start="20261201003000 +0800" stop="20261201023000 +0800" channel="mod.200">
     <title lang="zh">英超 艾佛顿 VS 利物浦 第12轮(普)</title>
@@ -76455,20 +76455,14 @@
   <programme start="20261202035000 +0800" stop="20261202060500 +0800" channel="mod.200">
     <title lang="zh">LIVE 英超 科文垂城 VS 伊普斯维奇镇 第13轮(原音)(普)</title>
   </programme>
-  <programme start="20261202060500 +0800" stop="20261202063000 +0800" channel="mod.200">
-    <title lang="zh">Phil Wizard 无限对决(普)</title>
-  </programme>
-  <programme start="20261202063000 +0800" stop="20261202083000 +0800" channel="mod.200">
+  <programme start="20261202060500 +0800" stop="20261202080000 +0800" channel="mod.200">
     <title lang="zh">英超 艾佛顿 VS 利物浦 第12轮(普)</title>
   </programme>
-  <programme start="20261202083000 +0800" stop="20261202103000 +0800" channel="mod.200">
+  <programme start="20261202080000 +0800" stop="20261202100000 +0800" channel="mod.200">
     <title lang="zh">英超 兵工厂 VS 曼城 第12轮(普)</title>
   </programme>
-  <programme start="20261202103000 +0800" stop="20261202110000 +0800" channel="mod.200">
-    <title lang="zh">体坛最前线 12/1(普)</title>
-  </programme>
-  <programme start="20261202110000 +0800" stop="20261202120000 +0800" channel="mod.200">
-    <title lang="zh">英超精华 第12轮(普)</title>
+  <programme start="20261202100000 +0800" stop="20261202120000 +0800" channel="mod.200">
+    <title lang="zh">FIFA女子世界杯™附加赛 巴布亚纽几内亚 VS 中华 12/1(普)</title>
   </programme>
   <programme start="20261202120000 +0800" stop="20261202150000 +0800" channel="mod.200">
     <title lang="zh">LIVE NBA 灰狼 VS 拓荒者 12/2 例行赛(普)</title>
@@ -76558,7 +76552,7 @@
     <title lang="zh">体坛最前线 12/3(普)</title>
   </programme>
   <programme start="20261204032000 +0800" stop="20261204035000 +0800" channel="mod.200">
-    <title lang="zh">英超名人堂 #25(普)</title>
+    <title lang="zh">英超名人堂 #25 Nemanja Matic(普)</title>
   </programme>
   <programme start="20261204035000 +0800" stop="20261204060500 +0800" channel="mod.200">
     <title lang="zh">LIVE 英超 托特纳姆热刺 VS 富勒姆 第13轮(原音)(普)</title>
@@ -76995,8 +76989,14 @@
   <programme start="20261129215500 +0800" stop="20261130000000 +0800" channel="mod.201">
     <title lang="zh">LIVE 英超 布莱顿 VS 纽卡索联 第12轮(原音)(普)</title>
   </programme>
-  <programme start="20261130001000 +0800" stop="20261130022000 +0800" channel="mod.201">
-    <title lang="zh">亚洲冬季棒球联盟 台湾山林 VS 日职联队 11/29 例行赛(普)</title>
+  <programme start="20261130001000 +0800" stop="20261130010500 +0800" channel="mod.201">
+    <title lang="zh">2025 Crufts 与狗共舞赛 精华回顾(普)</title>
+  </programme>
+  <programme start="20261130010500 +0800" stop="20261130020000 +0800" channel="mod.201">
+    <title lang="zh">2026 Crufts 与狗共舞赛 精华回顾(普)</title>
+  </programme>
+  <programme start="20261130020000 +0800" stop="20261130022000 +0800" channel="mod.201">
+    <title lang="zh">德甲精华 拜仁VS多特 Playmobil摩比人动画版(普)</title>
   </programme>
   <programme start="20261130022000 +0800" stop="20261130043500 +0800" channel="mod.201">
     <title lang="zh">LIVE 德甲 多特蒙德 VS 勒沃库森 第11轮(原音)(普)</title>
@@ -77064,8 +77064,14 @@
   <programme start="20261201033500 +0800" stop="20261201063000 +0800" channel="mod.201">
     <title lang="zh">亚洲冬季棒球联盟 台湾海洋 VS 日本社会人 11/29 例行赛(普)</title>
   </programme>
-  <programme start="20261201063000 +0800" stop="20261201093000 +0800" channel="mod.201">
-    <title lang="zh">亚洲冬季棒球联盟 台湾山林 VS 日职联队 11/29 例行赛(普)</title>
+  <programme start="20261201063000 +0800" stop="20261201073000 +0800" channel="mod.201">
+    <title lang="zh">2019 Crufts 与狗共舞赛 精华回顾(普)</title>
+  </programme>
+  <programme start="20261201073000 +0800" stop="20261201083000 +0800" channel="mod.201">
+    <title lang="zh">2020 Crufts 与狗共舞赛 精华回顾(普)</title>
+  </programme>
+  <programme start="20261201083000 +0800" stop="20261201093000 +0800" channel="mod.201">
+    <title lang="zh">2022 Crufts 英国敏捷公开赛 精华回顾(普)</title>
   </programme>
   <programme start="20261201093000 +0800" stop="20261201100000 +0800" channel="mod.201">
     <title lang="zh">体坛最前线 11/30(普)</title>
@@ -77106,8 +77112,14 @@
   <programme start="20261202060000 +0800" stop="20261202063000 +0800" channel="mod.201">
     <title lang="zh">体坛最前线 12/1(普)</title>
   </programme>
-  <programme start="20261202063000 +0800" stop="20261202093000 +0800" channel="mod.201">
-    <title lang="zh">亚洲冬季棒球联盟 日本社会人 VS 大学明星队 12/1 例行赛(普)</title>
+  <programme start="20261202063000 +0800" stop="20261202073000 +0800" channel="mod.201">
+    <title lang="zh">2020 Crufts 与狗共舞赛 精华回顾(普)</title>
+  </programme>
+  <programme start="20261202073000 +0800" stop="20261202083000 +0800" channel="mod.201">
+    <title lang="zh">2024 Crufts 与狗共舞赛 精华回顾(普)</title>
+  </programme>
+  <programme start="20261202083000 +0800" stop="20261202093000 +0800" channel="mod.201">
+    <title lang="zh">2023 Crufts 敏捷障碍赛 各犬型组 / 国际邀请赛 精华回顾(普)</title>
   </programme>
   <programme start="20261202093000 +0800" stop="20261202100000 +0800" channel="mod.201">
     <title lang="zh">体坛最前线 12/1(普)</title>
@@ -77161,7 +77173,7 @@
     <title lang="zh">D-LIVE 英超 纽卡索联 VS 曼联 第13轮(普)</title>
   </programme>
   <programme start="20261203083000 +0800" stop="20261203093000 +0800" channel="mod.201">
-    <title lang="zh">英超精华 第12轮(普)</title>
+    <title lang="zh">2024 Crufts 敏捷障碍赛 各犬型组 精华回顾(普)</title>
   </programme>
   <programme start="20261203093000 +0800" stop="20261203100000 +0800" channel="mod.201">
     <title lang="zh">体坛最前线 12/2(普)</title>
@@ -77208,8 +77220,14 @@
   <programme start="20261204060000 +0800" stop="20261204063000 +0800" channel="mod.201">
     <title lang="zh">体坛最前线 12/3(普)</title>
   </programme>
-  <programme start="20261204063000 +0800" stop="20261204093000 +0800" channel="mod.201">
-    <title lang="zh">亚洲冬季棒球联盟 台湾山林 VS 日职联队 12/3 例行赛(普)</title>
+  <programme start="20261204063000 +0800" stop="20261204073000 +0800" channel="mod.201">
+    <title lang="zh">2017 Crufts 与狗共舞赛 精华回顾(普)</title>
+  </programme>
+  <programme start="20261204073000 +0800" stop="20261204083000 +0800" channel="mod.201">
+    <title lang="zh">2022 Crufts 敏捷障碍赛 各犬型组 / 国际邀请赛 精华回顾(普)</title>
+  </programme>
+  <programme start="20261204083000 +0800" stop="20261204093000 +0800" channel="mod.201">
+    <title lang="zh">2024 Crufts 敏捷障碍赛 青少年组 精华回顾(普)</title>
   </programme>
   <programme start="20261204093000 +0800" stop="20261204100000 +0800" channel="mod.201">
     <title lang="zh">体坛最前线 12/3(普)</title>
@@ -77256,8 +77274,14 @@
   <programme start="20261205030000 +0800" stop="20261205060000 +0800" channel="mod.201">
     <title lang="zh">亚洲冬季棒球联盟 台湾山林 VS 大学明星队 12/4 例行赛(普)</title>
   </programme>
-  <programme start="20261205060000 +0800" stop="20261205083000 +0800" channel="mod.201">
-    <title lang="zh">亚洲冬季棒球联盟 台湾海洋 VS 日本社会人 12/4 例行赛(普)</title>
+  <programme start="20261205060000 +0800" stop="20261205063000 +0800" channel="mod.201">
+    <title lang="zh">体坛最前线 12/4(普)</title>
+  </programme>
+  <programme start="20261205063000 +0800" stop="20261205073000 +0800" channel="mod.201">
+    <title lang="zh">2020 Crufts 与狗共舞赛 精华回顾(普)</title>
+  </programme>
+  <programme start="20261205073000 +0800" stop="20261205083000 +0800" channel="mod.201">
+    <title lang="zh">2020 Crufts 与狗共舞赛 精华回顾(普)</title>
   </programme>
   <programme start="20261205083000 +0800" stop="20261205093000 +0800" channel="mod.201">
     <title lang="zh">英超精华 第13轮(普)</title>
@@ -77500,7 +77524,7 @@
     <title lang="zh">体坛最前线 11/25(普)</title>
   </programme>
   <programme start="20261126153000 +0800" stop="20261126173000 +0800" channel="mod.202">
-    <title lang="zh">NBA 灰狼 VS 雷霆 11/26 例行赛(普)</title>
+    <title lang="zh">NBA 灰狼 VS 雷霆 11/26 NBA杯(普)</title>
   </programme>
   <programme start="20261126173000 +0800" stop="20261126180000 +0800" channel="mod.202">
     <title lang="zh">2026 BWF世界羽球杂志#10 陈清晨/贾一凡 独家专访(普)</title>
@@ -77509,7 +77533,7 @@
     <title lang="zh">LIVE 亚洲冬季棒球联盟 日职联队 VS 大学明星队 11/26 例行赛(普)</title>
   </programme>
   <programme start="20261126210000 +0800" stop="20261126230000 +0800" channel="mod.202">
-    <title lang="zh">NBA 灰狼 VS 雷霆 11/26 例行赛(普)</title>
+    <title lang="zh">NBA 灰狼 VS 雷霆 11/26 NBA杯(普)</title>
   </programme>
   <programme start="20261126230000 +0800" stop="20261127000000 +0800" channel="mod.202">
     <title lang="zh">欧冠精华 第5比赛日 11/26(普)</title>
@@ -77518,10 +77542,10 @@
     <title lang="zh">体坛最前线 11/26 (新)(普)</title>
   </programme>
   <programme start="20261127003000 +0800" stop="20261127013000 +0800" channel="mod.202">
-    <title lang="zh">WTT冠军赛 法兰克福站 女单决赛 11/9(普)</title>
+    <title lang="zh">2026 Crufts 与狗共舞赛 精华回顾(普)</title>
   </programme>
   <programme start="20261127013000 +0800" stop="20261127023000 +0800" channel="mod.202">
-    <title lang="zh">WTT冠军赛 法兰克福站 男单决赛 11/9(普)</title>
+    <title lang="zh">2026 Crufts 敏捷障碍赛 非牧羊犬组 精华回顾(普)</title>
   </programme>
   <programme start="20261127023000 +0800" stop="20261127040000 +0800" channel="mod.202">
     <title lang="zh">HBL 普门中学 VS 庄敬高职 11/26 女生预赛第一阶段(普)</title>
@@ -77542,7 +77566,7 @@
     <title lang="zh">体坛最前线 11/26(普)</title>
   </programme>
   <programme start="20261127100000 +0800" stop="20261127120000 +0800" channel="mod.202">
-    <title lang="zh">BWF 日本名人赛 决赛 11/15(普)</title>
+    <title lang="zh">BWF 日本名人赛 男单/女单决赛(普)</title>
   </programme>
   <programme start="20261127120000 +0800" stop="20261127150000 +0800" channel="mod.202">
     <title lang="zh">LIVE 亚洲冬季棒球联盟 韩职联队 VS 台湾山林 11/27 例行赛(普)</title>
@@ -77568,26 +77592,23 @@
   <programme start="20261128003000 +0800" stop="20261128033000 +0800" channel="mod.202">
     <title lang="zh">亚洲冬季棒球联盟 韩职联队 VS 台湾山林 11/27 例行赛(普)</title>
   </programme>
-  <programme start="20261128033000 +0800" stop="20261128040000 +0800" channel="mod.202">
-    <title lang="zh">体坛最前线 11/27(普)</title>
+  <programme start="20261128033000 +0800" stop="20261128060000 +0800" channel="mod.202">
+    <title lang="zh">BWF 韩国公开赛 女双/男双决赛(普)</title>
   </programme>
-  <programme start="20261128040000 +0800" stop="20261128063000 +0800" channel="mod.202">
-    <title lang="zh">BWF 韩国公开赛 决赛 11/8(普)</title>
-  </programme>
-  <programme start="20261128063000 +0800" stop="20261128070000 +0800" channel="mod.202">
-    <title lang="zh">体坛最前线 11/27(普)</title>
-  </programme>
-  <programme start="20261128070000 +0800" stop="20261128080000 +0800" channel="mod.202">
+  <programme start="20261128060000 +0800" stop="20261128070000 +0800" channel="mod.202">
     <title lang="zh">ISU花式滑冰大奖赛 日本站 双人短曲 11/27(普)</title>
   </programme>
-  <programme start="20261128080000 +0800" stop="20261128090000 +0800" channel="mod.202">
+  <programme start="20261128070000 +0800" stop="20261128080000 +0800" channel="mod.202">
     <title lang="zh">ISU花式滑冰大奖赛 日本站 冰舞短曲 11/27(普)</title>
   </programme>
-  <programme start="20261128090000 +0800" stop="20261128100000 +0800" channel="mod.202">
+  <programme start="20261128080000 +0800" stop="20261128090000 +0800" channel="mod.202">
     <title lang="zh">ISU花式滑冰大奖赛 日本站 女子短曲 11/27(普)</title>
   </programme>
-  <programme start="20261128100000 +0800" stop="20261128110000 +0800" channel="mod.202">
+  <programme start="20261128090000 +0800" stop="20261128100000 +0800" channel="mod.202">
     <title lang="zh">ISU花式滑冰大奖赛 日本站 男子短曲 11/27(普)</title>
+  </programme>
+  <programme start="20261128100000 +0800" stop="20261128110000 +0800" channel="mod.202">
+    <title lang="zh">2026 Crufts 与狗共舞赛 精华回顾(普)</title>
   </programme>
   <programme start="20261128110000 +0800" stop="20261128113000 +0800" channel="mod.202">
     <title lang="zh">体坛最前线 11/27(普)</title>
@@ -77608,7 +77629,13 @@
     <title lang="zh">2026 BWF世界羽球杂志#11(普)</title>
   </programme>
   <programme start="20261128233000 +0800" stop="20261129000000 +0800" channel="mod.202">
-    <title lang="zh">世界12强棒球 中国 VS 尼加拉瓜 11/28 资格赛中国区(普)</title>
+    <title lang="zh">2023 Crufts 与狗共舞赛 精华回顾(普)</title>
+  </programme>
+  <programme start="20261129003000 +0800" stop="20261129013000 +0800" channel="mod.202">
+    <title lang="zh">2024 Crufts 敏捷障碍赛 非牧羊犬组 精华回顾(普)</title>
+  </programme>
+  <programme start="20261129013000 +0800" stop="20261129023000 +0800" channel="mod.202">
+    <title lang="zh">2020 Crufts 与狗共舞赛 精华回顾(普)</title>
   </programme>
   <programme start="20261129023000 +0800" stop="20261129030000 +0800" channel="mod.202">
     <title lang="zh">体坛最前线 11/28 (新)(普)</title>
@@ -77625,14 +77652,11 @@
   <programme start="20261129055000 +0800" stop="20261129062000 +0800" channel="mod.202">
     <title lang="zh">体坛最前线 11/28(普)</title>
   </programme>
-  <programme start="20261129062000 +0800" stop="20261129074500 +0800" channel="mod.202">
+  <programme start="20261129062000 +0800" stop="20261129083500 +0800" channel="mod.202">
+    <title lang="zh">BWF 印度名人赛 四强回顾(普)</title>
+  </programme>
+  <programme start="20261129083500 +0800" stop="20261129100000 +0800" channel="mod.202">
     <title lang="zh">F1 卡达站 排位赛(普)</title>
-  </programme>
-  <programme start="20261129074500 +0800" stop="20261129080000 +0800" channel="mod.202">
-    <title lang="zh">BWF世界羽球周报#39(普)</title>
-  </programme>
-  <programme start="20261129080000 +0800" stop="20261129100000 +0800" channel="mod.202">
-    <title lang="zh">FIFA女子世界杯™附加赛 中华VS南非 11/28(普)</title>
   </programme>
   <programme start="20261129100000 +0800" stop="20261129120500 +0800" channel="mod.202">
     <title lang="zh">BWF 印度名人赛 四强回顾(普)</title>
@@ -77988,8 +78012,11 @@
   <programme start="20261207040000 +0800" stop="20261207070000 +0800" channel="mod.202">
     <title lang="zh">亚洲冬季棒球联盟 四强胜1 VS 四强胜2 12/6 冠军赛(普)</title>
   </programme>
-  <programme start="20261207070000 +0800" stop="20261207090000 +0800" channel="mod.202">
-    <title lang="zh">FIFA女子世界杯™附加赛 中华VS南非 11/28(普)</title>
+  <programme start="20261207070000 +0800" stop="20261207080000 +0800" channel="mod.202">
+    <title lang="zh">2024 Crufts 敏捷障碍赛 小/中/大型犬组 精华回顾(普)</title>
+  </programme>
+  <programme start="20261207080000 +0800" stop="20261207090000 +0800" channel="mod.202">
+    <title lang="zh">2025 Crufts 敏捷障碍赛 非牧羊犬组 精华回顾(普)</title>
   </programme>
   <programme start="20261207090000 +0800" stop="20261207110000 +0800" channel="mod.202">
     <title lang="zh">桌球混团世界杯 金牌战 12/6(普)</title>
@@ -78027,8 +78054,11 @@
   <programme start="20261208043000 +0800" stop="20261208073000 +0800" channel="mod.202">
     <title lang="zh">亚洲冬季棒球联盟 四强胜1 VS 四强胜2 12/6 冠军赛(普)</title>
   </programme>
-  <programme start="20261208073000 +0800" stop="20261208093000 +0800" channel="mod.202">
-    <title lang="zh">FIFA女子世界杯™附加赛 巴布亚纽几内亚 VS 中华 12/1(普)</title>
+  <programme start="20261208073000 +0800" stop="20261208083000 +0800" channel="mod.202">
+    <title lang="zh">2019 Crufts 与狗共舞赛 精华回顾(普)</title>
+  </programme>
+  <programme start="20261208083000 +0800" stop="20261208093000 +0800" channel="mod.202">
+    <title lang="zh">2024 Crufts 敏捷障碍赛 非牧羊犬组 精华回顾(普)</title>
   </programme>
   <programme start="20261208093000 +0800" stop="20261208113000 +0800" channel="mod.202">
     <title lang="zh">桌球混团世界杯 铜牌战 12/6(普)</title>
@@ -82233,332 +82263,386 @@
   <programme start="20261129230000 +0800" stop="20261130000000 +0800" channel="mod.211">
     <title lang="zh">2023 Triton Poker 蒙地卡罗邀请赛 EP6(护)</title>
   </programme>
-  <programme start="20261130000000 +0800" stop="20261130023000 +0800" channel="mod.211">
-    <title lang="zh">2026中信杯黑豹旗 秀峰高中 vs 高苑工商 (11/20/26)(普)</title>
-  </programme>
-  <programme start="20261130023000 +0800" stop="20261130030000 +0800" channel="mod.211">
-    <title lang="zh">世界最强壮的男人 S3 EP1(普)</title>
-  </programme>
-  <programme start="20261130030000 +0800" stop="20261130040000 +0800" channel="mod.211">
-    <title lang="zh">2026 TSR 全国机车锦标赛精华 EP1(普)</title>
-  </programme>
-  <programme start="20261130040000 +0800" stop="20261130053000 +0800" channel="mod.211">
-    <title lang="zh">2025 第四届 Universal 台北职业撞球公开赛 败部第一轮 (1/9/26)(普)</title>
-  </programme>
-  <programme start="20261130053000 +0800" stop="20261130060000 +0800" channel="mod.211">
-    <title lang="zh">2026读卖巨人 荣耀背后 EP1 新秀们的春训(普)</title>
-  </programme>
-  <programme start="20261130060000 +0800" stop="20261130090000 +0800" channel="mod.211">
-    <title lang="zh">2026日本职棒 软银 vs 乐天 (4/16/26)(普)</title>
-  </programme>
-  <programme start="20261130090000 +0800" stop="20261130100000 +0800" channel="mod.211">
-    <title lang="zh">麻将大师 第七季 EP23(护)</title>
-  </programme>
-  <programme start="20261130100000 +0800" stop="20261130123000 +0800" channel="mod.211">
-    <title lang="zh">2026中信杯黑豹旗 普门中学 vs 平镇高中 (11/19/26)(普)</title>
-  </programme>
-  <programme start="20261130123000 +0800" stop="20261130150000 +0800" channel="mod.211">
-    <title lang="zh">2026中信杯黑豹旗 南英商工 vs 三民高中 (11/19/26)(普)</title>
-  </programme>
-  <programme start="20261130150000 +0800" stop="20261130160000 +0800" channel="mod.211">
-    <title lang="zh">麻将大师 第八季 EP13(护)</title>
-  </programme>
-  <programme start="20261130160000 +0800" stop="20261130180000 +0800" channel="mod.211">
-    <title lang="zh">企业排球联赛 三福产业 vs 屏东台电 (11/21/26)(普)</title>
-  </programme>
-  <programme start="20261130180000 +0800" stop="20261130210000 +0800" channel="mod.211">
-    <title lang="zh">2026中华职棒 味全 vs 乐天 (4/26/26)(普)</title>
-  </programme>
-  <programme start="20261130210000 +0800" stop="20261130220000 +0800" channel="mod.211">
-    <title lang="zh">(首)体坛观测站 EP134(普)</title>
-  </programme>
-  <programme start="20261130220000 +0800" stop="20261130223000 +0800" channel="mod.211">
-    <title lang="zh">(首)野球名人房 S2 EP203(普)</title>
-  </programme>
-  <programme start="20261130223000 +0800" stop="20261130230000 +0800" channel="mod.211">
-    <title lang="zh">野球名人房 S2 EP202(普)</title>
-  </programme>
-  <programme start="20261130230000 +0800" stop="20261201000000 +0800" channel="mod.211">
-    <title lang="zh">2023 Triton Poker 蒙地卡罗邀请赛 EP2(护)</title>
-  </programme>
-  <programme start="20261201000000 +0800" stop="20261201023000 +0800" channel="mod.211">
-    <title lang="zh">2026中信杯黑豹旗 罗东高工 vs 台南海事 (11/21/26)(普)</title>
-  </programme>
-  <programme start="20261201023000 +0800" stop="20261201030000 +0800" channel="mod.211">
-    <title lang="zh">世界最强壮的男人 S3 EP2(普)</title>
-  </programme>
-  <programme start="20261201030000 +0800" stop="20261201040000 +0800" channel="mod.211">
-    <title lang="zh">2026 TSR 全国机车锦标赛精华 EP2(普)</title>
-  </programme>
-  <programme start="20261201040000 +0800" stop="20261201053000 +0800" channel="mod.211">
-    <title lang="zh">2025 第四届 Universal 台北职业撞球公开赛 败部晋级轮 (1/9/26)(普)</title>
-  </programme>
-  <programme start="20261201053000 +0800" stop="20261201060000 +0800" channel="mod.211">
-    <title lang="zh">2026读卖巨人 荣耀背后 EP2(普)</title>
-  </programme>
-  <programme start="20261201060000 +0800" stop="20261201090000 +0800" channel="mod.211">
-    <title lang="zh">2026日本职棒 火腿 vs 西武 (5/16/26)(普)</title>
-  </programme>
-  <programme start="20261201090000 +0800" stop="20261201100000 +0800" channel="mod.211">
-    <title lang="zh">体坛观测站 EP134(普)</title>
-  </programme>
-  <programme start="20261201100000 +0800" stop="20261201123000 +0800" channel="mod.211">
-    <title lang="zh">2026中信杯黑豹旗 大溪高中 vs 谷保家商 (11/20/26)(普)</title>
-  </programme>
-  <programme start="20261201123000 +0800" stop="20261201150000 +0800" channel="mod.211">
-    <title lang="zh">2026中信杯黑豹旗 秀峰高中 vs 高苑工商 (11/20/26)(普)</title>
-  </programme>
-  <programme start="20261201150000 +0800" stop="20261201160000 +0800" channel="mod.211">
-    <title lang="zh">麻将大师 第八季 EP14(护)</title>
-  </programme>
-  <programme start="20261201160000 +0800" stop="20261201180000 +0800" channel="mod.211">
-    <title lang="zh">企业排球联赛 云林美津浓 vs 台北凤凰 (11/21/26)(普)</title>
-  </programme>
-  <programme start="20261201180000 +0800" stop="20261201200000 +0800" channel="mod.211">
-    <title lang="zh">西甲 皇家马德里 vs 塞尔塔维戈 (11/22/26)(普)</title>
-  </programme>
-  <programme start="20261201200000 +0800" stop="20261201230000 +0800" channel="mod.211">
-    <title lang="zh">2026日本职棒 西武 vs 欧力士 (3/31/26)(普)</title>
-  </programme>
-  <programme start="20261201230000 +0800" stop="20261202000000 +0800" channel="mod.211">
-    <title lang="zh">2023 Triton Poker 蒙地卡罗邀请赛 EP3(护)</title>
-  </programme>
-  <programme start="20261202000000 +0800" stop="20261202023000 +0800" channel="mod.211">
-    <title lang="zh">2026中信杯黑豹旗 西苑高中 vs 庄敬高职 (11/21/26)(普)</title>
-  </programme>
-  <programme start="20261202023000 +0800" stop="20261202030000 +0800" channel="mod.211">
-    <title lang="zh">世界最强壮的男人 S3 EP3(普)</title>
-  </programme>
-  <programme start="20261202030000 +0800" stop="20261202040000 +0800" channel="mod.211">
-    <title lang="zh">2026 TSR 全国机车锦标赛精华 EP3(普)</title>
-  </programme>
-  <programme start="20261202040000 +0800" stop="20261202050000 +0800" channel="mod.211">
-    <title lang="zh">2025 第四届 Universal 台北职业撞球公开赛 败部晋级轮 (1/9/26)(普)</title>
-  </programme>
-  <programme start="20261202050000 +0800" stop="20261202060000 +0800" channel="mod.211">
-    <title lang="zh">2025 CTPBA 职业撞球巡回赛 总冠军赛 第四轮(1/5/26)(普)</title>
-  </programme>
-  <programme start="20261202060000 +0800" stop="20261202090000 +0800" channel="mod.211">
-    <title lang="zh">2026 日本职棒交流赛 巨人 vs 软银 (5/28/26)(普)</title>
-  </programme>
-  <programme start="20261202090000 +0800" stop="20261202095700 +0800" channel="mod.211">
-    <title lang="zh">麻将大师 第七季 EP24(护)</title>
-  </programme>
-  <programme start="20261202095700 +0800" stop="20261202123000 +0800" channel="mod.211">
-    <title lang="zh">LIVE 2026中信杯黑豹旗 八强赛 (11/25/26)(普)</title>
-  </programme>
-  <programme start="20261202123000 +0800" stop="20261202125700 +0800" channel="mod.211">
-    <title lang="zh">野球名人房 S2 EP198(普)</title>
-  </programme>
-  <programme start="20261202125700 +0800" stop="20261202153000 +0800" channel="mod.211">
-    <title lang="zh">LIVE 2026中信杯黑豹旗 八强赛 (11/25/26)(普)</title>
-  </programme>
-  <programme start="20261202153000 +0800" stop="20261202160000 +0800" channel="mod.211">
-    <title lang="zh">键盘球探 EP126 国体大的小联盟养成计画 林卫宣教练访谈 上(普)</title>
-  </programme>
-  <programme start="20261202160000 +0800" stop="20261202180000 +0800" channel="mod.211">
-    <title lang="zh">企业排球联赛 台北鲸华 vs 新北中纤 (11/21/26)(普)</title>
-  </programme>
-  <programme start="20261202180000 +0800" stop="20261202200000 +0800" channel="mod.211">
-    <title lang="zh">西甲 巴塞隆纳 vs 比利亚雷亚尔 (11/22/26)(普)</title>
-  </programme>
-  <programme start="20261202200000 +0800" stop="20261202230000 +0800" channel="mod.211">
-    <title lang="zh">2026日本职棒 软银 vs 西武 (4/8/26)(普)</title>
-  </programme>
-  <programme start="20261202230000 +0800" stop="20261203000000 +0800" channel="mod.211">
-    <title lang="zh">2023 Triton Poker 蒙地卡罗邀请赛 EP4(护)</title>
-  </programme>
-  <programme start="20261203000000 +0800" stop="20261203023000 +0800" channel="mod.211">
-    <title lang="zh">2026中信杯黑豹旗 八强赛 (11/25/26)(普)</title>
-  </programme>
-  <programme start="20261203023000 +0800" stop="20261203030000 +0800" channel="mod.211">
-    <title lang="zh">世界最强壮的男人 S3 EP4(普)</title>
-  </programme>
-  <programme start="20261203030000 +0800" stop="20261203040000 +0800" channel="mod.211">
-    <title lang="zh">2026 TSR 全国机车锦标赛精华 EP4(普)</title>
-  </programme>
-  <programme start="20261203040000 +0800" stop="20261203060000 +0800" channel="mod.211">
-    <title lang="zh">2025 第四届 Universal 台北职业撞球公开赛 六十四强 (1/10/26)(普)</title>
-  </programme>
-  <programme start="20261203060000 +0800" stop="20261203090000 +0800" channel="mod.211">
-    <title lang="zh">2026日本职棒 火腿 vs 欧力士(7/2/26)(普)</title>
-  </programme>
-  <programme start="20261203090000 +0800" stop="20261203095700 +0800" channel="mod.211">
-    <title lang="zh">麻将大师 第七季 EP25(护)</title>
-  </programme>
-  <programme start="20261203095700 +0800" stop="20261203123000 +0800" channel="mod.211">
-    <title lang="zh">LIVE 2026中信杯黑豹旗 八强赛 (11/26/26)(普)</title>
-  </programme>
-  <programme start="20261203123000 +0800" stop="20261203125700 +0800" channel="mod.211">
-    <title lang="zh">野球名人房 S2 EP199(普)</title>
-  </programme>
-  <programme start="20261203125700 +0800" stop="20261203153000 +0800" channel="mod.211">
-    <title lang="zh">LIVE 2026中信杯黑豹旗 八强赛 (11/26/26)(普)</title>
-  </programme>
-  <programme start="20261203153000 +0800" stop="20261203160000 +0800" channel="mod.211">
-    <title lang="zh">键盘球探 EP127 国体大的小联盟养成计画 林卫宣教练访谈 下(普)</title>
-  </programme>
-  <programme start="20261203160000 +0800" stop="20261203180000 +0800" channel="mod.211">
-    <title lang="zh">企业排球联赛 台北凤凰 vs 三福产业 (11/22/26)(普)</title>
-  </programme>
-  <programme start="20261203180000 +0800" stop="20261203200000 +0800" channel="mod.211">
-    <title lang="zh">西甲 赫塔菲 vs 马德里竞技 (11/23/26)(普)</title>
-  </programme>
-  <programme start="20261203200000 +0800" stop="20261203203000 +0800" channel="mod.211">
-    <title lang="zh">西甲回顾 EP7(普)</title>
-  </programme>
-  <programme start="20261203203000 +0800" stop="20261203213000 +0800" channel="mod.211">
-    <title lang="zh">2023 Triton Poker 蒙地卡罗八人桌赛事 EP1(护)</title>
-  </programme>
-  <programme start="20261203213000 +0800" stop="20261203223000 +0800" channel="mod.211">
-    <title lang="zh">(首)2023 Triton Poker 蒙地卡罗七人桌赛事(护)</title>
-  </programme>
-  <programme start="20261203223000 +0800" stop="20261204000000 +0800" channel="mod.211">
+  <programme start="20261130000000 +0800" stop="20261130012500 +0800" channel="mod.211">
     <title lang="zh">2025 CTPBA 职业撞球巡回赛 总冠军赛 四强(1/6/26)(普)</title>
   </programme>
-  <programme start="20261204000000 +0800" stop="20261204030000 +0800" channel="mod.211">
-    <title lang="zh">澳洲职棒 布里斯本侠盗 vs 伯斯热火 (11/26/26)(普)</title>
+  <programme start="20261130012500 +0800" stop="20261130033000 +0800" channel="mod.211">
+    <title lang="zh">LIVE 西甲 塞尔塔维戈 vs 比利亚雷亚尔 (11/30/26)(普)</title>
   </programme>
-  <programme start="20261204030000 +0800" stop="20261204040000 +0800" channel="mod.211">
-    <title lang="zh">2026 TSR 全国机车锦标赛精华 EP5(普)</title>
+  <programme start="20261130033000 +0800" stop="20261130043000 +0800" channel="mod.211">
+    <title lang="zh">2026 TSR 全国机车锦标赛精华 EP8(普)</title>
   </programme>
-  <programme start="20261204040000 +0800" stop="20261204060000 +0800" channel="mod.211">
-    <title lang="zh">2025 第四届 Universal 台北职业撞球公开赛 三十二强 (1/10/26)(普)</title>
+  <programme start="20261130043000 +0800" stop="20261130060000 +0800" channel="mod.211">
+    <title lang="zh">2026 FIBA 3vs3大师赛 香港站 小组赛1(普)</title>
   </programme>
-  <programme start="20261204060000 +0800" stop="20261204090000 +0800" channel="mod.211">
-    <title lang="zh">2026日本职棒 软银 vs 欧力士(7/22/26)(普)</title>
+  <programme start="20261130060000 +0800" stop="20261130090000 +0800" channel="mod.211">
+    <title lang="zh">2026中华职棒 味全 vs 乐天 (9/2/26)(普)</title>
   </programme>
-  <programme start="20261204090000 +0800" stop="20261204095700 +0800" channel="mod.211">
-    <title lang="zh">麻将大师 第七季 EP26(护)</title>
-  </programme>
-  <programme start="20261204095700 +0800" stop="20261204123000 +0800" channel="mod.211">
-    <title lang="zh">LIVE 2026中信杯黑豹旗 四强赛 (11/27/26)(普)</title>
-  </programme>
-  <programme start="20261204123000 +0800" stop="20261204125700 +0800" channel="mod.211">
-    <title lang="zh">野球名人房 S2 EP200(普)</title>
-  </programme>
-  <programme start="20261204125700 +0800" stop="20261204153000 +0800" channel="mod.211">
-    <title lang="zh">LIVE 2026中信杯黑豹旗 四强赛 (11/27/26)(普)</title>
-  </programme>
-  <programme start="20261204153000 +0800" stop="20261204160000 +0800" channel="mod.211">
-    <title lang="zh">键盘球探 EP128 招牌武器的诞生 邓恺威访谈 上(普)</title>
-  </programme>
-  <programme start="20261204160000 +0800" stop="20261204180000 +0800" channel="mod.211">
-    <title lang="zh">企业排球联赛 屏东台电 vs 云林美津浓 (11/22/26)(普)</title>
-  </programme>
-  <programme start="20261204180000 +0800" stop="20261204200000 +0800" channel="mod.211">
-    <title lang="zh">西甲 莱万特 vs 埃尔切 (11/24/26)(普)</title>
-  </programme>
-  <programme start="20261204200000 +0800" stop="20261204203000 +0800" channel="mod.211">
-    <title lang="zh">西甲回顾 EP8(普)</title>
-  </programme>
-  <programme start="20261204203000 +0800" stop="20261204213000 +0800" channel="mod.211">
-    <title lang="zh">麻将大师 第八季 EP29(护)</title>
-  </programme>
-  <programme start="20261204213000 +0800" stop="20261204223000 +0800" channel="mod.211">
-    <title lang="zh">(首)麻将大师 第八季 EP30(护)</title>
-  </programme>
-  <programme start="20261204223000 +0800" stop="20261204230000 +0800" channel="mod.211">
-    <title lang="zh">打中看点 刘致荣专访(普)</title>
-  </programme>
-  <programme start="20261204230000 +0800" stop="20261205000000 +0800" channel="mod.211">
-    <title lang="zh">2023 Triton Poker 蒙地卡罗邀请赛 EP5(护)</title>
-  </programme>
-  <programme start="20261205000000 +0800" stop="20261205030000 +0800" channel="mod.211">
-    <title lang="zh">澳洲职棒 伯斯热火 vs 布里斯本侠盗 (11/27/26)(普)</title>
-  </programme>
-  <programme start="20261205030000 +0800" stop="20261205040000 +0800" channel="mod.211">
-    <title lang="zh">2026 TSR 全国机车锦标赛精华 EP6(普)</title>
-  </programme>
-  <programme start="20261205040000 +0800" stop="20261205060000 +0800" channel="mod.211">
-    <title lang="zh">2025 第四届 Universal 台北职业撞球公开赛 十六强 (1/10/26)(普)</title>
-  </programme>
-  <programme start="20261205060000 +0800" stop="20261205090000 +0800" channel="mod.211">
-    <title lang="zh">2026日本职棒 软银 vs 火腿(8/5/26)(普)</title>
-  </programme>
-  <programme start="20261205090000 +0800" stop="20261205100000 +0800" channel="mod.211">
+  <programme start="20261130090000 +0800" stop="20261130100000 +0800" channel="mod.211">
     <title lang="zh">麻将大师 第七季 EP27(护)</title>
   </programme>
-  <programme start="20261205100000 +0800" stop="20261205123000 +0800" channel="mod.211">
-    <title lang="zh">2026中信杯黑豹旗 四强赛 (11/27/26)(普)</title>
+  <programme start="20261130100000 +0800" stop="20261130120000 +0800" channel="mod.211">
+    <title lang="zh">西甲 莱万特 vs 桑坦德 (11/28/26)(普)</title>
   </programme>
-  <programme start="20261205123000 +0800" stop="20261205133500 +0800" channel="mod.211">
-    <title lang="zh">The Announcer：梦想之声 EP5(普)</title>
+  <programme start="20261130120000 +0800" stop="20261130150000 +0800" channel="mod.211">
+    <title lang="zh">2026日本职棒 西武 vs 火腿(7/23/26)(普)</title>
   </programme>
-  <programme start="20261205133500 +0800" stop="20261205145500 +0800" channel="mod.211">
-    <title lang="zh">LIVE 2026 FIBA 3对3大师赛 香港站 小组赛1(普)</title>
+  <programme start="20261130150000 +0800" stop="20261130160000 +0800" channel="mod.211">
+    <title lang="zh">麻将大师 第八季 EP15(护)</title>
   </programme>
-  <programme start="20261205145500 +0800" stop="20261205152500 +0800" channel="mod.211">
-    <title lang="zh">键盘球探 EP129 招牌武器的诞生 邓恺威访谈 下(普)</title>
+  <programme start="20261130160000 +0800" stop="20261130180000 +0800" channel="mod.211">
+    <title lang="zh">企业排球联赛 台北鲸华 vs 新北中纤 (11/21/26)(普)</title>
   </programme>
-  <programme start="20261205152500 +0800" stop="20261205164500 +0800" channel="mod.211">
-    <title lang="zh">LIVE 2026 FIBA 3对3大师赛 香港站 小组赛2(普)</title>
+  <programme start="20261130180000 +0800" stop="20261130210000 +0800" channel="mod.211">
+    <title lang="zh">2026中华职棒 统一 vs 乐天 (5/10/26)(普)</title>
   </programme>
-  <programme start="20261205164500 +0800" stop="20261205174000 +0800" channel="mod.211">
-    <title lang="zh">The Announcer：梦想之声 EP6(普)</title>
+  <programme start="20261130210000 +0800" stop="20261130220000 +0800" channel="mod.211">
+    <title lang="zh">(首)体坛观测站 EP135(普)</title>
   </programme>
-  <programme start="20261205174000 +0800" stop="20261205190000 +0800" channel="mod.211">
-    <title lang="zh">LIVE 2026 FIBA 3对3大师赛 香港站 小组赛3(普)</title>
+  <programme start="20261130220000 +0800" stop="20261130223000 +0800" channel="mod.211">
+    <title lang="zh">(首)野球名人房 S2 EP204(普)</title>
   </programme>
-  <programme start="20261205190000 +0800" stop="20261205193500 +0800" channel="mod.211">
-    <title lang="zh">西甲主场漫游 EP2 Matias Dituro(普)</title>
+  <programme start="20261130223000 +0800" stop="20261130230000 +0800" channel="mod.211">
+    <title lang="zh">野球名人房 S2 EP203(普)</title>
   </programme>
-  <programme start="20261205193500 +0800" stop="20261205210000 +0800" channel="mod.211">
-    <title lang="zh">LIVE 2026 FIBA 3对3大师赛 香港站 小组赛4(普)</title>
+  <programme start="20261130230000 +0800" stop="20261201000000 +0800" channel="mod.211">
+    <title lang="zh">2023 Triton Poker 蒙地卡罗邀请赛 EP3(护)</title>
   </programme>
-  <programme start="20261205210000 +0800" stop="20261205220000 +0800" channel="mod.211">
-    <title lang="zh">(首)The Announcer：梦想之声 EP7(普)</title>
+  <programme start="20261201000000 +0800" stop="20261201030000 +0800" channel="mod.211">
+    <title lang="zh">澳洲职棒 雪梨蓝袜 vs 伯斯热火 (11/19/26)(普)</title>
   </programme>
-  <programme start="20261205220000 +0800" stop="20261205230000 +0800" channel="mod.211">
-    <title lang="zh">德州扑克百万电视大赛 第十二季 EP2(护)</title>
+  <programme start="20261201030000 +0800" stop="20261201033000 +0800" channel="mod.211">
+    <title lang="zh">键盘球探 EP120 美国裁判学校见闻录 上(普)</title>
+  </programme>
+  <programme start="20261201033000 +0800" stop="20261201043000 +0800" channel="mod.211">
+    <title lang="zh">2026 TSR 全国机车锦标赛精华 EP9(普)</title>
+  </programme>
+  <programme start="20261201043000 +0800" stop="20261201060000 +0800" channel="mod.211">
+    <title lang="zh">2026 FIBA 3vs3大师赛 香港站 小组赛2(普)</title>
+  </programme>
+  <programme start="20261201060000 +0800" stop="20261201090000 +0800" channel="mod.211">
+    <title lang="zh">2026中华职棒 台钢 vs 乐天 (9/8/26)(普)</title>
+  </programme>
+  <programme start="20261201090000 +0800" stop="20261201100000 +0800" channel="mod.211">
+    <title lang="zh">体坛观测站 EP135(普)</title>
+  </programme>
+  <programme start="20261201100000 +0800" stop="20261201120000 +0800" channel="mod.211">
+    <title lang="zh">西甲 皇家贝提斯 vs 巴列卡诺 (11/28/26)(普)</title>
+  </programme>
+  <programme start="20261201120000 +0800" stop="20261201150000 +0800" channel="mod.211">
+    <title lang="zh">2026日本职棒 西武 vs 软银(7/24/26)(普)</title>
+  </programme>
+  <programme start="20261201150000 +0800" stop="20261201160000 +0800" channel="mod.211">
+    <title lang="zh">麻将大师 第八季 EP16(护)</title>
+  </programme>
+  <programme start="20261201160000 +0800" stop="20261201180000 +0800" channel="mod.211">
+    <title lang="zh">企业排球联赛 义力营造 vs 台北鲸华 (11/15/26)(普)</title>
+  </programme>
+  <programme start="20261201180000 +0800" stop="20261201200000 +0800" channel="mod.211">
+    <title lang="zh">西甲 埃尔切 vs 马德里竞技 (11/29/26)(普)</title>
+  </programme>
+  <programme start="20261201200000 +0800" stop="20261201230000 +0800" channel="mod.211">
+    <title lang="zh">2026日本职棒 软银 vs 火腿(8/6/26)(普)</title>
+  </programme>
+  <programme start="20261201230000 +0800" stop="20261202000000 +0800" channel="mod.211">
+    <title lang="zh">2023 Triton Poker 蒙地卡罗邀请赛 EP4(护)</title>
+  </programme>
+  <programme start="20261202000000 +0800" stop="20261202030000 +0800" channel="mod.211">
+    <title lang="zh">澳洲职棒 伯斯热火 vs 布里斯本侠盗 (11/26/26)(普)</title>
+  </programme>
+  <programme start="20261202030000 +0800" stop="20261202033000 +0800" channel="mod.211">
+    <title lang="zh">键盘球探 EP121 美国裁判学校见闻录 下(普)</title>
+  </programme>
+  <programme start="20261202033000 +0800" stop="20261202043000 +0800" channel="mod.211">
+    <title lang="zh">2026 TSR 全国机车锦标赛精华 EP10(普)</title>
+  </programme>
+  <programme start="20261202043000 +0800" stop="20261202060000 +0800" channel="mod.211">
+    <title lang="zh">2026 FIBA 3vs3大师赛 香港站 小组赛3(普)</title>
+  </programme>
+  <programme start="20261202060000 +0800" stop="20261202090000 +0800" channel="mod.211">
+    <title lang="zh">2026中华职棒 台钢 vs 乐天 (9/9/26)(普)</title>
+  </programme>
+  <programme start="20261202090000 +0800" stop="20261202100000 +0800" channel="mod.211">
+    <title lang="zh">麻将大师 第七季 EP28(护)</title>
+  </programme>
+  <programme start="20261202100000 +0800" stop="20261202120000 +0800" channel="mod.211">
+    <title lang="zh">西甲 马拉加 vs 毕尔包竞技 (11/28/26)(普)</title>
+  </programme>
+  <programme start="20261202120000 +0800" stop="20261202150000 +0800" channel="mod.211">
+    <title lang="zh">2026日本职棒 西武 vs 欧力士(7/31/26)(普)</title>
+  </programme>
+  <programme start="20261202150000 +0800" stop="20261202160000 +0800" channel="mod.211">
+    <title lang="zh">麻将大师 第八季 EP17(护)</title>
+  </programme>
+  <programme start="20261202160000 +0800" stop="20261202180000 +0800" channel="mod.211">
+    <title lang="zh">企业排球联赛 义力营造 vs 高雄台电 (11/07/26)(普)</title>
+  </programme>
+  <programme start="20261202180000 +0800" stop="20261202200000 +0800" channel="mod.211">
+    <title lang="zh">西甲 拉科鲁尼亚 vs 巴塞隆纳 (11/29/26)(普)</title>
+  </programme>
+  <programme start="20261202200000 +0800" stop="20261202230000 +0800" channel="mod.211">
+    <title lang="zh">2026日本职棒 欧力士 vs 火腿(8/15/26)(普)</title>
+  </programme>
+  <programme start="20261202230000 +0800" stop="20261203000000 +0800" channel="mod.211">
+    <title lang="zh">2023 Triton Poker 蒙地卡罗邀请赛 EP5(护)</title>
+  </programme>
+  <programme start="20261203000000 +0800" stop="20261203030000 +0800" channel="mod.211">
+    <title lang="zh">澳洲职棒 伯斯热火 vs 布里斯本侠盗 (11/27/26)(普)</title>
+  </programme>
+  <programme start="20261203030000 +0800" stop="20261203033000 +0800" channel="mod.211">
+    <title lang="zh">键盘球探 EP122 选手生涯的守护者 职棒防护员工作面面观 上(普)</title>
+  </programme>
+  <programme start="20261203033000 +0800" stop="20261203043000 +0800" channel="mod.211">
+    <title lang="zh">2026 TSR 全国机车锦标赛精华 EP11(普)</title>
+  </programme>
+  <programme start="20261203043000 +0800" stop="20261203060000 +0800" channel="mod.211">
+    <title lang="zh">2026 FIBA 3vs3大师赛 香港站 小组赛4(普)</title>
+  </programme>
+  <programme start="20261203060000 +0800" stop="20261203090000 +0800" channel="mod.211">
+    <title lang="zh">2026中华职棒 中信兄弟 vs 乐天 (9/11/26)(普)</title>
+  </programme>
+  <programme start="20261203090000 +0800" stop="20261203100000 +0800" channel="mod.211">
+    <title lang="zh">麻将大师 第七季 EP29(护)</title>
+  </programme>
+  <programme start="20261203100000 +0800" stop="20261203120000 +0800" channel="mod.211">
+    <title lang="zh">西甲 皇家马德里 vs 阿拉维斯 (11/29/26)(普)</title>
+  </programme>
+  <programme start="20261203120000 +0800" stop="20261203150000 +0800" channel="mod.211">
+    <title lang="zh">2026日本职棒 西武 vs 欧力士(8/1/26)(普)</title>
+  </programme>
+  <programme start="20261203150000 +0800" stop="20261203155800 +0800" channel="mod.211">
+    <title lang="zh">麻将大师 第八季 EP18(护)</title>
+  </programme>
+  <programme start="20261203155800 +0800" stop="20261203190000 +0800" channel="mod.211">
+    <title lang="zh">LIVE 澳洲职棒 伯斯热火 vs 雪梨蓝袜 (12/3/26)(普)</title>
+  </programme>
+  <programme start="20261203190000 +0800" stop="20261203203000 +0800" channel="mod.211">
+    <title lang="zh">2026 FIBA 3vs3大师赛 香港站 小组赛3(普)</title>
+  </programme>
+  <programme start="20261203203000 +0800" stop="20261203213000 +0800" channel="mod.211">
+    <title lang="zh">2023 Triton Poker 蒙地卡罗七人桌赛事(护)</title>
+  </programme>
+  <programme start="20261203213000 +0800" stop="20261203223000 +0800" channel="mod.211">
+    <title lang="zh">(首)2023 Triton Poker 蒙地卡罗神秘赏金赛(护)</title>
+  </programme>
+  <programme start="20261203223000 +0800" stop="20261204000000 +0800" channel="mod.211">
+    <title lang="zh">2026 FIBA 3vs3大师赛 香港站 小组赛4(普)</title>
+  </programme>
+  <programme start="20261204000000 +0800" stop="20261204030000 +0800" channel="mod.211">
+    <title lang="zh">澳洲职棒 伯斯热火 vs 雪梨蓝袜 (12/3/26)(普)</title>
+  </programme>
+  <programme start="20261204030000 +0800" stop="20261204033000 +0800" channel="mod.211">
+    <title lang="zh">键盘球探 EP123 选手生涯的守护者 职棒防护员工作面面观 下(普)</title>
+  </programme>
+  <programme start="20261204033000 +0800" stop="20261204043000 +0800" channel="mod.211">
+    <title lang="zh">2026 TSR 全国机车锦标赛精华 EP12(普)</title>
+  </programme>
+  <programme start="20261204043000 +0800" stop="20261204053000 +0800" channel="mod.211">
+    <title lang="zh">2026 FIBA 3vs3大师赛 香港站 八强赛1(普)</title>
+  </programme>
+  <programme start="20261204053000 +0800" stop="20261204060000 +0800" channel="mod.211">
+    <title lang="zh">一起DA球啦! 谷保家商(普)</title>
+  </programme>
+  <programme start="20261204060000 +0800" stop="20261204090000 +0800" channel="mod.211">
+    <title lang="zh">2026中华职棒 中信兄弟 vs 乐天 (9/25/26)(普)</title>
+  </programme>
+  <programme start="20261204090000 +0800" stop="20261204100000 +0800" channel="mod.211">
+    <title lang="zh">麻将大师 第七季 EP30(护)</title>
+  </programme>
+  <programme start="20261204100000 +0800" stop="20261204120000 +0800" channel="mod.211">
+    <title lang="zh">西甲 瓦伦西亚 vs 奥萨苏纳 (11/29/26)(普)</title>
+  </programme>
+  <programme start="20261204120000 +0800" stop="20261204150000 +0800" channel="mod.211">
+    <title lang="zh">2026日本职棒 西武 vs 欧力士(8/2/26)(普)</title>
+  </programme>
+  <programme start="20261204150000 +0800" stop="20261204160000 +0800" channel="mod.211">
+    <title lang="zh">麻将大师 第八季 EP19(护)</title>
+  </programme>
+  <programme start="20261204160000 +0800" stop="20261204162800 +0800" channel="mod.211">
+    <title lang="zh">野球名人房 S2 EP204(普)</title>
+  </programme>
+  <programme start="20261204162800 +0800" stop="20261204193000 +0800" channel="mod.211">
+    <title lang="zh">LIVE 澳洲职棒 布里斯本侠盗 vs 阿德雷德巨人 (12/4/26)(普)</title>
+  </programme>
+  <programme start="20261204193000 +0800" stop="20261204203000 +0800" channel="mod.211">
+    <title lang="zh">2026 FIBA 3vs3大师赛 香港站 冠军赛(普)</title>
+  </programme>
+  <programme start="20261204203000 +0800" stop="20261204213000 +0800" channel="mod.211">
+    <title lang="zh">麻将大师 第八季 EP30(护)</title>
+  </programme>
+  <programme start="20261204213000 +0800" stop="20261204223000 +0800" channel="mod.211">
+    <title lang="zh">(首)麻将大师 第八季 EP31(护)</title>
+  </programme>
+  <programme start="20261204223000 +0800" stop="20261204230000 +0800" channel="mod.211">
+    <title lang="zh">野球名人房 S2 EP204(普)</title>
+  </programme>
+  <programme start="20261204230000 +0800" stop="20261205000000 +0800" channel="mod.211">
+    <title lang="zh">2023 Triton Poker 蒙地卡罗邀请赛 EP6(护)</title>
+  </programme>
+  <programme start="20261205000000 +0800" stop="20261205030000 +0800" channel="mod.211">
+    <title lang="zh">澳洲职棒 布里斯本侠盗 vs 阿德雷德巨人 (12/4/26)(普)</title>
+  </programme>
+  <programme start="20261205030000 +0800" stop="20261205033000 +0800" channel="mod.211">
+    <title lang="zh">键盘球探 EP124 退役后的另一条棒球路 国体大林卫宣教练访谈 上(普)</title>
+  </programme>
+  <programme start="20261205033000 +0800" stop="20261205043000 +0800" channel="mod.211">
+    <title lang="zh">2026 TSR 全国机车锦标赛精华 EP13(普)</title>
+  </programme>
+  <programme start="20261205043000 +0800" stop="20261205053000 +0800" channel="mod.211">
+    <title lang="zh">2026 FIBA 3vs3大师赛 香港站 八强赛2(普)</title>
+  </programme>
+  <programme start="20261205053000 +0800" stop="20261205060000 +0800" channel="mod.211">
+    <title lang="zh">打中看点 刘致荣专访(普)</title>
+  </programme>
+  <programme start="20261205060000 +0800" stop="20261205090000 +0800" channel="mod.211">
+    <title lang="zh">2026中华职棒 中信兄弟 vs 乐天 (9/12/26)(普)</title>
+  </programme>
+  <programme start="20261205090000 +0800" stop="20261205100000 +0800" channel="mod.211">
+    <title lang="zh">麻将大师 第七季 EP31(护)</title>
+  </programme>
+  <programme start="20261205100000 +0800" stop="20261205120000 +0800" channel="mod.211">
+    <title lang="zh">西甲 塞尔塔维戈 vs 比利亚雷亚尔 (11/30/26)(普)</title>
+  </programme>
+  <programme start="20261205120000 +0800" stop="20261205140000 +0800" channel="mod.211">
+    <title lang="zh">2026 中华企业射箭联赛 总冠军赛 新北凯撒 vs 彰化银行 G3 (11/8/26)(普)</title>
+  </programme>
+  <programme start="20261205140000 +0800" stop="20261205162800 +0800" channel="mod.211">
+    <title lang="zh">LIVE 2026 中华企业射箭联赛 分项冠军赛 (12/6/26)(普)</title>
+  </programme>
+  <programme start="20261205162800 +0800" stop="20261205193000 +0800" channel="mod.211">
+    <title lang="zh">LIVE 澳洲职棒 布里斯本侠盗 vs 阿德雷德巨人 (12/5/26)(普)</title>
+  </programme>
+  <programme start="20261205193000 +0800" stop="20261205200000 +0800" channel="mod.211">
+    <title lang="zh">野球名人房 S2 EP204(普)</title>
+  </programme>
+  <programme start="20261205200000 +0800" stop="20261205230000 +0800" channel="mod.211">
+    <title lang="zh">2026日本职棒 西武 vs 乐天(8/28/26)(普)</title>
   </programme>
   <programme start="20261205230000 +0800" stop="20261206000000 +0800" channel="mod.211">
     <title lang="zh">(首)德州扑克百万电视大赛 第十二季 EP3(护)</title>
   </programme>
-  <programme start="20261206000000 +0800" stop="20261206023000 +0800" channel="mod.211">
-    <title lang="zh">2026中信杯黑豹旗 八强赛 (11/26/26)(普)</title>
+  <programme start="20261206000000 +0800" stop="20261206030000 +0800" channel="mod.211">
+    <title lang="zh">澳洲职棒 布里斯本侠盗 vs 阿德雷德巨人 (12/5/26)(普)</title>
   </programme>
-  <programme start="20261206023000 +0800" stop="20261206030000 +0800" channel="mod.211">
-    <title lang="zh">世界最强壮的男人 S3 EP5(普)</title>
+  <programme start="20261206030000 +0800" stop="20261206033000 +0800" channel="mod.211">
+    <title lang="zh">键盘球探 EP125 退役后的另一条棒球路 国体大林卫宣教练访谈 下(普)</title>
   </programme>
-  <programme start="20261206030000 +0800" stop="20261206040000 +0800" channel="mod.211">
-    <title lang="zh">2026 TSR 全国机车锦标赛精华 EP7(普)</title>
+  <programme start="20261206033000 +0800" stop="20261206043000 +0800" channel="mod.211">
+    <title lang="zh">2026 TSR 全国机车锦标赛精华 EP14(普)</title>
   </programme>
-  <programme start="20261206040000 +0800" stop="20261206060000 +0800" channel="mod.211">
-    <title lang="zh">2025 CTPBA 职业撞球巡回赛 总冠军赛 八强(1/6/26)(普)</title>
+  <programme start="20261206043000 +0800" stop="20261206053000 +0800" channel="mod.211">
+    <title lang="zh">2026 FIBA 3vs3大师赛 香港站 四强赛(普)</title>
   </programme>
-  <programme start="20261206060000 +0800" stop="20261206090000 +0800" channel="mod.211">
-    <title lang="zh">2026日本职棒 乐天 vs 西武(8/21/26)(普)</title>
-  </programme>
-  <programme start="20261206090000 +0800" stop="20261206100000 +0800" channel="mod.211">
-    <title lang="zh">麻将大师 第七季 EP28(护)</title>
-  </programme>
-  <programme start="20261206100000 +0800" stop="20261206123000 +0800" channel="mod.211">
-    <title lang="zh">LIVE 2026中信杯黑豹旗 四强赛 (11/27/26)(普)</title>
-  </programme>
-  <programme start="20261206123000 +0800" stop="20261206125700 +0800" channel="mod.211">
-    <title lang="zh">野球名人房 S2 EP201(普)</title>
-  </programme>
-  <programme start="20261206125700 +0800" stop="20261206153000 +0800" channel="mod.211">
-    <title lang="zh">LIVE 2026中信杯黑豹旗 冠军赛 (11/29/26)(普)</title>
-  </programme>
-  <programme start="20261206153000 +0800" stop="20261206163000 +0800" channel="mod.211">
-    <title lang="zh">2026中信杯黑豹旗(普)</title>
-  </programme>
-  <programme start="20261206163000 +0800" stop="20261206183000 +0800" channel="mod.211">
-    <title lang="zh">企业排球联赛 新北中纤 vs 台北鲸华 (11/22/26)(普)</title>
-  </programme>
-  <programme start="20261206183000 +0800" stop="20261206200000 +0800" channel="mod.211">
-    <title lang="zh">2025 CTPBA 职业撞球巡回赛 总冠军赛 四强(1/6/26)(普)</title>
-  </programme>
-  <programme start="20261206200000 +0800" stop="20261206223000 +0800" channel="mod.211">
+  <programme start="20261206053000 +0800" stop="20261206080000 +0800" channel="mod.211">
     <title lang="zh">2026中信杯黑豹旗 冠军赛 (11/29/26)(普)</title>
   </programme>
-  <programme start="20261206223000 +0800" stop="20261206230000 +0800" channel="mod.211">
-    <title lang="zh">一起DA球啦! 谷保家商(普)</title>
+  <programme start="20261206080000 +0800" stop="20261206103000 +0800" channel="mod.211">
+    <title lang="zh">LIVE 2026 中华企业射箭联赛 总冠军赛 彰化银行 vs 新北凯撒 G4 (12/5/26)(普)</title>
+  </programme>
+  <programme start="20261206103000 +0800" stop="20261206130000 +0800" channel="mod.211">
+    <title lang="zh">LIVE 2026 中华企业射箭联赛 总冠军赛 新北凯撒 vs 彰化银行 G5 (12/5/26)(普)</title>
+  </programme>
+  <programme start="20261206130000 +0800" stop="20261206140000 +0800" channel="mod.211">
+    <title lang="zh">麻将大师 第八季 EP20(护)</title>
+  </programme>
+  <programme start="20261206140000 +0800" stop="20261206173000 +0800" channel="mod.211">
+    <title lang="zh">LIVE 2026 IFBB PRO TAIWAN PRO SHOW 台湾职业大赛(普)</title>
+  </programme>
+  <programme start="20261206173000 +0800" stop="20261206180000 +0800" channel="mod.211">
+    <title lang="zh">西甲主场漫游 EP2 Matias Dituro(普)</title>
+  </programme>
+  <programme start="20261206180000 +0800" stop="20261206200000 +0800" channel="mod.211">
+    <title lang="zh">西甲 皇家社会 vs 皇家马德里 (12/3/26)(普)</title>
+  </programme>
+  <programme start="20261206200000 +0800" stop="20261206230000 +0800" channel="mod.211">
+    <title lang="zh">2026日本职棒 火腿 vs 罗德(8/29/26)(普)</title>
   </programme>
   <programme start="20261206230000 +0800" stop="20261207000000 +0800" channel="mod.211">
-    <title lang="zh">2023 Triton Poker 蒙地卡罗邀请赛 EP6(护)</title>
+    <title lang="zh">2023 Triton Poker 蒙地卡罗邀请赛 EP7(护)</title>
+  </programme>
+  <programme start="20261207000000 +0800" stop="20261207012500 +0800" channel="mod.211">
+    <title lang="zh">2025 CTPBA 职业撞球巡回赛 总冠军赛 四强(1/6/26)(普)</title>
+  </programme>
+  <programme start="20261207012500 +0800" stop="20261207033000 +0800" channel="mod.211">
+    <title lang="zh">LIVE 西甲 塞尔塔维戈 vs 比利亚雷亚尔 (11/30/26)(普)</title>
+  </programme>
+  <programme start="20261207033000 +0800" stop="20261207043000 +0800" channel="mod.211">
+    <title lang="zh">2026 TSR 全国机车锦标赛精华 EP8(普)</title>
+  </programme>
+  <programme start="20261207043000 +0800" stop="20261207060000 +0800" channel="mod.211">
+    <title lang="zh">2026 FIBA 3vs3大师赛 香港站 小组赛1(普)</title>
+  </programme>
+  <programme start="20261207060000 +0800" stop="20261207090000 +0800" channel="mod.211">
+    <title lang="zh">2026中华职棒 味全 vs 乐天 (9/2/26)(普)</title>
+  </programme>
+  <programme start="20261207090000 +0800" stop="20261207100000 +0800" channel="mod.211">
+    <title lang="zh">麻将大师 第七季 EP27(护)</title>
+  </programme>
+  <programme start="20261207100000 +0800" stop="20261207120000 +0800" channel="mod.211">
+    <title lang="zh">西甲 莱万特 vs 桑坦德 (11/28/26)(普)</title>
+  </programme>
+  <programme start="20261207120000 +0800" stop="20261207150000 +0800" channel="mod.211">
+    <title lang="zh">2026日本职棒 西武 vs 火腿(7/23/26)(普)</title>
+  </programme>
+  <programme start="20261207150000 +0800" stop="20261207160000 +0800" channel="mod.211">
+    <title lang="zh">麻将大师 第八季 EP15(护)</title>
+  </programme>
+  <programme start="20261207160000 +0800" stop="20261207180000 +0800" channel="mod.211">
+    <title lang="zh">企业排球联赛 台北鲸华 vs 新北中纤 (11/21/26)(普)</title>
+  </programme>
+  <programme start="20261207180000 +0800" stop="20261207210000 +0800" channel="mod.211">
+    <title lang="zh">2026中华职棒 统一 vs 乐天 (5/10/26)(普)</title>
+  </programme>
+  <programme start="20261207210000 +0800" stop="20261207220000 +0800" channel="mod.211">
+    <title lang="zh">(首)体坛观测站 EP135(普)</title>
+  </programme>
+  <programme start="20261207220000 +0800" stop="20261207223000 +0800" channel="mod.211">
+    <title lang="zh">(首)野球名人房 S2 EP204(普)</title>
+  </programme>
+  <programme start="20261207223000 +0800" stop="20261207230000 +0800" channel="mod.211">
+    <title lang="zh">野球名人房 S2 EP203(普)</title>
+  </programme>
+  <programme start="20261207230000 +0800" stop="20261208000000 +0800" channel="mod.211">
+    <title lang="zh">2023 Triton Poker 蒙地卡罗邀请赛 EP3(护)</title>
+  </programme>
+  <programme start="20261208000000 +0800" stop="20261208030000 +0800" channel="mod.211">
+    <title lang="zh">澳洲职棒 雪梨蓝袜 vs 伯斯热火 (11/19/26)(普)</title>
+  </programme>
+  <programme start="20261208030000 +0800" stop="20261208033000 +0800" channel="mod.211">
+    <title lang="zh">键盘球探 EP120 美国裁判学校见闻录 上(普)</title>
+  </programme>
+  <programme start="20261208033000 +0800" stop="20261208043000 +0800" channel="mod.211">
+    <title lang="zh">2026 TSR 全国机车锦标赛精华 EP9(普)</title>
+  </programme>
+  <programme start="20261208043000 +0800" stop="20261208060000 +0800" channel="mod.211">
+    <title lang="zh">2026 FIBA 3vs3大师赛 香港站 小组赛2(普)</title>
+  </programme>
+  <programme start="20261208060000 +0800" stop="20261208090000 +0800" channel="mod.211">
+    <title lang="zh">2026中华职棒 台钢 vs 乐天 (9/8/26)(普)</title>
+  </programme>
+  <programme start="20261208090000 +0800" stop="20261208100000 +0800" channel="mod.211">
+    <title lang="zh">体坛观测站 EP135(普)</title>
+  </programme>
+  <programme start="20261208100000 +0800" stop="20261208120000 +0800" channel="mod.211">
+    <title lang="zh">西甲 皇家贝提斯 vs 巴列卡诺 (11/28/26)(普)</title>
+  </programme>
+  <programme start="20261208120000 +0800" stop="20261208150000 +0800" channel="mod.211">
+    <title lang="zh">2026日本职棒 西武 vs 软银(7/24/26)(普)</title>
+  </programme>
+  <programme start="20261208150000 +0800" stop="20261208160000 +0800" channel="mod.211">
+    <title lang="zh">麻将大师 第八季 EP16(护)</title>
+  </programme>
+  <programme start="20261208160000 +0800" stop="20261208180000 +0800" channel="mod.211">
+    <title lang="zh">企业排球联赛 义力营造 vs 台北鲸华 (11/15/26)(普)</title>
+  </programme>
+  <programme start="20261208180000 +0800" stop="20261208200000 +0800" channel="mod.211">
+    <title lang="zh">西甲 埃尔切 vs 马德里竞技 (11/29/26)(普)</title>
+  </programme>
+  <programme start="20261208200000 +0800" stop="20261208230000 +0800" channel="mod.211">
+    <title lang="zh">2026日本职棒 软银 vs 火腿(8/6/26)(普)</title>
+  </programme>
+  <programme start="20261208230000 +0800" stop="20261209000000 +0800" channel="mod.211">
+    <title lang="zh">2023 Triton Poker 蒙地卡罗邀请赛 EP4(护)</title>
   </programme>
   <programme start="20261125000000 +0800" stop="20261125023000 +0800" channel="mod.212">
     <title lang="zh">2026温布顿网球锦标赛第三轮EAL vs SWI(普)</title>
@@ -83268,320 +83352,401 @@
   <programme start="20261129231000 +0800" stop="20261130000000 +0800" channel="mod.214">
     <title lang="zh">LIVE 西甲 拉科鲁尼亚 vs 巴塞隆纳 (11/29/26)(普)</title>
   </programme>
-  <programme start="20261130011000 +0800" stop="20261130012500 +0800" channel="mod.214">
+  <programme start="20261130011000 +0800" stop="20261130013000 +0800" channel="mod.214">
+    <title lang="zh">西甲新星报到 EP3 Javi Hernandez(普)</title>
+  </programme>
+  <programme start="20261130013000 +0800" stop="20261130033000 +0800" channel="mod.214">
+    <title lang="zh">企业排球联赛 云林美津浓 vs 台北凤凰 (11/21/26)(普)</title>
+  </programme>
+  <programme start="20261130033000 +0800" stop="20261130035500 +0800" channel="mod.214">
     <title lang="zh">西甲主场漫游 EP1 Nahuel Tenaglia(普)</title>
   </programme>
-  <programme start="20261130012500 +0800" stop="20261130032500 +0800" channel="mod.214">
-    <title lang="zh">LIVE 西甲 奥萨苏纳 vs 马拉加 (11/23/26)(普)</title>
-  </programme>
-  <programme start="20261130032500 +0800" stop="20261130035500 +0800" channel="mod.214">
-    <title lang="zh">西甲主场漫游 EP2 Matias Dituro(普)</title>
-  </programme>
   <programme start="20261130035500 +0800" stop="20261130060000 +0800" channel="mod.214">
-    <title lang="zh">LIVE 西甲 赫塔菲 vs 马德里竞技 (11/23/26)(普)</title>
+    <title lang="zh">LIVE 西甲 皇家社会 vs 塞维利亚 (11/30/26)(普)</title>
   </programme>
   <programme start="20261130060000 +0800" stop="20261130070000 +0800" channel="mod.214">
-    <title lang="zh">麻将大师 第八季 EP5(护)</title>
+    <title lang="zh">麻将大师 第八季 EP12(护)</title>
   </programme>
   <programme start="20261130070000 +0800" stop="20261130090000 +0800" channel="mod.214">
-    <title lang="zh">西甲 阿拉维斯 vs 拉科鲁尼亚 (11/21/26)(普)</title>
+    <title lang="zh">西甲 皇家贝提斯 vs 巴列卡诺 (11/28/26)(普)</title>
   </programme>
   <programme start="20261130090000 +0800" stop="20261130120000 +0800" channel="mod.214">
-    <title lang="zh">2026中华职棒 中信兄弟 vs 乐天 (9/25/26)(普)</title>
+    <title lang="zh">2026中华职棒 富邦 vs 乐天 (5/24/26)(普)</title>
   </programme>
   <programme start="20261130120000 +0800" stop="20261130130000 +0800" channel="mod.214">
-    <title lang="zh">麻将大师 第八季 EP25(护)</title>
+    <title lang="zh">麻将大师 第八季 EP4(护)</title>
   </programme>
   <programme start="20261130130000 +0800" stop="20261130140000 +0800" channel="mod.214">
-    <title lang="zh">2026 FIBA 3对3大师赛 斋桑站 小组赛1(普)</title>
+    <title lang="zh">2026 FIBA 3vs3大师赛 斋桑站 八强赛1(普)</title>
   </programme>
   <programme start="20261130140000 +0800" stop="20261130163000 +0800" channel="mod.214">
-    <title lang="zh">2026中信杯黑豹旗 和平高中 vs 台北阳明 (11/22/26)(普)</title>
+    <title lang="zh">2026中信杯黑豹旗 八强赛 高苑工商 vs 谷保家商 (11/25/26)(普)</title>
   </programme>
   <programme start="20261130163000 +0800" stop="20261130170000 +0800" channel="mod.214">
-    <title lang="zh">键盘球探 EP128 招牌武器的诞生 邓恺威访谈 上(普)</title>
-  </programme>
-  <programme start="20261130170000 +0800" stop="20261130200000 +0800" channel="mod.214">
-    <title lang="zh">2026日本职棒 软银 vs 火腿(8/6/26)(普)</title>
-  </programme>
-  <programme start="20261130200000 +0800" stop="20261130220000 +0800" channel="mod.214">
-    <title lang="zh">企业排球联赛 三福产业 vs 屏东台电 (11/21/26)(普)</title>
-  </programme>
-  <programme start="20261130220000 +0800" stop="20261201000000 +0800" channel="mod.214">
-    <title lang="zh">西甲 皇家马德里 vs 塞尔塔维戈 (11/22/26)(普)</title>
-  </programme>
-  <programme start="20261201000000 +0800" stop="20261201010000 +0800" channel="mod.214">
-    <title lang="zh">麻将大师 第七季 EP42(护)</title>
-  </programme>
-  <programme start="20261201010000 +0800" stop="20261201030000 +0800" channel="mod.214">
-    <title lang="zh">企业排球联赛 屏东台电 vs 云林美津浓 (11/22/26)(普)</title>
-  </programme>
-  <programme start="20261201030000 +0800" stop="20261201035500 +0800" channel="mod.214">
-    <title lang="zh">2025/26 格斗特区 EP6(辅12)</title>
-  </programme>
-  <programme start="20261201035500 +0800" stop="20261201060000 +0800" channel="mod.214">
-    <title lang="zh">LIVE 西甲 莱万特 vs 埃尔切 (11/24/26)(普)</title>
-  </programme>
-  <programme start="20261201060000 +0800" stop="20261201070000 +0800" channel="mod.214">
-    <title lang="zh">麻将大师 第八季 EP6(护)</title>
-  </programme>
-  <programme start="20261201070000 +0800" stop="20261201090000 +0800" channel="mod.214">
-    <title lang="zh">西甲 巴列卡诺 vs 瓦伦西亚 (11/21/26)(普)</title>
-  </programme>
-  <programme start="20261201090000 +0800" stop="20261201120000 +0800" channel="mod.214">
-    <title lang="zh">2026中华职棒 中信兄弟 vs 乐天 (4/10/26)(普)</title>
-  </programme>
-  <programme start="20261201120000 +0800" stop="20261201130000 +0800" channel="mod.214">
-    <title lang="zh">麻将大师 第八季 EP26(护)</title>
-  </programme>
-  <programme start="20261201130000 +0800" stop="20261201140000 +0800" channel="mod.214">
-    <title lang="zh">2026 FIBA 3对3大师赛 斋桑站 小组赛2(普)</title>
-  </programme>
-  <programme start="20261201140000 +0800" stop="20261201163000 +0800" channel="mod.214">
-    <title lang="zh">(首)2026中信杯黑豹旗 建功高中 vs 北科附工 (11/22/26)(普)</title>
-  </programme>
-  <programme start="20261201163000 +0800" stop="20261201170000 +0800" channel="mod.214">
-    <title lang="zh">(首)键盘球探 EP129 招牌武器的诞生 邓恺威访谈 下(普)</title>
-  </programme>
-  <programme start="20261201170000 +0800" stop="20261201200000 +0800" channel="mod.214">
-    <title lang="zh">2026日本职棒 欧力士 vs 火腿(8/15/26)(普)</title>
-  </programme>
-  <programme start="20261201200000 +0800" stop="20261201220000 +0800" channel="mod.214">
-    <title lang="zh">企业排球联赛 云林美津浓 vs 台北凤凰 (11/21/26)(普)</title>
-  </programme>
-  <programme start="20261201220000 +0800" stop="20261202000000 +0800" channel="mod.214">
-    <title lang="zh">西甲 巴塞隆纳 vs 比利亚雷亚尔 (11/22/26)(普)</title>
-  </programme>
-  <programme start="20261202000000 +0800" stop="20261202010000 +0800" channel="mod.214">
-    <title lang="zh">麻将大师 第七季 EP43(护)</title>
-  </programme>
-  <programme start="20261202010000 +0800" stop="20261202030000 +0800" channel="mod.214">
-    <title lang="zh">企业排球联赛 新北中纤 vs 台北鲸华 (11/22/26)(普)</title>
-  </programme>
-  <programme start="20261202030000 +0800" stop="20261202053000 +0800" channel="mod.214">
-    <title lang="zh">2026中信杯黑豹旗 莺歌工商 vs 平镇高中 (11/13/26)(普)</title>
-  </programme>
-  <programme start="20261202053000 +0800" stop="20261202060000 +0800" channel="mod.214">
-    <title lang="zh">键盘球探 EP128 招牌武器的诞生 邓恺威访谈 上(普)</title>
-  </programme>
-  <programme start="20261202060000 +0800" stop="20261202070000 +0800" channel="mod.214">
-    <title lang="zh">麻将大师 第八季 EP7(护)</title>
-  </programme>
-  <programme start="20261202070000 +0800" stop="20261202090000 +0800" channel="mod.214">
-    <title lang="zh">西甲 塞维利亚 vs 皇家贝提斯 (11/22/26)(普)</title>
-  </programme>
-  <programme start="20261202090000 +0800" stop="20261202120000 +0800" channel="mod.214">
-    <title lang="zh">2026中华职棒 味全 vs 乐天 (4/26/26)(普)</title>
-  </programme>
-  <programme start="20261202120000 +0800" stop="20261202130000 +0800" channel="mod.214">
-    <title lang="zh">麻将大师 第八季 EP27(护)</title>
-  </programme>
-  <programme start="20261202130000 +0800" stop="20261202140000 +0800" channel="mod.214">
-    <title lang="zh">2026 FIBA 3对3大师赛 斋桑站 小组赛3(普)</title>
-  </programme>
-  <programme start="20261202140000 +0800" stop="20261202160000 +0800" channel="mod.214">
-    <title lang="zh">2026 中华企业射箭联赛 总冠军赛 新北凯撒 vs 彰化银行 G1 (11/8/26)(普)</title>
-  </programme>
-  <programme start="20261202160000 +0800" stop="20261202170000 +0800" channel="mod.214">
-    <title lang="zh">The Announcer：梦想之声 EP5(普)</title>
-  </programme>
-  <programme start="20261202170000 +0800" stop="20261202200000 +0800" channel="mod.214">
-    <title lang="zh">2026日本职棒 西武 vs 乐天(8/28/26)(普)</title>
-  </programme>
-  <programme start="20261202200000 +0800" stop="20261202220000 +0800" channel="mod.214">
-    <title lang="zh">企业排球联赛 台北鲸华 vs 新北中纤 (11/21/26)(普)</title>
-  </programme>
-  <programme start="20261202220000 +0800" stop="20261203000000 +0800" channel="mod.214">
-    <title lang="zh">西甲 赫塔菲 vs 马德里竞技 (11/23/26)(普)</title>
-  </programme>
-  <programme start="20261203000000 +0800" stop="20261203010000 +0800" channel="mod.214">
-    <title lang="zh">麻将大师 第七季 EP44(护)</title>
-  </programme>
-  <programme start="20261203010000 +0800" stop="20261203030000 +0800" channel="mod.214">
-    <title lang="zh">企业排球联赛 三福产业 vs 屏东台电 (11/21/26)(普)</title>
-  </programme>
-  <programme start="20261203030000 +0800" stop="20261203053000 +0800" channel="mod.214">
-    <title lang="zh">2026中信杯黑豹旗 普门中学 vs 平镇高中 (11/19/26)(普)</title>
-  </programme>
-  <programme start="20261203053000 +0800" stop="20261203060000 +0800" channel="mod.214">
-    <title lang="zh">键盘球探 EP129 招牌武器的诞生 邓恺威访谈 下(普)</title>
-  </programme>
-  <programme start="20261203060000 +0800" stop="20261203070000 +0800" channel="mod.214">
-    <title lang="zh">麻将大师 第八季 EP8(护)</title>
-  </programme>
-  <programme start="20261203070000 +0800" stop="20261203090000 +0800" channel="mod.214">
-    <title lang="zh">西甲 桑坦德 vs 皇家社会 (11/22/26)(普)</title>
-  </programme>
-  <programme start="20261203090000 +0800" stop="20261203120000 +0800" channel="mod.214">
-    <title lang="zh">2026中华职棒 统一 vs 乐天 (5/10/26)(普)</title>
-  </programme>
-  <programme start="20261203120000 +0800" stop="20261203130000 +0800" channel="mod.214">
-    <title lang="zh">麻将大师 第八季 EP28(护)</title>
-  </programme>
-  <programme start="20261203130000 +0800" stop="20261203140000 +0800" channel="mod.214">
-    <title lang="zh">2026 FIBA 3对3大师赛 斋桑站 小组赛4(普)</title>
-  </programme>
-  <programme start="20261203140000 +0800" stop="20261203155700 +0800" channel="mod.214">
-    <title lang="zh">2026 中华企业射箭联赛 总冠军赛 彰化银行 vs 新北凯撒 G2 (11/8/26)(普)</title>
-  </programme>
-  <programme start="20261203155700 +0800" stop="20261203162700 +0800" channel="mod.214">
-    <title lang="zh">键盘球探 EP128 招牌武器的诞生 邓恺威访谈 上(普)</title>
-  </programme>
-  <programme start="20261203162700 +0800" stop="20261203193000 +0800" channel="mod.214">
-    <title lang="zh">LIVE 澳洲职棒 布里斯本侠盗 vs 伯斯热火 (11/26/26)(普)</title>
-  </programme>
-  <programme start="20261203193000 +0800" stop="20261203200000 +0800" channel="mod.214">
-    <title lang="zh">键盘球探 EP129 招牌武器的诞生 邓恺威访谈 下(普)</title>
-  </programme>
-  <programme start="20261203200000 +0800" stop="20261203220000 +0800" channel="mod.214">
-    <title lang="zh">企业排球联赛 台北凤凰 vs 三福产业 (11/22/26)(普)</title>
-  </programme>
-  <programme start="20261203220000 +0800" stop="20261204000000 +0800" channel="mod.214">
-    <title lang="zh">西甲 皇家马德里 vs 塞尔塔维戈 (11/22/26)(普)</title>
-  </programme>
-  <programme start="20261204000000 +0800" stop="20261204010000 +0800" channel="mod.214">
-    <title lang="zh">麻将大师 第七季 EP45(护)</title>
-  </programme>
-  <programme start="20261204010000 +0800" stop="20261204030000 +0800" channel="mod.214">
-    <title lang="zh">企业排球联赛 云林美津浓 vs 台北凤凰 (11/21/26)(普)</title>
-  </programme>
-  <programme start="20261204030000 +0800" stop="20261204053000 +0800" channel="mod.214">
-    <title lang="zh">2026中信杯黑豹旗 南英商工 vs 三民高中 (11/19/26)(普)</title>
-  </programme>
-  <programme start="20261204053000 +0800" stop="20261204060000 +0800" channel="mod.214">
-    <title lang="zh">野球名人房 S2 EP202(普)</title>
-  </programme>
-  <programme start="20261204060000 +0800" stop="20261204070000 +0800" channel="mod.214">
-    <title lang="zh">麻将大师 第八季 EP9(护)</title>
-  </programme>
-  <programme start="20261204070000 +0800" stop="20261204090000 +0800" channel="mod.214">
-    <title lang="zh">西甲 奥萨苏纳 vs 马拉加 (11/23/26)(普)</title>
-  </programme>
-  <programme start="20261204090000 +0800" stop="20261204120000 +0800" channel="mod.214">
-    <title lang="zh">澳洲职棒 布里斯本侠盗 vs 伯斯热火 (11/26/26)(普)</title>
-  </programme>
-  <programme start="20261204120000 +0800" stop="20261204130000 +0800" channel="mod.214">
-    <title lang="zh">麻将大师 第八季 EP1(护)</title>
-  </programme>
-  <programme start="20261204130000 +0800" stop="20261204140000 +0800" channel="mod.214">
-    <title lang="zh">2026 FIBA 3对3大师赛 斋桑站 小组赛5(普)</title>
-  </programme>
-  <programme start="20261204140000 +0800" stop="20261204155700 +0800" channel="mod.214">
-    <title lang="zh">2026 中华企业射箭联赛 总冠军赛 新北凯撒 vs 彰化银行 G3 (11/8/26)(普)</title>
-  </programme>
-  <programme start="20261204155700 +0800" stop="20261204190000 +0800" channel="mod.214">
-    <title lang="zh">LIVE 澳洲职棒 伯斯热火 vs 布里斯本侠盗 (11/27/26)(普)</title>
-  </programme>
-  <programme start="20261204190000 +0800" stop="20261204200000 +0800" channel="mod.214">
-    <title lang="zh">The Announcer：梦想之声 EP6(普)</title>
-  </programme>
-  <programme start="20261204200000 +0800" stop="20261204220000 +0800" channel="mod.214">
-    <title lang="zh">企业排球联赛 屏东台电 vs 云林美津浓 (11/22/26)(普)</title>
-  </programme>
-  <programme start="20261204220000 +0800" stop="20261205000000 +0800" channel="mod.214">
-    <title lang="zh">西甲 巴塞隆纳 vs 比利亚雷亚尔 (11/22/26)(普)</title>
-  </programme>
-  <programme start="20261205000000 +0800" stop="20261205010000 +0800" channel="mod.214">
-    <title lang="zh">麻将大师 第七季 EP46(护)</title>
-  </programme>
-  <programme start="20261205010000 +0800" stop="20261205030000 +0800" channel="mod.214">
-    <title lang="zh">企业排球联赛 台北鲸华 vs 新北中纤 (11/21/26)(普)</title>
-  </programme>
-  <programme start="20261205030000 +0800" stop="20261205035500 +0800" channel="mod.214">
-    <title lang="zh">2025/26 格斗特区 EP7(辅12)</title>
-  </programme>
-  <programme start="20261205035500 +0800" stop="20261205060000 +0800" channel="mod.214">
-    <title lang="zh">西甲 莱万特 vs 桑坦德 (11/28/26)(普)</title>
-  </programme>
-  <programme start="20261205060000 +0800" stop="20261205070000 +0800" channel="mod.214">
-    <title lang="zh">麻将大师 第八季 EP10(护)</title>
-  </programme>
-  <programme start="20261205070000 +0800" stop="20261205090000 +0800" channel="mod.214">
-    <title lang="zh">西甲 莱万特 vs 埃尔切 (11/24/26)(普)</title>
-  </programme>
-  <programme start="20261205090000 +0800" stop="20261205120000 +0800" channel="mod.214">
-    <title lang="zh">澳洲职棒 伯斯热火 vs 布里斯本侠盗 (11/27/26)(普)</title>
-  </programme>
-  <programme start="20261205120000 +0800" stop="20261205130000 +0800" channel="mod.214">
-    <title lang="zh">麻将大师 第八季 EP2(护)</title>
-  </programme>
-  <programme start="20261205130000 +0800" stop="20261205140000 +0800" channel="mod.214">
-    <title lang="zh">2026 FIBA 3对3大师赛 斋桑站 小组赛6(普)</title>
-  </programme>
-  <programme start="20261205140000 +0800" stop="20261205163000 +0800" channel="mod.214">
-    <title lang="zh">2026中信杯黑豹旗 八强赛 (11/25/26)(普)</title>
-  </programme>
-  <programme start="20261205163000 +0800" stop="20261205170000 +0800" channel="mod.214">
     <title lang="zh">一起DA球啦! 谷保家商(普)</title>
   </programme>
-  <programme start="20261205170000 +0800" stop="20261205200000 +0800" channel="mod.214">
-    <title lang="zh">2026日本职棒 火腿 vs 罗德(8/29/26)(普)</title>
+  <programme start="20261130170000 +0800" stop="20261130200000 +0800" channel="mod.214">
+    <title lang="zh">2026日本职棒 软银 vs 西武(9/06/26)(普)</title>
   </programme>
-  <programme start="20261205200000 +0800" stop="20261205220000 +0800" channel="mod.214">
+  <programme start="20261130200000 +0800" stop="20261130220000 +0800" channel="mod.214">
+    <title lang="zh">企业排球联赛 新竹可利工程师 vs 三福产业 (10/25/26)(普)</title>
+  </programme>
+  <programme start="20261130220000 +0800" stop="20261201000000 +0800" channel="mod.214">
+    <title lang="zh">西甲 埃尔切 vs 马德里竞技 (11/29/26)(普)</title>
+  </programme>
+  <programme start="20261201000000 +0800" stop="20261201010000 +0800" channel="mod.214">
+    <title lang="zh">麻将大师 第七季 EP48(护)</title>
+  </programme>
+  <programme start="20261201010000 +0800" stop="20261201030000 +0800" channel="mod.214">
+    <title lang="zh">企业排球联赛 云林美津浓 vs 台北凤凰 (11/21/26)(普)</title>
+  </programme>
+  <programme start="20261201030000 +0800" stop="20261201035500 +0800" channel="mod.214">
+    <title lang="zh">2025/26 格斗特区 EP1(辅12)</title>
+  </programme>
+  <programme start="20261201035500 +0800" stop="20261201060000 +0800" channel="mod.214">
+    <title lang="zh">LIVE 西甲 皇家西班牙人 vs 赫塔菲 (12/1/26)(普)</title>
+  </programme>
+  <programme start="20261201060000 +0800" stop="20261201070000 +0800" channel="mod.214">
+    <title lang="zh">麻将大师 第八季 EP13(护)</title>
+  </programme>
+  <programme start="20261201070000 +0800" stop="20261201090000 +0800" channel="mod.214">
+    <title lang="zh">西甲 马拉加 vs 毕尔包竞技 (11/28/26)(普)</title>
+  </programme>
+  <programme start="20261201090000 +0800" stop="20261201120000 +0800" channel="mod.214">
+    <title lang="zh">2026中华职棒 味全 vs 乐天 (9/2/26)(普)</title>
+  </programme>
+  <programme start="20261201120000 +0800" stop="20261201130000 +0800" channel="mod.214">
+    <title lang="zh">麻将大师 第八季 EP5(护)</title>
+  </programme>
+  <programme start="20261201130000 +0800" stop="20261201140000 +0800" channel="mod.214">
+    <title lang="zh">2026 FIBA 3vs3大师赛 斋桑站 八强赛2(普)</title>
+  </programme>
+  <programme start="20261201140000 +0800" stop="20261201163000 +0800" channel="mod.214">
+    <title lang="zh">2026中信杯黑豹旗 八强赛 西苑高中 vs 台南海事 (11/26/26)(普)</title>
+  </programme>
+  <programme start="20261201163000 +0800" stop="20261201170000 +0800" channel="mod.214">
+    <title lang="zh">(首)键盘球探 EP130(普)</title>
+  </programme>
+  <programme start="20261201170000 +0800" stop="20261201200000 +0800" channel="mod.214">
+    <title lang="zh">2026日本职棒 欧力士 vs 西武(9/09/26)(普)</title>
+  </programme>
+  <programme start="20261201200000 +0800" stop="20261201220000 +0800" channel="mod.214">
+    <title lang="zh">企业排球联赛 新竹可利工程师 vs 屏东台电 (11/01/26)(普)</title>
+  </programme>
+  <programme start="20261201220000 +0800" stop="20261202000000 +0800" channel="mod.214">
+    <title lang="zh">西甲 皇家马德里 vs 阿拉维斯 (11/29/26)(普)</title>
+  </programme>
+  <programme start="20261202000000 +0800" stop="20261202010000 +0800" channel="mod.214">
+    <title lang="zh">麻将大师 第七季 EP49(护)</title>
+  </programme>
+  <programme start="20261202010000 +0800" stop="20261202025500 +0800" channel="mod.214">
+    <title lang="zh">企业排球联赛 台北鲸华 vs 新北中纤 (11/21/26)(普)</title>
+  </programme>
+  <programme start="20261202025500 +0800" stop="20261202033000 +0800" channel="mod.214">
+    <title lang="zh">西甲回顾 EP8(普)</title>
+  </programme>
+  <programme start="20261202033000 +0800" stop="20261202060000 +0800" channel="mod.214">
+    <title lang="zh">格斗特区 帝拳格斗(辅12)</title>
+  </programme>
+  <programme start="20261202060000 +0800" stop="20261202070000 +0800" channel="mod.214">
+    <title lang="zh">麻将大师 第八季 EP14(护)</title>
+  </programme>
+  <programme start="20261202070000 +0800" stop="20261202090000 +0800" channel="mod.214">
+    <title lang="zh">西甲 瓦伦西亚 vs 奥萨苏纳 (11/29/26)(普)</title>
+  </programme>
+  <programme start="20261202090000 +0800" stop="20261202120000 +0800" channel="mod.214">
+    <title lang="zh">2026中华职棒 台钢 vs 乐天 (9/8/26)(普)</title>
+  </programme>
+  <programme start="20261202120000 +0800" stop="20261202130000 +0800" channel="mod.214">
+    <title lang="zh">麻将大师 第八季 EP6(护)</title>
+  </programme>
+  <programme start="20261202130000 +0800" stop="20261202140000 +0800" channel="mod.214">
+    <title lang="zh">2026 FIBA 3vs3大师赛 斋桑站 四强赛(普)</title>
+  </programme>
+  <programme start="20261202140000 +0800" stop="20261202163000 +0800" channel="mod.214">
+    <title lang="zh">2026中信杯黑豹旗 八强赛 北科附工 vs 台北阳明 (11/26/26)(普)</title>
+  </programme>
+  <programme start="20261202163000 +0800" stop="20261202170000 +0800" channel="mod.214">
+    <title lang="zh">键盘球探 EP128 招牌武器的诞生 邓恺威访谈 上(普)</title>
+  </programme>
+  <programme start="20261202170000 +0800" stop="20261202200000 +0800" channel="mod.214">
+    <title lang="zh">2026日本职棒 火腿 vs 西武(8/11/26)(普)</title>
+  </programme>
+  <programme start="20261202200000 +0800" stop="20261202220000 +0800" channel="mod.214">
+    <title lang="zh">企业排球联赛 义力营造 vs 高雄台电 (11/07/26)(普)</title>
+  </programme>
+  <programme start="20261202220000 +0800" stop="20261203000000 +0800" channel="mod.214">
+    <title lang="zh">西甲 拉科鲁尼亚 vs 巴塞隆纳 (11/29/26)(普)</title>
+  </programme>
+  <programme start="20261203000000 +0800" stop="20261203010000 +0800" channel="mod.214">
+    <title lang="zh">麻将大师 第七季 EP50(护)</title>
+  </programme>
+  <programme start="20261203010000 +0800" stop="20261203011500 +0800" channel="mod.214">
+    <title lang="zh">西甲新星报到 EP3 Javi Hernandez(普)</title>
+  </programme>
+  <programme start="20261203011500 +0800" stop="20261203015500 +0800" channel="mod.214">
+    <title lang="zh">西甲回顾 EP9(普)</title>
+  </programme>
+  <programme start="20261203015500 +0800" stop="20261203035500 +0800" channel="mod.214">
+    <title lang="zh">LIVE 西甲 皇家社会 vs 皇家马德里 (12/3/26)(普)</title>
+  </programme>
+  <programme start="20261203035500 +0800" stop="20261203042500 +0800" channel="mod.214">
+    <title lang="zh">西甲主场漫游 EP2 Matias Dituro(普)</title>
+  </programme>
+  <programme start="20261203042500 +0800" stop="20261203062500 +0800" channel="mod.214">
+    <title lang="zh">LIVE 西甲 巴塞隆纳 vs 马德里竞技 (12/3/26)(普)</title>
+  </programme>
+  <programme start="20261203062500 +0800" stop="20261203070000 +0800" channel="mod.214">
+    <title lang="zh">西甲回顾 EP8(普)</title>
+  </programme>
+  <programme start="20261203070000 +0800" stop="20261203090000 +0800" channel="mod.214">
+    <title lang="zh">西甲 塞尔塔维戈 vs 比利亚雷亚尔 (11/30/26)(普)</title>
+  </programme>
+  <programme start="20261203090000 +0800" stop="20261203120000 +0800" channel="mod.214">
+    <title lang="zh">2026中华职棒 台钢 vs 乐天 (9/9/26)(普)</title>
+  </programme>
+  <programme start="20261203120000 +0800" stop="20261203130000 +0800" channel="mod.214">
+    <title lang="zh">麻将大师 第八季 EP7(护)</title>
+  </programme>
+  <programme start="20261203130000 +0800" stop="20261203140000 +0800" channel="mod.214">
+    <title lang="zh">2026 FIBA 3vs3大师赛 斋桑站 冠军赛(普)</title>
+  </programme>
+  <programme start="20261203140000 +0800" stop="20261203163000 +0800" channel="mod.214">
+    <title lang="zh">2026中信杯黑豹旗 四强赛 (11/27/26)(普)</title>
+  </programme>
+  <programme start="20261203163000 +0800" stop="20261203170000 +0800" channel="mod.214">
+    <title lang="zh">键盘球探 EP129 招牌武器的诞生 邓恺威访谈 下(普)</title>
+  </programme>
+  <programme start="20261203170000 +0800" stop="20261203200000 +0800" channel="mod.214">
+    <title lang="zh">2026日本职棒 巨人 vs 阪神(8/12/26)(普)</title>
+  </programme>
+  <programme start="20261203200000 +0800" stop="20261203220000 +0800" channel="mod.214">
+    <title lang="zh">企业排球联赛 义力营造 vs 台北鲸华 (11/15/26)(普)</title>
+  </programme>
+  <programme start="20261203220000 +0800" stop="20261204000000 +0800" channel="mod.214">
+    <title lang="zh">西甲 皇家社会 vs 皇家马德里 (12/3/26)(普)</title>
+  </programme>
+  <programme start="20261204000000 +0800" stop="20261204010000 +0800" channel="mod.214">
+    <title lang="zh">麻将大师 第七季 EP51(护)</title>
+  </programme>
+  <programme start="20261204010000 +0800" stop="20261204025500 +0800" channel="mod.214">
+    <title lang="zh">企业排球联赛 屏东台电 vs 云林美津浓 (11/22/26)(普)</title>
+  </programme>
+  <programme start="20261204025500 +0800" stop="20261204033000 +0800" channel="mod.214">
+    <title lang="zh">西甲回顾 EP9(普)</title>
+  </programme>
+  <programme start="20261204033000 +0800" stop="20261204060000 +0800" channel="mod.214">
+    <title lang="zh">2026格斗特区 混乱格斗 EP1(辅12)</title>
+  </programme>
+  <programme start="20261204060000 +0800" stop="20261204070000 +0800" channel="mod.214">
+    <title lang="zh">麻将大师 第八季 EP15(护)</title>
+  </programme>
+  <programme start="20261204070000 +0800" stop="20261204090000 +0800" channel="mod.214">
+    <title lang="zh">西甲 皇家社会 vs 塞维利亚 (11/30/26)(普)</title>
+  </programme>
+  <programme start="20261204090000 +0800" stop="20261204120000 +0800" channel="mod.214">
+    <title lang="zh">2026中华职棒 中信兄弟 vs 乐天 (9/11/26)(普)</title>
+  </programme>
+  <programme start="20261204120000 +0800" stop="20261204130000 +0800" channel="mod.214">
+    <title lang="zh">麻将大师 第八季 EP8(护)</title>
+  </programme>
+  <programme start="20261204130000 +0800" stop="20261204140000 +0800" channel="mod.214">
+    <title lang="zh">2026 FIBA 3vs3大师赛 香港站 小组赛1(普)</title>
+  </programme>
+  <programme start="20261204140000 +0800" stop="20261204163000 +0800" channel="mod.214">
+    <title lang="zh">2026中信杯黑豹旗 四强赛 (11/27/26)(普)</title>
+  </programme>
+  <programme start="20261204163000 +0800" stop="20261204170000 +0800" channel="mod.214">
+    <title lang="zh">键盘球探 EP130(普)</title>
+  </programme>
+  <programme start="20261204170000 +0800" stop="20261204200000 +0800" channel="mod.214">
+    <title lang="zh">2026日本职棒 西武 vs 火腿(8/25/26)(普)</title>
+  </programme>
+  <programme start="20261204200000 +0800" stop="20261204220000 +0800" channel="mod.214">
+    <title lang="zh">企业排球联赛 台北鲸华 vs 新北中纤 (11/21/26)(普)</title>
+  </programme>
+  <programme start="20261204220000 +0800" stop="20261205000000 +0800" channel="mod.214">
+    <title lang="zh">西甲 巴塞隆纳 vs 马德里竞技 (12/3/26)(普)</title>
+  </programme>
+  <programme start="20261205000000 +0800" stop="20261205010000 +0800" channel="mod.214">
+    <title lang="zh">麻将大师 第七季 EP52(护)</title>
+  </programme>
+  <programme start="20261205010000 +0800" stop="20261205030000 +0800" channel="mod.214">
     <title lang="zh">企业排球联赛 新北中纤 vs 台北鲸华 (11/22/26)(普)</title>
   </programme>
+  <programme start="20261205030000 +0800" stop="20261205035500 +0800" channel="mod.214">
+    <title lang="zh">2025/26 格斗特区 EP2(辅12)</title>
+  </programme>
+  <programme start="20261205035500 +0800" stop="20261205060000 +0800" channel="mod.214">
+    <title lang="zh">西甲 阿拉维斯 vs 皇家西班牙人 (12/5/26)(普)</title>
+  </programme>
+  <programme start="20261205060000 +0800" stop="20261205070000 +0800" channel="mod.214">
+    <title lang="zh">麻将大师 第八季 EP16(护)</title>
+  </programme>
+  <programme start="20261205070000 +0800" stop="20261205090000 +0800" channel="mod.214">
+    <title lang="zh">西甲 皇家西班牙人 vs 赫塔菲 (12/1/26)(普)</title>
+  </programme>
+  <programme start="20261205090000 +0800" stop="20261205120000 +0800" channel="mod.214">
+    <title lang="zh">2026日本职棒 西武 vs 乐天 (4/5/26)(普)</title>
+  </programme>
+  <programme start="20261205120000 +0800" stop="20261205130000 +0800" channel="mod.214">
+    <title lang="zh">麻将大师 第八季 EP9(护)</title>
+  </programme>
+  <programme start="20261205130000 +0800" stop="20261205150000 +0800" channel="mod.214">
+    <title lang="zh">LIVE 企业排球联赛 新竹可利工程师 vs 桃园龙迈建设 (12/05/26)(普)</title>
+  </programme>
+  <programme start="20261205150000 +0800" stop="20261205170000 +0800" channel="mod.214">
+    <title lang="zh">LIVE 企业排球联赛 三福产业 vs 云林美津浓 (12/05/26)(普)</title>
+  </programme>
+  <programme start="20261205170000 +0800" stop="20261205190000 +0800" channel="mod.214">
+    <title lang="zh">LIVE 企业排球联赛 义力营造 vs 新北中纤 (12/05/26)(普)</title>
+  </programme>
+  <programme start="20261205190000 +0800" stop="20261205200000 +0800" channel="mod.214">
+    <title lang="zh">2026 TSR 全国机车锦标赛精华 EP12(普)</title>
+  </programme>
+  <programme start="20261205200000 +0800" stop="20261205220000 +0800" channel="mod.214">
+    <title lang="zh">企业排球联赛 新竹可利工程师 vs 桃园龙迈建设 (12/05/26)(普)</title>
+  </programme>
   <programme start="20261205220000 +0800" stop="20261206000000 +0800" channel="mod.214">
-    <title lang="zh">西甲 赫塔菲 vs 马德里竞技 (11/23/26)(普)</title>
+    <title lang="zh">西甲 皇家马德里 vs 阿拉维斯 (11/29/26)(普)</title>
   </programme>
   <programme start="20261206000000 +0800" stop="20261206010000 +0800" channel="mod.214">
-    <title lang="zh">麻将大师 第七季 EP47(护)</title>
+    <title lang="zh">麻将大师 第七季 EP53(护)</title>
   </programme>
   <programme start="20261206010000 +0800" stop="20261206012500 +0800" channel="mod.214">
     <title lang="zh">西甲主场漫游 EP1 Nahuel Tenaglia(普)</title>
   </programme>
   <programme start="20261206012500 +0800" stop="20261206032500 +0800" channel="mod.214">
-    <title lang="zh">LIVE 西甲 埃尔切 vs 马德里竞技 (11/29/26)(普)</title>
+    <title lang="zh">LIVE 西甲 比利亚雷亚尔 vs 皇家社会 (12/6/26)(普)</title>
   </programme>
   <programme start="20261206032500 +0800" stop="20261206035500 +0800" channel="mod.214">
     <title lang="zh">西甲主场漫游 EP2 Matias Dituro(普)</title>
   </programme>
   <programme start="20261206035500 +0800" stop="20261206060000 +0800" channel="mod.214">
-    <title lang="zh">LIVE 西甲 皇家马德里 vs 阿拉维斯 (11/29/26)(普)</title>
+    <title lang="zh">LIVE 西甲 巴塞隆纳 vs 塞尔塔维戈 (12/6/26)(普)</title>
   </programme>
   <programme start="20261206060000 +0800" stop="20261206070000 +0800" channel="mod.214">
-    <title lang="zh">麻将大师 第八季 EP11(护)</title>
+    <title lang="zh">麻将大师 第八季 EP17(护)</title>
   </programme>
   <programme start="20261206070000 +0800" stop="20261206090000 +0800" channel="mod.214">
-    <title lang="zh">西甲 莱万特 vs 桑坦德 (11/28/26)(普)</title>
+    <title lang="zh">西甲 阿拉维斯 vs 皇家西班牙人 (12/5/26)(普)</title>
   </programme>
   <programme start="20261206090000 +0800" stop="20261206120000 +0800" channel="mod.214">
-    <title lang="zh">2026中华职棒 富邦 vs 乐天 (5/23/26)(普)</title>
+    <title lang="zh">2026日本职棒 火腿 vs 软银 (6/19/26)(普)</title>
   </programme>
-  <programme start="20261206120000 +0800" stop="20261206130000 +0800" channel="mod.214">
-    <title lang="zh">麻将大师 第八季 EP3(护)</title>
+  <programme start="20261206120000 +0800" stop="20261206140000 +0800" channel="mod.214">
+    <title lang="zh">LIVE 企业排球联赛 云林美津浓 vs 新竹可利工程师 (12/06/26)(普)</title>
   </programme>
-  <programme start="20261206130000 +0800" stop="20261206132500 +0800" channel="mod.214">
-    <title lang="zh">西甲主场漫游 EP1 Nahuel Tenaglia(普)</title>
+  <programme start="20261206140000 +0800" stop="20261206160000 +0800" channel="mod.214">
+    <title lang="zh">LIVE 企业排球联赛 桃园龙迈建设 vs 三福产业 (12/06/26)(普)</title>
   </programme>
-  <programme start="20261206132500 +0800" stop="20261206142500 +0800" channel="mod.214">
-    <title lang="zh">LIVE 2026 FIBA 3对3大师赛 香港站 八强赛1(普)</title>
+  <programme start="20261206160000 +0800" stop="20261206180000 +0800" channel="mod.214">
+    <title lang="zh">LIVE 企业排球联赛 高雄台电 vs 台北鲸华 (12/06/26)(普)</title>
   </programme>
-  <programme start="20261206142500 +0800" stop="20261206153000 +0800" channel="mod.214">
-    <title lang="zh">LIVE 2026 FIBA 3对3大师赛 香港站 八强赛2(普)</title>
+  <programme start="20261206180000 +0800" stop="20261206183000 +0800" channel="mod.214">
+    <title lang="zh">键盘球探 EP128 招牌武器的诞生 邓恺威访谈 上(普)</title>
   </programme>
-  <programme start="20261206153000 +0800" stop="20261206183000 +0800" channel="mod.214">
-    <title lang="zh">2026日本职棒 火腿 vs 软银(9/02/26)(普)</title>
+  <programme start="20261206183000 +0800" stop="20261206190000 +0800" channel="mod.214">
+    <title lang="zh">键盘球探 EP129 招牌武器的诞生 邓恺威访谈 下(普)</title>
   </programme>
-  <programme start="20261206183000 +0800" stop="20261206193500 +0800" channel="mod.214">
-    <title lang="zh">LIVE 2026 FIBA 3对3大师赛 香港站 四强赛(普)</title>
+  <programme start="20261206190000 +0800" stop="20261206200000 +0800" channel="mod.214">
+    <title lang="zh">2026 TSR 全国机车锦标赛精华 EP13(普)</title>
   </programme>
-  <programme start="20261206193500 +0800" stop="20261206204500 +0800" channel="mod.214">
-    <title lang="zh">LIVE 2026 FIBA 3对3大师赛 香港站 冠军赛(普)</title>
-  </programme>
-  <programme start="20261206204500 +0800" stop="20261206210000 +0800" channel="mod.214">
-    <title lang="zh">西甲足球小将 EP2(普)</title>
-  </programme>
-  <programme start="20261206210000 +0800" stop="20261206220000 +0800" channel="mod.214">
-    <title lang="zh">2026 TSR 全国机车锦标赛精华 EP11(普)</title>
+  <programme start="20261206200000 +0800" stop="20261206220000 +0800" channel="mod.214">
+    <title lang="zh">企业排球联赛 义力营造 vs 新北中纤 (12/05/26)(普)</title>
   </programme>
   <programme start="20261206220000 +0800" stop="20261206223000 +0800" channel="mod.214">
     <title lang="zh">西甲主场漫游 EP2 Matias Dituro(普)</title>
   </programme>
   <programme start="20261206223000 +0800" stop="20261206231000 +0800" channel="mod.214">
-    <title lang="zh">(首)西甲回顾 EP8(普)</title>
+    <title lang="zh">(首)西甲回顾 EP10(普)</title>
   </programme>
   <programme start="20261206231000 +0800" stop="20261207000000 +0800" channel="mod.214">
-    <title lang="zh">LIVE 西甲 拉科鲁尼亚 vs 巴塞隆纳 (11/29/26)(普)</title>
+    <title lang="zh">LIVE 西甲 毕尔包竞技 vs 皇家马德里 (12/6/26)(普)</title>
+  </programme>
+  <programme start="20261207011000 +0800" stop="20261207013000 +0800" channel="mod.214">
+    <title lang="zh">西甲新星报到 EP3 Javi Hernandez(普)</title>
+  </programme>
+  <programme start="20261207013000 +0800" stop="20261207033000 +0800" channel="mod.214">
+    <title lang="zh">企业排球联赛 云林美津浓 vs 台北凤凰 (11/21/26)(普)</title>
+  </programme>
+  <programme start="20261207033000 +0800" stop="20261207035500 +0800" channel="mod.214">
+    <title lang="zh">西甲主场漫游 EP1 Nahuel Tenaglia(普)</title>
+  </programme>
+  <programme start="20261207035500 +0800" stop="20261207060000 +0800" channel="mod.214">
+    <title lang="zh">LIVE 西甲 皇家社会 vs 塞维利亚 (11/30/26)(普)</title>
+  </programme>
+  <programme start="20261207060000 +0800" stop="20261207070000 +0800" channel="mod.214">
+    <title lang="zh">麻将大师 第八季 EP12(护)</title>
+  </programme>
+  <programme start="20261207070000 +0800" stop="20261207090000 +0800" channel="mod.214">
+    <title lang="zh">西甲 皇家贝提斯 vs 巴列卡诺 (11/28/26)(普)</title>
+  </programme>
+  <programme start="20261207090000 +0800" stop="20261207120000 +0800" channel="mod.214">
+    <title lang="zh">2026中华职棒 富邦 vs 乐天 (5/24/26)(普)</title>
+  </programme>
+  <programme start="20261207120000 +0800" stop="20261207130000 +0800" channel="mod.214">
+    <title lang="zh">麻将大师 第八季 EP4(护)</title>
+  </programme>
+  <programme start="20261207130000 +0800" stop="20261207140000 +0800" channel="mod.214">
+    <title lang="zh">2026 FIBA 3vs3大师赛 斋桑站 八强赛1(普)</title>
+  </programme>
+  <programme start="20261207140000 +0800" stop="20261207163000 +0800" channel="mod.214">
+    <title lang="zh">2026中信杯黑豹旗 八强赛 高苑工商 vs 谷保家商 (11/25/26)(普)</title>
+  </programme>
+  <programme start="20261207163000 +0800" stop="20261207170000 +0800" channel="mod.214">
+    <title lang="zh">一起DA球啦! 谷保家商(普)</title>
+  </programme>
+  <programme start="20261207170000 +0800" stop="20261207200000 +0800" channel="mod.214">
+    <title lang="zh">2026日本职棒 软银 vs 西武(9/06/26)(普)</title>
+  </programme>
+  <programme start="20261207200000 +0800" stop="20261207220000 +0800" channel="mod.214">
+    <title lang="zh">企业排球联赛 新竹可利工程师 vs 三福产业 (10/25/26)(普)</title>
+  </programme>
+  <programme start="20261207220000 +0800" stop="20261208000000 +0800" channel="mod.214">
+    <title lang="zh">西甲 埃尔切 vs 马德里竞技 (11/29/26)(普)</title>
+  </programme>
+  <programme start="20261208000000 +0800" stop="20261208010000 +0800" channel="mod.214">
+    <title lang="zh">麻将大师 第七季 EP48(护)</title>
+  </programme>
+  <programme start="20261208010000 +0800" stop="20261208030000 +0800" channel="mod.214">
+    <title lang="zh">企业排球联赛 云林美津浓 vs 台北凤凰 (11/21/26)(普)</title>
+  </programme>
+  <programme start="20261208030000 +0800" stop="20261208035500 +0800" channel="mod.214">
+    <title lang="zh">2025/26 格斗特区 EP1(辅12)</title>
+  </programme>
+  <programme start="20261208035500 +0800" stop="20261208060000 +0800" channel="mod.214">
+    <title lang="zh">LIVE 西甲 皇家西班牙人 vs 赫塔菲 (12/1/26)(普)</title>
+  </programme>
+  <programme start="20261208060000 +0800" stop="20261208070000 +0800" channel="mod.214">
+    <title lang="zh">麻将大师 第八季 EP13(护)</title>
+  </programme>
+  <programme start="20261208070000 +0800" stop="20261208090000 +0800" channel="mod.214">
+    <title lang="zh">西甲 马拉加 vs 毕尔包竞技 (11/28/26)(普)</title>
+  </programme>
+  <programme start="20261208090000 +0800" stop="20261208120000 +0800" channel="mod.214">
+    <title lang="zh">2026中华职棒 味全 vs 乐天 (9/2/26)(普)</title>
+  </programme>
+  <programme start="20261208120000 +0800" stop="20261208130000 +0800" channel="mod.214">
+    <title lang="zh">麻将大师 第八季 EP5(护)</title>
+  </programme>
+  <programme start="20261208130000 +0800" stop="20261208140000 +0800" channel="mod.214">
+    <title lang="zh">2026 FIBA 3vs3大师赛 斋桑站 八强赛2(普)</title>
+  </programme>
+  <programme start="20261208140000 +0800" stop="20261208163000 +0800" channel="mod.214">
+    <title lang="zh">2026中信杯黑豹旗 八强赛 西苑高中 vs 台南海事 (11/26/26)(普)</title>
+  </programme>
+  <programme start="20261208163000 +0800" stop="20261208170000 +0800" channel="mod.214">
+    <title lang="zh">(首)键盘球探 EP130(普)</title>
+  </programme>
+  <programme start="20261208170000 +0800" stop="20261208200000 +0800" channel="mod.214">
+    <title lang="zh">2026日本职棒 欧力士 vs 西武(9/09/26)(普)</title>
+  </programme>
+  <programme start="20261208200000 +0800" stop="20261208220000 +0800" channel="mod.214">
+    <title lang="zh">企业排球联赛 新竹可利工程师 vs 屏东台电 (11/01/26)(普)</title>
+  </programme>
+  <programme start="20261208220000 +0800" stop="20261209000000 +0800" channel="mod.214">
+    <title lang="zh">西甲 皇家马德里 vs 阿拉维斯 (11/29/26)(普)</title>
   </programme>
   <programme start="20261125000000 +0800" stop="20261125060000 +0800" channel="mod.215">
     <title lang="zh">休播(普)</title>
