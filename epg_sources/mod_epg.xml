@@ -8509,7 +8509,7 @@
     <title lang="zh">暗潮(口述影像)(1)(护)</title>
   </programme>
   <programme start="20261129160000 +0800" stop="20261129163000 +0800" channel="mod.13">
-    <title lang="zh">行走TIT(429)(普)</title>
+    <title lang="zh">行走TIT(363)(普)</title>
   </programme>
   <programme start="20261129163000 +0800" stop="20261129170000 +0800" channel="mod.13">
     <title lang="zh">大山小脚ㄚ(7)(普)</title>
@@ -8557,7 +8557,7 @@
     <title lang="zh">独立特派员(980)(普)</title>
   </programme>
   <programme start="20261130050000 +0800" stop="20261130053000 +0800" channel="mod.13">
-    <title lang="zh">行走TIT(429)(普)</title>
+    <title lang="zh">行走TIT(363)(普)</title>
   </programme>
   <programme start="20261130053000 +0800" stop="20261130060000 +0800" channel="mod.13">
     <title lang="zh">全球现场-漫游天下(45)(普)</title>
@@ -8642,6 +8642,936 @@
   </programme>
   <programme start="20261130230000 +0800" stop="20261201000000 +0800" channel="mod.13">
     <title lang="zh">成名在望(12)(辅12)</title>
+  </programme>
+  <programme start="20261201000000 +0800" stop="20261201001000 +0800" channel="mod.13">
+    <title lang="zh">公视越南语新闻(234)(普)</title>
+  </programme>
+  <programme start="20261201001000 +0800" stop="20261201002000 +0800" channel="mod.13">
+    <title lang="zh">公视印尼语新闻(234)(普)</title>
+  </programme>
+  <programme start="20261201002000 +0800" stop="20261201003000 +0800" channel="mod.13">
+    <title lang="zh">公视泰语新闻(234)(普)</title>
+  </programme>
+  <programme start="20261201003000 +0800" stop="20261201010000 +0800" channel="mod.13">
+    <title lang="zh">８点新世界(231)(普)</title>
+  </programme>
+  <programme start="20261201010000 +0800" stop="20261201020000 +0800" channel="mod.13">
+    <title lang="zh">我们的岛(1385)(普)</title>
+  </programme>
+  <programme start="20261201020000 +0800" stop="20261201033000 +0800" channel="mod.13">
+    <title lang="zh">芙蓉(1)(辅12)</title>
+  </programme>
+  <programme start="20261201033000 +0800" stop="20261201040000 +0800" channel="mod.13">
+    <title lang="zh">门里门外(1)(普)</title>
+  </programme>
+  <programme start="20261201040000 +0800" stop="20261201043000 +0800" channel="mod.13">
+    <title lang="zh">行走TIT(285)(普)</title>
+  </programme>
+  <programme start="20261201043000 +0800" stop="20261201050000 +0800" channel="mod.13">
+    <title lang="zh">行走TIT(286)(普)</title>
+  </programme>
+  <programme start="20261201050000 +0800" stop="20261201060000 +0800" channel="mod.13">
+    <title lang="zh">骑铁马游日本(59)(普)</title>
+  </programme>
+  <programme start="20261201060000 +0800" stop="20261201063000 +0800" channel="mod.13">
+    <title lang="zh">看公视说英语(8427)(普)</title>
+  </programme>
+  <programme start="20261201063000 +0800" stop="20261201070000 +0800" channel="mod.13">
+    <title lang="zh">水果冰淇淋(2852)(普)</title>
+  </programme>
+  <programme start="20261201070000 +0800" stop="20261201080000 +0800" channel="mod.13">
+    <title lang="zh">公视早安新闻(326)(普)</title>
+  </programme>
+  <programme start="20261201080000 +0800" stop="20261201083000 +0800" channel="mod.13">
+    <title lang="zh">行走TIT(288)(普)</title>
+  </programme>
+  <programme start="20261201083000 +0800" stop="20261201084000 +0800" channel="mod.13">
+    <title lang="zh">公视越南语新闻(234)(普)</title>
+  </programme>
+  <programme start="20261201084000 +0800" stop="20261201085000 +0800" channel="mod.13">
+    <title lang="zh">公视印尼语新闻(234)(普)</title>
+  </programme>
+  <programme start="20261201085000 +0800" stop="20261201090000 +0800" channel="mod.13">
+    <title lang="zh">公视泰语新闻(234)(普)</title>
+  </programme>
+  <programme start="20261201090000 +0800" stop="20261201103000 +0800" channel="mod.13">
+    <title lang="zh">滨西小镇(1)(普)</title>
+  </programme>
+  <programme start="20261201103000 +0800" stop="20261201110000 +0800" channel="mod.13">
+    <title lang="zh">黑孩守墓(1)(普)</title>
+  </programme>
+  <programme start="20261201110000 +0800" stop="20261201120000 +0800" channel="mod.13">
+    <title lang="zh">恐龙世界好吃惊 灭绝谜团(2)(普)</title>
+  </programme>
+  <programme start="20261201120000 +0800" stop="20261201125500 +0800" channel="mod.13">
+    <title lang="zh">公视午间新闻(334)(普)</title>
+  </programme>
+  <programme start="20261201125500 +0800" stop="20261201130000 +0800" channel="mod.13">
+    <title lang="zh">PeoPo公民新闻报(229)(普)</title>
+  </programme>
+  <programme start="20261201130000 +0800" stop="20261201140000 +0800" channel="mod.13">
+    <title lang="zh">骑铁马游日本(59)(普)</title>
+  </programme>
+  <programme start="20261201140000 +0800" stop="20261201150000 +0800" channel="mod.13">
+    <title lang="zh">愤怒的菩萨(1)(护)</title>
+  </programme>
+  <programme start="20261201150000 +0800" stop="20261201160000 +0800" channel="mod.13">
+    <title lang="zh">我的婆婆怎么那么可爱(24)(护)</title>
+  </programme>
+  <programme start="20261201160000 +0800" stop="20261201163000 +0800" channel="mod.13">
+    <title lang="zh">公视手语新闻(234)(普)</title>
+  </programme>
+  <programme start="20261201163000 +0800" stop="20261201164500 +0800" channel="mod.13">
+    <title lang="zh">蓝色小精灵第三季(33)(普)</title>
+  </programme>
+  <programme start="20261201164500 +0800" stop="20261201170000 +0800" channel="mod.13">
+    <title lang="zh">蓝色小精灵第三季(34)(普)</title>
+  </programme>
+  <programme start="20261201170000 +0800" stop="20261201173000 +0800" channel="mod.13">
+    <title lang="zh">侏罗纪世界：混沌理论(23)(普)</title>
+  </programme>
+  <programme start="20261201173000 +0800" stop="20261201180000 +0800" channel="mod.13">
+    <title lang="zh">水果冰淇淋(2861)(普)</title>
+  </programme>
+  <programme start="20261201180000 +0800" stop="20261201190000 +0800" channel="mod.13">
+    <title lang="zh">哈！真相大白了(6)(普)</title>
+  </programme>
+  <programme start="20261201190000 +0800" stop="20261201200000 +0800" channel="mod.13">
+    <title lang="zh">公视晚间新闻(334)(普)</title>
+  </programme>
+  <programme start="20261201200000 +0800" stop="20261201203000 +0800" channel="mod.13">
+    <title lang="zh">８点新世界(232)(普)</title>
+  </programme>
+  <programme start="20261201203000 +0800" stop="20261201210000 +0800" channel="mod.13">
+    <title lang="zh">尖锋对话(232)(普)</title>
+  </programme>
+  <programme start="20261201210000 +0800" stop="20261201220000 +0800" channel="mod.13">
+    <title lang="zh">骑铁马游日本(60)(普)</title>
+  </programme>
+  <programme start="20261201220000 +0800" stop="20261201230000 +0800" channel="mod.13">
+    <title lang="zh">奔驰世界绝景铁道(2)(普)</title>
+  </programme>
+  <programme start="20261201230000 +0800" stop="20261202000000 +0800" channel="mod.13">
+    <title lang="zh">成名在望(13)(辅12)</title>
+  </programme>
+  <programme start="20261202000000 +0800" stop="20261202001000 +0800" channel="mod.13">
+    <title lang="zh">公视越南语新闻(235)(普)</title>
+  </programme>
+  <programme start="20261202001000 +0800" stop="20261202002000 +0800" channel="mod.13">
+    <title lang="zh">公视印尼语新闻(235)(普)</title>
+  </programme>
+  <programme start="20261202002000 +0800" stop="20261202003000 +0800" channel="mod.13">
+    <title lang="zh">公视泰语新闻(235)(普)</title>
+  </programme>
+  <programme start="20261202003000 +0800" stop="20261202010000 +0800" channel="mod.13">
+    <title lang="zh">８点新世界(232)(普)</title>
+  </programme>
+  <programme start="20261202010000 +0800" stop="20261202020000 +0800" channel="mod.13">
+    <title lang="zh">奔驰世界绝景铁道(2)(普)</title>
+  </programme>
+  <programme start="20261202020000 +0800" stop="20261202033000 +0800" channel="mod.13">
+    <title lang="zh">2026第十四届黑豹旗全国高中棒球大赛(1)(普)</title>
+  </programme>
+  <programme start="20261202033000 +0800" stop="20261202040000 +0800" channel="mod.13">
+    <title lang="zh">黑孩守墓(1)(普)</title>
+  </programme>
+  <programme start="20261202040000 +0800" stop="20261202050000 +0800" channel="mod.13">
+    <title lang="zh">听听看(826)(普)</title>
+  </programme>
+  <programme start="20261202050000 +0800" stop="20261202060000 +0800" channel="mod.13">
+    <title lang="zh">骑铁马游日本(60)(普)</title>
+  </programme>
+  <programme start="20261202060000 +0800" stop="20261202063000 +0800" channel="mod.13">
+    <title lang="zh">看公视说英语(8428)(普)</title>
+  </programme>
+  <programme start="20261202063000 +0800" stop="20261202070000 +0800" channel="mod.13">
+    <title lang="zh">水果冰淇淋(2861)(普)</title>
+  </programme>
+  <programme start="20261202070000 +0800" stop="20261202080000 +0800" channel="mod.13">
+    <title lang="zh">公视早安新闻(327)(普)</title>
+  </programme>
+  <programme start="20261202080000 +0800" stop="20261202083000 +0800" channel="mod.13">
+    <title lang="zh">行走TIT(289)(普)</title>
+  </programme>
+  <programme start="20261202083000 +0800" stop="20261202084000 +0800" channel="mod.13">
+    <title lang="zh">公视越南语新闻(235)(普)</title>
+  </programme>
+  <programme start="20261202084000 +0800" stop="20261202085000 +0800" channel="mod.13">
+    <title lang="zh">公视印尼语新闻(235)(普)</title>
+  </programme>
+  <programme start="20261202085000 +0800" stop="20261202090000 +0800" channel="mod.13">
+    <title lang="zh">公视泰语新闻(235)(普)</title>
+  </programme>
+  <programme start="20261202090000 +0800" stop="20261202103000 +0800" channel="mod.13">
+    <title lang="zh">畸零地(1)(普)</title>
+  </programme>
+  <programme start="20261202103000 +0800" stop="20261202110000 +0800" channel="mod.13">
+    <title lang="zh">道安讲习(1)(护)</title>
+  </programme>
+  <programme start="20261202110000 +0800" stop="20261202120000 +0800" channel="mod.13">
+    <title lang="zh">来自北国的礼物:富良野厨房(1)(普)</title>
+  </programme>
+  <programme start="20261202120000 +0800" stop="20261202125500 +0800" channel="mod.13">
+    <title lang="zh">公视午间新闻(335)(普)</title>
+  </programme>
+  <programme start="20261202125500 +0800" stop="20261202130000 +0800" channel="mod.13">
+    <title lang="zh">PeoPo公民新闻报(230)(普)</title>
+  </programme>
+  <programme start="20261202130000 +0800" stop="20261202140000 +0800" channel="mod.13">
+    <title lang="zh">骑铁马游日本(60)(普)</title>
+  </programme>
+  <programme start="20261202140000 +0800" stop="20261202150000 +0800" channel="mod.13">
+    <title lang="zh">愤怒的菩萨(2)(护)</title>
+  </programme>
+  <programme start="20261202150000 +0800" stop="20261202160000 +0800" channel="mod.13">
+    <title lang="zh">我的婆婆怎么那么可爱(25)(护)</title>
+  </programme>
+  <programme start="20261202160000 +0800" stop="20261202163000 +0800" channel="mod.13">
+    <title lang="zh">公视手语新闻(235)(普)</title>
+  </programme>
+  <programme start="20261202163000 +0800" stop="20261202164500 +0800" channel="mod.13">
+    <title lang="zh">蓝色小精灵第三季(35)(普)</title>
+  </programme>
+  <programme start="20261202164500 +0800" stop="20261202170000 +0800" channel="mod.13">
+    <title lang="zh">蓝色小精灵第三季(36)(普)</title>
+  </programme>
+  <programme start="20261202170000 +0800" stop="20261202173000 +0800" channel="mod.13">
+    <title lang="zh">安妮‧雪莉(7)(普)</title>
+  </programme>
+  <programme start="20261202173000 +0800" stop="20261202180000 +0800" channel="mod.13">
+    <title lang="zh">水果冰淇淋(2862)(普)</title>
+  </programme>
+  <programme start="20261202180000 +0800" stop="20261202190000 +0800" channel="mod.13">
+    <title lang="zh">哈！真相大白了(7)(普)</title>
+  </programme>
+  <programme start="20261202190000 +0800" stop="20261202200000 +0800" channel="mod.13">
+    <title lang="zh">公视晚间新闻(335)(普)</title>
+  </programme>
+  <programme start="20261202200000 +0800" stop="20261202203000 +0800" channel="mod.13">
+    <title lang="zh">８点新世界(233)(普)</title>
+  </programme>
+  <programme start="20261202203000 +0800" stop="20261202210000 +0800" channel="mod.13">
+    <title lang="zh">尖锋对话(233)(普)</title>
+  </programme>
+  <programme start="20261202210000 +0800" stop="20261202220000 +0800" channel="mod.13">
+    <title lang="zh">骑铁马游日本(61)(普)</title>
+  </programme>
+  <programme start="20261202220000 +0800" stop="20261202230000 +0800" channel="mod.13">
+    <title lang="zh">独立特派员(981)(普)</title>
+  </programme>
+  <programme start="20261202230000 +0800" stop="20261203000000 +0800" channel="mod.13">
+    <title lang="zh">成名在望(14)(辅12)</title>
+  </programme>
+  <programme start="20261203000000 +0800" stop="20261203001000 +0800" channel="mod.13">
+    <title lang="zh">公视越南语新闻(236)(普)</title>
+  </programme>
+  <programme start="20261203001000 +0800" stop="20261203002000 +0800" channel="mod.13">
+    <title lang="zh">公视印尼语新闻(236)(普)</title>
+  </programme>
+  <programme start="20261203002000 +0800" stop="20261203003000 +0800" channel="mod.13">
+    <title lang="zh">公视泰语新闻(236)(普)</title>
+  </programme>
+  <programme start="20261203003000 +0800" stop="20261203010000 +0800" channel="mod.13">
+    <title lang="zh">８点新世界(233)(普)</title>
+  </programme>
+  <programme start="20261203010000 +0800" stop="20261203020000 +0800" channel="mod.13">
+    <title lang="zh">独立特派员(981)(普)</title>
+  </programme>
+  <programme start="20261203020000 +0800" stop="20261203040700 +0800" channel="mod.13">
+    <title lang="zh">2026第十四届黑豹旗全国高中棒球大赛(2)(普)</title>
+  </programme>
+  <programme start="20261203040700 +0800" stop="20261203050000 +0800" channel="mod.13">
+    <title lang="zh">听听看(827)(普)</title>
+  </programme>
+  <programme start="20261203050000 +0800" stop="20261203060000 +0800" channel="mod.13">
+    <title lang="zh">骑铁马游日本(61)(普)</title>
+  </programme>
+  <programme start="20261203060000 +0800" stop="20261203063000 +0800" channel="mod.13">
+    <title lang="zh">看公视说英语(8429)(普)</title>
+  </programme>
+  <programme start="20261203063000 +0800" stop="20261203070000 +0800" channel="mod.13">
+    <title lang="zh">水果冰淇淋(2862)(普)</title>
+  </programme>
+  <programme start="20261203070000 +0800" stop="20261203080000 +0800" channel="mod.13">
+    <title lang="zh">公视早安新闻(328)(普)</title>
+  </programme>
+  <programme start="20261203080000 +0800" stop="20261203083000 +0800" channel="mod.13">
+    <title lang="zh">行走TIT(290)(普)</title>
+  </programme>
+  <programme start="20261203083000 +0800" stop="20261203084000 +0800" channel="mod.13">
+    <title lang="zh">公视越南语新闻(236)(普)</title>
+  </programme>
+  <programme start="20261203084000 +0800" stop="20261203085000 +0800" channel="mod.13">
+    <title lang="zh">公视印尼语新闻(236)(普)</title>
+  </programme>
+  <programme start="20261203085000 +0800" stop="20261203090000 +0800" channel="mod.13">
+    <title lang="zh">公视泰语新闻(236)(普)</title>
+  </programme>
+  <programme start="20261203090000 +0800" stop="20261203103000 +0800" channel="mod.13">
+    <title lang="zh">亲爱的陌生人(1)(护)</title>
+  </programme>
+  <programme start="20261203103000 +0800" stop="20261203110000 +0800" channel="mod.13">
+    <title lang="zh">夏日纪事(1)(普)</title>
+  </programme>
+  <programme start="20261203110000 +0800" stop="20261203120000 +0800" channel="mod.13">
+    <title lang="zh">来自北国的礼物:富良野厨房(2)(普)</title>
+  </programme>
+  <programme start="20261203120000 +0800" stop="20261203125500 +0800" channel="mod.13">
+    <title lang="zh">公视午间新闻(336)(普)</title>
+  </programme>
+  <programme start="20261203125500 +0800" stop="20261203130000 +0800" channel="mod.13">
+    <title lang="zh">PeoPo公民新闻报(231)(普)</title>
+  </programme>
+  <programme start="20261203130000 +0800" stop="20261203140000 +0800" channel="mod.13">
+    <title lang="zh">骑铁马游日本(61)(普)</title>
+  </programme>
+  <programme start="20261203140000 +0800" stop="20261203150000 +0800" channel="mod.13">
+    <title lang="zh">愤怒的菩萨(3)(护)</title>
+  </programme>
+  <programme start="20261203150000 +0800" stop="20261203160000 +0800" channel="mod.13">
+    <title lang="zh">我的婆婆怎么那么可爱(26)(护)</title>
+  </programme>
+  <programme start="20261203160000 +0800" stop="20261203163000 +0800" channel="mod.13">
+    <title lang="zh">公视手语新闻(236)(普)</title>
+  </programme>
+  <programme start="20261203163000 +0800" stop="20261203164500 +0800" channel="mod.13">
+    <title lang="zh">蓝色小精灵第三季(37)(普)</title>
+  </programme>
+  <programme start="20261203164500 +0800" stop="20261203170000 +0800" channel="mod.13">
+    <title lang="zh">蓝色小精灵第三季(38)(普)</title>
+  </programme>
+  <programme start="20261203170000 +0800" stop="20261203173000 +0800" channel="mod.13">
+    <title lang="zh">安妮‧雪莉(8)(普)</title>
+  </programme>
+  <programme start="20261203173000 +0800" stop="20261203180000 +0800" channel="mod.13">
+    <title lang="zh">水果冰淇淋(2853)(普)</title>
+  </programme>
+  <programme start="20261203180000 +0800" stop="20261203190000 +0800" channel="mod.13">
+    <title lang="zh">哈！真相大白了(8)(普)</title>
+  </programme>
+  <programme start="20261203190000 +0800" stop="20261203200000 +0800" channel="mod.13">
+    <title lang="zh">公视晚间新闻(336)(普)</title>
+  </programme>
+  <programme start="20261203200000 +0800" stop="20261203203000 +0800" channel="mod.13">
+    <title lang="zh">８点新世界(234)(普)</title>
+  </programme>
+  <programme start="20261203203000 +0800" stop="20261203210000 +0800" channel="mod.13">
+    <title lang="zh">尖锋对话(234)(普)</title>
+  </programme>
+  <programme start="20261203210000 +0800" stop="20261203220000 +0800" channel="mod.13">
+    <title lang="zh">太平洋岛国秘境之旅(3)(普)</title>
+  </programme>
+  <programme start="20261203220000 +0800" stop="20261203234000 +0800" channel="mod.13">
+    <title lang="zh">大海浮梦(1)(普)</title>
+  </programme>
+  <programme start="20261203234000 +0800" stop="20261204000000 +0800" channel="mod.13">
+    <title lang="zh">四牲六道(1)(辅12)</title>
+  </programme>
+  <programme start="20261204000000 +0800" stop="20261204001000 +0800" channel="mod.13">
+    <title lang="zh">公视越南语新闻(237)(普)</title>
+  </programme>
+  <programme start="20261204001000 +0800" stop="20261204002000 +0800" channel="mod.13">
+    <title lang="zh">公视印尼语新闻(237)(普)</title>
+  </programme>
+  <programme start="20261204002000 +0800" stop="20261204003000 +0800" channel="mod.13">
+    <title lang="zh">公视泰语新闻(237)(普)</title>
+  </programme>
+  <programme start="20261204003000 +0800" stop="20261204010000 +0800" channel="mod.13">
+    <title lang="zh">８点新世界(234)(普)</title>
+  </programme>
+  <programme start="20261204010000 +0800" stop="20261204024000 +0800" channel="mod.13">
+    <title lang="zh">大海浮梦(1)(普)</title>
+  </programme>
+  <programme start="20261204024000 +0800" stop="20261204030000 +0800" channel="mod.13">
+    <title lang="zh">四牲六道(1)(辅12)</title>
+  </programme>
+  <programme start="20261204030000 +0800" stop="20261204050000 +0800" channel="mod.13">
+    <title lang="zh">2026第十四届黑豹旗全国高中棒球大赛(3)(普)</title>
+  </programme>
+  <programme start="20261204050000 +0800" stop="20261204060000 +0800" channel="mod.13">
+    <title lang="zh">太平洋岛国秘境之旅(3)(普)</title>
+  </programme>
+  <programme start="20261204060000 +0800" stop="20261204063000 +0800" channel="mod.13">
+    <title lang="zh">看公视说英语(8430)(普)</title>
+  </programme>
+  <programme start="20261204063000 +0800" stop="20261204070000 +0800" channel="mod.13">
+    <title lang="zh">水果冰淇淋(2853)(普)</title>
+  </programme>
+  <programme start="20261204070000 +0800" stop="20261204080000 +0800" channel="mod.13">
+    <title lang="zh">公视早安新闻(329)(普)</title>
+  </programme>
+  <programme start="20261204080000 +0800" stop="20261204083000 +0800" channel="mod.13">
+    <title lang="zh">行走TIT(291)(普)</title>
+  </programme>
+  <programme start="20261204083000 +0800" stop="20261204084000 +0800" channel="mod.13">
+    <title lang="zh">公视越南语新闻(237)(普)</title>
+  </programme>
+  <programme start="20261204084000 +0800" stop="20261204085000 +0800" channel="mod.13">
+    <title lang="zh">公视印尼语新闻(237)(普)</title>
+  </programme>
+  <programme start="20261204085000 +0800" stop="20261204090000 +0800" channel="mod.13">
+    <title lang="zh">公视泰语新闻(237)(普)</title>
+  </programme>
+  <programme start="20261204090000 +0800" stop="20261204102800 +0800" channel="mod.13">
+    <title lang="zh">可丽饼在台湾(1)(普)</title>
+  </programme>
+  <programme start="20261204102800 +0800" stop="20261204104000 +0800" channel="mod.13">
+    <title lang="zh">李煜明敬上(1)(普)</title>
+  </programme>
+  <programme start="20261204104000 +0800" stop="20261204120000 +0800" channel="mod.13">
+    <title lang="zh">草间∞弥生(1)(护)</title>
+  </programme>
+  <programme start="20261204120000 +0800" stop="20261204125500 +0800" channel="mod.13">
+    <title lang="zh">公视午间新闻(337)(普)</title>
+  </programme>
+  <programme start="20261204125500 +0800" stop="20261204130000 +0800" channel="mod.13">
+    <title lang="zh">PeoPo公民新闻报(232)(普)</title>
+  </programme>
+  <programme start="20261204130000 +0800" stop="20261204140000 +0800" channel="mod.13">
+    <title lang="zh">太平洋岛国秘境之旅(3)(普)</title>
+  </programme>
+  <programme start="20261204140000 +0800" stop="20261204150000 +0800" channel="mod.13">
+    <title lang="zh">愤怒的菩萨(4)(护)</title>
+  </programme>
+  <programme start="20261204150000 +0800" stop="20261204160000 +0800" channel="mod.13">
+    <title lang="zh">我的婆婆怎么那么可爱(27)(护)</title>
+  </programme>
+  <programme start="20261204160000 +0800" stop="20261204163000 +0800" channel="mod.13">
+    <title lang="zh">公视手语新闻(237)(普)</title>
+  </programme>
+  <programme start="20261204163000 +0800" stop="20261204164500 +0800" channel="mod.13">
+    <title lang="zh">蓝色小精灵第三季(39)(普)</title>
+  </programme>
+  <programme start="20261204164500 +0800" stop="20261204170000 +0800" channel="mod.13">
+    <title lang="zh">蓝色小精灵第三季(40)(普)</title>
+  </programme>
+  <programme start="20261204170000 +0800" stop="20261204173000 +0800" channel="mod.13">
+    <title lang="zh">欢迎光临我的牧场2(8)(普)</title>
+  </programme>
+  <programme start="20261204173000 +0800" stop="20261204180000 +0800" channel="mod.13">
+    <title lang="zh">水果冰淇淋(2854)(普)</title>
+  </programme>
+  <programme start="20261204180000 +0800" stop="20261204190000 +0800" channel="mod.13">
+    <title lang="zh">哈！真相大白了(9)(普)</title>
+  </programme>
+  <programme start="20261204190000 +0800" stop="20261204200000 +0800" channel="mod.13">
+    <title lang="zh">公视晚间新闻(337)(普)</title>
+  </programme>
+  <programme start="20261204200000 +0800" stop="20261204203000 +0800" channel="mod.13">
+    <title lang="zh">８点新世界(235)(普)</title>
+  </programme>
+  <programme start="20261204203000 +0800" stop="20261204210000 +0800" channel="mod.13">
+    <title lang="zh">尖锋对话(235)(普)</title>
+  </programme>
+  <programme start="20261204210000 +0800" stop="20261204220000 +0800" channel="mod.13">
+    <title lang="zh">谁来晚餐17(13)(普)</title>
+  </programme>
+  <programme start="20261204220000 +0800" stop="20261205000000 +0800" channel="mod.13">
+    <title lang="zh">我被诈骗集团捧红了？(1)(普)</title>
+  </programme>
+  <programme start="20261205000000 +0800" stop="20261205001000 +0800" channel="mod.13">
+    <title lang="zh">公视越南语新闻(238)(普)</title>
+  </programme>
+  <programme start="20261205001000 +0800" stop="20261205002000 +0800" channel="mod.13">
+    <title lang="zh">公视印尼语新闻(238)(普)</title>
+  </programme>
+  <programme start="20261205002000 +0800" stop="20261205003000 +0800" channel="mod.13">
+    <title lang="zh">公视泰语新闻(238)(普)</title>
+  </programme>
+  <programme start="20261205003000 +0800" stop="20261205010000 +0800" channel="mod.13">
+    <title lang="zh">８点新世界(235)(普)</title>
+  </programme>
+  <programme start="20261205010000 +0800" stop="20261205020000 +0800" channel="mod.13">
+    <title lang="zh">谁来晚餐17(13)(普)</title>
+  </programme>
+  <programme start="20261205020000 +0800" stop="20261205040000 +0800" channel="mod.13">
+    <title lang="zh">2026第十四届黑豹旗全国高中棒球大赛(4)(普)</title>
+  </programme>
+  <programme start="20261205040000 +0800" stop="20261205050000 +0800" channel="mod.13">
+    <title lang="zh">听听看(828)(普)</title>
+  </programme>
+  <programme start="20261205050000 +0800" stop="20261205060000 +0800" channel="mod.13">
+    <title lang="zh">行走TIT(117)(普)</title>
+  </programme>
+  <programme start="20261205060000 +0800" stop="20261205063000 +0800" channel="mod.13">
+    <title lang="zh">流言追追追(93)(普)</title>
+  </programme>
+  <programme start="20261205063000 +0800" stop="20261205070000 +0800" channel="mod.13">
+    <title lang="zh">反正你也不睡觉(47)(护)</title>
+  </programme>
+  <programme start="20261205070000 +0800" stop="20261205073000 +0800" channel="mod.13">
+    <title lang="zh">公视早安新闻(330)(普)</title>
+  </programme>
+  <programme start="20261205073000 +0800" stop="20261205093000 +0800" channel="mod.13">
+    <title lang="zh">我被诈骗集团捧红了？(1)(普)</title>
+  </programme>
+  <programme start="20261205093000 +0800" stop="20261205095700 +0800" channel="mod.13">
+    <title lang="zh">沈睡的水下巨人(6)(普)</title>
+  </programme>
+  <programme start="20261205095700 +0800" stop="20261205100000 +0800" channel="mod.13">
+    <title lang="zh">PeoPo公民新闻报(183)(普)</title>
+  </programme>
+  <programme start="20261205100000 +0800" stop="20261205103000 +0800" channel="mod.13">
+    <title lang="zh">下课花路米－小学生出任务(15)(普)</title>
+  </programme>
+  <programme start="20261205103000 +0800" stop="20261205105700 +0800" channel="mod.13">
+    <title lang="zh">台湾囡仔、赞！(272)(普)</title>
+  </programme>
+  <programme start="20261205105700 +0800" stop="20261205110000 +0800" channel="mod.13">
+    <title lang="zh">PeoPo公民新闻报(184)(普)</title>
+  </programme>
+  <programme start="20261205110000 +0800" stop="20261205120000 +0800" channel="mod.13">
+    <title lang="zh">我们的岛(1385)(普)</title>
+  </programme>
+  <programme start="20261205120000 +0800" stop="20261205123000 +0800" channel="mod.13">
+    <title lang="zh">公视午间新闻(338)(普)</title>
+  </programme>
+  <programme start="20261205123000 +0800" stop="20261205140700 +0800" channel="mod.13">
+    <title lang="zh">渔港的肉子(1)(普)</title>
+  </programme>
+  <programme start="20261205140700 +0800" stop="20261205143000 +0800" channel="mod.13">
+    <title lang="zh">酷狗宝贝：月球野餐记(1)(普)</title>
+  </programme>
+  <programme start="20261205143000 +0800" stop="20261205150000 +0800" channel="mod.13">
+    <title lang="zh">艺术很有事(115)(普)</title>
+  </programme>
+  <programme start="20261205150000 +0800" stop="20261205160000 +0800" channel="mod.13">
+    <title lang="zh">名人书房第八季(13)(普)</title>
+  </programme>
+  <programme start="20261205160000 +0800" stop="20261205161600 +0800" channel="mod.13">
+    <title lang="zh">WAWA DADADA(7)(普)</title>
+  </programme>
+  <programme start="20261205161600 +0800" stop="20261205163300 +0800" channel="mod.13">
+    <title lang="zh">WAWA DADADA(8)(普)</title>
+  </programme>
+  <programme start="20261205163300 +0800" stop="20261205170000 +0800" channel="mod.13">
+    <title lang="zh">爱丽丝的难题(3)(普)</title>
+  </programme>
+  <programme start="20261205170000 +0800" stop="20261205180000 +0800" channel="mod.13">
+    <title lang="zh">全能冠军4(8)(普)</title>
+  </programme>
+  <programme start="20261205180000 +0800" stop="20261205190000 +0800" channel="mod.13">
+    <title lang="zh">谁来晚餐17(13)(普)</title>
+  </programme>
+  <programme start="20261205190000 +0800" stop="20261205193000 +0800" channel="mod.13">
+    <title lang="zh">公视晚间新闻(338)(普)</title>
+  </programme>
+  <programme start="20261205193000 +0800" stop="20261205200000 +0800" channel="mod.13">
+    <title lang="zh">全球现场-深度周报(45)(普)</title>
+  </programme>
+  <programme start="20261205200000 +0800" stop="20261205210000 +0800" channel="mod.13">
+    <title lang="zh">野性菲律宾(1)(普)</title>
+  </programme>
+  <programme start="20261205210000 +0800" stop="20261205230000 +0800" channel="mod.13">
+    <title lang="zh">我的天堂城市(1)(护)</title>
+  </programme>
+  <programme start="20261205230000 +0800" stop="20261206000000 +0800" channel="mod.13">
+    <title lang="zh">相看俨然(1)(普)</title>
+  </programme>
+  <programme start="20261206020000 +0800" stop="20261206040000 +0800" channel="mod.13">
+    <title lang="zh">我的天堂城市(1)(护)</title>
+  </programme>
+  <programme start="20261206040000 +0800" stop="20261206050000 +0800" channel="mod.13">
+    <title lang="zh">前辈，好样的!(25)(普)</title>
+  </programme>
+  <programme start="20261206050000 +0800" stop="20261206060000 +0800" channel="mod.13">
+    <title lang="zh">我们的岛(1385)(普)</title>
+  </programme>
+  <programme start="20261206060000 +0800" stop="20261206063000 +0800" channel="mod.13">
+    <title lang="zh">下课花路米(1409)(普)</title>
+  </programme>
+  <programme start="20261206063000 +0800" stop="20261206070000 +0800" channel="mod.13">
+    <title lang="zh">反正你也不睡觉(48)(护)</title>
+  </programme>
+  <programme start="20261206070000 +0800" stop="20261206073000 +0800" channel="mod.13">
+    <title lang="zh">公视早安新闻(331)(普)</title>
+  </programme>
+  <programme start="20261206073000 +0800" stop="20261206080000 +0800" channel="mod.13">
+    <title lang="zh">行走TIT(363)(普)</title>
+  </programme>
+  <programme start="20261206080000 +0800" stop="20261206090000 +0800" channel="mod.13">
+    <title lang="zh">列车人生(1)(普)</title>
+  </programme>
+  <programme start="20261206090000 +0800" stop="20261206095700 +0800" channel="mod.13">
+    <title lang="zh">少年愿望事务所(84)(普)</title>
+  </programme>
+  <programme start="20261206095700 +0800" stop="20261206100000 +0800" channel="mod.13">
+    <title lang="zh">PeoPo公民新闻报(185)(普)</title>
+  </programme>
+  <programme start="20261206100000 +0800" stop="20261206105700 +0800" channel="mod.13">
+    <title lang="zh">野性菲律宾(1)(普)</title>
+  </programme>
+  <programme start="20261206105700 +0800" stop="20261206110000 +0800" channel="mod.13">
+    <title lang="zh">PeoPo公民新闻报(186)(普)</title>
+  </programme>
+  <programme start="20261206110000 +0800" stop="20261206120000 +0800" channel="mod.13">
+    <title lang="zh">独立特派员(981)(普)</title>
+  </programme>
+  <programme start="20261206120000 +0800" stop="20261206123000 +0800" channel="mod.13">
+    <title lang="zh">公视午间新闻(339)(普)</title>
+  </programme>
+  <programme start="20261206123000 +0800" stop="20261206144000 +0800" channel="mod.13">
+    <title lang="zh">少年与狗(1)(护)</title>
+  </programme>
+  <programme start="20261206144000 +0800" stop="20261206160000 +0800" channel="mod.13">
+    <title lang="zh">狂人日记(1)(普)</title>
+  </programme>
+  <programme start="20261206160000 +0800" stop="20261206163000 +0800" channel="mod.13">
+    <title lang="zh">行走TIT(429)(普)</title>
+  </programme>
+  <programme start="20261206163000 +0800" stop="20261206170000 +0800" channel="mod.13">
+    <title lang="zh">大山小脚ㄚ(8)(普)</title>
+  </programme>
+  <programme start="20261206170000 +0800" stop="20261206180000 +0800" channel="mod.13">
+    <title lang="zh">浩克慢游(17)(普)</title>
+  </programme>
+  <programme start="20261206180000 +0800" stop="20261206190000 +0800" channel="mod.13">
+    <title lang="zh">出去一下(3)(普)</title>
+  </programme>
+  <programme start="20261206190000 +0800" stop="20261206193000 +0800" channel="mod.13">
+    <title lang="zh">公视晚间新闻(339)(普)</title>
+  </programme>
+  <programme start="20261206193000 +0800" stop="20261206200000 +0800" channel="mod.13">
+    <title lang="zh">全球现场-漫游天下(46)(普)</title>
+  </programme>
+  <programme start="20261206200000 +0800" stop="20261206210000 +0800" channel="mod.13">
+    <title lang="zh">一字千金(9)(普)</title>
+  </programme>
+  <programme start="20261206210000 +0800" stop="20261206213000 +0800" channel="mod.13">
+    <title lang="zh">也好吃(9)(普)</title>
+  </programme>
+  <programme start="20261206213000 +0800" stop="20261206220000 +0800" channel="mod.13">
+    <title lang="zh">也好吃(10)(普)</title>
+  </programme>
+  <programme start="20261206220000 +0800" stop="20261206233000 +0800" channel="mod.13">
+    <title lang="zh">白鹭鸶其实是黑色怪物(1)(辅12)</title>
+  </programme>
+  <programme start="20261206233000 +0800" stop="20261207000000 +0800" channel="mod.13">
+    <title lang="zh">这不是我的牛(1)(护)</title>
+  </programme>
+  <programme start="20261207000000 +0800" stop="20261207014000 +0800" channel="mod.13">
+    <title lang="zh">亨利先生的秘密(1)(普)</title>
+  </programme>
+  <programme start="20261207014000 +0800" stop="20261207020000 +0800" channel="mod.13">
+    <title lang="zh">黑犬(1)(普)</title>
+  </programme>
+  <programme start="20261207020000 +0800" stop="20261207030000 +0800" channel="mod.13">
+    <title lang="zh">一字千金(9)(普)</title>
+  </programme>
+  <programme start="20261207030000 +0800" stop="20261207033000 +0800" channel="mod.13">
+    <title lang="zh">也好吃(9)(普)</title>
+  </programme>
+  <programme start="20261207033000 +0800" stop="20261207040000 +0800" channel="mod.13">
+    <title lang="zh">也好吃(10)(普)</title>
+  </programme>
+  <programme start="20261207040000 +0800" stop="20261207050000 +0800" channel="mod.13">
+    <title lang="zh">独立特派员(981)(普)</title>
+  </programme>
+  <programme start="20261207050000 +0800" stop="20261207053000 +0800" channel="mod.13">
+    <title lang="zh">全球现场-深度周报(45)(普)</title>
+  </programme>
+  <programme start="20261207053000 +0800" stop="20261207060000 +0800" channel="mod.13">
+    <title lang="zh">全球现场-漫游天下(46)(普)</title>
+  </programme>
+  <programme start="20261207060000 +0800" stop="20261207063000 +0800" channel="mod.13">
+    <title lang="zh">看公视说英语(8432)(普)</title>
+  </programme>
+  <programme start="20261207063000 +0800" stop="20261207070000 +0800" channel="mod.13">
+    <title lang="zh">水果冰淇淋(2854)(普)</title>
+  </programme>
+  <programme start="20261207070000 +0800" stop="20261207080000 +0800" channel="mod.13">
+    <title lang="zh">公视早安新闻(332)(普)</title>
+  </programme>
+  <programme start="20261207080000 +0800" stop="20261207083000 +0800" channel="mod.13">
+    <title lang="zh">行走TIT(292)(普)</title>
+  </programme>
+  <programme start="20261207083000 +0800" stop="20261207084000 +0800" channel="mod.13">
+    <title lang="zh">公视越南语新闻(238)(普)</title>
+  </programme>
+  <programme start="20261207084000 +0800" stop="20261207085000 +0800" channel="mod.13">
+    <title lang="zh">公视印尼语新闻(238)(普)</title>
+  </programme>
+  <programme start="20261207085000 +0800" stop="20261207090000 +0800" channel="mod.13">
+    <title lang="zh">公视泰语新闻(238)(普)</title>
+  </programme>
+  <programme start="20261207090000 +0800" stop="20261207103000 +0800" channel="mod.13">
+    <title lang="zh">天使的收音机(1)(普)</title>
+  </programme>
+  <programme start="20261207103000 +0800" stop="20261207110000 +0800" channel="mod.13">
+    <title lang="zh">理发先生(1)(护)</title>
+  </programme>
+  <programme start="20261207110000 +0800" stop="20261207120000 +0800" channel="mod.13">
+    <title lang="zh">幕后神之手:陶瓷修复师2(1)(普)</title>
+  </programme>
+  <programme start="20261207120000 +0800" stop="20261207125500 +0800" channel="mod.13">
+    <title lang="zh">公视午间新闻(340)(普)</title>
+  </programme>
+  <programme start="20261207125500 +0800" stop="20261207130000 +0800" channel="mod.13">
+    <title lang="zh">PeoPo公民新闻报(233)(普)</title>
+  </programme>
+  <programme start="20261207130000 +0800" stop="20261207140000 +0800" channel="mod.13">
+    <title lang="zh">谁来晚餐17(13)(普)</title>
+  </programme>
+  <programme start="20261207140000 +0800" stop="20261207150000 +0800" channel="mod.13">
+    <title lang="zh">奇迹的女儿(1)(护)</title>
+  </programme>
+  <programme start="20261207150000 +0800" stop="20261207160000 +0800" channel="mod.13">
+    <title lang="zh">我的婆婆怎么那么可爱(28)(护)</title>
+  </programme>
+  <programme start="20261207160000 +0800" stop="20261207163000 +0800" channel="mod.13">
+    <title lang="zh">公视手语新闻(238)(普)</title>
+  </programme>
+  <programme start="20261207163000 +0800" stop="20261207164500 +0800" channel="mod.13">
+    <title lang="zh">蓝色小精灵第三季(41)(普)</title>
+  </programme>
+  <programme start="20261207164500 +0800" stop="20261207170000 +0800" channel="mod.13">
+    <title lang="zh">蓝色小精灵第三季(42)(普)</title>
+  </programme>
+  <programme start="20261207170000 +0800" stop="20261207173000 +0800" channel="mod.13">
+    <title lang="zh">地球队好麻吉(4)(普)</title>
+  </programme>
+  <programme start="20261207173000 +0800" stop="20261207180000 +0800" channel="mod.13">
+    <title lang="zh">水果冰淇淋(2855)(普)</title>
+  </programme>
+  <programme start="20261207180000 +0800" stop="20261207190000 +0800" channel="mod.13">
+    <title lang="zh">哈！真相大白了(10)(普)</title>
+  </programme>
+  <programme start="20261207190000 +0800" stop="20261207200000 +0800" channel="mod.13">
+    <title lang="zh">公视晚间新闻(340)(普)</title>
+  </programme>
+  <programme start="20261207200000 +0800" stop="20261207203000 +0800" channel="mod.13">
+    <title lang="zh">８点新世界(236)(普)</title>
+  </programme>
+  <programme start="20261207203000 +0800" stop="20261207210000 +0800" channel="mod.13">
+    <title lang="zh">尖锋对话(236)(普)</title>
+  </programme>
+  <programme start="20261207210000 +0800" stop="20261207220000 +0800" channel="mod.13">
+    <title lang="zh">骑铁马游日本(62)(普)</title>
+  </programme>
+  <programme start="20261207220000 +0800" stop="20261207230000 +0800" channel="mod.13">
+    <title lang="zh">我们的岛(1386)(普)</title>
+  </programme>
+  <programme start="20261207230000 +0800" stop="20261208000000 +0800" channel="mod.13">
+    <title lang="zh">邮票与舒芙蕾(1)(辅15)</title>
+  </programme>
+  <programme start="20261208000000 +0800" stop="20261208001000 +0800" channel="mod.13">
+    <title lang="zh">公视越南语新闻(239)(普)</title>
+  </programme>
+  <programme start="20261208001000 +0800" stop="20261208002000 +0800" channel="mod.13">
+    <title lang="zh">公视印尼语新闻(239)(普)</title>
+  </programme>
+  <programme start="20261208002000 +0800" stop="20261208003000 +0800" channel="mod.13">
+    <title lang="zh">公视泰语新闻(239)(普)</title>
+  </programme>
+  <programme start="20261208003000 +0800" stop="20261208010000 +0800" channel="mod.13">
+    <title lang="zh">８点新世界(236)(普)</title>
+  </programme>
+  <programme start="20261208010000 +0800" stop="20261208020000 +0800" channel="mod.13">
+    <title lang="zh">我们的岛(1386)(普)</title>
+  </programme>
+  <programme start="20261208020000 +0800" stop="20261208041000 +0800" channel="mod.13">
+    <title lang="zh">2026第十四届黑豹旗全国高中棒球大赛(5)(普)</title>
+  </programme>
+  <programme start="20261208041000 +0800" stop="20261208050000 +0800" channel="mod.13">
+    <title lang="zh">听听看(829)(普)</title>
+  </programme>
+  <programme start="20261208050000 +0800" stop="20261208060000 +0800" channel="mod.13">
+    <title lang="zh">骑铁马游日本(62)(普)</title>
+  </programme>
+  <programme start="20261208060000 +0800" stop="20261208063000 +0800" channel="mod.13">
+    <title lang="zh">看公视说英语(8433)(普)</title>
+  </programme>
+  <programme start="20261208063000 +0800" stop="20261208070000 +0800" channel="mod.13">
+    <title lang="zh">水果冰淇淋(2855)(普)</title>
+  </programme>
+  <programme start="20261208070000 +0800" stop="20261208080000 +0800" channel="mod.13">
+    <title lang="zh">公视早安新闻(333)(普)</title>
+  </programme>
+  <programme start="20261208080000 +0800" stop="20261208083000 +0800" channel="mod.13">
+    <title lang="zh">行走TIT(293)(普)</title>
+  </programme>
+  <programme start="20261208083000 +0800" stop="20261208084000 +0800" channel="mod.13">
+    <title lang="zh">公视越南语新闻(239)(普)</title>
+  </programme>
+  <programme start="20261208084000 +0800" stop="20261208085000 +0800" channel="mod.13">
+    <title lang="zh">公视印尼语新闻(239)(普)</title>
+  </programme>
+  <programme start="20261208085000 +0800" stop="20261208090000 +0800" channel="mod.13">
+    <title lang="zh">公视泰语新闻(239)(普)</title>
+  </programme>
+  <programme start="20261208090000 +0800" stop="20261208103000 +0800" channel="mod.13">
+    <title lang="zh">希望之钻(口述影像版)(1)(护)</title>
+  </programme>
+  <programme start="20261208103000 +0800" stop="20261208110000 +0800" channel="mod.13">
+    <title lang="zh">亲旅行(1)(护)</title>
+  </programme>
+  <programme start="20261208110000 +0800" stop="20261208120000 +0800" channel="mod.13">
+    <title lang="zh">幕后神之手:陶瓷修复师3(1)(普)</title>
+  </programme>
+  <programme start="20261208120000 +0800" stop="20261208125500 +0800" channel="mod.13">
+    <title lang="zh">公视午间新闻(341)(普)</title>
+  </programme>
+  <programme start="20261208125500 +0800" stop="20261208130000 +0800" channel="mod.13">
+    <title lang="zh">PeoPo公民新闻报(234)(普)</title>
+  </programme>
+  <programme start="20261208130000 +0800" stop="20261208140000 +0800" channel="mod.13">
+    <title lang="zh">骑铁马游日本(62)(普)</title>
+  </programme>
+  <programme start="20261208140000 +0800" stop="20261208150000 +0800" channel="mod.13">
+    <title lang="zh">奇迹的女儿(2)(护)</title>
+  </programme>
+  <programme start="20261208150000 +0800" stop="20261208160000 +0800" channel="mod.13">
+    <title lang="zh">我的婆婆怎么那么可爱(29)(护)</title>
+  </programme>
+  <programme start="20261208160000 +0800" stop="20261208163000 +0800" channel="mod.13">
+    <title lang="zh">公视手语新闻(239)(普)</title>
+  </programme>
+  <programme start="20261208163000 +0800" stop="20261208164500 +0800" channel="mod.13">
+    <title lang="zh">蓝色小精灵第三季(43)(普)</title>
+  </programme>
+  <programme start="20261208164500 +0800" stop="20261208170000 +0800" channel="mod.13">
+    <title lang="zh">蓝色小精灵第三季(44)(普)</title>
+  </programme>
+  <programme start="20261208170000 +0800" stop="20261208173000 +0800" channel="mod.13">
+    <title lang="zh">侏罗纪世界：混沌理论(24)(普)</title>
+  </programme>
+  <programme start="20261208173000 +0800" stop="20261208180000 +0800" channel="mod.13">
+    <title lang="zh">水果冰淇淋(2863)(普)</title>
+  </programme>
+  <programme start="20261208180000 +0800" stop="20261208190000 +0800" channel="mod.13">
+    <title lang="zh">哈！真相大白了(11)(普)</title>
+  </programme>
+  <programme start="20261208190000 +0800" stop="20261208200000 +0800" channel="mod.13">
+    <title lang="zh">公视晚间新闻(341)(普)</title>
+  </programme>
+  <programme start="20261208200000 +0800" stop="20261208203000 +0800" channel="mod.13">
+    <title lang="zh">８点新世界(237)(普)</title>
+  </programme>
+  <programme start="20261208203000 +0800" stop="20261208210000 +0800" channel="mod.13">
+    <title lang="zh">尖锋对话(237)(普)</title>
+  </programme>
+  <programme start="20261208210000 +0800" stop="20261208220000 +0800" channel="mod.13">
+    <title lang="zh">骑铁马游日本(63)(普)</title>
+  </programme>
+  <programme start="20261208220000 +0800" stop="20261208230000 +0800" channel="mod.13">
+    <title lang="zh">奔驰世界绝景铁道(3)(普)</title>
+  </programme>
+  <programme start="20261208230000 +0800" stop="20261209000000 +0800" channel="mod.13">
+    <title lang="zh">邮票与舒芙蕾(2)(辅15)</title>
+  </programme>
+  <programme start="20261209000000 +0800" stop="20261209001000 +0800" channel="mod.13">
+    <title lang="zh">公视越南语新闻(240)(普)</title>
+  </programme>
+  <programme start="20261209001000 +0800" stop="20261209002000 +0800" channel="mod.13">
+    <title lang="zh">公视印尼语新闻(240)(普)</title>
+  </programme>
+  <programme start="20261209002000 +0800" stop="20261209003000 +0800" channel="mod.13">
+    <title lang="zh">公视泰语新闻(240)(普)</title>
+  </programme>
+  <programme start="20261209003000 +0800" stop="20261209010000 +0800" channel="mod.13">
+    <title lang="zh">８点新世界(237)(普)</title>
+  </programme>
+  <programme start="20261209010000 +0800" stop="20261209020000 +0800" channel="mod.13">
+    <title lang="zh">奔驰世界绝景铁道(3)(普)</title>
+  </programme>
+  <programme start="20261209020000 +0800" stop="20261209031500 +0800" channel="mod.13">
+    <title lang="zh">2026第十四届黑豹旗全国高中棒球大赛(6)(普)</title>
+  </programme>
+  <programme start="20261209031500 +0800" stop="20261209033000 +0800" channel="mod.13">
+    <title lang="zh">马语(1)(普)</title>
+  </programme>
+  <programme start="20261209033000 +0800" stop="20261209040000 +0800" channel="mod.13">
+    <title lang="zh">亲旅行(1)(护)</title>
+  </programme>
+  <programme start="20261209040000 +0800" stop="20261209043000 +0800" channel="mod.13">
+    <title lang="zh">行走TIT(292)(普)</title>
+  </programme>
+  <programme start="20261209043000 +0800" stop="20261209050000 +0800" channel="mod.13">
+    <title lang="zh">行走TIT(293)(普)</title>
+  </programme>
+  <programme start="20261209050000 +0800" stop="20261209060000 +0800" channel="mod.13">
+    <title lang="zh">骑铁马游日本(63)(普)</title>
+  </programme>
+  <programme start="20261209060000 +0800" stop="20261209063000 +0800" channel="mod.13">
+    <title lang="zh">看公视说英语(8434)(普)</title>
+  </programme>
+  <programme start="20261209063000 +0800" stop="20261209070000 +0800" channel="mod.13">
+    <title lang="zh">水果冰淇淋(2863)(普)</title>
+  </programme>
+  <programme start="20261209070000 +0800" stop="20261209080000 +0800" channel="mod.13">
+    <title lang="zh">公视早安新闻(334)(普)</title>
+  </programme>
+  <programme start="20261209080000 +0800" stop="20261209083000 +0800" channel="mod.13">
+    <title lang="zh">行走TIT(294)(普)</title>
+  </programme>
+  <programme start="20261209083000 +0800" stop="20261209084000 +0800" channel="mod.13">
+    <title lang="zh">公视越南语新闻(240)(普)</title>
+  </programme>
+  <programme start="20261209084000 +0800" stop="20261209085000 +0800" channel="mod.13">
+    <title lang="zh">公视印尼语新闻(240)(普)</title>
+  </programme>
+  <programme start="20261209085000 +0800" stop="20261209090000 +0800" channel="mod.13">
+    <title lang="zh">公视泰语新闻(240)(普)</title>
+  </programme>
+  <programme start="20261209090000 +0800" stop="20261209103000 +0800" channel="mod.13">
+    <title lang="zh">爱情替声(口述影像版)(1)(护)</title>
+  </programme>
+  <programme start="20261209103000 +0800" stop="20261209110000 +0800" channel="mod.13">
+    <title lang="zh">海伦她妈(1)(护)</title>
+  </programme>
+  <programme start="20261209110000 +0800" stop="20261209120000 +0800" channel="mod.13">
+    <title lang="zh">日式庭园四季之美(1)(普)</title>
+  </programme>
+  <programme start="20261209120000 +0800" stop="20261209125500 +0800" channel="mod.13">
+    <title lang="zh">公视午间新闻(342)(普)</title>
+  </programme>
+  <programme start="20261209125500 +0800" stop="20261209130000 +0800" channel="mod.13">
+    <title lang="zh">PeoPo公民新闻报(235)(普)</title>
+  </programme>
+  <programme start="20261209130000 +0800" stop="20261209140000 +0800" channel="mod.13">
+    <title lang="zh">骑铁马游日本(63)(普)</title>
+  </programme>
+  <programme start="20261209140000 +0800" stop="20261209150000 +0800" channel="mod.13">
+    <title lang="zh">奇迹的女儿(3)(护)</title>
+  </programme>
+  <programme start="20261209150000 +0800" stop="20261209160000 +0800" channel="mod.13">
+    <title lang="zh">我的婆婆怎么那么可爱(30)(护)</title>
+  </programme>
+  <programme start="20261209160000 +0800" stop="20261209163000 +0800" channel="mod.13">
+    <title lang="zh">公视手语新闻(240)(普)</title>
+  </programme>
+  <programme start="20261209163000 +0800" stop="20261209164500 +0800" channel="mod.13">
+    <title lang="zh">蓝色小精灵第三季(45)(普)</title>
+  </programme>
+  <programme start="20261209164500 +0800" stop="20261209170000 +0800" channel="mod.13">
+    <title lang="zh">蓝色小精灵第三季(46)(普)</title>
+  </programme>
+  <programme start="20261209170000 +0800" stop="20261209173000 +0800" channel="mod.13">
+    <title lang="zh">安妮‧雪莉(9)(普)</title>
+  </programme>
+  <programme start="20261209173000 +0800" stop="20261209180000 +0800" channel="mod.13">
+    <title lang="zh">水果冰淇淋(2856)(普)</title>
+  </programme>
+  <programme start="20261209180000 +0800" stop="20261209190000 +0800" channel="mod.13">
+    <title lang="zh">哈！真相大白了(12)(普)</title>
+  </programme>
+  <programme start="20261209190000 +0800" stop="20261209200000 +0800" channel="mod.13">
+    <title lang="zh">公视晚间新闻(342)(普)</title>
+  </programme>
+  <programme start="20261209200000 +0800" stop="20261209203000 +0800" channel="mod.13">
+    <title lang="zh">８点新世界(238)(普)</title>
+  </programme>
+  <programme start="20261209203000 +0800" stop="20261209210000 +0800" channel="mod.13">
+    <title lang="zh">尖锋对话(238)(普)</title>
+  </programme>
+  <programme start="20261209210000 +0800" stop="20261209220000 +0800" channel="mod.13">
+    <title lang="zh">骑铁马游日本(64)(普)</title>
+  </programme>
+  <programme start="20261209220000 +0800" stop="20261209230000 +0800" channel="mod.13">
+    <title lang="zh">独立特派员(982)(普)</title>
+  </programme>
+  <programme start="20261209230000 +0800" stop="20261210000000 +0800" channel="mod.13">
+    <title lang="zh">邮票与舒芙蕾(3)(辅15)</title>
   </programme>
   <programme start="20261126003000 +0800" stop="20261126010000 +0800" channel="mod.14">
     <title lang="zh">新闻世界通(230)(普)</title>
@@ -9452,6 +10382,231 @@
   </programme>
   <programme start="20261206220000 +0800" stop="20261207000000 +0800" channel="mod.14">
     <title lang="zh">高平关(1)(普)</title>
+  </programme>
+  <programme start="20261207000000 +0800" stop="20261207010000 +0800" channel="mod.14">
+    <title lang="zh">守望黑鸢(1)(普)</title>
+  </programme>
+  <programme start="20261207010000 +0800" stop="20261207020000 +0800" channel="mod.14">
+    <title lang="zh">公民,咱的新闻(130)(普)</title>
+  </programme>
+  <programme start="20261207020000 +0800" stop="20261207060000 +0800" channel="mod.14">
+    <title lang="zh">收播(1)(普)</title>
+  </programme>
+  <programme start="20261207060000 +0800" stop="20261207063000 +0800" channel="mod.14">
+    <title lang="zh">收成ê彼一工(26)(普)</title>
+  </programme>
+  <programme start="20261207063000 +0800" stop="20261207070000 +0800" channel="mod.14">
+    <title lang="zh">台湾记事簿(374)(普)</title>
+  </programme>
+  <programme start="20261207070000 +0800" stop="20261207080000 +0800" channel="mod.14">
+    <title lang="zh">下半场练习生(15)(普)</title>
+  </programme>
+  <programme start="20261207080000 +0800" stop="20261207090000 +0800" channel="mod.14">
+    <title lang="zh">霹雳英雄战纪之蝶龙之乱下阕(1)(护)</title>
+  </programme>
+  <programme start="20261207090000 +0800" stop="20261207100000 +0800" channel="mod.14">
+    <title lang="zh">早起新闻(238)(普)</title>
+  </programme>
+  <programme start="20261207100000 +0800" stop="20261207110000 +0800" channel="mod.14">
+    <title lang="zh">文化相放伴(214)(普)</title>
+  </programme>
+  <programme start="20261207110000 +0800" stop="20261207120000 +0800" channel="mod.14">
+    <title lang="zh">阿荣与阿玉(6)(普)</title>
+  </programme>
+  <programme start="20261207120000 +0800" stop="20261207130000 +0800" channel="mod.14">
+    <title lang="zh">中昼新闻(238)(普)</title>
+  </programme>
+  <programme start="20261207130000 +0800" stop="20261207135500 +0800" channel="mod.14">
+    <title lang="zh">苦力(2)(护)</title>
+  </programme>
+  <programme start="20261207135500 +0800" stop="20261207140000 +0800" channel="mod.14">
+    <title lang="zh">行仔内ê话(29)(普)</title>
+  </programme>
+  <programme start="20261207140000 +0800" stop="20261207150000 +0800" channel="mod.14">
+    <title lang="zh">Talk Talk秀台语(30)(普)</title>
+  </programme>
+  <programme start="20261207150000 +0800" stop="20261207160000 +0800" channel="mod.14">
+    <title lang="zh">下晡新闻(341)(普)</title>
+  </programme>
+  <programme start="20261207160000 +0800" stop="20261207170000 +0800" channel="mod.14">
+    <title lang="zh">下半场练习生(15)(普)</title>
+  </programme>
+  <programme start="20261207170000 +0800" stop="20261207173000 +0800" channel="mod.14">
+    <title lang="zh">樱桃小丸子 第八季 (台语版)(11)(普)</title>
+  </programme>
+  <programme start="20261207173000 +0800" stop="20261207180000 +0800" channel="mod.14">
+    <title lang="zh">非常了不起(307)(普)</title>
+  </programme>
+  <programme start="20261207180000 +0800" stop="20261207190000 +0800" channel="mod.14">
+    <title lang="zh">阿荣与阿玉(7)(普)</title>
+  </programme>
+  <programme start="20261207190000 +0800" stop="20261207200000 +0800" channel="mod.14">
+    <title lang="zh">下暗新闻(340)(普)</title>
+  </programme>
+  <programme start="20261207200000 +0800" stop="20261207210000 +0800" channel="mod.14">
+    <title lang="zh">全家有智慧(494)(普)</title>
+  </programme>
+  <programme start="20261207210000 +0800" stop="20261207220000 +0800" channel="mod.14">
+    <title lang="zh">心 所爱的歌(99)(普)</title>
+  </programme>
+  <programme start="20261207220000 +0800" stop="20261207230000 +0800" channel="mod.14">
+    <title lang="zh">台湾新眼界(1531)(普)</title>
+  </programme>
+  <programme start="20261207230000 +0800" stop="20261207233000 +0800" channel="mod.14">
+    <title lang="zh">新闻世界通(238)(普)</title>
+  </programme>
+  <programme start="20261207233000 +0800" stop="20261208000000 +0800" channel="mod.14">
+    <title lang="zh">苦力(2)(护)</title>
+  </programme>
+  <programme start="20261208003000 +0800" stop="20261208010000 +0800" channel="mod.14">
+    <title lang="zh">新闻世界通(238)(普)</title>
+  </programme>
+  <programme start="20261208010000 +0800" stop="20261208020000 +0800" channel="mod.14">
+    <title lang="zh">台湾新眼界(1531)(普)</title>
+  </programme>
+  <programme start="20261208020000 +0800" stop="20261208060000 +0800" channel="mod.14">
+    <title lang="zh">收播(1)(普)</title>
+  </programme>
+  <programme start="20261208060000 +0800" stop="20261208063000 +0800" channel="mod.14">
+    <title lang="zh">非常了不起(307)(普)</title>
+  </programme>
+  <programme start="20261208063000 +0800" stop="20261208070000 +0800" channel="mod.14">
+    <title lang="zh">樱桃小丸子 第八季 (台语版)(11)(普)</title>
+  </programme>
+  <programme start="20261208070000 +0800" stop="20261208080000 +0800" channel="mod.14">
+    <title lang="zh">心 所爱的歌(99)(普)</title>
+  </programme>
+  <programme start="20261208080000 +0800" stop="20261208090000 +0800" channel="mod.14">
+    <title lang="zh">霹雳英雄战纪之蝶龙之乱下阕(2)(护)</title>
+  </programme>
+  <programme start="20261208090000 +0800" stop="20261208100000 +0800" channel="mod.14">
+    <title lang="zh">早起新闻(239)(普)</title>
+  </programme>
+  <programme start="20261208100000 +0800" stop="20261208110000 +0800" channel="mod.14">
+    <title lang="zh">台湾新眼界(1531)(普)</title>
+  </programme>
+  <programme start="20261208110000 +0800" stop="20261208120000 +0800" channel="mod.14">
+    <title lang="zh">阿荣与阿玉(7)(普)</title>
+  </programme>
+  <programme start="20261208120000 +0800" stop="20261208130000 +0800" channel="mod.14">
+    <title lang="zh">中昼新闻(239)(普)</title>
+  </programme>
+  <programme start="20261208130000 +0800" stop="20261208135500 +0800" channel="mod.14">
+    <title lang="zh">苦力(3)(护)</title>
+  </programme>
+  <programme start="20261208135500 +0800" stop="20261208140000 +0800" channel="mod.14">
+    <title lang="zh">行仔内ê话(30)(普)</title>
+  </programme>
+  <programme start="20261208140000 +0800" stop="20261208150000 +0800" channel="mod.14">
+    <title lang="zh">全家有智慧(494)(普)</title>
+  </programme>
+  <programme start="20261208150000 +0800" stop="20261208160000 +0800" channel="mod.14">
+    <title lang="zh">下晡新闻(342)(普)</title>
+  </programme>
+  <programme start="20261208160000 +0800" stop="20261208170000 +0800" channel="mod.14">
+    <title lang="zh">心 所爱的歌(99)(普)</title>
+  </programme>
+  <programme start="20261208170000 +0800" stop="20261208173000 +0800" channel="mod.14">
+    <title lang="zh">樱桃小丸子 第八季 (台语版)(12)(普)</title>
+  </programme>
+  <programme start="20261208173000 +0800" stop="20261208180000 +0800" channel="mod.14">
+    <title lang="zh">非常了不起(308)(普)</title>
+  </programme>
+  <programme start="20261208180000 +0800" stop="20261208190000 +0800" channel="mod.14">
+    <title lang="zh">阿荣与阿玉(8)(普)</title>
+  </programme>
+  <programme start="20261208190000 +0800" stop="20261208200000 +0800" channel="mod.14">
+    <title lang="zh">下暗新闻(341)(普)</title>
+  </programme>
+  <programme start="20261208200000 +0800" stop="20261208210000 +0800" channel="mod.14">
+    <title lang="zh">全家有智慧(495)(普)</title>
+  </programme>
+  <programme start="20261208210000 +0800" stop="20261208220000 +0800" channel="mod.14">
+    <title lang="zh">阿妈的灶跤(1)(普)</title>
+  </programme>
+  <programme start="20261208220000 +0800" stop="20261208230000 +0800" channel="mod.14">
+    <title lang="zh">台湾新眼界(1532)(普)</title>
+  </programme>
+  <programme start="20261208230000 +0800" stop="20261208233000 +0800" channel="mod.14">
+    <title lang="zh">新闻世界通(239)(普)</title>
+  </programme>
+  <programme start="20261208233000 +0800" stop="20261209000000 +0800" channel="mod.14">
+    <title lang="zh">苦力(3)(护)</title>
+  </programme>
+  <programme start="20261209003000 +0800" stop="20261209010000 +0800" channel="mod.14">
+    <title lang="zh">新闻世界通(239)(普)</title>
+  </programme>
+  <programme start="20261209010000 +0800" stop="20261209020000 +0800" channel="mod.14">
+    <title lang="zh">台湾新眼界(1532)(普)</title>
+  </programme>
+  <programme start="20261209020000 +0800" stop="20261209060000 +0800" channel="mod.14">
+    <title lang="zh">收播(1)(普)</title>
+  </programme>
+  <programme start="20261209060000 +0800" stop="20261209063000 +0800" channel="mod.14">
+    <title lang="zh">非常了不起(308)(普)</title>
+  </programme>
+  <programme start="20261209063000 +0800" stop="20261209070000 +0800" channel="mod.14">
+    <title lang="zh">樱桃小丸子 第八季 (台语版)(12)(普)</title>
+  </programme>
+  <programme start="20261209070000 +0800" stop="20261209080000 +0800" channel="mod.14">
+    <title lang="zh">阿妈的灶跤(1)(普)</title>
+  </programme>
+  <programme start="20261209080000 +0800" stop="20261209090000 +0800" channel="mod.14">
+    <title lang="zh">霹雳英雄战纪之蝶龙之乱下阕(3)(护)</title>
+  </programme>
+  <programme start="20261209090000 +0800" stop="20261209100000 +0800" channel="mod.14">
+    <title lang="zh">早起新闻(240)(普)</title>
+  </programme>
+  <programme start="20261209100000 +0800" stop="20261209110000 +0800" channel="mod.14">
+    <title lang="zh">台湾新眼界(1532)(普)</title>
+  </programme>
+  <programme start="20261209110000 +0800" stop="20261209120000 +0800" channel="mod.14">
+    <title lang="zh">阿荣与阿玉(8)(普)</title>
+  </programme>
+  <programme start="20261209120000 +0800" stop="20261209130000 +0800" channel="mod.14">
+    <title lang="zh">中昼新闻(240)(普)</title>
+  </programme>
+  <programme start="20261209130000 +0800" stop="20261209135500 +0800" channel="mod.14">
+    <title lang="zh">苦力(4)(护)</title>
+  </programme>
+  <programme start="20261209135500 +0800" stop="20261209140000 +0800" channel="mod.14">
+    <title lang="zh">行仔内ê话(31)(普)</title>
+  </programme>
+  <programme start="20261209140000 +0800" stop="20261209150000 +0800" channel="mod.14">
+    <title lang="zh">全家有智慧(495)(普)</title>
+  </programme>
+  <programme start="20261209150000 +0800" stop="20261209160000 +0800" channel="mod.14">
+    <title lang="zh">下晡新闻(343)(普)</title>
+  </programme>
+  <programme start="20261209160000 +0800" stop="20261209170000 +0800" channel="mod.14">
+    <title lang="zh">阿妈的灶跤(1)(普)</title>
+  </programme>
+  <programme start="20261209170000 +0800" stop="20261209173000 +0800" channel="mod.14">
+    <title lang="zh">樱桃小丸子 第八季 (台语版)(13)(普)</title>
+  </programme>
+  <programme start="20261209173000 +0800" stop="20261209180000 +0800" channel="mod.14">
+    <title lang="zh">非常了不起(309)(普)</title>
+  </programme>
+  <programme start="20261209180000 +0800" stop="20261209190000 +0800" channel="mod.14">
+    <title lang="zh">阿荣与阿玉(9)(普)</title>
+  </programme>
+  <programme start="20261209190000 +0800" stop="20261209200000 +0800" channel="mod.14">
+    <title lang="zh">下暗新闻(342)(普)</title>
+  </programme>
+  <programme start="20261209200000 +0800" stop="20261209210000 +0800" channel="mod.14">
+    <title lang="zh">全家有智慧(496)(普)</title>
+  </programme>
+  <programme start="20261209210000 +0800" stop="20261209220000 +0800" channel="mod.14">
+    <title lang="zh">幸福好厝边(94)(普)</title>
+  </programme>
+  <programme start="20261209220000 +0800" stop="20261209230000 +0800" channel="mod.14">
+    <title lang="zh">台湾新眼界(1533)(普)</title>
+  </programme>
+  <programme start="20261209230000 +0800" stop="20261209233000 +0800" channel="mod.14">
+    <title lang="zh">新闻世界通(240)(普)</title>
+  </programme>
+  <programme start="20261209233000 +0800" stop="20261210000000 +0800" channel="mod.14">
+    <title lang="zh">苦力(4)(护)</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126003000 +0800" channel="mod.15">
     <title lang="zh">700俱乐部(470)(普)</title>
@@ -13159,985 +14314,985 @@
     <title lang="zh">国际新闻-客观世界(326)(普)</title>
   </programme>
   <programme start="20261201060000 +0800" stop="20261201063000 +0800" channel="mod.17">
-    <title lang="zh">停动停动好健康(普)</title>
+    <title lang="zh">停动停动好健康(272)(普)</title>
   </programme>
   <programme start="20261201063000 +0800" stop="20261201070000 +0800" channel="mod.17">
-    <title lang="zh">地球队好麻吉(普)</title>
+    <title lang="zh">地球队好麻吉(9)(普)</title>
   </programme>
   <programme start="20261201070000 +0800" stop="20261201073000 +0800" channel="mod.17">
-    <title lang="zh">恐龙大牧场 III(普)</title>
+    <title lang="zh">恐龙大牧场 III(9)(普)</title>
   </programme>
   <programme start="20261201073000 +0800" stop="20261201080000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1151)(普)</title>
   </programme>
   <programme start="20261201080000 +0800" stop="20261201090000 +0800" channel="mod.17">
-    <title lang="zh">客家新闻杂志(普)</title>
+    <title lang="zh">客家新闻杂志(1016)(普)</title>
   </programme>
   <programme start="20261201090000 +0800" stop="20261201100000 +0800" channel="mod.17">
-    <title lang="zh">福气来了(普)</title>
+    <title lang="zh">福气来了(83)(普)</title>
   </programme>
   <programme start="20261201100000 +0800" stop="20261201105500 +0800" channel="mod.17">
-    <title lang="zh">一家之煮(普)</title>
+    <title lang="zh">一家之煮(482)(普)</title>
   </programme>
   <programme start="20261201105500 +0800" stop="20261201110000 +0800" channel="mod.17">
-    <title lang="zh">学学嘴学学鼻MV时间(普)</title>
+    <title lang="zh">学学嘴学学鼻MV时间(21)(普)</title>
   </programme>
   <programme start="20261201110000 +0800" stop="20261201111500 +0800" channel="mod.17">
-    <title lang="zh">森林侦探队Ⅲ(海陆腔)(普)</title>
+    <title lang="zh">森林侦探队Ⅲ(海陆腔)(23)(普)</title>
   </programme>
   <programme start="20261201111500 +0800" stop="20261201113000 +0800" channel="mod.17">
-    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(海陆腔)(普)</title>
+    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(海陆腔)(162)(普)</title>
   </programme>
   <programme start="20261201113000 +0800" stop="20261201123000 +0800" channel="mod.17">
-    <title lang="zh">吉日良辰客家封(普)</title>
+    <title lang="zh">吉日良辰客家封(23)(普)</title>
   </programme>
   <programme start="20261201123000 +0800" stop="20261201132500 +0800" channel="mod.17">
-    <title lang="zh">当昼新闻(普)</title>
+    <title lang="zh">当昼新闻(335)(普)</title>
   </programme>
   <programme start="20261201132500 +0800" stop="20261201133000 +0800" channel="mod.17">
-    <title lang="zh">飞越客庄(普)</title>
+    <title lang="zh">飞越客庄(42)(普)</title>
   </programme>
   <programme start="20261201133000 +0800" stop="20261201143000 +0800" channel="mod.17">
-    <title lang="zh">【客家寻味剧场】台北歌手(护)</title>
+    <title lang="zh">台北歌手(11)(护)</title>
   </programme>
   <programme start="20261201143000 +0800" stop="20261201150000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1151)(普)</title>
   </programme>
   <programme start="20261201150000 +0800" stop="20261201160000 +0800" channel="mod.17">
-    <title lang="zh">一家之煮(普)</title>
+    <title lang="zh">一家之煮(483)(普)</title>
   </programme>
   <programme start="20261201160000 +0800" stop="20261201165500 +0800" channel="mod.17">
-    <title lang="zh">福气来了(普)</title>
+    <title lang="zh">福气来了(84)(普)</title>
   </programme>
   <programme start="20261201165500 +0800" stop="20261201170000 +0800" channel="mod.17">
-    <title lang="zh">大自然生趣(普)</title>
+    <title lang="zh">大自然生趣(35)(普)</title>
   </programme>
   <programme start="20261201170000 +0800" stop="20261201171500 +0800" channel="mod.17">
-    <title lang="zh">森林侦探队Ⅲ(海陆腔)(普)</title>
+    <title lang="zh">森林侦探队Ⅲ(海陆腔)(23)(普)</title>
   </programme>
   <programme start="20261201171500 +0800" stop="20261201173000 +0800" channel="mod.17">
-    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(海陆腔)(普)</title>
+    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(海陆腔)(162)(普)</title>
   </programme>
   <programme start="20261201173000 +0800" stop="20261201180000 +0800" channel="mod.17">
-    <title lang="zh">恐龙大牧场 III(普)</title>
+    <title lang="zh">恐龙大牧场 III(10)(普)</title>
   </programme>
   <programme start="20261201180000 +0800" stop="20261201183000 +0800" channel="mod.17">
-    <title lang="zh">麻吉乐园LINE TOWN(普)</title>
+    <title lang="zh">麻吉乐园LINE TOWN(10)(普)</title>
   </programme>
   <programme start="20261201183000 +0800" stop="20261201190000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1152)(普)</title>
   </programme>
   <programme start="20261201190000 +0800" stop="20261201195500 +0800" channel="mod.17">
-    <title lang="zh">暗夜新闻(普)</title>
+    <title lang="zh">暗夜新闻(334)(普)</title>
   </programme>
   <programme start="20261201195500 +0800" stop="20261201200000 +0800" channel="mod.17">
-    <title lang="zh">畅歌实验所单歌(普)</title>
+    <title lang="zh">畅歌实验所单歌(88)(普)</title>
   </programme>
   <programme start="20261201200000 +0800" stop="20261201210000 +0800" channel="mod.17">
-    <title lang="zh">村民大会-过家尞聊正事(普)</title>
+    <title lang="zh">村民大会-过家尞聊正事(120)(普)</title>
   </programme>
   <programme start="20261201210000 +0800" stop="20261201220000 +0800" channel="mod.17">
-    <title lang="zh">懂吃懂吃来煮食(普)</title>
+    <title lang="zh">懂吃懂吃来煮食(27)(普)</title>
   </programme>
   <programme start="20261201220000 +0800" stop="20261201230000 +0800" channel="mod.17">
-    <title lang="zh">【客家寻味剧场】台北歌手(护)</title>
+    <title lang="zh">台北歌手(12)(护)</title>
   </programme>
   <programme start="20261201230000 +0800" stop="20261201233000 +0800" channel="mod.17">
-    <title lang="zh">国际新闻-客观世界(普)</title>
+    <title lang="zh">国际新闻-客观世界(327)(普)</title>
   </programme>
   <programme start="20261201233000 +0800" stop="20261202000000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1152)(普)</title>
   </programme>
   <programme start="20261202000000 +0800" stop="20261202010000 +0800" channel="mod.17">
-    <title lang="zh">暗夜新闻(普)</title>
+    <title lang="zh">暗夜新闻(334)(普)</title>
   </programme>
   <programme start="20261202010000 +0800" stop="20261202020000 +0800" channel="mod.17">
-    <title lang="zh">【客家寻味剧场】台北歌手(护)</title>
+    <title lang="zh">台北歌手(12)(护)</title>
   </programme>
   <programme start="20261202020000 +0800" stop="20261202030000 +0800" channel="mod.17">
-    <title lang="zh">村民大会-过家尞聊正事(普)</title>
+    <title lang="zh">村民大会-过家尞聊正事(120)(普)</title>
   </programme>
   <programme start="20261202030000 +0800" stop="20261202040000 +0800" channel="mod.17">
-    <title lang="zh">福气来了(普)</title>
+    <title lang="zh">福气来了(84)(普)</title>
   </programme>
   <programme start="20261202040000 +0800" stop="20261202050000 +0800" channel="mod.17">
-    <title lang="zh">后生大声公(普)</title>
+    <title lang="zh">后生大声公(96)(普)</title>
   </programme>
   <programme start="20261202050000 +0800" stop="20261202053000 +0800" channel="mod.17">
-    <title lang="zh">日头下‧月光光(普)</title>
+    <title lang="zh">日头下‧月光光(128)(普)</title>
   </programme>
   <programme start="20261202053000 +0800" stop="20261202060000 +0800" channel="mod.17">
-    <title lang="zh">国际新闻-客观世界(普)</title>
+    <title lang="zh">国际新闻-客观世界(327)(普)</title>
   </programme>
   <programme start="20261202060000 +0800" stop="20261202063000 +0800" channel="mod.17">
-    <title lang="zh">停动停动好健康(普)</title>
+    <title lang="zh">停动停动好健康(273)(普)</title>
   </programme>
   <programme start="20261202063000 +0800" stop="20261202070000 +0800" channel="mod.17">
-    <title lang="zh">奥林P客(普)</title>
+    <title lang="zh">奥林P客(1645)(普)</title>
   </programme>
   <programme start="20261202070000 +0800" stop="20261202073000 +0800" channel="mod.17">
-    <title lang="zh">恐龙大牧场 III(普)</title>
+    <title lang="zh">恐龙大牧场 III(10)(普)</title>
   </programme>
   <programme start="20261202073000 +0800" stop="20261202080000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1152)(普)</title>
   </programme>
   <programme start="20261202080000 +0800" stop="20261202090000 +0800" channel="mod.17">
-    <title lang="zh">村民大会-过家尞聊正事(普)</title>
+    <title lang="zh">村民大会-过家尞聊正事(120)(普)</title>
   </programme>
   <programme start="20261202090000 +0800" stop="20261202100000 +0800" channel="mod.17">
-    <title lang="zh">福气来了(普)</title>
+    <title lang="zh">福气来了(84)(普)</title>
   </programme>
   <programme start="20261202100000 +0800" stop="20261202105500 +0800" channel="mod.17">
-    <title lang="zh">一家之煮(普)</title>
+    <title lang="zh">一家之煮(483)(普)</title>
   </programme>
   <programme start="20261202105500 +0800" stop="20261202110000 +0800" channel="mod.17">
-    <title lang="zh">学学嘴学学鼻MV时间(普)</title>
+    <title lang="zh">学学嘴学学鼻MV时间(22)(普)</title>
   </programme>
   <programme start="20261202110000 +0800" stop="20261202111500 +0800" channel="mod.17">
-    <title lang="zh">森林侦探队Ⅲ(大埔腔)(普)</title>
+    <title lang="zh">森林侦探队Ⅲ(大埔腔)(23)(普)</title>
   </programme>
   <programme start="20261202111500 +0800" stop="20261202113000 +0800" channel="mod.17">
-    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(大埔腔)(普)</title>
+    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(大埔腔)(162)(普)</title>
   </programme>
   <programme start="20261202113000 +0800" stop="20261202123000 +0800" channel="mod.17">
-    <title lang="zh">懂吃懂吃来煮食(普)</title>
+    <title lang="zh">懂吃懂吃来煮食(27)(普)</title>
   </programme>
   <programme start="20261202123000 +0800" stop="20261202132500 +0800" channel="mod.17">
-    <title lang="zh">当昼新闻(普)</title>
+    <title lang="zh">当昼新闻(336)(普)</title>
   </programme>
   <programme start="20261202132500 +0800" stop="20261202133000 +0800" channel="mod.17">
-    <title lang="zh">飞越客庄(普)</title>
+    <title lang="zh">飞越客庄(43)(普)</title>
   </programme>
   <programme start="20261202133000 +0800" stop="20261202143000 +0800" channel="mod.17">
-    <title lang="zh">【客家寻味剧场】台北歌手(护)</title>
+    <title lang="zh">台北歌手(12)(护)</title>
   </programme>
   <programme start="20261202143000 +0800" stop="20261202150000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1152)(普)</title>
   </programme>
   <programme start="20261202150000 +0800" stop="20261202160000 +0800" channel="mod.17">
-    <title lang="zh">一家之煮(普)</title>
+    <title lang="zh">一家之煮(556)(普)</title>
   </programme>
   <programme start="20261202160000 +0800" stop="20261202165500 +0800" channel="mod.17">
-    <title lang="zh">福气来了(南方篇)(普)</title>
+    <title lang="zh">福气来了(南方篇)(127)(普)</title>
   </programme>
   <programme start="20261202165500 +0800" stop="20261202170000 +0800" channel="mod.17">
-    <title lang="zh">大自然生趣(普)</title>
+    <title lang="zh">大自然生趣(36)(普)</title>
   </programme>
   <programme start="20261202170000 +0800" stop="20261202171500 +0800" channel="mod.17">
-    <title lang="zh">森林侦探队Ⅲ(大埔腔)(普)</title>
+    <title lang="zh">森林侦探队Ⅲ(大埔腔)(23)(普)</title>
   </programme>
   <programme start="20261202171500 +0800" stop="20261202173000 +0800" channel="mod.17">
-    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(大埔腔)(普)</title>
+    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(大埔腔)(162)(普)</title>
   </programme>
   <programme start="20261202173000 +0800" stop="20261202180000 +0800" channel="mod.17">
-    <title lang="zh">绘声绘影(普)</title>
+    <title lang="zh">绘声绘影(38)(普)</title>
   </programme>
   <programme start="20261202180000 +0800" stop="20261202183000 +0800" channel="mod.17">
-    <title lang="zh">奥林P客(普)</title>
+    <title lang="zh">奥林P客(1648)(普)</title>
   </programme>
   <programme start="20261202183000 +0800" stop="20261202190000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1153)(普)</title>
   </programme>
   <programme start="20261202190000 +0800" stop="20261202195500 +0800" channel="mod.17">
-    <title lang="zh">暗夜新闻(普)</title>
+    <title lang="zh">暗夜新闻(335)(普)</title>
   </programme>
   <programme start="20261202195500 +0800" stop="20261202200000 +0800" channel="mod.17">
-    <title lang="zh">畅歌实验所单歌(普)</title>
+    <title lang="zh">畅歌实验所单歌(89)(普)</title>
   </programme>
   <programme start="20261202200000 +0800" stop="20261202210000 +0800" channel="mod.17">
-    <title lang="zh">溜面线杂货店(普)</title>
+    <title lang="zh">溜面线杂货店(40)(普)</title>
   </programme>
   <programme start="20261202210000 +0800" stop="20261202220000 +0800" channel="mod.17">
-    <title lang="zh">谁来作客(普)</title>
+    <title lang="zh">谁来作客(121)(普)</title>
   </programme>
   <programme start="20261202220000 +0800" stop="20261202230000 +0800" channel="mod.17">
-    <title lang="zh">【客家回声剧场】今晚是寿喜烧哦(普)</title>
+    <title lang="zh">今晚是寿喜烧哦(6)(普)</title>
   </programme>
   <programme start="20261202230000 +0800" stop="20261202233000 +0800" channel="mod.17">
-    <title lang="zh">国际新闻-客观世界(普)</title>
+    <title lang="zh">国际新闻-客观世界(328)(普)</title>
   </programme>
   <programme start="20261202233000 +0800" stop="20261203000000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1153)(普)</title>
   </programme>
   <programme start="20261203000000 +0800" stop="20261203010000 +0800" channel="mod.17">
-    <title lang="zh">暗夜新闻(普)</title>
+    <title lang="zh">暗夜新闻(335)(普)</title>
   </programme>
   <programme start="20261203010000 +0800" stop="20261203020000 +0800" channel="mod.17">
-    <title lang="zh">【客家回声剧场】今晚是寿喜烧哦(普)</title>
+    <title lang="zh">今晚是寿喜烧哦(6)(普)</title>
   </programme>
   <programme start="20261203020000 +0800" stop="20261203050000 +0800" channel="mod.17">
-    <title lang="zh">讯号测试(普)</title>
+    <title lang="zh">讯号测试(1)(普)</title>
   </programme>
   <programme start="20261203050000 +0800" stop="20261203053000 +0800" channel="mod.17">
-    <title lang="zh">日头下‧月光光(普)</title>
+    <title lang="zh">日头下‧月光光(129)(普)</title>
   </programme>
   <programme start="20261203053000 +0800" stop="20261203060000 +0800" channel="mod.17">
-    <title lang="zh">国际新闻-客观世界(普)</title>
+    <title lang="zh">国际新闻-客观世界(328)(普)</title>
   </programme>
   <programme start="20261203060000 +0800" stop="20261203063000 +0800" channel="mod.17">
-    <title lang="zh">停动停动好健康(普)</title>
+    <title lang="zh">停动停动好健康(274)(普)</title>
   </programme>
   <programme start="20261203063000 +0800" stop="20261203070000 +0800" channel="mod.17">
-    <title lang="zh">奥林P客(普)</title>
+    <title lang="zh">奥林P客(1646)(普)</title>
   </programme>
   <programme start="20261203070000 +0800" stop="20261203073000 +0800" channel="mod.17">
-    <title lang="zh">绘声绘影(普)</title>
+    <title lang="zh">绘声绘影(38)(普)</title>
   </programme>
   <programme start="20261203073000 +0800" stop="20261203080000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1153)(普)</title>
   </programme>
   <programme start="20261203080000 +0800" stop="20261203090000 +0800" channel="mod.17">
-    <title lang="zh">溜面线杂货店(普)</title>
+    <title lang="zh">溜面线杂货店(40)(普)</title>
   </programme>
   <programme start="20261203090000 +0800" stop="20261203100000 +0800" channel="mod.17">
-    <title lang="zh">福气来了(南方篇)(普)</title>
+    <title lang="zh">福气来了(南方篇)(127)(普)</title>
   </programme>
   <programme start="20261203100000 +0800" stop="20261203105500 +0800" channel="mod.17">
-    <title lang="zh">一家之煮(普)</title>
+    <title lang="zh">一家之煮(556)(普)</title>
   </programme>
   <programme start="20261203105500 +0800" stop="20261203110000 +0800" channel="mod.17">
-    <title lang="zh">学学嘴学学鼻MV时间(普)</title>
+    <title lang="zh">学学嘴学学鼻MV时间(1)(普)</title>
   </programme>
   <programme start="20261203110000 +0800" stop="20261203111500 +0800" channel="mod.17">
-    <title lang="zh">森林侦探队Ⅲ(饶平腔)(普)</title>
+    <title lang="zh">森林侦探队Ⅲ(饶平腔)(23)(普)</title>
   </programme>
   <programme start="20261203111500 +0800" stop="20261203113000 +0800" channel="mod.17">
-    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(饶平腔)(普)</title>
+    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(饶平腔)(162)(普)</title>
   </programme>
   <programme start="20261203113000 +0800" stop="20261203123000 +0800" channel="mod.17">
-    <title lang="zh">谁来作客(普)</title>
+    <title lang="zh">谁来作客(121)(普)</title>
   </programme>
   <programme start="20261203123000 +0800" stop="20261203132500 +0800" channel="mod.17">
-    <title lang="zh">当昼新闻(普)</title>
+    <title lang="zh">当昼新闻(337)(普)</title>
   </programme>
   <programme start="20261203132500 +0800" stop="20261203133000 +0800" channel="mod.17">
-    <title lang="zh">飞越客庄(普)</title>
+    <title lang="zh">飞越客庄(44)(普)</title>
   </programme>
   <programme start="20261203133000 +0800" stop="20261203143000 +0800" channel="mod.17">
-    <title lang="zh">【客家回声剧场】今晚是寿喜烧哦(普)</title>
+    <title lang="zh">今晚是寿喜烧哦(6)(普)</title>
   </programme>
   <programme start="20261203143000 +0800" stop="20261203150000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1153)(普)</title>
   </programme>
   <programme start="20261203150000 +0800" stop="20261203160000 +0800" channel="mod.17">
-    <title lang="zh">一家之煮(普)</title>
+    <title lang="zh">一家之煮(557)(普)</title>
   </programme>
   <programme start="20261203160000 +0800" stop="20261203165500 +0800" channel="mod.17">
-    <title lang="zh">福气来了(南方篇)(普)</title>
+    <title lang="zh">福气来了(南方篇)(128)(普)</title>
   </programme>
   <programme start="20261203165500 +0800" stop="20261203170000 +0800" channel="mod.17">
-    <title lang="zh">大自然生趣(普)</title>
+    <title lang="zh">大自然生趣(1)(普)</title>
   </programme>
   <programme start="20261203170000 +0800" stop="20261203171500 +0800" channel="mod.17">
-    <title lang="zh">森林侦探队Ⅲ(饶平腔)(普)</title>
+    <title lang="zh">森林侦探队Ⅲ(饶平腔)(23)(普)</title>
   </programme>
   <programme start="20261203171500 +0800" stop="20261203173000 +0800" channel="mod.17">
-    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(饶平腔)(普)</title>
+    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(饶平腔)(162)(普)</title>
   </programme>
   <programme start="20261203173000 +0800" stop="20261203180000 +0800" channel="mod.17">
-    <title lang="zh">Bilibolo唱唱跳跳(普)</title>
+    <title lang="zh">Bilibolo唱唱跳跳(649)(普)</title>
   </programme>
   <programme start="20261203180000 +0800" stop="20261203183000 +0800" channel="mod.17">
-    <title lang="zh">奥林P客(普)</title>
+    <title lang="zh">奥林P客(1649)(普)</title>
   </programme>
   <programme start="20261203183000 +0800" stop="20261203190000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1154)(普)</title>
   </programme>
   <programme start="20261203190000 +0800" stop="20261203195500 +0800" channel="mod.17">
-    <title lang="zh">暗夜新闻(普)</title>
+    <title lang="zh">暗夜新闻(336)(普)</title>
   </programme>
   <programme start="20261203195500 +0800" stop="20261203200000 +0800" channel="mod.17">
-    <title lang="zh">畅歌实验所单歌(普)</title>
+    <title lang="zh">畅歌实验所单歌(90)(普)</title>
   </programme>
   <programme start="20261203200000 +0800" stop="20261203210000 +0800" channel="mod.17">
-    <title lang="zh">【Hakka Night 我的观点】世纪的宝贝(普)</title>
+    <title lang="zh">世纪的宝贝(71)(普)</title>
   </programme>
   <programme start="20261203210000 +0800" stop="20261203220000 +0800" channel="mod.17">
-    <title lang="zh">史前地球生物(普)</title>
+    <title lang="zh">史前地球生物(5)(普)</title>
   </programme>
   <programme start="20261203220000 +0800" stop="20261203230000 +0800" channel="mod.17">
-    <title lang="zh">【客家回声剧场】今晚是寿喜烧哦(普)</title>
+    <title lang="zh">今晚是寿喜烧哦(7)(普)</title>
   </programme>
   <programme start="20261203230000 +0800" stop="20261203233000 +0800" channel="mod.17">
-    <title lang="zh">国际新闻-客观世界(普)</title>
+    <title lang="zh">国际新闻-客观世界(329)(普)</title>
   </programme>
   <programme start="20261203233000 +0800" stop="20261204000000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1154)(普)</title>
   </programme>
   <programme start="20261204000000 +0800" stop="20261204010000 +0800" channel="mod.17">
-    <title lang="zh">暗夜新闻(普)</title>
+    <title lang="zh">暗夜新闻(336)(普)</title>
   </programme>
   <programme start="20261204010000 +0800" stop="20261204020000 +0800" channel="mod.17">
-    <title lang="zh">【客家回声剧场】今晚是寿喜烧哦(普)</title>
+    <title lang="zh">今晚是寿喜烧哦(7)(普)</title>
   </programme>
   <programme start="20261204020000 +0800" stop="20261204050000 +0800" channel="mod.17">
-    <title lang="zh">讯号测试(普)</title>
+    <title lang="zh">讯号测试(1)(普)</title>
   </programme>
   <programme start="20261204050000 +0800" stop="20261204053000 +0800" channel="mod.17">
-    <title lang="zh">日头下‧月光光(普)</title>
+    <title lang="zh">日头下‧月光光(130)(普)</title>
   </programme>
   <programme start="20261204053000 +0800" stop="20261204060000 +0800" channel="mod.17">
-    <title lang="zh">国际新闻-客观世界(普)</title>
+    <title lang="zh">国际新闻-客观世界(329)(普)</title>
   </programme>
   <programme start="20261204060000 +0800" stop="20261204063000 +0800" channel="mod.17">
-    <title lang="zh">停动停动好健康(普)</title>
+    <title lang="zh">停动停动好健康(275)(普)</title>
   </programme>
   <programme start="20261204063000 +0800" stop="20261204070000 +0800" channel="mod.17">
-    <title lang="zh">奥林P客(普)</title>
+    <title lang="zh">奥林P客(1647)(普)</title>
   </programme>
   <programme start="20261204070000 +0800" stop="20261204073000 +0800" channel="mod.17">
-    <title lang="zh">Bilibolo唱唱跳跳(普)</title>
+    <title lang="zh">Bilibolo唱唱跳跳(649)(普)</title>
   </programme>
   <programme start="20261204073000 +0800" stop="20261204080000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1154)(普)</title>
   </programme>
   <programme start="20261204080000 +0800" stop="20261204090000 +0800" channel="mod.17">
-    <title lang="zh">【Hakka Night 我的观点】世纪的宝贝(普)</title>
+    <title lang="zh">世纪的宝贝(71)(普)</title>
   </programme>
   <programme start="20261204090000 +0800" stop="20261204100000 +0800" channel="mod.17">
-    <title lang="zh">福气来了(南方篇)(普)</title>
+    <title lang="zh">福气来了(南方篇)(128)(普)</title>
   </programme>
   <programme start="20261204100000 +0800" stop="20261204105500 +0800" channel="mod.17">
-    <title lang="zh">一家之煮(普)</title>
+    <title lang="zh">一家之煮(557)(普)</title>
   </programme>
   <programme start="20261204105500 +0800" stop="20261204110000 +0800" channel="mod.17">
-    <title lang="zh">学学嘴学学鼻MV时间(普)</title>
+    <title lang="zh">学学嘴学学鼻MV时间(2)(普)</title>
   </programme>
   <programme start="20261204110000 +0800" stop="20261204111500 +0800" channel="mod.17">
-    <title lang="zh">森林侦探队Ⅲ(诏安腔)(普)</title>
+    <title lang="zh">森林侦探队Ⅲ(诏安腔)(23)(普)</title>
   </programme>
   <programme start="20261204111500 +0800" stop="20261204113000 +0800" channel="mod.17">
-    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(诏安腔)(普)</title>
+    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(诏安腔)(162)(普)</title>
   </programme>
   <programme start="20261204113000 +0800" stop="20261204123000 +0800" channel="mod.17">
-    <title lang="zh">史前地球生物(普)</title>
+    <title lang="zh">史前地球生物(5)(普)</title>
   </programme>
   <programme start="20261204123000 +0800" stop="20261204132500 +0800" channel="mod.17">
-    <title lang="zh">当昼新闻(普)</title>
+    <title lang="zh">当昼新闻(338)(普)</title>
   </programme>
   <programme start="20261204132500 +0800" stop="20261204133000 +0800" channel="mod.17">
-    <title lang="zh">飞越客庄(普)</title>
+    <title lang="zh">飞越客庄(45)(普)</title>
   </programme>
   <programme start="20261204133000 +0800" stop="20261204143000 +0800" channel="mod.17">
-    <title lang="zh">【客家回声剧场】今晚是寿喜烧哦(普)</title>
+    <title lang="zh">今晚是寿喜烧哦(7)(普)</title>
   </programme>
   <programme start="20261204143000 +0800" stop="20261204150000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1154)(普)</title>
   </programme>
   <programme start="20261204150000 +0800" stop="20261204160000 +0800" channel="mod.17">
-    <title lang="zh">一家之煮(普)</title>
+    <title lang="zh">一家之煮(558)(普)</title>
   </programme>
   <programme start="20261204160000 +0800" stop="20261204165500 +0800" channel="mod.17">
-    <title lang="zh">福气来了(南方篇)(普)</title>
+    <title lang="zh">福气来了(南方篇)(129)(普)</title>
   </programme>
   <programme start="20261204165500 +0800" stop="20261204170000 +0800" channel="mod.17">
-    <title lang="zh">大自然生趣(普)</title>
+    <title lang="zh">大自然生趣(2)(普)</title>
   </programme>
   <programme start="20261204170000 +0800" stop="20261204171500 +0800" channel="mod.17">
-    <title lang="zh">森林侦探队Ⅲ(诏安腔)(普)</title>
+    <title lang="zh">森林侦探队Ⅲ(诏安腔)(23)(普)</title>
   </programme>
   <programme start="20261204171500 +0800" stop="20261204173000 +0800" channel="mod.17">
-    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(诏安腔)(普)</title>
+    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(诏安腔)(162)(普)</title>
   </programme>
   <programme start="20261204173000 +0800" stop="20261204180000 +0800" channel="mod.17">
-    <title lang="zh">Bilibolo唱唱跳跳(普)</title>
+    <title lang="zh">Bilibolo唱唱跳跳(650)(普)</title>
   </programme>
   <programme start="20261204180000 +0800" stop="20261204183000 +0800" channel="mod.17">
-    <title lang="zh">奥林P客(普)</title>
+    <title lang="zh">奥林P客(1650)(普)</title>
   </programme>
   <programme start="20261204183000 +0800" stop="20261204190000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1155)(普)</title>
   </programme>
   <programme start="20261204190000 +0800" stop="20261204195500 +0800" channel="mod.17">
-    <title lang="zh">暗夜新闻(普)</title>
+    <title lang="zh">暗夜新闻(337)(普)</title>
   </programme>
   <programme start="20261204195500 +0800" stop="20261204200000 +0800" channel="mod.17">
-    <title lang="zh">畅歌实验所单歌(普)</title>
+    <title lang="zh">畅歌实验所单歌(91)(普)</title>
   </programme>
   <programme start="20261204200000 +0800" stop="20261204205000 +0800" channel="mod.17">
-    <title lang="zh">胡来旅行社2(普)</title>
+    <title lang="zh">胡来旅行社2(5)(普)</title>
   </programme>
   <programme start="20261204205000 +0800" stop="20261204210000 +0800" channel="mod.17">
-    <title lang="zh">拉拉杂杂有土伯(普)</title>
+    <title lang="zh">拉拉杂杂有土伯(22)(普)</title>
   </programme>
   <programme start="20261204210000 +0800" stop="20261204220000 +0800" channel="mod.17">
-    <title lang="zh">新闻做么个(普)</title>
+    <title lang="zh">新闻做么个(45)(普)</title>
   </programme>
   <programme start="20261204220000 +0800" stop="20261204230000 +0800" channel="mod.17">
-    <title lang="zh">聚焦国际(普)</title>
+    <title lang="zh">聚焦国际(756)(普)</title>
   </programme>
   <programme start="20261204230000 +0800" stop="20261204233000 +0800" channel="mod.17">
-    <title lang="zh">国际新闻-客观世界(普)</title>
+    <title lang="zh">国际新闻-客观世界(330)(普)</title>
   </programme>
   <programme start="20261204233000 +0800" stop="20261205000000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1155)(普)</title>
   </programme>
   <programme start="20261205000000 +0800" stop="20261205010000 +0800" channel="mod.17">
-    <title lang="zh">暗夜新闻(普)</title>
+    <title lang="zh">暗夜新闻(337)(普)</title>
   </programme>
   <programme start="20261205010000 +0800" stop="20261205020000 +0800" channel="mod.17">
-    <title lang="zh">【Hakka Night 我的观点】世纪的宝贝(普)</title>
+    <title lang="zh">世纪的宝贝(71)(普)</title>
   </programme>
   <programme start="20261205020000 +0800" stop="20261205030000 +0800" channel="mod.17">
-    <title lang="zh">新闻做么个(普)</title>
+    <title lang="zh">新闻做么个(45)(普)</title>
   </programme>
   <programme start="20261205030000 +0800" stop="20261205040000 +0800" channel="mod.17">
-    <title lang="zh">溜面线杂货店(普)</title>
+    <title lang="zh">溜面线杂货店(40)(普)</title>
   </programme>
   <programme start="20261205040000 +0800" stop="20261205050000 +0800" channel="mod.17">
-    <title lang="zh">后生大声公(普)</title>
+    <title lang="zh">后生大声公(97)(普)</title>
   </programme>
   <programme start="20261205050000 +0800" stop="20261205053000 +0800" channel="mod.17">
-    <title lang="zh">日头下‧月光光(普)</title>
+    <title lang="zh">日头下‧月光光(1)(普)</title>
   </programme>
   <programme start="20261205053000 +0800" stop="20261205060000 +0800" channel="mod.17">
-    <title lang="zh">国际新闻-客观世界(普)</title>
+    <title lang="zh">国际新闻-客观世界(330)(普)</title>
   </programme>
   <programme start="20261205060000 +0800" stop="20261205070000 +0800" channel="mod.17">
-    <title lang="zh">吉日良辰客家封(普)</title>
+    <title lang="zh">吉日良辰客家封(23)(普)</title>
   </programme>
   <programme start="20261205070000 +0800" stop="20261205073000 +0800" channel="mod.17">
-    <title lang="zh">Bilibolo唱唱跳跳(普)</title>
+    <title lang="zh">Bilibolo唱唱跳跳(650)(普)</title>
   </programme>
   <programme start="20261205073000 +0800" stop="20261205080000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1155)(普)</title>
   </programme>
   <programme start="20261205080000 +0800" stop="20261205083000 +0800" channel="mod.17">
-    <title lang="zh">奥林P客(普)</title>
+    <title lang="zh">奥林P客(1595)(普)</title>
   </programme>
   <programme start="20261205083000 +0800" stop="20261205084500 +0800" channel="mod.17">
-    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(大埔腔)(普)</title>
+    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(大埔腔)(164)(普)</title>
   </programme>
   <programme start="20261205084500 +0800" stop="20261205090000 +0800" channel="mod.17">
-    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(饶平腔)(普)</title>
+    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(饶平腔)(165)(普)</title>
   </programme>
   <programme start="20261205090000 +0800" stop="20261205095000 +0800" channel="mod.17">
-    <title lang="zh">客庄走透透(普)</title>
+    <title lang="zh">客庄走透透(87)(普)</title>
   </programme>
   <programme start="20261205095000 +0800" stop="20261205100000 +0800" channel="mod.17">
-    <title lang="zh">拉拉杂杂有土伯(普)</title>
+    <title lang="zh">拉拉杂杂有土伯(20)(普)</title>
   </programme>
   <programme start="20261205100000 +0800" stop="20261205105500 +0800" channel="mod.17">
-    <title lang="zh">溜面线杂货店(普)</title>
+    <title lang="zh">溜面线杂货店(40)(普)</title>
   </programme>
   <programme start="20261205105500 +0800" stop="20261205110000 +0800" channel="mod.17">
-    <title lang="zh">学学嘴学学鼻(S3)(普)</title>
+    <title lang="zh">学学嘴学学鼻(S3)(33)(普)</title>
   </programme>
   <programme start="20261205110000 +0800" stop="20261205111500 +0800" channel="mod.17">
-    <title lang="zh">酷客历险记(四县腔名人版)(普)</title>
+    <title lang="zh">酷客历险记(四县腔名人版)(1)(普)</title>
   </programme>
   <programme start="20261205111500 +0800" stop="20261205113000 +0800" channel="mod.17">
-    <title lang="zh">酷客历险记(四县腔名人版)(普)</title>
+    <title lang="zh">酷客历险记(四县腔名人版)(2)(普)</title>
   </programme>
   <programme start="20261205113000 +0800" stop="20261205120000 +0800" channel="mod.17">
-    <title lang="zh">Bilibolo唱唱跳跳(普)</title>
+    <title lang="zh">Bilibolo唱唱跳跳(649)(普)</title>
   </programme>
   <programme start="20261205120000 +0800" stop="20261205123000 +0800" channel="mod.17">
-    <title lang="zh">时间旅客(普)</title>
+    <title lang="zh">时间旅客(1)(普)</title>
   </programme>
   <programme start="20261205123000 +0800" stop="20261205125500 +0800" channel="mod.17">
-    <title lang="zh">当昼新闻(普)</title>
+    <title lang="zh">当昼新闻(339)(普)</title>
   </programme>
   <programme start="20261205125500 +0800" stop="20261205130000 +0800" channel="mod.17">
-    <title lang="zh">《初心。登场》单歌(普)</title>
+    <title lang="zh">《初心。登场》单歌(17)(普)</title>
   </programme>
   <programme start="20261205130000 +0800" stop="20261205135000 +0800" channel="mod.17">
-    <title lang="zh">胡来旅行社2(普)</title>
+    <title lang="zh">胡来旅行社2(5)(普)</title>
   </programme>
   <programme start="20261205135000 +0800" stop="20261205140000 +0800" channel="mod.17">
-    <title lang="zh">拉拉杂杂有土伯(普)</title>
+    <title lang="zh">拉拉杂杂有土伯(22)(普)</title>
   </programme>
   <programme start="20261205140000 +0800" stop="20261205160000 +0800" channel="mod.17">
-    <title lang="zh">【风神舞台】大襟客全国客家传统歌谣歌唱大赛(普)</title>
+    <title lang="zh">大襟客全国客家传统歌谣歌唱大赛(1)(普)</title>
   </programme>
   <programme start="20261205160000 +0800" stop="20261205165500 +0800" channel="mod.17">
-    <title lang="zh">客庄走透透(普)</title>
+    <title lang="zh">客庄走透透(87)(普)</title>
   </programme>
   <programme start="20261205165500 +0800" stop="20261205170000 +0800" channel="mod.17">
-    <title lang="zh">学学嘴学学鼻(S3)(普)</title>
+    <title lang="zh">学学嘴学学鼻(S3)(33)(普)</title>
   </programme>
   <programme start="20261205170000 +0800" stop="20261205190000 +0800" channel="mod.17">
-    <title lang="zh">闹热打擂台(普)</title>
+    <title lang="zh">闹热打擂台(548)(普)</title>
   </programme>
   <programme start="20261205190000 +0800" stop="20261205193000 +0800" channel="mod.17">
-    <title lang="zh">暗夜新闻(普)</title>
+    <title lang="zh">暗夜新闻(338)(普)</title>
   </programme>
   <programme start="20261205193000 +0800" stop="20261205200000 +0800" channel="mod.17">
-    <title lang="zh">新。日头下月光光(普)</title>
+    <title lang="zh">新。日头下月光光(1)(普)</title>
   </programme>
   <programme start="20261205200000 +0800" stop="20261205205500 +0800" channel="mod.17">
-    <title lang="zh">客家新闻杂志(普)</title>
+    <title lang="zh">客家新闻杂志(1025)(普)</title>
   </programme>
   <programme start="20261205205500 +0800" stop="20261205210000 +0800" channel="mod.17">
-    <title lang="zh">客客客栈(普)</title>
+    <title lang="zh">客客客栈(2)(普)</title>
   </programme>
   <programme start="20261205210000 +0800" stop="20261205230000 +0800" channel="mod.17">
-    <title lang="zh">【客家电影院】樱桃小丸子-友情万岁(普)</title>
+    <title lang="zh">樱桃小丸子-友情万岁(1)(普)</title>
   </programme>
   <programme start="20261205230000 +0800" stop="20261205233000 +0800" channel="mod.17">
-    <title lang="zh">国际新闻-客观世界(普)</title>
+    <title lang="zh">国际新闻-客观世界(331)(普)</title>
   </programme>
   <programme start="20261205233000 +0800" stop="20261206000000 +0800" channel="mod.17">
-    <title lang="zh">谁来作客(普)</title>
+    <title lang="zh">谁来作客(121)(普)</title>
   </programme>
   <programme start="20261206003000 +0800" stop="20261206010000 +0800" channel="mod.17">
-    <title lang="zh">暗夜新闻(普)</title>
+    <title lang="zh">暗夜新闻(338)(普)</title>
   </programme>
   <programme start="20261206010000 +0800" stop="20261206030000 +0800" channel="mod.17">
-    <title lang="zh">【客家电影院】樱桃小丸子-友情万岁(普)</title>
+    <title lang="zh">樱桃小丸子-友情万岁(1)(普)</title>
   </programme>
   <programme start="20261206030000 +0800" stop="20261206035000 +0800" channel="mod.17">
-    <title lang="zh">客庄走透透(普)</title>
+    <title lang="zh">客庄走透透(87)(普)</title>
   </programme>
   <programme start="20261206035000 +0800" stop="20261206040000 +0800" channel="mod.17">
-    <title lang="zh">拉拉杂杂有土伯(普)</title>
+    <title lang="zh">拉拉杂杂有土伯(21)(普)</title>
   </programme>
   <programme start="20261206040000 +0800" stop="20261206050000 +0800" channel="mod.17">
-    <title lang="zh">聚焦国际(普)</title>
+    <title lang="zh">聚焦国际(756)(普)</title>
   </programme>
   <programme start="20261206050000 +0800" stop="20261206053000 +0800" channel="mod.17">
-    <title lang="zh">新。日头下月光光(普)</title>
+    <title lang="zh">新。日头下月光光(1)(普)</title>
   </programme>
   <programme start="20261206053000 +0800" stop="20261206060000 +0800" channel="mod.17">
-    <title lang="zh">国际新闻-客观世界(普)</title>
+    <title lang="zh">国际新闻-客观世界(331)(普)</title>
   </programme>
   <programme start="20261206060000 +0800" stop="20261206070000 +0800" channel="mod.17">
-    <title lang="zh">村民大会-过家尞聊正事(普)</title>
+    <title lang="zh">村民大会-过家尞聊正事(120)(普)</title>
   </programme>
   <programme start="20261206070000 +0800" stop="20261206080000 +0800" channel="mod.17">
-    <title lang="zh">老派美学的约会(普)</title>
+    <title lang="zh">老派美学的约会(6)(普)</title>
   </programme>
   <programme start="20261206080000 +0800" stop="20261206083000 +0800" channel="mod.17">
-    <title lang="zh">奥林P客(普)</title>
+    <title lang="zh">奥林P客(1596)(普)</title>
   </programme>
   <programme start="20261206083000 +0800" stop="20261206084500 +0800" channel="mod.17">
-    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(诏安腔)(普)</title>
+    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(诏安腔)(166)(普)</title>
   </programme>
   <programme start="20261206084500 +0800" stop="20261206090000 +0800" channel="mod.17">
-    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(南四县腔)(普)</title>
+    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(南四县腔)(167)(普)</title>
   </programme>
   <programme start="20261206090000 +0800" stop="20261206095000 +0800" channel="mod.17">
-    <title lang="zh">客庄走透透(普)</title>
+    <title lang="zh">客庄走透透(88)(普)</title>
   </programme>
   <programme start="20261206095000 +0800" stop="20261206100000 +0800" channel="mod.17">
-    <title lang="zh">拉拉杂杂有土伯(普)</title>
+    <title lang="zh">拉拉杂杂有土伯(21)(普)</title>
   </programme>
   <programme start="20261206100000 +0800" stop="20261206105500 +0800" channel="mod.17">
-    <title lang="zh">家家有好食(普)</title>
+    <title lang="zh">家家有好食(27)(普)</title>
   </programme>
   <programme start="20261206105500 +0800" stop="20261206110000 +0800" channel="mod.17">
-    <title lang="zh">学学嘴学学鼻(S3)(普)</title>
+    <title lang="zh">学学嘴学学鼻(S3)(34)(普)</title>
   </programme>
   <programme start="20261206110000 +0800" stop="20261206111500 +0800" channel="mod.17">
-    <title lang="zh">森林侦探队Ⅲ(南四县腔)(普)</title>
+    <title lang="zh">森林侦探队Ⅲ(南四县腔)(24)(普)</title>
   </programme>
   <programme start="20261206111500 +0800" stop="20261206113000 +0800" channel="mod.17">
-    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(南四县腔)(普)</title>
+    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(南四县腔)(163)(普)</title>
   </programme>
   <programme start="20261206113000 +0800" stop="20261206120000 +0800" channel="mod.17">
-    <title lang="zh">Bilibolo唱唱跳跳(普)</title>
+    <title lang="zh">Bilibolo唱唱跳跳(650)(普)</title>
   </programme>
   <programme start="20261206120000 +0800" stop="20261206123000 +0800" channel="mod.17">
-    <title lang="zh">新。日头下月光光(普)</title>
+    <title lang="zh">新。日头下月光光(1)(普)</title>
   </programme>
   <programme start="20261206123000 +0800" stop="20261206125500 +0800" channel="mod.17">
-    <title lang="zh">当昼新闻(普)</title>
+    <title lang="zh">当昼新闻(340)(普)</title>
   </programme>
   <programme start="20261206125500 +0800" stop="20261206130000 +0800" channel="mod.17">
-    <title lang="zh">《初心。登场》单歌(普)</title>
+    <title lang="zh">《初心。登场》单歌(18)(普)</title>
   </programme>
   <programme start="20261206130000 +0800" stop="20261206150000 +0800" channel="mod.17">
-    <title lang="zh">闹热打擂台(普)</title>
+    <title lang="zh">闹热打擂台(548)(普)</title>
   </programme>
   <programme start="20261206150000 +0800" stop="20261206160000 +0800" channel="mod.17">
-    <title lang="zh">溜面线杂货店(普)</title>
+    <title lang="zh">溜面线杂货店(40)(普)</title>
   </programme>
   <programme start="20261206160000 +0800" stop="20261206165500 +0800" channel="mod.17">
-    <title lang="zh">客庄走透透(普)</title>
+    <title lang="zh">客庄走透透(88)(普)</title>
   </programme>
   <programme start="20261206165500 +0800" stop="20261206170000 +0800" channel="mod.17">
-    <title lang="zh">学学嘴学学鼻(S3)(普)</title>
+    <title lang="zh">学学嘴学学鼻(S3)(34)(普)</title>
   </programme>
   <programme start="20261206170000 +0800" stop="20261206171500 +0800" channel="mod.17">
-    <title lang="zh">森林侦探队Ⅲ(南四县腔)(普)</title>
+    <title lang="zh">森林侦探队Ⅲ(南四县腔)(24)(普)</title>
   </programme>
   <programme start="20261206171500 +0800" stop="20261206173000 +0800" channel="mod.17">
-    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(南四县腔)(普)</title>
+    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(南四县腔)(163)(普)</title>
   </programme>
   <programme start="20261206173000 +0800" stop="20261206180000 +0800" channel="mod.17">
-    <title lang="zh">山歌唱来闹连连(普)</title>
+    <title lang="zh">山歌唱来闹连连(51)(普)</title>
   </programme>
   <programme start="20261206180000 +0800" stop="20261206190000 +0800" channel="mod.17">
-    <title lang="zh">村民大会-过家尞聊正事(普)</title>
+    <title lang="zh">村民大会-过家尞聊正事(121)(普)</title>
   </programme>
   <programme start="20261206190000 +0800" stop="20261206193000 +0800" channel="mod.17">
-    <title lang="zh">暗夜新闻(普)</title>
+    <title lang="zh">暗夜新闻(339)(普)</title>
   </programme>
   <programme start="20261206193000 +0800" stop="20261206200000 +0800" channel="mod.17">
-    <title lang="zh">旅行摄影师(普)</title>
+    <title lang="zh">旅行摄影师(1)(普)</title>
   </programme>
   <programme start="20261206200000 +0800" stop="20261206205500 +0800" channel="mod.17">
-    <title lang="zh">老派美学的约会(普)</title>
+    <title lang="zh">老派美学的约会(7)(普)</title>
   </programme>
   <programme start="20261206205500 +0800" stop="20261206210000 +0800" channel="mod.17">
-    <title lang="zh">客客客栈(普)</title>
+    <title lang="zh">客客客栈(3)(普)</title>
   </programme>
   <programme start="20261206210000 +0800" stop="20261206223000 +0800" channel="mod.17">
-    <title lang="zh">复客食堂2.0(普)</title>
+    <title lang="zh">复客食堂2.0(1)(普)</title>
   </programme>
   <programme start="20261206223000 +0800" stop="20261206224000 +0800" channel="mod.17">
-    <title lang="zh">畅歌实验所(普)</title>
+    <title lang="zh">畅歌实验所(27)(普)</title>
   </programme>
   <programme start="20261206224000 +0800" stop="20261206225000 +0800" channel="mod.17">
-    <title lang="zh">畅歌实验所(普)</title>
+    <title lang="zh">畅歌实验所(28)(普)</title>
   </programme>
   <programme start="20261206225000 +0800" stop="20261206230000 +0800" channel="mod.17">
-    <title lang="zh">畅歌实验所(普)</title>
+    <title lang="zh">畅歌实验所(29)(普)</title>
   </programme>
   <programme start="20261206230000 +0800" stop="20261206233000 +0800" channel="mod.17">
-    <title lang="zh">国际新闻-客观世界(普)</title>
+    <title lang="zh">国际新闻-客观世界(332)(普)</title>
   </programme>
   <programme start="20261206233000 +0800" stop="20261207000000 +0800" channel="mod.17">
-    <title lang="zh">聚焦国际(普)</title>
+    <title lang="zh">聚焦国际(756)(普)</title>
   </programme>
   <programme start="20261207003000 +0800" stop="20261207010000 +0800" channel="mod.17">
-    <title lang="zh">暗夜新闻(普)</title>
+    <title lang="zh">暗夜新闻(339)(普)</title>
   </programme>
   <programme start="20261207010000 +0800" stop="20261207023000 +0800" channel="mod.17">
-    <title lang="zh">复客食堂2.0(普)</title>
+    <title lang="zh">复客食堂2.0(1)(普)</title>
   </programme>
   <programme start="20261207023000 +0800" stop="20261207024000 +0800" channel="mod.17">
-    <title lang="zh">畅歌实验所(普)</title>
+    <title lang="zh">畅歌实验所(27)(普)</title>
   </programme>
   <programme start="20261207024000 +0800" stop="20261207025000 +0800" channel="mod.17">
-    <title lang="zh">畅歌实验所(普)</title>
+    <title lang="zh">畅歌实验所(28)(普)</title>
   </programme>
   <programme start="20261207025000 +0800" stop="20261207030000 +0800" channel="mod.17">
-    <title lang="zh">畅歌实验所(普)</title>
+    <title lang="zh">畅歌实验所(29)(普)</title>
   </programme>
   <programme start="20261207030000 +0800" stop="20261207035000 +0800" channel="mod.17">
-    <title lang="zh">客庄走透透(普)</title>
+    <title lang="zh">客庄走透透(88)(普)</title>
   </programme>
   <programme start="20261207035000 +0800" stop="20261207040000 +0800" channel="mod.17">
-    <title lang="zh">拉拉杂杂有土伯(普)</title>
+    <title lang="zh">拉拉杂杂有土伯(22)(普)</title>
   </programme>
   <programme start="20261207040000 +0800" stop="20261207050000 +0800" channel="mod.17">
-    <title lang="zh">【桐花剧场】大将徐傍兴(普)</title>
+    <title lang="zh">大将徐傍兴(16)(普)</title>
   </programme>
   <programme start="20261207050000 +0800" stop="20261207053000 +0800" channel="mod.17">
-    <title lang="zh">日头下‧月光光(普)</title>
+    <title lang="zh">日头下‧月光光(2)(普)</title>
   </programme>
   <programme start="20261207053000 +0800" stop="20261207060000 +0800" channel="mod.17">
-    <title lang="zh">国际新闻-客观世界(普)</title>
+    <title lang="zh">国际新闻-客观世界(332)(普)</title>
   </programme>
   <programme start="20261207060000 +0800" stop="20261207063000 +0800" channel="mod.17">
-    <title lang="zh">停动停动好健康(普)</title>
+    <title lang="zh">停动停动好健康(276)(普)</title>
   </programme>
   <programme start="20261207063000 +0800" stop="20261207070000 +0800" channel="mod.17">
-    <title lang="zh">地球队好麻吉(普)</title>
+    <title lang="zh">地球队好麻吉(10)(普)</title>
   </programme>
   <programme start="20261207070000 +0800" stop="20261207090000 +0800" channel="mod.17">
-    <title lang="zh">【风神舞台】大襟客全国客家传统歌谣歌唱大赛(普)</title>
+    <title lang="zh">大襟客全国客家传统歌谣歌唱大赛(1)(普)</title>
   </programme>
   <programme start="20261207090000 +0800" stop="20261207100000 +0800" channel="mod.17">
-    <title lang="zh">福气来了(南方篇)(普)</title>
+    <title lang="zh">福气来了(南方篇)(129)(普)</title>
   </programme>
   <programme start="20261207100000 +0800" stop="20261207105500 +0800" channel="mod.17">
-    <title lang="zh">一家之煮(普)</title>
+    <title lang="zh">一家之煮(558)(普)</title>
   </programme>
   <programme start="20261207105500 +0800" stop="20261207110000 +0800" channel="mod.17">
-    <title lang="zh">学学嘴学学鼻MV时间(普)</title>
+    <title lang="zh">学学嘴学学鼻MV时间(3)(普)</title>
   </programme>
   <programme start="20261207110000 +0800" stop="20261207111500 +0800" channel="mod.17">
-    <title lang="zh">森林侦探队Ⅲ(四县腔)(普)</title>
+    <title lang="zh">森林侦探队Ⅲ(四县腔)(24)(普)</title>
   </programme>
   <programme start="20261207111500 +0800" stop="20261207113000 +0800" channel="mod.17">
-    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(四县腔)(普)</title>
+    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(四县腔)(163)(普)</title>
   </programme>
   <programme start="20261207113000 +0800" stop="20261207122000 +0800" channel="mod.17">
-    <title lang="zh">胡来旅行社2(普)</title>
+    <title lang="zh">胡来旅行社2(5)(普)</title>
   </programme>
   <programme start="20261207122000 +0800" stop="20261207123000 +0800" channel="mod.17">
-    <title lang="zh">拉拉杂杂有土伯(普)</title>
+    <title lang="zh">拉拉杂杂有土伯(22)(普)</title>
   </programme>
   <programme start="20261207123000 +0800" stop="20261207132500 +0800" channel="mod.17">
-    <title lang="zh">当昼新闻(普)</title>
+    <title lang="zh">当昼新闻(341)(普)</title>
   </programme>
   <programme start="20261207132500 +0800" stop="20261207133000 +0800" channel="mod.17">
-    <title lang="zh">飞越客庄(普)</title>
+    <title lang="zh">飞越客庄(46)(普)</title>
   </programme>
   <programme start="20261207133000 +0800" stop="20261207143000 +0800" channel="mod.17">
-    <title lang="zh">新闻做么个(普)</title>
+    <title lang="zh">新闻做么个(45)(普)</title>
   </programme>
   <programme start="20261207143000 +0800" stop="20261207150000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1155)(普)</title>
   </programme>
   <programme start="20261207150000 +0800" stop="20261207160000 +0800" channel="mod.17">
-    <title lang="zh">一家之煮(普)</title>
+    <title lang="zh">一家之煮(484)(普)</title>
   </programme>
   <programme start="20261207160000 +0800" stop="20261207165500 +0800" channel="mod.17">
-    <title lang="zh">福气来了(普)</title>
+    <title lang="zh">福气来了(85)(普)</title>
   </programme>
   <programme start="20261207165500 +0800" stop="20261207170000 +0800" channel="mod.17">
-    <title lang="zh">大自然生趣(普)</title>
+    <title lang="zh">大自然生趣(3)(普)</title>
   </programme>
   <programme start="20261207170000 +0800" stop="20261207171500 +0800" channel="mod.17">
-    <title lang="zh">森林侦探队Ⅲ(四县腔)(普)</title>
+    <title lang="zh">森林侦探队Ⅲ(四县腔)(24)(普)</title>
   </programme>
   <programme start="20261207171500 +0800" stop="20261207173000 +0800" channel="mod.17">
-    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(四县腔)(普)</title>
+    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(四县腔)(163)(普)</title>
   </programme>
   <programme start="20261207173000 +0800" stop="20261207180000 +0800" channel="mod.17">
-    <title lang="zh">恐龙大牧场 III(普)</title>
+    <title lang="zh">恐龙大牧场 III(11)(普)</title>
   </programme>
   <programme start="20261207180000 +0800" stop="20261207183000 +0800" channel="mod.17">
-    <title lang="zh">麻吉乐园LINE TOWN(普)</title>
+    <title lang="zh">麻吉乐园LINE TOWN(11)(普)</title>
   </programme>
   <programme start="20261207183000 +0800" stop="20261207190000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1156)(普)</title>
   </programme>
   <programme start="20261207190000 +0800" stop="20261207195500 +0800" channel="mod.17">
-    <title lang="zh">暗夜新闻(普)</title>
+    <title lang="zh">暗夜新闻(340)(普)</title>
   </programme>
   <programme start="20261207195500 +0800" stop="20261207200000 +0800" channel="mod.17">
-    <title lang="zh">畅歌实验所单歌(普)</title>
+    <title lang="zh">畅歌实验所单歌(92)(普)</title>
   </programme>
   <programme start="20261207200000 +0800" stop="20261207210000 +0800" channel="mod.17">
-    <title lang="zh">客家新闻杂志(普)</title>
+    <title lang="zh">客家新闻杂志(1025)(普)</title>
   </programme>
   <programme start="20261207210000 +0800" stop="20261207220000 +0800" channel="mod.17">
-    <title lang="zh">吉日良辰客家封(普)</title>
+    <title lang="zh">吉日良辰客家封(24)(普)</title>
   </programme>
   <programme start="20261207220000 +0800" stop="20261207230000 +0800" channel="mod.17">
-    <title lang="zh">【客家寻味剧场】台北歌手(护)</title>
+    <title lang="zh">台北歌手(13)(护)</title>
   </programme>
   <programme start="20261207230000 +0800" stop="20261207233000 +0800" channel="mod.17">
-    <title lang="zh">国际新闻-客观世界(普)</title>
+    <title lang="zh">国际新闻-客观世界(333)(普)</title>
   </programme>
   <programme start="20261207233000 +0800" stop="20261208000000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1156)(普)</title>
   </programme>
   <programme start="20261208000000 +0800" stop="20261208010000 +0800" channel="mod.17">
-    <title lang="zh">暗夜新闻(普)</title>
+    <title lang="zh">暗夜新闻(340)(普)</title>
   </programme>
   <programme start="20261208010000 +0800" stop="20261208020000 +0800" channel="mod.17">
-    <title lang="zh">【客家寻味剧场】台北歌手(护)</title>
+    <title lang="zh">台北歌手(13)(护)</title>
   </programme>
   <programme start="20261208020000 +0800" stop="20261208030000 +0800" channel="mod.17">
-    <title lang="zh">客家新闻杂志(普)</title>
+    <title lang="zh">客家新闻杂志(1025)(普)</title>
   </programme>
   <programme start="20261208030000 +0800" stop="20261208040000 +0800" channel="mod.17">
-    <title lang="zh">福气来了(普)</title>
+    <title lang="zh">福气来了(85)(普)</title>
   </programme>
   <programme start="20261208040000 +0800" stop="20261208050000 +0800" channel="mod.17">
-    <title lang="zh">后生大声公(普)</title>
+    <title lang="zh">后生大声公(98)(普)</title>
   </programme>
   <programme start="20261208050000 +0800" stop="20261208053000 +0800" channel="mod.17">
-    <title lang="zh">日头下‧月光光(普)</title>
+    <title lang="zh">日头下‧月光光(3)(普)</title>
   </programme>
   <programme start="20261208053000 +0800" stop="20261208060000 +0800" channel="mod.17">
-    <title lang="zh">国际新闻-客观世界(普)</title>
+    <title lang="zh">国际新闻-客观世界(333)(普)</title>
   </programme>
   <programme start="20261208060000 +0800" stop="20261208063000 +0800" channel="mod.17">
-    <title lang="zh">停动停动好健康(普)</title>
+    <title lang="zh">停动停动好健康(277)(普)</title>
   </programme>
   <programme start="20261208063000 +0800" stop="20261208070000 +0800" channel="mod.17">
-    <title lang="zh">地球队好麻吉(普)</title>
+    <title lang="zh">地球队好麻吉(11)(普)</title>
   </programme>
   <programme start="20261208070000 +0800" stop="20261208073000 +0800" channel="mod.17">
-    <title lang="zh">恐龙大牧场 III(普)</title>
+    <title lang="zh">恐龙大牧场 III(11)(普)</title>
   </programme>
   <programme start="20261208073000 +0800" stop="20261208080000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1156)(普)</title>
   </programme>
   <programme start="20261208080000 +0800" stop="20261208090000 +0800" channel="mod.17">
-    <title lang="zh">客家新闻杂志(普)</title>
+    <title lang="zh">客家新闻杂志(1025)(普)</title>
   </programme>
   <programme start="20261208090000 +0800" stop="20261208100000 +0800" channel="mod.17">
-    <title lang="zh">福气来了(普)</title>
+    <title lang="zh">福气来了(85)(普)</title>
   </programme>
   <programme start="20261208100000 +0800" stop="20261208105500 +0800" channel="mod.17">
-    <title lang="zh">一家之煮(普)</title>
+    <title lang="zh">一家之煮(484)(普)</title>
   </programme>
   <programme start="20261208105500 +0800" stop="20261208110000 +0800" channel="mod.17">
-    <title lang="zh">学学嘴学学鼻MV时间(普)</title>
+    <title lang="zh">学学嘴学学鼻MV时间(4)(普)</title>
   </programme>
   <programme start="20261208110000 +0800" stop="20261208111500 +0800" channel="mod.17">
-    <title lang="zh">森林侦探队Ⅲ(海陆腔)(普)</title>
+    <title lang="zh">森林侦探队Ⅲ(海陆腔)(24)(普)</title>
   </programme>
   <programme start="20261208111500 +0800" stop="20261208113000 +0800" channel="mod.17">
-    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(海陆腔)(普)</title>
+    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(海陆腔)(163)(普)</title>
   </programme>
   <programme start="20261208113000 +0800" stop="20261208123000 +0800" channel="mod.17">
-    <title lang="zh">吉日良辰客家封(普)</title>
+    <title lang="zh">吉日良辰客家封(24)(普)</title>
   </programme>
   <programme start="20261208123000 +0800" stop="20261208132500 +0800" channel="mod.17">
-    <title lang="zh">当昼新闻(普)</title>
+    <title lang="zh">当昼新闻(342)(普)</title>
   </programme>
   <programme start="20261208132500 +0800" stop="20261208133000 +0800" channel="mod.17">
-    <title lang="zh">飞越客庄(普)</title>
+    <title lang="zh">飞越客庄(47)(普)</title>
   </programme>
   <programme start="20261208133000 +0800" stop="20261208143000 +0800" channel="mod.17">
-    <title lang="zh">【客家寻味剧场】台北歌手(护)</title>
+    <title lang="zh">台北歌手(13)(护)</title>
   </programme>
   <programme start="20261208143000 +0800" stop="20261208150000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1156)(普)</title>
   </programme>
   <programme start="20261208150000 +0800" stop="20261208160000 +0800" channel="mod.17">
-    <title lang="zh">一家之煮(普)</title>
+    <title lang="zh">一家之煮(485)(普)</title>
   </programme>
   <programme start="20261208160000 +0800" stop="20261208165500 +0800" channel="mod.17">
-    <title lang="zh">福气来了(普)</title>
+    <title lang="zh">福气来了(86)(普)</title>
   </programme>
   <programme start="20261208165500 +0800" stop="20261208170000 +0800" channel="mod.17">
-    <title lang="zh">大自然生趣(普)</title>
+    <title lang="zh">大自然生趣(4)(普)</title>
   </programme>
   <programme start="20261208170000 +0800" stop="20261208171500 +0800" channel="mod.17">
-    <title lang="zh">森林侦探队Ⅲ(海陆腔)(普)</title>
+    <title lang="zh">森林侦探队Ⅲ(海陆腔)(24)(普)</title>
   </programme>
   <programme start="20261208171500 +0800" stop="20261208173000 +0800" channel="mod.17">
-    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(海陆腔)(普)</title>
+    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(海陆腔)(163)(普)</title>
   </programme>
   <programme start="20261208173000 +0800" stop="20261208180000 +0800" channel="mod.17">
-    <title lang="zh">恐龙大牧场 III(普)</title>
+    <title lang="zh">恐龙大牧场 III(12)(普)</title>
   </programme>
   <programme start="20261208180000 +0800" stop="20261208183000 +0800" channel="mod.17">
-    <title lang="zh">麻吉乐园LINE TOWN(普)</title>
+    <title lang="zh">麻吉乐园LINE TOWN(12)(普)</title>
   </programme>
   <programme start="20261208183000 +0800" stop="20261208190000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1157)(普)</title>
   </programme>
   <programme start="20261208190000 +0800" stop="20261208195500 +0800" channel="mod.17">
-    <title lang="zh">暗夜新闻(普)</title>
+    <title lang="zh">暗夜新闻(341)(普)</title>
   </programme>
   <programme start="20261208195500 +0800" stop="20261208200000 +0800" channel="mod.17">
-    <title lang="zh">畅歌实验所单歌(普)</title>
+    <title lang="zh">畅歌实验所单歌(93)(普)</title>
   </programme>
   <programme start="20261208200000 +0800" stop="20261208210000 +0800" channel="mod.17">
-    <title lang="zh">村民大会-过家尞聊正事(普)</title>
+    <title lang="zh">村民大会-过家尞聊正事(121)(普)</title>
   </programme>
   <programme start="20261208210000 +0800" stop="20261208220000 +0800" channel="mod.17">
-    <title lang="zh">懂吃懂吃来煮食(普)</title>
+    <title lang="zh">懂吃懂吃来煮食(29)(普)</title>
   </programme>
   <programme start="20261208220000 +0800" stop="20261208230000 +0800" channel="mod.17">
-    <title lang="zh">【客家寻味剧场】台北歌手(护)</title>
+    <title lang="zh">台北歌手(14)(护)</title>
   </programme>
   <programme start="20261208230000 +0800" stop="20261208233000 +0800" channel="mod.17">
-    <title lang="zh">国际新闻-客观世界(普)</title>
+    <title lang="zh">国际新闻-客观世界(334)(普)</title>
   </programme>
   <programme start="20261208233000 +0800" stop="20261209000000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1157)(普)</title>
   </programme>
   <programme start="20261209000000 +0800" stop="20261209010000 +0800" channel="mod.17">
-    <title lang="zh">暗夜新闻(普)</title>
+    <title lang="zh">暗夜新闻(341)(普)</title>
   </programme>
   <programme start="20261209010000 +0800" stop="20261209020000 +0800" channel="mod.17">
-    <title lang="zh">【客家寻味剧场】台北歌手(护)</title>
+    <title lang="zh">台北歌手(14)(护)</title>
   </programme>
   <programme start="20261209020000 +0800" stop="20261209030000 +0800" channel="mod.17">
-    <title lang="zh">村民大会-过家尞聊正事(普)</title>
+    <title lang="zh">村民大会-过家尞聊正事(121)(普)</title>
   </programme>
   <programme start="20261209030000 +0800" stop="20261209040000 +0800" channel="mod.17">
-    <title lang="zh">福气来了(普)</title>
+    <title lang="zh">福气来了(86)(普)</title>
   </programme>
   <programme start="20261209040000 +0800" stop="20261209050000 +0800" channel="mod.17">
-    <title lang="zh">后生大声公(普)</title>
+    <title lang="zh">后生大声公(99)(普)</title>
   </programme>
   <programme start="20261209050000 +0800" stop="20261209053000 +0800" channel="mod.17">
-    <title lang="zh">日头下‧月光光(普)</title>
+    <title lang="zh">日头下‧月光光(4)(普)</title>
   </programme>
   <programme start="20261209053000 +0800" stop="20261209060000 +0800" channel="mod.17">
-    <title lang="zh">国际新闻-客观世界(普)</title>
+    <title lang="zh">国际新闻-客观世界(334)(普)</title>
   </programme>
   <programme start="20261209060000 +0800" stop="20261209063000 +0800" channel="mod.17">
-    <title lang="zh">停动停动好健康(普)</title>
+    <title lang="zh">停动停动好健康(278)(普)</title>
   </programme>
   <programme start="20261209063000 +0800" stop="20261209070000 +0800" channel="mod.17">
-    <title lang="zh">奥林P客(普)</title>
+    <title lang="zh">奥林P客(1648)(普)</title>
   </programme>
   <programme start="20261209070000 +0800" stop="20261209073000 +0800" channel="mod.17">
-    <title lang="zh">恐龙大牧场 III(普)</title>
+    <title lang="zh">恐龙大牧场 III(12)(普)</title>
   </programme>
   <programme start="20261209073000 +0800" stop="20261209080000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1157)(普)</title>
   </programme>
   <programme start="20261209080000 +0800" stop="20261209090000 +0800" channel="mod.17">
-    <title lang="zh">村民大会-过家尞聊正事(普)</title>
+    <title lang="zh">村民大会-过家尞聊正事(121)(普)</title>
   </programme>
   <programme start="20261209090000 +0800" stop="20261209100000 +0800" channel="mod.17">
-    <title lang="zh">福气来了(普)</title>
+    <title lang="zh">福气来了(86)(普)</title>
   </programme>
   <programme start="20261209100000 +0800" stop="20261209105500 +0800" channel="mod.17">
-    <title lang="zh">一家之煮(普)</title>
+    <title lang="zh">一家之煮(485)(普)</title>
   </programme>
   <programme start="20261209105500 +0800" stop="20261209110000 +0800" channel="mod.17">
-    <title lang="zh">学学嘴学学鼻MV时间(普)</title>
+    <title lang="zh">学学嘴学学鼻MV时间(5)(普)</title>
   </programme>
   <programme start="20261209110000 +0800" stop="20261209111500 +0800" channel="mod.17">
-    <title lang="zh">森林侦探队Ⅲ(大埔腔)(普)</title>
+    <title lang="zh">森林侦探队Ⅲ(大埔腔)(24)(普)</title>
   </programme>
   <programme start="20261209111500 +0800" stop="20261209113000 +0800" channel="mod.17">
-    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(大埔腔)(普)</title>
+    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(大埔腔)(163)(普)</title>
   </programme>
   <programme start="20261209113000 +0800" stop="20261209123000 +0800" channel="mod.17">
-    <title lang="zh">懂吃懂吃来煮食(普)</title>
+    <title lang="zh">懂吃懂吃来煮食(29)(普)</title>
   </programme>
   <programme start="20261209123000 +0800" stop="20261209132500 +0800" channel="mod.17">
-    <title lang="zh">当昼新闻(普)</title>
+    <title lang="zh">当昼新闻(343)(普)</title>
   </programme>
   <programme start="20261209132500 +0800" stop="20261209133000 +0800" channel="mod.17">
-    <title lang="zh">飞越客庄(普)</title>
+    <title lang="zh">飞越客庄(48)(普)</title>
   </programme>
   <programme start="20261209133000 +0800" stop="20261209143000 +0800" channel="mod.17">
-    <title lang="zh">【客家寻味剧场】台北歌手(护)</title>
+    <title lang="zh">台北歌手(14)(护)</title>
   </programme>
   <programme start="20261209143000 +0800" stop="20261209150000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1157)(普)</title>
   </programme>
   <programme start="20261209150000 +0800" stop="20261209160000 +0800" channel="mod.17">
-    <title lang="zh">一家之煮(普)</title>
+    <title lang="zh">一家之煮(559)(普)</title>
   </programme>
   <programme start="20261209160000 +0800" stop="20261209165500 +0800" channel="mod.17">
-    <title lang="zh">福气来了(南方篇)(普)</title>
+    <title lang="zh">福气来了(南方篇)(130)(普)</title>
   </programme>
   <programme start="20261209165500 +0800" stop="20261209170000 +0800" channel="mod.17">
-    <title lang="zh">大自然生趣(普)</title>
+    <title lang="zh">大自然生趣(5)(普)</title>
   </programme>
   <programme start="20261209170000 +0800" stop="20261209171500 +0800" channel="mod.17">
-    <title lang="zh">森林侦探队Ⅲ(大埔腔)(普)</title>
+    <title lang="zh">森林侦探队Ⅲ(大埔腔)(24)(普)</title>
   </programme>
   <programme start="20261209171500 +0800" stop="20261209173000 +0800" channel="mod.17">
-    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(大埔腔)(普)</title>
+    <title lang="zh">ㄤ牯ㄤ牯咕咕咕(大埔腔)(163)(普)</title>
   </programme>
   <programme start="20261209173000 +0800" stop="20261209180000 +0800" channel="mod.17">
-    <title lang="zh">绘声绘影(普)</title>
+    <title lang="zh">绘声绘影(39)(普)</title>
   </programme>
   <programme start="20261209180000 +0800" stop="20261209183000 +0800" channel="mod.17">
-    <title lang="zh">奥林P客(普)</title>
+    <title lang="zh">奥林P客(1651)(普)</title>
   </programme>
   <programme start="20261209183000 +0800" stop="20261209190000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1158)(普)</title>
   </programme>
   <programme start="20261209190000 +0800" stop="20261209195500 +0800" channel="mod.17">
-    <title lang="zh">暗夜新闻(普)</title>
+    <title lang="zh">暗夜新闻(342)(普)</title>
   </programme>
   <programme start="20261209195500 +0800" stop="20261209200000 +0800" channel="mod.17">
-    <title lang="zh">畅歌实验所单歌(普)</title>
+    <title lang="zh">畅歌实验所单歌(94)(普)</title>
   </programme>
   <programme start="20261209200000 +0800" stop="20261209210000 +0800" channel="mod.17">
-    <title lang="zh">溜面线杂货店(普)</title>
+    <title lang="zh">溜面线杂货店(41)(普)</title>
   </programme>
   <programme start="20261209210000 +0800" stop="20261209220000 +0800" channel="mod.17">
-    <title lang="zh">谁来作客(普)</title>
+    <title lang="zh">谁来作客(122)(普)</title>
   </programme>
   <programme start="20261209220000 +0800" stop="20261209230000 +0800" channel="mod.17">
-    <title lang="zh">【客家回声剧场】爱的辛香料(普)</title>
+    <title lang="zh">爱的辛香料(1)(普)</title>
   </programme>
   <programme start="20261209230000 +0800" stop="20261209233000 +0800" channel="mod.17">
-    <title lang="zh">国际新闻-客观世界(普)</title>
+    <title lang="zh">国际新闻-客观世界(335)(普)</title>
   </programme>
   <programme start="20261209233000 +0800" stop="20261210000000 +0800" channel="mod.17">
-    <title lang="zh">客家戏曲(普)</title>
+    <title lang="zh">客家戏曲(1158)(普)</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126001500 +0800" channel="mod.70">
     <title lang="zh">经典音乐河:Amazing Grace 奇异恩典(305)(普)</title>
@@ -78253,7 +79408,7 @@
     <title lang="zh">2026 PGA 苏格兰公开赛 第四天(普)</title>
   </programme>
   <programme start="20261130093000 +0800" stop="20261130103000 +0800" channel="mod.204">
-    <title lang="zh">2026 PGA 苏格兰公开赛 精华(普)</title>
+    <title lang="zh">2026 PGA 墨西哥公开赛 精华(普)</title>
   </programme>
   <programme start="20261130103000 +0800" stop="20261130133000 +0800" channel="mod.204">
     <title lang="zh">LIVE 2026 PGA RSM菁英赛 第一天(普)</title>
@@ -78263,6 +79418,183 @@
   </programme>
   <programme start="20261130190000 +0800" stop="20261201000000 +0800" channel="mod.204">
     <title lang="zh">2026 欧巡 法国公开赛 第一天(普)</title>
+  </programme>
+  <programme start="20261201000000 +0800" stop="20261201030000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA RSM菁英赛 第二天(普)</title>
+  </programme>
+  <programme start="20261201030000 +0800" stop="20261201060000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 旅行者锦标赛 第一天(普)</title>
+  </programme>
+  <programme start="20261201060000 +0800" stop="20261201070000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 奥斯丁锦标赛 精华(普)</title>
+  </programme>
+  <programme start="20261201070000 +0800" stop="20261201120000 +0800" channel="mod.204">
+    <title lang="zh">2026 欧巡 法国公开赛 第一天(普)</title>
+  </programme>
+  <programme start="20261201120000 +0800" stop="20261201150000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA RSM菁英赛 第二天(普)</title>
+  </programme>
+  <programme start="20261201150000 +0800" stop="20261201180000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 旅行者锦标赛 第一天(普)</title>
+  </programme>
+  <programme start="20261201180000 +0800" stop="20261201190000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 奥斯丁锦标赛 精华(普)</title>
+  </programme>
+  <programme start="20261201190000 +0800" stop="20261202000000 +0800" channel="mod.204">
+    <title lang="zh">2026 欧巡 法国公开赛 第二天(普)</title>
+  </programme>
+  <programme start="20261202000000 +0800" stop="20261202030000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA RSM菁英赛 第三天(普)</title>
+  </programme>
+  <programme start="20261202030000 +0800" stop="20261202060000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 旅行者锦标赛 第二天(普)</title>
+  </programme>
+  <programme start="20261202060000 +0800" stop="20261202070000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 墨西哥公开赛 精华(普)</title>
+  </programme>
+  <programme start="20261202070000 +0800" stop="20261202120000 +0800" channel="mod.204">
+    <title lang="zh">2026 欧巡 法国公开赛 第二天(普)</title>
+  </programme>
+  <programme start="20261202120000 +0800" stop="20261202150000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA RSM菁英赛 第三天(普)</title>
+  </programme>
+  <programme start="20261202150000 +0800" stop="20261202180000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 旅行者锦标赛 第二天(普)</title>
+  </programme>
+  <programme start="20261202180000 +0800" stop="20261202190000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 墨西哥公开赛 精华(普)</title>
+  </programme>
+  <programme start="20261202190000 +0800" stop="20261202233000 +0800" channel="mod.204">
+    <title lang="zh">2026 欧巡 法国公开赛 第三天(普)</title>
+  </programme>
+  <programme start="20261202233000 +0800" stop="20261203000000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA RSM菁英赛 第四天(普)</title>
+  </programme>
+  <programme start="20261203000000 +0800" stop="20261203033000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA RSM菁英赛 第四天(普)</title>
+  </programme>
+  <programme start="20261203033000 +0800" stop="20261203083000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 旅行者锦标赛 第三天(普)</title>
+  </programme>
+  <programme start="20261203083000 +0800" stop="20261203130000 +0800" channel="mod.204">
+    <title lang="zh">2026 欧巡 法国公开赛 第三天(普)</title>
+  </programme>
+  <programme start="20261203130000 +0800" stop="20261203170000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA RSM菁英赛 第四天(普)</title>
+  </programme>
+  <programme start="20261203170000 +0800" stop="20261203223000 +0800" channel="mod.204">
+    <title lang="zh">LIVE 2027 欧巡 莱利银行挑战赛 第一天(普)</title>
+  </programme>
+  <programme start="20261203223000 +0800" stop="20261204000000 +0800" channel="mod.204">
+    <title lang="zh">2026 欧巡 法国公开赛 第四天(普)</title>
+  </programme>
+  <programme start="20261204000000 +0800" stop="20261204023000 +0800" channel="mod.204">
+    <title lang="zh">2026 欧巡 法国公开赛 第四天(普)</title>
+  </programme>
+  <programme start="20261204023000 +0800" stop="20261204053000 +0800" channel="mod.204">
+    <title lang="zh">LIVE 2026 PGA 世界英雄挑战赛 第一天(普)</title>
+  </programme>
+  <programme start="20261204053000 +0800" stop="20261204060000 +0800" channel="mod.204">
+    <title lang="zh">美巡焦点(普)</title>
+  </programme>
+  <programme start="20261204060000 +0800" stop="20261204110000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 旅行者锦标赛 第四天(普)</title>
+  </programme>
+  <programme start="20261204110000 +0800" stop="20261204120000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 旅行者锦标赛 精华(普)</title>
+  </programme>
+  <programme start="20261204120000 +0800" stop="20261204130000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA RSM菁英赛 精华(普)</title>
+  </programme>
+  <programme start="20261204130000 +0800" stop="20261204160000 +0800" channel="mod.204">
+    <title lang="zh">首播 2026 PGA 世界英雄挑战赛 第一天(普)</title>
+  </programme>
+  <programme start="20261204160000 +0800" stop="20261204170000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 总统杯官方纪录片(普)</title>
+  </programme>
+  <programme start="20261204170000 +0800" stop="20261204223000 +0800" channel="mod.204">
+    <title lang="zh">LIVE 2027 欧巡 莱利银行挑战赛 第二天(普)</title>
+  </programme>
+  <programme start="20261204223000 +0800" stop="20261205000000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 旅行者锦标赛 第四天(普)</title>
+  </programme>
+  <programme start="20261205000000 +0800" stop="20261205023000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 旅行者锦标赛 第四天(普)</title>
+  </programme>
+  <programme start="20261205023000 +0800" stop="20261205053000 +0800" channel="mod.204">
+    <title lang="zh">LIVE 2026 PGA 世界英雄挑战赛 第二天(普)</title>
+  </programme>
+  <programme start="20261205053000 +0800" stop="20261205060000 +0800" channel="mod.204">
+    <title lang="zh">美巡焦点(普)</title>
+  </programme>
+  <programme start="20261205060000 +0800" stop="20261205110000 +0800" channel="mod.204">
+    <title lang="zh">2026 欧巡 丹麦锦标赛 第一天(普)</title>
+  </programme>
+  <programme start="20261205110000 +0800" stop="20261205120000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 总统杯官方纪录片(普)</title>
+  </programme>
+  <programme start="20261205120000 +0800" stop="20261205130000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 旅行者锦标赛 精华(普)</title>
+  </programme>
+  <programme start="20261205130000 +0800" stop="20261205160000 +0800" channel="mod.204">
+    <title lang="zh">首播 2026 PGA 世界英雄挑战赛 第二天(普)</title>
+  </programme>
+  <programme start="20261205160000 +0800" stop="20261205170000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA RSM菁英赛 精华(普)</title>
+  </programme>
+  <programme start="20261205170000 +0800" stop="20261205223000 +0800" channel="mod.204">
+    <title lang="zh">LIVE 2027 欧巡 莱利银行挑战赛 第三天(普)</title>
+  </programme>
+  <programme start="20261205223000 +0800" stop="20261205230000 +0800" channel="mod.204">
+    <title lang="zh">美巡焦点(普)</title>
+  </programme>
+  <programme start="20261205230000 +0800" stop="20261206000000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 总统杯官方纪录片(普)</title>
+  </programme>
+  <programme start="20261206000000 +0800" stop="20261206010000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA RSM菁英赛 精华(普)</title>
+  </programme>
+  <programme start="20261206010000 +0800" stop="20261206060000 +0800" channel="mod.204">
+    <title lang="zh">LIVE 2026 PGA 世界英雄挑战赛 第三天(普)</title>
+  </programme>
+  <programme start="20261206060000 +0800" stop="20261206110000 +0800" channel="mod.204">
+    <title lang="zh">2026 欧巡 丹麦锦标赛 第二天(普)</title>
+  </programme>
+  <programme start="20261206110000 +0800" stop="20261206160000 +0800" channel="mod.204">
+    <title lang="zh">首播 2026 PGA 世界英雄挑战赛 第三天(普)</title>
+  </programme>
+  <programme start="20261206160000 +0800" stop="20261206170000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 旅行者锦标赛 精华(普)</title>
+  </programme>
+  <programme start="20261206170000 +0800" stop="20261206223000 +0800" channel="mod.204">
+    <title lang="zh">LIVE 2027 欧巡 莱利银行挑战赛 第四天(普)</title>
+  </programme>
+  <programme start="20261206223000 +0800" stop="20261206233000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 墨西哥公开赛 精华(普)</title>
+  </programme>
+  <programme start="20261206233000 +0800" stop="20261207000000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 奥斯丁锦标赛 精华(普)</title>
+  </programme>
+  <programme start="20261207000000 +0800" stop="20261207003000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 奥斯丁锦标赛 精华(普)</title>
+  </programme>
+  <programme start="20261207003000 +0800" stop="20261207053000 +0800" channel="mod.204">
+    <title lang="zh">LIVE 2026 PGA 世界英雄挑战赛 第四天(普)</title>
+  </programme>
+  <programme start="20261207053000 +0800" stop="20261207063000 +0800" channel="mod.204">
+    <title lang="zh">2026 PGA 总统杯官方纪录片(普)</title>
+  </programme>
+  <programme start="20261207063000 +0800" stop="20261207110000 +0800" channel="mod.204">
+    <title lang="zh">2026 欧巡 丹麦锦标赛 第三天(普)</title>
+  </programme>
+  <programme start="20261207110000 +0800" stop="20261207160000 +0800" channel="mod.204">
+    <title lang="zh">首播 2026 PGA 世界英雄挑战赛 第四天(普)</title>
+  </programme>
+  <programme start="20261207160000 +0800" stop="20261207190000 +0800" channel="mod.204">
+    <title lang="zh">2026 欧巡 澳洲PGA锦标赛 第一天(普)</title>
+  </programme>
+  <programme start="20261207190000 +0800" stop="20261208000000 +0800" channel="mod.204">
+    <title lang="zh">2026 欧巡 丹麦锦标赛 第四天(普)</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126040000 +0800" channel="mod.205">
     <title lang="zh">2026伊藤园女子高尔夫巡回赛第三天(普)</title>
@@ -78374,6 +79706,159 @@
   </programme>
   <programme start="20261130200000 +0800" stop="20261201000000 +0800" channel="mod.205">
     <title lang="zh">2026Golf 5女子高球赛第一天(普)</title>
+  </programme>
+  <programme start="20261201000000 +0800" stop="20261201033000 +0800" channel="mod.205">
+    <title lang="zh">2026拉斯维加斯锦标赛第二天(普)</title>
+  </programme>
+  <programme start="20261201033000 +0800" stop="20261201073000 +0800" channel="mod.205">
+    <title lang="zh">2026香港公开赛第四天(普)</title>
+  </programme>
+  <programme start="20261201073000 +0800" stop="20261201100000 +0800" channel="mod.205">
+    <title lang="zh">2026梅尔菁英赛第三天(普)</title>
+  </programme>
+  <programme start="20261201100000 +0800" stop="20261201160000 +0800" channel="mod.205">
+    <title lang="zh">2026纬创女子公开赛第二天(普)</title>
+  </programme>
+  <programme start="20261201160000 +0800" stop="20261201200000 +0800" channel="mod.205">
+    <title lang="zh">2026菲律宾公开赛第三天(普)</title>
+  </programme>
+  <programme start="20261201200000 +0800" stop="20261202000000 +0800" channel="mod.205">
+    <title lang="zh">2026JLPGAGolf 5女子高球赛第二天(普)</title>
+  </programme>
+  <programme start="20261202000000 +0800" stop="20261202033000 +0800" channel="mod.205">
+    <title lang="zh">2026拉斯维加斯锦标赛第三天(普)</title>
+  </programme>
+  <programme start="20261202033000 +0800" stop="20261202073000 +0800" channel="mod.205">
+    <title lang="zh">2026台玻台丰公开赛第三回合(普)</title>
+  </programme>
+  <programme start="20261202073000 +0800" stop="20261202100000 +0800" channel="mod.205">
+    <title lang="zh">2026梅尔菁英赛第四天(普)</title>
+  </programme>
+  <programme start="20261202100000 +0800" stop="20261202160000 +0800" channel="mod.205">
+    <title lang="zh">2026纬创女子公开赛第三天(普)</title>
+  </programme>
+  <programme start="20261202160000 +0800" stop="20261202190000 +0800" channel="mod.205">
+    <title lang="zh">2026菲律宾公开赛第四天(普)</title>
+  </programme>
+  <programme start="20261202190000 +0800" stop="20261202200000 +0800" channel="mod.205">
+    <title lang="zh">2026雾峰中区超级长春公开赛(普)</title>
+  </programme>
+  <programme start="20261202200000 +0800" stop="20261202203000 +0800" channel="mod.205">
+    <title lang="zh">克里斯高球诊断室(普)</title>
+  </programme>
+  <programme start="20261202203000 +0800" stop="20261203000000 +0800" channel="mod.205">
+    <title lang="zh">2026JLPGAGolf 5女子高球赛第三天(普)</title>
+  </programme>
+  <programme start="20261203000000 +0800" stop="20261203033000 +0800" channel="mod.205">
+    <title lang="zh">2026拉斯维加斯锦标赛第四天(普)</title>
+  </programme>
+  <programme start="20261203033000 +0800" stop="20261203073000 +0800" channel="mod.205">
+    <title lang="zh">2026台玻台丰公开赛最终回合(普)</title>
+  </programme>
+  <programme start="20261203073000 +0800" stop="20261203100000 +0800" channel="mod.205">
+    <title lang="zh">2026阿妮卡锦标赛第一天(普)</title>
+  </programme>
+  <programme start="20261203100000 +0800" stop="20261203160000 +0800" channel="mod.205">
+    <title lang="zh">2026纬创女子公开赛第四天(普)</title>
+  </programme>
+  <programme start="20261203160000 +0800" stop="20261203190000 +0800" channel="mod.205">
+    <title lang="zh">2026KLPGA双龙石油锦标赛第一天(普)</title>
+  </programme>
+  <programme start="20261203190000 +0800" stop="20261203230000 +0800" channel="mod.205">
+    <title lang="zh">2026JLPGA巡回锦标赛第一天(普)</title>
+  </programme>
+  <programme start="20261203230000 +0800" stop="20261204000000 +0800" channel="mod.205">
+    <title lang="zh">2026蓝湾公开赛第一天(普)</title>
+  </programme>
+  <programme start="20261204000000 +0800" stop="20261204040000 +0800" channel="mod.205">
+    <title lang="zh">2026蓝湾公开赛第一天(普)</title>
+  </programme>
+  <programme start="20261204040000 +0800" stop="20261204043000 +0800" channel="mod.205">
+    <title lang="zh">雪兰莪名人赛(普)</title>
+  </programme>
+  <programme start="20261204043000 +0800" stop="20261204083000 +0800" channel="mod.205">
+    <title lang="zh">2026JLPGA索尼锦标赛第一天(普)</title>
+  </programme>
+  <programme start="20261204083000 +0800" stop="20261204110000 +0800" channel="mod.205">
+    <title lang="zh">2026阿妮卡锦标赛第二天(普)</title>
+  </programme>
+  <programme start="20261204110000 +0800" stop="20261204120000 +0800" channel="mod.205">
+    <title lang="zh">2026澄观园超级长春公开赛(普)</title>
+  </programme>
+  <programme start="20261204120000 +0800" stop="20261204160000 +0800" channel="mod.205">
+    <title lang="zh">2026澳门公开赛第一天(普)</title>
+  </programme>
+  <programme start="20261204160000 +0800" stop="20261204190000 +0800" channel="mod.205">
+    <title lang="zh">2026KLPGA双龙石油锦标赛第二天(普)</title>
+  </programme>
+  <programme start="20261204190000 +0800" stop="20261204230000 +0800" channel="mod.205">
+    <title lang="zh">2026JLPGA巡回锦标赛第二天(普)</title>
+  </programme>
+  <programme start="20261204230000 +0800" stop="20261205000000 +0800" channel="mod.205">
+    <title lang="zh">2026蓝湾公开赛第二天(普)</title>
+  </programme>
+  <programme start="20261205000000 +0800" stop="20261205040000 +0800" channel="mod.205">
+    <title lang="zh">2026蓝湾公开赛第二天(普)</title>
+  </programme>
+  <programme start="20261205040000 +0800" stop="20261205083000 +0800" channel="mod.205">
+    <title lang="zh">2026JLPGA索尼锦标赛第三天(普)</title>
+  </programme>
+  <programme start="20261205083000 +0800" stop="20261205110000 +0800" channel="mod.205">
+    <title lang="zh">2026阿妮卡锦标赛第三天(普)</title>
+  </programme>
+  <programme start="20261205110000 +0800" stop="20261205120000 +0800" channel="mod.205">
+    <title lang="zh">2026声宝女子公开赛第二回合(普)</title>
+  </programme>
+  <programme start="20261205120000 +0800" stop="20261205160000 +0800" channel="mod.205">
+    <title lang="zh">2026澳门公开赛第二天(普)</title>
+  </programme>
+  <programme start="20261205160000 +0800" stop="20261205190000 +0800" channel="mod.205">
+    <title lang="zh">2026KLPGA双龙石油锦标赛第三天(普)</title>
+  </programme>
+  <programme start="20261205190000 +0800" stop="20261205230000 +0800" channel="mod.205">
+    <title lang="zh">2026JLPGA巡回锦标赛第三天(普)</title>
+  </programme>
+  <programme start="20261205230000 +0800" stop="20261206000000 +0800" channel="mod.205">
+    <title lang="zh">2026蓝湾公开赛第三天(普)</title>
+  </programme>
+  <programme start="20261206000000 +0800" stop="20261206040000 +0800" channel="mod.205">
+    <title lang="zh">2026蓝湾公开赛第三天(普)</title>
+  </programme>
+  <programme start="20261206040000 +0800" stop="20261206043000 +0800" channel="mod.205">
+    <title lang="zh">克里斯高球诊断室(普)</title>
+  </programme>
+  <programme start="20261206043000 +0800" stop="20261206083000 +0800" channel="mod.205">
+    <title lang="zh">2026JLPGA索尼锦标赛第四天(普)</title>
+  </programme>
+  <programme start="20261206083000 +0800" stop="20261206110000 +0800" channel="mod.205">
+    <title lang="zh">2026阿妮卡锦标赛第四天(普)</title>
+  </programme>
+  <programme start="20261206110000 +0800" stop="20261206120000 +0800" channel="mod.205">
+    <title lang="zh">2026声宝女子公开赛最终回合(普)</title>
+  </programme>
+  <programme start="20261206120000 +0800" stop="20261206160000 +0800" channel="mod.205">
+    <title lang="zh">2026澳门公开赛第三天(普)</title>
+  </programme>
+  <programme start="20261206160000 +0800" stop="20261206190000 +0800" channel="mod.205">
+    <title lang="zh">2026KLPGA双龙石油锦标赛第四天(普)</title>
+  </programme>
+  <programme start="20261206190000 +0800" stop="20261206233000 +0800" channel="mod.205">
+    <title lang="zh">2026JLPGA巡回锦标赛第四天(普)</title>
+  </programme>
+  <programme start="20261206233000 +0800" stop="20261207000000 +0800" channel="mod.205">
+    <title lang="zh">2026蓝湾公开赛第四天(普)</title>
+  </programme>
+  <programme start="20261207000000 +0800" stop="20261207040000 +0800" channel="mod.205">
+    <title lang="zh">2026蓝湾公开赛第四天(普)</title>
+  </programme>
+  <programme start="20261207120000 +0800" stop="20261207160000 +0800" channel="mod.205">
+    <title lang="zh">2026澳门公开赛第四天(普)</title>
+  </programme>
+  <programme start="20261207160000 +0800" stop="20261207200000 +0800" channel="mod.205">
+    <title lang="zh">2026JLPGA三菱电机女子高球赛第一天(普)</title>
+  </programme>
+  <programme start="20261207200000 +0800" stop="20261208000000 +0800" channel="mod.205">
+    <title lang="zh">2026新加坡公开赛第一天(普)</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126003000 +0800" channel="mod.206">
     <title lang="zh">2026 ATP年终赛 第一天 SHE vs FIL(普)</title>
@@ -79140,6 +80625,168 @@
   <programme start="20261130210000 +0800" stop="20261201000000 +0800" channel="mod.208">
     <title lang="zh">LIVE2026-27司诺克赛季英国锦标赛第二轮2100-0000(普)</title>
   </programme>
+  <programme start="20261201000000 +0800" stop="20261201030000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 英格兰公开赛 十六强(3)TRU vs MC(普)</title>
+  </programme>
+  <programme start="20261201030000 +0800" stop="20261201060000 +0800" channel="mod.208">
+    <title lang="zh">LIVE2026-27司诺克赛季英国锦标赛第一轮0300-0600(普)</title>
+  </programme>
+  <programme start="20261201060000 +0800" stop="20261201090000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 上海大师赛 第一轮主桌(1)XIA vs XU(普)</title>
+  </programme>
+  <programme start="20261201090000 +0800" stop="20261201120000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 英格兰公开赛 十六强(3)TRU vs MC(普)</title>
+  </programme>
+  <programme start="20261201120000 +0800" stop="20261201133000 +0800" channel="mod.208">
+    <title lang="zh">2025-26司诺克赛季 世界锦标赛 第一轮 YIZ vs PEI(第1阶段) 副桌(普)</title>
+  </programme>
+  <programme start="20261201133000 +0800" stop="20261201150000 +0800" channel="mod.208">
+    <title lang="zh">2025-26司诺克赛季 世界锦标赛 第一轮 YIZ vs PEI(第2阶段) 副桌(普)</title>
+  </programme>
+  <programme start="20261201150000 +0800" stop="20261201210000 +0800" channel="mod.208">
+    <title lang="zh">首播2026-27司诺克赛季英国锦标赛第一轮(普)</title>
+  </programme>
+  <programme start="20261201210000 +0800" stop="20261202000000 +0800" channel="mod.208">
+    <title lang="zh">LIVE2026-27司诺克赛季英国锦标赛第一轮2100-0000(普)</title>
+  </programme>
+  <programme start="20261202000000 +0800" stop="20261202013000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 英格兰公开赛 十六强(4)WIL vs HAW(普)</title>
+  </programme>
+  <programme start="20261202013000 +0800" stop="20261202030000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 英格兰公开赛 八强(1)WIL vs JUN(普)</title>
+  </programme>
+  <programme start="20261202030000 +0800" stop="20261202060000 +0800" channel="mod.208">
+    <title lang="zh">LIVE2026-27司诺克赛季英国锦标赛第一轮0300-0600(普)</title>
+  </programme>
+  <programme start="20261202060000 +0800" stop="20261202073000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 上海大师赛 第一轮主桌(2)DIN vs YAO(普)</title>
+  </programme>
+  <programme start="20261202073000 +0800" stop="20261202090000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 上海大师赛 第一轮主桌(3)O&apos;SUL vs LIU(普)</title>
+  </programme>
+  <programme start="20261202090000 +0800" stop="20261202103000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 英格兰公开赛 十六强(4)WIL vs HAW(普)</title>
+  </programme>
+  <programme start="20261202103000 +0800" stop="20261202120000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 英格兰公开赛 八强(1)WIL vs JUN(普)</title>
+  </programme>
+  <programme start="20261202120000 +0800" stop="20261202150000 +0800" channel="mod.208">
+    <title lang="zh">2025-26司诺克赛季 世界锦标赛 十六强 HIG vs O&apos;SUL(第1阶段) 主桌(普)</title>
+  </programme>
+  <programme start="20261202150000 +0800" stop="20261202210000 +0800" channel="mod.208">
+    <title lang="zh">首播2026-27司诺克赛季英国锦标赛第一轮(普)</title>
+  </programme>
+  <programme start="20261202210000 +0800" stop="20261203000000 +0800" channel="mod.208">
+    <title lang="zh">LIVE2026-27司诺克赛季英国锦标赛十六强2100-0000(普)</title>
+  </programme>
+  <programme start="20261203000000 +0800" stop="20261203030000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 英格兰公开赛 八强(2)TRU vs MUR(普)</title>
+  </programme>
+  <programme start="20261203030000 +0800" stop="20261203060000 +0800" channel="mod.208">
+    <title lang="zh">LIVE2026-27司诺克赛季英国锦标赛十六强0300-0600(普)</title>
+  </programme>
+  <programme start="20261203060000 +0800" stop="20261203090000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 上海大师赛 第一轮主桌(4)LIS vs ZHA(普)</title>
+  </programme>
+  <programme start="20261203090000 +0800" stop="20261203120000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 英格兰公开赛 八强(2)TRU vs MUR(普)</title>
+  </programme>
+  <programme start="20261203120000 +0800" stop="20261203150000 +0800" channel="mod.208">
+    <title lang="zh">2025-26司诺克赛季 世界锦标赛 十六强 HIG vs O&apos;SUL(第2阶段) 主桌(普)</title>
+  </programme>
+  <programme start="20261203150000 +0800" stop="20261203210000 +0800" channel="mod.208">
+    <title lang="zh">首播2026-27司诺克赛季英国锦标赛十六强(普)</title>
+  </programme>
+  <programme start="20261203210000 +0800" stop="20261204000000 +0800" channel="mod.208">
+    <title lang="zh">LIVE2026-27司诺克赛季英国锦标赛十六强2100-0000(普)</title>
+  </programme>
+  <programme start="20261204000000 +0800" stop="20261204030000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 英格兰公开赛 四强(1)JUN vs CAR(普)</title>
+  </programme>
+  <programme start="20261204030000 +0800" stop="20261204060000 +0800" channel="mod.208">
+    <title lang="zh">LIVE2026-27司诺克赛季英国锦标赛十六强0300-0600(普)</title>
+  </programme>
+  <programme start="20261204060000 +0800" stop="20261204090000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 上海大师赛 第一轮副桌(2)HAW vs LEI(普)</title>
+  </programme>
+  <programme start="20261204090000 +0800" stop="20261204120000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 英格兰公开赛 四强(1)JUN vs CAR(普)</title>
+  </programme>
+  <programme start="20261204120000 +0800" stop="20261204150000 +0800" channel="mod.208">
+    <title lang="zh">2025-26司诺克赛季 世界锦标赛 十六强 HIG vs O&apos;SUL(第3阶段) 主桌(普)</title>
+  </programme>
+  <programme start="20261204150000 +0800" stop="20261204210000 +0800" channel="mod.208">
+    <title lang="zh">首播2026-27司诺克赛季英国锦标赛十六强(普)</title>
+  </programme>
+  <programme start="20261204210000 +0800" stop="20261205000000 +0800" channel="mod.208">
+    <title lang="zh">LIVE2026-27司诺克赛季英国锦标赛八强2100-0000(普)</title>
+  </programme>
+  <programme start="20261205000000 +0800" stop="20261205030000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 英格兰公开赛 四强(2)MUR vs WIL(普)</title>
+  </programme>
+  <programme start="20261205030000 +0800" stop="20261205060000 +0800" channel="mod.208">
+    <title lang="zh">LIVE2026-27司诺克赛季英国锦标赛八强0300-0600(普)</title>
+  </programme>
+  <programme start="20261205060000 +0800" stop="20261205090000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 上海大师赛 第一轮副桌(3)SEL vs ZHO(普)</title>
+  </programme>
+  <programme start="20261205090000 +0800" stop="20261205120000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 英格兰公开赛 四强(2)MUR vs WIL(普)</title>
+  </programme>
+  <programme start="20261205120000 +0800" stop="20261205133000 +0800" channel="mod.208">
+    <title lang="zh">2025-26司诺克赛季 世界锦标赛 十六强 MUR vs GUO(第1阶段) 主桌(普)</title>
+  </programme>
+  <programme start="20261205133000 +0800" stop="20261205150000 +0800" channel="mod.208">
+    <title lang="zh">2025-26司诺克赛季 世界锦标赛 十六强 MUR vs GUO(第2阶段) 主桌(普)</title>
+  </programme>
+  <programme start="20261205150000 +0800" stop="20261205210000 +0800" channel="mod.208">
+    <title lang="zh">首播2026-27司诺克赛季英国锦标赛八强(普)</title>
+  </programme>
+  <programme start="20261205210000 +0800" stop="20261206000000 +0800" channel="mod.208">
+    <title lang="zh">LIVE2026-27司诺克赛季英国锦标赛四强2100-0000(普)</title>
+  </programme>
+  <programme start="20261206000000 +0800" stop="20261206030000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 英格兰公开赛 决赛(第一阶段)WIL vs CAR(普)</title>
+  </programme>
+  <programme start="20261206030000 +0800" stop="20261206060000 +0800" channel="mod.208">
+    <title lang="zh">LIVE2026-27司诺克赛季英国锦标赛四强0300-0600(普)</title>
+  </programme>
+  <programme start="20261206060000 +0800" stop="20261206090000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 上海大师赛 第一轮副桌(4)SI vs PAN(普)</title>
+  </programme>
+  <programme start="20261206090000 +0800" stop="20261206120000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 英格兰公开赛 决赛(第一阶段)WIL vs CAR(普)</title>
+  </programme>
+  <programme start="20261206120000 +0800" stop="20261206150000 +0800" channel="mod.208">
+    <title lang="zh">2025-26司诺克赛季 世界锦标赛 十六强 ROB vs WAK(第1阶段) 主桌(普)</title>
+  </programme>
+  <programme start="20261206150000 +0800" stop="20261206210000 +0800" channel="mod.208">
+    <title lang="zh">首播2026-27司诺克赛季英国锦标赛四强(普)</title>
+  </programme>
+  <programme start="20261206210000 +0800" stop="20261207000000 +0800" channel="mod.208">
+    <title lang="zh">LIVE2026-27司诺克赛季英国锦标赛决赛2100-0000(普)</title>
+  </programme>
+  <programme start="20261207000000 +0800" stop="20261207030000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 英格兰公开赛 决赛(第二阶段)WIL vs CAR(普)</title>
+  </programme>
+  <programme start="20261207030000 +0800" stop="20261207060000 +0800" channel="mod.208">
+    <title lang="zh">LIVE2026-27司诺克赛季英国锦标赛决赛0300-0600(普)</title>
+  </programme>
+  <programme start="20261207060000 +0800" stop="20261207090000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 上海大师赛 十六强主桌(1)ROB vs XIA(普)</title>
+  </programme>
+  <programme start="20261207090000 +0800" stop="20261207120000 +0800" channel="mod.208">
+    <title lang="zh">2026-27司诺克赛季 英格兰公开赛 决赛(第二阶段)WIL vs CAR(普)</title>
+  </programme>
+  <programme start="20261207120000 +0800" stop="20261207150000 +0800" channel="mod.208">
+    <title lang="zh">2025-26司诺克赛季 世界锦标赛 十六强 ROB vs WAK(第2阶段) 主桌(普)</title>
+  </programme>
+  <programme start="20261207150000 +0800" stop="20261207210000 +0800" channel="mod.208">
+    <title lang="zh">首播2026-27司诺克赛季英国锦标赛决赛(普)</title>
+  </programme>
+  <programme start="20261207210000 +0800" stop="20261208000000 +0800" channel="mod.208">
+    <title lang="zh">2025-26司诺克赛季 世界锦标赛 十六强 SEL vs YIZ(第3阶段) 副桌(普)</title>
+  </programme>
   <programme start="20261126000000 +0800" stop="20261126013000 +0800" channel="mod.209">
     <title lang="zh">2026佛罗里达公开赛 第四天(1)RUI vs BOZ(普)</title>
   </programme>
@@ -79302,11 +80949,8 @@
   <programme start="20261129210000 +0800" stop="20261130000000 +0800" channel="mod.209">
     <title lang="zh">2024-25司诺克赛季 北爱尔兰公开赛 8强 ROB vs JUN(普)</title>
   </programme>
-  <programme start="20261130000000 +0800" stop="20261130013000 +0800" channel="mod.209">
-    <title lang="zh">2026佛罗里达公开赛 第四天(5)BOE vs OUS(普)</title>
-  </programme>
-  <programme start="20261130013000 +0800" stop="20261130020000 +0800" channel="mod.209">
-    <title lang="zh">2026PBR骑牛团队赛EP12(普)</title>
+  <programme start="20261130000000 +0800" stop="20261130020000 +0800" channel="mod.209">
+    <title lang="zh">LIVE2026-27义大利甲级女子排球联赛第十一轮科内利亚诺 vs 圣乔瓦尼马里尼亚诺0000-0200(普)</title>
   </programme>
   <programme start="20261130020000 +0800" stop="20261130070000 +0800" channel="mod.209">
     <title lang="zh">LIVE莫斯考尼杯第三天0200-0700(普)</title>
@@ -79337,6 +80981,282 @@
   </programme>
   <programme start="20261130223000 +0800" stop="20261201000000 +0800" channel="mod.209">
     <title lang="zh">2024-25司诺克赛季 北爱尔兰公开赛 8强 WIL vs WIL(普)</title>
+  </programme>
+  <programme start="20261201000000 +0800" stop="20261201013000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 第四天(6)ATE vs TEU(普)</title>
+  </programme>
+  <programme start="20261201013000 +0800" stop="20261201020000 +0800" channel="mod.209">
+    <title lang="zh">2026PBR骑牛团队赛EP1(普)</title>
+  </programme>
+  <programme start="20261201020000 +0800" stop="20261201070000 +0800" channel="mod.209">
+    <title lang="zh">LIVE2026莫斯考尼杯第四天0200-0700(普)</title>
+  </programme>
+  <programme start="20261201070000 +0800" stop="20261201073000 +0800" channel="mod.209">
+    <title lang="zh">2026PBR骑牛团队赛EP2(普)</title>
+  </programme>
+  <programme start="20261201073000 +0800" stop="20261201090000 +0800" channel="mod.209">
+    <title lang="zh">2025英国公开赛8强截点(1)KRA vs PAT(普)</title>
+  </programme>
+  <programme start="20261201090000 +0800" stop="20261201103000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 北爱尔兰公开赛 8强 TRU vs MUR(普)</title>
+  </programme>
+  <programme start="20261201103000 +0800" stop="20261201120000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 北爱尔兰公开赛 8强 WIL vs WIL(普)</title>
+  </programme>
+  <programme start="20261201120000 +0800" stop="20261201133000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 第四天(6)ATE vs TEU(普)</title>
+  </programme>
+  <programme start="20261201133000 +0800" stop="20261201150000 +0800" channel="mod.209">
+    <title lang="zh">2025英国公开赛8强截点(1)KRA vs PAT(普)</title>
+  </programme>
+  <programme start="20261201150000 +0800" stop="20261201200000 +0800" channel="mod.209">
+    <title lang="zh">首播2026莫斯考尼杯第四天(普)</title>
+  </programme>
+  <programme start="20261201200000 +0800" stop="20261201210000 +0800" channel="mod.209">
+    <title lang="zh">2025英国公开赛8强截点(2)SHA vs SOU(普)</title>
+  </programme>
+  <programme start="20261201210000 +0800" stop="20261202000000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 北爱尔兰公开赛 4强 WIL vs PAN(普)</title>
+  </programme>
+  <programme start="20261202000000 +0800" stop="20261202013000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 十六强(1)RUI vs MAN(普)</title>
+  </programme>
+  <programme start="20261202013000 +0800" stop="20261202030000 +0800" channel="mod.209">
+    <title lang="zh">2025英国公开赛8强截点(2)SHA vs SOU(普)</title>
+  </programme>
+  <programme start="20261202030000 +0800" stop="20261202060000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 北爱尔兰公开赛 4强 WIL vs PAN(普)</title>
+  </programme>
+  <programme start="20261202060000 +0800" stop="20261202073000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 十六强(1)RUI vs MAN(普)</title>
+  </programme>
+  <programme start="20261202073000 +0800" stop="20261202090000 +0800" channel="mod.209">
+    <title lang="zh">2025英国公开赛8强截点(2)SHA vs SOU(普)</title>
+  </programme>
+  <programme start="20261202090000 +0800" stop="20261202120000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 北爱尔兰公开赛 4强 WIL vs PAN(普)</title>
+  </programme>
+  <programme start="20261202120000 +0800" stop="20261202133000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 十六强(1)RUI vs MAN(普)</title>
+  </programme>
+  <programme start="20261202133000 +0800" stop="20261202150000 +0800" channel="mod.209">
+    <title lang="zh">2025英国公开赛8强截点(2)SHA vs SOU(普)</title>
+  </programme>
+  <programme start="20261202150000 +0800" stop="20261202180000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 北爱尔兰公开赛 4强 WIL vs PAN(普)</title>
+  </programme>
+  <programme start="20261202180000 +0800" stop="20261202193000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 十六强(2)FIL vs BOE(普)</title>
+  </programme>
+  <programme start="20261202193000 +0800" stop="20261202210000 +0800" channel="mod.209">
+    <title lang="zh">2025英国公开赛4强截点(1)KRA vs SOU(普)</title>
+  </programme>
+  <programme start="20261202210000 +0800" stop="20261203000000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 北爱尔兰公开赛 决赛 TRU vs WIL(普)</title>
+  </programme>
+  <programme start="20261203000000 +0800" stop="20261203013000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 十六强(2)FIL vs BOE(普)</title>
+  </programme>
+  <programme start="20261203013000 +0800" stop="20261203030000 +0800" channel="mod.209">
+    <title lang="zh">2025英国公开赛4强截点(1)KRA vs SOU(普)</title>
+  </programme>
+  <programme start="20261203030000 +0800" stop="20261203060000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 北爱尔兰公开赛 决赛 TRU vs WIL(普)</title>
+  </programme>
+  <programme start="20261203060000 +0800" stop="20261203073000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 十六强(2)FIL vs BOE(普)</title>
+  </programme>
+  <programme start="20261203073000 +0800" stop="20261203090000 +0800" channel="mod.209">
+    <title lang="zh">2025英国公开赛4强截点(1)KRA vs SOU(普)</title>
+  </programme>
+  <programme start="20261203090000 +0800" stop="20261203120000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 北爱尔兰公开赛 决赛 TRU vs WIL(普)</title>
+  </programme>
+  <programme start="20261203120000 +0800" stop="20261203133000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 十六强(2)FIL vs BOE(普)</title>
+  </programme>
+  <programme start="20261203133000 +0800" stop="20261203150000 +0800" channel="mod.209">
+    <title lang="zh">2025英国公开赛4强截点(1)KRA vs SOU(普)</title>
+  </programme>
+  <programme start="20261203150000 +0800" stop="20261203180000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 北爱尔兰公开赛 决赛 TRU vs WIL(普)</title>
+  </programme>
+  <programme start="20261203180000 +0800" stop="20261203193000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 八强(1)ATE vs JAN(普)</title>
+  </programme>
+  <programme start="20261203193000 +0800" stop="20261203210000 +0800" channel="mod.209">
+    <title lang="zh">2025英国公开赛4强截点(2)YAP vs STY(普)</title>
+  </programme>
+  <programme start="20261203210000 +0800" stop="20261204000000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 第一轮 DIN vs O&apos;DON(普)</title>
+  </programme>
+  <programme start="20261204000000 +0800" stop="20261204013000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 八强(1)ATE vs JAN(普)</title>
+  </programme>
+  <programme start="20261204013000 +0800" stop="20261204030000 +0800" channel="mod.209">
+    <title lang="zh">2025英国公开赛4强截点(2)YAP vs STY(普)</title>
+  </programme>
+  <programme start="20261204030000 +0800" stop="20261204060000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 第一轮 DIN vs O&apos;DON(普)</title>
+  </programme>
+  <programme start="20261204060000 +0800" stop="20261204073000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 八强(1)ATE vs JAN(普)</title>
+  </programme>
+  <programme start="20261204073000 +0800" stop="20261204090000 +0800" channel="mod.209">
+    <title lang="zh">2025英国公开赛4强截点(2)YAP vs STY(普)</title>
+  </programme>
+  <programme start="20261204090000 +0800" stop="20261204120000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 第一轮 DIN vs O&apos;DON(普)</title>
+  </programme>
+  <programme start="20261204120000 +0800" stop="20261204133000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 八强(1)ATE vs JAN(普)</title>
+  </programme>
+  <programme start="20261204133000 +0800" stop="20261204150000 +0800" channel="mod.209">
+    <title lang="zh">2025英国公开赛4强截点(2)YAP vs STY(普)</title>
+  </programme>
+  <programme start="20261204150000 +0800" stop="20261204180000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 第一轮 DIN vs O&apos;DON(普)</title>
+  </programme>
+  <programme start="20261204180000 +0800" stop="20261204193000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 八强(2)RUI vs BOE(普)</title>
+  </programme>
+  <programme start="20261204193000 +0800" stop="20261204210000 +0800" channel="mod.209">
+    <title lang="zh">2025英国公开赛决赛截点YAP vs SOU(普)</title>
+  </programme>
+  <programme start="20261204210000 +0800" stop="20261204223000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 第一轮 O&apos;SUL vs HE(普)</title>
+  </programme>
+  <programme start="20261204223000 +0800" stop="20261205000000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 第二轮 DIN vs VAF(普)</title>
+  </programme>
+  <programme start="20261205000000 +0800" stop="20261205013000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 八强(2)RUI vs BOE(普)</title>
+  </programme>
+  <programme start="20261205013000 +0800" stop="20261205030000 +0800" channel="mod.209">
+    <title lang="zh">2025英国公开赛决赛截点YAP vs SOU(普)</title>
+  </programme>
+  <programme start="20261205030000 +0800" stop="20261205035000 +0800" channel="mod.209">
+    <title lang="zh">2026PBR骑牛团队赛EP3(普)</title>
+  </programme>
+  <programme start="20261205035000 +0800" stop="20261205055000 +0800" channel="mod.209">
+    <title lang="zh">LIVE2026-27义大利甲级女子排球联赛第十二轮库内奥 vs 布雷西亚0350-0550(普)</title>
+  </programme>
+  <programme start="20261205055000 +0800" stop="20261205073000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 八强(2)RUI vs BOE(普)</title>
+  </programme>
+  <programme start="20261205073000 +0800" stop="20261205090000 +0800" channel="mod.209">
+    <title lang="zh">2025英国公开赛决赛截点YAP vs SOU(普)</title>
+  </programme>
+  <programme start="20261205090000 +0800" stop="20261205103000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 第一轮 O&apos;SUL vs HE(普)</title>
+  </programme>
+  <programme start="20261205103000 +0800" stop="20261205120000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 第二轮 DIN vs VAF(普)</title>
+  </programme>
+  <programme start="20261205120000 +0800" stop="20261205133000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 八强(2)RUI vs BOE(普)</title>
+  </programme>
+  <programme start="20261205133000 +0800" stop="20261205150000 +0800" channel="mod.209">
+    <title lang="zh">2025英国公开赛决赛截点YAP vs SOU(普)</title>
+  </programme>
+  <programme start="20261205150000 +0800" stop="20261205163000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 第一轮 O&apos;SUL vs HE(普)</title>
+  </programme>
+  <programme start="20261205163000 +0800" stop="20261205180000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 第二轮 DIN vs VAF(普)</title>
+  </programme>
+  <programme start="20261205180000 +0800" stop="20261205193000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 四强(1)ATE vs KAZ(普)</title>
+  </programme>
+  <programme start="20261205193000 +0800" stop="20261205210000 +0800" channel="mod.209">
+    <title lang="zh">2025世界九号球锦标赛第一轮截点(1)GOR vs HEN(普)</title>
+  </programme>
+  <programme start="20261205210000 +0800" stop="20261205223000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 第二轮 O&apos;SUL vs PAN(普)</title>
+  </programme>
+  <programme start="20261205223000 +0800" stop="20261206000000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 16强 DIN vs JIA(普)</title>
+  </programme>
+  <programme start="20261206000000 +0800" stop="20261206013000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 四强(1)ATE vs KAZ(普)</title>
+  </programme>
+  <programme start="20261206013000 +0800" stop="20261206030000 +0800" channel="mod.209">
+    <title lang="zh">2025世界九号球锦标赛第一轮截点(1)GOR vs HEN(普)</title>
+  </programme>
+  <programme start="20261206030000 +0800" stop="20261206040000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 第二轮 O&apos;SUL vs PAN(普)</title>
+  </programme>
+  <programme start="20261206040000 +0800" stop="20261206060000 +0800" channel="mod.209">
+    <title lang="zh">LIVE2026-27义大利甲级女子排球联赛第十二轮圣乔瓦尼马里尼亚诺 vs 塔尔马松斯0400-0600(普)</title>
+  </programme>
+  <programme start="20261206060000 +0800" stop="20261206073000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 四强(1)ATE vs KAZ(普)</title>
+  </programme>
+  <programme start="20261206073000 +0800" stop="20261206090000 +0800" channel="mod.209">
+    <title lang="zh">2025世界九号球锦标赛第一轮截点(1)GOR vs HEN(普)</title>
+  </programme>
+  <programme start="20261206090000 +0800" stop="20261206103000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 第二轮 O&apos;SUL vs PAN(普)</title>
+  </programme>
+  <programme start="20261206103000 +0800" stop="20261206120000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 16强 DIN vs JIA(普)</title>
+  </programme>
+  <programme start="20261206120000 +0800" stop="20261206133000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 四强(1)ATE vs KAZ(普)</title>
+  </programme>
+  <programme start="20261206133000 +0800" stop="20261206150000 +0800" channel="mod.209">
+    <title lang="zh">2025世界九号球锦标赛第一轮截点(1)GOR vs HEN(普)</title>
+  </programme>
+  <programme start="20261206150000 +0800" stop="20261206163000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 第二轮 O&apos;SUL vs PAN(普)</title>
+  </programme>
+  <programme start="20261206163000 +0800" stop="20261206180000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 16强 DIN vs JIA(普)</title>
+  </programme>
+  <programme start="20261206180000 +0800" stop="20261206193000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 四强(2)BOE vs KAC(普)</title>
+  </programme>
+  <programme start="20261206193000 +0800" stop="20261206210000 +0800" channel="mod.209">
+    <title lang="zh">2025世界九号球锦标赛第一轮截点(4)MAN vs FER(普)</title>
+  </programme>
+  <programme start="20261206210000 +0800" stop="20261207000000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 16强 TRU vs XU(普)</title>
+  </programme>
+  <programme start="20261207000000 +0800" stop="20261207020000 +0800" channel="mod.209">
+    <title lang="zh">LIVE2026-27义大利甲级女子排球联赛第十二轮布斯托阿西齐奥 vs 马切拉塔0000-0200(普)</title>
+  </programme>
+  <programme start="20261207020000 +0800" stop="20261207030000 +0800" channel="mod.209">
+    <title lang="zh">2025世界九号球锦标赛第一轮截点(4)MAN vs FER(普)</title>
+  </programme>
+  <programme start="20261207030000 +0800" stop="20261207060000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 16强 TRU vs XU(普)</title>
+  </programme>
+  <programme start="20261207060000 +0800" stop="20261207073000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 四强(2)BOE vs KAC(普)</title>
+  </programme>
+  <programme start="20261207073000 +0800" stop="20261207090000 +0800" channel="mod.209">
+    <title lang="zh">2025世界九号球锦标赛第一轮截点(4)MAN vs FER(普)</title>
+  </programme>
+  <programme start="20261207090000 +0800" stop="20261207120000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 16强 TRU vs XU(普)</title>
+  </programme>
+  <programme start="20261207120000 +0800" stop="20261207133000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 四强(2)BOE vs KAC(普)</title>
+  </programme>
+  <programme start="20261207133000 +0800" stop="20261207150000 +0800" channel="mod.209">
+    <title lang="zh">2025世界九号球锦标赛第一轮截点(4)MAN vs FER(普)</title>
+  </programme>
+  <programme start="20261207150000 +0800" stop="20261207180000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 16强 TRU vs XU(普)</title>
+  </programme>
+  <programme start="20261207180000 +0800" stop="20261207193000 +0800" channel="mod.209">
+    <title lang="zh">2026佛罗里达公开赛 决赛BOE vs KAZ(普)</title>
+  </programme>
+  <programme start="20261207193000 +0800" stop="20261207210000 +0800" channel="mod.209">
+    <title lang="zh">2025世界九号球锦标赛第一轮截点(5)BOE vs SOT(普)</title>
+  </programme>
+  <programme start="20261207210000 +0800" stop="20261208000000 +0800" channel="mod.209">
+    <title lang="zh">2024-25司诺克赛季 国际锦标赛 8强 HIG vs WAK(普)</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126003000 +0800" channel="mod.210">
     <title lang="zh">Flashpoint(普)</title>
@@ -82636,7 +84556,7 @@
     <title lang="zh">LIVE2026-27义大利甲级女子排球联赛第11轮科内利亚诺 vs 圣乔瓦尼马里尼亚诺0000-0200(普)</title>
   </programme>
   <programme start="20261130020000 +0800" stop="20261130040000 +0800" channel="mod.213">
-    <title lang="zh">D-LIVE2026-27义大利甲级女子排球联赛第11轮塔尔马松斯 vs 米兰(普)</title>
+    <title lang="zh">D-LIVE2026-27义大利甲级女子排球联赛第11轮布雷西亚 vs 布斯托阿西齐奥(普)</title>
   </programme>
   <programme start="20261130040000 +0800" stop="20261130060000 +0800" channel="mod.213">
     <title lang="zh">2026-27欧洲篮球联赛第14轮巴塞 vs 费内巴切(普)</title>
@@ -82654,7 +84574,7 @@
     <title lang="zh">首播2026-27义大利甲级女子排球联赛第11轮科内利亚诺 vs 圣乔瓦尼马里尼亚诺(普)</title>
   </programme>
   <programme start="20261130140000 +0800" stop="20261130160000 +0800" channel="mod.213">
-    <title lang="zh">首播2026-27义大利甲级女子排球联赛第11轮塔尔马松斯 vs 米兰(普)</title>
+    <title lang="zh">首播2026-27义大利甲级女子排球联赛第11轮布雷西亚 vs 布斯托阿西齐奥(普)</title>
   </programme>
   <programme start="20261130160000 +0800" stop="20261130180000 +0800" channel="mod.213">
     <title lang="zh">2026-27欧洲篮球联赛第14轮巴塞 vs 费内巴切(普)</title>
@@ -82667,6 +84587,276 @@
   </programme>
   <programme start="20261130220000 +0800" stop="20261201000000 +0800" channel="mod.213">
     <title lang="zh">2026-27欧洲篮球联赛第14轮杜拜 vs 贝尔格莱德游击(普)</title>
+  </programme>
+  <programme start="20261201000000 +0800" stop="20261201020000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G16 台北台新战神vs新北中信特攻(普)</title>
+  </programme>
+  <programme start="20261201020000 +0800" stop="20261201040000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL台湾职业篮球大联盟 G19新竹御嵿攻城狮vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261201040000 +0800" stop="20261201060000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第14轮杜拜 vs 贝尔格莱德游击(普)</title>
+  </programme>
+  <programme start="20261201060000 +0800" stop="20261201080000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G16 台北台新战神vs新北中信特攻(普)</title>
+  </programme>
+  <programme start="20261201080000 +0800" stop="20261201100000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL台湾职业篮球大联盟 G19新竹御嵿攻城狮vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261201100000 +0800" stop="20261201120000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第14轮杜拜 vs 贝尔格莱德游击(普)</title>
+  </programme>
+  <programme start="20261201120000 +0800" stop="20261201140000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G16 台北台新战神vs新北中信特攻(普)</title>
+  </programme>
+  <programme start="20261201140000 +0800" stop="20261201160000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL台湾职业篮球大联盟 G19新竹御嵿攻城狮vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261201160000 +0800" stop="20261201180000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第14轮杜拜 vs 贝尔格莱德游击(普)</title>
+  </programme>
+  <programme start="20261201180000 +0800" stop="20261201200000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G17 高雄全家海神vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261201200000 +0800" stop="20261201220000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G20 桃园台啤永丰云豹vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261201220000 +0800" stop="20261202000000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第14轮红星贝尔格莱德 vs 波隆那(普)</title>
+  </programme>
+  <programme start="20261202000000 +0800" stop="20261202020000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G17 高雄全家海神vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261202020000 +0800" stop="20261202040000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G20 桃园台啤永丰云豹vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261202040000 +0800" stop="20261202060000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第14轮红星贝尔格莱德 vs 波隆那(普)</title>
+  </programme>
+  <programme start="20261202060000 +0800" stop="20261202080000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G17 高雄全家海神vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261202080000 +0800" stop="20261202100000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G20 桃园台啤永丰云豹vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261202100000 +0800" stop="20261202120000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第14轮红星贝尔格莱德 vs 波隆那(普)</title>
+  </programme>
+  <programme start="20261202120000 +0800" stop="20261202130000 +0800" channel="mod.213">
+    <title lang="zh">2026PBR骑牛大赛(普)</title>
+  </programme>
+  <programme start="20261202130000 +0800" stop="20261202150000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G17 高雄全家海神vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261202150000 +0800" stop="20261202170000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G20 桃园台啤永丰云豹vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261202170000 +0800" stop="20261202190000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第14轮红星贝尔格莱德 vs 波隆那(普)</title>
+  </programme>
+  <programme start="20261202190000 +0800" stop="20261202210000 +0800" channel="mod.213">
+    <title lang="zh">LIVE2026-27 TPBL台湾职业篮球大联盟G21台北台新战神 vs 新北国王1900-2100(普)</title>
+  </programme>
+  <programme start="20261202210000 +0800" stop="20261202220000 +0800" channel="mod.213">
+    <title lang="zh">2026PBR骑牛大赛(普)</title>
+  </programme>
+  <programme start="20261202220000 +0800" stop="20261203000000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第14轮巴塞 vs 费内巴切(普)</title>
+  </programme>
+  <programme start="20261203000000 +0800" stop="20261203020000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G18 新北中信特攻vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261203020000 +0800" stop="20261203040000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G1 新北国王vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261203040000 +0800" stop="20261203060000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第14轮巴塞 vs 费内巴切(普)</title>
+  </programme>
+  <programme start="20261203060000 +0800" stop="20261203080000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G18 新北中信特攻vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261203080000 +0800" stop="20261203100000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G1 新北国王vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261203100000 +0800" stop="20261203120000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第14轮巴塞 vs 费内巴切(普)</title>
+  </programme>
+  <programme start="20261203120000 +0800" stop="20261203140000 +0800" channel="mod.213">
+    <title lang="zh">首播2026-27 TPBL台湾职业篮球大联盟G21台北台新战神 vs 新北国王(普)</title>
+  </programme>
+  <programme start="20261203140000 +0800" stop="20261203160000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G1 新北国王vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261203160000 +0800" stop="20261203180000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第14轮巴塞 vs 费内巴切(普)</title>
+  </programme>
+  <programme start="20261203180000 +0800" stop="20261203200000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G18 新北中信特攻vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261203200000 +0800" stop="20261203220000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G1 新北国王vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261203220000 +0800" stop="20261204000000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第14轮杜拜 vs 贝尔格莱德游击(普)</title>
+  </programme>
+  <programme start="20261204000000 +0800" stop="20261204014500 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G19 新竹御嵿攻城狮vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261204014500 +0800" stop="20261204034500 +0800" channel="mod.213">
+    <title lang="zh">LIVE2026-27欧洲篮球联赛第15轮费内巴切 vs 红星贝尔格莱德0145-0345(普)</title>
+  </programme>
+  <programme start="20261204034500 +0800" stop="20261204054500 +0800" channel="mod.213">
+    <title lang="zh">LIVE2026-27欧洲篮球联赛第15轮皇马 vs 巴塞0345-0545(普)</title>
+  </programme>
+  <programme start="20261204054500 +0800" stop="20261204080000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G19 新竹御嵿攻城狮vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261204080000 +0800" stop="20261204100000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G2 高雄全家海神vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261204100000 +0800" stop="20261204120000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第14轮杜拜 vs 贝尔格莱德游击(普)</title>
+  </programme>
+  <programme start="20261204120000 +0800" stop="20261204140000 +0800" channel="mod.213">
+    <title lang="zh">首播2026-27欧洲篮球联赛第15轮费内巴切 vs 红星贝尔格莱德(普)</title>
+  </programme>
+  <programme start="20261204140000 +0800" stop="20261204160000 +0800" channel="mod.213">
+    <title lang="zh">首播2026-27欧洲篮球联赛第15轮皇马 vs 巴塞(普)</title>
+  </programme>
+  <programme start="20261204160000 +0800" stop="20261204180000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第14轮杜拜 vs 贝尔格莱德游击(普)</title>
+  </programme>
+  <programme start="20261204180000 +0800" stop="20261204190000 +0800" channel="mod.213">
+    <title lang="zh">2026PBR骑牛大赛(普)</title>
+  </programme>
+  <programme start="20261204190000 +0800" stop="20261204210000 +0800" channel="mod.213">
+    <title lang="zh">LIVE2026-27 TPBL台湾职业篮球大联盟G22新北中信特攻 vs 新北国王1900-2100(普)</title>
+  </programme>
+  <programme start="20261204210000 +0800" stop="20261204220000 +0800" channel="mod.213">
+    <title lang="zh">2026PBR骑牛团体赛(普)</title>
+  </programme>
+  <programme start="20261204220000 +0800" stop="20261205000000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第15轮费内巴切 vs 红星贝尔格莱德(普)</title>
+  </programme>
+  <programme start="20261205000000 +0800" stop="20261205020000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G20 桃园台啤永丰云豹vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261205020000 +0800" stop="20261205040000 +0800" channel="mod.213">
+    <title lang="zh">LIVE2026-27欧洲篮球联赛第15轮考纳斯绿林 vs 杜拜0200-0400(普)</title>
+  </programme>
+  <programme start="20261205040000 +0800" stop="20261205060000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第15轮费内巴切 vs 红星贝尔格莱德(普)</title>
+  </programme>
+  <programme start="20261205060000 +0800" stop="20261205080000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G20 桃园台啤永丰云豹vs福尔摩沙梦想家(普)</title>
+  </programme>
+  <programme start="20261205080000 +0800" stop="20261205100000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G7桃园台啤永丰云豹vs新北国王(普)</title>
+  </programme>
+  <programme start="20261205100000 +0800" stop="20261205120000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第15轮费内巴切 vs 红星贝尔格莱德(普)</title>
+  </programme>
+  <programme start="20261205120000 +0800" stop="20261205123000 +0800" channel="mod.213">
+    <title lang="zh">2026PBR骑牛团体赛(普)</title>
+  </programme>
+  <programme start="20261205123000 +0800" stop="20261205143000 +0800" channel="mod.213">
+    <title lang="zh">首播2026-27 TPBL台湾职业篮球大联盟G22新北中信特攻 vs 新北国王(普)</title>
+  </programme>
+  <programme start="20261205143000 +0800" stop="20261205163000 +0800" channel="mod.213">
+    <title lang="zh">LIVE2026-27 TPBL台湾职业篮球大联盟G23桃园台啤永丰云豹 vs 高雄全家海神1430-1630(普)</title>
+  </programme>
+  <programme start="20261205163000 +0800" stop="20261205170000 +0800" channel="mod.213">
+    <title lang="zh">2026PBR骑牛大赛(普)</title>
+  </programme>
+  <programme start="20261205170000 +0800" stop="20261205190000 +0800" channel="mod.213">
+    <title lang="zh">LIVE2026-27 TPBL台湾职业篮球大联盟G24台北台新战神 vs 新竹御嵿攻城狮1700-1900(普)</title>
+  </programme>
+  <programme start="20261205190000 +0800" stop="20261205200000 +0800" channel="mod.213">
+    <title lang="zh">2026PBR骑牛团体赛(普)</title>
+  </programme>
+  <programme start="20261205200000 +0800" stop="20261205220000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G7桃园台啤永丰云豹vs新北国王(普)</title>
+  </programme>
+  <programme start="20261205220000 +0800" stop="20261206000000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第15轮皇马 vs 巴塞(普)</title>
+  </programme>
+  <programme start="20261206000000 +0800" stop="20261206020000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL台湾职业篮球大联盟G21台北台新战神 vs 新北国王(普)</title>
+  </programme>
+  <programme start="20261206020000 +0800" stop="20261206040000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G8台北台新战神vs高雄全家海神(普)</title>
+  </programme>
+  <programme start="20261206040000 +0800" stop="20261206060000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第15轮皇马 vs 巴塞(普)</title>
+  </programme>
+  <programme start="20261206060000 +0800" stop="20261206080000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL台湾职业篮球大联盟G21台北台新战神 vs 新北国王(普)</title>
+  </programme>
+  <programme start="20261206080000 +0800" stop="20261206100000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G8台北台新战神vs高雄全家海神(普)</title>
+  </programme>
+  <programme start="20261206100000 +0800" stop="20261206120000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第15轮皇马 vs 巴塞(普)</title>
+  </programme>
+  <programme start="20261206120000 +0800" stop="20261206123000 +0800" channel="mod.213">
+    <title lang="zh">2026PBR骑牛大赛(普)</title>
+  </programme>
+  <programme start="20261206123000 +0800" stop="20261206143000 +0800" channel="mod.213">
+    <title lang="zh">首播2026-27 TPBL台湾职业篮球大联盟G23桃园台啤永丰云豹 vs 高雄全家海神(普)</title>
+  </programme>
+  <programme start="20261206143000 +0800" stop="20261206163000 +0800" channel="mod.213">
+    <title lang="zh">LIVE2026-27 TPBL台湾职业篮球大联盟G25福尔摩沙梦想家 vs 高雄全家海神1430-1630(普)</title>
+  </programme>
+  <programme start="20261206163000 +0800" stop="20261206170000 +0800" channel="mod.213">
+    <title lang="zh">2026PBR骑牛团体赛(普)</title>
+  </programme>
+  <programme start="20261206170000 +0800" stop="20261206190000 +0800" channel="mod.213">
+    <title lang="zh">LIVE2026-27 TPBL台湾职业篮球大联盟G26新北中信特攻 vs  新竹御嵿攻城狮1700-1900(普)</title>
+  </programme>
+  <programme start="20261206190000 +0800" stop="20261206210000 +0800" channel="mod.213">
+    <title lang="zh">首播2026-27 TPBL台湾职业篮球大联盟G24台北台新战神 vs 新竹御嵿攻城狮(普)</title>
+  </programme>
+  <programme start="20261206210000 +0800" stop="20261206220000 +0800" channel="mod.213">
+    <title lang="zh">2026PBR骑牛大赛(普)</title>
+  </programme>
+  <programme start="20261206220000 +0800" stop="20261207000000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第15轮考纳斯绿林 vs 杜拜(普)</title>
+  </programme>
+  <programme start="20261207000000 +0800" stop="20261207020000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL台湾职业篮球大联盟G22新北中信特攻 vs 新北国王(普)</title>
+  </programme>
+  <programme start="20261207020000 +0800" stop="20261207040000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G9新竹御嵿攻城狮vs新北国王(普)</title>
+  </programme>
+  <programme start="20261207040000 +0800" stop="20261207060000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第15轮考纳斯绿林 vs 杜拜(普)</title>
+  </programme>
+  <programme start="20261207060000 +0800" stop="20261207080000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL台湾职业篮球大联盟G22新北中信特攻 vs 新北国王(普)</title>
+  </programme>
+  <programme start="20261207080000 +0800" stop="20261207100000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G9新竹御嵿攻城狮vs新北国王(普)</title>
+  </programme>
+  <programme start="20261207100000 +0800" stop="20261207120000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第15轮考纳斯绿林 vs 杜拜(普)</title>
+  </programme>
+  <programme start="20261207120000 +0800" stop="20261207140000 +0800" channel="mod.213">
+    <title lang="zh">首播2026-27 TPBL台湾职业篮球大联盟G25福尔摩沙梦想家 vs 高雄全家海神(普)</title>
+  </programme>
+  <programme start="20261207140000 +0800" stop="20261207160000 +0800" channel="mod.213">
+    <title lang="zh">首播2026-27 TPBL台湾职业篮球大联盟G26新北中信特攻 vs  新竹御嵿攻城狮(普)</title>
+  </programme>
+  <programme start="20261207160000 +0800" stop="20261207180000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第15轮考纳斯绿林 vs 杜拜(普)</title>
+  </programme>
+  <programme start="20261207180000 +0800" stop="20261207200000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL台湾职业篮球大联盟G23桃园台啤永丰云豹 vs 高雄全家海神(普)</title>
+  </programme>
+  <programme start="20261207200000 +0800" stop="20261207220000 +0800" channel="mod.213">
+    <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G10新北中信特攻vs高雄全家海神(普)</title>
+  </programme>
+  <programme start="20261207220000 +0800" stop="20261208000000 +0800" channel="mod.213">
+    <title lang="zh">2026-27欧洲篮球联赛第15轮费内巴切 vs 红星贝尔格莱德(普)</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126010000 +0800" channel="mod.214">
     <title lang="zh">麻将大师 第七季 EP44(护)</title>
