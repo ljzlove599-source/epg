@@ -11,7 +11,7 @@ env:
   TZ: Asia/Shanghai
   EPG_OUTPUT_DIR: epg_sources
   LOG_DIR: logs
-  PHP_SCRIPT_DIR: php # 新增：PHP 脚本统一目录
+  PHP_SCRIPT_DIR: php # PHP 脚本统一目录
   PHP_VERSION: '7.4'
   PYTHON_VERSION: '3.x'
 
@@ -76,7 +76,7 @@ jobs:
           if [ -f "composer.json" ]; then
             composer install --no-dev --no-progress --no-interaction --prefer-dist
           fi
-          # Python 依赖安装（去掉 --no-cache-dir，配合缓存生效）
+          # Python 依赖安装
           pip install opencc-python-reimplemented curl_cffi beautifulsoup4 requests aiohttp pytz loguru httpx
           echo "所有依赖安装完成"
 
@@ -173,13 +173,12 @@ jobs:
           pids=()
           start_time=$(date +%s)
 
-          # 后台并行启动所有脚本，统一输出到 EPG 目录
+          # 后台并行启动所有脚本
           for script in "${scripts[@]}"; do
             log_name=$(basename "${script%.php}")
             log_file="${WORKDIR}/${LOG_DIR}/${log_name}.log"
             echo "启动脚本: $script"
-            # 切换到输出目录执行，确保生成的 XML 落在 epg_sources 中
-            cd "${WORKDIR}/${EPG_OUTPUT_DIR}" && php "${WORKDIR}/${script}" > "${log_file}" 2>&1 &
+            php "${script}" > "${log_file}" 2>&1 &
             pids+=("$!")
           done
 
@@ -206,14 +205,32 @@ jobs:
           echo "PHP 脚本执行完成: 成功 $((${#scripts[@]} - failed_count)) 个，失败 ${failed_count} 个，总耗时: ${total_duration}秒"
           echo "php_failed_count=${failed_count}" >> $GITHUB_OUTPUT
 
+      # 迁移PHP生成的文件到统一输出目录
+      - name: Move PHP output to EPG directory
+        run: |
+          # 归集php目录下所有xml/xml.gz到输出目录
+          mv ${PHP_SCRIPT_DIR}/*.xml ${EPG_OUTPUT_DIR}/ 2>/dev/null || true
+          mv ${PHP_SCRIPT_DIR}/*.xml.gz ${EPG_OUTPUT_DIR}/ 2>/dev/null || true
+          echo "PHP生成文件已迁移至输出目录，当前文件列表："
+          ls -lh ${EPG_OUTPUT_DIR}/
+
       # ---------- 6. 检查生成的 XML 文件 ----------
       - name: Check generated XML files
         id: check_xml
         run: |
+          # 兼容Python+PHP所有可能的输出文件名
           declare -a expected_xml=(
-            "4g.xml" "cntv.xml.gz" "epg_4k.xml" "epg_elta.xml"
-            "epg_nowtv.xml" "epg_zhongtianam.xml" "hami.xml" "litv_epg.xml"
-            "ofiii.xml" "epg_rthk_tv.xml" "kbro_epg.xml" "mod_epg.xml"
+            "4g.xml" 
+            "51zmt_epg.xml"
+            "cntvepg.xml" "cntv.xml.gz"
+            "epg_4k.xml" "epg_elta.xml"
+            "nowtv_epg.xml" "epg_nowtv.xml"
+            "zhongtianam.xml" "epg_zhongtianam.xml"
+            "hami.xml" "litv_epg.xml"
+            "ofiii.xml" 
+            "rthk.xml" "epg_rthk_tv.xml"
+            "kbro_epg.xml" 
+            "mod.xml" "mod_epg.xml"
             "tdm_epg.xml"
           )
 
@@ -316,4 +333,3 @@ jobs:
             echo "::error::超过 3 个脚本执行失败，请检查日志"
             exit 1
           fi
-
