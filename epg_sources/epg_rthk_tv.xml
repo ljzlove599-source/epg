@@ -2114,6 +2114,7 @@
   </programme>
   <programme start="20261127202500 +0800" stop="20261127203000 +0800" channel="tv31">
     <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">全民计碳宣传活动巡礼 (第二集)</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
   </programme>
   <programme start="20261127203000 +0800" stop="20261127212500 +0800" channel="tv31">
@@ -2123,6 +2124,7 @@
   </programme>
   <programme start="20261127212500 +0800" stop="20261127213000 +0800" channel="tv31">
     <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">全民计碳宣传活动巡礼 (第二集)</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
   </programme>
   <programme start="20261127213000 +0800" stop="20261127220000 +0800" channel="tv31">
@@ -2344,6 +2346,7 @@
   </programme>
   <programme start="20261127220000 +0800" stop="20261127220500 +0800" channel="tv32">
     <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">全民计碳宣传活动巡礼 (第二集)</desc>
     <url>https://www.rthk.hk/tv/dtt32/programme/governmentandyou</url>
   </programme>
   <programme start="20261127220500 +0800" stop="20261127223000 +0800" channel="tv32">
@@ -2891,6 +2894,7 @@
   </programme>
   <programme start="20261128093000 +0800" stop="20261128101500 +0800" channel="tv31">
     <title lang="zh-Hans">中华人民共和国香港特别行政区二零二六年度勋衔颁授典礼</title>
+    <desc lang="zh-Hans">二零二六年度勋衔颁授典礼</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/2026honoursawardspc</url>
   </programme>
   <programme start="20261128101500 +0800" stop="20261128102500 +0800" channel="tv31">
@@ -2902,6 +2906,7 @@
   </programme>
   <programme start="20261128105500 +0800" stop="20261128110000 +0800" channel="tv31">
     <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">全民计碳宣传活动巡礼 (第二集)</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
   </programme>
   <programme start="20261128110000 +0800" stop="20261128112500 +0800" channel="tv31">
@@ -2929,6 +2934,7 @@
   </programme>
   <programme start="20261128140000 +0800" stop="20261128140500 +0800" channel="tv31">
     <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">全民计碳宣传活动巡礼 (第二集)</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/governmentandyou</url>
   </programme>
   <programme start="20261128140500 +0800" stop="20261128143500 +0800" channel="tv31">
@@ -2973,6 +2979,7 @@
   </programme>
   <programme start="20261128200000 +0800" stop="20261128202500 +0800" channel="tv31">
     <title lang="zh-Hans">世界技能大赛  决战上海</title>
+    <desc lang="zh-Hans">第五集</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/worldskillscompshanghai2026</url>
   </programme>
   <programme start="20261128202500 +0800" stop="20261128203000 +0800" channel="tv31">
@@ -3031,6 +3038,7 @@
   </programme>
   <programme start="20261128073500 +0800" stop="20261128074000 +0800" channel="tv32">
     <title lang="zh-Hans">政正关你事</title>
+    <desc lang="zh-Hans">全民计碳宣传活动巡礼 (第二集)</desc>
     <url>https://www.rthk.hk/tv/dtt32/programme/governmentandyou</url>
   </programme>
   <programme start="20261128074000 +0800" stop="20261128080500 +0800" channel="tv32">
@@ -3673,6 +3681,7 @@
   </programme>
   <programme start="20261129020000 +0800" stop="20261129023000 +0800" channel="tv31">
     <title lang="zh-Hans">世界技能大赛  决战上海</title>
+    <desc lang="zh-Hans">第五集</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/worldskillscompshanghai2026</url>
   </programme>
   <programme start="20261129023000 +0800" stop="20261129033000 +0800" channel="tv31">
@@ -4536,7 +4545,7 @@
   </programme>
   <programme start="20261130163000 +0800" stop="20261130165000 +0800" channel="tv31">
     <title lang="zh-Hans">BobieLand</title>
-    <desc lang="zh-Hans">第三百五十三集 -</desc>
+    <desc lang="zh-Hans">第三百五十三集 - 铁路大冒险</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/bobieland</url>
   </programme>
   <programme start="20261130165000 +0800" stop="20261130170500 +0800" channel="tv31">
@@ -5277,6 +5286,7 @@
   </programme>
   <programme start="20261201030000 +0800" stop="20261201033000 +0800" channel="tv31">
     <title lang="zh-Hans">世界技能大赛  决战上海</title>
+    <desc lang="zh-Hans">第五集</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/worldskillscompshanghai2026</url>
   </programme>
   <programme start="20261201033000 +0800" stop="20261201043000 +0800" channel="tv31">
@@ -5305,7 +5315,7 @@
   </programme>
   <programme start="20261201063000 +0800" stop="20261201065000 +0800" channel="tv31">
     <title lang="zh-Hans">BobieLand</title>
-    <desc lang="zh-Hans">第三百五十三集 -</desc>
+    <desc lang="zh-Hans">第三百五十三集 - 铁路大冒险</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/bobieland</url>
   </programme>
   <programme start="20261201065000 +0800" stop="20261201070500 +0800" channel="tv31">
@@ -5392,7 +5402,7 @@
   </programme>
   <programme start="20261201163000 +0800" stop="20261201165000 +0800" channel="tv31">
     <title lang="zh-Hans">BobieLand</title>
-    <desc lang="zh-Hans">第三百五十四集 -</desc>
+    <desc lang="zh-Hans">第三百五十四集 - 铁路大冒险之铁路问答游戏</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/bobieland</url>
   </programme>
   <programme start="20261201165000 +0800" stop="20261201170500 +0800" channel="tv31">
@@ -6186,7 +6196,7 @@
   </programme>
   <programme start="20261202063000 +0800" stop="20261202065000 +0800" channel="tv31">
     <title lang="zh-Hans">BobieLand</title>
-    <desc lang="zh-Hans">第三百五十四集 -</desc>
+    <desc lang="zh-Hans">第三百五十四集 - 铁路大冒险之铁路问答游戏</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/bobieland</url>
   </programme>
   <programme start="20261202065000 +0800" stop="20261202070500 +0800" channel="tv31">
@@ -6248,7 +6258,7 @@
   </programme>
   <programme start="20261202163000 +0800" stop="20261202165000 +0800" channel="tv31">
     <title lang="zh-Hans">BobieLand</title>
-    <desc lang="zh-Hans">第三百五十五集 -</desc>
+    <desc lang="zh-Hans">第三百五十五集 - 【太空衣很重吗？／环保捏捏乐／一步登天】</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/bobieland</url>
   </programme>
   <programme start="20261202165000 +0800" stop="20261202170500 +0800" channel="tv31">
@@ -7030,7 +7040,7 @@
   </programme>
   <programme start="20261203063000 +0800" stop="20261203065000 +0800" channel="tv31">
     <title lang="zh-Hans">BobieLand</title>
-    <desc lang="zh-Hans">第三百五十五集 -</desc>
+    <desc lang="zh-Hans">第三百五十五集 - 【太空衣很重吗？／环保捏捏乐／一步登天】</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/bobieland</url>
   </programme>
   <programme start="20261203065000 +0800" stop="20261203070500 +0800" channel="tv31">
@@ -7091,7 +7101,7 @@
   </programme>
   <programme start="20261203163000 +0800" stop="20261203165000 +0800" channel="tv31">
     <title lang="zh-Hans">BobieLand</title>
-    <desc lang="zh-Hans">第三百五十六集 -</desc>
+    <desc lang="zh-Hans">第三百五十六集 - 【嘉宾来了】鱼拓艺术家-李振华</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/bobieland</url>
   </programme>
   <programme start="20261203165000 +0800" stop="20261203170500 +0800" channel="tv31">
