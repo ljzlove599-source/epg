@@ -1,4 +1,4 @@
-name: EPG 自动更新程序，新增file.json
+name: EPG 自动更新程序
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
     - cron: '00 00 * * *' # UTC 00:00 = 北京时间 08:00
   workflow_dispatch:
 
-# 并发锁：同一分支同一时间只跑一个任务，新任务自动取消进行中的旧任务
+# 并发锁：同一分支同一时间只跑一个任务，避免 Git 提交冲突
 concurrency:
   group: epg-auto-${{ github.ref }}
   cancel-in-progress: true
@@ -18,7 +18,7 @@ env:
   PHP_SCRIPT_DIR: php
   PHP_VERSION: '7.4'
   PYTHON_VERSION: '3.11'
-  PHP_PARALLEL_TIMEOUT: 300 # 单PHP脚本最大超时 5分钟，防止卡死
+  PHP_PARALLEL_TIMEOUT: 300 # 单PHP脚本最大超时 5分钟
 
 jobs:
   epg_comprehensive_processing:
@@ -42,13 +42,14 @@ jobs:
         run: |
           set -eo pipefail
           sudo apt-get update
-          sudo apt-get install -y jq libxml2-utils gzip 
+          sudo apt-get install -y jq libxml2-utils gzip
 
       - name: Set up PHP environment
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ env.PHP_VERSION }}
           tools: composer
+          extensions: curl, dom, mbstring, xml, json # 补充采集脚本必备扩展
           ini-values: date.timezone=Asia/Shanghai
 
       - name: Set up Python environment
@@ -57,11 +58,14 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: 'pip'
 
+      # 仅当仓库存在 composer.json 时才执行 Composer 缓存相关步骤
       - name: Get Composer cache directory
         id: composer-cache
+        if: hashFiles('composer.json') != ''
         run: echo "dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
 
       - name: Cache Composer dependencies
+        if: hashFiles('composer.json') != ''
         uses: actions/cache@v4
         with:
           path: ${{ steps.composer-cache.outputs.dir }}
@@ -71,9 +75,11 @@ jobs:
       - name: Install project dependencies
         run: |
           set -eo pipefail
+          # PHP 依赖安装（仅当存在 composer.json 时执行）
           if [ -f "composer.json" ]; then
             composer install --no-dev --no-progress --no-interaction --prefer-dist
           fi
+          # Python 依赖安装
           pip install opencc-python-reimplemented curl_cffi beautifulsoup4 requests aiohttp pytz loguru httpx
           echo "所有依赖安装完成"
 
@@ -89,7 +95,7 @@ jobs:
           mkdir -p ${LOG_DIR} ${EPG_OUTPUT_DIR}
           echo "历史文件清理完成，输出目录：${EPG_OUTPUT_DIR}，日志目录：${LOG_DIR}"
 
-      # ---------- 4. 下载 files.json 中定义的文件并解压 ----------
+      # ---------- 4. 下载 files.json 中定义的文件并解压到输出目录 ----------
       - name: Download and extract files from files.json (via Python)
         id: download_files
         env:
@@ -185,7 +191,8 @@ jobs:
           run_python_scraper "fourgtv_epg.py" "4g.xml" "" "fourgtv" || failed_count=$((failed_count + 1))
           run_python_scraper "hami.py" "hami.xml" "$(date '+%Y-%m-%d')" "hami" || failed_count=$((failed_count + 1))
           run_python_scraper "litv_epg_merged.py" "litv_epg.xml" "$(date '+%Y-%m-%d')" "litv" || failed_count=$((failed_count + 1))
-          run_python_scraper "ofiii_epg.py" "ofiii.xml" "" "ofiii" || failed_count=$((failed_count + 1))
+          # 修复：补充 --output 参数，匹配 ofiii_epg.py 的参数规范
+          run_python_scraper "ofiii_epg.py" "ofiii.xml" "--output" "ofiii" || failed_count=$((failed_count + 1))
 
           echo "python_failed_count=${failed_count}" >> $GITHUB_OUTPUT
           echo "Python 脚本执行完成，失败 ${failed_count} 个"
@@ -240,7 +247,7 @@ jobs:
 
           failed_count=0
           for i in "${!scripts[@]}"; do
-            # 临时关闭 errexit，安全捕获退出码，避免单个失败终止整个脚本
+            # 临时关闭严格错误模式，安全捕获子进程退出码
             set +e
             wait ${pids[$i]}
             exit_code=$?
@@ -270,7 +277,7 @@ jobs:
           echo "PHP 脚本执行完成: 成功 $((${#scripts[@]} - failed_count)) 个，失败 ${failed_count} 个，总耗时: ${total_duration}秒"
           echo "php_failed_count=${failed_count}" >> $GITHUB_OUTPUT
           
-          # 单个脚本失败不直接终止步骤，统一交给后续汇总阈值判断
+          # 单个脚本失败不中断步骤，统一交给最终汇总阈值判断
           exit 0
 
       # ---------- 7. 检查生成的 XML 文件（含 GZ 内 XML 校验） ----------
@@ -369,7 +376,7 @@ jobs:
           git push origin ${{ github.ref_name }}
           echo "✅ 所有生成结果已推送回仓库"
 
-      # ---------- 10. 结果汇总 + 失败判定 ----------
+      # ---------- 10. 结果汇总 + 失败阈值判定 ----------
       - name: Run summary
         run: |
           set -eo pipefail
