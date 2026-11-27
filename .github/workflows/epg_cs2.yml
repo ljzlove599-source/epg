@@ -150,7 +150,7 @@ jobs:
             script_path="${PHP_SCRIPT_DIR}/${script}"
             if [ -f "$script_path" ]; then
               echo "✓ 找到文件: $script_path"
-              existing_scripts+=("$script_path")
+              existing_scripts+=("$script")
             else
               echo "✗ 文件不存在: $script_path"
             fi
@@ -169,16 +169,20 @@ jobs:
         continue-on-error: true
         run: |
           WORKDIR=$(pwd)
+          LOG_ABS_PATH="${WORKDIR}/${LOG_DIR}"
           IFS=',' read -ra scripts <<< "${{ steps.check_scripts.outputs.existing_scripts }}"
           pids=()
           start_time=$(date +%s)
 
-          # 后台并行启动所有脚本
+          # 切换到 PHP 脚本目录执行，保证相对路径依赖正常加载
+          cd "${PHP_SCRIPT_DIR}" || exit 1
+
+          # 后台并行启动所有脚本，日志输出到绝对路径的日志目录
           for script in "${scripts[@]}"; do
-            log_name=$(basename "${script%.php}")
-            log_file="${WORKDIR}/${LOG_DIR}/${log_name}.log"
+            log_name="${script%.php}"
+            log_file="${LOG_ABS_PATH}/${log_name}.log"
             echo "启动脚本: $script"
-            php "${script}" > "${log_file}" 2>&1 &
+            php "$script" > "$log_file" 2>&1 &
             pids+=("$!")
           done
 
@@ -188,13 +192,13 @@ jobs:
             wait ${pids[$i]}
             exit_code=$?
             script=${scripts[$i]}
-            log_name=$(basename "${script%.php}")
+            log_name="${script%.php}"
             if [ ${exit_code} -eq 0 ]; then
               echo "✓ ${log_name} 执行成功"
             else
               echo "✗ ${log_name} 执行失败（退出码：${exit_code}）"
               echo "--- 最后 20 行日志 ---"
-              tail -n 20 "${WORKDIR}/${LOG_DIR}/${log_name}.log" 2>/dev/null || echo "无法读取日志文件"
+              tail -n 20 "${LOG_ABS_PATH}/${log_name}.log" 2>/dev/null || echo "无法读取日志文件"
               echo "----------------------"
               failed_count=$((failed_count + 1))
             fi
@@ -208,7 +212,7 @@ jobs:
       # 迁移PHP生成的文件到统一输出目录
       - name: Move PHP output to EPG directory
         run: |
-          # 归集php目录下所有xml/xml.gz到输出目录
+          # 归集 php 目录下所有 xml/xml.gz 到统一输出目录
           mv ${PHP_SCRIPT_DIR}/*.xml ${EPG_OUTPUT_DIR}/ 2>/dev/null || true
           mv ${PHP_SCRIPT_DIR}/*.xml.gz ${EPG_OUTPUT_DIR}/ 2>/dev/null || true
           echo "PHP生成文件已迁移至输出目录，当前文件列表："
@@ -220,17 +224,10 @@ jobs:
         run: |
           # 兼容Python+PHP所有可能的输出文件名
           declare -a expected_xml=(
-            "4g.xml" "epg_51zmt.xml.gz"
-            "cntv.xml.gz"
-            "epg_4k.xml" "epg_elta.xml"
-            "epg_nowtv.xml" "hami.xml" 
-            "epg_zhongtianam.xml"
-            "litv_epg.xml"
-            "ofiii.xml" 
-            "epg_rthk_tv.xml"
-            "kbro_epg.xml" 
-            "mod_epg.xml"
-            "tdm_epg.xml"
+            "4g.xml" "cntv.xml.gz" "epg_4k.xml" "epg_elta.xml"
+            "epg_nowtv.xml" "epg_zhongtianam.xml" "hami.xml" 
+            "litv_epg.xml" "ofiii.xml" "epg_rthk_tv.xml"
+            "kbro_epg.xml" "mod_epg.xml" "tdm_epg.xml" "51zmt_epg.xml.gz"
           )
 
           generated_files=()
@@ -333,4 +330,3 @@ jobs:
             exit 1
           fi
 
-          fi
