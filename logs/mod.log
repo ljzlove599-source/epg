@@ -36,6 +36,6 @@
 频道 TV5MONDE (750) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=750&w=1]:  (HTTP 500)
 频道 Arirang TV HD (751) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=751&w=1]:  (HTTP 500)
 生成完成
-文件路径：/home/runner/work/epg/epg/epg_sources/epg_sources/mod_epg.xml
+文件路径：/home/runner/work/epg/epg/epg_sources/mod_epg.xml
 频道数量：185 个
 文件大小：12130.02 KB
