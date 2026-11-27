@@ -11,7 +11,7 @@ env:
   TZ: Asia/Shanghai
   EPG_OUTPUT_DIR: epg_sources
   LOG_DIR: logs
-  PHP_SCRIPT_DIR: php
+  PHP_SCRIPT_DIR: php # PHP 脚本统一目录
   PHP_VERSION: '7.4'
   PYTHON_VERSION: '3.x'
 
@@ -49,7 +49,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-          cache: 'pip'
+          cache: 'pip' # 开启 pip 依赖自动缓存
 
       # 缓存 Composer 依赖（兼容无 composer.json 场景）
       - name: Get Composer cache directory
@@ -58,6 +58,7 @@ jobs:
           if [ -f "composer.json" ]; then
             echo "dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
           else
+            # 不存在 composer.json 时输出占位目录，避免后续步骤报错
             echo "dir=./.composer_cache" >> $GITHUB_OUTPUT
             echo "未检测到 composer.json，跳过 Composer 缓存配置"
           fi
@@ -82,19 +83,21 @@ jobs:
       # ---------- 3. 清理历史残留文件 ----------
       - name: Clean old output files
         run: |
+          # 安全清理：仅当目录存在时执行删除
           if [ -d "${EPG_OUTPUT_DIR}" ]; then
             rm -f ${EPG_OUTPUT_DIR}/*.xml ${EPG_OUTPUT_DIR}/*.xml.gz
           fi
           rm -f *_time.txt time.txt
           rm -rf ${LOG_DIR}/
           mkdir -p ${LOG_DIR} ${EPG_OUTPUT_DIR}
-          echo "历史文件清理完成"
+          echo "历史文件清理完成，输出目录：${EPG_OUTPUT_DIR}，日志目录：${LOG_DIR}"
 
       # ---------- 4. 运行 Python 采集脚本 ----------
       - name: Run all Python scrapers
         id: python_scrapers
         continue-on-error: true
         run: |
+          # 封装统一执行函数
           run_python_scraper() {
             local script_name=$1
             local output_file=$2
@@ -132,7 +135,7 @@ jobs:
           echo "python_failed_count=${failed_count}" >> $GITHUB_OUTPUT
           echo "Python 脚本执行完成，失败 ${failed_count} 个"
 
-      # ---------- 5. 运行 PHP 采集脚本 ----------
+      # ---------- 5. 检查并运行 PHP 采集脚本（并行执行） ----------
       - name: Check PHP scripts existence
         id: check_scripts
         run: |
@@ -170,6 +173,7 @@ jobs:
           pids=()
           start_time=$(date +%s)
 
+          # 后台并行启动所有脚本
           for script in "${scripts[@]}"; do
             log_name=$(basename "${script%.php}")
             log_file="${WORKDIR}/${LOG_DIR}/${log_name}.log"
@@ -178,6 +182,7 @@ jobs:
             pids+=("$!")
           done
 
+          # 等待所有进程结束，统计结果
           failed_count=0
           for i in "${!scripts[@]}"; do
             wait ${pids[$i]}
@@ -200,42 +205,39 @@ jobs:
           echo "PHP 脚本执行完成: 成功 $((${#scripts[@]} - failed_count)) 个，失败 ${failed_count} 个，总耗时: ${total_duration}秒"
           echo "php_failed_count=${failed_count}" >> $GITHUB_OUTPUT
 
-      # 全量递归迁移所有PHP生成的文件到统一输出目录
+      # 迁移PHP生成的文件到统一输出目录
       - name: Move PHP output to EPG directory
         run: |
-          # 递归查找所有xml和xml.gz，排除目标目录和git目录，统一迁移
-          find . \( -name "*.xml" -o -name "*.xml.gz" \) \
-            -not -path "./${EPG_OUTPUT_DIR}/*" \
-            -not -path "./.git/*" \
-            -exec mv -f {} ${EPG_OUTPUT_DIR}/ \; 2>/dev/null || true
-          
-          # 清理输出目录里的非目标文件（日志、json缓存等）
-          rm -f ${EPG_OUTPUT_DIR}/*.log ${EPG_OUTPUT_DIR}/*.json
-          
-          echo "文件迁移完成，输出目录最终文件列表："
+          # 归集php目录下所有xml/xml.gz到输出目录
+          mv ${PHP_SCRIPT_DIR}/*.xml ${EPG_OUTPUT_DIR}/ 2>/dev/null || true
+          mv ${PHP_SCRIPT_DIR}/*.xml.gz ${EPG_OUTPUT_DIR}/ 2>/dev/null || true
+          echo "PHP生成文件已迁移至输出目录，当前文件列表："
           ls -lh ${EPG_OUTPUT_DIR}/
 
       # ---------- 6. 检查生成的 XML 文件 ----------
       - name: Check generated XML files
         id: check_xml
         run: |
-          # 兼容Python+PHP所有实际输出命名规则
+          # 兼容Python+PHP所有可能的输出文件名
           declare -a expected_xml=(
-            # Python 输出
-            "4g.xml" "hami.xml" "litv_epg.xml" "ofiii.xml"
-            # PHP 压缩包格式（epg_前缀 + 名称 + .xml.gz）
-            "cntv.xml.gz" "epg_51zmt.xml.gz"
-            # PHP 纯XML格式（兼容旧命名）
-            "mod_epg.xml" 
-            "epg_4k.xml" "epg_elta.xml" "nowtv_epg.xml"
-            "epg_zhongtianam.xml" "epg_rthk_tv.xml" "kbro_epg.xml" "tdm_epg.xml"
+            "4g.xml" "epg_51zmt.xml.gz"
+            "cntv.xml.gz"
+            "epg_4k.xml" "epg_elta.xml"
+            "epg_nowtv.xml" "hami.xml" 
+            "epg_zhongtianam.xml"
+            "litv_epg.xml"
+            "ofiii.xml" 
+            "epg_rthk_tv.xml"
+            "kbro_epg.xml" 
+            "mod_epg.xml"
+            "tdm_epg.xml"
           )
 
           generated_files=()
           valid_xml=0
           invalid_xml=0
 
-          echo "===== 预期文件检查 ====="
+          echo "开始检查生成的 XML 文件（目录：${EPG_OUTPUT_DIR}）..."
           for xml_file in "${expected_xml[@]}"; do
             file_path="${EPG_OUTPUT_DIR}/${xml_file}"
             if [ -f "$file_path" ]; then
@@ -243,7 +245,6 @@ jobs:
               echo "✓ 生成文件: $file_path (大小: $filesize bytes)"
               generated_files+=("$file_path")
 
-              # 仅纯XML文件做格式校验
               if [[ "$xml_file" != *.gz ]]; then
                 if xmllint --noout "$file_path" 2>/dev/null; then
                   echo "  ✅ XML 格式验证通过"
@@ -258,13 +259,8 @@ jobs:
             fi
           done
 
-          echo ""
-          echo "===== 全量文件统计 ====="
-          total_xml=$(find ${EPG_OUTPUT_DIR} -name "*.xml" | wc -l)
-          total_gz=$(find ${EPG_OUTPUT_DIR} -name "*.xml.gz" | wc -l)
-          echo "输出目录纯XML文件数: ${total_xml}"
-          echo "输出目录XML压缩包数: ${total_gz}"
-          echo "预期匹配且格式合法: $valid_xml 个，格式异常: $invalid_xml 个"
+          echo "已生成文件数量: ${#generated_files[@]}"
+          echo "格式合法: $valid_xml 个，格式异常: $invalid_xml 个"
 
           if [ ${#generated_files[@]} -eq 0 ]; then
             echo "generated_xml=" >> $GITHUB_OUTPUT
@@ -285,13 +281,16 @@ jobs:
       # ---------- 8. 提交结果并推送回仓库 ----------
       - name: Commit and push all generated files
         run: |
+          # 提交前再次同步远端代码，避免冲突
           git pull --rebase --autostash origin ${{ github.ref_name }} || git reset --hard origin/${{ github.ref_name }}
 
           shopt -s nullglob
+          # 收集文件
           xml_files=(${EPG_OUTPUT_DIR}/*.xml)
           gz_files=(${EPG_OUTPUT_DIR}/*.xml.gz)
           time_files=(*_time.txt)
 
+          # 批量添加
           [ ${#xml_files[@]} -gt 0 ] && git add "${xml_files[@]}"
           [ ${#gz_files[@]} -gt 0 ] && git add "${gz_files[@]}"
           [ ${#time_files[@]} -gt 0 ] && git add "${time_files[@]}"
@@ -311,6 +310,7 @@ jobs:
       # ---------- 9. 运行结果汇总 ----------
       - name: Run summary
         run: |
+          # 变量兜底，避免步骤未执行时空值导致算术错误
           python_failed="${{ steps.python_scrapers.outputs.python_failed_count }}"
           python_failed=${python_failed:-0}
           php_failed="${{ steps.run_php_scripts.outputs.php_failed_count }}"
@@ -323,7 +323,7 @@ jobs:
           echo "====== EPG 采集任务汇总 ======"
           echo "Python 脚本失败数: ${python_failed}"
           echo "PHP 脚本失败数: ${php_failed}"
-          echo "匹配且合法XML数: ${valid_xml}"
+          echo "生成 XML 文件数: ${valid_xml}"
           echo "XML 格式异常数: ${invalid_xml}"
           echo "=============================="
 
@@ -331,4 +331,6 @@ jobs:
           if [ ${total_failed} -ge 3 ]; then
             echo "::error::超过 3 个脚本执行失败，请检查日志"
             exit 1
+          fi
+
           fi
