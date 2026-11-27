@@ -12,7 +12,6 @@
 已处理 80 / 185 个频道
 已处理 90 / 185 个频道
 频道 高点育乐台 (314) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=314&w=1]:  (HTTP 500)
-频道 ETtoday综合台 (315) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=315&w=1]:  (HTTP 500)
 已处理 100 / 185 个频道
 已处理 110 / 185 个频道
 已处理 120 / 185 个频道
@@ -25,8 +24,7 @@
 频道 富立电视台HD (733) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=733&w=1]:  (HTTP 500)
 已处理 180 / 185 个频道
 频道 TV5MONDE (750) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=750&w=1]:  (HTTP 500)
-频道 Arirang TV HD (751) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=751&w=1]:  (HTTP 500)
 生成完成
 文件路径：/home/runner/work/epg/epg/php/epg_sources/mod_epg.xml
 频道数量：185 个
-文件大小：12510.63 KB
+文件大小：12508.01 KB
