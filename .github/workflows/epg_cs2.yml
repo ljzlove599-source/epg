@@ -212,9 +212,16 @@ jobs:
       # 迁移PHP生成的文件到统一输出目录
       - name: Move PHP output to EPG directory
         run: |
-          # 归集 php 目录下所有 xml/xml.gz 到统一输出目录
-          mv ${PHP_SCRIPT_DIR}/*.xml ${EPG_OUTPUT_DIR}/ 2>/dev/null || true
-          mv ${PHP_SCRIPT_DIR}/*.xml.gz ${EPG_OUTPUT_DIR}/ 2>/dev/null || true
+          # 1. 优先归集 PHP 脚本在 php/epg_sources 子目录生成的文件
+          if [ -d "${PHP_SCRIPT_DIR}/${EPG_OUTPUT_DIR}" ]; then
+            mv -f ${PHP_SCRIPT_DIR}/${EPG_OUTPUT_DIR}/*.xml ${EPG_OUTPUT_DIR}/ 2>/dev/null || true
+            mv -f ${PHP_SCRIPT_DIR}/${EPG_OUTPUT_DIR}/*.xml.gz ${EPG_OUTPUT_DIR}/ 2>/dev/null || true
+          fi
+          
+          # 2. 兼容直接生成在 php 根目录的文件
+          mv -f ${PHP_SCRIPT_DIR}/*.xml ${EPG_OUTPUT_DIR}/ 2>/dev/null || true
+          mv -f ${PHP_SCRIPT_DIR}/*.xml.gz ${EPG_OUTPUT_DIR}/ 2>/dev/null || true
+          
           echo "PHP生成文件已迁移至输出目录，当前文件列表："
           ls -lh ${EPG_OUTPUT_DIR}/
 
@@ -222,12 +229,19 @@ jobs:
       - name: Check generated XML files
         id: check_xml
         run: |
-          # 兼容Python+PHP所有可能的输出文件名
+          # 兼容Python+PHP所有实际输出文件名
           declare -a expected_xml=(
-            "4g.xml" "cntv.xml.gz" "epg_4k.xml" "epg_elta.xml"
-            "epg_nowtv.xml" "epg_zhongtianam.xml" "hami.xml" 
-            "litv_epg.xml" "ofiii.xml" "epg_rthk_tv.xml"
-            "kbro_epg.xml" "mod_epg.xml" "tdm_epg.xml" "51zmt_epg.xml.gz"
+            "4g.xml" "epg_51zmt.xml.gz"
+            "cntv.xml.gz"
+            "epg_4k.xml" "epg_elta.xml"
+            "epg_nowtv.xml" "hami.xml" 
+            "epg_zhongtianam.xml"
+            "litv_epg.xml"
+            "ofiii.xml" 
+            "epg_rthk_tv.xml"
+            "kbro_epg.xml" 
+            "mod_epg.xml"
+            "tdm_epg.xml"
           )
 
           generated_files=()
@@ -329,4 +343,5 @@ jobs:
             echo "::error::超过 3 个脚本执行失败，请检查日志"
             exit 1
           fi
+
 
