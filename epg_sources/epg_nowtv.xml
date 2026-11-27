@@ -70005,28 +70005,28 @@ ani</desc>
   <programme start="20261129214300 +0800" stop="20261129220000 +0800" channel="541">
     <title lang="zh">焦点访谈</title>
   </programme>
-  <programme start="20261129220000 +0800" stop="20261129223200 +0800" channel="541">
+  <programme start="20261129220000 +0800" stop="20261129223000 +0800" channel="541">
     <title lang="zh">晚间新闻</title>
   </programme>
-  <programme start="20261129223200 +0800" stop="20261129232300 +0800" channel="541">
+  <programme start="20261129223000 +0800" stop="20261129232100 +0800" channel="541">
     <title lang="zh">踏歌行</title>
   </programme>
-  <programme start="20261129232300 +0800" stop="20261130000900 +0800" channel="541">
+  <programme start="20261129232100 +0800" stop="20261130000700 +0800" channel="541">
     <title lang="zh">电视剧 南来北往</title>
   </programme>
-  <programme start="20261130000900 +0800" stop="20261130005700 +0800" channel="541">
+  <programme start="20261130000700 +0800" stop="20261130005300 +0800" channel="541">
     <title lang="zh">电视剧 南来北往</title>
   </programme>
-  <programme start="20261130005700 +0800" stop="20261130023100 +0800" channel="541">
+  <programme start="20261130005300 +0800" stop="20261130022700 +0800" channel="541">
     <title lang="zh">中华考工记</title>
   </programme>
-  <programme start="20261130023100 +0800" stop="20261130025800 +0800" channel="541">
-    <title lang="zh">门楣之上</title>
-  </programme>
-  <programme start="20261130025800 +0800" stop="20261130025900 +0800" channel="541">
+  <programme start="20261130022700 +0800" stop="20261130022800 +0800" channel="541">
     <title lang="zh">请您欣赏</title>
   </programme>
-  <programme start="20261130025900 +0800" stop="20261130034600 +0800" channel="541">
+  <programme start="20261130022800 +0800" stop="20261130031400 +0800" channel="541">
+    <title lang="zh">电视剧 画眉</title>
+  </programme>
+  <programme start="20261130031400 +0800" stop="20261130034600 +0800" channel="541">
     <title lang="zh">电视剧 画眉</title>
   </programme>
   <programme start="20261130034600 +0800" stop="20261130080000 +0800" channel="541">
@@ -75339,7 +75339,7 @@ ani</desc>
   <programme start="20261203220000 +0800" stop="20261203230000 +0800" channel="611">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203230000 +0800" stop="20261204100000 +0800" channel="611">
+  <programme start="20261203230000 +0800" stop="20261204000000 +0800" channel="611">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126020000 +0800" channel="612">
@@ -75627,7 +75627,7 @@ ani</desc>
   <programme start="20261203200000 +0800" stop="20261203220000 +0800" channel="612">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203220000 +0800" stop="20261204090000 +0800" channel="612">
+  <programme start="20261203220000 +0800" stop="20261204000000 +0800" channel="612">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126020000 +0800" channel="613">
@@ -75915,7 +75915,7 @@ ani</desc>
   <programme start="20261203200000 +0800" stop="20261203220000 +0800" channel="613">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203220000 +0800" stop="20261204090000 +0800" channel="613">
+  <programme start="20261203220000 +0800" stop="20261204000000 +0800" channel="613">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126020000 +0800" channel="620">
@@ -76624,7 +76624,7 @@ ani</desc>
     <title lang="zh">英超赛事精华 -高云地利 对 叶士域治</title>
   </programme>
   <programme start="20261203020000 +0800" stop="20261203023000 +0800" channel="620">
-    <title lang="zh">英超故事 第27集</title>
+    <title lang="zh">英超故事 -朴智星</title>
   </programme>
   <programme start="20261203023000 +0800" stop="20261203033000 +0800" channel="620">
     <title lang="zh">英超赛日直播 -赛日前瞻 1203[直播]</title>
@@ -76639,7 +76639,7 @@ ani</desc>
     <title lang="zh">英超赛日直播 -赛后论战 1203[直播]</title>
   </programme>
   <programme start="20261203070000 +0800" stop="20261203073000 +0800" channel="620">
-    <title lang="zh">英超故事 第27集</title>
+    <title lang="zh">英超故事 -朴智星</title>
   </programme>
   <programme start="20261203073000 +0800" stop="20261203080000 +0800" channel="620">
     <title lang="zh">英超精彩重温 -卡斯柏舒米高</title>
@@ -76675,7 +76675,7 @@ ani</desc>
     <title lang="zh">英超赛事精华 -阿士东维拉 对 爱华顿</title>
   </programme>
   <programme start="20261203133000 +0800" stop="20261203140000 +0800" channel="620">
-    <title lang="zh">英超故事 第27集</title>
+    <title lang="zh">英超故事 -朴智星</title>
   </programme>
   <programme start="20261203140000 +0800" stop="20261203150000 +0800" channel="620">
     <title lang="zh">英超追踪 第15集</title>
@@ -76714,10 +76714,10 @@ ani</desc>
     <title lang="zh">英超追踪 第15集</title>
   </programme>
   <programme start="20261203210000 +0800" stop="20261203213000 +0800" channel="620">
-    <title lang="zh">英超故事 第27集</title>
+    <title lang="zh">英超故事 -朴智星</title>
   </programme>
   <programme start="20261203213000 +0800" stop="20261203220000 +0800" channel="620">
-    <title lang="zh">好波之人讲英超 第16集</title>
+    <title lang="zh">好波之人讲英超 -约舒亚京治</title>
   </programme>
   <programme start="20261203220000 +0800" stop="20261203223000 +0800" channel="620">
     <title lang="zh">英超精彩重温 -卡斯柏舒米高</title>
@@ -77404,9 +77404,9 @@ ani</desc>
     <title lang="zh">英格兰超级联赛 -宾福特 对 阿仙奴</title>
   </programme>
   <programme start="20261203230000 +0800" stop="20261203233000 +0800" channel="621">
-    <title lang="zh">英超故事26/27 第27集</title>
+    <title lang="zh">英超故事26/27 -朴智星</title>
   </programme>
-  <programme start="20261203233000 +0800" stop="20261204103000 +0800" channel="621">
+  <programme start="20261203233000 +0800" stop="20261204000000 +0800" channel="621">
     <title lang="zh">英超故事26/27 -林柏特</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126040000 +0800" channel="622">
@@ -77547,16 +77547,13 @@ ani</desc>
   <programme start="20261202200000 +0800" stop="20261203000000 +0800" channel="622">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203000000 +0800" stop="20261203040000 +0800" channel="622">
+  <programme start="20261203000000 +0800" stop="20261203032000 +0800" channel="622">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203040000 +0800" stop="20261203040500 +0800" channel="622">
-    <title lang="zh">请留意下场播映赛事</title>
+  <programme start="20261203032000 +0800" stop="20261203053000 +0800" channel="622">
+    <title lang="zh">英格兰超级联赛 -曼城 对 列斯联[直播]</title>
   </programme>
-  <programme start="20261203040500 +0800" stop="20261203061500 +0800" channel="622">
-    <title lang="zh">英超Xtra精选 -纽卡素 对 曼联[直播]</title>
-  </programme>
-  <programme start="20261203061500 +0800" stop="20261203080000 +0800" channel="622">
+  <programme start="20261203053000 +0800" stop="20261203080000 +0800" channel="622">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261203080000 +0800" stop="20261203120000 +0800" channel="622">
@@ -77568,7 +77565,7 @@ ani</desc>
   <programme start="20261203160000 +0800" stop="20261203200000 +0800" channel="622">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203200000 +0800" stop="20261204070000 +0800" channel="622">
+  <programme start="20261203200000 +0800" stop="20261204000000 +0800" channel="622">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126040000 +0800" channel="623">
@@ -77704,7 +77701,7 @@ ani</desc>
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261203032000 +0800" stop="20261203053000 +0800" channel="623">
-    <title lang="zh">英格兰超级联赛 -曼城 对 列斯联[直播]</title>
+    <title lang="zh">英格兰超级联赛 -利物浦 对 新特兰[直播]</title>
   </programme>
   <programme start="20261203053000 +0800" stop="20261203080000 +0800" channel="623">
     <title lang="zh">请留意下场播映赛事</title>
@@ -77718,7 +77715,7 @@ ani</desc>
   <programme start="20261203160000 +0800" stop="20261203200000 +0800" channel="623">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203200000 +0800" stop="20261204070000 +0800" channel="623">
+  <programme start="20261203200000 +0800" stop="20261204000000 +0800" channel="623">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126040000 +0800" channel="624">
@@ -77854,7 +77851,7 @@ ani</desc>
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261203032000 +0800" stop="20261203053000 +0800" channel="624">
-    <title lang="zh">英格兰超级联赛 -利物浦 对 新特兰[直播]</title>
+    <title lang="zh">英格兰超级联赛 -车路士 对 水晶宫[直播]</title>
   </programme>
   <programme start="20261203053000 +0800" stop="20261203080000 +0800" channel="624">
     <title lang="zh">请留意下场播映赛事</title>
@@ -77868,7 +77865,7 @@ ani</desc>
   <programme start="20261203160000 +0800" stop="20261203200000 +0800" channel="624">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203200000 +0800" stop="20261204070000 +0800" channel="624">
+  <programme start="20261203200000 +0800" stop="20261204000000 +0800" channel="624">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126040000 +0800" channel="625">
@@ -78001,7 +77998,7 @@ ani</desc>
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261203032000 +0800" stop="20261203053000 +0800" channel="625">
-    <title lang="zh">英格兰超级联赛 -车路士 对 水晶宫[直播]</title>
+    <title lang="zh">英格兰超级联赛 -侯城 对 诺定咸森林[直播]</title>
   </programme>
   <programme start="20261203053000 +0800" stop="20261203080000 +0800" channel="625">
     <title lang="zh">请留意下场播映赛事</title>
@@ -78015,7 +78012,7 @@ ani</desc>
   <programme start="20261203160000 +0800" stop="20261203200000 +0800" channel="625">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203200000 +0800" stop="20261204070000 +0800" channel="625">
+  <programme start="20261203200000 +0800" stop="20261204000000 +0800" channel="625">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126040000 +0800" channel="626">
@@ -78144,13 +78141,16 @@ ani</desc>
   <programme start="20261202200000 +0800" stop="20261203000000 +0800" channel="626">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203000000 +0800" stop="20261203032000 +0800" channel="626">
+  <programme start="20261203000000 +0800" stop="20261203040000 +0800" channel="626">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203032000 +0800" stop="20261203053000 +0800" channel="626">
-    <title lang="zh">英格兰超级联赛 -侯城 对 诺定咸森林[直播]</title>
+  <programme start="20261203040000 +0800" stop="20261203040500 +0800" channel="626">
+    <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203053000 +0800" stop="20261203080000 +0800" channel="626">
+  <programme start="20261203040500 +0800" stop="20261203061500 +0800" channel="626">
+    <title lang="zh">英格兰超级联赛 -纽卡素 对 曼联[直播]</title>
+  </programme>
+  <programme start="20261203061500 +0800" stop="20261203080000 +0800" channel="626">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261203080000 +0800" stop="20261203120000 +0800" channel="626">
@@ -78162,7 +78162,7 @@ ani</desc>
   <programme start="20261203160000 +0800" stop="20261203200000 +0800" channel="626">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203200000 +0800" stop="20261204070000 +0800" channel="626">
+  <programme start="20261203200000 +0800" stop="20261204000000 +0800" channel="626">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126040000 +0800" channel="627">
@@ -78298,7 +78298,7 @@ ani</desc>
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261203040500 +0800" stop="20261203061500 +0800" channel="627">
-    <title lang="zh">英格兰超级联赛 -纽卡素 对 曼联[直播]</title>
+    <title lang="zh">英格兰超级联赛 -阿士东维拉 对 爱华顿[直播]</title>
   </programme>
   <programme start="20261203061500 +0800" stop="20261203080000 +0800" channel="627">
     <title lang="zh">请留意下场播映赛事</title>
@@ -78312,7 +78312,7 @@ ani</desc>
   <programme start="20261203160000 +0800" stop="20261203200000 +0800" channel="627">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203200000 +0800" stop="20261204070000 +0800" channel="627">
+  <programme start="20261203200000 +0800" stop="20261204000000 +0800" channel="627">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126040000 +0800" channel="628">
@@ -78448,7 +78448,7 @@ ani</desc>
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261203040500 +0800" stop="20261203061500 +0800" channel="628">
-    <title lang="zh">英格兰超级联赛 -阿士东维拉 对 爱华顿[直播]</title>
+    <title lang="zh">英格兰超级联赛 -般尼茅夫 对 白礼顿[直播]</title>
   </programme>
   <programme start="20261203061500 +0800" stop="20261203080000 +0800" channel="628">
     <title lang="zh">请留意下场播映赛事</title>
@@ -78462,7 +78462,7 @@ ani</desc>
   <programme start="20261203160000 +0800" stop="20261203200000 +0800" channel="628">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203200000 +0800" stop="20261204070000 +0800" channel="628">
+  <programme start="20261203200000 +0800" stop="20261204000000 +0800" channel="628">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126040000 +0800" channel="629">
@@ -78594,13 +78594,7 @@ ani</desc>
   <programme start="20261203000000 +0800" stop="20261203040000 +0800" channel="629">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203040000 +0800" stop="20261203040500 +0800" channel="629">
-    <title lang="zh">请留意下场播映赛事</title>
-  </programme>
-  <programme start="20261203040500 +0800" stop="20261203061500 +0800" channel="629">
-    <title lang="zh">英格兰超级联赛 -般尼茅夫 对 白礼顿[直播]</title>
-  </programme>
-  <programme start="20261203061500 +0800" stop="20261203080000 +0800" channel="629">
+  <programme start="20261203040000 +0800" stop="20261203080000 +0800" channel="629">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261203080000 +0800" stop="20261203120000 +0800" channel="629">
@@ -79203,7 +79197,7 @@ ani</desc>
   <programme start="20261203214500 +0800" stop="20261203220000 +0800" channel="630">
     <title lang="zh">英超金球 -第十一周</title>
   </programme>
-  <programme start="20261203220000 +0800" stop="20261204090000 +0800" channel="630">
+  <programme start="20261203220000 +0800" stop="20261204000000 +0800" channel="630">
     <title lang="zh">WTA 26 广州网球公开赛 -决赛</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126020000 +0800" channel="631">
@@ -79650,7 +79644,7 @@ ani</desc>
   <programme start="20261203210000 +0800" stop="20261203220000 +0800" channel="631">
     <title lang="zh">PGA冠军巡回赛精华2026 -圣路易高尔夫球经典赛</title>
   </programme>
-  <programme start="20261203220000 +0800" stop="20261204090000 +0800" channel="631">
+  <programme start="20261203220000 +0800" stop="20261204000000 +0800" channel="631">
     <title lang="zh">WTA 26 清奈网球公开赛 -准决赛(2)</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126020000 +0800" channel="632">
@@ -80469,7 +80463,7 @@ ani</desc>
   <programme start="20261203213000 +0800" stop="20261203234500 +0800" channel="633">
     <title lang="zh">NFL 美式足球赛 26/27 -西雅图海鹰 @ 三藩市淘金者</title>
   </programme>
-  <programme start="20261203234500 +0800" stop="20261204104500 +0800" channel="633">
+  <programme start="20261203234500 +0800" stop="20261204000000 +0800" channel="633">
     <title lang="zh">羽毛球一周 第179集</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126020000 +0800" channel="634">
@@ -80922,7 +80916,7 @@ ani</desc>
   <programme start="20261203213000 +0800" stop="20261203220000 +0800" channel="634">
     <title lang="zh">WTA 2026 决赛精华 -武汉网球公开赛</title>
   </programme>
-  <programme start="20261203220000 +0800" stop="20261204090000 +0800" channel="634">
+  <programme start="20261203220000 +0800" stop="20261204000000 +0800" channel="634">
     <title lang="zh">WTA 26 韩国网球公开赛 -决赛</title>
   </programme>
   <programme start="20261126011000 +0800" stop="20261126021000 +0800" channel="635">
@@ -81726,7 +81720,7 @@ ani</desc>
   <programme start="20261203210000 +0800" stop="20261203230000 +0800" channel="636">
     <title lang="zh">ATP 26 男子职业网球巡回赛年终赛 -双打决赛</title>
   </programme>
-  <programme start="20261203230000 +0800" stop="20261204100000 +0800" channel="636">
+  <programme start="20261203230000 +0800" stop="20261204000000 +0800" channel="636">
     <title lang="zh">ATP 26 精华 -瑞士室内网球赛</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126021500 +0800" channel="637">
@@ -82437,7 +82431,7 @@ ani</desc>
   <programme start="20261203204500 +0800" stop="20261203210000 +0800" channel="637">
     <title lang="zh">一CUE过百 第207集</title>
   </programme>
-  <programme start="20261203210000 +0800" stop="20261204080000 +0800" channel="637">
+  <programme start="20261203210000 +0800" stop="20261204000000 +0800" channel="637">
     <title lang="zh">英国桌球锦标赛 2026 第11集[直播]</title>
   </programme>
   <programme start="20261126010000 +0800" stop="20261126014000 +0800" channel="638">
@@ -84726,7 +84720,7 @@ ani</desc>
   <programme start="20261203200000 +0800" stop="20261203220000 +0800" channel="641">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203220000 +0800" stop="20261204090000 +0800" channel="641">
+  <programme start="20261203220000 +0800" stop="20261204000000 +0800" channel="641">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126003000 +0800" channel="642">
@@ -85792,7 +85786,7 @@ ani</desc>
     <title lang="zh">法国甲组足球联赛 第108集 -里昂 对 摩纳哥</title>
   </programme>
   <programme start="20261201062000 +0800" stop="20261201063000 +0800" channel="643">
-    <title lang="zh">法甲特辑</title>
+    <title lang="zh">法甲特辑 第3集 -传奇球星 - 法比安巴特兹</title>
   </programme>
   <programme start="20261201063000 +0800" stop="20261201073000 +0800" channel="643">
     <title lang="zh">欧霸杯/欧协联精华 第6集 -欧霸杯比赛日5/欧洲协会联赛比赛日4</title>
@@ -85840,16 +85834,16 @@ ani</desc>
     <title lang="zh">法国甲组足球联赛精华 第12集 -比赛日12</title>
   </programme>
   <programme start="20261202002000 +0800" stop="20261202021000 +0800" channel="643">
-    <title lang="zh">非洲联盟杯</title>
+    <title lang="zh">非洲联盟杯 第1集 -亚参 对 的黎波里艾阿里</title>
   </programme>
   <programme start="20261202021000 +0800" stop="20261202040000 +0800" channel="643">
-    <title lang="zh">非洲联盟杯</title>
+    <title lang="zh">非洲联盟杯 第3集 -拉查卡萨布兰卡 对 卡拉阿斯科</title>
   </programme>
   <programme start="20261202040000 +0800" stop="20261202060000 +0800" channel="643">
-    <title lang="zh">非洲联赛冠军杯</title>
+    <title lang="zh">非洲联赛冠军杯 第1集 -年青非洲人 对 MC阿尔及尔</title>
   </programme>
   <programme start="20261202060000 +0800" stop="20261202080000 +0800" channel="643">
-    <title lang="zh">非洲联赛冠军杯</title>
+    <title lang="zh">非洲联赛冠军杯 第2集 -突尼斯希望 对 威利特</title>
   </programme>
   <programme start="20261202080000 +0800" stop="20261202083000 +0800" channel="643">
     <title lang="zh">欧洲联赛冠军杯杂志 第13集 -比赛日5回顾</title>
@@ -85891,19 +85885,19 @@ ani</desc>
     <title lang="zh">法甲前瞻 第13集 -比赛日13</title>
   </programme>
   <programme start="20261203002000 +0800" stop="20261203021000 +0800" channel="643">
-    <title lang="zh">非洲联盟杯</title>
+    <title lang="zh">非洲联盟杯 第4集 -皇家武装部队体育会 对 德班城</title>
   </programme>
   <programme start="20261203021000 +0800" stop="20261203040000 +0800" channel="643">
-    <title lang="zh">非洲联盟杯</title>
+    <title lang="zh">非洲联盟杯 第5集 -马涅马体育会 对 辛吉达黑星</title>
   </programme>
   <programme start="20261203040000 +0800" stop="20261203060000 +0800" channel="643">
-    <title lang="zh">非洲联赛冠军杯</title>
+    <title lang="zh">非洲联赛冠军杯 第3集 -扎马雷克 对 非洲人队</title>
   </programme>
   <programme start="20261203060000 +0800" stop="20261203063000 +0800" channel="643">
     <title lang="zh">法甲前瞻 第13集 -比赛日13</title>
   </programme>
   <programme start="20261203063000 +0800" stop="20261203083000 +0800" channel="643">
-    <title lang="zh">非洲联赛冠军杯</title>
+    <title lang="zh">非洲联赛冠军杯 第4集 -金字塔 对 非斯马格里布</title>
   </programme>
   <programme start="20261203083000 +0800" stop="20261203102000 +0800" channel="643">
     <title lang="zh">欧霸杯 第78集 -马赛 对 索菲亚利夫斯基 (比赛日5)</title>
@@ -86082,7 +86076,7 @@ ani</desc>
   <programme start="20261203160000 +0800" stop="20261203200000 +0800" channel="644">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203200000 +0800" stop="20261204070000 +0800" channel="644">
+  <programme start="20261203200000 +0800" stop="20261204000000 +0800" channel="644">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126040000 +0800" channel="645">
@@ -86226,7 +86220,7 @@ ani</desc>
   <programme start="20261203160000 +0800" stop="20261203200000 +0800" channel="645">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203200000 +0800" stop="20261204070000 +0800" channel="645">
+  <programme start="20261203200000 +0800" stop="20261204000000 +0800" channel="645">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126040000 +0800" channel="646">
@@ -86370,7 +86364,7 @@ ani</desc>
   <programme start="20261203160000 +0800" stop="20261203200000 +0800" channel="646">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203200000 +0800" stop="20261204070000 +0800" channel="646">
+  <programme start="20261203200000 +0800" stop="20261204000000 +0800" channel="646">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126020000 +0800" channel="647">
@@ -86658,7 +86652,7 @@ ani</desc>
   <programme start="20261203200000 +0800" stop="20261203220000 +0800" channel="647">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203220000 +0800" stop="20261204090000 +0800" channel="647">
+  <programme start="20261203220000 +0800" stop="20261204000000 +0800" channel="647">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126020000 +0800" channel="651">
@@ -86946,7 +86940,7 @@ ani</desc>
   <programme start="20261203200000 +0800" stop="20261203220000 +0800" channel="651">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203220000 +0800" stop="20261204090000 +0800" channel="651">
+  <programme start="20261203220000 +0800" stop="20261204000000 +0800" channel="651">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126020000 +0800" channel="652">
@@ -87234,7 +87228,7 @@ ani</desc>
   <programme start="20261203200000 +0800" stop="20261203220000 +0800" channel="652">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
-  <programme start="20261203220000 +0800" stop="20261204090000 +0800" channel="652">
+  <programme start="20261203220000 +0800" stop="20261204000000 +0800" channel="652">
     <title lang="zh">请留意下场播映赛事</title>
   </programme>
   <programme start="20261126001000 +0800" stop="20261126001500 +0800" channel="668">
@@ -87909,7 +87903,7 @@ ani</desc>
   <programme start="20261203230000 +0800" stop="20261203235500 +0800" channel="668">
     <title lang="zh">赛后你点睇 第25集</title>
   </programme>
-  <programme start="20261203235500 +0800" stop="20261204105500 +0800" channel="668">
+  <programme start="20261203235500 +0800" stop="20261204000000 +0800" channel="668">
     <title lang="zh">带你游马房 -「红运帝王」</title>
   </programme>
   <programme start="20261126023000 +0800" stop="20261126030000 +0800" channel="674">
@@ -89035,20 +89029,23 @@ ani</desc>
   <programme start="20261128010000 +0800" stop="20261128060000 +0800" channel="683">
     <title lang="zh">欧洲巡回赛26/27 澳洲PGA高尔夫球锦标赛 -第2天</title>
   </programme>
-  <programme start="20261128060000 +0800" stop="20261128070000 +0800" channel="683">
-    <title lang="zh">Korn Ferry Tour Highlights 2026 -Nationwide Children's Hospital Championship</title>
+  <programme start="20261128060000 +0800" stop="20261128110000 +0800" channel="683">
+    <title lang="zh">欧洲巡回赛26/27 澳洲PGA高尔夫球锦标赛 -第3天[直播]</title>
   </programme>
-  <programme start="20261128070000 +0800" stop="20261128080000 +0800" channel="683">
-    <title lang="zh">亚洲巡回赛精华2026 -领展香港高尔夫球公开赛</title>
+  <programme start="20261128110000 +0800" stop="20261128113000 +0800" channel="683">
+    <title lang="zh">欧洲巡回赛精华25/26 -韩国高尔夫球锦标赛</title>
   </programme>
-  <programme start="20261128080000 +0800" stop="20261128083000 +0800" channel="683">
+  <programme start="20261128113000 +0800" stop="20261128120000 +0800" channel="683">
+    <title lang="zh">高尔夫球挑战系列赛2026 第27集</title>
+  </programme>
+  <programme start="20261128120000 +0800" stop="20261128123000 +0800" channel="683">
     <title lang="zh">欧洲巡回赛精华25/26 -阿布扎比高尔夫球锦标赛</title>
   </programme>
-  <programme start="20261128083000 +0800" stop="20261128090000 +0800" channel="683">
+  <programme start="20261128123000 +0800" stop="20261128130000 +0800" channel="683">
     <title lang="zh">高尔夫球挑战系列赛2026 第28集</title>
   </programme>
-  <programme start="20261128090000 +0800" stop="20261128140000 +0800" channel="683">
-    <title lang="zh">欧洲巡回赛26/27 澳洲PGA高尔夫球锦标赛 -第3天[直播]</title>
+  <programme start="20261128130000 +0800" stop="20261128140000 +0800" channel="683">
+    <title lang="zh">亚洲巡回赛精华2026 -领展香港高尔夫球公开赛</title>
   </programme>
   <programme start="20261128140000 +0800" stop="20261128143000 +0800" channel="683">
     <title lang="zh">欧洲巡回赛精华25/26 -韩国高尔夫球锦标赛</title>
@@ -89239,7 +89236,7 @@ ani</desc>
   <programme start="20261203230000 +0800" stop="20261203233000 +0800" channel="683">
     <title lang="zh">高尔夫球挑战系列赛2026 第25集</title>
   </programme>
-  <programme start="20261203233000 +0800" stop="20261204103000 +0800" channel="683">
+  <programme start="20261203233000 +0800" stop="20261204000000 +0800" channel="683">
     <title lang="zh">欧洲巡回赛精华25/26 -韩国高尔夫球锦标赛</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126040000 +0800" channel="684">
@@ -89482,7 +89479,7 @@ ani</desc>
   <programme start="20261203203000 +0800" stop="20261203210000 +0800" channel="684">
     <title lang="zh">PGA冠军巡回赛学习中心2026 第23集</title>
   </programme>
-  <programme start="20261203210000 +0800" stop="20261204080000 +0800" channel="684">
+  <programme start="20261203210000 +0800" stop="20261204010000 +0800" channel="684">
     <title lang="zh">PGA巡回赛2026 乔治亚海岛高尔夫球精英赛 -第4天</title>
   </programme>
   <programme start="20261126001500 +0800" stop="20261126004000 +0800" channel="711">

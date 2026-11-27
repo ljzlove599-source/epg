@@ -3403,7 +3403,7 @@
     <desc lang="zh-CN">《家家有本事》为一个综合性生活资讯的家庭类节目，邀请相关人士就相关主题提供专业知识，包括日常生活、健康资讯等元素。</desc>
   </programme>
   <programme start="20261130000200 +0800" stop="20261130010500 +0800" channel="8">
-    <title lang="zh-CN">莫桑比克的魅力</title>
+    <title lang="zh-CN">澳事漫谈</title>
   </programme>
   <programme start="20261130010500 +0800" stop="20261130013000 +0800" channel="8">
     <title lang="zh-CN">澳门老店—传承</title>
@@ -3431,7 +3431,7 @@
     <title lang="zh-CN">丝路时间U Silk - 对望丝路新旅程</title>
   </programme>
   <programme start="20261130060000 +0800" stop="20261130070000 +0800" channel="8">
-    <title lang="zh-CN">莫桑比克的魅力</title>
+    <title lang="zh-CN">澳事漫谈</title>
   </programme>
   <programme start="20261130070000 +0800" stop="20261130073000 +0800" channel="8">
     <title lang="zh-CN">马交游﹕澳门Chill 好玩</title>
@@ -3496,7 +3496,7 @@
     <title lang="zh-CN">丝路美食之探寻米踪</title>
   </programme>
   <programme start="20261130170000 +0800" stop="20261130180000 +0800" channel="8">
-    <title lang="zh-CN">莫桑比克的魅力</title>
+    <title lang="zh-CN">澳事漫谈</title>
   </programme>
   <programme start="20261130180000 +0800" stop="20261130183000 +0800" channel="8">
     <title lang="zh-CN">“葡”出个味蕾</title>
@@ -3537,10 +3537,13 @@
     <title lang="zh-CN">趋记茶餐厅</title>
     <desc lang="zh-CN">一部以澳门茶餐厅为背景的轻松幽默连续剧，故事围绕茶餐厅的日常营运展开，当中穿插生活热话，搞笑得来又有共鸣，欢迎大家光临！</desc>
   </programme>
-  <programme start="20261201000200 +0800" stop="20261201010300 +0800" channel="8">
-    <title lang="zh-CN">莫桑比克的魅力</title>
+  <programme start="20261201000200 +0800" stop="20261201005000 +0800" channel="8">
+    <title lang="zh-CN">TDM 访谈</title>
   </programme>
-  <programme start="20261201010300 +0800" stop="20261201013500 +0800" channel="8">
+  <programme start="20261201005000 +0800" stop="20261201010000 +0800" channel="8">
+    <title lang="zh-CN">澳门世遗短片</title>
+  </programme>
+  <programme start="20261201010000 +0800" stop="20261201013500 +0800" channel="8">
     <title lang="zh-CN">拳心</title>
   </programme>
   <programme start="20261201013500 +0800" stop="20261201020500 +0800" channel="8">
@@ -3564,8 +3567,11 @@
   <programme start="20261201053000 +0800" stop="20261201060000 +0800" channel="8">
     <title lang="zh-CN">丝路时间U Silk - 对望丝路新旅程</title>
   </programme>
-  <programme start="20261201060000 +0800" stop="20261201070000 +0800" channel="8">
-    <title lang="zh-CN">莫桑比克的魅力</title>
+  <programme start="20261201060000 +0800" stop="20261201065000 +0800" channel="8">
+    <title lang="zh-CN">TDM 访谈</title>
+  </programme>
+  <programme start="20261201065000 +0800" stop="20261201070000 +0800" channel="8">
+    <title lang="zh-CN">澳门世遗短片</title>
   </programme>
   <programme start="20261201070000 +0800" stop="20261201073000 +0800" channel="8">
     <title lang="zh-CN">马交游﹕澳门Chill 好玩</title>
@@ -3635,8 +3641,11 @@
   <programme start="20261201160500 +0800" stop="20261201170500 +0800" channel="8">
     <title lang="zh-CN">丝路美食之探寻米踪</title>
   </programme>
-  <programme start="20261201170500 +0800" stop="20261201180500 +0800" channel="8">
-    <title lang="zh-CN">莫桑比克的魅力</title>
+  <programme start="20261201170500 +0800" stop="20261201175500 +0800" channel="8">
+    <title lang="zh-CN">TDM 访谈</title>
+  </programme>
+  <programme start="20261201175500 +0800" stop="20261201180500 +0800" channel="8">
+    <title lang="zh-CN">澳门世遗短片</title>
   </programme>
   <programme start="20261201180500 +0800" stop="20261201183500 +0800" channel="8">
     <title lang="zh-CN">“葡”出个味蕾</title>
