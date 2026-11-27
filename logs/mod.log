@@ -2,7 +2,6 @@
 正在抓取频道列表...
 共获取到 185 个频道
 正在抓取节目单并生成 XML 文件...
-频道 民视HD (6) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=6&w=1]:  (HTTP 500)
 已处理 10 / 185 个频道
 已处理 20 / 185 个频道
 已处理 30 / 185 个频道
@@ -14,16 +13,10 @@
 已处理 90 / 185 个频道
 频道 高点育乐台 (314) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=314&w=1]:  (HTTP 500)
 频道 ETtoday综合台 (315) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=315&w=1]:  (HTTP 500)
-频道 民视第一台HD (316) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=316&w=1]:  (HTTP 500)
 已处理 100 / 185 个频道
-频道 东森购物3台HD (349) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=349&w=1]:  (HTTP 500)
 已处理 110 / 185 个频道
-频道 东森购物2台HD (365) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=365&w=1]:  (HTTP 500)
 已处理 120 / 185 个频道
-频道 东森购物1台HD (396) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=396&w=1]:  (HTTP 500)
-频道 东森购物4台HD (399) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=399&w=1]:  (HTTP 500)
 已处理 130 / 185 个频道
-频道 东森购物5台HD (546) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=546&w=1]:  (HTTP 500)
 已处理 140 / 185 个频道
 频道 Bloomberg (552) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=552&w=1]:  (HTTP 500)
 频道 FRANCE24E HD (557) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=557&w=1]:  (HTTP 500)
@@ -36,6 +29,6 @@
 频道 TV5MONDE (750) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=750&w=1]:  (HTTP 500)
 频道 Arirang TV HD (751) 抓取失败: 请求失败 [https://modp.cht.com.tw/modinfo/epginfob.php?id=751&w=1]:  (HTTP 500)
 生成完成
-文件路径：/home/runner/work/epg/epg/epg_sources/mod_epg.xml
+文件路径：/home/runner/work/epg/epg/php/epg_sources/mod_epg.xml
 频道数量：185 个
-文件大小：12144.12 KB
+文件大小：12415.02 KB
