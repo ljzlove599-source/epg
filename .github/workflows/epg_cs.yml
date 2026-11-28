@@ -11,8 +11,8 @@ env:
   TZ: Asia/Shanghai
   EPG_OUTPUT_DIR: epg_sources
   LOG_DIR: logs
-  PHP_SCRIPT_DIR: php # PHP 脚本统一目录
-  PYTHON_SCRIPT_DIR: py # ✅ 新增：Python 脚本统一目录
+  PHP_SCRIPT_DIR: php     # PHP 脚本统一目录
+  PYTHON_SCRIPT_DIR: py   # Python 脚本统一目录
   PHP_VERSION: '7.4'
   PYTHON_VERSION: '3.x'
 
@@ -104,7 +104,6 @@ jobs:
             local output_file=$2
             local extra_args=$3
             local id_name=$4
-            # ✅ 修正：拼接 py 目录前缀
             local script_path="${PYTHON_SCRIPT_DIR}/${script_name}"
 
             if [ ! -f "${script_path}" ]; then
@@ -114,11 +113,20 @@ jobs:
             fi
 
             echo "运行 ${script_path} 抓取脚本..."
-            # ✅ 修正：使用完整路径执行脚本
             python3 ${script_path} ${extra_args} "${EPG_OUTPUT_DIR}/${output_file}"
             local exit_code=$?
 
-            if [ ${exit_code} -eq 0 ] && [ -f "${EPG_OUTPUT_DIR}/${output_file}" ]; then
+            # 兼容多路径输出：优先检查根目录输出，再检查 py 目录下的输出
+            local output_found=false
+            if [ -f "${EPG_OUTPUT_DIR}/${output_file}" ]; then
+              output_found=true
+            elif [ -f "${PYTHON_SCRIPT_DIR}/${EPG_OUTPUT_DIR}/${output_file}" ]; then
+              output_found=true
+            elif [ -f "${PYTHON_SCRIPT_DIR}/${output_file}" ]; then
+              output_found=true
+            fi
+
+            if [ ${exit_code} -eq 0 ] && [ "${output_found}" = true ]; then
               echo "✅ 成功生成 ${output_file}"
               echo "${id_name}_generated=true" >> $GITHUB_OUTPUT
               echo "${id_name} EPG updated at $(date '+%Y-%m-%d %H:%M:%S')" > "${id_name}_time.txt"
@@ -138,6 +146,22 @@ jobs:
 
           echo "python_failed_count=${failed_count}" >> $GITHUB_OUTPUT
           echo "Python 脚本执行完成，失败 ${failed_count} 个"
+
+      # ---------- 4.5 迁移 Python 输出到统一目录 ----------
+      - name: Move Python output to EPG directory
+        run: |
+          # 1. 归集 py/epg_sources 子目录下生成的文件
+          if [ -d "${PYTHON_SCRIPT_DIR}/${EPG_OUTPUT_DIR}" ]; then
+            mv -f ${PYTHON_SCRIPT_DIR}/${EPG_OUTPUT_DIR}/*.xml ${EPG_OUTPUT_DIR}/ 2>/dev/null || true
+            mv -f ${PYTHON_SCRIPT_DIR}/${EPG_OUTPUT_DIR}/*.xml.gz ${EPG_OUTPUT_DIR}/ 2>/dev/null || true
+          fi
+          
+          # 2. 兼容直接生成在 py 根目录的文件
+          mv -f ${PYTHON_SCRIPT_DIR}/*.xml ${EPG_OUTPUT_DIR}/ 2>/dev/null || true
+          mv -f ${PYTHON_SCRIPT_DIR}/*.xml.gz ${EPG_OUTPUT_DIR}/ 2>/dev/null || true
+          
+          echo "Python 生成文件已迁移至输出目录，当前文件列表："
+          ls -lh ${EPG_OUTPUT_DIR}/
 
       # ---------- 5. 检查并运行 PHP 采集脚本（并行执行） ----------
       - name: Check PHP scripts existence
@@ -347,4 +371,3 @@ jobs:
             echo "::error::超过 3 个脚本执行失败，请检查日志"
             exit 1
           fi
-
