@@ -19531,7 +19531,7 @@
     <title lang="zh">糖果星球大冒险(11)(普)</title>
   </programme>
   <programme start="20261128113000 +0800" stop="20261128114500 +0800" channel="mod.98">
-    <title lang="zh">新闻超小号(39)(普)</title>
+    <title lang="zh">新闻超小号(38)(普)</title>
   </programme>
   <programme start="20261128114500 +0800" stop="20261128120000 +0800" channel="mod.98">
     <title lang="zh">星际女孩(9)(普)</title>
@@ -19567,7 +19567,7 @@
     <title lang="zh">金孙任务(口述影像)(13)(普)</title>
   </programme>
   <programme start="20261128170000 +0800" stop="20261128171500 +0800" channel="mod.98">
-    <title lang="zh">新闻超小号(39)(普)</title>
+    <title lang="zh">新闻超小号(38)(普)</title>
   </programme>
   <programme start="20261128171500 +0800" stop="20261128173000 +0800" channel="mod.98">
     <title lang="zh">小黑啤美食大冒险(8)(普)</title>
@@ -19690,7 +19690,7 @@
     <title lang="zh">欧洲古迹野邻居(1)(普)</title>
   </programme>
   <programme start="20261129210000 +0800" stop="20261129211500 +0800" channel="mod.98">
-    <title lang="zh">青春发言人 7(19)(普)</title>
+    <title lang="zh">青春发言人 7(19)(护)</title>
   </programme>
   <programme start="20261129211500 +0800" stop="20261129213000 +0800" channel="mod.98">
     <title lang="zh">青春发言人 7(18)(护)</title>
@@ -21024,8 +21024,29 @@
   <programme start="20261209114500 +0800" stop="20261209120000 +0800" channel="mod.98">
     <title lang="zh">动滋达滋森之岛(77)(普)</title>
   </programme>
-  <programme start="20261209120000 +0800" stop="20261209170000 +0800" channel="mod.98">
-    <title lang="zh">体育转播(1)(普)</title>
+  <programme start="20261209120000 +0800" stop="20261209130000 +0800" channel="mod.98">
+    <title lang="zh">2026WTT香港桌球年终总决赛(1)(普)</title>
+  </programme>
+  <programme start="20261209130000 +0800" stop="20261209140000 +0800" channel="mod.98">
+    <title lang="zh">2026WTT香港桌球年终总决赛(2)(普)</title>
+  </programme>
+  <programme start="20261209140000 +0800" stop="20261209150000 +0800" channel="mod.98">
+    <title lang="zh">2026WTT香港桌球年终总决赛(3)(普)</title>
+  </programme>
+  <programme start="20261209150000 +0800" stop="20261209153000 +0800" channel="mod.98">
+    <title lang="zh">看公视说英语(8434)(普)</title>
+  </programme>
+  <programme start="20261209153000 +0800" stop="20261209160000 +0800" channel="mod.98">
+    <title lang="zh">台湾囡仔、赞！(205)(普)</title>
+  </programme>
+  <programme start="20261209160000 +0800" stop="20261209161500 +0800" channel="mod.98">
+    <title lang="zh">颖仔颖仔育(27)(普)</title>
+  </programme>
+  <programme start="20261209161500 +0800" stop="20261209163000 +0800" channel="mod.98">
+    <title lang="zh">颖仔颖仔育(28)(普)</title>
+  </programme>
+  <programme start="20261209163000 +0800" stop="20261209170000 +0800" channel="mod.98">
+    <title lang="zh">阿公阿婆神救援(10)(普)</title>
   </programme>
   <programme start="20261209170000 +0800" stop="20261209170700 +0800" channel="mod.98">
     <title lang="zh">妖果小学(24)(普)</title>
@@ -21054,8 +21075,20 @@
   <programme start="20261209184500 +0800" stop="20261209190000 +0800" channel="mod.98">
     <title lang="zh">The TCUP Show S2(6)(普)</title>
   </programme>
-  <programme start="20261209190000 +0800" stop="20261209230000 +0800" channel="mod.98">
-    <title lang="zh">2026WTT香港桌球年终总决赛(1)(普)</title>
+  <programme start="20261209190000 +0800" stop="20261209200000 +0800" channel="mod.98">
+    <title lang="zh">2026WTT香港桌球年终总决赛(5)(普)</title>
+  </programme>
+  <programme start="20261209200000 +0800" stop="20261209210000 +0800" channel="mod.98">
+    <title lang="zh">2026WTT香港桌球年终总决赛(6)(普)</title>
+  </programme>
+  <programme start="20261209210000 +0800" stop="20261209213000 +0800" channel="mod.98">
+    <title lang="zh">古典魔力客-音乐的时光之旅(1)(普)</title>
+  </programme>
+  <programme start="20261209213000 +0800" stop="20261209220000 +0800" channel="mod.98">
+    <title lang="zh">下课花路米-全球暖化系列(9)(普)</title>
+  </programme>
+  <programme start="20261209220000 +0800" stop="20261209230000 +0800" channel="mod.98">
+    <title lang="zh">前进南极(1)(普)</title>
   </programme>
   <programme start="20261209230000 +0800" stop="20261210000000 +0800" channel="mod.98">
     <title lang="zh">2026第十四届黑豹旗全国高中棒球大赛(17)(普)</title>
@@ -21129,8 +21162,20 @@
   <programme start="20261210114500 +0800" stop="20261210120000 +0800" channel="mod.98">
     <title lang="zh">动滋达滋森之岛(78)(普)</title>
   </programme>
-  <programme start="20261210120000 +0800" stop="20261210170000 +0800" channel="mod.98">
-    <title lang="zh">2026WTT香港桌球年终总决赛(1)(普)</title>
+  <programme start="20261210120000 +0800" stop="20261210130000 +0800" channel="mod.98">
+    <title lang="zh">2026WTT香港桌球年终总决赛(7)(普)</title>
+  </programme>
+  <programme start="20261210130000 +0800" stop="20261210140000 +0800" channel="mod.98">
+    <title lang="zh">2026WTT香港桌球年终总决赛(8)(普)</title>
+  </programme>
+  <programme start="20261210140000 +0800" stop="20261210150000 +0800" channel="mod.98">
+    <title lang="zh">2026WTT香港桌球年终总决赛(9)(普)</title>
+  </programme>
+  <programme start="20261210150000 +0800" stop="20261210160000 +0800" channel="mod.98">
+    <title lang="zh">2026WTT香港桌球年终总决赛(10)(普)</title>
+  </programme>
+  <programme start="20261210160000 +0800" stop="20261210170000 +0800" channel="mod.98">
+    <title lang="zh">前进南极(1)(普)</title>
   </programme>
   <programme start="20261210170000 +0800" stop="20261210171500 +0800" channel="mod.98">
     <title lang="zh">Mikey实验诗(3)(普)</title>
@@ -21154,13 +21199,19 @@
     <title lang="zh">糖果星球大冒险(15)(普)</title>
   </programme>
   <programme start="20261210190000 +0800" stop="20261210200000 +0800" channel="mod.98">
-    <title lang="zh">2026WTT香港桌球年终总决赛(1)(普)</title>
+    <title lang="zh">2026WTT香港桌球年终总决赛(12)(普)</title>
   </programme>
   <programme start="20261210200000 +0800" stop="20261210203000 +0800" channel="mod.98">
     <title lang="zh">大山小脚ㄚ(9)(普)</title>
   </programme>
-  <programme start="20261210203000 +0800" stop="20261210230000 +0800" channel="mod.98">
-    <title lang="zh">2026WTT香港桌球年终总决赛(1)(普)</title>
+  <programme start="20261210203000 +0800" stop="20261210210000 +0800" channel="mod.98">
+    <title lang="zh">2026WTT香港桌球年终总决赛(13)(普)</title>
+  </programme>
+  <programme start="20261210210000 +0800" stop="20261210220000 +0800" channel="mod.98">
+    <title lang="zh">2026WTT香港桌球年终总决赛(14)(普)</title>
+  </programme>
+  <programme start="20261210220000 +0800" stop="20261210230000 +0800" channel="mod.98">
+    <title lang="zh">森之歌(1)(普)</title>
   </programme>
   <programme start="20261210230000 +0800" stop="20261211000000 +0800" channel="mod.98">
     <title lang="zh">2026第十四届黑豹旗全国高中棒球大赛(18)(普)</title>
@@ -21228,8 +21279,20 @@
   <programme start="20261211114500 +0800" stop="20261211120000 +0800" channel="mod.98">
     <title lang="zh">动滋达滋森之岛(79)(普)</title>
   </programme>
-  <programme start="20261211120000 +0800" stop="20261211170000 +0800" channel="mod.98">
-    <title lang="zh">2026WTT香港桌球年终总决赛(1)(普)</title>
+  <programme start="20261211120000 +0800" stop="20261211130000 +0800" channel="mod.98">
+    <title lang="zh">2026WTT香港桌球年终总决赛(15)(普)</title>
+  </programme>
+  <programme start="20261211130000 +0800" stop="20261211140000 +0800" channel="mod.98">
+    <title lang="zh">2026WTT香港桌球年终总决赛(16)(普)</title>
+  </programme>
+  <programme start="20261211140000 +0800" stop="20261211150000 +0800" channel="mod.98">
+    <title lang="zh">2026WTT香港桌球年终总决赛(17)(普)</title>
+  </programme>
+  <programme start="20261211150000 +0800" stop="20261211160000 +0800" channel="mod.98">
+    <title lang="zh">2026WTT香港桌球年终总决赛(18)(普)</title>
+  </programme>
+  <programme start="20261211160000 +0800" stop="20261211170000 +0800" channel="mod.98">
+    <title lang="zh">森之歌(1)(普)</title>
   </programme>
   <programme start="20261211170000 +0800" stop="20261211171500 +0800" channel="mod.98">
     <title lang="zh">新闻超小号(41)(普)</title>
@@ -21253,13 +21316,19 @@
     <title lang="zh">糖果星球大冒险(16)(普)</title>
   </programme>
   <programme start="20261211190000 +0800" stop="20261211200000 +0800" channel="mod.98">
-    <title lang="zh">2026WTT香港桌球年终总决赛(1)(普)</title>
+    <title lang="zh">2026WTT香港桌球年终总决赛(20)(普)</title>
   </programme>
   <programme start="20261211200000 +0800" stop="20261211203000 +0800" channel="mod.98">
     <title lang="zh">欢迎光临我的牧场2(10)(普)</title>
   </programme>
-  <programme start="20261211203000 +0800" stop="20261211230000 +0800" channel="mod.98">
-    <title lang="zh">2026WTT香港桌球年终总决赛(1)(普)</title>
+  <programme start="20261211203000 +0800" stop="20261211210000 +0800" channel="mod.98">
+    <title lang="zh">2026WTT香港桌球年终总决赛(21)(普)</title>
+  </programme>
+  <programme start="20261211210000 +0800" stop="20261211220000 +0800" channel="mod.98">
+    <title lang="zh">2026WTT香港桌球年终总决赛(22)(普)</title>
+  </programme>
+  <programme start="20261211220000 +0800" stop="20261211230000 +0800" channel="mod.98">
+    <title lang="zh">太平岛(1)(普)</title>
   </programme>
   <programme start="20261211230000 +0800" stop="20261212000000 +0800" channel="mod.98">
     <title lang="zh">2026第十四届黑豹旗全国高中棒球大赛(19)(普)</title>
@@ -85381,7 +85450,7 @@
     <title lang="zh">2026-27 TPBL 台湾职业篮球大联盟 G5 高雄全家海神vs新竹御嵿攻城狮(普)</title>
   </programme>
   <programme start="20261128190000 +0800" stop="20261128210000 +0800" channel="mod.213">
-    <title lang="zh">LIVE2026-27 TPBL台湾职业篮球大联盟 20桃园台啤永丰云豹vs福尔摩沙梦想家1900-2100(普)</title>
+    <title lang="zh">2026-27 TPBL台湾职业篮球大联盟 G19新竹御嵿攻城狮vs福尔摩沙梦想家(普)</title>
   </programme>
   <programme start="20261128210000 +0800" stop="20261128220000 +0800" channel="mod.213">
     <title lang="zh">2026 PBR 骑牛团体赛(普)</title>

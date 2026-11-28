@@ -1224,6 +1224,7 @@
   </programme>
   <programme start="20261128093500 +0800" stop="20261128103000 +0800" channel="tv32">
     <title lang="zh-Hans">理财新世代</title>
+    <desc lang="zh-Hans">理财新世代 11月28日</desc>
     <url>https://www.rthk.hk/tv/dtt32/programme/investmentera_tv</url>
   </programme>
   <programme start="20261128103000 +0800" stop="20261128103500 +0800" channel="tv32">
@@ -1424,6 +1425,7 @@
   </programme>
   <programme start="20261128220500 +0800" stop="20261128230000 +0800" channel="tv32">
     <title lang="zh-Hans">理财新世代</title>
+    <desc lang="zh-Hans">理财新世代 11月28日</desc>
     <url>https://www.rthk.hk/tv/dtt32/programme/investmentera_tv</url>
   </programme>
   <programme start="20261128230000 +0800" stop="20261128233000 +0800" channel="tv32">
@@ -3045,92 +3047,86 @@
   <programme start="20261130022800 +0800" stop="20261130031400 +0800" channel="tv33">
     <title lang="zh-Hans">画眉 9</title>
   </programme>
-  <programme start="20261130031400 +0800" stop="20261130034600 +0800" channel="tv33">
+  <programme start="20261130031400 +0800" stop="20261130040000 +0800" channel="tv33">
     <title lang="zh-Hans">画眉 10</title>
   </programme>
-  <programme start="20261130034600 +0800" stop="20261130043200 +0800" channel="tv33">
-    <title lang="zh-Hans">画眉 10</title>
+  <programme start="20261130040000 +0800" stop="20261130053300 +0800" channel="tv33">
+    <title lang="zh-Hans">专题节目</title>
   </programme>
-  <programme start="20261130043200 +0800" stop="20261130050000 +0800" channel="tv33">
-    <title lang="zh-Hans">今日说法</title>
+  <programme start="20261130053300 +0800" stop="20261130060000 +0800" channel="tv33">
+    <title lang="zh-Hans">专题节目</title>
   </programme>
-  <programme start="20261130050000 +0800" stop="20261130053000 +0800" channel="tv33">
-    <title lang="zh-Hans">新闻联播</title>
-  </programme>
-  <programme start="20261130053000 +0800" stop="20261130060000 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
-  </programme>
-  <programme start="20261130060000 +0800" stop="20261130083200 +0800" channel="tv33">
+  <programme start="20261130060000 +0800" stop="20261130083000 +0800" channel="tv33">
     <title lang="zh-Hans">朝闻天下</title>
   </programme>
-  <programme start="20261130083200 +0800" stop="20261130091500 +0800" channel="tv33">
+  <programme start="20261130083000 +0800" stop="20261130091200 +0800" channel="tv33">
     <title lang="zh-Hans">生活圈</title>
   </programme>
-  <programme start="20261130091500 +0800" stop="20261130100100 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261130091200 +0800" stop="20261130095800 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 4</title>
   </programme>
-  <programme start="20261130100100 +0800" stop="20261130104700 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261130095800 +0800" stop="20261130104400 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 5</title>
   </programme>
-  <programme start="20261130104700 +0800" stop="20261130113300 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261130104400 +0800" stop="20261130113000 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 6</title>
   </programme>
-  <programme start="20261130113300 +0800" stop="20261130120000 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
+  <programme start="20261130113000 +0800" stop="20261130120000 +0800" channel="tv33">
+    <title lang="zh-Hans">文脉春秋</title>
   </programme>
-  <programme start="20261130120000 +0800" stop="20261130123200 +0800" channel="tv33">
+  <programme start="20261130120000 +0800" stop="20261130123000 +0800" channel="tv33">
     <title lang="zh-Hans">新闻30分</title>
   </programme>
-  <programme start="20261130123200 +0800" stop="20261130130100 +0800" channel="tv33">
+  <programme start="20261130123000 +0800" stop="20261130125900 +0800" channel="tv33">
     <title lang="zh-Hans">今日说法</title>
   </programme>
-  <programme start="20261130130100 +0800" stop="20261130133300 +0800" channel="tv33">
-    <title lang="zh-Hans">动物世界</title>
+  <programme start="20261130125900 +0800" stop="20261130134500 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 14</title>
   </programme>
-  <programme start="20261130133300 +0800" stop="20261130141900 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261130134500 +0800" stop="20261130143200 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 15</title>
   </programme>
-  <programme start="20261130141900 +0800" stop="20261130150500 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261130143200 +0800" stop="20261130151800 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 16</title>
   </programme>
-  <programme start="20261130150500 +0800" stop="20261130155100 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261130151800 +0800" stop="20261130162300 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 17</title>
   </programme>
-  <programme start="20261130155100 +0800" stop="20261130163900 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261130162300 +0800" stop="20261130165300 +0800" channel="tv33">
+    <title lang="zh-Hans">门楣之上</title>
   </programme>
-  <programme start="20261130163900 +0800" stop="20261130170800 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
+  <programme start="20261130165300 +0800" stop="20261130173700 +0800" channel="tv33">
+    <title lang="zh-Hans">生活圈</title>
   </programme>
-  <programme start="20261130170800 +0800" stop="20261130190000 +0800" channel="tv33">
-    <title lang="zh-Hans">第一动画乐园</title>
+  <programme start="20261130173700 +0800" stop="20261130190000 +0800" channel="tv33">
+    <title lang="zh-Hans">简牍探中华</title>
   </programme>
-  <programme start="20261130190000 +0800" stop="20261130193200 +0800" channel="tv33">
+  <programme start="20261130190000 +0800" stop="20261130193500 +0800" channel="tv33">
     <title lang="zh-Hans">新闻联播</title>
   </programme>
-  <programme start="20261130193200 +0800" stop="20261130194000 +0800" channel="tv33">
+  <programme start="20261130193500 +0800" stop="20261130194100 +0800" channel="tv33">
     <title lang="zh-Hans">天气预报</title>
   </programme>
-  <programme start="20261130194000 +0800" stop="20261130202600 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261130194100 +0800" stop="20261130200800 +0800" channel="tv33">
+    <title lang="zh-Hans">国家记忆</title>
   </programme>
-  <programme start="20261130202600 +0800" stop="20261130211400 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261130200800 +0800" stop="20261130205400 +0800" channel="tv33">
+    <title lang="zh-Hans">多喜一家人 17</title>
   </programme>
-  <programme start="20261130211400 +0800" stop="20261130213100 +0800" channel="tv33">
+  <programme start="20261130205400 +0800" stop="20261130214300 +0800" channel="tv33">
+    <title lang="zh-Hans">多喜一家人 18</title>
+  </programme>
+  <programme start="20261130214300 +0800" stop="20261130220000 +0800" channel="tv33">
     <title lang="zh-Hans">焦点访谈</title>
-  </programme>
-  <programme start="20261130213100 +0800" stop="20261130220000 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
   </programme>
   <programme start="20261130220000 +0800" stop="20261130223200 +0800" channel="tv33">
     <title lang="zh-Hans">晚间新闻</title>
   </programme>
-  <programme start="20261130223200 +0800" stop="20261130231800 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261130223200 +0800" stop="20261130232300 +0800" channel="tv33">
+    <title lang="zh-Hans">踏歌行</title>
   </programme>
-  <programme start="20261130231800 +0800" stop="20261201000500 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261130232300 +0800" stop="20261201000900 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 13</title>
   </programme>
   <programme start="20261130000000 +0800" stop="20261130005600 +0800" channel="tv34">
     <title lang="zh-Hans">超级工程 Ⅱ1</title>
@@ -3914,26 +3910,23 @@
     <title lang="zh-Hans">时事脉动</title>
     <url>https://www.rthk.hk/tv/dtt32/programme/thecurrent</url>
   </programme>
-  <programme start="20261201000000 +0800" stop="20261201000500 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261201000000 +0800" stop="20261201000900 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 13</title>
   </programme>
-  <programme start="20261201000500 +0800" stop="20261201003700 +0800" channel="tv33">
-    <title lang="zh-Hans">动物世界</title>
+  <programme start="20261201000900 +0800" stop="20261201005700 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 14</title>
   </programme>
-  <programme start="20261201003700 +0800" stop="20261201012300 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261201005700 +0800" stop="20261201022000 +0800" channel="tv33">
+    <title lang="zh-Hans">简牍探中华</title>
   </programme>
-  <programme start="20261201012300 +0800" stop="20261201021100 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261201022000 +0800" stop="20261201025900 +0800" channel="tv33">
+    <title lang="zh-Hans">门楣之上</title>
   </programme>
-  <programme start="20261201021100 +0800" stop="20261201030000 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
-  </programme>
-  <programme start="20261201030000 +0800" stop="20261201034600 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261201025900 +0800" stop="20261201034600 +0800" channel="tv33">
+    <title lang="zh-Hans">画眉 11</title>
   </programme>
   <programme start="20261201034600 +0800" stop="20261201043200 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+    <title lang="zh-Hans">画眉 12</title>
   </programme>
   <programme start="20261201043200 +0800" stop="20261201050000 +0800" channel="tv33">
     <title lang="zh-Hans">今日说法</title>
@@ -3942,25 +3935,25 @@
     <title lang="zh-Hans">新闻联播</title>
   </programme>
   <programme start="20261201053000 +0800" stop="20261201060000 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
+    <title lang="zh-Hans">国家记忆</title>
   </programme>
-  <programme start="20261201060000 +0800" stop="20261201083200 +0800" channel="tv33">
+  <programme start="20261201060000 +0800" stop="20261201083000 +0800" channel="tv33">
     <title lang="zh-Hans">朝闻天下</title>
   </programme>
-  <programme start="20261201083200 +0800" stop="20261201091500 +0800" channel="tv33">
+  <programme start="20261201083000 +0800" stop="20261201091200 +0800" channel="tv33">
     <title lang="zh-Hans">生活圈</title>
   </programme>
-  <programme start="20261201091500 +0800" stop="20261201100100 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261201091200 +0800" stop="20261201095800 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 7</title>
   </programme>
-  <programme start="20261201100100 +0800" stop="20261201104700 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261201095800 +0800" stop="20261201104400 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 8</title>
   </programme>
-  <programme start="20261201104700 +0800" stop="20261201113300 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261201104400 +0800" stop="20261201113000 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 9</title>
   </programme>
-  <programme start="20261201113300 +0800" stop="20261201120000 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
+  <programme start="20261201113000 +0800" stop="20261201120000 +0800" channel="tv33">
+    <title lang="zh-Hans">文脉春秋</title>
   </programme>
   <programme start="20261201120000 +0800" stop="20261201123200 +0800" channel="tv33">
     <title lang="zh-Hans">新闻30分</title>
@@ -3968,53 +3961,53 @@
   <programme start="20261201123200 +0800" stop="20261201130100 +0800" channel="tv33">
     <title lang="zh-Hans">今日说法</title>
   </programme>
-  <programme start="20261201130100 +0800" stop="20261201133300 +0800" channel="tv33">
-    <title lang="zh-Hans">动物世界</title>
+  <programme start="20261201130100 +0800" stop="20261201134700 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 18</title>
   </programme>
-  <programme start="20261201133300 +0800" stop="20261201141900 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261201134700 +0800" stop="20261201143300 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 19</title>
   </programme>
-  <programme start="20261201141900 +0800" stop="20261201150500 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261201143300 +0800" stop="20261201151900 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 20</title>
   </programme>
-  <programme start="20261201150500 +0800" stop="20261201155100 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261201151900 +0800" stop="20261201161700 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 21</title>
   </programme>
-  <programme start="20261201155100 +0800" stop="20261201163900 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261201161700 +0800" stop="20261201164700 +0800" channel="tv33">
+    <title lang="zh-Hans">门楣之上</title>
   </programme>
-  <programme start="20261201163900 +0800" stop="20261201170800 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
+  <programme start="20261201164700 +0800" stop="20261201173100 +0800" channel="tv33">
+    <title lang="zh-Hans">生活圈</title>
   </programme>
-  <programme start="20261201170800 +0800" stop="20261201190000 +0800" channel="tv33">
-    <title lang="zh-Hans">第一动画乐园</title>
+  <programme start="20261201173100 +0800" stop="20261201190000 +0800" channel="tv33">
+    <title lang="zh-Hans">简牍探中华</title>
   </programme>
-  <programme start="20261201190000 +0800" stop="20261201193200 +0800" channel="tv33">
+  <programme start="20261201190000 +0800" stop="20261201193500 +0800" channel="tv33">
     <title lang="zh-Hans">新闻联播</title>
   </programme>
-  <programme start="20261201193200 +0800" stop="20261201194000 +0800" channel="tv33">
+  <programme start="20261201193500 +0800" stop="20261201194100 +0800" channel="tv33">
     <title lang="zh-Hans">天气预报</title>
   </programme>
-  <programme start="20261201194000 +0800" stop="20261201202600 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261201194100 +0800" stop="20261201200800 +0800" channel="tv33">
+    <title lang="zh-Hans">国家记忆</title>
   </programme>
-  <programme start="20261201202600 +0800" stop="20261201211400 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261201200800 +0800" stop="20261201205400 +0800" channel="tv33">
+    <title lang="zh-Hans">多喜一家人 19</title>
   </programme>
-  <programme start="20261201211400 +0800" stop="20261201213100 +0800" channel="tv33">
+  <programme start="20261201205400 +0800" stop="20261201214300 +0800" channel="tv33">
+    <title lang="zh-Hans">多喜一家人 20</title>
+  </programme>
+  <programme start="20261201214300 +0800" stop="20261201220000 +0800" channel="tv33">
     <title lang="zh-Hans">焦点访谈</title>
-  </programme>
-  <programme start="20261201213100 +0800" stop="20261201220000 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
   </programme>
   <programme start="20261201220000 +0800" stop="20261201223200 +0800" channel="tv33">
     <title lang="zh-Hans">晚间新闻</title>
   </programme>
-  <programme start="20261201223200 +0800" stop="20261201231900 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261201223200 +0800" stop="20261201232300 +0800" channel="tv33">
+    <title lang="zh-Hans">踏歌行</title>
   </programme>
-  <programme start="20261201231900 +0800" stop="20261202000700 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261201232300 +0800" stop="20261202000900 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 15</title>
   </programme>
   <programme start="20261201000000 +0800" stop="20261201005600 +0800" channel="tv34">
     <title lang="zh-Hans">宁夏黄河湿地 鸟的家园1/良渚与世界文明对话·巴西</title>
@@ -4767,29 +4760,23 @@
     <title lang="zh-Hans">时事脉动</title>
     <url>https://www.rthk.hk/tv/dtt32/programme/thecurrent</url>
   </programme>
-  <programme start="20261202000000 +0800" stop="20261202000700 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261202000000 +0800" stop="20261202000900 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 15</title>
   </programme>
-  <programme start="20261202000700 +0800" stop="20261202003700 +0800" channel="tv33">
-    <title lang="zh-Hans">中华民族</title>
+  <programme start="20261202000900 +0800" stop="20261202005700 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 16</title>
   </programme>
-  <programme start="20261202003700 +0800" stop="20261202010700 +0800" channel="tv33">
-    <title lang="zh-Hans">动物世界</title>
+  <programme start="20261202005700 +0800" stop="20261202022600 +0800" channel="tv33">
+    <title lang="zh-Hans">简牍探中华</title>
   </programme>
-  <programme start="20261202010700 +0800" stop="20261202012700 +0800" channel="tv33">
-    <title lang="zh-Hans">人口</title>
+  <programme start="20261202022600 +0800" stop="20261202025900 +0800" channel="tv33">
+    <title lang="zh-Hans">门楣之上</title>
   </programme>
-  <programme start="20261202012700 +0800" stop="20261202021300 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
-  </programme>
-  <programme start="20261202021300 +0800" stop="20261202030000 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
-  </programme>
-  <programme start="20261202030000 +0800" stop="20261202034600 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261202025900 +0800" stop="20261202034600 +0800" channel="tv33">
+    <title lang="zh-Hans">画眉 13</title>
   </programme>
   <programme start="20261202034600 +0800" stop="20261202043200 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+    <title lang="zh-Hans">画眉 14</title>
   </programme>
   <programme start="20261202043200 +0800" stop="20261202050000 +0800" channel="tv33">
     <title lang="zh-Hans">今日说法</title>
@@ -4798,25 +4785,25 @@
     <title lang="zh-Hans">新闻联播</title>
   </programme>
   <programme start="20261202053000 +0800" stop="20261202060000 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
+    <title lang="zh-Hans">国家记忆</title>
   </programme>
-  <programme start="20261202060000 +0800" stop="20261202083200 +0800" channel="tv33">
+  <programme start="20261202060000 +0800" stop="20261202083000 +0800" channel="tv33">
     <title lang="zh-Hans">朝闻天下</title>
   </programme>
-  <programme start="20261202083200 +0800" stop="20261202091500 +0800" channel="tv33">
+  <programme start="20261202083000 +0800" stop="20261202091200 +0800" channel="tv33">
     <title lang="zh-Hans">生活圈</title>
   </programme>
-  <programme start="20261202091500 +0800" stop="20261202100100 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261202091200 +0800" stop="20261202095800 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 10</title>
   </programme>
-  <programme start="20261202100100 +0800" stop="20261202104700 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261202095800 +0800" stop="20261202104400 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 11</title>
   </programme>
-  <programme start="20261202104700 +0800" stop="20261202113300 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261202104400 +0800" stop="20261202113000 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 12</title>
   </programme>
-  <programme start="20261202113300 +0800" stop="20261202120000 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
+  <programme start="20261202113000 +0800" stop="20261202120000 +0800" channel="tv33">
+    <title lang="zh-Hans">文脉春秋</title>
   </programme>
   <programme start="20261202120000 +0800" stop="20261202123200 +0800" channel="tv33">
     <title lang="zh-Hans">新闻30分</title>
@@ -4824,53 +4811,53 @@
   <programme start="20261202123200 +0800" stop="20261202130100 +0800" channel="tv33">
     <title lang="zh-Hans">今日说法</title>
   </programme>
-  <programme start="20261202130100 +0800" stop="20261202133300 +0800" channel="tv33">
-    <title lang="zh-Hans">动物世界</title>
+  <programme start="20261202130100 +0800" stop="20261202134700 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 22</title>
   </programme>
-  <programme start="20261202133300 +0800" stop="20261202141900 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261202134700 +0800" stop="20261202143300 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 23</title>
   </programme>
-  <programme start="20261202141900 +0800" stop="20261202150500 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261202143300 +0800" stop="20261202151900 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 24</title>
   </programme>
-  <programme start="20261202150500 +0800" stop="20261202155100 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261202151900 +0800" stop="20261202161800 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 25</title>
   </programme>
-  <programme start="20261202155100 +0800" stop="20261202163900 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261202161800 +0800" stop="20261202164800 +0800" channel="tv33">
+    <title lang="zh-Hans">门楣之上</title>
   </programme>
-  <programme start="20261202163900 +0800" stop="20261202170800 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
+  <programme start="20261202164800 +0800" stop="20261202173200 +0800" channel="tv33">
+    <title lang="zh-Hans">生活圈</title>
   </programme>
-  <programme start="20261202170800 +0800" stop="20261202190000 +0800" channel="tv33">
-    <title lang="zh-Hans">第一动画乐园</title>
+  <programme start="20261202173200 +0800" stop="20261202190000 +0800" channel="tv33">
+    <title lang="zh-Hans">简牍探中华</title>
   </programme>
-  <programme start="20261202190000 +0800" stop="20261202193200 +0800" channel="tv33">
+  <programme start="20261202190000 +0800" stop="20261202193500 +0800" channel="tv33">
     <title lang="zh-Hans">新闻联播</title>
   </programme>
-  <programme start="20261202193200 +0800" stop="20261202194000 +0800" channel="tv33">
+  <programme start="20261202193500 +0800" stop="20261202194100 +0800" channel="tv33">
     <title lang="zh-Hans">天气预报</title>
   </programme>
-  <programme start="20261202194000 +0800" stop="20261202202600 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261202194100 +0800" stop="20261202200800 +0800" channel="tv33">
+    <title lang="zh-Hans">国家记忆</title>
   </programme>
-  <programme start="20261202202600 +0800" stop="20261202211400 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261202200800 +0800" stop="20261202205400 +0800" channel="tv33">
+    <title lang="zh-Hans">多喜一家人 21</title>
   </programme>
-  <programme start="20261202211400 +0800" stop="20261202213100 +0800" channel="tv33">
+  <programme start="20261202205400 +0800" stop="20261202214300 +0800" channel="tv33">
+    <title lang="zh-Hans">多喜一家人 22</title>
+  </programme>
+  <programme start="20261202214300 +0800" stop="20261202220000 +0800" channel="tv33">
     <title lang="zh-Hans">焦点访谈</title>
-  </programme>
-  <programme start="20261202213100 +0800" stop="20261202220000 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
   </programme>
   <programme start="20261202220000 +0800" stop="20261202223200 +0800" channel="tv33">
     <title lang="zh-Hans">晚间新闻</title>
   </programme>
-  <programme start="20261202223200 +0800" stop="20261202232000 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261202223200 +0800" stop="20261202232100 +0800" channel="tv33">
+    <title lang="zh-Hans">千年徽州</title>
   </programme>
-  <programme start="20261202232000 +0800" stop="20261203000700 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261202232100 +0800" stop="20261203000700 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 17</title>
   </programme>
   <programme start="20261202000000 +0800" stop="20261202005600 +0800" channel="tv34">
     <title lang="zh-Hans">改变世界的动物伙伴——马</title>
@@ -5615,25 +5602,22 @@
     <url>https://www.rthk.hk/tv/dtt32/programme/thecurrent</url>
   </programme>
   <programme start="20261203000000 +0800" stop="20261203000700 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+    <title lang="zh-Hans">南来北往 17</title>
   </programme>
-  <programme start="20261203000700 +0800" stop="20261203003700 +0800" channel="tv33">
-    <title lang="zh-Hans">动物世界</title>
+  <programme start="20261203000700 +0800" stop="20261203005500 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 18</title>
   </programme>
-  <programme start="20261203003700 +0800" stop="20261203012300 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261203005500 +0800" stop="20261203022300 +0800" channel="tv33">
+    <title lang="zh-Hans">简牍探中华</title>
   </programme>
-  <programme start="20261203012300 +0800" stop="20261203021100 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261203022300 +0800" stop="20261203025900 +0800" channel="tv33">
+    <title lang="zh-Hans">门楣之上</title>
   </programme>
-  <programme start="20261203021100 +0800" stop="20261203030000 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
-  </programme>
-  <programme start="20261203030000 +0800" stop="20261203034600 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261203025900 +0800" stop="20261203034600 +0800" channel="tv33">
+    <title lang="zh-Hans">画眉 15</title>
   </programme>
   <programme start="20261203034600 +0800" stop="20261203043200 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+    <title lang="zh-Hans">画眉 16</title>
   </programme>
   <programme start="20261203043200 +0800" stop="20261203050000 +0800" channel="tv33">
     <title lang="zh-Hans">今日说法</title>
@@ -5642,25 +5626,25 @@
     <title lang="zh-Hans">新闻联播</title>
   </programme>
   <programme start="20261203053000 +0800" stop="20261203060000 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
+    <title lang="zh-Hans">国家记忆</title>
   </programme>
-  <programme start="20261203060000 +0800" stop="20261203083200 +0800" channel="tv33">
+  <programme start="20261203060000 +0800" stop="20261203083000 +0800" channel="tv33">
     <title lang="zh-Hans">朝闻天下</title>
   </programme>
-  <programme start="20261203083200 +0800" stop="20261203091500 +0800" channel="tv33">
+  <programme start="20261203083000 +0800" stop="20261203091200 +0800" channel="tv33">
     <title lang="zh-Hans">生活圈</title>
   </programme>
-  <programme start="20261203091500 +0800" stop="20261203100100 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261203091200 +0800" stop="20261203095800 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 13</title>
   </programme>
-  <programme start="20261203100100 +0800" stop="20261203104700 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261203095800 +0800" stop="20261203104400 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 14</title>
   </programme>
-  <programme start="20261203104700 +0800" stop="20261203113300 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261203104400 +0800" stop="20261203113000 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 15</title>
   </programme>
-  <programme start="20261203113300 +0800" stop="20261203120000 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
+  <programme start="20261203113000 +0800" stop="20261203120000 +0800" channel="tv33">
+    <title lang="zh-Hans">文脉春秋</title>
   </programme>
   <programme start="20261203120000 +0800" stop="20261203123200 +0800" channel="tv33">
     <title lang="zh-Hans">新闻30分</title>
@@ -5668,53 +5652,53 @@
   <programme start="20261203123200 +0800" stop="20261203130100 +0800" channel="tv33">
     <title lang="zh-Hans">今日说法</title>
   </programme>
-  <programme start="20261203130100 +0800" stop="20261203133300 +0800" channel="tv33">
-    <title lang="zh-Hans">动物世界</title>
+  <programme start="20261203130100 +0800" stop="20261203134700 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 26</title>
   </programme>
-  <programme start="20261203133300 +0800" stop="20261203141900 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261203134700 +0800" stop="20261203143300 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 27</title>
   </programme>
-  <programme start="20261203141900 +0800" stop="20261203150500 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261203143300 +0800" stop="20261203151900 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 28</title>
   </programme>
-  <programme start="20261203150500 +0800" stop="20261203155100 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261203151900 +0800" stop="20261203161200 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 29</title>
   </programme>
-  <programme start="20261203155100 +0800" stop="20261203163900 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261203161200 +0800" stop="20261203164200 +0800" channel="tv33">
+    <title lang="zh-Hans">门楣之上</title>
   </programme>
-  <programme start="20261203163900 +0800" stop="20261203170800 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
+  <programme start="20261203164200 +0800" stop="20261203172600 +0800" channel="tv33">
+    <title lang="zh-Hans">生活圈</title>
   </programme>
-  <programme start="20261203170800 +0800" stop="20261203190000 +0800" channel="tv33">
-    <title lang="zh-Hans">第一动画乐园</title>
+  <programme start="20261203172600 +0800" stop="20261203190000 +0800" channel="tv33">
+    <title lang="zh-Hans">简牍探中华</title>
   </programme>
-  <programme start="20261203190000 +0800" stop="20261203193200 +0800" channel="tv33">
+  <programme start="20261203190000 +0800" stop="20261203193500 +0800" channel="tv33">
     <title lang="zh-Hans">新闻联播</title>
   </programme>
-  <programme start="20261203193200 +0800" stop="20261203194000 +0800" channel="tv33">
+  <programme start="20261203193500 +0800" stop="20261203194100 +0800" channel="tv33">
     <title lang="zh-Hans">天气预报</title>
   </programme>
-  <programme start="20261203194000 +0800" stop="20261203202600 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261203194100 +0800" stop="20261203200800 +0800" channel="tv33">
+    <title lang="zh-Hans">国家记忆</title>
   </programme>
-  <programme start="20261203202600 +0800" stop="20261203211400 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261203200800 +0800" stop="20261203205400 +0800" channel="tv33">
+    <title lang="zh-Hans">多喜一家人 23</title>
   </programme>
-  <programme start="20261203211400 +0800" stop="20261203213100 +0800" channel="tv33">
+  <programme start="20261203205400 +0800" stop="20261203214300 +0800" channel="tv33">
+    <title lang="zh-Hans">多喜一家人 24</title>
+  </programme>
+  <programme start="20261203214300 +0800" stop="20261203220000 +0800" channel="tv33">
     <title lang="zh-Hans">焦点访谈</title>
-  </programme>
-  <programme start="20261203213100 +0800" stop="20261203220000 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
   </programme>
   <programme start="20261203220000 +0800" stop="20261203223200 +0800" channel="tv33">
     <title lang="zh-Hans">晚间新闻</title>
   </programme>
-  <programme start="20261203223200 +0800" stop="20261203232000 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261203223200 +0800" stop="20261203232100 +0800" channel="tv33">
+    <title lang="zh-Hans">千年徽州</title>
   </programme>
-  <programme start="20261203232000 +0800" stop="20261204000700 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261203232100 +0800" stop="20261204000700 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 19</title>
   </programme>
   <programme start="20261203000000 +0800" stop="20261203005600 +0800" channel="tv34">
     <title lang="zh-Hans">新沂蒙 1</title>
@@ -6455,25 +6439,19 @@
     <url>https://www.rthk.hk/tv/dtt32/programme/thecurrent</url>
   </programme>
   <programme start="20261204000000 +0800" stop="20261204000700 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+    <title lang="zh-Hans">南来北往 19</title>
   </programme>
-  <programme start="20261204000700 +0800" stop="20261204003700 +0800" channel="tv33">
-    <title lang="zh-Hans">动物世界</title>
+  <programme start="20261204000700 +0800" stop="20261204005500 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 20</title>
   </programme>
-  <programme start="20261204003700 +0800" stop="20261204012300 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261204005500 +0800" stop="20261204025900 +0800" channel="tv33">
+    <title lang="zh-Hans">简牍探中华</title>
   </programme>
-  <programme start="20261204012300 +0800" stop="20261204021100 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
-  </programme>
-  <programme start="20261204021100 +0800" stop="20261204030000 +0800" channel="tv33">
-    <title lang="zh-Hans">人口</title>
-  </programme>
-  <programme start="20261204030000 +0800" stop="20261204034600 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261204025900 +0800" stop="20261204034600 +0800" channel="tv33">
+    <title lang="zh-Hans">画眉 17</title>
   </programme>
   <programme start="20261204034600 +0800" stop="20261204043200 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+    <title lang="zh-Hans">画眉 18</title>
   </programme>
   <programme start="20261204043200 +0800" stop="20261204050000 +0800" channel="tv33">
     <title lang="zh-Hans">今日说法</title>
@@ -6482,25 +6460,25 @@
     <title lang="zh-Hans">新闻联播</title>
   </programme>
   <programme start="20261204053000 +0800" stop="20261204060000 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
+    <title lang="zh-Hans">国家记忆</title>
   </programme>
-  <programme start="20261204060000 +0800" stop="20261204083200 +0800" channel="tv33">
+  <programme start="20261204060000 +0800" stop="20261204083000 +0800" channel="tv33">
     <title lang="zh-Hans">朝闻天下</title>
   </programme>
-  <programme start="20261204083200 +0800" stop="20261204091500 +0800" channel="tv33">
+  <programme start="20261204083000 +0800" stop="20261204091200 +0800" channel="tv33">
     <title lang="zh-Hans">生活圈</title>
   </programme>
-  <programme start="20261204091500 +0800" stop="20261204100100 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261204091200 +0800" stop="20261204095800 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 16</title>
   </programme>
-  <programme start="20261204100100 +0800" stop="20261204104700 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261204095800 +0800" stop="20261204104400 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 17</title>
   </programme>
-  <programme start="20261204104700 +0800" stop="20261204113300 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261204104400 +0800" stop="20261204113000 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 18</title>
   </programme>
-  <programme start="20261204113300 +0800" stop="20261204120000 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
+  <programme start="20261204113000 +0800" stop="20261204120000 +0800" channel="tv33">
+    <title lang="zh-Hans">文脉春秋</title>
   </programme>
   <programme start="20261204120000 +0800" stop="20261204123200 +0800" channel="tv33">
     <title lang="zh-Hans">新闻30分</title>
@@ -6508,53 +6486,50 @@
   <programme start="20261204123200 +0800" stop="20261204130100 +0800" channel="tv33">
     <title lang="zh-Hans">今日说法</title>
   </programme>
-  <programme start="20261204130100 +0800" stop="20261204133300 +0800" channel="tv33">
-    <title lang="zh-Hans">动物世界</title>
+  <programme start="20261204130100 +0800" stop="20261204134700 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 30</title>
   </programme>
-  <programme start="20261204133300 +0800" stop="20261204141900 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261204134700 +0800" stop="20261204143300 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 31</title>
   </programme>
-  <programme start="20261204141900 +0800" stop="20261204150500 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261204143300 +0800" stop="20261204151900 +0800" channel="tv33">
+    <title lang="zh-Hans">冬去春来 32</title>
   </programme>
-  <programme start="20261204150500 +0800" stop="20261204155100 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261204151900 +0800" stop="20261204161700 +0800" channel="tv33">
+    <title lang="zh-Hans">九个弹孔 1</title>
   </programme>
-  <programme start="20261204155100 +0800" stop="20261204163900 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261204161700 +0800" stop="20261204164700 +0800" channel="tv33">
+    <title lang="zh-Hans">门楣之上</title>
   </programme>
-  <programme start="20261204163900 +0800" stop="20261204170800 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
+  <programme start="20261204164700 +0800" stop="20261204173100 +0800" channel="tv33">
+    <title lang="zh-Hans">生活圈</title>
   </programme>
-  <programme start="20261204170800 +0800" stop="20261204190000 +0800" channel="tv33">
-    <title lang="zh-Hans">第一动画乐园</title>
+  <programme start="20261204173100 +0800" stop="20261204190000 +0800" channel="tv33">
+    <title lang="zh-Hans">简牍探中华</title>
   </programme>
-  <programme start="20261204190000 +0800" stop="20261204193200 +0800" channel="tv33">
+  <programme start="20261204190000 +0800" stop="20261204193500 +0800" channel="tv33">
     <title lang="zh-Hans">新闻联播</title>
   </programme>
-  <programme start="20261204193200 +0800" stop="20261204194000 +0800" channel="tv33">
+  <programme start="20261204193500 +0800" stop="20261204194100 +0800" channel="tv33">
     <title lang="zh-Hans">天气预报</title>
   </programme>
-  <programme start="20261204194000 +0800" stop="20261204202600 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261204194100 +0800" stop="20261204200800 +0800" channel="tv33">
+    <title lang="zh-Hans">国家记忆</title>
   </programme>
-  <programme start="20261204202600 +0800" stop="20261204211400 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261204200800 +0800" stop="20261204214300 +0800" channel="tv33">
+    <title lang="zh-Hans">金石探文明</title>
   </programme>
-  <programme start="20261204211400 +0800" stop="20261204213100 +0800" channel="tv33">
+  <programme start="20261204214300 +0800" stop="20261204220000 +0800" channel="tv33">
     <title lang="zh-Hans">焦点访谈</title>
-  </programme>
-  <programme start="20261204213100 +0800" stop="20261204220000 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
   </programme>
   <programme start="20261204220000 +0800" stop="20261204223200 +0800" channel="tv33">
     <title lang="zh-Hans">晚间新闻</title>
   </programme>
-  <programme start="20261204223200 +0800" stop="20261204232000 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261204223200 +0800" stop="20261204232100 +0800" channel="tv33">
+    <title lang="zh-Hans">千年徽州</title>
   </programme>
-  <programme start="20261204232000 +0800" stop="20261205000700 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261204232100 +0800" stop="20261205000700 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 21</title>
   </programme>
   <programme start="20261204000000 +0800" stop="20261204005600 +0800" channel="tv34">
     <title lang="zh-Hans">新沂蒙 2</title>
@@ -7303,25 +7278,22 @@
     <title lang="zh-Hans">生活．健康．资讯</title>
   </programme>
   <programme start="20261205000000 +0800" stop="20261205000700 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+    <title lang="zh-Hans">南来北往 21</title>
   </programme>
-  <programme start="20261205000700 +0800" stop="20261205003700 +0800" channel="tv33">
-    <title lang="zh-Hans">动物世界</title>
+  <programme start="20261205000700 +0800" stop="20261205005500 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 22</title>
   </programme>
-  <programme start="20261205003700 +0800" stop="20261205012300 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261205005500 +0800" stop="20261205022400 +0800" channel="tv33">
+    <title lang="zh-Hans">简牍探中华</title>
   </programme>
-  <programme start="20261205012300 +0800" stop="20261205021100 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261205022400 +0800" stop="20261205025900 +0800" channel="tv33">
+    <title lang="zh-Hans">门楣之上</title>
   </programme>
-  <programme start="20261205021100 +0800" stop="20261205030000 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
-  </programme>
-  <programme start="20261205030000 +0800" stop="20261205034600 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261205025900 +0800" stop="20261205034600 +0800" channel="tv33">
+    <title lang="zh-Hans">画眉 19</title>
   </programme>
   <programme start="20261205034600 +0800" stop="20261205043200 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+    <title lang="zh-Hans">画眉 20</title>
   </programme>
   <programme start="20261205043200 +0800" stop="20261205050000 +0800" channel="tv33">
     <title lang="zh-Hans">今日说法</title>
@@ -7330,79 +7302,76 @@
     <title lang="zh-Hans">新闻联播</title>
   </programme>
   <programme start="20261205053000 +0800" stop="20261205060000 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
+    <title lang="zh-Hans">国家记忆</title>
   </programme>
-  <programme start="20261205060000 +0800" stop="20261205083200 +0800" channel="tv33">
+  <programme start="20261205060000 +0800" stop="20261205083000 +0800" channel="tv33">
     <title lang="zh-Hans">朝闻天下</title>
   </programme>
-  <programme start="20261205083200 +0800" stop="20261205091500 +0800" channel="tv33">
+  <programme start="20261205083000 +0800" stop="20261205091200 +0800" channel="tv33">
     <title lang="zh-Hans">生活圈</title>
   </programme>
-  <programme start="20261205091500 +0800" stop="20261205100100 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261205091200 +0800" stop="20261205095800 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 19</title>
   </programme>
-  <programme start="20261205100100 +0800" stop="20261205104700 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261205095800 +0800" stop="20261205104400 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 20</title>
   </programme>
-  <programme start="20261205104700 +0800" stop="20261205113300 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261205104400 +0800" stop="20261205113000 +0800" channel="tv33">
+    <title lang="zh-Hans">护宝寻踪 21</title>
   </programme>
-  <programme start="20261205113300 +0800" stop="20261205120000 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
+  <programme start="20261205113000 +0800" stop="20261205120000 +0800" channel="tv33">
+    <title lang="zh-Hans">文脉春秋</title>
   </programme>
   <programme start="20261205120000 +0800" stop="20261205123200 +0800" channel="tv33">
     <title lang="zh-Hans">新闻30分</title>
   </programme>
-  <programme start="20261205123200 +0800" stop="20261205130100 +0800" channel="tv33">
-    <title lang="zh-Hans">今日说法</title>
+  <programme start="20261205123200 +0800" stop="20261205130300 +0800" channel="tv33">
+    <title lang="zh-Hans">本草流芳</title>
   </programme>
-  <programme start="20261205130100 +0800" stop="20261205133300 +0800" channel="tv33">
-    <title lang="zh-Hans">动物世界</title>
+  <programme start="20261205130300 +0800" stop="20261205134900 +0800" channel="tv33">
+    <title lang="zh-Hans">九个弹孔 2</title>
   </programme>
-  <programme start="20261205133300 +0800" stop="20261205141900 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261205134900 +0800" stop="20261205143500 +0800" channel="tv33">
+    <title lang="zh-Hans">九个弹孔 3</title>
   </programme>
-  <programme start="20261205141900 +0800" stop="20261205150500 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261205143500 +0800" stop="20261205152100 +0800" channel="tv33">
+    <title lang="zh-Hans">九个弹孔 4</title>
   </programme>
-  <programme start="20261205150500 +0800" stop="20261205155100 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261205152100 +0800" stop="20261205161500 +0800" channel="tv33">
+    <title lang="zh-Hans">九个弹孔 5</title>
   </programme>
-  <programme start="20261205155100 +0800" stop="20261205163900 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261205161500 +0800" stop="20261205164500 +0800" channel="tv33">
+    <title lang="zh-Hans">门楣之上</title>
   </programme>
-  <programme start="20261205163900 +0800" stop="20261205170800 +0800" channel="tv33">
-    <title lang="zh-Hans">人与自然</title>
+  <programme start="20261205164500 +0800" stop="20261205172900 +0800" channel="tv33">
+    <title lang="zh-Hans">生活圈</title>
   </programme>
-  <programme start="20261205170800 +0800" stop="20261205180800 +0800" channel="tv33">
-    <title lang="zh-Hans">第一动画乐园</title>
+  <programme start="20261205172900 +0800" stop="20261205190000 +0800" channel="tv33">
+    <title lang="zh-Hans">简牍探中华</title>
   </programme>
-  <programme start="20261205180800 +0800" stop="20261205190000 +0800" channel="tv33">
-    <title lang="zh-Hans">国际艺苑</title>
-  </programme>
-  <programme start="20261205190000 +0800" stop="20261205193200 +0800" channel="tv33">
+  <programme start="20261205190000 +0800" stop="20261205193500 +0800" channel="tv33">
     <title lang="zh-Hans">新闻联播</title>
   </programme>
-  <programme start="20261205193200 +0800" stop="20261205194000 +0800" channel="tv33">
+  <programme start="20261205193500 +0800" stop="20261205194100 +0800" channel="tv33">
     <title lang="zh-Hans">天气预报</title>
   </programme>
-  <programme start="20261205194000 +0800" stop="20261205202800 +0800" channel="tv33">
-    <title lang="zh-Hans">特别节目</title>
+  <programme start="20261205194100 +0800" stop="20261205200800 +0800" channel="tv33">
+    <title lang="zh-Hans">国家记忆</title>
   </programme>
-  <programme start="20261205202800 +0800" stop="20261205211800 +0800" channel="tv33">
-    <title lang="zh-Hans">特别节目</title>
+  <programme start="20261205200800 +0800" stop="20261205214300 +0800" channel="tv33">
+    <title lang="zh-Hans">金石探文明</title>
   </programme>
-  <programme start="20261205211800 +0800" stop="20261205220000 +0800" channel="tv33">
+  <programme start="20261205214300 +0800" stop="20261205220000 +0800" channel="tv33">
     <title lang="zh-Hans">焦点访谈</title>
   </programme>
   <programme start="20261205220000 +0800" stop="20261205223200 +0800" channel="tv33">
     <title lang="zh-Hans">晚间新闻</title>
   </programme>
-  <programme start="20261205223200 +0800" stop="20261205232000 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261205223200 +0800" stop="20261205232100 +0800" channel="tv33">
+    <title lang="zh-Hans">千年徽州</title>
   </programme>
-  <programme start="20261205232000 +0800" stop="20261206000700 +0800" channel="tv33">
-    <title lang="zh-Hans">电视剧</title>
+  <programme start="20261205232100 +0800" stop="20261206000700 +0800" channel="tv33">
+    <title lang="zh-Hans">南来北往 23</title>
   </programme>
   <programme start="20261205000000 +0800" stop="20261205005600 +0800" channel="tv34">
     <title lang="zh-Hans">新沂蒙 3</title>
