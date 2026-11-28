@@ -11,6 +11,8 @@ env:
   TZ: Asia/Shanghai
   EPG_OUTPUT_DIR: epg_sources
   LOG_DIR: logs
+  PHP_SCRIPT_DIR: php # PHP 脚本统一目录
+  PYTHON_SCRIPT_DIR: py # ✅ 新增：Python 脚本统一目录
   PHP_VERSION: '7.4'
   PYTHON_VERSION: '3.x'
 
@@ -35,8 +37,8 @@ jobs:
       # ---------- 2. 安装系统与语言环境 ----------
       - name: Install system dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install -y jq libxml2-utils gzip
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq jq libxml2-utils gzip
 
       - name: Set up PHP environment
         uses: shivammathur/setup-php@v2
@@ -50,10 +52,18 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: 'pip' # 开启 pip 依赖自动缓存
 
-      # 缓存 Composer 依赖
+      # 缓存 Composer 依赖（兼容无 composer.json 场景）
       - name: Get Composer cache directory
         id: composer-cache
-        run: echo "dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
+        run: |
+          if [ -f "composer.json" ]; then
+            echo "dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
+          else
+            # 不存在 composer.json 时输出占位目录，避免后续步骤报错
+            echo "dir=./.composer_cache" >> $GITHUB_OUTPUT
+            echo "未检测到 composer.json，跳过 Composer 缓存配置"
+          fi
+
       - name: Cache Composer dependencies
         uses: actions/cache@v4
         with:
@@ -67,7 +77,7 @@ jobs:
           if [ -f "composer.json" ]; then
             composer install --no-dev --no-progress --no-interaction --prefer-dist
           fi
-          # Python 依赖安装（去掉 --no-cache-dir，配合缓存生效）
+          # Python 依赖安装
           pip install opencc-python-reimplemented curl_cffi beautifulsoup4 requests aiohttp pytz loguru httpx
           echo "所有依赖安装完成"
 
@@ -94,15 +104,18 @@ jobs:
             local output_file=$2
             local extra_args=$3
             local id_name=$4
+            # ✅ 修正：拼接 py 目录前缀
+            local script_path="${PYTHON_SCRIPT_DIR}/${script_name}"
 
-            if [ ! -f "${script_name}" ]; then
-              echo "⚠️ ${script_name} 不存在，跳过"
+            if [ ! -f "${script_path}" ]; then
+              echo "⚠️ ${script_path} 不存在，跳过"
               echo "${id_name}_generated=false" >> $GITHUB_OUTPUT
               return 0
             fi
 
-            echo "运行 ${script_name} 抓取脚本..."
-            python3 ${script_name} ${extra_args} "${EPG_OUTPUT_DIR}/${output_file}"
+            echo "运行 ${script_path} 抓取脚本..."
+            # ✅ 修正：使用完整路径执行脚本
+            python3 ${script_path} ${extra_args} "${EPG_OUTPUT_DIR}/${output_file}"
             local exit_code=$?
 
             if [ ${exit_code} -eq 0 ] && [ -f "${EPG_OUTPUT_DIR}/${output_file}" ]; then
@@ -130,7 +143,7 @@ jobs:
       - name: Check PHP scripts existence
         id: check_scripts
         run: |
-          echo "检查 PHP 脚本文件..."
+          echo "检查 PHP 脚本文件（目录：${PHP_SCRIPT_DIR}）..."
           declare -a scripts=(
             "51zmt_epg.php" "cntvepg.php" "epg_4k.php" "epg_elta.php"
             "kbro_epg.php" "mod.php" "nowtv_epg.php"
@@ -138,11 +151,12 @@ jobs:
           )
           existing_scripts=()
           for script in "${scripts[@]}"; do
-            if [ -f "$script" ]; then
-              echo "✓ 找到文件: $script"
+            script_path="${PHP_SCRIPT_DIR}/${script}"
+            if [ -f "$script_path" ]; then
+              echo "✓ 找到文件: $script_path"
               existing_scripts+=("$script")
             else
-              echo "✗ 文件不存在: $script"
+              echo "✗ 文件不存在: $script_path"
             fi
           done
           if [ ${#existing_scripts[@]} -eq 0 ]; then
@@ -158,13 +172,19 @@ jobs:
         id: run_php_scripts
         continue-on-error: true
         run: |
+          WORKDIR=$(pwd)
+          LOG_ABS_PATH="${WORKDIR}/${LOG_DIR}"
           IFS=',' read -ra scripts <<< "${{ steps.check_scripts.outputs.existing_scripts }}"
           pids=()
           start_time=$(date +%s)
 
-          # 后台并行启动所有脚本
+          # 切换到 PHP 脚本目录执行，保证相对路径依赖正常加载
+          cd "${PHP_SCRIPT_DIR}" || exit 1
+
+          # 后台并行启动所有脚本，日志输出到绝对路径的日志目录
           for script in "${scripts[@]}"; do
-            log_file="${LOG_DIR}/${script%.php}.log"
+            log_name="${script%.php}"
+            log_file="${LOG_ABS_PATH}/${log_name}.log"
             echo "启动脚本: $script"
             php "$script" > "$log_file" 2>&1 &
             pids+=("$!")
@@ -176,12 +196,13 @@ jobs:
             wait ${pids[$i]}
             exit_code=$?
             script=${scripts[$i]}
+            log_name="${script%.php}"
             if [ ${exit_code} -eq 0 ]; then
-              echo "✓ ${script} 执行成功"
+              echo "✓ ${log_name} 执行成功"
             else
-              echo "✗ ${script} 执行失败（退出码：${exit_code}）"
+              echo "✗ ${log_name} 执行失败（退出码：${exit_code}）"
               echo "--- 最后 20 行日志 ---"
-              tail -n 20 "${LOG_DIR}/${script%.php}.log" 2>/dev/null || echo "无法读取日志文件"
+              tail -n 20 "${LOG_ABS_PATH}/${log_name}.log" 2>/dev/null || echo "无法读取日志文件"
               echo "----------------------"
               failed_count=$((failed_count + 1))
             fi
@@ -192,14 +213,38 @@ jobs:
           echo "PHP 脚本执行完成: 成功 $((${#scripts[@]} - failed_count)) 个，失败 ${failed_count} 个，总耗时: ${total_duration}秒"
           echo "php_failed_count=${failed_count}" >> $GITHUB_OUTPUT
 
+      # 迁移PHP生成的文件到统一输出目录
+      - name: Move PHP output to EPG directory
+        run: |
+          # 1. 优先归集 PHP 脚本在 php/epg_sources 子目录生成的文件
+          if [ -d "${PHP_SCRIPT_DIR}/${EPG_OUTPUT_DIR}" ]; then
+            mv -f ${PHP_SCRIPT_DIR}/${EPG_OUTPUT_DIR}/*.xml ${EPG_OUTPUT_DIR}/ 2>/dev/null || true
+            mv -f ${PHP_SCRIPT_DIR}/${EPG_OUTPUT_DIR}/*.xml.gz ${EPG_OUTPUT_DIR}/ 2>/dev/null || true
+          fi
+          
+          # 2. 兼容直接生成在 php 根目录的文件
+          mv -f ${PHP_SCRIPT_DIR}/*.xml ${EPG_OUTPUT_DIR}/ 2>/dev/null || true
+          mv -f ${PHP_SCRIPT_DIR}/*.xml.gz ${EPG_OUTPUT_DIR}/ 2>/dev/null || true
+          
+          echo "PHP生成文件已迁移至输出目录，当前文件列表："
+          ls -lh ${EPG_OUTPUT_DIR}/
+
       # ---------- 6. 检查生成的 XML 文件 ----------
       - name: Check generated XML files
         id: check_xml
         run: |
+          # 兼容Python+PHP所有实际输出文件名
           declare -a expected_xml=(
-            "4g.xml" "cntv.xml.gz" "epg_4k.xml" "epg_elta.xml"
-            "epg_nowtv.xml" "epg_zhongtianam.xml" "hami.xml" "litv_epg.xml"
-            "ofiii.xml" "epg_rthk_tv.xml" "kbro_epg.xml" "mod_epg.xml"
+            "4g.xml" "epg_51zmt.xml.gz"
+            "cntv.xml.gz"
+            "epg_4k.xml" "epg_elta.xml"
+            "epg_nowtv.xml" "hami.xml" 
+            "epg_zhongtianam.xml"
+            "litv_epg.xml"
+            "ofiii.xml" 
+            "epg_rthk_tv.xml"
+            "kbro_epg.xml" 
+            "mod_epg.xml"
             "tdm_epg.xml"
           )
 
@@ -280,16 +325,26 @@ jobs:
       # ---------- 9. 运行结果汇总 ----------
       - name: Run summary
         run: |
+          # 变量兜底，避免步骤未执行时空值导致算术错误
+          python_failed="${{ steps.python_scrapers.outputs.python_failed_count }}"
+          python_failed=${python_failed:-0}
+          php_failed="${{ steps.run_php_scripts.outputs.php_failed_count }}"
+          php_failed=${php_failed:-0}
+          valid_xml="${{ steps.check_xml.outputs.valid_xml_count }}"
+          valid_xml=${valid_xml:-0}
+          invalid_xml="${{ steps.check_xml.outputs.invalid_xml_count }}"
+          invalid_xml=${invalid_xml:-0}
+
           echo "====== EPG 采集任务汇总 ======"
-          echo "Python 脚本失败数: ${{ steps.python_scrapers.outputs.python_failed_count }}"
-          echo "PHP 脚本失败数: ${{ steps.run_php_scripts.outputs.php_failed_count }}"
-          echo "生成 XML 文件数: ${{ steps.check_xml.outputs.valid_xml_count }}"
-          echo "XML 格式异常数: ${{ steps.check_xml.outputs.invalid_xml_count }}"
+          echo "Python 脚本失败数: ${python_failed}"
+          echo "PHP 脚本失败数: ${php_failed}"
+          echo "生成 XML 文件数: ${valid_xml}"
+          echo "XML 格式异常数: ${invalid_xml}"
           echo "=============================="
 
-          # 失败总数超过阈值则标记工作流失败
-          total_failed=$(( ${{ steps.python_scrapers.outputs.python_failed_count }} + ${{ steps.run_php_scripts.outputs.php_failed_count }} ))
+          total_failed=$(( python_failed + php_failed ))
           if [ ${total_failed} -ge 3 ]; then
             echo "::error::超过 3 个脚本执行失败，请检查日志"
             exit 1
           fi
+
