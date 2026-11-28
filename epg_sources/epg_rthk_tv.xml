@@ -1043,6 +1043,7 @@
   </programme>
   <programme start="20261128080500 +0800" stop="20261128090000 +0800" channel="tv31">
     <title lang="zh-Hans">星期六问责</title>
+    <desc lang="zh-Hans">星期六问责 11月28日</desc>
     <url>https://www.rthk.hk/tv/dtt31/programme/accountabilitytv</url>
   </programme>
   <programme start="20261128090000 +0800" stop="20261128093000 +0800" channel="tv31">
@@ -1210,6 +1211,7 @@
   </programme>
   <programme start="20261128080500 +0800" stop="20261128090000 +0800" channel="tv32">
     <title lang="zh-Hans">星期六问责</title>
+    <desc lang="zh-Hans">星期六问责 11月28日</desc>
     <url>https://www.rthk.hk/tv/dtt32/programme/accountabilitytv</url>
   </programme>
   <programme start="20261128090000 +0800" stop="20261128093000 +0800" channel="tv32">
@@ -1412,6 +1414,7 @@
   </programme>
   <programme start="20261128210000 +0800" stop="20261128220000 +0800" channel="tv32">
     <title lang="zh-Hans">星期六问责</title>
+    <desc lang="zh-Hans">星期六问责 11月28日</desc>
     <url>https://www.rthk.hk/tv/dtt32/programme/accountabilitytv</url>
   </programme>
   <programme start="20261128220000 +0800" stop="20261128220500 +0800" channel="tv32">
